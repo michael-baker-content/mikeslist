@@ -10,6 +10,7 @@ const args = new Map(process.argv.slice(2).map((arg) => {
 
 const limit = Number(args.get("limit") || 25);
 const onlyVenue = args.get("venue") || "";
+const confidenceFilter = args.get("confidence") || "";
 
 const ID_LINKS = {
   P856: { type: "official", label: "Official", url: (value) => value },
@@ -88,7 +89,7 @@ function addEvidence(venue, url, note) {
   venue.evidence.push({ url, note });
 }
 
-async function fetchJson(url) {
+async function fetchJson(url, attempt = 1) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 12000);
   try {
@@ -96,6 +97,10 @@ async function fetchJson(url) {
       headers: { "User-Agent": USER_AGENT },
       signal: controller.signal
     });
+    if (response.status === 429 && attempt < 4) {
+      await sleep(attempt * 2500);
+      return fetchJson(url, attempt + 1);
+    }
     if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
     return response.json();
   } finally {
@@ -113,6 +118,23 @@ async function searchEntity(name) {
   });
   const result = await fetchJson(`https://www.wikidata.org/w/api.php?${query}`);
   return (result.search || []).filter((item) => normalizeName(item.label || "") === normalizeName(name));
+}
+
+async function searchVenueCandidates(name) {
+  const names = new Set([name]);
+  if (!/^the\s+/i.test(name)) names.add(`The ${name}`);
+  names.add(name.replace(/^the\s+/i, ""));
+
+  const results = [];
+  for (const candidateName of names) {
+    results.push(...await searchEntity(candidateName));
+  }
+  const seen = new Set();
+  return results.filter((item) => {
+    if (seen.has(item.id)) return false;
+    seen.add(item.id);
+    return true;
+  });
 }
 
 async function getEntity(id) {
@@ -219,7 +241,7 @@ async function localityFromEntity(entity) {
 }
 
 function capacityFromEntity(entity) {
-  return firstClaim(entity, "P1083") || firstClaim(entity, "P2046") || "";
+  return firstClaim(entity, "P1083") || "";
 }
 
 function geoFromEntity(entity) {
@@ -230,9 +252,17 @@ function geoFromEntity(entity) {
   } : null;
 }
 
+function usefulWikidataSummary(summary = "") {
+  const clean = summary.replace(/\s+/g, " ").trim();
+  if (!clean || clean.length < 20) return false;
+  if (clean.length > 90) return true;
+  return !/^(architectural structure|building|venue|arena|sports venue|entertainment venue|music venue|theater|cinema)\b/i.test(clean);
+}
+
 const store = await readWindowData(VENUES_PATH, "SHOW_EXPLORER_VENUES", { venues: {} });
 const candidates = Object.values(store.venues || {})
   .filter((venue) => !onlyVenue || normalizeName(venue.name) === normalizeName(onlyVenue))
+  .filter((venue) => !confidenceFilter || venue.confidence === confidenceFilter)
   .filter((venue) => onlyVenue || !venue.links?.some((link) => link.type === "wikidata" && link.confidence !== "rejected"))
   .slice(0, limit);
 
@@ -240,7 +270,7 @@ let enriched = 0;
 
 for (const venue of candidates) {
   try {
-    const matches = await searchEntity(venue.name);
+    const matches = await searchVenueCandidates(venue.displayName || venue.name);
     for (const match of matches) {
       if (hasRejectedWikidataId(venue, match.id)) continue;
       const entity = await getEntity(match.id);
@@ -249,7 +279,15 @@ for (const venue of candidates) {
 
       const url = `https://www.wikidata.org/wiki/${match.id}`;
       venue.links = mergeLinks(venue.links, wikidataLinks(entity, match.id));
-      venue.summary ||= entity.descriptions?.en?.value || "";
+      const wikidataSummary = entity.descriptions?.en?.value || "";
+      if (!venue.summary && usefulWikidataSummary(wikidataSummary)) {
+        venue.summary = wikidataSummary;
+        venue.summarySource = {
+          label: "Wikidata",
+          url,
+          source: "wikidata"
+        };
+      }
       venue.city ||= await localityFromEntity(entity);
       venue.capacity ||= capacityFromEntity(entity);
       venue.geo ||= geoFromEntity(entity);
@@ -261,7 +299,7 @@ for (const venue of candidates) {
   } catch (error) {
     console.warn(`Skipped ${venue.name}: ${error.message}`);
   }
-  await sleep(500);
+  await sleep(900);
 }
 
 store.generatedAt = new Date().toISOString();

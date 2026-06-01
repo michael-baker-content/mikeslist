@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artist - Bay Area Show Explorer</title>
+    <script src="assets/theme.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Artist profile</p>
+        <h1 id="detailTitle" class="statement-type">Artist</h1>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="review.html">Artists</a>
+        <a class="source-link" href="venue-review.html">Venues</a>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="detail-layout" data-detail-kind="artist">
+      <section class="detail-nav" aria-label="Profile navigation">
+        <button id="backButton" class="source-link button-link detail-back" type="button">← Back</button>
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="review.html">Artist Queue</a>
+      </section>
+      <section id="detailPanel" class="detail-panel" aria-live="polite"></section>
+    </main>
+
+    <script src="data/sample-events.js"></script>
+    <script src="data/imported-events.js"></script>
+    <script src="data/artists.js"></script>
+    <script src="data/venues.js"></script>
+    <script src="assets/nav.js"></script>
+    <script src="assets/detail.js"></script>
+  </body>
+</html>

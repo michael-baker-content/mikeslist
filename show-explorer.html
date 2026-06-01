@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bay Area Show Explorer</title>
-    <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -13,25 +12,10 @@
         <p class="kicker">SF Bay Area music</p>
         <h1>Show Explorer</h1>
       </div>
-      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
-        <a class="source-link" href="review.html">Artists</a>
+      <nav class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="review.html">Review</a>
         <a class="source-link" href="venue-review.html">Venues</a>
         <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
-        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
-          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
-            <circle cx="16" cy="16" r="5"></circle>
-            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
-          </svg>
-          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
-            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
-            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
-          </svg>
-        </button>
       </nav>
     </header>
 
@@ -66,42 +50,15 @@
         </div>
       </section>
 
-      <section id="venueMap" class="venue-map" aria-label="Mapped venues">
-        <div class="section-heading">
-          <h3>Venue Map</h3>
-          <span id="venueMapCount"></span>
-        </div>
-        <svg id="venueMapSvg" viewBox="0 0 1000 620" role="img" aria-label="Map of venues with visible shows"></svg>
-      </section>
-
       <section id="eventList" class="event-list" aria-label="Concert listings"></section>
     </main>
 
-    <dialog id="venueModal" class="venue-modal">
-      <div class="modal-heading">
-        <div>
-          <p class="kicker">Mapped venue</p>
-          <h2 id="venueModalTitle" class="statement-type"></h2>
-        </div>
-        <button id="venueModalClose" class="icon-button" type="button" aria-label="Close venue details">×</button>
-      </div>
-      <p id="venueModalMeta" class="detail-summary"></p>
-      <div id="venueModalLinks" class="artist-links detail-links"></div>
-      <div class="modal-actions">
-        <a id="venueModalProfile" class="source-link" href="#">Venue Page</a>
-      </div>
-    </dialog>
-
     <template id="eventTemplate">
       <article class="event">
-        <div class="event-image-wrap">
-          <img class="event-image" alt="">
-        </div>
         <div class="event-meta">
           <time class="event-date"></time>
           <span class="event-venue"></span>
           <span class="event-detail"></span>
-          <div class="artist-links venue-links"></div>
         </div>
         <div class="artist-list"></div>
       </article>
@@ -125,7 +82,6 @@
     <script src="data/imported-events.js"></script>
     <script src="data/artists.js"></script>
     <script src="data/venues.js"></script>
-    <script src="assets/nav.js"></script>
     <script src="assets/app.js"></script>
   </body>
 </html>

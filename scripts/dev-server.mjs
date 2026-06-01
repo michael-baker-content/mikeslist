@@ -156,7 +156,9 @@ async function handleEnrichVenue(request, response) {
     return;
   }
 
-  await runScript("scripts/enrich-venues-wikidata.mjs", [`--venue=${payload.name}`]);
+  await runScript("scripts/enrich-venues-wikidata.mjs", [`--venue=${payload.name}`]).catch(() => null);
+  await runScript("scripts/enrich-venues-google-places.mjs", [`--venue=${payload.name}`]).catch(() => null);
+  await runScript("scripts/enrich-venue-page-metadata.mjs", [`--venue=${payload.name}`]).catch(() => null);
 
   const store = await readVenueStore();
   const venue = store.venues?.[payload.id];
@@ -166,6 +168,23 @@ async function handleEnrichVenue(request, response) {
   }
 
   send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, venue }), "application/json; charset=utf-8");
+}
+
+async function handleEnrichLikelyVenues(_request, response) {
+  const limit = "200";
+  const results = [];
+
+  results.push(await runScript("scripts/enrich-venues-wikidata.mjs", ["--confidence=likely", `--limit=${limit}`]).catch((error) => ({ stdout: "", stderr: error.message })));
+  results.push(await runScript("scripts/enrich-venues-google-places.mjs", ["--confidence=likely", `--limit=${limit}`]).catch((error) => ({ stdout: "", stderr: error.message })));
+  results.push(await runScript("scripts/enrich-venue-page-metadata.mjs", ["--confidence=likely", `--limit=${limit}`]).catch((error) => ({ stdout: "", stderr: error.message })));
+
+  const store = await readVenueStore();
+  send(response, 200, JSON.stringify({
+    ok: true,
+    generatedAt: store.generatedAt,
+    venues: store.venues,
+    messages: results.flatMap((result) => [result.stdout, result.stderr]).filter(Boolean).join("\n").trim()
+  }), "application/json; charset=utf-8");
 }
 
 async function handlePruneRejectedVenueArtists(_request, response) {
@@ -195,6 +214,11 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/enrich-venue") {
       await handleEnrichVenue(request, response);
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/enrich-likely-venues") {
+      await handleEnrichLikelyVenues(request, response);
       return;
     }
 

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Artist Review - Bay Area Show Explorer</title>
+    <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -12,10 +13,25 @@
         <p class="kicker">Artist enrichment</p>
         <h1>Review Queue</h1>
       </div>
-      <nav class="nav-actions" aria-label="Project pages">
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
         <a class="source-link" href="venue-review.html">Venues</a>
         <button id="exportButton" class="source-link button-link" type="button">Export</button>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
       </nav>
     </header>
 
@@ -126,6 +142,7 @@
     </main>
 
     <script src="data/artists.js"></script>
+    <script src="assets/nav.js"></script>
     <script src="assets/review.js"></script>
   </body>
 </html>

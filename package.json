@@ -1,0 +1,10 @@
+{
+  "name": "bay-area-show-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/dev-server.mjs",
+    "shows": "node scripts/dev-server.mjs",
+    "dev": "node scripts/dev-server.mjs"
+  }
+}

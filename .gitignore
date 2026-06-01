@@ -1,2 +1,5 @@
 *.log
 data/*.before-*.js
+.env
+.env.*
+!.env.example

@@ -14,6 +14,7 @@ const form = document.querySelector("#venueForm");
 const search = document.querySelector("#venueSearch");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
+const enrichLikelyButton = document.querySelector("#enrichLikelyButton");
 
 const fields = {
   selectedName: document.querySelector("#selectedName"),
@@ -22,14 +23,17 @@ const fields = {
   displayName: document.querySelector("#displayNameInput"),
   status: document.querySelector("#statusInput"),
   venueType: document.querySelector("#venueTypeInput"),
+  venueTypeOptions: document.querySelector("#venueTypeOptions"),
   agePolicy: document.querySelector("#agePolicyInput"),
   city: document.querySelector("#cityInput"),
   region: document.querySelector("#regionInput"),
+  regionOptions: document.querySelector("#regionOptions"),
   address: document.querySelector("#addressInput"),
   capacity: document.querySelector("#capacityInput"),
   geo: document.querySelector("#geoInput"),
   mergeTarget: document.querySelector("#mergeTargetInput"),
   summary: document.querySelector("#summaryInput"),
+  summarySource: document.querySelector("#summarySourceLink"),
   links: document.querySelector("#linksEditor"),
   rejectedLinks: document.querySelector("#rejectedLinksEditor"),
   rejectedSection: document.querySelector("#rejectedLinksSection"),
@@ -47,9 +51,11 @@ const linkTypes = [
   "twitter",
   "yelp",
   "ticketmaster",
+  "liveNation",
   "maps",
   "wikidata",
   "wikipedia",
+  "localwiki",
   "search",
   "other"
 ];
@@ -67,7 +73,28 @@ function newerStore(saved, base) {
 }
 
 function venues() {
-  return Object.values(venueStore.venues || {}).sort((a, b) => displayNameFor(a).localeCompare(displayNameFor(b)));
+  return Object.values(venueStore.venues || {}).sort((a, b) => sortNameFor(a).localeCompare(sortNameFor(b)));
+}
+
+function sortNameFor(venue) {
+  return displayNameFor(venue).replace(/^the\s+/i, "").trim();
+}
+
+function verifiedVenueTypes() {
+  return [...new Set(venues()
+    .filter((venue) => venue.confidence === "verified")
+    .map((venue) => venue.venueType)
+    .filter((type) => type && type !== "unknown"))]
+    .sort((a, b) => a.localeCompare(b));
+}
+
+function verifiedRegions() {
+  const defaults = ["SF", "East Bay", "South Bay", "Peninsula", "North Bay", "Santa Cruz/Monterey"];
+  const reviewed = venues()
+    .filter((venue) => venue.confidence === "verified")
+    .map((venue) => venue.region)
+    .filter(Boolean);
+  return [...new Set([...defaults, ...reviewed])].sort((a, b) => a.localeCompare(b));
 }
 
 function venueText(venue) {
@@ -93,6 +120,19 @@ function filteredVenues() {
     const matchesQuery = !query || venueText(venue).includes(query);
     const matchesFilter = state.filter === "all" || venue.confidence === state.filter;
     return matchesQuery && matchesFilter;
+  });
+}
+
+function preferredFilter() {
+  for (const filter of ["review", "likely", "verified"]) {
+    if (venues().some((venue) => venue.confidence === filter)) return filter;
+  }
+  return "all";
+}
+
+function syncFilterButtons() {
+  filterButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
   });
 }
 
@@ -151,10 +191,25 @@ function renderForm() {
   fields.capacity.value = venue.capacity || "";
   fields.geo.value = venue.geo ? `${venue.geo.latitude}, ${venue.geo.longitude}` : "";
   fields.summary.value = venue.summary || "";
+  renderSummarySource(venue);
   fields.note.value = venue.reviewNotes || "";
   renderMergeTargets(venue);
   renderLinks(venue);
   renderAppearances(venue);
+}
+
+function renderSummarySource(venue) {
+  const source = venue.summarySource;
+  if (!source?.url) {
+    fields.summarySource.hidden = true;
+    fields.summarySource.removeAttribute("href");
+    fields.summarySource.textContent = "";
+    return;
+  }
+
+  fields.summarySource.hidden = false;
+  fields.summarySource.href = source.url;
+  fields.summarySource.textContent = source.label ? `source: ${source.label}` : "source";
 }
 
 function confidenceLabel(value) {
@@ -189,7 +244,13 @@ function rejectedLinks(venue) {
 }
 
 function linkSort(a, b) {
-  return labelForType(a.type).localeCompare(labelForType(b.type)) || (a.url || "").localeCompare(b.url || "");
+  return linkDisplayRank(a) - linkDisplayRank(b) || labelForType(a.type).localeCompare(labelForType(b.type)) || (a.url || "").localeCompare(b.url || "");
+}
+
+function linkDisplayRank(link) {
+  if (link.display === false) return 2;
+  if (link.displayPriority === "primary") return 0;
+  return 1;
 }
 
 function renderLinks(venue) {
@@ -221,6 +282,18 @@ function linkRow(venue, link, rejected = false) {
   confidenceOptions.forEach((value) => confidence.add(new Option(value, value)));
   confidence.value = link.confidence || "candidate";
 
+  const displayLabel = document.createElement("label");
+  displayLabel.className = "link-display-control";
+  const display = document.createElement("input");
+  display.type = "checkbox";
+  display.checked = link.display !== false;
+  displayLabel.append(display, document.createTextNode("Show"));
+
+  const priority = document.createElement("select");
+  priority.add(new Option("Primary", "primary"));
+  priority.add(new Option("Secondary", "secondary"));
+  priority.value = link.displayPriority === "primary" ? "primary" : "secondary";
+
   const remove = document.createElement("button");
   remove.className = "icon-button";
   remove.type = "button";
@@ -247,13 +320,23 @@ function linkRow(venue, link, rejected = false) {
     persistDraft();
     renderLinks(venue);
   });
+  display.addEventListener("change", () => {
+    link.display = display.checked;
+    persistDraft();
+    renderLinks(venue);
+  });
+  priority.addEventListener("change", () => {
+    link.displayPriority = priority.value;
+    persistDraft();
+    renderLinks(venue);
+  });
   remove.addEventListener("click", () => {
     venue.links = (venue.links || []).filter((item) => item !== link);
     persistDraft();
     renderLinks(venue);
   });
 
-  row.append(type, label, url, confidence, remove);
+  row.append(type, label, url, confidence, displayLabel, priority, remove);
   return row;
 }
 
@@ -289,7 +372,15 @@ function updateSelectedVenueFromForm() {
   venue.address = fields.address.value.trim();
   venue.capacity = fields.capacity.value.trim();
   venue.geo = parseGeo(fields.geo.value);
+  const previousSummary = venue.summary || "";
   venue.summary = fields.summary.value.trim();
+  if (venue.summary !== previousSummary) {
+    venue.summarySource = venue.summary ? {
+      label: "Manual",
+      url: "",
+      source: "manual"
+    } : null;
+  }
   venue.reviewNotes = fields.note.value.trim();
   venue.updatedAt = new Date().toISOString();
   return venue;
@@ -352,7 +443,7 @@ function mergeVenueLinks(existingLinks, incomingLinks) {
   const links = new Map();
   for (const link of [...existingLinks, ...incomingLinks]) {
     if (!link?.url) continue;
-    const key = normalizedUrl(link.url);
+    const key = linkKey(link);
     const previous = links.get(key);
     if (previous?.confidence === "rejected") continue;
     if (!previous || confidenceRank(link.confidence) > confidenceRank(previous.confidence)) {
@@ -360,6 +451,11 @@ function mergeVenueLinks(existingLinks, incomingLinks) {
     }
   }
   return [...links.values()];
+}
+
+function linkKey(link) {
+  if (link.type === "maps") return "maps";
+  return normalizedUrl(link.url || "");
 }
 
 function normalizedUrl(url) {
@@ -431,6 +527,36 @@ async function enrichVenue() {
   }
 }
 
+async function enrichLikelyVenues() {
+  updateSelectedVenueFromForm();
+  const count = venues().filter((venue) => venue.confidence === "likely").length;
+  if (!count) {
+    fields.saveStatus.textContent = "No likely venues to enrich";
+    return;
+  }
+
+  fields.saveStatus.textContent = `Enriching ${count} likely venues...`;
+  enrichLikelyButton.disabled = true;
+  enrichButton.disabled = true;
+  await saveStore();
+
+  try {
+    const response = await fetch("/api/enrich-likely-venues", { method: "POST" });
+    if (!response.ok) throw new Error(`Batch enrichment failed: ${response.status}`);
+    const result = await response.json();
+    venueStore.venues = result.venues || venueStore.venues;
+    venueStore.generatedAt = result.generatedAt || new Date().toISOString();
+    localStorage.setItem(STORE_KEY, JSON.stringify(venueStore));
+    fields.saveStatus.textContent = "Likely venue enrichment complete";
+    render();
+  } catch {
+    fields.saveStatus.textContent = "Likely enrichment needs the local dev server";
+  } finally {
+    enrichLikelyButton.disabled = false;
+    enrichButton.disabled = false;
+  }
+}
+
 async function pruneRejectedVenueArtists() {
   fields.saveStatus.textContent = "Pruning...";
   await saveStore();
@@ -458,6 +584,7 @@ function labelForType(type = "") {
   const labels = {
     facebook: "Facebook",
     instagram: "Instagram",
+    liveNation: "Live Nation",
     maps: "Maps",
     official: "Official",
     search: "Search",
@@ -466,6 +593,7 @@ function labelForType(type = "") {
     twitter: "X/Twitter",
     wikidata: "Wikidata",
     wikipedia: "Wikipedia",
+    localwiki: "LocalWiki",
     yelp: "Yelp",
     other: "Other"
   };
@@ -473,8 +601,24 @@ function labelForType(type = "") {
 }
 
 function render() {
+  renderVenueTypeOptions();
+  renderRegionOptions();
   updateTotals();
   renderQueue();
+}
+
+function renderVenueTypeOptions() {
+  fields.venueTypeOptions.replaceChildren();
+  verifiedVenueTypes().forEach((type) => {
+    fields.venueTypeOptions.append(new Option(type, type));
+  });
+}
+
+function renderRegionOptions() {
+  fields.regionOptions.replaceChildren();
+  verifiedRegions().forEach((region) => {
+    fields.regionOptions.append(new Option(region, region));
+  });
 }
 
 form.addEventListener("submit", async (event) => {
@@ -513,6 +657,7 @@ document.querySelector("#exportButton").addEventListener("click", exportStore);
 document.querySelector("#mergeVenueButton").addEventListener("click", mergeSelectedVenue);
 document.querySelector("#pruneArtistsButton").addEventListener("click", pruneRejectedVenueArtists);
 enrichButton.addEventListener("click", enrichVenue);
+enrichLikelyButton.addEventListener("click", enrichLikelyVenues);
 
 search.addEventListener("input", (event) => {
   state.query = event.target.value;
@@ -521,12 +666,13 @@ search.addEventListener("input", (event) => {
 
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    filterButtons.forEach((item) => item.classList.remove("active"));
-    button.classList.add("active");
     state.filter = button.dataset.reviewFilter;
+    syncFilterButtons();
     state.selectedId = "";
     render();
   });
 });
 
+state.filter = preferredFilter();
+syncFilterButtons();
 render();

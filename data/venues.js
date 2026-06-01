@@ -1,12 +1,12 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-05-28T06:15:59.324Z",
+  "generatedAt": "2026-05-30T09:19:33.713Z",
   "venues": {
     "20-spot": {
       "id": "20-spot",
       "name": "20 Spot",
       "displayName": "20 Spot",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "seasonal",
       "venueType": "wine bar",
@@ -25,7 +25,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#20_spot",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -40,6 +42,31 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.yelp.com/biz/20-spot-san-francisco",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.20spot.com/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/20spotsf/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/20spot/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [],
@@ -55,7 +82,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T18:10:11.605Z"
     },
     "22nd-and-bartlett": {
       "id": "22nd-and-bartlett",
@@ -81,7 +109,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#22nd_&_bartlett",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -117,19 +147,22 @@ window.SHOW_EXPLORER_VENUES = {
     "4-star-theater": {
       "id": "4-star-theater",
       "name": "4 Star Theater",
-      "displayName": "4 Star Theater",
+      "displayName": "4 Star Theatre",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "venueType": "theater",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "2200 Clement St, San Francisco, CA 94121",
+      "geo": {
+        "latitude": 37.7822418,
+        "longitude": -122.48293070000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "movie theater in San Francisco, California, United States",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -169,14 +202,75 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual"
         },
         {
-          "type": "other",
+          "type": "yelp",
           "label": "Yelp",
           "url": "https://www.yelp.com/biz/4-star-theater-san-francisco",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5370193036640826278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q44633454",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.hkinsf.com",
+          "confidence": "rejected",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://four-star-theater.squarespace.com",
+          "confidence": "verified",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.4-star-movies.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/4StarTheatre",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/4StarTheatre",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.facebook.com/4StarTheatre",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5370193036640826278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5370193036640826278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q44633454",
+          "note": "Wikidata exact-name venue match Q44633454 passed Bay Area location checks."
+        },
+        {
+          "url": "https://www.4-star-movies.com/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.588Z",
@@ -189,24 +283,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T19:32:07.328Z",
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q44633454",
+        "source": "wikidata"
       }
     },
     "518-valencia-gallery": {
       "id": "518-valencia-gallery",
       "name": "518 Valencia Gallery",
-      "displayName": "518 Valencia Gallery",
+      "displayName": "518 Valencia",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "seasonal",
+      "status": "occasional",
       "venueType": "art gallery",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "518 Valencia St, San Francisco, CA 94110",
+      "geo": {
+        "latitude": 37.764474,
+        "longitude": -122.4220338
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "518 Valencia: The Eric Quezada Center for Culture and Politics, San Francisco. 1,728 likes &#xb7; 2,713 were here. 518 Valencia is a financially viable & accessible political and cultural space, as well...",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -230,9 +333,47 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "http://518valencia.org/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/518valencia/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.thevalenciaroom.com/",
+          "confidence": "rejected",
+          "source": "google-places"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2369658324690788900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.facebook.com/518valencia/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2369658324690788900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2369658324690788900&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "http://518valencia.org/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
         "lastImportedAt": "2026-05-28T02:07:23.586Z",
@@ -245,24 +386,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T19:32:30.317Z",
+      "summarySource": {
+        "label": "Facebook",
+        "url": "https://www.facebook.com/518valencia/",
+        "source": "facebook"
       }
     },
     "alameda-county-fair": {
       "id": "alameda-county-fair",
       "name": "Alameda County Fair",
-      "displayName": "Alameda County Fair",
+      "displayName": "Alameda County Fairgrounds",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "active",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "seasonal",
+      "venueType": "fairgrounds",
+      "city": "Pleasanton",
+      "region": "East Bay",
+      "address": "2005 Valley Ave Gate 8, Pleasanton, CA 94566",
+      "geo": {
+        "latitude": 37.660049699999995,
+        "longitude": -121.89685480000001
+      },
+      "agePolicy": "all-ages",
+      "capacity": "3,000-seat amphitheater",
+      "summary": "The Alameda County Fairgrounds is a 270-acre (110 ha) facility located in Pleasanton, California. It is home to the annual Alameda County Fair, held since 1912, as well as numerous trade shows and community events. Located on its grounds, the Pleasanton Fairgrounds Racetrack was built in 1858, making it the oldest one-mile (1.6 km) horse racing track in the United States. There is a 3,000 seat amphitheater, as well as a 9-hole golf course located within the track's infield.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -286,9 +436,73 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://alamedacountyfair.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/alamedacountyfair/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/alamedacountyfair",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alameda_County_Fairgrounds",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/alameda-county-fairgrounds-pleasanton",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2583300546913298857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=2583300546913298857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2583300546913298857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2583300546913298857&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Alameda_County_Fairgrounds",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://alamedacountyfair.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Alameda_County_Fairgrounds",
+          "note": "Capacity inferred from verified venue page text."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Alameda_County_Fairgrounds",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.152Z",
         "lastImportedAt": "2026-05-28T02:07:23.586Z",
@@ -308,6 +522,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T19:36:49.328Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Alameda_County_Fairgrounds",
+        "source": "wikipedia"
       }
     },
     "anthony-and-marissa": {
@@ -334,7 +554,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#anthony_&_marissa",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -365,7 +587,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Arcana",
       "displayName": "Arcana",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "rejected",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -384,7 +606,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#arcana",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -414,24 +638,28 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-05-28T19:37:41.079Z"
     },
     "arena": {
       "id": "arena",
       "name": "Arena",
-      "displayName": "Arena",
+      "displayName": "Oakland Arena",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "arena",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "7000 S Coliseum Wy, Oakland, CA 94621",
+      "geo": {
+        "latitude": 37.750277777778,
+        "longitude": -122.20305555556
+      },
+      "agePolicy": "all-ages",
+      "capacity": "19596",
+      "summary": "Oakland Arena, often referred to as the Oakland Coliseum Arena, is an indoor arena in Oakland, California, and part of the Oakland–Alameda County Coliseum Authority. Opened in 1966, the arena was originally home to the California Seals of the Western Hockey League (WHL), later of the National Hockey League (NHL), until their move to Cleveland in 1976. The arena most famously served as home to the Golden State Warriors of the National Basketball Association (NBA) from 1971 to 2019, excluding a period of extensive renovation during the 1996–97 NBA season.",
       "accessibilityNotes": "",
       "reviewNotes": "\"Oakland Arena\" or \"Oakland Coliseum Arena\"",
       "links": [
@@ -440,24 +668,133 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#arena",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Arena%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": true
         },
         {
           "type": "official",
           "label": "Official",
           "url": "https://www.theoaklandarena.com/",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oakland_Arena",
+          "confidence": "verified",
+          "source": "manual",
+          "displayPriority": "primary"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/oakland-arena-tickets-oakland/venue/229399",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/oakland-arena-oakland-3",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1139021",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.coliseum.com",
+          "confidence": "rejected",
+          "source": "wikidata"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=7248319973885480420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/oaklandarena/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theoaklandarena.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/oaklandarena/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theoaklandarena.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/OaklandArena",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theoaklandarena.com/",
+          "display": false
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q1139021",
+          "note": "Wikidata exact-name venue match Q1139021 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7248319973885480420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7248319973885480420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7248319973885480420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://www.theoaklandarena.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Oakland_Arena",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.590Z",
@@ -512,6 +849,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-30T09:00:27.269Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Oakland_Arena",
+        "source": "wikipedia"
       }
     },
     "athen": {
@@ -538,7 +881,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#athen",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -569,17 +914,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "August Hall",
       "displayName": "August Hall",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "California",
+      "region": "SF",
+      "address": "420 Mason St, San Francisco, CA 94102",
+      "geo": {
+        "latitude": 37.7875,
+        "longitude": -122.41
+      },
+      "agePolicy": "21+",
+      "capacity": "900",
+      "summary": "August Hall is a music venue located at 420 Mason Street in the Tenderloin neighborhood of San Francisco, California. It opened in 2017. From 1990 to 2017, the space was Ruby Skye, a popular nightclub.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -588,7 +936,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#august_hall",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -603,9 +953,127 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.augusthallsf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/AugustHallSF/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/augusthallsf",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/august-hall-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/August_Hall",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/august-hall-tickets-san-francisco/venue/230021",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/AugustHall_SF",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "url": "https://www.ticketweb.com/venue/august-hall-san-francisco-ca/450805",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q6133636",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q6133636",
+          "note": "Wikidata exact-name venue match Q6133636 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13958431960112658731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://www.augusthallsf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.augusthallsf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.facebook.com/AugustHallSF/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/August_Hall",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/August_Hall",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -653,6 +1121,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T20:23:04.033Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/August_Hall",
+        "source": "wikipedia"
       }
     },
     "bimbo": {
@@ -660,17 +1134,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Bimbo's 365 Club",
       "displayName": "Bimbo's 365 Club",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1025 Columbus Ave, San Francisco, CA 94133",
+      "geo": {
+        "latitude": 37.8038622,
+        "longitude": -122.4157199
+      },
+      "agePolicy": "all-ages",
+      "capacity": "475",
+      "summary": "Bimbo's 365 Club, also known as Bimbo's 365, is an entertainment club located at 1025 Columbus Avenue in San Francisco. It specializes in live rock and jazz shows. The location is one of San Francisco's oldest nightclub sites, and has operated under two names with a series of owners. The building started as Bal Tabarin in 1931, the same year that the 365 Club started at 365 Market Street. The two locations under separate ownership consolidated in 1951 to one location owned by Agostino \"Bimbo\" Giuntoli.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -679,7 +1156,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#bimbo",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -694,9 +1173,125 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://bimbos365club.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bimbo%27s_365_Club",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/bimbos-365-club-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bimbos365club",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Bimbos365Club/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "url": "https://www.ticketweb.com/venue/bimbo-s-365-club-san-francisco-ca/10052",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/bimbos-365-club-tickets-san-francisco/venue/229790",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/Bimbos365Club",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://bimbos365club.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11531891550961722397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://bimbos365club.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://bimbos365club.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://bimbos365club.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bimbo%27s_365_Club",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bimbo%27s_365_Club",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -730,24 +1325,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T20:28:09.593Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bimbo%27s_365_Club",
+        "source": "wikipedia"
       }
     },
     "black-cat": {
       "id": "black-cat",
       "name": "Black Cat",
-      "displayName": "Black Cat",
+      "displayName": "Black Cat Jazz Supper Club",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "400 Eddy St, San Francisco, CA 94109",
+      "geo": {
+        "latitude": 37.7838333,
+        "longitude": -122.4144611
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "World class live jazz venue w/ craft cocktails.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -756,7 +1360,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#black_cat",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -771,9 +1377,87 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://blackcatsf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/sfblackcat/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://blackcatsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/sfblackcat",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://blackcatsf.com/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/blackcatsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://blackcatsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=16635096963356579192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://blackcatsf.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16635096963356579192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16635096963356579192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16635096963356579192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16635096963356579192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -814,24 +1498,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T21:00:31.650Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "blue-lagoon": {
       "id": "blue-lagoon",
       "name": "Blue Lagoon",
-      "displayName": "Blue Lagoon",
+      "displayName": "The Blue Lagoon",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "923 Pacific Ave, Santa Cruz, CA 95060",
+      "geo": {
+        "latitude": 36.970608299999995,
+        "longitude": -122.0253611
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Bar in Santa Cruz Bay Area, CA",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -855,9 +1548,86 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.facebook.com/thebluelagoonnightclub",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=15317958918314651664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.thebluelagoon.com/",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/bluelagoonsc/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "http://www.thebluelagoon.com/"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/blue-lagoon-cocktail-lounge-santa-cruz",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "localwiki",
+          "label": "LocalWiki",
+          "url": "https://localwiki.org/santacruz/Blue_Lagoon",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.facebook.com/thebluelagoonnightclub",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/thebluelagoonnightclub",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.facebook.com/thebluelagoonnightclub",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/thebluelagoonnightclub",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15317958918314651664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15317958918314651664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15317958918314651664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15317958918314651664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "http://www.thebluelagoon.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.thebluelagoon.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.588Z",
@@ -870,6 +1640,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T22:03:01.212Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "bottom-of-the-hill": {
@@ -877,17 +1653,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Bottom of the Hill",
       "displayName": "Bottom of the Hill",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "venueType": "bar",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1233 17th St, San Francisco, CA 94107",
+      "geo": {
+        "latitude": 37.7649778,
+        "longitude": -122.39643889999999
+      },
+      "agePolicy": "mixed",
       "capacity": "",
-      "summary": "",
+      "summary": "concert venue in the Potrero Hill district of San Francisco",
       "accessibilityNotes": "",
       "reviewNotes": "Closing at end of 2026",
       "links": [
@@ -896,7 +1675,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -911,9 +1692,102 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.bottomofthehill.com",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bottom_of_the_Hill",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/bottom-of-the-hill-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bottomofthehillsf/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/bottomofthehill/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4949139",
+          "confidence": "likely",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.bottomofthehill.com",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162671024092880955&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q4949139",
+          "note": "Wikidata exact-name venue match Q4949139 passed Bay Area location checks."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Bottom_of_the_Hill",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/bottomofthehill/",
+          "note": "Display name derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -968,24 +1842,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T21:04:58.002Z",
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4949139",
+        "source": "wikidata"
       }
     },
     "brick-and-mortar": {
       "id": "brick-and-mortar",
       "name": "Brick and Mortar",
-      "displayName": "Brick and Mortar",
+      "displayName": "Brick and Mortar Music Hall",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "gallery",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1710 Mission Street",
+      "geo": {
+        "latitude": 37.769711,
+        "longitude": -122.420421
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Brick & Mortar Music Hall, which opened its doors in March 2011, stands as one of the few remaining independently owned music venues in San Francisco. Nestled in the heart of the vibrant Mission District, the venue has become a staple of the city&#039;s...",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -994,7 +1877,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#brick_and_mortar",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1009,9 +1894,103 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.brickandmortarmusic.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/BrickandMortarMusic/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.brickandmortarmusic.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/brickmortarsf",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.brickandmortarmusic.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/brickmortarsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.brickandmortarmusic.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sharer.php/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.brickandmortarmusic.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/intent",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.brickandmortarmusic.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=1877115621147898491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.brickandmortarmusic.com/",
+          "note": "Added 5 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1877115621147898491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1877115621147898491&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -1038,7 +2017,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.brickandmortarmusic.com/",
+        "source": "official"
+      },
+      "updatedAt": "2026-05-28T21:06:28.554Z"
     },
     "buddy": {
       "id": "buddy",
@@ -1064,7 +2049,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#buddy",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1095,17 +2082,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Cafe Du Nord",
       "displayName": "Cafe Du Nord",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "2174 Market St, San Francisco, CA 94114",
+      "geo": {
+        "latitude": 37.7667469,
+        "longitude": -122.4303843
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Cafe Du Nord is a 320-person capacity music venue in the basement level of the historic Swedish American Hall in the Upper Market neighborhood of San Francisco, California, U.S.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1114,7 +2104,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#cafe_du_nord",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1129,9 +2121,119 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://cafedunord.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/cafedunordsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cafedunord.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/cafedunord/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cafedunord.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/theindependentsf/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cafedunord.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2199855440723490451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5017096",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cafe_Du_Nord",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://cafedunord.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://cafedunord.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://cafedunord.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://cafedunord.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://cafedunord.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://cafedunord.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2199855440723490451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2199855440723490451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2199855440723490451&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5017096",
+          "note": "Wikidata exact-name venue match Q5017096 passed Bay Area location checks."
+        },
+        {
+          "url": "https://facebook.com/cafedunordsf/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5017096",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cafe_Du_Nord",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cafe_Du_Nord",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -1151,24 +2253,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T21:09:52.467Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cafe_Du_Nord",
+        "source": "wikipedia"
       }
     },
     "caravan-lounge": {
       "id": "caravan-lounge",
       "name": "Caravan Lounge",
-      "displayName": "Caravan Lounge",
+      "displayName": "The Caravan Lounge",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "98 S Almaden Ave, San Jose, CA 95113",
+      "geo": {
+        "latitude": 37.3329778,
+        "longitude": -121.8923531
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Owner-operated bar located in the heart of downtown San Jose.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1177,7 +2288,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#caravan_lounge",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1192,9 +2305,89 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "http://s172518151.onlinehome.us/caravan/site/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/caravanloungesj/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/caravan-lounge-san-jose",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/CaravanLoungeSanJose/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17186717630398798217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.caravanloungesanjose.com/",
+          "confidence": "rejected",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17186717630398798217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17186717630398798217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17186717630398798217&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "http://s172518151.onlinehome.us/caravan/site/",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -1207,6 +2400,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T22:06:43.908Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "castro": {
@@ -1233,7 +2432,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#castro",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1290,21 +2491,24 @@ window.SHOW_EXPLORER_VENUES = {
     "castro-theater": {
       "id": "castro-theater",
       "name": "Castro Theater",
-      "displayName": "Castro Theater",
+      "displayName": "The Castro Theatre",
       "aliases": [
         "Castro"
       ],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "venueType": "theater",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "429 Castro St, San Francisco, CA 94114",
+      "geo": {
+        "latitude": 37.7620333,
+        "longitude": -122.43475910000001
+      },
+      "agePolicy": "all-ages",
+      "capacity": "1,400",
+      "summary": "movie theater in San Francisco, California, United States",
       "accessibilityNotes": "",
       "reviewNotes": "Consolidate entry with \"Castro\"",
       "links": [
@@ -1328,9 +2532,123 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thecastro.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thecastro_sf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thecastro.com/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/CastroTheatre/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thecastro.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=1511753908873696293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Castro_Theatre",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/the-castro-san-francisco-8",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "other",
+          "label": "TicketWeb",
+          "url": "https://www.ticketweb.com/venue/the-castro-theatre-san-francisco-ca/10297",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-castro-theatre-tickets-san-francisco/venue/229558",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2941518",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.castrotheatre.com/",
+          "confidence": "rejected",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thecastro.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://thecastro.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1511753908873696293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1511753908873696293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q2941518",
+          "note": "Wikidata exact-name venue match Q2941518 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1511753908873696293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Castro_Theatre",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -1385,26 +2703,35 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q2941518",
+        "source": "wikidata"
+      },
+      "updatedAt": "2026-05-28T22:10:52.980Z"
     },
     "catalyst": {
       "id": "catalyst",
       "name": "Catalyst",
-      "displayName": "Catalyst",
+      "displayName": "The Catalyst (nightclub)",
       "aliases": [
         "Catalyst Atrium"
       ],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "1011 Pacific Ave., Santa Cruz, CA 95060",
+      "geo": {
+        "latitude": 36.9713188,
+        "longitude": -122.02588109999999
+      },
+      "agePolicy": "16+",
       "capacity": "",
-      "summary": "",
+      "summary": "The Catalyst is a nightclub located at 1011 Pacific Avenue in Santa Cruz, California. The club has hosted big-name artists such as Neil Young, Pearl Jam, Tom Petty and the Heartbreakers, Emmylou Harris, Phish, Iggy Pop, and Nirvana. The Catalyst was also where local bands could achieve popularity. Some of the local band in the 1970s were Snail, Oganookie, and Jango.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1413,7 +2740,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#catalyst",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1428,9 +2757,123 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://catalystclub.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/catalystclub/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://catalystclub.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/catalystclub",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://catalystclub.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/catalystclub/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://catalystclub.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13358343932760260022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q55635097",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Catalyst_(nightclub)",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://catalystclub.com/",
+          "note": "Added 16 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13358343932760260022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13358343932760260022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q55635097",
+          "note": "Wikidata exact-name venue match Q55635097 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13358343932760260022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://facebook.com/catalystclub/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Catalyst_(nightclub)",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Catalyst_(nightclub)",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -1471,7 +2914,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/The_Catalyst_(nightclub)",
+        "source": "wikipedia"
+      },
+      "updatedAt": "2026-05-28T22:22:30.661Z"
     },
     "catalyst-atrium": {
       "id": "catalyst-atrium",
@@ -1497,7 +2946,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#catalyst_atrium",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1533,19 +2984,22 @@ window.SHOW_EXPLORER_VENUES = {
     "chapel": {
       "id": "chapel",
       "name": "Chapel",
-      "displayName": "Chapel",
+      "displayName": "The Chapel SF",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "777 Valencia Street",
+      "geo": {
+        "latitude": 37.7604864,
+        "longitude": -122.42129790000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Chapel is a live music venue in the heart of San Francisco's Mission District.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1554,7 +3008,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#chapel",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1569,9 +3025,136 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thechapelsf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/TheChapelSF/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/TheChapelSF",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thechapelsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/CurioBarSF/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/curiobarsf",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/curiobarsf/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thechapelsf.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=1771103899082116617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/the-chapel-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "other",
+          "label": "Mission Local",
+          "url": "https://missionlocal.org/venue/the-chapel/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-chapel-tickets-san-francisco/venue/342376",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://thechapelsf.com/",
+          "note": "Added 9 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1771103899082116617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1771103899082116617&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -1675,24 +3258,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://thechapelsf.com/",
+        "source": "official"
+      },
+      "updatedAt": "2026-05-28T22:27:28.133Z"
     },
     "civic-auditorium": {
       "id": "civic-auditorium",
       "name": "Civic Auditorium",
-      "displayName": "Civic Auditorium",
+      "displayName": "Bill Graham Civic Auditorium",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "arena",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "99 Grove St, San Francisco, CA 94102",
+      "geo": {
+        "latitude": 37.7781454,
+        "longitude": -122.41734470000002
+      },
+      "agePolicy": "mixed",
+      "capacity": "7000",
+      "summary": "multi-purpose arena in San Francisco, California, USA",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1701,7 +3293,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#civic_auditorium",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1716,9 +3310,115 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://billgrahamcivic.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/billgrahamcivic/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://billgrahamcivic.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=15373300270478581241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4909197",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.apeconcerts.com/venue_bgc.cfm",
+          "confidence": "rejected",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/BillGrahamCivic",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bill_Graham_Civic_Auditorium",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/apeconcerts/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://billgrahamcivic.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15373300270478581241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15373300270478581241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15373300270478581241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q4909197",
+          "note": "Wikidata exact-name venue match Q4909197 passed Bay Area location checks."
+        },
+        {
+          "url": "https://billgrahamcivic.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -1745,7 +3445,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q4909197",
+        "source": "wikidata"
+      },
+      "updatedAt": "2026-05-28T20:39:09.690Z"
     },
     "civic-center": {
       "id": "civic-center",
@@ -1850,19 +3556,22 @@ window.SHOW_EXPLORER_VENUES = {
     "community-music-center": {
       "id": "community-music-center",
       "name": "Community Music Center",
-      "displayName": "Community Music Center",
+      "displayName": "San Francisco Community Music Center",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "occasional",
+      "venueType": "school",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "544 Capp St, San Francisco, CA 94110",
+      "geo": {
+        "latitude": 37.757930699999996,
+        "longitude": -122.41815179999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The San Francisco Community Music Center is a nonprofit music school located in San Francisco, California, US. The CMC is the oldest community arts organization in the San Francisco Bay Area. The school's stated mission is to make \"high quality music accessible to people of all ages, backgrounds and abilities, regardless of financial means.\"",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1871,7 +3580,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#community_music_center",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1885,10 +3596,117 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Facebook",
           "url": "https://www.facebook.com/CommunityMusicCenterSF/",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8316318829677232557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.sfcmc.org/",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/communitymusic",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "http://www.sfcmc.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/communitymusiccenter/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "http://www.sfcmc.org/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/community-music-center-san-francisco-2",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_Community_Music_Center",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.facebook.com/CommunityMusicCenterSF/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/CommunityMusicCenterSF/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.facebook.com/CommunityMusicCenterSF/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/CommunityMusicCenterSF/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8316318829677232557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8316318829677232557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8316318829677232557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8316318829677232557&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "http://www.sfcmc.org/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.sfcmc.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.sfcmc.org/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "http://www.sfcmc.org/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_Community_Music_Center",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -1901,24 +3719,33 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-05-28T21:19:23.955Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/San_Francisco_Community_Music_Center",
+        "source": "wikipedia"
       }
     },
     "cornerstone": {
       "id": "cornerstone",
       "name": "Cornerstone",
-      "displayName": "Cornerstone",
+      "displayName": "Welcome to Cornerstone",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "2367 Shattuck Ave., Berkeley, CA 94704",
+      "geo": {
+        "latitude": 37.866320099999996,
+        "longitude": -122.26732290000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Looking for a great place to eat, drink, and be entertained in Berkeley? Look no further than Cornerstone! We&#x27;re an expansive beer hall and an American kitchen with live music, ping pong, and outdoor seating. Whether you&#x27;re looking for a casual...",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -1927,7 +3754,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#cornerstone",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -1942,9 +3771,87 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://cornerstoneberkeley.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/cornerstoneberkeley/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cornerstoneberkeley.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/cornerstoneberkeley/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cornerstoneberkeley.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/CornerstoneBerk",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://cornerstoneberkeley.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=392718500940501709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://cornerstoneberkeley.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=392718500940501709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=392718500940501709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=392718500940501709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -2000,24 +3907,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:47:11.799Z"
+      "updatedAt": "2026-05-28T04:47:11.799Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://cornerstoneberkeley.com/",
+        "source": "official"
+      }
     },
     "crepe-place": {
       "id": "crepe-place",
       "name": "Crepe Place",
-      "displayName": "Crepe Place",
+      "displayName": "The Crepe Place",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "restaurant",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "1134 Soquel Avenue",
+      "geo": {
+        "latitude": 36.979480099999996,
+        "longitude": -122.0108909
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Restaurant comprised of two main rooms — the front room as a bar and music area, the back room as primarily a dining area — and a surprisingly large back patio.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2041,9 +3956,156 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thecrepeplace.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/thecrepeplace/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thecrepeplace.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/SCcrepeplace/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thecrepeplace.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=15101987202099622108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://www.livenation.com/venue/KovZpZAFJkEA/the-crepe-place-events",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "TicketWeb",
+          "url": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-crepe-place-tickets-santa-cruz/venue/338733",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/the-crepe-place-santa-cruz-4?start=440",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "localwiki",
+          "label": "LocalWiki",
+          "url": "https://localwiki.org/santacruz/The_Cr%C3%AApe_Place",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/48250116550/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/ticketweb/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/ticketweb",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/ticketweb/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thecrepeplace.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15101987202099622108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15101987202099622108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15101987202099622108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://localwiki.org/santacruz/The_Cr%C3%AApe_Place",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.ticketweb.com/venue/the-crepe-place-santa-cruz-ca/22549",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -2057,7 +4119,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:50:12.091Z"
+      "updatedAt": "2026-05-28T22:33:47.966Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      }
     },
     "danny-murry": {
       "id": "danny-murry",
@@ -2083,7 +4150,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#danny_murry",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2140,7 +4209,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#david",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2171,17 +4242,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "DNA Lounge",
       "displayName": "DNA Lounge",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "375 Eleventh Street",
+      "geo": {
+        "latitude": 37.7711099,
+        "longitude": -122.4127726
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "DNA Lounge is a late-night, all ages San Francisco nightclub featuring live music, DJ dancing, burlesque shows, and private parties. Two stages, four dance floors, six bars and a full-service late-night restaurant!",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2190,7 +4264,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#dna_lounge",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2205,9 +4281,122 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.dnalounge.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/dnalounge/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.dnalounge.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/dnalounge/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.dnalounge.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5950654901843674962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5205728",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/dnalounge",
+          "confidence": "rejected",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/DNA_Lounge",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.dnalounge.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5950654901843674962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5950654901843674962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5950654901843674962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5205728",
+          "note": "Wikidata exact-name venue match Q5205728 passed Bay Area location checks."
+        },
+        {
+          "url": "https://facebook.com/dnalounge/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5205728",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/DNA_Lounge",
+          "note": "Display name derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -2228,24 +4417,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:54:34.455Z"
+      "updatedAt": "2026-05-28T21:22:39.843Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.dnalounge.com/",
+        "source": "official"
+      }
     },
     "down-home-music": {
       "id": "down-home-music",
       "name": "Down Home Music",
-      "displayName": "Down Home Music",
+      "displayName": "Down Home Music Store",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "occasional",
+      "venueType": "record store",
+      "city": "El Cerrito",
+      "region": "East Bay",
+      "address": "10341 San Pablo Ave, El Cerrito, CA 94530",
+      "geo": {
+        "latitude": 37.906841199999995,
+        "longitude": -122.3059282
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Store established in 1976 carrying CDs, DVDs & LPs of roots music such as folk, gospel & zydeco.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2254,7 +4451,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#down_home_music",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2269,9 +4468,74 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.downhomemusic.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/down-home-music-store-el-cerrito",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/downhomemusic/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/Down-Home-Music-Store-100057183770855/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.downhomemusic.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12531163058329905022&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -2292,24 +4556,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:55:23.136Z"
+      "updatedAt": "2026-05-28T22:49:49.772Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      }
     },
     "eli": {
       "id": "eli",
       "name": "Eli's Mile High Club",
       "displayName": "Eli's Mile High Club",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "3629 Martin Luther King Jr Way, Oakland, CA 94609",
+      "geo": {
+        "latitude": 37.8257875,
+        "longitude": -122.2696896
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Originally a blues club and record label, it now caters mainly to young people of a counterculture leaning.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2333,9 +4605,99 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.elismilehighclub.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/elismilehighclub/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.elismilehighclub.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/dogsofelis/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.elismilehighclub.com/"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/elis-mile-high-club-oakland",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "localwiki",
+          "label": "LocalWiki",
+          "url": "https://localwiki.org/oakland/Eli%27s_Mile_High_Club",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        },
+        {
+          "url": "https://localwiki.org/oakland/Eli%27s_Mile_High_Club",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.587Z",
@@ -2349,24 +4711,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:56:19.258Z"
+      "updatedAt": "2026-05-28T21:36:43.212Z",
+      "summarySource": {
+        "label": "LocalWiki",
+        "url": "https://localwiki.org/oakland/Eli%27s_Mile_High_Club",
+        "source": "localwiki"
+      }
     },
     "fillmore": {
       "id": "fillmore",
       "name": "Fillmore",
-      "displayName": "Fillmore",
+      "displayName": "The Fillmore",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1805 Geary Boulevard",
+      "geo": {
+        "latitude": 37.783926,
+        "longitude": -122.433072
+      },
+      "agePolicy": "all-ages",
+      "capacity": "1,315",
+      "summary": "historic music venue in San Francisco, California",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2390,9 +4760,140 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thefillmore.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thefillmore/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thefillmore.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thefillmore/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thefillmore.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/FillmoreSF",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thefillmore.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=310068788521547636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://www.livenation.com/venue/KovZpZAE6eeA/the-fillmore-events",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1348537",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Fillmore",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/the-fillmore-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-fillmore-tickets-san-francisco/venue/229424",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thefillmore.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=310068788521547636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=310068788521547636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1348537",
+          "note": "Wikidata exact-name venue match Q1348537 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=310068788521547636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/The_Fillmore",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -2448,7 +4949,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T04:56:56.592Z"
+      "updatedAt": "2026-05-28T22:40:08.366Z",
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q1348537",
+        "source": "wikidata"
+      }
     },
     "finnish-hall": {
       "id": "finnish-hall",
@@ -2474,7 +4980,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#finnish_hall",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2524,7 +5032,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#fireside_lounge",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2574,7 +5084,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#fourth_bore",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2605,17 +5117,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Fox Theater",
       "displayName": "Fox Theater",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "concert hall",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "1807 Telegraph Avenue, Oakland CA",
+      "geo": {
+        "latitude": 37.8080211,
+        "longitude": -122.2702226
+      },
+      "agePolicy": "all-ages",
+      "capacity": "2,800",
+      "summary": "The Fox Oakland Theatre is a 2,800-seat concert hall, a former movie theater, located at 1807 Telegraph Avenue in Downtown Oakland. It originally opened in 1928, running films until 1970. Designed by Weeks and Day, the theatre is listed on the National Register of Historic Places. It was refurbished in the 2000s and reopened as a concert venue on February 5, 2009.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2624,7 +5139,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#fox_theater",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2639,9 +5156,124 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thefoxoakland.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thefoxoak/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thefoxoakland.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/foxoakland/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thefoxoakland.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/foxoakland",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thefoxoakland.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=560798367965217470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/fox-theater-oakland-tickets-oakland/venue/229846",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fox_Oakland_Theatre",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/fox-theater-oakland-oakland-3",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://thefoxoakland.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=560798367965217470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=560798367965217470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=560798367965217470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fox_Oakland_Theatre",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Fox_Oakland_Theatre",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -2683,33 +5315,43 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:01:16.087Z"
+      "updatedAt": "2026-05-28T21:40:59.940Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Fox_Oakland_Theatre",
+        "source": "wikipedia"
+      }
     },
     "gilman": {
       "id": "gilman",
       "name": "Gilman",
-      "displayName": "Gilman",
+      "displayName": "924 Gilman Street",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "California",
+      "region": "East Bay",
+      "address": "924 Gilman St, Berkeley, CA 94710",
+      "geo": {
+        "latitude": 37.87956,
+        "longitude": -122.29963
+      },
+      "agePolicy": "all-ages",
+      "capacity": "299",
+      "summary": "The Alternative Music Foundation located at 924 Gilman Street, commonly referred to as 924 Gilman or simply Gilman, is a non-profit, all-ages, collectively organized music club. It is located in the West Berkeley area of Berkeley, California. Gilman is widely regarded as the springboard for the '90s punk revival and is known for its associations with Bay Area punk bands Green Day, Operation Ivy, Rancid, AFI, and the Offspring, and playwright Miranda July.",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Alternative Music Foundation",
       "links": [
         {
           "type": "theList",
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#gilman",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2723,10 +5365,102 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Yelp",
           "url": "https://www.yelp.com/biz/924-gilman-berkeley",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2551121",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.924gilman.org/",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/924gilmanstreet/",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/924Gilman",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/924gilman",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11578041359001738104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2551121",
+          "note": "Wikidata exact-name venue match Q2551121 passed Bay Area location checks."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11578041359001738104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11578041359001738104&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+          "note": "Capacity inferred from verified venue page text."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5326664104186501116&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -2768,24 +5502,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:03:25.350Z"
+      "updatedAt": "2026-05-28T21:46:42.828Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
+        "source": "wikipedia"
+      }
     },
     "great-american-music-hall": {
       "id": "great-american-music-hall",
       "name": "Great American Music Hall",
       "displayName": "Great American Music Hall",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "859 O'Farrell St, San Francisco, CA 94109",
+      "geo": {
+        "latitude": 37.7849611,
+        "longitude": -122.41887779999999
+      },
+      "agePolicy": "all-ages",
+      "capacity": "700",
+      "summary": "San Francisco music venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2794,7 +5536,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2809,9 +5553,135 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://gamh.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/greatamericanmusichall/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://gamh.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/greatamericanmusichall/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://gamh.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/GAMH",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://gamh.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5598638",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Great_American_Music_Hall",
+          "confidence": "verified",
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sharer.php/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://gamh.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/intent",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://gamh.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://gamh.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://gamh.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://gamh.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://gamh.com/",
+          "note": "Added 5 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q5598638",
+          "note": "Wikidata exact-name venue match Q5598638 passed Bay Area location checks."
+        },
+        {
+          "url": "https://gamh.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16514319285762689722&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Great_American_Music_Hall",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -2874,24 +5744,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:10:29.267Z"
+      "updatedAt": "2026-05-28T21:49:31.364Z",
+      "summarySource": {
+        "label": "Wikidata",
+        "url": "https://www.wikidata.org/wiki/Q5598638",
+        "source": "wikidata"
+      }
     },
     "greek-theatre": {
       "id": "greek-theatre",
       "name": "Greek Theatre",
-      "displayName": "Greek Theatre",
+      "displayName": "Hearst Greek Theatre",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "amphitheater",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "Hearst Greek Theatre, 2001 Gayley Rd, Berkeley, CA 94720",
+      "geo": {
+        "latitude": 37.8735759,
+        "longitude": -122.2544715
+      },
+      "agePolicy": "all-ages",
+      "capacity": "8,500",
+      "summary": "The William Randolph Hearst Greek Theatre, known locally as simply the Greek Theatre, is an 8,500-seat Greek Theatre owned and operated by the University of California, Berkeley in Berkeley, California, United States.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2900,7 +5778,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#greek_theatre",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2915,9 +5795,141 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thegreekberkeley.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/apeconcerts/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thegreekberkeley.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/greekberkeley/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thegreekberkeley.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=10539972801490688652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/greek-theatre-uc-berkeley-berkeley",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "other",
+          "label": "Visit Berkeley",
+          "url": "https://www.visitberkeley.com/directory/the-greek-theatre-at-uc-berkeley/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/greek-theatreuc-berkeley-tickets-berkeley/venue/229421",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://www.livenation.com/venue/KovZpZAFadlA/greek-theatre-u-c-berkeley-events",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/Greek_Theatre",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://thegreekberkeley.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10539972801490688652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10539972801490688652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10539972801490688652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10539972801490688652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -2959,24 +5971,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:11:26.708Z"
+      "updatedAt": "2026-05-28T22:46:58.693Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
+        "source": "wikipedia"
+      }
     },
     "guild-theater": {
       "id": "guild-theater",
       "name": "Guild Theater",
-      "displayName": "Guild Theater",
+      "displayName": "The Guild Theatre",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "theater",
+      "city": "Menlo Park",
+      "region": "Peninsula",
+      "address": "949 El Camino Real, Menlo Park, CA 94025",
+      "geo": {
+        "latitude": 37.452419899999995,
+        "longitude": -122.181247
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Guild Theatre is a 501(c)(3) not-for-profit music and event performance space bringing live music and entertainment to the Peninsula region. The venue holds about 500 patrons and hosts a wide range of music, film, and special events programming.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2985,7 +6005,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#guild_theater",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -2998,11 +6020,100 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "official",
           "label": "Official",
           "url": "https://guildtheatre.com/",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q44634141",
+          "confidence": "rejected",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/guildtheatre/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://guildtheatre.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/guildtheatre/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://guildtheatre.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/GuildTheatre",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://guildtheatre.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6508412074264538678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q44634141",
+          "note": "Wikidata exact-name venue match Q44634141 passed Bay Area location checks."
+        },
+        {
+          "url": "https://guildtheatre.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://guildtheatre.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://guildtheatre.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://guildtheatre.com/",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3016,24 +6127,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:12:11.017Z"
+      "updatedAt": "2026-05-28T23:07:15.701Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://guildtheatre.com/",
+        "source": "official"
+      }
     },
     "henry-j-kaiser-center": {
       "id": "henry-j-kaiser-center",
       "name": "Henry J. Kaiser Center",
-      "displayName": "Henry J. Kaiser Center",
+      "displayName": "Henry J. Kaiser Center for the Arts",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "auditorium",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "10 10th St, Oakland, CA 94607",
+      "geo": {
+        "latitude": 37.797314799999995,
+        "longitude": -122.26094549999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Henry J. Kaiser Center for the Arts is a historic, publicly owned multi-purpose building located in Oakland, California. Originally known as the Oakland Civic Auditorium, it was renamed in honor of Henry J. Kaiser following a 1984 renovation, and was renamed as the Henry J. Kaiser Center for the Arts in 2023. Heller Manus Architects led the building’s seismic retrofit and renovation.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -3057,9 +6176,128 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thehenryj.org/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "url": "https://ci.ovationtix.com/36995/store/donations/56676",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thehenryj.org/"
+        },
+        {
+          "type": "other",
+          "label": "Other",
+          "url": "https://web.ovationtix.com/trs/account/36995",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thehenryj.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/hjkcenterforarts/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thehenryj.org/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/profile.php/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thehenryj.org/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17478619206155851200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://hjkarts.com/",
+          "confidence": "rejected",
+          "source": "google-places"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kaiser_Center_for_the_Arts",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/henry-j-kaiser-center-for-the-arts-oakland",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://www.livenation.com/venue/KovZpZAatdJA/henry-j-kaiser-center-for-the-arts-events",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/henry-j-kaiser-center-for-the-tickets-oakland/venue/229459",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Added 5 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17478619206155851200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17478619206155851200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17478619206155851200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.thehenryj.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Kaiser_Center_for_the_Arts",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
         "lastImportedAt": "2026-05-28T02:07:23.589Z",
@@ -3073,7 +6311,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:12:53.980Z"
+      "updatedAt": "2026-05-28T23:08:26.086Z",
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Kaiser_Center_for_the_Arts",
+        "source": "wikipedia"
+      }
     },
     "hila-gelato": {
       "id": "hila-gelato",
@@ -3099,7 +6342,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#hila_gelato",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3128,19 +6373,22 @@ window.SHOW_EXPLORER_VENUES = {
     "hopmonk-tavern": {
       "id": "hopmonk-tavern",
       "name": "Hopmonk Tavern",
-      "displayName": "Hopmonk Tavern",
+      "displayName": "HopMonk Tavern Novato",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Novato",
+      "region": "North Bay",
+      "address": "224 Vintage Way",
+      "geo": {
+        "latitude": 38.088546,
+        "longitude": -122.5534481
+      },
+      "agePolicy": "mixed",
       "capacity": "",
-      "summary": "",
+      "summary": "Bar in Novato, CA",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -3149,7 +6397,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#hopmonk_tavern",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3162,11 +6412,111 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "official",
           "label": "Official",
           "url": "https://www.hopmonk.com/livemusic",
-          "confidence": "verified",
+          "confidence": "rejected",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/hopmonkmobilekitchen/",
+          "confidence": "rejected",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.hopmonk.com/livemusic"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.hopmonk.com/",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/hopmonk-tavern-novato-novato-2",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hopmonknovato/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hopmonknovato",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/HopMonk+Tavern+Novato/@38.088546,-122.5534481,17z/data=!3m1!4b1!4m6!3m5!1s0x8085bcc6c8fd3cbf:0xf6e4ccecc1c80ff7!8m2!3d38.088546!4d-122.5534481!16s%2Fg%2F1hhlx365_?entry=ttu&g_ep=EgoyMDI2MDUyNi4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.hopmonk.com/livemusic",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13856591004216696029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13856591004216696029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13856591004216696029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.facebook.com/hopmonktavernsebastopol/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.hopmonk.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/hopmonknovato/",
+          "note": "Display name derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3222,7 +6572,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:16:09.411Z"
+      "updatedAt": "2026-05-28T23:22:45.566Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      }
     },
     "hotel-utah": {
       "id": "hotel-utah",
@@ -3277,19 +6632,22 @@ window.SHOW_EXPLORER_VENUES = {
     "independent": {
       "id": "independent",
       "name": "Independent",
-      "displayName": "Independent",
+      "displayName": "The Independent SF",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "628 Divisadero St, San Francisco, CA 94117",
+      "geo": {
+        "latitude": 37.775531799999996,
+        "longitude": -122.43760019999999
+      },
+      "agePolicy": "mixed",
       "capacity": "",
-      "summary": "",
+      "summary": "San Francisco live music venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -3313,9 +6671,132 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.theindependentsf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/theindependentsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theindependentsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/indysf",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theindependentsf.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/theindependentsf/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theindependentsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8385503613200688317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/the-independent-san-francisco",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "other",
+          "label": "TicketWeb",
+          "url": "https://www.ticketweb.com/venue/the-independent-san-francisco-ca/16302",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://www.livenation.com/venue/KovZpZAAl7AA/the-independent-events",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/the-independent-tickets-san-francisco/venue/229401",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "localwiki",
+          "label": "LocalWiki",
+          "url": "https://localwiki.org/sf/The_Independent",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.theindependentsf.com/",
+          "note": "Added 26 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8385503613200688317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8385503613200688317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8385503613200688317&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://localwiki.org/sf/The_Independent",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3371,24 +6852,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:18:44.859Z"
+      "updatedAt": "2026-05-28T23:28:18.207Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      }
     },
     "ivy-room": {
       "id": "ivy-room",
       "name": "Ivy Room",
       "displayName": "Ivy Room",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "860 San Pablo Ave, Albany, CA 94706",
+      "geo": {
+        "latitude": 37.890476,
+        "longitude": -122.299261
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Ivy Room is an independent live music venue in Albany, CA serving the East Bay and Bay Area. Catch rock, punk, indie, jazz, folk, Americana, funk, and psych rock — local acts and touring artists near Berkeley.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -3397,7 +6886,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#ivy_room",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3412,9 +6903,91 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.ivyroom.com",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/ivyroomalbany/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ivyroom.com",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/ivyroomalbany",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ivyroom.com"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/ivyroom/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.ivyroom.com",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=16583629988368789962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.ivyroom.com",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16583629988368789962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16583629988368789962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16583629988368789962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3470,7 +7043,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:19:53.603Z"
+      "updatedAt": "2026-05-28T23:29:55.135Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.ivyroom.com",
+        "source": "official"
+      }
     },
     "jax-vineyards": {
       "id": "jax-vineyards",
@@ -3525,17 +7103,20 @@ window.SHOW_EXPLORER_VENUES = {
     "jury-room": {
       "id": "jury-room",
       "name": "Jury Room",
-      "displayName": "Jury Room",
+      "displayName": "The Jury Room",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "712 Ocean St, Santa Cruz, CA 95060",
+      "geo": {
+        "latitude": 36.978535099999995,
+        "longitude": -122.0206576
+      },
+      "agePolicy": "21+",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -3546,7 +7127,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#jury_room",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3560,10 +7143,54 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Facebook",
           "url": "https://www.facebook.com/TheJuryRoom",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=4852599499958062252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.facebook.com/TheJuryRoom",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/TheJuryRoom",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.facebook.com/TheJuryRoom",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/TheJuryRoom",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4852599499958062252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4852599499958062252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4852599499958062252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4852599499958062252&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -3582,17 +7209,20 @@ window.SHOW_EXPLORER_VENUES = {
     "kilowatt": {
       "id": "kilowatt",
       "name": "Kilowatt",
-      "displayName": "Kilowatt",
+      "displayName": "Kilowatt Bar",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "3160 16th St, San Francisco, CA 94103",
+      "geo": {
+        "latitude": 37.765057899999995,
+        "longitude": -122.4232555
+      },
+      "agePolicy": "21+",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -3603,7 +7233,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#kilowatt",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3618,9 +7250,79 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://kilowattbar.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/kilowatt_bar_Sf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://kilowattbar.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/kilowattsf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://kilowattbar.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=15551050860052214723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://kilowattbar.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15551050860052214723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15551050860052214723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15551050860052214723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15551050860052214723&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -3646,17 +7348,20 @@ window.SHOW_EXPLORER_VENUES = {
     "knockout": {
       "id": "knockout",
       "name": "Knockout",
-      "displayName": "Knockout",
+      "displayName": "The Knockout",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "3223 Mission Street",
+      "geo": {
+        "latitude": 37.7451582,
+        "longitude": -122.4199482
+      },
+      "agePolicy": "21+",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -3667,7 +7372,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#knockout",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3682,9 +7389,65 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://theknockoutsf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/theknockoutsf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://theknockoutsf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=3522479873900938703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://theknockoutsf.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3522479873900938703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3522479873900938703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3522479873900938703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.591Z",
@@ -3745,7 +7508,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#la_onda",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3802,7 +7567,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#lakeshore_ave._near_mandana_blvd.",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3831,17 +7598,20 @@ window.SHOW_EXPLORER_VENUES = {
     "lost-church": {
       "id": "lost-church",
       "name": "Lost Church",
-      "displayName": "Lost Church",
+      "displayName": "The Lost Church",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "bar",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "988 Columbus Avenue",
+      "geo": {
+        "latitude": 37.8033528,
+        "longitude": -122.41429289999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -3852,7 +7622,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#lost_church",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3867,9 +7639,51 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thelostchurch.org/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=16198772865012975044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://thelostchurch.org/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16198772865012975044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16198772865012975044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3909,7 +7723,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#love_&_luxe",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3938,16 +7754,19 @@ window.SHOW_EXPLORER_VENUES = {
     "luther-burbank-center": {
       "id": "luther-burbank-center",
       "name": "Luther Burbank Center",
-      "displayName": "Luther Burbank Center",
+      "displayName": "Luther Burbank Center for the Arts",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
+      "status": "active",
+      "venueType": "theater",
+      "city": "Santa Rosa",
       "region": "",
-      "address": "",
-      "geo": null,
+      "address": "50 Mark West Springs Rd #500, Santa Rosa, CA 95403",
+      "geo": {
+        "latitude": 38.4932027,
+        "longitude": -122.74953769999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -3959,7 +7778,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#luther_burbank_center",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -3974,9 +7795,43 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://lutherburbankcenter.org/",
           "confidence": "candidate",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11057327400761838312&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -3995,17 +7850,20 @@ window.SHOW_EXPLORER_VENUES = {
     "make-out-room": {
       "id": "make-out-room",
       "name": "Make-Out Room",
-      "displayName": "Make-Out Room",
+      "displayName": "Make Out Room",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "3225 22nd St, San Francisco, CA 94110",
+      "geo": {
+        "latitude": 37.75526,
+        "longitude": -122.41933990000001
+      },
+      "agePolicy": "21+",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -4031,9 +7889,61 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "http://www.makeoutroom.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/makeoutroomsf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "http://www.makeoutroom.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "http://www.makeoutroom.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.makeoutroom.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "http://www.makeoutroom.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "http://www.makeoutroom.com/",
+          "note": "Added 40 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13691778353160404935&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
         "lastImportedAt": "2026-05-28T02:07:23.590Z",
@@ -4052,19 +7962,22 @@ window.SHOW_EXPLORER_VENUES = {
     "masonic": {
       "id": "masonic",
       "name": "Masonic",
-      "displayName": "Masonic",
+      "displayName": "The Masonic",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "theater",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1111 California St, San Francisco, CA 94108",
+      "geo": {
+        "latitude": 37.791198,
+        "longitude": -122.4129823
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Masonic information and upcoming 2026 events. Find details on the official The Masonic website including tickets, seating chart, and show calendar.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -4088,9 +8001,81 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.sfmasonic.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/SFMasonic/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sfmasonic.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/sfmasonic",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sfmasonic.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/sfmasonic/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sfmasonic.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=12499065569629914814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.sfmasonic.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12499065569629914814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12499065569629914814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12499065569629914814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12499065569629914814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.587Z",
@@ -4104,7 +8089,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:31:40.229Z"
+      "updatedAt": "2026-05-28T05:31:40.229Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.sfmasonic.com/",
+        "source": "official"
+      }
     },
     "meritage-resort": {
       "id": "meritage-resort",
@@ -4180,7 +8170,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#michelle",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4230,7 +8222,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#mid_bartlett",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4259,17 +8253,20 @@ window.SHOW_EXPLORER_VENUES = {
     "moe": {
       "id": "moe",
       "name": "Moe's Alley",
-      "displayName": "Moe's Alley",
+      "displayName": "Moe's Alley – Live Music in Santa Cruz, CA",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "1535 Commercial Wy, Santa Cruz, CA 95065",
+      "geo": {
+        "latitude": 36.9877378,
+        "longitude": -121.98287540000001
+      },
+      "agePolicy": "21+",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -4295,9 +8292,69 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://moesalley.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/moesalley/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://moesalley.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/moesalley/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://moesalley.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=12992587197166412795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://moesalley.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://moesalley.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://moesalley.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://moesalley.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://moesalley.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://moesalley.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12992587197166412795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12992587197166412795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12992587197166412795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
         "lastImportedAt": "2026-05-28T02:07:23.590Z",
@@ -4316,19 +8373,22 @@ window.SHOW_EXPLORER_VENUES = {
     "mountain-winery": {
       "id": "mountain-winery",
       "name": "Mountain Winery",
-      "displayName": "Mountain Winery",
+      "displayName": "The Mountain Winery",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Saratoga",
+      "region": "South Bay",
+      "address": "14831 Pierce Rd, Saratoga, CA 95070",
+      "geo": {
+        "latitude": 37.2601556,
+        "longitude": -122.0647
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "<p>The Mountain Winery, formerly the Paul Masson Mountain Winery, is a winery in Saratoga, California, United States, North America. It was founded by Paul Masson, a pioneer of the California wine industry.</p>",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -4337,7 +8397,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#mountain_winery",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4352,9 +8414,87 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.mountainwinery.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/mountainwinery/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.mountainwinery.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/themountainwinery/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.mountainwinery.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/MountainWinery",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.mountainwinery.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=130362069662153112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.mountainwinery.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=130362069662153112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=130362069662153112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=130362069662153112&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -4452,7 +8592,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:35:30.375Z"
+      "updatedAt": "2026-05-28T05:35:30.375Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.mountainwinery.com/",
+        "source": "official"
+      }
     },
     "neck-of-the-woods": {
       "id": "neck-of-the-woods",
@@ -4461,13 +8606,16 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "406 Clement St, San Francisco, CA 94118",
+      "geo": {
+        "latitude": 37.783123599999996,
+        "longitude": -122.4637279
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -4478,7 +8626,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#neck_of_the_woods",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4493,9 +8643,79 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.neckofthewoodssf.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/NeckoftheWoodsSF/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.neckofthewoodssf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/neckofthewoodssf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.neckofthewoodssf.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.neckofthewoodssf.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.neckofthewoodssf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.neckofthewoodssf.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.neckofthewoodssf.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2816607997925938242&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -4542,7 +8762,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#nikko",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4656,7 +8878,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#park_station",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4742,21 +8966,24 @@ window.SHOW_EXPLORER_VENUES = {
     "pavilion": {
       "id": "pavilion",
       "name": "Pavilion",
-      "displayName": "Pavilion",
+      "displayName": "Toyota Pavilion at Concord",
       "aliases": [
         "Paviliion"
       ],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Concord",
+      "region": "East Bay",
+      "address": "2000 Kirker Pass Road",
+      "geo": {
+        "latitude": 37.959728999999996,
+        "longitude": -121.9382308
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Toyota Pavilion at Concord information and upcoming 2026 events. Find details on the official Toyota Pavilion at Concord (formerly Concord Pavilion) website including tickets, seating chart, and show calendar.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -4765,7 +8992,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#pavilion",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4780,9 +9009,87 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.toyotapavilionatconcord.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/ToyotaPavilionatConcord/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.toyotapavilionatconcord.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/Toyota_Pavilion",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.toyotapavilionatconcord.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/toyotapavilionatconcord/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.toyotapavilionatconcord.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=12598647690708686351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12598647690708686351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12598647690708686351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -4803,24 +9110,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:45:14.266Z"
+      "updatedAt": "2026-05-28T05:45:14.266Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.toyotapavilionatconcord.com/",
+        "source": "official"
+      }
     },
     "phoenix-theater": {
       "id": "phoenix-theater",
       "name": "Phoenix Theater",
-      "displayName": "Phoenix Theater",
+      "displayName": "Phoenix Theatre",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "city": "Petaluma",
+      "region": "North Bay",
+      "address": "201 Washington St, Petaluma, CA 94952",
+      "geo": {
+        "latitude": 38.2349545,
+        "longitude": -122.64306400000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The official website for the Phoenix Theater, a historic performance venue and non-profit community center located in Petaluma, CA",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -4829,7 +9144,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#phoenix_theater",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4844,9 +9161,83 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thephoenixtheater.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thephoenixtheater/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thephoenixtheater.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thephoenixtheater/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thephoenixtheater.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/phoenixtheater",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thephoenixtheater.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=7569138714718124350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thephoenixtheater.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thephoenixtheater.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thephoenixtheater.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thephoenixtheater.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.thephoenixtheater.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7569138714718124350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7569138714718124350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7569138714718124350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7569138714718124350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -4874,7 +9265,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:45:43.389Z"
+      "updatedAt": "2026-05-28T05:45:43.389Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.thephoenixtheater.com/",
+        "source": "official"
+      }
     },
     "pioneer-saloon": {
       "id": "pioneer-saloon",
@@ -4950,7 +9346,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#point_san_pablo_harbor",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -4979,17 +9377,20 @@ window.SHOW_EXPLORER_VENUES = {
     "regency-ballroom": {
       "id": "regency-ballroom",
       "name": "Regency Ballroom",
-      "displayName": "Regency Ballroom",
+      "displayName": "The Regency Ballroom",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1300 Van Ness Ave, San Francisco, CA 94109",
+      "geo": {
+        "latitude": 37.7878701,
+        "longitude": -122.4214133
+      },
+      "agePolicy": "mixed",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -5015,9 +9416,73 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.theregencyballroom.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/theregencyballroom/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theregencyballroom.com/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/regencyballroom/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theregencyballroom.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/regencyballroom",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theregencyballroom.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2630612790802615163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.theregencyballroom.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.theregencyballroom.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.theregencyballroom.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.theregencyballroom.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.theregencyballroom.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2630612790802615163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2630612790802615163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2630612790802615163&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -5054,13 +9519,16 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "SAN FRANCISCO",
+      "region": "SF",
+      "address": "155 Fell Street",
+      "geo": {
+        "latitude": 37.776120299999995,
+        "longitude": -122.4205138
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -5071,7 +9539,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5086,9 +9556,83 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://rickshawstop.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/rickshawstop/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://rickshawstop.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/rickshawstop/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://rickshawstop.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/rickshawstopsf",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://rickshawstop.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8428162849828830616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://rickshawstop.com/",
+          "note": "Added 6 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8428162849828830616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8428162849828830616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8428162849828830616&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -5170,17 +9714,20 @@ window.SHOW_EXPLORER_VENUES = {
     "rio-theater": {
       "id": "rio-theater",
       "name": "Rio Theater",
-      "displayName": "Rio Theater",
+      "displayName": "Rio Theatre",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "theater",
+      "city": "Santa Cruz",
+      "region": "Santa Cruz/Monterey",
+      "address": "1205 Soquel Ave, Santa Cruz, CA 95062",
+      "geo": {
+        "latitude": 36.9800079,
+        "longitude": -122.0104175
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -5206,9 +9753,56 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.facebook.com/RioTheatreSantaCruz/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17847187583970602098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://riotheatre.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.facebook.com/RioTheatreSantaCruz/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/RioTheatreSantaCruz/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.facebook.com/RioTheatreSantaCruz/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.facebook.com/RioTheatreSantaCruz/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17847187583970602098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17847187583970602098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17847187583970602098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17847187583970602098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
         "lastImportedAt": "2026-05-28T02:07:23.590Z",
@@ -5227,19 +9821,22 @@ window.SHOW_EXPLORER_VENUES = {
     "ritz": {
       "id": "ritz",
       "name": "Ritz",
-      "displayName": "Ritz",
+      "displayName": "The Ritz",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "400 S 1st St, San Jose, CA 95113",
+      "geo": {
+        "latitude": 37.3300018,
+        "longitude": -121.88579560000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Ritz Nightclub in San Jose is The Areas Best Live Music Venue, Featuring Top National Artists. The Ritz Nightclub in San Jose features live music and events in San Jose.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -5248,7 +9845,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#ritz",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5263,9 +9862,87 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://theritzsanjose.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/theritzsj/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://theritzsanjose.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/theritzsj",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://theritzsanjose.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/theritzsj/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://theritzsanjose.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=14503065491144997651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://theritzsanjose.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14503065491144997651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14503065491144997651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14503065491144997651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14503065491144997651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -5307,7 +9984,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:51:20.752Z"
+      "updatedAt": "2026-05-28T05:51:20.752Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://theritzsanjose.com/",
+        "source": "official"
+      }
     },
     "roxie-movie-house": {
       "id": "roxie-movie-house",
@@ -5369,19 +10051,22 @@ window.SHOW_EXPLORER_VENUES = {
     "san-jose-civic-center": {
       "id": "san-jose-civic-center",
       "name": "San Jose Civic Center",
-      "displayName": "San Jose Civic Center",
+      "displayName": "San Jose Theaters",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
+      "status": "active",
+      "venueType": "bar",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "135 W. San Carlos St., San Jose, CA 95113",
+      "geo": {
+        "latitude": 37.3297729,
+        "longitude": -121.89250609999998
+      },
       "agePolicy": "unknown",
       "capacity": "",
-      "summary": "",
+      "summary": "The San Jose Civic, formerly know as the City National Civic, hosts concerts and special events. This page includes its Official Events Calendar.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -5405,9 +10090,76 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/SanJoseTheaters/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://sanjosetheaters.org/theaters/san-jose-civic/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/sanjosetheaters/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://sanjosetheaters.org/theaters/san-jose-civic/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5612742819648266724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://sanjosetheaters.org/theaters/center-for-performing-arts/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5612742819648266724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5612742819648266724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.588Z",
@@ -5421,7 +10173,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:53:14.493Z"
+      "updatedAt": "2026-05-28T05:53:14.493Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://sanjosetheaters.org/theaters/san-jose-civic/",
+        "source": "official"
+      }
     },
     "senor-sisig": {
       "id": "senor-sisig",
@@ -5447,7 +10204,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#senor_sisig",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5487,15 +10246,18 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "theater",
+      "city": "Mountain View",
+      "region": "South Bay",
+      "address": "One Amphitheatre Pkwy, Mountain View, CA 94043",
+      "geo": {
+        "latitude": 37.4268342,
+        "longitude": -122.08070230000001
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Shoreline Amphitheatre information and upcoming 2026 events. Find details on the official Shoreline Amphitheatre website including tickets, seating chart, and concert calendar.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -5519,9 +10281,85 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.shorelineamphitheatre.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/ShorelineAmphitheatre/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.shorelineamphitheatre.com/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/ShorelineAmp",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.shorelineamphitheatre.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/shorelineamp/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.shorelineamphitheatre.com/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.590Z",
@@ -5542,7 +10380,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T05:55:11.843Z"
+      "updatedAt": "2026-05-28T05:55:11.843Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.shorelineamphitheatre.com/",
+        "source": "official"
+      }
     },
     "shuggies": {
       "id": "shuggies",
@@ -5568,7 +10411,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#shuggies",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5618,7 +10463,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#smiley",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5647,16 +10494,19 @@ window.SHOW_EXPLORER_VENUES = {
     "spats": {
       "id": "spats",
       "name": "Spats",
-      "displayName": "Spats",
+      "displayName": "Spats Berkeley",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
+      "status": "active",
+      "venueType": "bar",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "1974 Shattuck Ave., Berkeley, CA 94704",
+      "geo": {
+        "latitude": 37.8726497,
+        "longitude": -122.26875629999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -5668,7 +10518,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#spats",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5682,10 +10534,50 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Yelp",
           "url": "https://www.yelp.com/biz/spats-berkeley",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6046308696813951324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -5704,17 +10596,20 @@ window.SHOW_EXPLORER_VENUES = {
     "starry-plough": {
       "id": "starry-plough",
       "name": "Starry Plough",
-      "displayName": "Starry Plough",
+      "displayName": "The Starry Plough",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "club",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "3101 Shattuck Ave., Berkeley, CA 94705",
+      "geo": {
+        "latitude": 37.852990299999995,
+        "longitude": -122.2659426
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -5725,7 +10620,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#starry_plough",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5740,9 +10637,75 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://thestarryplough.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/StarryPlough/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thestarryplough.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thestarryploughpub/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thestarryplough.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17198627347694735132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://thestarryplough.com/",
+          "note": "Added 15 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17198627347694735132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17198627347694735132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17198627347694735132&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -5793,13 +10756,16 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "Wawona St, San Francisco, CA 94132",
+      "geo": {
+        "latitude": 37.7359493,
+        "longitude": -122.47956320000002
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -5825,9 +10791,77 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.sterngrove.org/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sterngrovefestival/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/sterngrovefest",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/sterngrovefestival/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.588Z",
@@ -5896,16 +10930,19 @@ window.SHOW_EXPLORER_VENUES = {
     "thee-stork-club": {
       "id": "thee-stork-club",
       "name": "thee Stork Club",
-      "displayName": "thee Stork Club",
+      "displayName": "Thee Stork Club",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
+      "status": "active",
+      "venueType": "club",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "2330 Telegraph Ave, Oakland, CA 94612",
+      "geo": {
+        "latitude": 37.813175699999995,
+        "longitude": -122.26836569999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -5917,7 +10954,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#thee_stork_club",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -5932,9 +10971,47 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://theestorkclub.com/",
           "confidence": "likely",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5341120699405240675&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -5981,17 +11058,20 @@ window.SHOW_EXPLORER_VENUES = {
     "uc-theater": {
       "id": "uc-theater",
       "name": "UC Theater",
-      "displayName": "UC Theater",
+      "displayName": "The UC Theatre Taube Family Music Hall",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "gallery",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "2036 University Ave, Berkeley, CA 94704",
+      "geo": {
+        "latitude": 37.8718053,
+        "longitude": -122.26980859999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -6002,7 +11082,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#uc_theater",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6017,9 +11099,83 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.theuctheatre.org/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/theuctheatre/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theuctheatre.org/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/theuctheatre",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theuctheatre.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/theuctheatre/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.theuctheatre.org/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -6094,16 +11250,19 @@ window.SHOW_EXPLORER_VENUES = {
     "up-the-creek-records": {
       "id": "up-the-creek-records",
       "name": "Up the Creek Records",
-      "displayName": "Up the Creek Records",
+      "displayName": "Up The Creek Records",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
+      "city": "Walnut Creek",
+      "region": "East Bay",
+      "address": "2042 Mt Diablo Blvd, Walnut Creek, CA 94596",
+      "geo": {
+        "latitude": 37.8972403,
+        "longitude": -122.0684994
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -6115,7 +11274,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#up_the_creek_records",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6130,9 +11291,43 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://upthecreekrecords.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8602705237662175014&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -6165,19 +11360,22 @@ window.SHOW_EXPLORER_VENUES = {
     "uptown-theater": {
       "id": "uptown-theater",
       "name": "Uptown Theater",
-      "displayName": "Uptown Theater",
+      "displayName": "Uptown Theatre Napa",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
+      "status": "active",
+      "venueType": "theater",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1350 Third Street",
+      "geo": {
+        "latitude": 38.296534799999996,
+        "longitude": -122.28755210000001
+      },
       "agePolicy": "unknown",
       "capacity": "",
-      "summary": "",
+      "summary": "Nestled in the famed West End district, this stunningly restored art deco masterpiece from 1937 showcases only the finest acts in music and comedy. A historic landmark, the Uptown offers a phenomenal, intimate live music experience with world class sound...",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -6186,7 +11384,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#uptown_theater",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6201,9 +11401,83 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.uptowntheatrenapa.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/UptownTheatreNapa/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.uptowntheatrenapa.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/TheUptownNapa",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.uptowntheatrenapa.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/uptown_theatre_napa/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.uptowntheatrenapa.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17875628431415588424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.uptowntheatrenapa.com/",
+          "note": "Added 5 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17875628431415588424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17875628431415588424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17875628431415588424&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",
@@ -6224,7 +11498,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T06:05:31.357Z"
+      "updatedAt": "2026-05-28T06:05:31.357Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.uptowntheatrenapa.com/",
+        "source": "official"
+      }
     },
     "used-dreams-night-market": {
       "id": "used-dreams-night-market",
@@ -6250,7 +11529,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#used_dreams_night_market",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6300,7 +11581,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#vinnie",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6329,19 +11612,22 @@ window.SHOW_EXPLORER_VENUES = {
     "warfield": {
       "id": "warfield",
       "name": "Warfield",
-      "displayName": "Warfield",
+      "displayName": "The Warfield",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "982 Market Street",
+      "geo": {
+        "latitude": 37.7826737,
+        "longitude": -122.41042800000001
+      },
+      "agePolicy": "mixed",
       "capacity": "",
-      "summary": "",
+      "summary": "The Warfield is San Francisco",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -6350,7 +11636,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#warfield",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6365,9 +11653,83 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thewarfieldtheatre.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/warfield/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thewarfieldtheatre.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/thewarfield",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thewarfieldtheatre.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/thewarfield/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thewarfieldtheatre.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8129771805751415290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Address inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thewarfieldtheatre.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8129771805751415290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8129771805751415290&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
         "lastImportedAt": "2026-05-28T02:07:23.593Z",
@@ -6402,24 +11764,32 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T06:09:26.083Z"
+      "updatedAt": "2026-05-28T06:09:26.083Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.thewarfieldtheatre.com/",
+        "source": "official"
+      }
     },
     "warriors-stadium": {
       "id": "warriors-stadium",
       "name": "Warriors Stadium",
-      "displayName": "Warriors Stadium",
+      "displayName": "Chase Center",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "status": "active",
+      "venueType": "arena",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1 Warriors Wy, San Francisco, CA 94158",
+      "geo": {
+        "latitude": 37.7680183,
+        "longitude": -122.38787719999999
+      },
+      "agePolicy": "all-ages",
+      "capacity": "18000",
+      "summary": "Chase Center, a state-of-the-art sports and entertainment arena in San Francisco, is home to the Golden State Warriors and nearly 200 events per year.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -6443,9 +11813,106 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.chasecenter.com",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9036353784143495651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q15262098",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chase_Center",
+          "confidence": "verified",
+          "source": "wikidata"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/chase-center-san-francisco-2",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chase_center",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chasecenter/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "https://www.ticketmaster.com/chase-center-tickets-san-francisco/venue/230012",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/ChaseCenter",
+          "confidence": "verified",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.chasecenter.com",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.chasecenter.com",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.chasecenter.com",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.chasecenter.com",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.chasecenter.com",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9036353784143495651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9036353784143495651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9036353784143495651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9036353784143495651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q15262098",
+          "note": "Wikidata exact-name venue match Q15262098 passed Bay Area location checks."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
         "lastImportedAt": "2026-05-28T02:07:23.588Z",
@@ -6459,7 +11926,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T06:12:23.607Z"
+      "updatedAt": "2026-05-28T21:13:41.107Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.chasecenter.com",
+        "source": "official"
+      }
     },
     "wildhawk": {
       "id": "wildhawk",
@@ -6485,7 +11957,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#wildhawk",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6535,7 +12009,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#willow",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6568,17 +12044,17 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Pacifica",
+      "region": "Peninsula",
+      "address": "1522 Francisco Blvd, Pacifica, CA 94044",
       "geo": null,
-      "agePolicy": "unknown",
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Upcoming Events @ Winters Tavern Winters Tavern 1522 Francisco BlvdPacifica, California 94044(650) 355-6162Hours:Mon-Fri Noon-12AMSat-Sun 11AM-12AMGet directions > Serving Pacifica, CA and the San Francisco Bay Area, you won&#8217;t find a more exciting...",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Google Places previously matched this to Wayfare Tavern; removed that candidate.",
       "links": [
         {
           "type": "theList",
@@ -6602,7 +12078,36 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://winterstavern.com/",
+          "note": "Added 10 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
         "lastImportedAt": "2026-05-28T02:07:23.586Z",
@@ -6616,22 +12121,30 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T06:14:17.228Z"
+      "updatedAt": "2026-05-28T06:14:17.228Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://winterstavern.com/",
+        "source": "official"
+      }
     },
     "x-bar": {
       "id": "x-bar",
       "name": "X Bar",
-      "displayName": "X Bar",
+      "displayName": "X-BAR",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
+      "status": "active",
+      "venueType": "club",
+      "city": "Cupertino",
       "region": "",
-      "address": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "address": "20990 Homestead Rd, Cupertino, CA 95014",
+      "geo": {
+        "latitude": 37.3362754,
+        "longitude": -122.04031239999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -6642,7 +12155,9 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#x_bar",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "search",
@@ -6657,9 +12172,71 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.thex.bar/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/xbar_cupertino/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thex.bar/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/cupertino-x-bar-101627589264976/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.thex.bar/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.thex.bar/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thex.bar/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thex.bar/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thex.bar/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.thex.bar/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
         "lastImportedAt": "2026-05-28T02:07:23.592Z",

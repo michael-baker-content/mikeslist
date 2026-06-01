@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Venue Review - Bay Area Show Explorer</title>
+    <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
@@ -12,10 +13,25 @@
         <p class="kicker">Venue enrichment</p>
         <h1>Venue Review</h1>
       </div>
-      <nav class="nav-actions" aria-label="Project pages">
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
         <a class="source-link" href="review.html">Artists</a>
         <button id="exportButton" class="source-link button-link" type="button">Export</button>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
       </nav>
     </header>
 
@@ -79,6 +95,7 @@
                 <select id="statusInput">
                   <option value="unknown">Unknown</option>
                   <option value="active">Active</option>
+                  <option value="occasional">Occasional Music</option>
                   <option value="inactive">Inactive</option>
                   <option value="closed">Closed</option>
                   <option value="seasonal">Seasonal</option>
@@ -94,7 +111,8 @@
             <div class="field-grid two-column">
               <label>
                 <span>Venue Type</span>
-                <input id="venueTypeInput" type="text" placeholder="club, theater, gallery, arena">
+                <input id="venueTypeInput" type="text" list="venueTypeOptions" placeholder="club, theater, gallery, arena">
+                <datalist id="venueTypeOptions"></datalist>
               </label>
 
               <label>
@@ -111,7 +129,8 @@
 
               <label>
                 <span>Region</span>
-                <input id="regionInput" type="text" placeholder="SF, East Bay, South Bay">
+                <input id="regionInput" type="text" list="regionOptions" placeholder="SF, East Bay, South Bay">
+                <datalist id="regionOptions"></datalist>
               </label>
             </div>
 
@@ -149,7 +168,7 @@
             </div>
 
             <label>
-              <span>Summary</span>
+              <span>Summary <a id="summarySourceLink" class="field-source" href="#" target="_blank" rel="noreferrer" hidden></a></span>
               <textarea id="summaryInput" rows="3" placeholder="Short public venue description"></textarea>
             </label>
 
@@ -173,6 +192,7 @@
             <div class="form-actions">
               <button class="chip active" type="submit">Save Venue</button>
               <button id="enrichButton" class="chip" type="button">Enrich Venue</button>
+              <button id="enrichLikelyButton" class="chip" type="button">Enrich Likely Venues</button>
               <button id="resetButton" class="chip" type="button">Revert Form</button>
               <button id="pruneArtistsButton" class="chip danger-chip" type="button">Prune Rejected-Venue Artists</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
@@ -189,6 +209,7 @@
     </main>
 
     <script src="data/venues.js"></script>
+    <script src="assets/nav.js"></script>
     <script src="assets/venue-review.js"></script>
   </body>
 </html>

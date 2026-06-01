@@ -101,6 +101,19 @@ function visibleArtists() {
   });
 }
 
+function preferredFilter() {
+  for (const filter of ["review", "likely", "verified"]) {
+    if (artists().some((artist) => artist.confidence === filter)) return filter;
+  }
+  return "all";
+}
+
+function syncFilterButtons() {
+  filterButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
+  });
+}
+
 function updateSummary() {
   const list = artists();
   document.querySelector("#artistTotal").textContent = list.length;
@@ -280,7 +293,13 @@ function renderLinkEditor(links) {
 }
 
 function sortLinksByLabel(a, b) {
-    return (a.label || labelForType(a.type)).localeCompare(b.label || labelForType(b.type));
+  return linkDisplayRank(a) - linkDisplayRank(b) || (a.label || labelForType(a.type)).localeCompare(b.label || labelForType(b.type));
+}
+
+function linkDisplayRank(link) {
+  if (link.display === false) return 2;
+  if (link.displayPriority === "primary") return 0;
+  return 1;
 }
 
 function createLinkRow(link = {}) {
@@ -319,6 +338,20 @@ function createLinkRow(link = {}) {
   });
   confidence.value = link.confidence || (type.value === "search" ? "research" : "candidate");
 
+  const displayLabel = document.createElement("label");
+  displayLabel.className = "link-display-control";
+  const display = document.createElement("input");
+  display.className = "link-display";
+  display.type = "checkbox";
+  display.checked = link.display !== false;
+  displayLabel.append(display, document.createTextNode("Show"));
+
+  const priority = document.createElement("select");
+  priority.className = "link-priority";
+  priority.add(new Option("Primary", "primary"));
+  priority.add(new Option("Secondary", "secondary"));
+  priority.value = link.displayPriority === "primary" ? "primary" : "secondary";
+
   const remove = document.createElement("button");
   remove.className = "icon-button";
   remove.type = "button";
@@ -338,7 +371,7 @@ function createLinkRow(link = {}) {
   });
   remove.addEventListener("click", () => row.remove());
 
-  row.append(type, label, url, confidence, remove);
+  row.append(type, label, url, confidence, displayLabel, priority, remove);
   return row;
 }
 
@@ -348,11 +381,15 @@ function readLinkEditor() {
     const label = row.querySelector(".link-label").value.trim() || labelForType(type);
     const url = row.querySelector(".link-url").value.trim();
     const confidence = row.querySelector(".link-confidence").value;
+    const display = row.querySelector(".link-display").checked;
+    const displayPriority = row.querySelector(".link-priority").value;
     return {
       type: type || inferLinkType(url),
       label,
       url,
       confidence,
+      display,
+      displayPriority,
       source: "manual"
     };
   }).filter((link) => link.url);
@@ -401,9 +438,8 @@ search.addEventListener("input", (event) => {
 
 filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    filterButtons.forEach((item) => item.classList.remove("active"));
-    button.classList.add("active");
     state.filter = button.dataset.reviewFilter;
+    syncFilterButtons();
     const first = visibleArtists()[0];
     if (first) selectArtist(first.id);
     else {
@@ -477,6 +513,8 @@ document.querySelector("#exportButton").addEventListener("click", () => {
 });
 
 updateSummary();
+state.filter = preferredFilter();
+syncFilterButtons();
 const first = visibleArtists()[0] || artists()[0];
 if (first) selectArtist(first.id);
 renderQueue();

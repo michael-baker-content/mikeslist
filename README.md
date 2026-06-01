@@ -14,8 +14,10 @@ The project is deliberately conservative:
 For read-only browsing, open `index.html` in a browser. To save review edits directly to `data/artists.js`, use the local dev server:
 
 ```powershell
-node scripts/dev-server.mjs
+.\shows
 ```
+
+If your npm install is available, `npm start` or `npm run shows` starts the same server.
 
 Then open:
 
@@ -55,6 +57,30 @@ official | Official | https://artist.example.com/ | verified
 Support Priority is computed from verified link types. Official pages are listed first, link hubs such as Linktree second, and the remaining verified source types are sorted alphabetically.
 
 ## Optional Enrichment
+
+Some optional enrichment sources need local API credentials. Keep real keys in a local `.env` file and do not commit that file to GitHub. A safe template is included as `.env.example`.
+
+For Google Places:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Then edit `.env`:
+
+```text
+GOOGLE_PLACES_API_KEY=your_key_here
+```
+
+Restrict the key in Google Cloud as tightly as practical, ideally to the Places API and your local/development use.
+
+Venue enrichment uses Google Places when `GOOGLE_PLACES_API_KEY` is present:
+
+```powershell
+node scripts/enrich-venues-google-places.mjs --venue="4 Star Theater"
+```
+
+The browser `Enrich Venue` button runs Wikidata, Google Places, and verified-page metadata enrichment in sequence through the local dev server. Google Places is used only on the server side; the key is never sent to browser JavaScript.
 
 Spotify is not required. MusicBrainz can add stable artist identity candidates without any paid account:
 

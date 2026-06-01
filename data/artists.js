@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_ARTISTS = {
-  "generatedAt": "2026-05-28T06:15:38.646Z",
+  "generatedAt": "2026-05-30T09:19:33.712Z",
   "artists": {
     "2-chainz": {
       "id": "2-chainz",
@@ -58,7 +58,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Apple Music",
           "url": "https://music.apple.com/us/artist/2-chainz/435300447",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "deezer",
@@ -93,7 +95,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/2chainz/",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "linktree",
@@ -135,14 +139,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "SoundCloud",
           "url": "https://soundcloud.com/2chainz",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "ticketmaster",
@@ -163,7 +171,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "TikTok",
           "url": "https://www.tiktok.com/@2chainz",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "wikidata",
@@ -191,7 +201,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "YouTube",
           "url": "https://www.youtube.com/@2chainz",
           "confidence": "verified",
-          "source": "manual"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "appleMusic",
@@ -590,7 +602,14 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%223108%20(solo)%22%20band%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://spotify.com/3108",
+          "confidence": "candidate",
+          "source": "manual"
         }
       ],
       "evidence": [],
@@ -5088,44 +5107,6 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:31:34.988Z"
     },
-    "cstr-4-45pm": {
-      "id": "cstr-4-45pm",
-      "name": "Cstr (4.45pm)",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Cstr%20(4.45pm)%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-arcana-cstr-4-45pm",
-            "date": "2026-05-30",
-            "venue": "Arcana",
-            "details": "a/a free (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:31:36.837Z"
-    },
     "cultural-warefare": {
       "id": "cultural-warefare",
       "name": "Cultural Warefare",
@@ -5389,44 +5370,6 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:31:55.990Z"
-    },
-    "dane-bethea-2pm": {
-      "id": "dane-bethea-2pm",
-      "name": "Dane Bethea (2pm)",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Dane%20Bethea%20(2pm)%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-arcana-cstr-4-45pm",
-            "date": "2026-05-30",
-            "venue": "Arcana",
-            "details": "a/a free (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:31:59.688Z"
     },
     "daniela-andrade": {
       "id": "daniela-andrade",
@@ -5721,7 +5664,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Facebook",
           "url": "https://www.facebook.com/darkstarorchestra",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "twitter",
@@ -5749,7 +5694,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dark_Star_Orchestra",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
@@ -6856,116 +6803,148 @@ window.SHOW_EXPLORER_ARTISTS = {
       "supportPriority": [],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Don%20Toliver%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        },
-        {
-          "type": "musicbrainz",
-          "label": "MusicBrainz",
-          "url": "https://musicbrainz.org/artist/a0723a3c-4135-438e-85c5-012712144ede",
-          "confidence": "likely",
-          "source": "musicbrainz"
-        },
-        {
-          "type": "wikidata",
-          "label": "Wikidata",
-          "url": "https://www.wikidata.org/wiki/Q56513383",
-          "confidence": "likely",
-          "source": "review-reconsider"
-        },
-        {
-          "type": "official",
-          "label": "Official",
-          "url": "https://www.dontolivermusic.com/",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
           "type": "instagram",
           "label": "Instagram",
           "url": "https://www.instagram.com/dontoliver/",
           "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "facebook",
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DonToliver",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "twitter",
-          "label": "X/Twitter",
-          "url": "https://x.com/dontoliver",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "tiktok",
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@dontolivermusic",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "youtube",
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCgT01FILdWB9BsXBXKjpQ7A",
-          "confidence": "likely",
-          "source": "wikidata"
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "soundcloud",
           "label": "SoundCloud",
           "url": "https://soundcloud.com/dontoliver",
           "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "discogsArtist",
-          "label": "Discogs Artist",
-          "url": "https://www.discogs.com/artist/6775860",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "discogsArtist",
-          "label": "Discogs Artist",
-          "url": "https://www.discogs.com/artist/7680239",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "spotify",
-          "label": "Spotify",
-          "url": "https://open.spotify.com/artist/4Gso3d4CscCijv0lmajZWs",
-          "confidence": "likely",
-          "source": "wikidata"
-        },
-        {
-          "type": "deezer",
-          "label": "Deezer",
-          "url": "https://www.deezer.com/us/artist/13631667",
-          "confidence": "likely",
-          "source": "wikidata"
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "tidal",
           "label": "Tidal",
           "url": "https://tidal.com/artist/9279273",
           "confidence": "likely",
-          "source": "wikidata"
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@dontolivermusic",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "wikipedia",
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Don_Toliver",
           "confidence": "likely",
-          "source": "wikidata"
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCgT01FILdWB9BsXBXKjpQ7A",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/13631667",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/6775860",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/7680239",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DonToliver",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.dontolivermusic.com/",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/4Gso3d4CscCijv0lmajZWs",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/a0723a3c-4135-438e-85c5-012712144ede",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Don%20Toliver%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q56513383",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/dontoliver",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "manual"
         }
       ],
       "evidence": [
@@ -7117,14 +7096,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/45kP7I8mYfpfSm7NVRuyoM",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "wikipedia",
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Doug_Gillard",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
@@ -7155,44 +7138,6 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:33:09.776Z"
-    },
-    "dozee": {
-      "id": "dozee",
-      "name": "Dozee",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Dozee%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:33:11.737Z"
     },
     "drawing-heaven": {
       "id": "drawing-heaven",
@@ -9832,44 +9777,6 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:35:46.690Z"
     },
-    "haircut": {
-      "id": "haircut",
-      "name": "Haircut",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Haircut%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:35:58.266Z"
-    },
     "half-rotten-goddess": {
       "id": "half-rotten-goddess",
       "name": "Half Rotten Goddess",
@@ -10249,44 +10156,6 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:36:16.057Z"
-    },
-    "hollow-minds-noon": {
-      "id": "hollow-minds-noon",
-      "name": "Hollow Minds (noon)",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Hollow%20Minds%20(noon)%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:36:27.561Z"
     },
     "holly-humberstone": {
       "id": "holly-humberstone",
@@ -10982,7 +10851,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/realcoleworld/",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "facebook",
@@ -11003,14 +10874,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCnc6db-y3IU7CkT_yeVXdVg",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "soundcloud",
           "label": "SoundCloud",
           "url": "https://soundcloud.com/j-cole",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "discogsArtist",
@@ -11031,21 +10906,27 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "deezer",
           "label": "Deezer",
           "url": "https://www.deezer.com/us/artist/339209",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "tidal",
           "label": "Tidal",
           "url": "https://tidal.com/artist/3652822",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "wikipedia",
@@ -11251,7 +11132,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/jackjohnson/",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "facebook",
@@ -11272,21 +11155,27 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCGtoY2YzP_nP54-aRK8s7VA",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "youtube",
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCRa17gWCZmdxEymLdXQhj9A",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "soundcloud",
           "label": "SoundCloud",
           "url": "https://soundcloud.com/jackjohnsonmusic",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "discogsArtist",
@@ -11300,14 +11189,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/3GBPw9NK25X1Wt2OUvOwY3",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "deezer",
           "label": "Deezer",
           "url": "https://www.deezer.com/us/artist/896",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "tidal",
@@ -13359,7 +13252,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/liltunechi/",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "facebook",
@@ -13380,28 +13275,36 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "TikTok",
           "url": "https://www.tiktok.com/@lilwayne",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "youtube",
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCO9zJy7HWrIS3ojB4Lr7Yqw",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "youtube",
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCEOhcOACopL42xyOBIv1ekg",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "soundcloud",
           "label": "SoundCloud",
           "url": "https://soundcloud.com/lilwayne",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "discogsArtist",
@@ -13422,7 +13325,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/55Aa2cqylxrFIXC767Z865",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "deezer",
@@ -13518,14 +13423,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/5GA6j57yIPCBrWk1lTvF9o",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "wikipedia",
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Lime_Garden",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
@@ -13664,60 +13573,6 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:40:15.162Z"
-    },
-    "lofi-legs": {
-      "id": "lofi-legs",
-      "name": "Lofi Legs",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "San Francisco",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Lofi%20Legs%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        },
-        {
-          "type": "musicbrainz",
-          "label": "MusicBrainz",
-          "url": "https://musicbrainz.org/artist/c32f6b2e-6868-408b-a81a-2db9e81dc259",
-          "confidence": "likely",
-          "source": "musicbrainz"
-        }
-      ],
-      "evidence": [
-        {
-          "url": "https://musicbrainz.org/artist/c32f6b2e-6868-408b-a81a-2db9e81dc259",
-          "note": "Locality inferred from MusicBrainz during review reconsideration."
-        },
-        {
-          "url": "https://musicbrainz.org/artist/c32f6b2e-6868-408b-a81a-2db9e81dc259",
-          "note": "MusicBrainz returned a high-score artist match for \"Lofi Legs\"."
-        }
-      ],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:40:16.914Z"
     },
     "lords-of-acid": {
       "id": "lords-of-acid",
@@ -15268,44 +15123,6 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:42:41.349Z"
-    },
-    "mint-glaze": {
-      "id": "mint-glaze",
-      "name": "Mint Glaze",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Mint%20Glaze%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:42:43.101Z"
     },
     "miscomings": {
       "id": "miscomings",
@@ -17434,44 +17251,6 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:45:22.687Z"
     },
-    "patchwork-promenade-5pm": {
-      "id": "patchwork-promenade-5pm",
-      "name": "Patchwork Promenade (5pm)",
-      "aliases": [],
-      "genres": [
-        "unknown"
-      ],
-      "locality": "unknown",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
-      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
-      "supportPriority": [],
-      "links": [
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Patchwork%20Promenade%20(5pm)%22%20band%20music",
-          "confidence": "research",
-          "source": "imported"
-        }
-      ],
-      "evidence": [],
-      "source": {
-        "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.780Z",
-        "appearances": [
-          {
-            "eventId": "2026-05-30-20-spot-patchwork-promenade-5pm",
-            "date": "2026-05-30",
-            "venue": "20 Spot",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          }
-        ]
-      },
-      "reconsideredAt": "2026-05-28T00:45:26.137Z"
-    },
     "pateka": {
       "id": "pateka",
       "name": "Pateka",
@@ -18838,7 +18617,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Redveil",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
@@ -19690,7 +19471,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Facebook",
           "url": "https://www.facebook.com/samiamband",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "twitter",
@@ -19711,14 +19494,18 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/7eNSfWxOEWP2B2QQgHGBoo",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
           "type": "wikipedia",
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Samiam",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
@@ -24802,7 +24589,9 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Tony_Jay",
           "confidence": "likely",
-          "source": "wikidata"
+          "source": "wikidata",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [
