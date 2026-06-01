@@ -30,11 +30,22 @@ http://127.0.0.1:4173/review.html
 When network access is available, run:
 
 ```powershell
-node scripts/import-thelist.mjs
-node scripts/build-artist-store.mjs
+.\update-shows
 ```
 
-The page loads `data/sample-events.js` first and then `data/imported-events.js` when it exists, so imported data automatically replaces the small sample set.
+That command retrieves current listings from The List, then rebuilds the artist and venue stores while preserving records you have already reviewed. By default it imports shows dated today or later. To import from The List's own last-updated date instead, run:
+
+```powershell
+.\update-shows --from=updated
+```
+
+To import a specific window start:
+
+```powershell
+.\update-shows --from=2026-06-01
+```
+
+The page loads `data/sample-events.js` first and then `data/imported-events.js` when it exists, so imported data automatically replaces the small sample set. Show Explorer also hides past shows in the browser, so older imported records do not linger on the public-facing calendar.
 
 ## Review Artists
 
@@ -107,6 +118,20 @@ To clean up stored link statuses after imports or manual edits:
 
 ```powershell
 node scripts/normalize-artist-store.mjs
+```
+
+To refine only artists with shows coming up soon:
+
+```powershell
+.\refine-upcoming --days=14
+```
+
+That command looks at imported events in the next date window, skips artists that are already `likely` or `verified`, and reuses the conservative review reconsideration checks for the remaining upcoming artists.
+
+To preview the queue without changing artist data:
+
+```powershell
+.\refine-upcoming --days=14 --list-only
 ```
 
 Discogs links can be labeled with artist/alias/legal-name context when the public Discogs API is reachable:

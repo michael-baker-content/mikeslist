@@ -2,6 +2,10 @@ import { writeFile } from "node:fs/promises";
 
 const SOURCE_URL = "https://jon.luini.com/thelist/date.html";
 const OUTPUT_PATH = new URL("../data/imported-events.js", import.meta.url);
+const args = new Map(process.argv.slice(2).map((arg) => {
+  const [key, ...valueParts] = arg.replace(/^--/, "").split("=");
+  return [key, valueParts.join("=") || "true"];
+}));
 
 const monthNames = new Map([
   ["jan", "01"],
@@ -62,6 +66,23 @@ function extractUpdatedDate(html) {
   const month = monthNames.get(match[1].toLowerCase());
   if (!month) return "";
   return `${match[3]}-${month}-${match[2].padStart(2, "0")}`;
+}
+
+function todayString() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function importFromDate(updatedDate) {
+  if (args.has("all")) return "";
+  const from = args.get("from");
+  if (from === "updated") return updatedDate;
+  if (from === "today" || !from) return todayString();
+  if (/^\d{4}-\d{2}-\d{2}$/.test(from)) return from;
+  throw new Error(`Invalid --from value "${from}". Use today, updated, or YYYY-MM-DD.`);
 }
 
 function extractDate(cellHtml, currentMonth, currentYear) {
@@ -210,8 +231,9 @@ if (!response.ok) {
 
 const html = await response.text();
 const updatedDate = extractUpdatedDate(html);
+const fromDate = importFromDate(updatedDate);
 const events = parseEvents(html).filter((event) => {
-  return !updatedDate || event.date >= updatedDate;
+  return !fromDate || event.date >= fromDate;
 }).sort((a, b) => {
   return a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue);
 });
@@ -219,4 +241,5 @@ const payload = `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(events, null, 2)
 await writeFile(OUTPUT_PATH, payload, "utf8");
 
 const artists = events.flatMap((event) => event.artists);
-console.log(`Imported ${events.length} upcoming events and ${artists.length} artist slots to ${OUTPUT_PATH.pathname}`);
+const fromLabel = fromDate ? ` from ${fromDate}` : "";
+console.log(`Imported ${events.length} events${fromLabel} and ${artists.length} artist slots to ${OUTPUT_PATH.pathname}`);

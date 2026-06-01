@@ -138,7 +138,10 @@ for (const event of events) {
 
 const payload = {
   generatedAt: new Date().toISOString(),
-  venues: Object.fromEntries(Object.entries(venues).sort(([a], [b]) => a.localeCompare(b)))
+  venues: Object.fromEntries(Object.entries({
+    ...(existing.venues || {}),
+    ...venues
+  }).sort(([a], [b]) => a.localeCompare(b)))
 };
 
 await writeFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");

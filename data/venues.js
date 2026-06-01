@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-05-30T09:19:33.713Z",
+  "generatedAt": "2026-06-01T03:30:41.150Z",
   "venues": {
     "20-spot": {
       "id": "20-spot",
@@ -1460,36 +1460,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.146Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-black-cat-joe-warner",
-            "date": "2026-05-27",
-            "title": "Joe Warner / Dante 'Taz' Roberson / Michael 'Tiny' Lindsey / Angelo Luster",
-            "details": "21+ $10 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-black-cat-maralisa-and-the-starlight-martinis",
-            "date": "2026-05-28",
-            "title": "Maralisa & The Starlight Martinis",
-            "details": "21+ $30 7pm and 9:15pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-black-cat-brandon-goldberg",
-            "date": "2026-05-29",
-            "title": "Brandon Goldberg",
-            "details": "21+ 7pm and 9:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-black-cat-brandon-goldberg",
-            "date": "2026-05-30",
-            "title": "Brandon Goldberg",
-            "details": "21+ 7pm and 9:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-black-cat-brandon-goldberg",
             "date": "2026-05-31",
@@ -1498,12 +1470,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:00:31.650Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
       }
     },
     "blue-lagoon": {
@@ -1790,43 +1756,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.147Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-bottom-of-the-hill-accessory-solo",
-            "date": "2026-05-27",
-            "title": "Accessory (solo) / Facing",
-            "details": "a/a $16/$20 7:30pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-bottom-of-the-hill-supersuckers",
-            "date": "2026-05-28",
-            "title": "Supersuckers / Scott H. Biram / Hangtown",
-            "details": "21+ $20/$25 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-bottom-of-the-hill-chip-kinman-and-band",
-            "date": "2026-05-29",
-            "title": "Chip Kinman & Band / Steakhouse / Temple Beautiful Band",
-            "details": "21+ $20 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-bottom-of-the-hill-leanna-firestone",
-            "date": "2026-05-30",
-            "title": "Leanna Firestone / Abby Cates",
-            "details": "a/a $22/$25 7:30pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-bottom-of-the-hill-dark-satellite",
-            "date": "2026-05-30",
-            "title": "Dark Satellite / Alvie & The Breakfast Pigs / Bloodsugar",
-            "details": "21+ $13/$15 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess",
             "date": "2026-05-31",
@@ -1842,12 +1773,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:04:58.002Z",
-      "summarySource": {
-        "label": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q4949139",
-        "source": "wikidata"
       }
     },
     "brick-and-mortar": {
@@ -1993,22 +1918,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.147Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-brick-and-mortar-the-scratch",
-            "date": "2026-05-27",
-            "title": "The Scratch / Dug",
-            "details": "a/a $27.58 (under 21 plus $5) 8pm/9pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-brick-and-mortar-sekou",
-            "date": "2026-05-27",
-            "title": "Sekou",
-            "details": "a/a (under 21 plus $5) 8pm/9pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-brick-and-mortar-fun-lovin-criminals",
             "date": "2026-05-31",
@@ -2017,13 +1928,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.brickandmortarmusic.com/",
-        "source": "official"
-      },
-      "updatedAt": "2026-05-28T21:06:28.554Z"
+      }
     },
     "buddy": {
       "id": "buddy",
@@ -2876,51 +2781,17 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.147Z",
         "appearances": [
-          {
-            "eventId": "2026-05-28-catalyst-allah-las",
-            "date": "2026-05-28",
-            "title": "Allah-Las",
-            "details": "16+ $40.55 8pm/9pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-catalyst-gza",
-            "date": "2026-05-29",
-            "title": "GZA / J.Lately",
-            "details": "16+ $45.95 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-catalyst-eagles-of-death-metal",
             "date": "2026-05-31",
             "title": "Eagles Of Death Metal / Paradise Vultures",
             "details": "16+ $45.71 ($54.54 balcony) 8pm/9pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-catalyst-atrium-sloppy-seconds",
-            "date": "2026-05-27",
-            "title": "Sloppy Seconds",
-            "details": "16+ $30.88 6:30pm/7:30pm # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-catalyst-atrium-pradabagshawty",
-            "date": "2026-05-30",
-            "title": "Pradabagshawty",
-            "details": "16+ $25.48 8:30pm/9pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/The_Catalyst_(nightclub)",
-        "source": "wikipedia"
-      },
-      "updatedAt": "2026-05-28T22:22:30.661Z"
+      }
     },
     "catalyst-atrium": {
       "id": "catalyst-atrium",
@@ -3157,83 +3028,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-chapel-jacob-fred-jazz-odyssey",
-            "date": "2026-05-27",
-            "title": "Jacob Fred Jazz Odyssey",
-            "details": "a/a $34.64 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-chapel-osees",
-            "date": "2026-05-27",
-            "title": "Osees / Traps PS",
-            "details": "7:30pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-chapel-isobel-campbell",
-            "date": "2026-05-28",
-            "title": "Isobel Campbell / Pink Mountaintops",
-            "details": "a/a 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-chapel-osees",
-            "date": "2026-05-28",
-            "title": "Osees / Traps PS",
-            "details": "7:30pm/8:30pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-chapel-theo-katzman-solo",
-            "date": "2026-05-28",
-            "title": "Theo Katzman (solo)",
-            "details": "a/a $58.14 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-chapel-allah-las",
-            "date": "2026-05-29",
-            "title": "Allah-Las / Sam Blasucci",
-            "details": "a/a 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-chapel-osees",
-            "date": "2026-05-29",
-            "title": "Osees / Traps PS",
-            "details": "7:30pm/8:30pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-chapel-the-seagulls-5pm",
-            "date": "2026-05-30",
-            "title": "The Seagulls (5pm) / District 8 / Hollyfrancis / The Towns / Normcore / Fast Disaster (noon)",
-            "details": "a/a free noon (SF Porchfest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-chapel-allah-las",
-            "date": "2026-05-30",
-            "title": "Allah-Las / Sam Blasucci",
-            "details": "a/a 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-chapel-failure",
-            "date": "2026-05-30",
-            "title": "Failure / Quannnic",
-            "details": "a/a $46 ($293 vip) 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-chapel-marc-and-the-casuals",
             "date": "2026-05-31",
             "title": "Marc And The Casuals / The West Coast Spiritual Corinthians / dj Lead Teddy",
             "details": "a/a $33.40 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-31-chapel-the-crosseyed",
+            "date": "2026-05-31",
+            "title": "The Crosseyed",
+            "details": "a/a $27.22 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -3258,13 +3066,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Official",
-        "url": "https://thechapelsf.com/",
-        "source": "official"
-      },
-      "updatedAt": "2026-05-28T22:27:28.133Z"
+      }
     },
     "civic-auditorium": {
       "id": "civic-auditorium",
@@ -3854,43 +3656,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.147Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-cornerstone-deceits",
-            "date": "2026-05-27",
-            "title": "Deceits / Past Self",
-            "details": "a/a $28.81 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-cornerstone-being-as-an-ocean",
-            "date": "2026-05-28",
-            "title": "Being As An Ocean / Lagrimas / Commoner",
-            "details": "a/a $33.43 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-cornerstone-six-feet-under",
-            "date": "2026-05-28",
-            "title": "Six Feet Under / Wormhole",
-            "details": "6pm/7pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-cornerstone-jiluka",
-            "date": "2026-05-29",
-            "title": "Jiluka",
-            "details": "a/a 6:30pm/7:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-cornerstone-cd-ghost",
-            "date": "2026-05-30",
-            "title": "CD Ghost / Midi Memory",
-            "details": "a/a $28.81 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-cornerstone-pradabagshawty",
             "date": "2026-05-31",
@@ -3906,12 +3673,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T04:47:11.799Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://cornerstoneberkeley.com/",
-        "source": "official"
       }
     },
     "crepe-place": {
@@ -4399,15 +4160,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.147Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-dna-lounge-male-tears",
-            "date": "2026-05-27",
-            "title": "Male Tears / Sleek Teeth",
-            "details": "a/a $20/$28 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-dna-lounge-living-dead-girl",
             "date": "2026-05-31",
@@ -4416,12 +4170,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:22:39.843Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.dnalounge.com/",
-        "source": "official"
       }
     },
     "down-home-music": {
@@ -4538,15 +4286,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.148Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-down-home-music-ex-capitals",
-            "date": "2026-05-27",
-            "title": "Ex Capitals",
-            "details": "a/a 2pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-down-home-music-record-swap",
             "date": "2026-05-31",
@@ -4555,12 +4296,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T22:49:49.772Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
       }
     },
     "eli": {
@@ -4896,50 +4631,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-fillmore-courtney-barnet",
-            "date": "2026-05-27",
-            "title": "Courtney Barnet / Zoh Amba",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-fillmore-slow-pulp",
-            "date": "2026-05-27",
-            "title": "Slow Pulp / Snuggle",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-fillmore-holly-humberstone",
-            "date": "2026-05-28",
-            "title": "Holly Humberstone",
-            "details": "a/a 8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-fillmore-courtney-barnet",
-            "date": "2026-05-28",
-            "title": "Courtney Barnet / Zoh Amba",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-fillmore-dilated-peoples",
-            "date": "2026-05-29",
-            "title": "Dilated Peoples",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-fillmore-joshua-slone",
-            "date": "2026-05-30",
-            "title": "Joshua Slone / Jake Minch",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-06-fillmore-french-79",
             "date": "2027-05-06",
@@ -4948,12 +4641,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T22:40:08.366Z",
-      "summarySource": {
-        "label": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q1348537",
-        "source": "wikidata"
       }
     },
     "finnish-hall": {
@@ -4995,7 +4682,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.148Z",
         "appearances": [
           {
             "eventId": "2026-05-31-finnish-hall-otherworld-ensemble",
@@ -5005,8 +4692,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T04:58:07.694Z"
+      }
     },
     "fireside-lounge": {
       "id": "fireside-lounge",
@@ -5276,29 +4962,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-fox-theater-the-last-dinner-party",
-            "date": "2026-05-27",
-            "title": "The Last Dinner Party / Automatic",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-fox-theater-social-distortion",
-            "date": "2026-05-29",
-            "title": "Social Distortion / Descendants / The Chats",
-            "details": "a/a $78.60 6pm/7pm # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-fox-theater-shpongle",
-            "date": "2026-05-30",
-            "title": "Shpongle",
-            "details": "a/a $66.75 7pm/8pm # (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-fox-theater-shpongle",
             "date": "2026-05-31",
@@ -5314,12 +4979,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:40:59.940Z",
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Fox_Oakland_Theatre",
-        "source": "wikipedia"
       }
     },
     "gilman": {
@@ -5463,36 +5122,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.148Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-gilman-worst-party-ever",
-            "date": "2026-05-27",
-            "title": "Worst Party Ever / Camp Ghost / Robo Pumpkin / Jordan Giardino",
-            "details": "a/a $18/$20 6pm/6:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-gilman-mary-jane-mafia",
-            "date": "2026-05-28",
-            "title": "Mary Jane Mafia / The Insomniacs / Green For A Day / Green 182 / Jacob The Horse / Arcade 9 / The Famous",
-            "details": "a/a $20/$25 6:30pm (Green Day cover band night)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-gilman-grosero",
-            "date": "2026-05-29",
-            "title": "Grosero / Las Ratas / Aruspex / Ante / Warning / Different Method",
-            "details": "a/a $15 ($25 2 nights) 6pm/6:30pm til 10pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-gilman-battle-flask",
-            "date": "2026-05-30",
-            "title": "Battle Flask / Choke / Infadel / Aruspex / Happy Society / Postnasal Drainage / Crohns / Martirio",
-            "details": "a/a $15 ($25 2 nights) 6pm/6:30pm til 10pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-gilman-small-crush",
             "date": "2026-05-31",
@@ -5501,12 +5132,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:46:42.828Z",
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/924_Gilman_Street",
-        "source": "wikipedia"
       }
     },
     "great-american-music-hall": {
@@ -5684,50 +5309,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-great-american-music-hall-sleepytime-gorilla-museum",
-            "date": "2026-05-27",
-            "title": "Sleepytime Gorilla Museum / Inner Ear Brigae / Lunar Mistake",
-            "details": "a/a $25/$30 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-great-american-music-hall-wheelchair-sports-camp",
-            "date": "2026-05-27",
-            "title": "Wheelchair Sports Camp / Death Hymn Number 9 / Voodoo 5 / Vic Bondi And His Issues / Chrisis Actor",
-            "details": "a/a $27/$30 6pm/7pm (Alternative Tentacles Tentacle Fest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-great-american-music-hall-thaiboy-digital",
-            "date": "2026-05-28",
-            "title": "Thaiboy Digital / Whitearmor",
-            "details": "a/a $25/$30/$35 7pm/8pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-great-american-music-hall-forbidden",
-            "date": "2026-05-29",
-            "title": "Forbidden / Cynic / Doomsday / Cultural Warefare",
-            "details": "a/a $35/$40 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-great-american-music-hall-black-moth-super-rainbow",
-            "date": "2026-05-30",
-            "title": "Black Moth Super Rainbow / Giant Day",
-            "details": "a/a $29.50/$35 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-great-american-music-hall-beth-orton",
-            "date": "2026-05-30",
-            "title": "Beth Orton",
-            "details": "a/a $39.50/$45 7pm/8pm (seated)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-great-american-music-hall-of-montreal",
             "date": "2026-05-31",
@@ -5743,12 +5326,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:49:31.364Z",
-      "summarySource": {
-        "label": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q5598638",
-        "source": "wikidata"
       }
     },
     "greek-theatre": {
@@ -5932,36 +5509,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.148Z",
         "appearances": [
-          {
-            "eventId": "2026-05-29-greek-theatre-alabama-shakes",
-            "date": "2026-05-29",
-            "title": "Alabama Shakes / Nathaniel Rateliff",
-            "details": "a/a $68+ 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-greek-theatre-tori-amos",
-            "date": "2026-05-29",
-            "title": "Tori Amos / Bartees Strange",
-            "details": "a/a $64.75 7pm/8pm (mostly seated)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-greek-theatre-alabama-shakes",
-            "date": "2026-05-30",
-            "title": "Alabama Shakes / Nathaniel Rateliff",
-            "details": "a/a $68+ 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-greek-theatre-jack-johnson",
-            "date": "2026-05-30",
-            "title": "Jack Johnson / G. Love",
-            "details": "a/a 5pm/6:30pm # (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-greek-theatre-dark-star-orchestra",
             "date": "2026-05-31",
@@ -5970,12 +5519,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T22:46:58.693Z",
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Hearst_Greek_Theatre",
-        "source": "wikipedia"
       }
     },
     "guild-theater": {
@@ -6116,7 +5659,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.148Z",
         "appearances": [
           {
             "eventId": "2026-05-31-guild-theater-stu-allen",
@@ -6126,12 +5669,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T23:07:15.701Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://guildtheatre.com/",
-        "source": "official"
       }
     },
     "henry-j-kaiser-center": {
@@ -6519,50 +6056,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-hopmonk-tavern-sawyer-fredericks",
-            "date": "2026-05-27",
-            "title": "Sawyer Fredericks",
-            "details": "21+ $30.57+ 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-hopmonk-tavern-graham-parker",
-            "date": "2026-05-29",
-            "title": "Graham Parker",
-            "details": "a/a 7pm/8pm (seated)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-hopmonk-tavern-bob-schneider",
-            "date": "2026-05-29",
-            "title": "Bob Schneider / Stroke 9",
-            "details": "a/a 4pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-hopmonk-tavern-mason-jennings",
-            "date": "2026-05-30",
-            "title": "Mason Jennings",
-            "details": "a/a 4pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-hopmonk-tavern-graham-parker",
-            "date": "2026-05-30",
-            "title": "Graham Parker",
-            "details": "21+ 7pm/8pm (seated)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-hopmonk-tavern-tim-flannery-and-jake-peavy",
-            "date": "2026-05-30",
-            "title": "Tim Flannery & Jake Peavy",
-            "details": "a/a 4pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-hopmonk-tavern-eilen-jewell",
             "date": "2026-05-31",
@@ -6571,12 +6066,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T23:22:45.566Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
       }
     },
     "hotel-utah": {
@@ -6799,48 +6288,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-independent-evann-mcintosh",
-            "date": "2026-05-27",
-            "title": "Evann Mcintosh / Hugo De La Lune / Mommy Mommy / Love Spiral",
-            "details": "a/a $31.55 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-independent-wu-lyf",
-            "date": "2026-05-27",
-            "title": "Wu Lyf / Bondo",
-            "details": "18+ $2.55 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-independent-wax",
-            "date": "2026-05-28",
-            "title": "Wax / dj Hoppa / K.A.A.N. / Intuition",
-            "details": "18+ $31.55 8:30pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-independent-ray-bull",
-            "date": "2026-05-29",
-            "title": "Ray Bull / Babehoven",
-            "details": "a/a $31.55 8:30pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-independent-chasing-abbey",
-            "date": "2026-05-30",
-            "title": "Chasing Abbey",
-            "details": "18+ $34.55 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-independent-jabouke-young-white",
             "date": "2026-05-31",
             "title": "Jabouke Young-White",
             "details": "21+ $43.28 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-05-31-independent-chandol",
+            "date": "2026-05-31",
+            "title": "Chandol",
+            "details": "a/a $26.55 9pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6851,12 +6312,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T23:28:18.207Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
       }
     },
     "ivy-room": {
@@ -6990,50 +6445,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-ivy-room-spaghetti-jim-campilongo",
-            "date": "2026-05-27",
-            "title": "Spaghetti (Jim Campilongo / Sam Reeder / Scott Amendola / Mat Muntz)",
-            "details": "21+ $20 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-ivy-room-midlife-on-mars-covers",
-            "date": "2026-05-27",
-            "title": "Midlife On Mars (covers) / Cranberry Sauce (tribute)",
-            "details": "21+ $20 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-ivy-room-amor-y-powers",
-            "date": "2026-05-27",
-            "title": "Amor Y Powers / Naim Amor / Kid Congo Powers / Brad Brooks",
-            "details": "21+ $18 7pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-ivy-room-soothsayer",
-            "date": "2026-05-28",
-            "title": "Soothsayer / Bloodhum / Theya",
-            "details": "21+ $12 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-ivy-room-plunder",
-            "date": "2026-05-29",
-            "title": "Plunder / Monarch Of Roses / Grain / Dear Motorist",
-            "details": "21+ $15.24 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-ivy-room-doug-gillard",
-            "date": "2026-05-30",
-            "title": "Doug Gillard / The Bye Bye Blackbirds / Bill Sawn (solo)",
-            "details": "21+ $18 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
             "date": "2026-05-31",
@@ -7042,12 +6455,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T23:29:55.135Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.ivyroom.com",
-        "source": "official"
       }
     },
     "jax-vineyards": {
@@ -7523,15 +6930,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-la-onda-mana",
-            "date": "2026-05-30",
-            "title": "Mana / Christian Nodal / Los Tucanes De Tijuana / Los Fabulosos Cadillacs / Molotov / Hermanos Espinoza / Chiquis / Los Primos Del Este / Kinky / Ozomatli / Daniel Me Estas Matando / Arath Herce / Delilah / Dreah",
-            "details": "a/a 11:30am",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-la-onda-ivan-cornejo",
             "date": "2026-05-31",
@@ -7540,8 +6940,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:26:21.660Z"
+      }
     },
     "lakeshore-ave-near-mandana-blvd": {
       "id": "lakeshore-ave-near-mandana-blvd",
@@ -7686,7 +7085,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
           {
             "eventId": "2026-05-31-lost-church-the-tofanas",
@@ -7696,8 +7095,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:28:36.227Z"
+      }
     },
     "love-and-luxe": {
       "id": "love-and-luxe",
@@ -7834,7 +7232,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
           {
             "eventId": "2026-05-31-luther-burbank-center-the-stray-cats",
@@ -7844,8 +7242,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:29:41.148Z"
+      }
     },
     "make-out-room": {
       "id": "make-out-room",
@@ -8357,18 +7754,17 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.590Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-moe-s-alley-the-darts-record-release",
-            "date": "2026-05-29",
-            "title": "The Darts (record release) / Service / The Hellflowers",
-            "details": "21+ $18/$23 7:30pm/8:30pm",
+            "eventId": "2027-05-19-moe-s-alley-buck-meek",
+            "date": "2027-05-19",
+            "title": "Buck Meek / Kisser",
+            "details": "21+ $33.86 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:34:41.710Z"
+      }
     },
     "mountain-winery": {
       "id": "mountain-winery",
@@ -8497,92 +7893,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-mountain-winery-iration",
-            "date": "2026-05-27",
-            "title": "Iration / Tribal Seeds / Artikal Sound System",
-            "details": "a/a 4:30pm/6:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-mountain-winery-trevor-noah",
-            "date": "2026-05-27",
-            "title": "Trevor Noah",
-            "details": "a/a 6pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-mountain-winery-ledisi",
-            "date": "2026-05-27",
-            "title": "Ledisi",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-mountain-winery-croce-plays-croce",
-            "date": "2026-05-27",
-            "title": "Croce Plays Croce / Leo Kottke",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-mountain-winery-kaleo",
-            "date": "2026-05-28",
-            "title": "Kaleo / Dawes",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-mountain-winery-trevor-noah",
-            "date": "2026-05-28",
-            "title": "Trevor Noah",
-            "details": "a/a 6pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-mountain-winery-fia",
-            "date": "2026-05-28",
-            "title": "Fia / Western Conference",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-mountain-winery-foreigner",
-            "date": "2026-05-28",
-            "title": "Foreigner",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-mountain-winery-vanilla-ice",
-            "date": "2026-05-29",
-            "title": "Vanilla Ice / Rob Base / Young MC / C&C Music Factory",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-mountain-winery-bill-burr",
-            "date": "2026-05-30",
-            "title": "Bill Burr",
-            "details": "a/a 6pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-mountain-winery-diana-ross",
-            "date": "2026-05-30",
-            "title": "Diana Ross",
-            "details": "a/a 5:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-mountain-winery-pat-benatar",
-            "date": "2026-05-30",
-            "title": "Pat Benatar / Neil Giraldo",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-mountain-winery-robby-krieger",
             "date": "2026-05-31",
@@ -8591,12 +7903,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:35:30.375Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.mountainwinery.com/",
-        "source": "official"
       }
     },
     "neck-of-the-woods": {
@@ -8718,25 +8024,17 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-neck-of-the-woods-pocket-full-of-crumbs",
-            "date": "2026-05-27",
-            "title": "Pocket Full Of Crumbs / Seko / One Hundred Angel",
-            "details": "a/a $15 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-neck-of-the-woods-blood-club",
-            "date": "2026-05-30",
-            "title": "Blood Club / Future Nobodies / Heels",
-            "details": "a/a $18/$25 7pm",
+            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "date": "2026-05-31",
+            "title": "September Is The Only Time I Dont Think Of You / Noragami / Losing Streak / Like Eating Glass",
+            "details": "a/a $19 6pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:36:33.403Z"
+      }
     },
     "nikko": {
       "id": "nikko",
@@ -9092,7 +8390,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
           {
             "eventId": "2026-05-31-pavilion-lil-wayne",
@@ -9100,21 +8398,8 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Lil Wayne / The Game / 2 Chainz",
             "details": "a/a $40.50+ 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-paviliion-kesha",
-            "date": "2026-05-27",
-            "title": "Kesha / Chromeo / Sizzy Rocket",
-            "details": "a/a $35+ ($100.45 ga pit) 7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:45:14.266Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.toyotapavilionatconcord.com/",
-        "source": "official"
       }
     },
     "phoenix-theater": {
@@ -9485,22 +8770,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-regency-ballroom-aaron-hibell",
-            "date": "2026-05-27",
-            "title": "Aaron Hibell",
-            "details": "18+ 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-regency-ballroom-dj-arjun-rampal",
-            "date": "2026-05-29",
-            "title": "dj Arjun Rampal",
-            "details": "18+ 9pm/9:30pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-18-regency-ballroom-blue-october",
             "date": "2027-05-18",
@@ -9509,8 +8780,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:48:32.401Z"
+      }
     },
     "rickshaw-stop": {
       "id": "rickshaw-stop",
@@ -9635,69 +8905,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-rickshaw-stop-otha",
-            "date": "2026-05-27",
-            "title": "Otha",
-            "details": "a/a $20/$25 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-rickshaw-stop-quinn-xcii",
-            "date": "2026-05-28",
-            "title": "Quinn XCII",
-            "details": "a/a $50/$60 ($125 vip) 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-rickshaw-stop-panic-shack",
-            "date": "2026-05-28",
-            "title": "Panic Shack",
-            "details": "a/a $15/$18 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-rickshaw-stop-my-new-band-believe",
-            "date": "2026-05-28",
-            "title": "My New Band Believe",
-            "details": "a/a $20/$25 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-rickshaw-stop-samiam",
-            "date": "2026-05-29",
-            "title": "Samiam / The Flatliners",
-            "details": "a/a $25/$30 7pm/8pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-rickshaw-stop-witch-whores-of-satan",
-            "date": "2026-05-29",
-            "title": "Witch Whores Of Satan / Meathook And The Vital Organs / Puppet Fister Theater",
-            "details": "a/a $13/$16 8pm/8:45pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-rickshaw-stop-mini-trees",
-            "date": "2026-05-29",
-            "title": "Mini Trees",
-            "details": "a/a $22/$22 8pm/8:45pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-rickshaw-stop-child",
-            "date": "2026-05-30",
-            "title": "Child / Thorn / El Kabong",
-            "details": "a/a $10/$15 2pm/3pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-rickshaw-stop-marietta",
             "date": "2026-05-31",
-            "title": "Marietta",
-            "details": "a/a 7pm/7:45pm",
+            "title": "Marietta / Snowing / Awakebutstillinbed",
+            "details": "a/a 7pm/7:45pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9708,8 +8922,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:49:21.023Z"
+      }
     },
     "rio-theater": {
       "id": "rio-theater",
@@ -9945,29 +9158,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-ritz-agent-orange",
-            "date": "2026-05-27",
-            "title": "Agent Orange / The Drowns",
-            "details": "a/a $25.68 8pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-ritz-outta-pocket",
-            "date": "2026-05-28",
-            "title": "Outta Pocket / Fatal Realm / Eightfold Path / Order Of Elimination",
-            "details": "a/a $20 6pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-ritz-the-flatliners",
-            "date": "2026-05-30",
-            "title": "The Flatliners / Samiam / Strangelight",
-            "details": "a/a $25/$30 7pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
             "date": "2026-05-31",
@@ -9983,12 +9175,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:51:20.752Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://theritzsanjose.com/",
-        "source": "official"
       }
     },
     "roxie-movie-house": {
@@ -11178,57 +10364,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-uc-theater-elmiene",
-            "date": "2026-05-27",
-            "title": "Elmiene",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-uc-theater-sepultura",
-            "date": "2026-05-28",
-            "title": "Sepultura / Exodus / Biohazard / Tribal Gaze",
-            "details": "a/a $62.67 5:30pm/6:30pm # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-uc-theater-marcos-valle",
-            "date": "2026-05-28",
-            "title": "Marcos Valle",
-            "details": "a/a $46 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-uc-theater-bill-callahan",
-            "date": "2026-05-28",
-            "title": "Bill Callahan",
-            "details": "a/a $76-$43 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-uc-theater-thy-art-is-murder",
-            "date": "2026-05-29",
-            "title": "Thy Art Is Murder / Bodysnatcher / Carnifex / 200 Stab Wounds / Ingested / Gates To Hell / Bodybox",
-            "details": "a/a $45+ 3pm/4pm # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-uc-theater-ladytron",
-            "date": "2026-05-30",
-            "title": "Ladytron",
-            "details": "a/a $37.50 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-uc-theater-cymande",
-            "date": "2026-05-30",
-            "title": "Cymande",
-            "details": "a/a $35 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-uc-theater-josh-tatofi",
             "date": "2026-05-31",
@@ -11244,8 +10381,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:02:44.412Z"
+      }
     },
     "up-the-creek-records": {
       "id": "up-the-creek-records",
@@ -11330,32 +10466,17 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.149Z",
         "appearances": [
-          {
-            "eventId": "2026-05-29-up-the-creek-records-breezy-street-band",
-            "date": "2026-05-29",
-            "title": "Breezy Street Band / The Tom Petty Project",
-            "details": "a/a $15 sliding scale 6pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-up-the-creek-records-tektonic",
-            "date": "2026-05-30",
-            "title": "Tektonic / Lost Marakas / Blue Indeed",
-            "details": "a/a $15 sliding scale 6pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-up-the-creek-records-ghost-town-hangmen",
             "date": "2026-05-31",
-            "title": "Ghost Town Hangmen / Thee irty Zeros / The Tinglers",
+            "title": "Ghost Town Hangmen / Thee Dirty Zeros / The Tinglers",
             "details": "a/a $15 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:04:51.246Z"
+      }
     },
     "uptown-theater": {
       "id": "uptown-theater",
@@ -11596,7 +10717,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
           {
             "eventId": "2026-05-31-vinnie-s-day-labor",
@@ -11606,8 +10727,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:09:02.185Z"
+      }
     },
     "warfield": {
       "id": "warfield",
@@ -11732,43 +10852,16 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-05-28T02:07:23.593Z",
+        "lastImportedAt": "2026-06-01T03:30:41.150Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-warfield-killswitch-engage",
-            "date": "2026-05-27",
-            "title": "Killswitch Engage / Machine Head / Iron Reagan / Havok",
-            "details": "a/a 5:30pm/6:30pm # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-warfield-lucki",
-            "date": "2026-05-27",
-            "title": "Lucki / Sk8star",
-            "details": "6+ 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-warfield-jpegmafia",
-            "date": "2026-05-30",
-            "title": "Jpegmafia / Redveil / Matt Proxy",
-            "details": "18+ 6:30pm/7:30pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-16-warfield-valery-meladze",
             "date": "2027-05-16",
             "title": "Valery Meladze",
-            "details": "a/a 7pm/8pm #",
+            "details": "6+ 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:09:26.083Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.thewarfieldtheatre.com/",
-        "source": "official"
       }
     },
     "warriors-stadium": {

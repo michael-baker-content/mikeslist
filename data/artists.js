@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_ARTISTS = {
-  "generatedAt": "2026-05-30T09:19:33.712Z",
+  "generatedAt": "2026-06-01T04:15:47.554Z",
   "artists": {
     "2-chainz": {
       "id": "2-chainz",
@@ -58,9 +58,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Apple Music",
           "url": "https://music.apple.com/us/artist/2-chainz/435300447",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "deezer",
@@ -95,9 +93,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/2chainz/",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "linktree",
@@ -139,18 +135,14 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "SoundCloud",
           "url": "https://soundcloud.com/2chainz",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/17lzZA2AlOHwCwFALHttmp",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "ticketmaster",
@@ -171,9 +163,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "TikTok",
           "url": "https://www.tiktok.com/@2chainz",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "wikidata",
@@ -201,17 +191,14 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "YouTube",
           "url": "https://www.youtube.com/@2chainz",
           "confidence": "verified",
-          "source": "manual",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "manual"
         },
         {
           "type": "appleMusic",
           "label": "Apple Music",
           "url": "https://music.apple.com/us/artist/435300447",
           "confidence": "rejected",
-          "source": "manual",
-          "reviewNote": "Numeric Apple Music URL redirects to an existing canonical Apple Music link."
+          "source": "manual"
         },
         {
           "type": "discogs",
@@ -246,8 +233,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCcZzRX_ZDV-Sg04Ir-upxPA",
           "confidence": "rejected",
-          "source": "manual",
-          "reviewNote": "YouTube channel ID link is superseded by a human-readable YouTube handle link."
+          "source": "manual"
         }
       ],
       "evidence": [
@@ -302,7 +288,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-pavilion-lil-wayne",
@@ -1962,7 +1948,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-09-great-american-music-hall-anna-von-hausswolff",
@@ -1972,8 +1958,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:27:40.448Z"
+      }
     },
     "ante": {
       "id": "ante",
@@ -2426,7 +2411,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
@@ -2437,7 +2422,79 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:28:08.851Z"
+      "reconsideredAt": "2026-06-01T04:14:08.660Z"
+    },
+    "awakebutstillinbed": {
+      "id": "awakebutstillinbed",
+      "name": "Awakebutstillinbed",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "San Jose",
+      "confidence": "likely",
+      "summary": "stage-name of American musician Shannon Taylor",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Awakebutstillinbed%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/22e3e8c8-cee5-4104-882e-8c7aa64c775b",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q85744414",
+          "confidence": "likely",
+          "source": "review-reconsider"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Awakebutstillinbed",
+          "confidence": "likely",
+          "source": "wikidata"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/22e3e8c8-cee5-4104-882e-8c7aa64c775b",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/22e3e8c8-cee5-4104-882e-8c7aa64c775b",
+          "note": "MusicBrainz returned a high-score artist match for \"Awakebutstillinbed\"."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q85744414",
+          "note": "Wikidata exact-name match Q85744414 passed music-artist checks during review reconsideration."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.010Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-rickshaw-stop-marietta",
+            "date": "2026-05-31",
+            "venue": "Rickshaw Stop",
+            "details": "a/a 7pm/7:45pm (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:05:21.168Z"
     },
     "babehoven": {
       "id": "babehoven",
@@ -3532,7 +3589,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-18-regency-ballroom-blue-october",
@@ -3542,8 +3599,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:29:09.714Z"
+      }
     },
     "blunt-force": {
       "id": "blunt-force",
@@ -3846,7 +3902,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-15-chapel-book-of-love",
@@ -3863,8 +3919,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:29:41.795Z"
+      }
     },
     "bowling-for-soup": {
       "id": "bowling-for-soup",
@@ -4017,22 +4072,8 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.754Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.000Z",
         "appearances": [
-          {
-            "eventId": "2026-05-29-black-cat-brandon-goldberg",
-            "date": "2026-05-29",
-            "venue": "Black Cat",
-            "details": "21+ 7pm and 9:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-black-cat-brandon-goldberg",
-            "date": "2026-05-30",
-            "venue": "Black Cat",
-            "details": "21+ 7pm and 9:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-black-cat-brandon-goldberg",
             "date": "2026-05-31",
@@ -4042,7 +4083,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:30:11.459Z"
+      "reconsideredAt": "2026-06-01T04:14:13.515Z"
     },
     "breezy-street-band": {
       "id": "breezy-street-band",
@@ -4119,6 +4160,97 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:30:15.151Z"
+    },
+    "buck-meek": {
+      "id": "buck-meek",
+      "name": "Buck Meek",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Buck%20Meek%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2027-05-19-moe-s-alley-buck-meek",
+            "date": "2027-05-19",
+            "venue": "Moe's Alley",
+            "details": "21+ $33.86 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "bullywest": {
+      "id": "bullywest",
+      "name": "Bullywest",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "United States",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bullywest%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/87c67ea5-9885-4f6b-99a4-7db6ef512b58",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/87c67ea5-9885-4f6b-99a4-7db6ef512b58",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/87c67ea5-9885-4f6b-99a4-7db6ef512b58",
+          "note": "MusicBrainz returned a high-score artist match for \"Bullywest\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:05:27.205Z"
     },
     "c-and-c-music-factory": {
       "id": "c-and-c-music-factory",
@@ -4364,6 +4496,56 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:30:37.351Z"
+    },
+    "chandol": {
+      "id": "chandol",
+      "name": "Chandol",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "BoyWithUke alter ego",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chandol%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/739515bf-a23f-464d-bfc1-64d848bc2d29",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/739515bf-a23f-464d-bfc1-64d848bc2d29",
+          "note": "MusicBrainz returned a high-score artist match for \"Chandol\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-independent-chandol",
+            "date": "2026-05-31",
+            "venue": "Independent",
+            "details": "a/a $26.55 9pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:05:32.907Z"
     },
     "chapterhouse": {
       "id": "chapterhouse",
@@ -5521,6 +5703,61 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:32:03.864Z"
     },
+    "danny-ocean": {
+      "id": "danny-ocean",
+      "name": "Danny Ocean",
+      "aliases": [],
+      "genres": [
+        "reggaeton",
+        "latin"
+      ],
+      "locality": "Caracas",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "Venezuelan singer, songwriter and producer, \"Me rehúso\"/\"Baby I Won’t\"",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Danny%20Ocean%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ddb0b09f-284f-45dd-b394-05f58b0eeb76",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/ddb0b09f-284f-45dd-b394-05f58b0eeb76",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/ddb0b09f-284f-45dd-b394-05f58b0eeb76",
+          "note": "MusicBrainz returned a high-score artist match for \"Danny Ocean\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:14:19.597Z"
+    },
     "dante-taz-roberson": {
       "id": "dante-taz-roberson",
       "name": "Dante 'Taz' Roberson",
@@ -5664,9 +5901,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Facebook",
           "url": "https://www.facebook.com/darkstarorchestra",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "twitter",
@@ -5694,9 +5929,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Wikipedia",
           "url": "https://en.wikipedia.org/wiki/Dark_Star_Orchestra",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         }
       ],
       "evidence": [
@@ -5715,7 +5948,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-greek-theatre-dark-star-orchestra",
@@ -5725,8 +5958,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:32:11.775Z"
+      }
     },
     "dawes": {
       "id": "dawes",
@@ -5787,6 +6019,60 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:32:13.745Z"
+    },
+    "day-labor": {
+      "id": "day-labor",
+      "name": "Day Labor",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "Pittsburg",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "California ska punk",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Day%20Labor%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/7a1cc805-3496-4306-adc0-be33ed3f9bce",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/7a1cc805-3496-4306-adc0-be33ed3f9bce",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/7a1cc805-3496-4306-adc0-be33ed3f9bce",
+          "note": "MusicBrainz returned a high-score artist match for \"Day Labor\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:14:25.874Z"
     },
     "de-la-soul": {
       "id": "de-la-soul",
@@ -5894,7 +6180,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -5904,8 +6190,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:32:19.021Z"
+      }
     },
     "dead-river-rebels": {
       "id": "dead-river-rebels",
@@ -6621,7 +6906,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-chapel-marc-and-the-casuals",
@@ -6632,7 +6917,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:32:56.826Z"
+      "reconsideredAt": "2026-06-01T04:14:31.780Z"
     },
     "dj-little-sunny": {
       "id": "dj-little-sunny",
@@ -6659,7 +6944,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
@@ -6670,7 +6955,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:32:58.566Z"
+      "reconsideredAt": "2026-06-01T04:14:37.725Z"
     },
     "dj-omar-perez": {
       "id": "dj-omar-perez",
@@ -6697,7 +6982,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-16-chapel-book-of-love",
@@ -6707,8 +6992,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:33:00.331Z"
+      }
     },
     "dj-shindog": {
       "id": "dj-shindog",
@@ -6735,7 +7019,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-15-chapel-book-of-love",
@@ -6745,8 +7029,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:33:02.160Z"
+      }
     },
     "dj-tanke": {
       "id": "dj-tanke",
@@ -7242,7 +7525,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-cornerstone-sigh",
@@ -7252,8 +7535,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:33:15.365Z"
+      }
     },
     "dug": {
       "id": "dug",
@@ -7318,7 +7600,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-lost-church-the-tofanas",
@@ -7329,7 +7611,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:33:22.392Z"
+      "reconsideredAt": "2026-06-01T04:14:44.059Z"
     },
     "dusty-slims": {
       "id": "dusty-slims",
@@ -7417,7 +7699,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-catalyst-eagles-of-death-metal",
@@ -7427,8 +7709,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:33:27.737Z"
+      }
     },
     "effort-because-2pm": {
       "id": "effort-because-2pm",
@@ -7569,7 +7850,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-hopmonk-tavern-eilen-jewell",
@@ -7579,8 +7860,63 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      }
+    },
+    "el-gran-combo": {
+      "id": "el-gran-combo",
+      "name": "El Gran Combo",
+      "aliases": [],
+      "genres": [
+        "salsa",
+        "bolero",
+        "latin"
+      ],
+      "locality": "Puerto Rico",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22El%20Gran%20Combo%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/a34ab81e-a7e0-4d0c-b5f8-2438f104733d",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/a34ab81e-a7e0-4d0c-b5f8-2438f104733d",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/a34ab81e-a7e0-4d0c-b5f8-2438f104733d",
+          "note": "MusicBrainz returned a high-score artist match for \"El Gran Combo\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
       },
-      "reconsideredAt": "2026-05-28T00:33:33.839Z"
+      "reconsideredAt": "2026-06-01T04:14:50.917Z"
     },
     "el-guapo": {
       "id": "el-guapo",
@@ -7685,6 +8021,60 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:33:39.518Z"
+    },
+    "el-malilla": {
+      "id": "el-malilla",
+      "name": "El Malilla",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "México",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "Mexican singer",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22El%20Malilla%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/41291575-1564-48bb-974a-8c37c469116f",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/41291575-1564-48bb-974a-8c37c469116f",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/41291575-1564-48bb-974a-8c37c469116f",
+          "note": "MusicBrainz returned a high-score artist match for \"El Malilla\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:14:53.230Z"
     },
     "elmiene": {
       "id": "elmiene",
@@ -7795,6 +8185,60 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:33:46.553Z"
+    },
+    "emmanuel-cortes": {
+      "id": "emmanuel-cortes",
+      "name": "Emmanuel Cortes",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "Rogers",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "formerly stylized emmanuellcortess_",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Emmanuel%20Cortes%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/2074c77f-f3d2-440f-a32c-35a62ae851a9",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/2074c77f-f3d2-440f-a32c-35a62ae851a9",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/2074c77f-f3d2-440f-a32c-35a62ae851a9",
+          "note": "MusicBrainz returned a high-score artist match for \"Emmanuel Cortes\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:14:55.612Z"
     },
     "enhypen": {
       "id": "enhypen",
@@ -8225,6 +8669,98 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:34:02.500Z"
+    },
+    "expert-pie": {
+      "id": "expert-pie",
+      "name": "Expert Pie",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Expert%20Pie%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:14:57.875Z"
+    },
+    "eydrey": {
+      "id": "eydrey",
+      "name": "Eydrey",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "El Paso",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Eydrey%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/d6096ffd-24d2-40ef-8641-00a64e942974",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/d6096ffd-24d2-40ef-8641-00a64e942974",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/d6096ffd-24d2-40ef-8641-00a64e942974",
+          "note": "MusicBrainz returned a high-score artist match for \"Eydrey\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:03.828Z"
     },
     "facing": {
       "id": "facing",
@@ -8727,6 +9263,44 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:34:39.875Z"
     },
+    "frater-cosmic-beats": {
+      "id": "frater-cosmic-beats",
+      "name": "Frater Cosmic Beats",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Frater%20Cosmic%20Beats%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:10.370Z"
+    },
     "fred-armisen-comedy-for-musicans": {
       "id": "fred-armisen-comedy-for-musicans",
       "name": "Fred Armisen (comedy for musicans)",
@@ -8820,7 +9394,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-06-fillmore-french-79",
@@ -8830,8 +9404,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:34:45.158Z"
+      }
     },
     "fun-lovin-criminals": {
       "id": "fun-lovin-criminals",
@@ -8880,7 +9453,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-brick-and-mortar-fun-lovin-criminals",
@@ -8890,8 +9463,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:34:48.679Z"
+      }
     },
     "future-nobodies": {
       "id": "future-nobodies",
@@ -9060,7 +9632,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-up-the-creek-records-ghost-town-hangmen",
@@ -9071,7 +9643,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:35:09.610Z"
+      "reconsideredAt": "2026-06-01T04:15:12.706Z"
     },
     "giant-day": {
       "id": "giant-day",
@@ -9685,6 +10257,107 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:35:26.490Z"
     },
+    "grupo-niche": {
+      "id": "grupo-niche",
+      "name": "Grupo Niche",
+      "aliases": [],
+      "genres": [
+        "salsa",
+        "latin"
+      ],
+      "locality": "Cali",
+      "confidence": "likely",
+      "summary": "Colombian salsa band",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Grupo%20Niche%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/5436ce22-af50-4714-addc-afd5d2efc77f",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1550909",
+          "confidence": "likely",
+          "source": "review-reconsider"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://gruponiche.com/",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/933814",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/1zng9JZpblpk48IPceRWs8",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/16107",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Grupo_Niche",
+          "confidence": "likely",
+          "source": "wikidata"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/5436ce22-af50-4714-addc-afd5d2efc77f",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/5436ce22-af50-4714-addc-afd5d2efc77f",
+          "note": "MusicBrainz returned a high-score artist match for \"Grupo Niche\"."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1550909",
+          "note": "Wikidata exact-name match Q1550909 passed music-artist checks during review reconsideration."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:19.479Z"
+    },
     "gumby-s-junk": {
       "id": "gumby-s-junk",
       "name": "Gumby's Junk",
@@ -9802,7 +10475,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess",
@@ -9813,7 +10486,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:36:01.656Z"
+      "reconsideredAt": "2026-06-01T04:15:23.971Z"
     },
     "handmade-moments": {
       "id": "handmade-moments",
@@ -9852,7 +10525,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
@@ -9862,8 +10535,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:36:03.499Z"
+      }
     },
     "hangtown": {
       "id": "hangtown",
@@ -10290,7 +10962,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-the-woggles",
@@ -10300,8 +10972,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:36:35.021Z"
+      }
     },
     "hugo-de-la-lune": {
       "id": "hugo-de-la-lune",
@@ -10809,6 +11480,230 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:36:57.605Z"
     },
+    "ivan-cornejo": {
+      "id": "ivan-cornejo",
+      "name": "Ivan Cornejo",
+      "aliases": [],
+      "genres": [
+        "regional mexicano"
+      ],
+      "locality": "Lemoore",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ivan%20Cornejo%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/81a9fcc1-a954-4749-90d8-5a39001d18ad",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/81a9fcc1-a954-4749-90d8-5a39001d18ad",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/81a9fcc1-a954-4749-90d8-5a39001d18ad",
+          "note": "MusicBrainz returned a high-score artist match for \"Ivan Cornejo\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:26.995Z"
+    },
+    "j-balvin": {
+      "id": "j-balvin",
+      "name": "J Balvin",
+      "aliases": [],
+      "genres": [
+        "kolumbien",
+        "spanish",
+        "columbia",
+        "pop",
+        "spanisch",
+        "latin urban",
+        "hip hop",
+        "latin pop"
+      ],
+      "locality": "Medellín",
+      "confidence": "likely",
+      "summary": "Colombian singer",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22J%20Balvin%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q966845",
+          "confidence": "likely",
+          "source": "review-reconsider"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://jbalvin.com",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jbalvin/",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JBalvinOficial",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/JBALVIN",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@jbalvin",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt-k6JwNWHMXDBGm9IYHdsg",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/J-Balvin-Official",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/3460330",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/3460335",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/1vyhD5VmyZ7KMfW5gqLgo5",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/4860761",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/5026911",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "tidal",
+          "label": "Tidal",
+          "url": "https://tidal.com/artist/5054713",
+          "confidence": "likely",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/J_Balvin",
+          "confidence": "likely",
+          "source": "wikidata"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/5bdeb32d-56a5-4b6d-a768-264101fa0a0a",
+          "note": "MusicBrainz returned a high-score artist match for \"J Balvin\"."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q966845",
+          "note": "Wikidata exact-name match Q966845 passed music-artist checks during review reconsideration."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:29.284Z"
+    },
     "j-cole": {
       "id": "j-cole",
       "name": "J. Cole",
@@ -11065,7 +11960,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-independent-jabouke-young-white",
@@ -11076,7 +11971,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "reconsideredAt": "2026-05-28T00:37:09.499Z"
+      "reconsideredAt": "2026-06-01T04:15:31.822Z"
     },
     "jack-johnson": {
       "id": "jack-johnson",
@@ -11413,6 +12308,44 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:37:33.783Z"
     },
+    "james-heller": {
+      "id": "james-heller",
+      "name": "James Heller",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22James%20Heller%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:34.054Z"
+    },
     "jane-symmes": {
       "id": "jane-symmes",
       "name": "Jane Symmes",
@@ -11733,7 +12666,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-uc-theater-josh-tatofi",
@@ -11743,8 +12676,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:38:18.003Z"
+      }
     },
     "joshua-slone": {
       "id": "joshua-slone",
@@ -11999,6 +12931,60 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:38:24.643Z"
     },
+    "julio-caesar": {
+      "id": "julio-caesar",
+      "name": "Julio Caesar",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "Pomona",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "regional mexican music artist",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Julio%20Caesar%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/6a614063-107b-4a48-99f0-5f8366591757",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/6a614063-107b-4a48-99f0-5f8366591757",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/6a614063-107b-4a48-99f0-5f8366591757",
+          "note": "MusicBrainz returned a high-score artist match for \"Julio Caesar\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:36.320Z"
+    },
     "justb": {
       "id": "justb",
       "name": "Justb",
@@ -12042,7 +13028,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-22-chapel-justb",
@@ -12052,8 +13038,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:38:38.087Z"
+      }
     },
     "k-a-a-n": {
       "id": "k-a-a-n",
@@ -12618,6 +13603,81 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:39:01.438Z"
     },
+    "kisser": {
+      "id": "kisser",
+      "name": "Kisser",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kisser%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2027-05-19-moe-s-alley-buck-meek",
+            "date": "2027-05-19",
+            "venue": "Moe's Alley",
+            "details": "21+ $33.86 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "kitka-women-s-vocal-ensemble-s-east-bay-community-chorus": {
+      "id": "kitka-women-s-vocal-ensemble-s-east-bay-community-chorus",
+      "name": "Kitka Women's Vocal Ensemble's East Bay Community Chorus",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kitka%20Women's%20Vocal%20Ensemble's%20East%20Bay%20Community%20Chorus%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-finnish-hall-otherworld-ensemble",
+            "date": "2026-05-31",
+            "venue": "Finnish Hall",
+            "details": "a/a $15/$20 6:30pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:38.619Z"
+    },
     "kontusion": {
       "id": "kontusion",
       "name": "Kontusion",
@@ -12671,6 +13731,66 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:39:12.673Z"
+    },
+    "la-arrolladora": {
+      "id": "la-arrolladora",
+      "name": "La Arrolladora",
+      "aliases": [],
+      "genres": [
+        "regional mexicano",
+        "banda sinaloense",
+        "arrolladora limon",
+        "arrolladora",
+        "banda el limon",
+        "limon",
+        "la arrolladora"
+      ],
+      "locality": "Mazatlan",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22La%20Arrolladora%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/91398a44-7656-4e66-9ce7-caf3ca4318d8",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/91398a44-7656-4e66-9ce7-caf3ca4318d8",
+          "note": "Locality inferred from MusicBrainz during review reconsideration."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/91398a44-7656-4e66-9ce7-caf3ca4318d8",
+          "note": "MusicBrainz returned a high-score artist match for \"La Arrolladora\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:40.866Z"
     },
     "ladytron": {
       "id": "ladytron",
@@ -12845,6 +13965,44 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:39:32.767Z"
+    },
+    "last-thread": {
+      "id": "last-thread",
+      "name": "Last Thread",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Last%20Thread%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:43.135Z"
     },
     "le-mal": {
       "id": "le-mal",
@@ -13191,6 +14349,56 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:40:03.704Z"
     },
+    "like-eating-glass": {
+      "id": "like-eating-glass",
+      "name": "Like Eating Glass",
+      "aliases": [],
+      "genres": [
+        "metalcore"
+      ],
+      "locality": "unknown",
+      "confidence": "likely",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Like%20Eating%20Glass%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/890d5056-3454-407b-a51d-ab6aa9ee6c4a",
+          "confidence": "likely",
+          "source": "musicbrainz"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/890d5056-3454-407b-a51d-ab6aa9ee6c4a",
+          "note": "MusicBrainz returned a high-score artist match for \"Like Eating Glass\"."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "date": "2026-05-31",
+            "venue": "Neck of the Woods",
+            "details": "a/a $19 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "reconsideredAt": "2026-06-01T04:15:45.383Z"
+    },
     "lil-wayne": {
       "id": "lil-wayne",
       "name": "Lil Wayne",
@@ -13252,9 +14460,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Instagram",
           "url": "https://www.instagram.com/liltunechi/",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "facebook",
@@ -13275,36 +14481,28 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "TikTok",
           "url": "https://www.tiktok.com/@lilwayne",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "youtube",
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCO9zJy7HWrIS3ojB4Lr7Yqw",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "youtube",
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCEOhcOACopL42xyOBIv1ekg",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "soundcloud",
           "label": "SoundCloud",
           "url": "https://soundcloud.com/lilwayne",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "discogsArtist",
@@ -13325,9 +14523,7 @@ window.SHOW_EXPLORER_ARTISTS = {
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/55Aa2cqylxrFIXC767Z865",
           "confidence": "likely",
-          "source": "wikidata",
-          "display": true,
-          "displayPriority": "primary"
+          "source": "wikidata"
         },
         {
           "type": "deezer",
@@ -13367,7 +14563,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-pavilion-lil-wayne",
@@ -13377,8 +14573,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:40:09.309Z"
+      }
     },
     "lime-garden": {
       "id": "lime-garden",
@@ -13561,7 +14756,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-dna-lounge-living-dead-girl",
@@ -13571,8 +14766,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:40:15.162Z"
+      }
     },
     "lords-of-acid": {
       "id": "lords-of-acid",
@@ -13622,7 +14816,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -13632,8 +14826,44 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:40:20.710Z"
+      }
+    },
+    "losing-streak": {
+      "id": "losing-streak",
+      "name": "Losing Streak",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Losing%20Streak%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "date": "2026-05-31",
+            "venue": "Neck of the Woods",
+            "details": "a/a $19 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "lost-marakas": {
       "id": "lost-marakas",
@@ -13714,15 +14944,8 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.752Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-independent-evann-mcintosh",
-            "date": "2026-05-27",
-            "venue": "Independent",
-            "details": "a/a $31.55 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-gilman-small-crush",
             "date": "2026-05-31",
@@ -13731,8 +14954,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:40:46.372Z"
+      }
     },
     "lowline": {
       "id": "lowline",
@@ -14067,7 +15289,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
@@ -14077,8 +15299,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:41:11.670Z"
+      }
     },
     "magic-in-the-other": {
       "id": "magic-in-the-other",
@@ -14105,7 +15326,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ivy-room-handmade-moments",
@@ -14115,8 +15336,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:41:13.513Z"
+      }
     },
     "male-tears": {
       "id": "male-tears",
@@ -14235,7 +15455,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-chapel-marc-and-the-casuals",
@@ -14245,8 +15465,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:41:31.768Z"
+      }
     },
     "marcos-valle": {
       "id": "marcos-valle",
@@ -14386,18 +15605,17 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-rickshaw-stop-marietta",
             "date": "2026-05-31",
             "venue": "Rickshaw Stop",
-            "details": "a/a 7pm/7:45pm",
+            "details": "a/a 7pm/7:45pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:41:39.758Z"
+      }
     },
     "mars-hotel": {
       "id": "mars-hotel",
@@ -14447,7 +15665,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-guild-theater-stu-allen",
@@ -14457,8 +15675,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:41:43.305Z"
+      }
     },
     "martirio": {
       "id": "martirio",
@@ -14823,7 +16040,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-greek-theatre-dark-star-orchestra",
@@ -14833,8 +16050,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:42:26.271Z"
+      }
     },
     "mfg-midnight": {
       "id": "mfg-midnight",
@@ -15273,15 +16489,8 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.752Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-independent-evann-mcintosh",
-            "date": "2026-05-27",
-            "venue": "Independent",
-            "details": "a/a $31.55 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-gilman-small-crush",
             "date": "2026-05-31",
@@ -15290,8 +16499,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:43:01.369Z"
+      }
     },
     "monarch-of-roses": {
       "id": "monarch-of-roses",
@@ -15464,7 +16672,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -15474,8 +16682,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:43:21.468Z"
+      }
     },
     "naim-amor": {
       "id": "naim-amor",
@@ -15978,6 +17185,43 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:43:47.185Z"
     },
+    "noragami": {
+      "id": "noragami",
+      "name": "Noragami",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Noragami%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "date": "2026-05-31",
+            "venue": "Neck of the Woods",
+            "details": "a/a $19 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "normcore": {
       "id": "normcore",
       "name": "Normcore",
@@ -16206,7 +17450,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-03-fox-theater-nothing-but-thieves",
@@ -16216,8 +17460,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:44:10.265Z"
+      }
     },
     "now": {
       "id": "now",
@@ -16443,7 +17686,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-05-independent-odezenne",
@@ -16453,8 +17696,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:44:21.404Z"
+      }
     },
     "of-montreal": {
       "id": "of-montreal",
@@ -16504,7 +17746,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-great-american-music-hall-of-montreal",
@@ -16514,8 +17756,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:44:24.083Z"
+      }
     },
     "often-easy": {
       "id": "often-easy",
@@ -16554,7 +17795,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-rickshaw-stop-super-greens",
@@ -16564,8 +17805,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:44:25.835Z"
+      }
     },
     "oliverse": {
       "id": "oliverse",
@@ -16702,6 +17942,43 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:44:37.130Z"
     },
+    "orishas": {
+      "id": "orishas",
+      "name": "Orishas",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Orishas%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "osees": {
       "id": "osees",
       "name": "Osees",
@@ -16830,6 +18107,43 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:44:51.839Z"
+    },
+    "otherworld-ensemble": {
+      "id": "otherworld-ensemble",
+      "name": "Otherworld Ensemble",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Otherworld%20Ensemble%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.001Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-finnish-hall-otherworld-ensemble",
+            "date": "2026-05-31",
+            "venue": "Finnish Hall",
+            "details": "a/a $15/$20 6:30pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "outta-pocket": {
       "id": "outta-pocket",
@@ -17063,7 +18377,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-catalyst-eagles-of-death-metal",
@@ -17073,8 +18387,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:45:14.075Z"
+      }
     },
     "parra-for-cuva": {
       "id": "parra-for-cuva",
@@ -17305,6 +18618,80 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:45:29.786Z"
     },
+    "paulo-londra": {
+      "id": "paulo-londra",
+      "name": "Paulo Londra",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Paulo%20Londra%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "pedro-sampaio": {
+      "id": "pedro-sampaio",
+      "name": "Pedro Sampaio",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pedro%20Sampaio%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-la-onda-ivan-cornejo",
+            "date": "2026-05-31",
+            "venue": "La Onda",
+            "details": "a/a 11:30am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "penury": {
       "id": "penury",
       "name": "Penury",
@@ -17384,7 +18771,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess",
@@ -17394,8 +18781,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:45:52.975Z"
+      }
     },
     "pets": {
       "id": "pets",
@@ -17757,7 +19143,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-rickshaw-stop-super-greens",
@@ -17767,8 +19153,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:46:12.994Z"
+      }
     },
     "plastic-candles": {
       "id": "plastic-candles",
@@ -17990,15 +19375,8 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-catalyst-atrium-pradabagshawty",
-            "date": "2026-05-30",
-            "venue": "Catalyst Atrium",
-            "details": "16+ $25.48 8:30pm/9pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-cornerstone-pradabagshawty",
             "date": "2026-05-31",
@@ -18007,8 +19385,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:46:30.639Z"
+      }
     },
     "pretty-frankenstein": {
       "id": "pretty-frankenstein",
@@ -18119,7 +19496,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -18129,8 +19506,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:46:35.641Z"
+      }
     },
     "punk-rock-museum-nofx-pop-up-exhibit": {
       "id": "punk-rock-museum-nofx-pop-up-exhibit",
@@ -18542,7 +19918,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-down-home-music-record-swap",
@@ -18552,8 +19928,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:47:15.782Z"
+      }
     },
     "redveil": {
       "id": "redveil",
@@ -18863,7 +20238,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess",
@@ -18873,8 +20248,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:47:32.036Z"
+      }
     },
     "rob-base": {
       "id": "rob-base",
@@ -19011,7 +20385,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-mountain-winery-robby-krieger",
@@ -19021,8 +20395,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:47:41.576Z"
+      }
     },
     "robo-pumpkin": {
       "id": "robo-pumpkin",
@@ -20253,6 +21626,43 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:49:25.613Z"
     },
+    "september-is-the-only-time-i-dont-think-of-you": {
+      "id": "september-is-the-only-time-i-dont-think-of-you",
+      "name": "September Is The Only Time I Dont Think Of You",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22September%20Is%20The%20Only%20Time%20I%20Dont%20Think%20Of%20You%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.002Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "date": "2026-05-31",
+            "venue": "Neck of the Woods",
+            "details": "a/a $19 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "sepultura": {
       "id": "sepultura",
       "name": "Sepultura",
@@ -20475,15 +21885,8 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.755Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-fox-theater-shpongle",
-            "date": "2026-05-30",
-            "venue": "Fox Theater",
-            "details": "a/a $66.75 7pm/8pm # (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-05-31-fox-theater-shpongle",
             "date": "2026-05-31",
@@ -20492,8 +21895,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:49:34.669Z"
+      }
     },
     "sigh": {
       "id": "sigh",
@@ -20543,7 +21945,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-cornerstone-sigh",
@@ -20553,8 +21955,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:49:36.421Z"
+      }
     },
     "simple-plan": {
       "id": "simple-plan",
@@ -20933,7 +22334,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-great-american-music-hall-of-montreal",
@@ -20943,8 +22344,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:49:51.109Z"
+      }
     },
     "sloppy-seconds": {
       "id": "sloppy-seconds",
@@ -21191,7 +22591,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-gilman-small-crush",
@@ -21201,8 +22601,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:50:05.635Z"
+      }
     },
     "snallygaster": {
       "id": "snallygaster",
@@ -21229,7 +22628,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-gilman-small-crush",
@@ -21239,8 +22638,44 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:50:07.435Z"
+      }
+    },
+    "snowing": {
+      "id": "snowing",
+      "name": "Snowing",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Snowing%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.010Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-rickshaw-stop-marietta",
+            "date": "2026-05-31",
+            "venue": "Rickshaw Stop",
+            "details": "a/a 7pm/7:45pm (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "snuggle": {
       "id": "snuggle",
@@ -21967,7 +23402,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-guild-theater-stu-allen",
@@ -21977,8 +23412,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:50:41.224Z"
+      }
     },
     "summer-walker": {
       "id": "summer-walker",
@@ -22066,7 +23500,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.010Z",
         "appearances": [
           {
             "eventId": "2026-05-31-rickshaw-stop-super-greens",
@@ -22076,8 +23510,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:50:50.555Z"
+      }
     },
     "supersuckers": {
       "id": "supersuckers",
@@ -22142,7 +23575,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-sweet-revenge-tribute",
@@ -22152,8 +23585,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:50:54.420Z"
+      }
     },
     "swiss": {
       "id": "swiss",
@@ -22563,7 +23995,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-17-uc-theater-the-bouncing-souls",
@@ -22573,8 +24005,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:51:14.419Z"
+      }
     },
     "the-bye-bye-blackbirds": {
       "id": "the-bye-bye-blackbirds",
@@ -22688,6 +24119,43 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:51:18.070Z"
+    },
+    "the-crosseyed": {
+      "id": "the-crosseyed",
+      "name": "The Crosseyed",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Crosseyed%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.001Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-chapel-the-crosseyed",
+            "date": "2026-05-31",
+            "venue": "Chapel",
+            "details": "a/a $27.22 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "the-darts": {
       "id": "the-darts",
@@ -23055,7 +24523,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-pavilion-lil-wayne",
@@ -23065,8 +24533,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:51:39.758Z"
+      }
     },
     "the-gum-tree-girls": {
       "id": "the-gum-tree-girls",
@@ -23093,7 +24560,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-the-woggles",
@@ -23103,8 +24570,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:51:43.519Z"
+      }
     },
     "the-hellflowers": {
       "id": "the-hellflowers",
@@ -23159,6 +24625,43 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:51:45.273Z"
+    },
+    "the-hukaholix": {
+      "id": "the-hukaholix",
+      "name": "The Hukaholix",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Hukaholix%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "the-insomniacs": {
       "id": "the-insomniacs",
@@ -23599,6 +25102,43 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "reconsideredAt": "2026-05-28T00:52:14.102Z"
     },
+    "the-strange-ones": {
+      "id": "the-strange-ones",
+      "name": "The Strange Ones",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Strange%20Ones%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-vinnie-s-day-labor",
+            "date": "2026-05-31",
+            "venue": "Vinnie's",
+            "details": "21+ $5/$10 5pm (Tony Kroll Birthday)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "the-stray-cats": {
       "id": "the-stray-cats",
       "name": "The Stray Cats",
@@ -23624,7 +25164,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-luther-burbank-center-the-stray-cats",
@@ -23634,8 +25174,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:29.074Z"
+      }
     },
     "the-suicide-machines": {
       "id": "the-suicide-machines",
@@ -23681,7 +25220,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-17-uc-theater-the-bouncing-souls",
@@ -23691,8 +25230,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:30.824Z"
+      }
     },
     "the-telephone-numbers": {
       "id": "the-telephone-numbers",
@@ -23813,7 +25351,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-up-the-creek-records-ghost-town-hangmen",
@@ -23823,8 +25361,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:38.046Z"
+      }
     },
     "the-tofanas": {
       "id": "the-tofanas",
@@ -23851,7 +25388,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-lost-church-the-tofanas",
@@ -23861,8 +25398,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:39.816Z"
+      }
     },
     "the-tom-petty-project": {
       "id": "the-tom-petty-project",
@@ -24003,7 +25539,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-chapel-marc-and-the-casuals",
@@ -24013,8 +25549,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:48.580Z"
+      }
     },
     "the-woggles": {
       "id": "the-woggles",
@@ -24057,7 +25592,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.001Z",
         "appearances": [
           {
             "eventId": "2026-05-31-bottom-of-the-hill-the-woggles",
@@ -24067,8 +25602,44 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:52:50.353Z"
+      }
+    },
+    "thee-dirty-zeros": {
+      "id": "thee-dirty-zeros",
+      "name": "Thee Dirty Zeros",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Thee%20Dirty%20Zeros%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.011Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-up-the-creek-records-ghost-town-hangmen",
+            "date": "2026-05-31",
+            "venue": "Up the Creek Records",
+            "details": "a/a $15 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "thee-irty-zeros": {
       "id": "thee-irty-zeros",
@@ -24522,7 +26093,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -24532,8 +26103,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:53:06.781Z"
+      }
     },
     "tony-jay": {
       "id": "tony-jay",
@@ -25136,7 +26706,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       ],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-mountain-winery-robby-krieger",
@@ -25146,8 +26716,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:53:33.823Z"
+      }
     },
     "trivecta-b2b-kill-the-noise": {
       "id": "trivecta-b2b-kill-the-noise",
@@ -25212,18 +26781,17 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.784Z",
+        "lastImportedAt": "2026-06-01T03:30:41.011Z",
         "appearances": [
           {
             "eventId": "2027-05-16-warfield-valery-meladze",
             "date": "2027-05-16",
             "venue": "Warfield",
-            "details": "a/a 7pm/8pm #",
+            "details": "6+ 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:53:40.856Z"
+      }
     },
     "vanilla-ice": {
       "id": "vanilla-ice",
@@ -25704,7 +27272,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-27T19:32:01.756Z",
-        "lastImportedAt": "2026-05-27T20:31:07.783Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
         "appearances": [
           {
             "eventId": "2026-05-31-gilman-small-crush",
@@ -25714,8 +27282,7 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "reconsideredAt": "2026-05-28T00:54:13.003Z"
+      }
     },
     "whitearmor": {
       "id": "whitearmor",
@@ -26459,6 +28026,43 @@ window.SHOW_EXPLORER_ARTISTS = {
         ]
       },
       "reconsideredAt": "2026-05-28T00:55:21.554Z"
+    },
+    "zele": {
+      "id": "zele",
+      "name": "Zele",
+      "aliases": [],
+      "genres": [
+        "unknown"
+      ],
+      "locality": "unknown",
+      "confidence": "review",
+      "summary": "",
+      "disambiguation": "",
+      "reviewNotes": "Imported from The List. Enrichment has not been reviewed yet.",
+      "supportPriority": [],
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Zele%22%20band%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T03:30:41.001Z",
+        "lastImportedAt": "2026-06-01T03:30:41.002Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-finnish-hall-otherworld-ensemble",
+            "date": "2026-05-31",
+            "venue": "Finnish Hall",
+            "details": "a/a $15/$20 6:30pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
     },
     "zoh-amba": {
       "id": "zoh-amba",

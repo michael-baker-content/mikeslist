@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node scripts/dev-server.mjs",
     "shows": "node scripts/dev-server.mjs",
-    "dev": "node scripts/dev-server.mjs"
+    "dev": "node scripts/dev-server.mjs",
+    "import": "node scripts/import-thelist.mjs",
+    "refresh": "node scripts/refresh-thelist.mjs",
+    "refine-upcoming": "node scripts/refine-upcoming.mjs"
   }
 }

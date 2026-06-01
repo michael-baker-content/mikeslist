@@ -170,7 +170,10 @@ for (const event of events) {
 
 const payload = {
   generatedAt: new Date().toISOString(),
-  artists: Object.fromEntries(Object.entries(artists).sort(([a], [b]) => a.localeCompare(b)))
+  artists: Object.fromEntries(Object.entries({
+    ...(existing.artists || {}),
+    ...artists
+  }).sort(([a], [b]) => a.localeCompare(b)))
 };
 
 await writeFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");

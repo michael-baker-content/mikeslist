@@ -1,4 +1,5 @@
-const events = [...(window.SHOW_EXPLORER_EVENTS || [])].sort((a, b) => {
+const sourceEvents = [...(window.SHOW_EXPLORER_EVENTS || [])];
+const events = sourceEvents.filter(isUpcomingEvent).sort((a, b) => {
   return a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue);
 });
 const artistStore = window.SHOW_EXPLORER_ARTISTS?.artists || {};
@@ -29,6 +30,18 @@ const confidenceLabels = {
   likely: "likely",
   review: "review"
 };
+
+function todayString() {
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = String(today.getMonth() + 1).padStart(2, "0");
+  const day = String(today.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function isUpcomingEvent(event) {
+  return event.date >= todayString();
+}
 
 function formatDate(dateText) {
   const date = new Date(`${dateText}T12:00:00`);
