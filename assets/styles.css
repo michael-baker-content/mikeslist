@@ -26,6 +26,11 @@
   --badge-rejected: #77706a;
   --danger-line: #c48f84;
   --danger-ink: #8f2d1f;
+  --map-water: #dcefed;
+  --map-land: #fbf1da;
+  --map-latitude: #168b83;
+  --map-longitude: #d85a49;
+  --map-coast: #345f99;
   --shadow: 0 16px 38px rgba(37, 31, 23, 0.09);
 }
 
@@ -53,6 +58,11 @@
   --badge-rejected: #6d665f;
   --danger-line: #8c4f45;
   --danger-ink: #ffad9d;
+  --map-water: #102542;
+  --map-land: #21352e;
+  --map-latitude: #62d6c5;
+  --map-longitude: #ff7f6e;
+  --map-coast: #93b8df;
   --shadow: 0 16px 38px rgba(0, 0, 0, 0.32);
 }
 
@@ -408,13 +418,14 @@ main {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) auto;
+  grid-template-columns: minmax(260px, 1fr) auto auto;
   gap: 16px;
   align-items: end;
   margin-bottom: 18px;
 }
 
-.search span {
+.search span,
+.date-range span {
   display: block;
   margin-bottom: 7px;
   color: var(--muted);
@@ -422,7 +433,8 @@ main {
   font-weight: 700;
 }
 
-.search input {
+.search input,
+.date-range input {
   width: 100%;
   min-height: 46px;
   border: 1px solid var(--line);
@@ -431,6 +443,16 @@ main {
   background: var(--paper);
   color: var(--ink);
   font: inherit;
+}
+
+.date-range {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.date-range label {
+  min-width: 145px;
 }
 
 .filter-group {
@@ -521,15 +543,52 @@ main {
   border: 1px solid var(--line);
   border-radius: 8px;
   background:
-    radial-gradient(circle at 28% 38%, color-mix(in srgb, var(--blue), transparent 82%), transparent 25%),
-    radial-gradient(circle at 60% 32%, color-mix(in srgb, var(--accent), transparent 84%), transparent 27%),
-    linear-gradient(135deg, var(--card), var(--paper));
+    radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--map-coast), transparent 75%), transparent 28%),
+    radial-gradient(circle at 72% 36%, color-mix(in srgb, var(--map-latitude), transparent 78%), transparent 30%),
+    linear-gradient(135deg, var(--map-water), var(--map-land));
 }
 
-.venue-map-bg text {
+.venue-map-tint {
+  width: 100%;
+  height: 100%;
+  fill: color-mix(in srgb, var(--paper), transparent 76%);
+}
+
+.venue-map-grid {
+  vector-effect: non-scaling-stroke;
+  stroke-width: 1.2;
+  stroke-dasharray: 7 10;
+  opacity: 0.34;
+}
+
+.venue-map-latitude {
+  stroke: var(--map-latitude);
+}
+
+.venue-map-longitude {
+  stroke: var(--map-longitude);
+}
+
+.venue-map-coordinate {
+  fill: color-mix(in srgb, var(--ink), transparent 34%);
+  font: 750 13px var(--sans);
+  letter-spacing: 0;
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+.venue-map-coast {
+  fill: none;
+  stroke: var(--map-coast);
+  stroke-width: 16;
+  stroke-linecap: round;
+  opacity: 0.18;
+}
+
+.venue-map-region {
   fill: var(--muted);
   font: 800 28px var(--sans);
-  opacity: 0.36;
+  opacity: 0.28;
   pointer-events: none;
 }
 
@@ -657,6 +716,28 @@ main {
   margin-top: 4px;
 }
 
+.event-taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.meta-chip {
+  border: 1px solid color-mix(in srgb, var(--accent), var(--line) 48%);
+  border-radius: 999px;
+  padding: 6px 9px;
+  background: color-mix(in srgb, var(--accent), transparent 88%);
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.source-links {
+  margin-top: 2px;
+}
+
 .event-date {
   color: var(--ink);
   font-size: 1.5rem;
@@ -693,6 +774,10 @@ main {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--card);
+}
+
+.event-card {
+  border-style: dashed;
 }
 
 .artist-main {
@@ -909,6 +994,57 @@ main {
   padding: 22px;
   text-align: center;
   color: var(--muted);
+}
+
+.admin-layout {
+  width: min(980px, calc(100% - 32px));
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.admin-card {
+  display: grid;
+  gap: 10px;
+  min-height: 176px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition:
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+}
+
+.admin-card:hover {
+  border-color: var(--accent);
+  background: var(--card);
+  box-shadow: 0 14px 28px rgba(37, 31, 23, 0.12);
+  transform: translateY(-2px);
+}
+
+.admin-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent), transparent 62%);
+  outline-offset: 3px;
+}
+
+.admin-card strong {
+  font-size: 1.45rem;
+  line-height: 1.05;
+}
+
+.admin-card span:last-child {
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.45;
 }
 
 @media (max-width: 940px) {
@@ -1177,6 +1313,10 @@ main {
   }
 
   .summary {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-grid {
     grid-template-columns: 1fr;
   }
 

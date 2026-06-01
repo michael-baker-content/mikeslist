@@ -7,7 +7,11 @@
     "shows": "node scripts/dev-server.mjs",
     "dev": "node scripts/dev-server.mjs",
     "import": "node scripts/import-thelist.mjs",
+    "import:kalx": "node scripts/import-kalx.mjs",
+    "import:badslava": "node scripts/import-badslava.mjs",
+    "classify": "node scripts/classify-event-metadata.mjs",
     "refresh": "node scripts/refresh-thelist.mjs",
-    "refine-upcoming": "node scripts/refine-upcoming.mjs"
+    "refine-upcoming": "node scripts/refine-upcoming.mjs",
+    "enrich:badslava-venues": "node scripts/enrich-venues-badslava.mjs"
   }
 }

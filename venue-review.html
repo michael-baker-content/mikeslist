@@ -20,6 +20,7 @@
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="admin.html">Admin</a>
         <a class="source-link" href="review.html">Artists</a>
         <button id="exportButton" class="source-link button-link" type="button">Export</button>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
@@ -41,6 +42,17 @@
           <span>Search</span>
           <input id="venueSearch" type="search" placeholder="Venue, city, region, link">
         </label>
+
+        <div class="date-range" aria-label="Appearance date range">
+          <label>
+            <span>From</span>
+            <input id="fromDateInput" type="date">
+          </label>
+          <label>
+            <span>To</span>
+            <input id="toDateInput" type="date">
+          </label>
+        </div>
 
         <div class="filter-group" role="group" aria-label="Quick filters">
           <button class="chip active" type="button" data-review-filter="review">Needs review</button>
@@ -139,6 +151,18 @@
               <input id="addressInput" type="text" placeholder="Street address">
             </label>
 
+            <div class="field-grid two-column">
+              <label>
+                <span>Phone</span>
+                <input id="phoneInput" type="tel" placeholder="Venue phone">
+              </label>
+
+              <label>
+                <span>Recurring Events</span>
+                <textarea id="recurringEventsInput" rows="3" placeholder="Weekly | Tuesday | 7:00pm | Open Mic | $5 admission fee | https://source.example"></textarea>
+              </label>
+            </div>
+
             <section class="link-editor" aria-label="Merge venue">
               <div class="section-heading">
                 <h3>Combine Entries</h3>
@@ -201,7 +225,7 @@
           </form>
 
           <div class="appearances">
-            <h3>Upcoming Events</h3>
+            <h3 id="appearanceHeading">Events in Range</h3>
             <div id="appearanceList"></div>
           </div>
         </section>

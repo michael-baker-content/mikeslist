@@ -19,8 +19,7 @@
         <span></span>
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
-        <a class="source-link" href="review.html">Artists</a>
-        <a class="source-link" href="venue-review.html">Venues</a>
+        <a class="source-link" href="admin.html">Admin</a>
         <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
@@ -42,10 +41,27 @@
           <input id="searchInput" type="search" placeholder="Artist, venue, neighborhood, genre">
         </label>
 
+        <div class="date-range" aria-label="Date range">
+          <label>
+            <span>From</span>
+            <input id="fromDateInput" type="date">
+          </label>
+          <label>
+            <span>To</span>
+            <input id="toDateInput" type="date">
+          </label>
+        </div>
+
         <div class="filter-group" role="group" aria-label="Quick filters">
-          <button class="chip active" type="button" data-filter="all">All</button>
+          <button class="chip active" type="button" data-filter="default">Default</button>
+          <button class="chip" type="button" data-filter="all">All</button>
           <button class="chip" type="button" data-filter="tonight">Tonight</button>
           <button class="chip" type="button" data-filter="allAges">All ages</button>
+          <button class="chip" type="button" data-filter="karaoke">Karaoke</button>
+          <button class="chip" type="button" data-filter="trivia">Trivia</button>
+          <button class="chip" type="button" data-filter="openMic">Open mic</button>
+          <button class="chip" type="button" data-filter="poetry">Poetry</button>
+          <button class="chip" type="button" data-filter="game">Games</button>
           <button class="chip" type="button" data-filter="local">Local-first</button>
           <button class="chip" type="button" data-filter="needsReview">Needs review</button>
         </div>
@@ -101,6 +117,8 @@
           <time class="event-date"></time>
           <span class="event-venue"></span>
           <span class="event-detail"></span>
+          <div class="event-taxonomy"></div>
+          <div class="artist-links source-links"></div>
           <div class="artist-links venue-links"></div>
         </div>
         <div class="artist-list"></div>

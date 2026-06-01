@@ -31,7 +31,7 @@ function eventSummary(event) {
   return {
     eventId: event.id,
     date: event.date,
-    title: (event.artists || []).map((artist) => artist.name).join(" / "),
+    title: event.title || (event.artists || []).map((artist) => artist.name).join(" / "),
     details: event.details,
     sourceUrl: event.sourceUrl
   };
@@ -40,12 +40,13 @@ function eventSummary(event) {
 function importedLinks(event) {
   const links = [];
   if (event.venueHref) {
+    const sourceName = sourceNameForEvent(event);
     links.push({
-      type: "theList",
-      label: "The List",
+      type: sourceName === "BadSlava" ? "badSlava" : sourceName === "KALX" ? "kalx" : "theList",
+      label: sourceName,
       url: event.venueHref,
       confidence: "verified",
-      source: "imported"
+      source: sourceName.toLowerCase()
     });
   }
   links.push({
@@ -56,6 +57,10 @@ function importedLinks(event) {
     source: "imported"
   });
   return links;
+}
+
+function sourceNameForEvent(event) {
+  return event.source?.name || event.sources?.[0]?.name || "The List";
 }
 
 function confidenceRank(confidence = "candidate") {
@@ -114,7 +119,9 @@ for (const event of events) {
     venueType: previous.venueType || "unknown",
     city: previous.city || event.city || "",
     region: previous.region || "",
-    address: previous.address || "",
+    address: previous.address || event.address || "",
+    phone: previous.phone || "",
+    recurringEvents: previous.recurringEvents || [],
     geo: previous.geo || null,
     agePolicy: previous.agePolicy || "unknown",
     capacity: previous.capacity || "",

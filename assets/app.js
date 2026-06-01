@@ -1,5 +1,5 @@
 const sourceEvents = [...(window.SHOW_EXPLORER_EVENTS || [])];
-const events = sourceEvents.filter(isUpcomingEvent).sort((a, b) => {
+const events = sourceEvents.sort((a, b) => {
   return a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue);
 });
 const artistStore = window.SHOW_EXPLORER_ARTISTS?.artists || {};
@@ -7,7 +7,9 @@ const venueStore = window.SHOW_EXPLORER_VENUES?.venues || {};
 
 const state = {
   query: "",
-  filter: "all"
+  filter: "default",
+  fromDate: todayString(),
+  toDate: ""
 };
 
 const eventList = document.querySelector("#eventList");
@@ -23,6 +25,8 @@ const venueModalClose = document.querySelector("#venueModalClose");
 const eventTemplate = document.querySelector("#eventTemplate");
 const artistTemplate = document.querySelector("#artistTemplate");
 const searchInput = document.querySelector("#searchInput");
+const fromDateInput = document.querySelector("#fromDateInput");
+const toDateInput = document.querySelector("#toDateInput");
 const filterButtons = [...document.querySelectorAll("[data-filter]")];
 
 const confidenceLabels = {
@@ -31,16 +35,56 @@ const confidenceLabels = {
   review: "review"
 };
 
+const eventTypeLabels = {
+  comedy: "Comedy",
+  coverBand: "Cover band",
+  book: "Book event",
+  chess: "Chess",
+  dance: "Dance",
+  film: "Film",
+  game: "Games",
+  jam: "Jam",
+  karaoke: "Karaoke",
+  openMic: "Open mic",
+  poetry: "Poetry",
+  storytelling: "Storytelling",
+  themeNight: "Theme night",
+  trivia: "Trivia"
+};
+
+const genericEventImages = {
+  karaoke: {
+    url: "https://images.unsplash.com/photo-1741594412133-ffd6530482ad?auto=format&fit=crop&w=960&q=72",
+    alt: "People singing karaoke together"
+  },
+  openMic: {
+    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
+    alt: "Microphone on a live stage"
+  },
+  jam: {
+    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
+    alt: "Microphone on a live stage"
+  },
+  coverBand: {
+    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
+    alt: "Microphone on a live stage"
+  },
+  trivia: {
+    url: "https://images.unsplash.com/photo-1558210598-89ba75b1724e?auto=format&fit=crop&w=960&q=72",
+    alt: "People gathered in a pub"
+  },
+  game: {
+    url: "https://images.unsplash.com/photo-1558210598-89ba75b1724e?auto=format&fit=crop&w=960&q=72",
+    alt: "People gathered in a pub"
+  }
+};
+
 function todayString() {
   const today = new Date();
   const year = today.getFullYear();
   const month = String(today.getMonth() + 1).padStart(2, "0");
   const day = String(today.getDate()).padStart(2, "0");
   return `${year}-${month}-${day}`;
-}
-
-function isUpcomingEvent(event) {
-  return event.date >= todayString();
 }
 
 function formatDate(dateText) {
@@ -58,7 +102,11 @@ function textForEvent(event) {
     event.venue,
     enrichVenue(event).city,
     enrichVenue(event).region,
+    event.title,
     event.details,
+    ...(event.eventTypes || []).map(labelForEventType),
+    ...(event.themes || []),
+    ...(event.sources || []).map((source) => source.name),
     ...event.artists.map(enrichArtist).flatMap((artist) => [
       artist.name,
       artist.locality,
@@ -68,20 +116,46 @@ function textForEvent(event) {
 }
 
 function matchesFilter(event) {
+  if (state.filter === "default") return isDefaultShow(event);
   if (state.filter === "all") return true;
-  if (state.filter === "tonight") return event.date === new Date().toISOString().slice(0, 10);
+  if (state.filter === "tonight") return event.date === todayString();
   if (state.filter === "allAges") return /\ba\/a\b|all ages/i.test(event.details);
+  if (state.filter === "karaoke") return hasEventType(event, "karaoke");
+  if (state.filter === "trivia") return hasEventType(event, "trivia");
+  if (state.filter === "openMic") return hasEventType(event, "openMic");
+  if (state.filter === "poetry") return hasEventType(event, "poetry");
+  if (state.filter === "game") return hasEventType(event, "game") || hasEventType(event, "chess");
   if (state.filter === "local") return event.artists.map(enrichArtist).some((artist) => /bay area|local|california/i.test(artist.locality));
   if (state.filter === "needsReview") return event.artists.map(enrichArtist).some((artist) => artist.confidence === "review");
   return true;
+}
+
+function hasEventType(event, type) {
+  return (event.eventTypes || []).includes(type);
+}
+
+function isDefaultShow(event) {
+  const eventTypes = event.eventTypes || [];
+  const hasArtist = (event.artists || []).length > 0;
+  const excludedNonMusicTypes = new Set(["book", "chess", "comedy", "film", "game", "poetry", "storytelling", "trivia"]);
+  const allowedMusicTypes = new Set(["coverBand", "dance", "jam", "karaoke", "openMic", "themeNight"]);
+  if (eventTypes.some((type) => excludedNonMusicTypes.has(type))) return false;
+  if (hasArtist) return true;
+  return eventTypes.some((type) => allowedMusicTypes.has(type));
 }
 
 function visibleEvents() {
   const query = state.query.trim().toLowerCase();
   return events.filter((event) => {
     const queryMatch = !query || textForEvent(event).includes(query);
-    return queryMatch && matchesFilter(event);
+    return queryMatch && matchesDateRange(event) && matchesFilter(event);
   });
+}
+
+function matchesDateRange(event) {
+  if (state.fromDate && event.date < state.fromDate) return false;
+  if (state.toDate && event.date > state.toDate) return false;
+  return true;
 }
 
 function updateSummary(list) {
@@ -150,8 +224,58 @@ function renderVenueLinks(venue, container) {
   });
 }
 
+function renderEventTaxonomy(event, container) {
+  container.replaceChildren();
+  const chips = [
+    ...(event.eventTypes || []).map((type) => ({ kind: "type", value: type, label: labelForEventType(type) })),
+    ...(event.themes || []).map((theme) => ({ kind: "theme", value: theme, label: `Theme: ${theme}` }))
+  ];
+  chips.forEach((chip) => {
+    const button = document.createElement("button");
+    button.className = "meta-chip";
+    button.type = "button";
+    button.textContent = chip.label;
+    button.addEventListener("click", () => {
+      state.query = chip.value;
+      searchInput.value = chip.value;
+      render();
+    });
+    container.append(button);
+  });
+}
+
+function renderSourceLinks(event, container) {
+  container.replaceChildren();
+  const sources = event.sources || [event.source].filter(Boolean);
+  sources.forEach((source) => {
+    if (!source?.url) return;
+    const anchor = document.createElement("a");
+    anchor.href = source.url;
+    anchor.target = "_blank";
+    anchor.rel = "noreferrer";
+    anchor.textContent = source.name || "Source";
+    container.append(anchor);
+  });
+}
+
+function renderEventListing(event) {
+  const node = document.createElement("article");
+  node.className = "artist-card event-card";
+  const title = document.createElement("h2");
+  title.className = "artist-name";
+  title.textContent = event.title || event.details || "Event listing";
+  const meta = document.createElement("p");
+  meta.className = "artist-note";
+  meta.textContent = [labelForEventTypes(event), event.details].filter(Boolean).join(" | ");
+  node.append(title, meta);
+  return node;
+}
+
 function imageForEvent(event) {
-  const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
+  const genericImage = genericImageForEvent(event);
+  if (genericImage) return genericImage.url;
+
+  const topArtist = enrichArtist(event.artists[0] || { name: event.title || event.venue, tags: event.eventTypes || event.themes || [] });
   const palette = paletteForArtist(topArtist);
   const title = topArtist.name || event.venue || "Bay Area Show";
   const subtitleParts = [
@@ -188,6 +312,13 @@ function imageForEvent(event) {
   return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
 }
 
+function genericImageForEvent(event) {
+  if ((event.artists || []).length) return null;
+  const eventTypes = event.eventTypes || [];
+  const preferredType = eventTypes.find((type) => genericEventImages[type]);
+  return preferredType ? genericEventImages[preferredType] : null;
+}
+
 function wrapPosterText(text, maxLineLength, maxLines) {
   const words = String(text).split(/\s+/).filter(Boolean);
   const lines = [];
@@ -222,6 +353,7 @@ function paletteForArtist(artist) {
   ].join(" ").toLowerCase();
   if (/metal|punk|hardcore|doom|goth|industrial/.test(text)) return ["#231f20", "#9a3324", "#f4c95d"];
   if (/jazz|soul|blues|funk|r&b/.test(text)) return ["#13293d", "#8f5a2a", "#e7c27d"];
+  if (/karaoke|trivia|open mic|comedy/.test(text)) return ["#385d87", "#168b83", "#f4d35e"];
   if (/electronic|dj|dance|house|techno|edm|club/.test(text)) return ["#102542", "#7b2cbf", "#00c2a8"];
   if (/folk|country|bluegrass|americana|singer/.test(text)) return ["#204b3a", "#a95d34", "#f0d58c"];
   if (/hip hop|rap|trap/.test(text)) return ["#151515", "#0f6b5f", "#f4a261"];
@@ -322,6 +454,14 @@ function labelForType(type = "") {
   return labels[type] || type || "Link";
 }
 
+function labelForEventType(type = "") {
+  return eventTypeLabels[type] || type || "Event";
+}
+
+function labelForEventTypes(event) {
+  return (event.eventTypes || []).map(labelForEventType).join(" / ");
+}
+
 function confidenceRank(confidence = "candidate") {
   return { rejected: 0, research: 1, candidate: 2, likely: 3, verified: 4 }[confidence] || 1;
 }
@@ -357,9 +497,10 @@ function render() {
     const venue = enrichVenue(event);
     const node = eventTemplate.content.firstElementChild.cloneNode(true);
     const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
+    const genericImage = genericImageForEvent(event);
     const eventImage = node.querySelector(".event-image");
     eventImage.src = imageForEvent(event);
-    eventImage.alt = `${topArtist.name || event.venue} image placeholder`;
+    eventImage.alt = genericImage?.alt || `${topArtist.name || event.venue} event image`;
     node.querySelector(".event-date").dateTime = event.date;
     node.querySelector(".event-date").textContent = formatDate(event.date);
     const venuePlace = [venue.city, venue.region].filter(Boolean).join(", ");
@@ -370,9 +511,15 @@ function render() {
     node.querySelector(".event-venue").replaceChildren(venueLink);
     node.querySelector(".event-detail").textContent = event.details;
     renderVenueLinks(venue, node.querySelector(".venue-links"));
+    renderEventTaxonomy(event, node.querySelector(".event-taxonomy"));
+    renderSourceLinks(event, node.querySelector(".source-links"));
 
     const artistList = node.querySelector(".artist-list");
-    event.artists.forEach((artist) => artistList.append(renderArtist(artist)));
+    if (event.artists.length) {
+      event.artists.forEach((artist) => artistList.append(renderArtist(artist)));
+    } else {
+      artistList.append(renderEventListing(event));
+    }
     eventList.append(node);
   });
 }
@@ -386,7 +533,7 @@ function renderVenueMap(list) {
   if (!venues.length) return;
 
   const bounds = boundsForVenues(venues);
-  venueMapSvg.append(mapBackground());
+  venueMapSvg.append(mapBackground(bounds));
   venues.forEach((venue) => {
     const point = projectGeo(venue.geo, bounds);
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -444,17 +591,84 @@ function projectGeo(geo, bounds) {
   return { x, y };
 }
 
-function mapBackground() {
+function mapBackground(bounds) {
   const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
   group.setAttribute("class", "venue-map-bg");
+  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+  rect.setAttribute("class", "venue-map-tint");
+  rect.setAttribute("x", "0");
+  rect.setAttribute("y", "0");
+  rect.setAttribute("width", "1000");
+  rect.setAttribute("height", "620");
+  group.append(rect);
+
+  latitudeTicks(bounds).forEach((lat) => {
+    const point = projectGeo({ latitude: lat, longitude: bounds.minLng }, bounds);
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("class", "venue-map-grid venue-map-latitude");
+    line.setAttribute("x1", "48");
+    line.setAttribute("x2", "950");
+    line.setAttribute("y1", point.y);
+    line.setAttribute("y2", point.y);
+    group.append(line);
+
+    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    label.setAttribute("class", "venue-map-coordinate");
+    label.setAttribute("x", "62");
+    label.setAttribute("y", point.y - 7);
+    label.textContent = `${lat.toFixed(2)}°N`;
+    group.append(label);
+  });
+
+  longitudeTicks(bounds).forEach((lng) => {
+    const point = projectGeo({ latitude: bounds.minLat, longitude: lng }, bounds);
+    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+    line.setAttribute("class", "venue-map-grid venue-map-longitude");
+    line.setAttribute("x1", point.x);
+    line.setAttribute("x2", point.x);
+    line.setAttribute("y1", "40");
+    line.setAttribute("y2", "580");
+    group.append(line);
+
+    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    label.setAttribute("class", "venue-map-coordinate");
+    label.setAttribute("x", point.x + 7);
+    label.setAttribute("y", "566");
+    label.textContent = `${Math.abs(lng).toFixed(2)}°W`;
+    group.append(label);
+  });
+
+  const coast = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  coast.setAttribute("class", "venue-map-coast");
+  coast.setAttribute("d", "M74 92 C122 176 92 244 144 318 C198 394 174 472 236 574");
+  group.append(coast);
+
   [["San Francisco", 290, 245], ["East Bay", 570, 210], ["South Bay", 610, 430], ["Coast", 190, 360]].forEach(([label, x, y]) => {
     const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    text.setAttribute("class", "venue-map-region");
     text.setAttribute("x", x);
     text.setAttribute("y", y);
     text.textContent = label;
     group.append(text);
   });
   return group;
+}
+
+function latitudeTicks(bounds) {
+  return coordinateTicks(bounds.minLat, bounds.maxLat, 0.25);
+}
+
+function longitudeTicks(bounds) {
+  return coordinateTicks(bounds.minLng, bounds.maxLng, 0.25);
+}
+
+function coordinateTicks(min, max, step) {
+  const start = Math.ceil(min / step) * step;
+  const ticks = [];
+  for (let value = start; value <= max; value += step) {
+    ticks.push(Number(value.toFixed(2)));
+  }
+  return ticks;
 }
 
 function displayNameForVenue(venue) {
@@ -515,6 +729,17 @@ venueModal?.addEventListener("click", (event) => {
 
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
+  render();
+});
+
+fromDateInput.value = state.fromDate;
+fromDateInput.addEventListener("input", (event) => {
+  state.fromDate = event.target.value;
+  render();
+});
+
+toDateInput.addEventListener("input", (event) => {
+  state.toDate = event.target.value;
   render();
 });
 

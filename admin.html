@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin - Bay Area Show Explorer</title>
+    <script src="assets/theme.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Project admin</p>
+        <h1>Admin</h1>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="admin-layout">
+      <section class="admin-grid" aria-label="Admin tools">
+        <a class="admin-card" href="review.html">
+          <span class="kicker">Artist records</span>
+          <strong>Review Artists</strong>
+          <span>Verify identities, links, summaries, genres, and upcoming artist appearances.</span>
+        </a>
+
+        <a class="admin-card" href="venue-review.html">
+          <span class="kicker">Venue records</span>
+          <strong>Review Venues</strong>
+          <span>Verify venue details, recurring events, BadSlava enrichment, and upcoming event appearances.</span>
+        </a>
+
+        <a class="admin-card" href="index.html">
+          <span class="kicker">Public calendar</span>
+          <strong>Show Explorer</strong>
+          <span>Check the music-first default view, then use All or event-type filters to audit non-music listings.</span>
+        </a>
+
+        <a class="admin-card" href="https://badslava.com/open-mics.php?state=CA" target="_blank" rel="noreferrer">
+          <span class="kicker">Source check</span>
+          <strong>BadSlava CA</strong>
+          <span>Open the statewide source pages when a non-music event or venue needs confirmation.</span>
+        </a>
+      </section>
+    </main>
+
+    <script src="assets/nav.js"></script>
+  </body>
+</html>

@@ -6,12 +6,16 @@ const artistStore = newerStore(savedStore, baseStore);
 const state = {
   query: "",
   filter: "review",
+  fromDate: todayString(),
+  toDate: dateStringFromOffset(6),
   selectedId: ""
 };
 
 const queue = document.querySelector("#artistQueue");
 const form = document.querySelector("#artistForm");
 const search = document.querySelector("#artistSearch");
+const fromDateInput = document.querySelector("#fromDateInput");
+const toDateInput = document.querySelector("#toDateInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
 
@@ -28,6 +32,7 @@ const fields = {
   rejectedSection: document.querySelector("#rejectedLinksSection"),
   rejectedCount: document.querySelector("#rejectedLinkCount"),
   note: document.querySelector("#noteInput"),
+  appearanceHeading: document.querySelector("#appearanceHeading"),
   appearances: document.querySelector("#appearanceList"),
   saveStatus: document.querySelector("#saveStatus")
 };
@@ -78,6 +83,19 @@ function artists() {
   });
 }
 
+function todayString() {
+  return dateStringFromOffset(0);
+}
+
+function dateStringFromOffset(offsetDays) {
+  const date = new Date();
+  date.setDate(date.getDate() + offsetDays);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 function artistText(artist) {
   return [
     artist.name,
@@ -97,8 +115,17 @@ function visibleArtists() {
   return artists().filter((artist) => {
     const filterMatch = state.filter === "all" || artist.confidence === state.filter;
     const queryMatch = !query || artistText(artist).includes(query);
-    return filterMatch && queryMatch;
+    const dateMatch = !state.fromDate && !state.toDate ? true : appearancesInRange(artist.source?.appearances || []).length > 0;
+    return filterMatch && queryMatch && dateMatch;
   });
+}
+
+function appearancesInRange(appearances) {
+  return appearances.filter((appearance) => {
+    if (state.fromDate && appearance.date < state.fromDate) return false;
+    if (state.toDate && appearance.date > state.toDate) return false;
+    return true;
+  }).sort((a, b) => a.date.localeCompare(b.date) || (a.venue || "").localeCompare(b.venue || ""));
 }
 
 function preferredFilter() {
@@ -197,7 +224,15 @@ function selectArtist(id) {
   fields.note.value = artist.reviewNotes || artist.note || "";
 
   fields.appearances.replaceChildren();
-  (artist.source?.appearances || []).forEach((show) => {
+  const appearances = appearancesInRange(artist.source?.appearances || []);
+  fields.appearanceHeading.textContent = state.fromDate || state.toDate ? "Shows in Range" : "Shows";
+  if (!appearances.length) {
+    const empty = document.createElement("p");
+    empty.className = "appearance";
+    empty.textContent = "No shows match the selected date range.";
+    fields.appearances.append(empty);
+  }
+  appearances.forEach((show) => {
     const item = document.createElement("p");
     item.className = "appearance";
     item.textContent = `${show.date} - ${show.venue} - ${show.details}`;
@@ -228,8 +263,8 @@ function renderQueue() {
     const name = document.createElement("strong");
     name.textContent = artist.name;
     const meta = document.createElement("span");
-    const count = artist.source?.appearances?.length || 0;
-    meta.textContent = `${artist.confidence || "review"} / ${count} show${count === 1 ? "" : "s"}`;
+    const count = appearancesInRange(artist.source?.appearances || []).length;
+    meta.textContent = `${artist.confidence || "review"} / ${count} in range`;
 
     button.append(name, meta);
     button.addEventListener("click", () => selectArtist(artist.id));
@@ -433,7 +468,20 @@ function moveLinkRowToCorrectSection(row) {
 
 search.addEventListener("input", (event) => {
   state.query = event.target.value;
-  renderQueue();
+  syncArtistSelection();
+});
+
+fromDateInput.value = state.fromDate;
+toDateInput.value = state.toDate;
+
+fromDateInput.addEventListener("input", (event) => {
+  state.fromDate = event.target.value;
+  syncArtistSelection();
+});
+
+toDateInput.addEventListener("input", (event) => {
+  state.toDate = event.target.value;
+  syncArtistSelection();
 });
 
 filterButtons.forEach((button) => {
@@ -518,6 +566,30 @@ syncFilterButtons();
 const first = visibleArtists()[0] || artists()[0];
 if (first) selectArtist(first.id);
 renderQueue();
+
+function syncArtistSelection() {
+  const list = visibleArtists();
+  if (list.some((artist) => artist.id === state.selectedId)) {
+    selectArtist(state.selectedId);
+    return;
+  }
+
+  const first = list[0];
+  if (first) {
+    selectArtist(first.id);
+    return;
+  }
+
+  state.selectedId = "";
+  fields.selectedName.textContent = "Choose an artist";
+  fields.selectedConfidence.textContent = "review";
+  fields.selectedConfidence.className = "confidence review";
+  form.reset();
+  fields.links.replaceChildren();
+  fields.rejectedLinks.replaceChildren();
+  fields.appearances.replaceChildren();
+  renderQueue();
+}
 
 async function saveCurrentArtist() {
   const artist = artistStore.artists[state.selectedId];

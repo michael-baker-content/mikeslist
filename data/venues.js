@@ -1,6 +1,159 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-06-01T03:30:41.150Z",
+  "generatedAt": "2026-06-01T22:56:06.371Z",
   "venues": {
+    "11th-hour-coffee": {
+      "id": "11th-hour-coffee",
+      "name": "11th Hour Coffee",
+      "displayName": "11th Hour Coffee",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Cruz",
+      "region": "",
+      "address": "1001 Center St #1 Santa Cruz CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41309",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%2211th%20Hour%20Coffee%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-11th-hour-coffee-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41309"
+          },
+          {
+            "eventId": "2026-06-04-11th-hour-coffee-trivia-6-30pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54136"
+          }
+        ]
+      }
+    },
+    "19-handles-pub-and-grill": {
+      "id": "19-handles-pub-and-grill",
+      "name": "19 Handles Pub and Grill",
+      "displayName": "19 Handles Pub and Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "4235 Arden Way Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20335",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%2219%20Handles%20Pub%20and%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-19-handles-pub-and-grill-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20335"
+          }
+        ]
+      }
+    },
+    "1st-cong-church-of-oakland": {
+      "id": "1st-cong-church-of-oakland",
+      "name": "1st Cong. Church of Oakland",
+      "displayName": "1st Cong. Church of Oakland",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%221st%20Cong.%20Church%20of%20Oakland%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.426Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-1st-cong-church-of-oakland-w-kamau-bell",
+            "date": "2026-06-06",
+            "title": "W. Kamau Bell",
+            "details": "W. Kamau Bell",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
     "20-spot": {
       "id": "20-spot",
       "name": "20 Spot",
@@ -144,6 +297,57 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:43:26.807Z"
     },
+    "3below-theaters-and-cafe": {
+      "id": "3below-theaters-and-cafe",
+      "name": "3Below Theaters and Cafe",
+      "displayName": "3Below Theaters and Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "288 S Second St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19341",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%223Below%20Theaters%20and%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-3below-theaters-and-cafe-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19341"
+          }
+        ]
+      }
+    },
     "4-star-theater": {
       "id": "4-star-theater",
       "name": "4 Star Theater",
@@ -156,6 +360,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2200 Clement St, San Francisco, CA 94121",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7822418,
         "longitude": -122.48293070000001
@@ -273,22 +479,65 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-05-28T02:07:23.588Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-4-star-theater-kelley-stoltz-record-release",
+            "eventId": "2026-05-27-4-star-theater-tommy-guerrero-josh-lippi-dj-groove-merchant",
+            "date": "2026-05-27",
+            "title": "Tommy Guerrero / Josh Lippi / Groove Merchant",
+            "details": "Tommy Guerrero, Josh Lippi, DJ Groove Merchant",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-4-star-theater-kelley-stoltz-the-telephone-numbers-no-picture",
             "date": "2026-05-29",
-            "title": "Kelley Stoltz (record release) / The Telephone Numbers / No Picture",
-            "details": "a/a 7pm/8pm til 11pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Kelley Stoltz / The Telephone Numbers / No Picture",
+            "details": "Kelley Stoltz, The Telephone Numbers, No Picture",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-4-star-theater-woods-dougie-poole",
+            "date": "2026-06-01",
+            "title": "Woods / Dougie Poole",
+            "details": "Woods, Dougie Poole",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-4-star-theater-mia-wilson-ny-oh",
+            "date": "2026-06-02",
+            "title": "Mia Wilson / Ny Oh",
+            "details": "Mia Wilson, Ny Oh",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-4-star-theater-rachel-lichtman-kelley-stoltz-paul-myers",
+            "date": "2026-06-04",
+            "title": "Rachel Lichtman / Kelley Stoltz / Paul Myers",
+            "details": "Rachel Lichtman, Kelley Stoltz, Paul Myers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-4-star-theater-eli-winter-trio-danny-paul-grody-duo-chiromancer",
+            "date": "2026-06-05",
+            "title": "Eli Winter Trio / Danny Paul Grody Duo / CHIROMANCER",
+            "details": "Eli Winter Trio, Danny Paul Grody Duo, CHIROMANCER",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-4-star-theater-the-seshen-aroma-and-more",
+            "date": "2026-06-07",
+            "title": "The Seshen / AroMa & more",
+            "details": "The Seshen, AroMa & more",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-4-star-theater-the-seshen-aroma-and-038-more",
+            "date": "2026-06-07",
+            "title": "The Seshen / AroMa &#038; more",
+            "details": "The Seshen, AroMa &#038; more",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T19:32:07.328Z",
-      "summarySource": {
-        "label": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q44633454",
-        "source": "wikidata"
       }
     },
     "518-valencia-gallery": {
@@ -392,6 +641,389 @@ window.SHOW_EXPLORER_VENUES = {
         "label": "Facebook",
         "url": "https://www.facebook.com/518valencia/",
         "source": "facebook"
+      }
+    },
+    "620-jones": {
+      "id": "620-jones",
+      "name": "620 Jones",
+      "displayName": "620 Jones",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "620 Jones St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30083",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22620%20Jones%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-620-jones-trivia-6-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30083"
+          }
+        ]
+      }
+    },
+    "7-bamboo-lounge": {
+      "id": "7-bamboo-lounge",
+      "name": "7 Bamboo Lounge",
+      "displayName": "7 Bamboo Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "162 Jackson St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32642",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%227%20Bamboo%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-7-bamboo-lounge-karaoke-8-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32642"
+          },
+          {
+            "eventId": "2026-06-05-7-bamboo-lounge-karaoke-8-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34130"
+          }
+        ]
+      }
+    },
+    "7th-west": {
+      "id": "7th-west",
+      "name": "7th West",
+      "displayName": "7th West",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1255 7th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15762",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%227th%20West%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-7th-west-game-6-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15762"
+          },
+          {
+            "eventId": "2026-06-04-7th-west-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15761"
+          },
+          {
+            "eventId": "2026-06-04-7th-west-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15761"
+          }
+        ]
+      }
+    },
+    "924-gilman": {
+      "id": "924-gilman",
+      "name": "924 Gilman",
+      "displayName": "924 Gilman",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22924%20Gilman%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-924-gilman-concision-fifteen-rhema-lost-not-found-a-new-day-state-of-reliance",
+            "date": "2026-05-26",
+            "title": "Concision / Fifteen Rhema / Lost Not Found / A New Day / State of Reliance",
+            "details": "Concision, Fifteen Rhema, Lost Not Found, A New Day, State of Reliance",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-924-gilman-worst-party-ever-camp-ghost-robo-pumpkin-jordan-giardino",
+            "date": "2026-05-27",
+            "title": "Worst Party Ever / Camp Ghost / Robo Pumpkin / Jordan Giardino",
+            "details": "Worst Party Ever, Camp Ghost, Robo Pumpkin, Jordan Giardino",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-924-gilman-battle-flask-grosero-las-ratas-blood-compact-ante-warning-different-method",
+            "date": "2026-05-29",
+            "title": "Battle Flask / Grosero / Las Ratas / Blood Compact / Ante / Warning / Different Method",
+            "details": "Battle Flask, Grosero, Las Ratas, Blood Compact, Ante, Warning, Different Method",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-924-gilman-choke-martirio-aruspex-happy-society-postnasal-drainage-infadel-crohns",
+            "date": "2026-05-30",
+            "title": "Choke / Martirio / Aruspex / Happy Society / Postnasal Drainage / Infadel / Crohns",
+            "details": "Choke, Martirio, Aruspex, Happy Society, Postnasal Drainage, Infadel, Crohns",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-924-gilman-small-crush-whine-love-spiral-snallygaster-mommy-mommy",
+            "date": "2026-05-31",
+            "title": "Small Crush / Whine / Love Spiral / Snallygaster / Mommy Mommy",
+            "details": "Small Crush, Whine, Love Spiral, Snallygaster, Mommy Mommy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-924-gilman-dog-party-pet-mosquito-crescent-indigo",
+            "date": "2026-06-03",
+            "title": "Dog Party / Pet Mosquito / Crescent Indigo",
+            "details": "Dog Party, Pet Mosquito, Crescent Indigo",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-924-gilman-fight-fair-duck-duck-goose-aplacewe-vealwaysbeen-my-precious-solitude-wounded-deer",
+            "date": "2026-06-05",
+            "title": "Fight Fair / Duck Duck Goose / aplacewe'vealwaysbeen / my precious solitude / Wounded Deer",
+            "details": "Fight Fair, Duck Duck Goose, aplacewe'vealwaysbeen, my precious solitude, Wounded Deer",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-924-gilman-winnoa-seeyou-work-just-let-me-go-funds-for-jimmy-luna-ivy-en-vitro",
+            "date": "2026-06-06",
+            "title": "Winnoa / Seeyou@work / Just let me go / Funds For Jimmy / Luna Ivy / En-Vitro",
+            "details": "Winnoa, Seeyou@work, Just let me go, Funds For Jimmy, Luna Ivy, En-Vitro",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-924-gilman-dog-house-hazy-portraits-the-treedome-osie-the-hayds",
+            "date": "2026-06-07",
+            "title": "Dog House / Hazy Portraits / The Treedome / OSIE / the Hayds",
+            "details": "Dog House, Hazy Portraits, The Treedome, OSIE, the Hayds",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "a-roma-roasters-coffee-and-tea": {
+      "id": "a-roma-roasters-coffee-and-tea",
+      "name": "A'Roma Roasters Coffee & Tea",
+      "displayName": "A'Roma Roasters Coffee & Tea",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "95 5th St Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38489",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22A'Roma%20Roasters%20Coffee%20%26%20Tea%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-a-roma-roasters-coffee-and-tea-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38489"
+          },
+          {
+            "eventId": "2026-06-04-a-roma-roasters-coffee-and-tea-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38489"
+          }
+        ]
+      }
+    },
+    "afterwork-bar": {
+      "id": "afterwork-bar",
+      "name": "Afterwork Bar",
+      "displayName": "Afterwork Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "409 Gough St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38679",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Afterwork%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-afterwork-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38679"
+          }
+        ]
       }
     },
     "alameda-county-fair": {
@@ -530,6 +1162,210 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "wikipedia"
       }
     },
+    "alameda-island-brewing": {
+      "id": "alameda-island-brewing",
+      "name": "Alameda Island Brewing",
+      "displayName": "Alameda Island Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "1716 Park St Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15743",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Alameda%20Island%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-alameda-island-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15743"
+          }
+        ]
+      }
+    },
+    "alex-s-49er-inn": {
+      "id": "alex-s-49er-inn",
+      "name": "Alex's 49er Inn",
+      "displayName": "Alex's 49er Inn",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "2214 Business Cir San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46526",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Alex's%2049er%20Inn%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-alex-s-49er-inn-karaoke-8-00pm",
+            "date": "2026-06-07",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46526"
+          }
+        ]
+      }
+    },
+    "almanac-beer-company": {
+      "id": "almanac-beer-company",
+      "name": "Almanac Beer Company",
+      "displayName": "Almanac Beer Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "651 W Tower Ave Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20982",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Almanac%20Beer%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-almanac-beer-company-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20982"
+          }
+        ]
+      }
+    },
+    "andaz-napa": {
+      "id": "andaz-napa",
+      "name": "Andaz Napa",
+      "displayName": "Andaz Napa",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Napa",
+      "region": "",
+      "address": "1450 1st St Napa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39678",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Andaz%20Napa%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-andaz-napa-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39678"
+          }
+        ]
+      }
+    },
     "anthony-and-marissa": {
       "id": "anthony-and-marissa",
       "name": "Anthony & Marissa's",
@@ -581,6 +1417,57 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T04:44:29.018Z"
+    },
+    "anza-branch-library": {
+      "id": "anza-branch-library",
+      "name": "Anza Branch Library",
+      "displayName": "Anza Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "550 37th Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46479",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Anza%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-anza-branch-library-game-10-00am",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46479"
+          }
+        ]
+      }
     },
     "arcana": {
       "id": "arcana",
@@ -857,6 +1744,259 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "wikipedia"
       }
     },
+    "art-house-gallery": {
+      "id": "art-house-gallery",
+      "name": "Art House Gallery",
+      "displayName": "Art House Gallery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Art%20House%20Gallery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.418Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-30-art-house-gallery-and-8220-crazy-for-you-and-8221-release-party-with-radio-insecto-dave-s-van",
+            "date": "2026-05-30",
+            "title": "&#8220;Crazy For You&#8221; release party with Radio Insecto / Dave's Van",
+            "details": "&#8220;Crazy For You&#8221; release party with Radio Insecto, Dave's Van",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "ashkenaz": {
+      "id": "ashkenaz",
+      "name": "Ashkenaz",
+      "displayName": "Ashkenaz",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ashkenaz%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-ashkenaz-stu-allen-and-mars-hotel",
+            "date": "2026-05-27",
+            "title": "Stu Allen & Mars Hotel",
+            "details": "Stu Allen & Mars Hotel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-ashkenaz-tom-rigney-and-flambeau",
+            "date": "2026-05-28",
+            "title": "Tom Rigney & Flambeau",
+            "details": "Tom Rigney & Flambeau",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-ashkenaz-quattro-paper-kayak",
+            "date": "2026-05-29",
+            "title": "Quattro / Paper Kayak",
+            "details": "Quattro, Paper Kayak",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-ashkenaz-khalifa-do-accordion",
+            "date": "2026-05-30",
+            "title": "Khalifa do Accordion",
+            "details": "Khalifa do Accordion",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-ashkenaz-grateful-dead-night-with-joe-marcinek-mark-karan-mookie-siegel-anna-elva-and-angeline-saris",
+            "date": "2026-06-03",
+            "title": "Grateful Dead Night with Joe Marcinek / Mark Karan / Mookie Siegel / Anna Elva & Angeline Saris",
+            "details": "Grateful Dead Night with Joe Marcinek, Mark Karan, Mookie Siegel, Anna Elva & Angeline Saris",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-ashkenaz-grateful-dead-night-with-joe-marcinek-mark-karan-mookie-siegel-anna-elva-and-038-angeline-saris",
+            "date": "2026-06-03",
+            "title": "Grateful Dead Night / Joe Marcinek / Mark Karan / Mookie Siegel / Anna Elva &#038; Angeline Saris",
+            "details": "Grateful Dead Night with Joe Marcinek, Mark Karan, Mookie Siegel, Anna Elva &#038; Angeline Saris",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-ashkenaz-mark-st-mary-s-louisiana-blues-and-zydeco-band",
+            "date": "2026-06-05",
+            "title": "Mark St. Mary's Louisiana Blues & Zydeco Band",
+            "details": "Mark St. Mary's Louisiana Blues & Zydeco Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-ashkenaz-mark-st-mary-s-louisiana-blues-and-038-zydeco-band",
+            "date": "2026-06-05",
+            "title": "Mark St. Mary's Louisiana Blues &#038; Zydeco Band",
+            "details": "Mark St. Mary's Louisiana Blues &#038; Zydeco Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-ashkenaz-afrofest-2026-featuring-brotha-peace",
+            "date": "2026-06-06",
+            "title": "AfroFest 2026 featuring Brotha Peace",
+            "details": "AfroFest 2026 featuring Brotha Peace",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-ashkenaz-ashkenaz-open-house",
+            "date": "2026-06-07",
+            "title": "Ashkenaz Open House",
+            "details": "Ashkenaz Open House",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "asiento": {
+      "id": "asiento",
+      "name": "Asiento",
+      "displayName": "Asiento",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2730 21st St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4543",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Asiento%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-asiento-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4543"
+          }
+        ]
+      }
+    },
+    "at-ease-brewing-company": {
+      "id": "at-ease-brewing-company",
+      "name": "At Ease Brewing Company",
+      "displayName": "At Ease Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1825 I St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18599",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22At%20Ease%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-at-ease-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18599"
+          }
+        ]
+      }
+    },
     "athen": {
       "id": "athen",
       "name": "Athen's",
@@ -921,6 +2061,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "California",
       "region": "SF",
       "address": "420 Mason St, San Francisco, CA 94102",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7875,
         "longitude": -122.41
@@ -1076,57 +2218,1201 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-august-hall-grace-enger",
-            "date": "2026-05-27",
-            "title": "Grace Enger / Aubory Bugg",
-            "details": "8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-26-august-hall-dance-with-the-dead-magic-sword",
+            "date": "2026-05-26",
+            "title": "Dance With The Dead / Magic Sword",
+            "details": "Dance With The Dead, Magic Sword",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
             "eventId": "2026-05-28-august-hall-chapterhouse",
             "date": "2026-05-28",
-            "title": "Chapterhouse / The Asteroid #4",
-            "details": "7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Chapterhouse",
+            "details": "Chapterhouse",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-29-august-hall-vundabar",
+            "eventId": "2026-05-29-august-hall-vundabar-yot-club",
             "date": "2026-05-29",
-            "title": "Vundabar / Yot Club / Goon",
-            "details": "6pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Vundabar / Yot Club",
+            "details": "Vundabar, Yot Club",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-29-august-hall-a-twink-and-a-redhead",
-            "date": "2026-05-29",
-            "title": "A Twink And A Redhead",
-            "details": "7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-august-hall-sasha-colby",
+            "eventId": "2026-05-30-august-hall-princess-forever-sasha-colby",
             "date": "2026-05-30",
-            "title": "Sasha Colby",
-            "details": "21+ 10pm/11pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Princess Forever / Sasha Colby",
+            "details": "Princess Forever, Sasha Colby",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-august-hall-parra-for-cuva",
-            "date": "2026-05-30",
-            "title": "Parra For Cuva",
-            "details": "21+ $34.70 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-02-august-hall-the-cab-jady-carr",
+            "date": "2026-06-02",
+            "title": "The Cab / Jady / CARR",
+            "details": "The Cab, Jady, CARR",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-august-hall-ghost",
+            "date": "2026-06-06",
+            "title": "Ghost",
+            "details": "Ghost",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T20:23:04.033Z",
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/August_Hall",
-        "source": "wikipedia"
+      }
+    },
+    "avenidas": {
+      "id": "avenidas",
+      "name": "Avenidas",
+      "displayName": "Avenidas",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Palo Alto",
+      "region": "",
+      "address": "450 Bryant St Palo Alto CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50672",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Avenidas%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-avenidas-chess-8-00pm",
+            "date": "2026-06-03",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50672"
+          }
+        ]
+      }
+    },
+    "awaken-cafe-and-roasting": {
+      "id": "awaken-cafe-and-roasting",
+      "name": "Awaken Cafe and Roasting",
+      "displayName": "Awaken Cafe and Roasting",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1429 Broadway Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18674",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Awaken%20Cafe%20and%20Roasting%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-awaken-cafe-and-roasting-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18674"
+          },
+          {
+            "eventId": "2026-06-03-awaken-cafe-and-roasting-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18674"
+          }
+        ]
+      }
+    },
+    "badlands-sacramento": {
+      "id": "badlands-sacramento",
+      "name": "Badlands Sacramento",
+      "displayName": "Badlands Sacramento",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2003 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46426",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Badlands%20Sacramento%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-badlands-sacramento-karaoke-9-00pm",
+            "date": "2026-06-06",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46426"
+          }
+        ]
+      }
+    },
+    "ballast-point-brewing": {
+      "id": "ballast-point-brewing",
+      "name": "Ballast Point Brewing",
+      "displayName": "Ballast Point Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "705 16th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38581",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ballast%20Point%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-ballast-point-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38581"
+          }
+        ]
+      }
+    },
+    "bambina-s-pizza-and-pasta": {
+      "id": "bambina-s-pizza-and-pasta",
+      "name": "Bambina’s Pizza and Pasta",
+      "displayName": "Bambina’s Pizza and Pasta",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1610 R St #130 Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39407",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bambina%E2%80%99s%20Pizza%20and%20Pasta%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-bambina-s-pizza-and-pasta-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39407"
+          }
+        ]
+      }
+    },
+    "barbary-coast": {
+      "id": "barbary-coast",
+      "name": "Barbary Coast",
+      "displayName": "Barbary Coast",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "952 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14123",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Barbary%20Coast%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-barbary-coast-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14123"
+          },
+          {
+            "eventId": "2026-06-04-barbary-coast-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38652"
+          }
+        ]
+      }
+    },
+    "barebottle-brewing-company": {
+      "id": "barebottle-brewing-company",
+      "name": "Barebottle Brewing Company",
+      "displayName": "Barebottle Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1525 Cortland Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=10969",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Barebottle%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-barebottle-brewing-company-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=10969"
+          }
+        ]
+      }
+    },
+    "barrelhouse": {
+      "id": "barrelhouse",
+      "name": "Barrelhouse",
+      "displayName": "Barrelhouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Burlingame",
+      "region": "",
+      "address": "305 California Dr Burlingame CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41316",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Barrelhouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-barrelhouse-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41316"
+          }
+        ]
+      }
+    },
+    "bear-vs-bull": {
+      "id": "bear-vs-bull",
+      "name": "Bear Vs. Bull",
+      "displayName": "Bear Vs. Bull",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2550 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14453",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bear%20Vs.%20Bull%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.047Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-bear-vs-bull-trivia-9-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14453"
+          }
+        ]
+      }
+    },
+    "beer-baron-bar-and-kitchen": {
+      "id": "beer-baron-bar-and-kitchen",
+      "name": "Beer Baron Bar & Kitchen",
+      "displayName": "Beer Baron Bar & Kitchen",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "614 4th St Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=35665",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Beer%20Baron%20Bar%20%26%20Kitchen%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-beer-baron-bar-and-kitchen-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35665"
+          }
+        ]
+      }
+    },
+    "beeryland": {
+      "id": "beeryland",
+      "name": "Beeryland",
+      "displayName": "Beeryland",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2318 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46436",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Beeryland%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-beeryland-karaoke-8-00pm",
+            "date": "2026-06-06",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46436"
+          }
+        ]
+      }
+    },
+    "bel-mateo-bowl": {
+      "id": "bel-mateo-bowl",
+      "name": "Bel Mateo Bowl",
+      "displayName": "Bel Mateo Bowl",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Mateo",
+      "region": "",
+      "address": "4330 Olympic Ave San Mateo CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54137",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bel%20Mateo%20Bowl%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-bel-mateo-bowl-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54137"
+          }
+        ]
+      }
+    },
+    "belle-cora": {
+      "id": "belle-cora",
+      "name": "Belle Cora",
+      "displayName": "Belle Cora",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "565 Green St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38657",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Belle%20Cora%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.047Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-belle-cora-trivia-7-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38657"
+          }
+        ]
+      }
+    },
+    "ben-n-nick-s-bar-and-grill": {
+      "id": "ben-n-nick-s-bar-and-grill",
+      "name": "Ben ’N Nick’s Bar and Grill",
+      "displayName": "Ben ’N Nick’s Bar and Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "5612 College Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4560",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ben%20%E2%80%99N%20Nick%E2%80%99s%20Bar%20and%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-ben-n-nick-s-bar-and-grill-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4560"
+          }
+        ]
+      }
+    },
+    "berkeley-chess-school": {
+      "id": "berkeley-chess-school",
+      "name": "Berkeley Chess School",
+      "displayName": "Berkeley Chess School",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2622 San Pablo Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53443",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Berkeley%20Chess%20School%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-berkeley-chess-school-chess-5-30pm",
+            "date": "2026-06-05",
+            "title": "Chess",
+            "details": "Chess event at 5:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53443"
+          }
+        ]
+      }
+    },
+    "berkeley-city-club": {
+      "id": "berkeley-city-club",
+      "name": "Berkeley City Club",
+      "displayName": "Berkeley City Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2315 Durant Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=588",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Berkeley%20City%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-berkeley-city-club-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=588"
+          }
+        ]
+      }
+    },
+    "berkeley-finnish-hall": {
+      "id": "berkeley-finnish-hall",
+      "name": "Berkeley Finnish Hall",
+      "displayName": "Berkeley Finnish Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Berkeley%20Finnish%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.420Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-berkeley-finnish-hall-otherworld-ensemble-zele",
+            "date": "2026-05-31",
+            "title": "Otherworld Ensemble / Zele",
+            "details": "Otherworld Ensemble, Zele",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "bernal-heights-branch-library": {
+      "id": "bernal-heights-branch-library",
+      "name": "Bernal Heights Branch Library",
+      "displayName": "Bernal Heights Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "500 Cortland Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46481",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bernal%20Heights%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-bernal-heights-branch-library-game-10-00am",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46481"
+          }
+        ]
+      }
+    },
+    "big-brother-comics": {
+      "id": "big-brother-comics",
+      "name": "Big Brother Comics",
+      "displayName": "Big Brother Comics",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1722 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32699",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Big%20Brother%20Comics%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-big-brother-comics-game-6-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32699"
+          }
+        ]
+      }
+    },
+    "bike-dog-brewing": {
+      "id": "bike-dog-brewing",
+      "name": "Bike Dog Brewing",
+      "displayName": "Bike Dog Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2534 Industrial Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20360",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bike%20Dog%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-bike-dog-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20360"
+          }
+        ]
+      }
+    },
+    "bill-graham-civic-auditorium": {
+      "id": "bill-graham-civic-auditorium",
+      "name": "Bill Graham Civic Auditorium",
+      "displayName": "Bill Graham Civic Auditorium",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bill%20Graham%20Civic%20Auditorium%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-bill-graham-civic-auditorium-yellowcard-new-found-glory-plain-white-t-s",
+            "date": "2026-05-27",
+            "title": "Yellowcard / New Found Glory / Plain White T's",
+            "details": "Yellowcard, New Found Glory, Plain White T's",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-bill-graham-civic-auditorium-seven-lions-trivecta-b2b-kill-the-noise-avell-oliverse",
+            "date": "2026-05-29",
+            "title": "Seven Lions / Trivecta b2b Kill The Noise / AVELL / Oliverse",
+            "details": "Seven Lions, Trivecta b2b Kill The Noise, AVELL, Oliverse",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-bill-graham-civic-auditorium-seven-lions-jason-ross-b2b-kill-the-noise-yetep-rad-cat",
+            "date": "2026-05-30",
+            "title": "Seven Lions / Jason Ross b2b Kill The Noise / yetep / Rad Cat",
+            "details": "Seven Lions, Jason Ross b2b Kill The Noise, yetep, Rad Cat",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-bill-graham-civic-auditorium-alesso",
+            "date": "2026-06-05",
+            "title": "Alesso",
+            "details": "Alesso",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-bill-graham-civic-auditorium-louis-tomlinson-the-aces",
+            "date": "2026-06-06",
+            "title": "Louis Tomlinson / The Aces",
+            "details": "Louis Tomlinson, The Aces",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "billy-defrank-lgbtq-community-center": {
+      "id": "billy-defrank-lgbtq-community-center",
+      "name": "Billy DeFrank LGBTQ+ Community Center",
+      "displayName": "Billy DeFrank LGBTQ+ Community Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "938 The Alameda San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14401",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Billy%20DeFrank%20LGBTQ%2B%20Community%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-billy-defrank-lgbtq-community-center-game-6-00pm",
+            "date": "2026-06-05",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14401"
+          }
+        ]
       }
     },
     "bimbo": {
@@ -1333,6 +3619,164 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "wikipedia"
       }
     },
+    "biscuits-and-blues": {
+      "id": "biscuits-and-blues",
+      "name": "Biscuits and Blues",
+      "displayName": "Biscuits and Blues",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Biscuits%20and%20Blues%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.410Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-biscuits-and-blues-gamperdrums-presents-zinggflower",
+            "date": "2026-05-25",
+            "title": "GamperDrums Presents: ZinggFlower",
+            "details": "GamperDrums Presents: ZinggFlower",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-26-biscuits-and-blues-the-west-coast-blues-revue",
+            "date": "2026-05-26",
+            "title": "The West Coast Blues Revue",
+            "details": "The West Coast Blues Revue",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-biscuits-and-blues-chase-walker-band",
+            "date": "2026-05-29",
+            "title": "Chase Walker Band",
+            "details": "Chase Walker Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-biscuits-and-blues-earl-thomas-featuring-the-anthony-cullins-band",
+            "date": "2026-05-30",
+            "title": "Earl Thomas Featuring The Anthony Cullins Band",
+            "details": "Earl Thomas Featuring The Anthony Cullins Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-biscuits-and-blues-hadden-sayers",
+            "date": "2026-05-31",
+            "title": "Hadden Sayers",
+            "details": "Hadden Sayers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-biscuits-and-blues-gamperdrums-presents-zinggflower",
+            "date": "2026-06-01",
+            "title": "GamperDrums Presents: ZinggFlower",
+            "details": "GamperDrums Presents: ZinggFlower",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-biscuits-and-blues-west-coast-blues-revue",
+            "date": "2026-06-02",
+            "title": "West Coast Blues Revue",
+            "details": "West Coast Blues Revue",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-biscuits-and-blues-fillmore-slim",
+            "date": "2026-06-05",
+            "title": "Fillmore Slim",
+            "details": "Fillmore Slim",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-biscuits-and-blues-josh-smith",
+            "date": "2026-06-06",
+            "title": "Josh Smith",
+            "details": "Josh Smith",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "black-bird-bookstore-and-cafe": {
+      "id": "black-bird-bookstore-and-cafe",
+      "name": "Black Bird Bookstore and Cafe",
+      "displayName": "Black Bird Bookstore and Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4541 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28210",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Black%20Bird%20Bookstore%20and%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-black-bird-bookstore-and-cafe-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28210"
+          },
+          {
+            "eventId": "2026-06-03-black-bird-bookstore-and-cafe-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28210"
+          }
+        ]
+      }
+    },
     "black-cat": {
       "id": "black-cat",
       "name": "Black Cat",
@@ -1345,6 +3789,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "400 Eddy St, San Francisco, CA 94109",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7838333,
         "longitude": -122.4144611
@@ -1460,14 +3906,297 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-01T03:30:41.146Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
         "appearances": [
+          {
+            "eventId": "2026-05-27-black-cat-joe-warner-dante-and-8216-taz-roberson-michael-and-8216-tiny-lindsey-angelo-luster",
+            "date": "2026-05-27",
+            "title": "Joe Warner / Dante &#8216;Taz' Roberson / Michael &#8216;Tiny' Lindsey / Angelo Luster",
+            "details": "Joe Warner, Dante &#8216;Taz' Roberson, Michael &#8216;Tiny' Lindsey, Angelo Luster",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-black-cat-maralisa-and-the-starlight-martinis",
+            "date": "2026-05-28",
+            "title": "Maralisa & The Starlight Martinis",
+            "details": "Maralisa & The Starlight Martinis",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-black-cat-brandon-goldberg",
+            "date": "2026-05-29",
+            "title": "Brandon Goldberg",
+            "details": "Brandon Goldberg",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
           {
             "eventId": "2026-05-31-black-cat-brandon-goldberg",
             "date": "2026-05-31",
             "title": "Brandon Goldberg",
-            "details": "21+ 7pm and 9:15pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Brandon Goldberg",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "black-hammer-brewing-company": {
+      "id": "black-hammer-brewing-company",
+      "name": "Black Hammer Brewing Company",
+      "displayName": "Black Hammer Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "544 Bryant St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38628",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Black%20Hammer%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-black-hammer-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38628"
+          }
+        ]
+      }
+    },
+    "black-repertory-group-theater": {
+      "id": "black-repertory-group-theater",
+      "name": "Black Repertory Group Theater",
+      "displayName": "Black Repertory Group Theater",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "3201 Adeline St Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=7321",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Black%20Repertory%20Group%20Theater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-black-repertory-group-theater-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=7321"
+          },
+          {
+            "eventId": "2026-06-02-black-repertory-group-theater-poetry-8-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=7321"
+          }
+        ]
+      }
+    },
+    "blackbird-bar": {
+      "id": "blackbird-bar",
+      "name": "Blackbird Bar",
+      "displayName": "Blackbird Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2124 Market St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32114",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Blackbird%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-blackbird-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32114"
+          }
+        ]
+      }
+    },
+    "blacksmith": {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "displayName": "Blacksmith",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Redwood City",
+      "region": "",
+      "address": "2048 Broadway Redwood City CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41319",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Blacksmith%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-blacksmith-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41319"
+          }
+        ]
+      }
+    },
+    "blue-cue": {
+      "id": "blue-cue",
+      "name": "Blue Cue",
+      "displayName": "Blue Cue",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1004 28th St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18602",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Blue%20Cue%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-blue-cue-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18602"
           }
         ]
       }
@@ -1614,6 +4343,440 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "manual"
       }
     },
+    "bobby-g-s-pizzeria": {
+      "id": "bobby-g-s-pizzeria",
+      "name": "Bobby G's Pizzeria",
+      "displayName": "Bobby G's Pizzeria",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2072 University Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38659",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bobby%20G's%20Pizzeria%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-bobby-g-s-pizzeria-openmic-7-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38661"
+          },
+          {
+            "eventId": "2026-06-02-bobby-g-s-pizzeria-poetry-7-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38661"
+          },
+          {
+            "eventId": "2026-06-03-bobby-g-s-pizzeria-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38659"
+          },
+          {
+            "eventId": "2026-06-04-bobby-g-s-pizzeria-game-7-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=33550"
+          },
+          {
+            "eventId": "2026-06-05-bobby-g-s-pizzeria-karaoke-7-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38660"
+          }
+        ]
+      }
+    },
+    "bogey-s-pizza": {
+      "id": "bogey-s-pizza",
+      "name": "Bogey’s Pizza",
+      "displayName": "Bogey’s Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "5039 Almaden Expy San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19322",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bogey%E2%80%99s%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-bogey-s-pizza-openmic-6-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19322"
+          },
+          {
+            "eventId": "2026-06-05-bogey-s-pizza-poetry-6-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19322"
+          }
+        ]
+      }
+    },
+    "bonn-lair": {
+      "id": "bonn-lair",
+      "name": "Bonn Lair",
+      "displayName": "Bonn Lair",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "3651 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18601",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bonn%20Lair%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-bonn-lair-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18601"
+          }
+        ]
+      }
+    },
+    "book-club-of-california": {
+      "id": "book-club-of-california",
+      "name": "Book Club of California",
+      "displayName": "Book Club of California",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "47 Kearny St 4th Floor San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57229",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Book%20Club%20of%20California%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-book-club-of-california-book-8-00pm",
+            "date": "2026-06-03",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57229"
+          }
+        ]
+      }
+    },
+    "books-inc": {
+      "id": "books-inc",
+      "name": "Books Inc.",
+      "displayName": "Books Inc.",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1875 S Bascom Ave #600 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31747",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Books%20Inc.%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-books-inc-book-7-00pm",
+            "date": "2026-06-03",
+            "title": "Book Event",
+            "details": "Book event at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31747"
+          }
+        ]
+      }
+    },
+    "boom-boom-room": {
+      "id": "boom-boom-room",
+      "name": "Boom Boom Room",
+      "displayName": "Boom Boom Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Boom%20Boom%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-boom-boom-room-no-mercy-band",
+            "date": "2026-05-27",
+            "title": "No Mercy Band",
+            "details": "No Mercy Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-boom-boom-room-house-of-love-3-casa-del-sol-tree-adams-scott-law-dale-fanning-chris-haugen",
+            "date": "2026-05-28",
+            "title": "House Of Love 3: Casa Del Sol / Tree Adams / Scott Law / Dale Fanning / Chris Haugen",
+            "details": "House Of Love 3: Casa Del Sol, Tree Adams, Scott Law, Dale Fanning, Chris Haugen",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-boom-boom-room-afrolicious",
+            "date": "2026-05-29",
+            "title": "Afrolicious",
+            "details": "Afrolicious",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-boom-boom-room-the-attic-growler",
+            "date": "2026-05-30",
+            "title": "The Attic / Growler",
+            "details": "The Attic, Growler",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-boom-boom-room-live-cuban-salsa-party",
+            "date": "2026-05-31",
+            "title": "Live Cuban Salsa Party",
+            "details": "Live Cuban Salsa Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-boom-boom-room-zoo-band",
+            "date": "2026-06-03",
+            "title": "Zoo Band",
+            "details": "Zoo Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-boom-boom-room-sheldon-alexander-funk-jam",
+            "date": "2026-06-04",
+            "title": "Sheldon Alexander Funk Jam",
+            "details": "Sheldon Alexander Funk Jam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-boom-boom-room-pabsy-airplug",
+            "date": "2026-06-06",
+            "title": "Pabsy / Airplug",
+            "details": "Pabsy, Airplug",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "borderlands-books": {
+      "id": "borderlands-books",
+      "name": "Borderlands Books",
+      "displayName": "Borderlands Books",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1740 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57233",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Borderlands%20Books%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-borderlands-books-book-8-00pm",
+            "date": "2026-06-07",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57233"
+          }
+        ]
+      }
+    },
     "bottom-of-the-hill": {
       "id": "bottom-of-the-hill",
       "name": "Bottom of the Hill",
@@ -1626,6 +4789,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1233 17th St, San Francisco, CA 94107",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7649778,
         "longitude": -122.39643889999999
@@ -1710,6 +4875,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.wikidata.org/wiki/Q4949139",
           "confidence": "likely",
           "source": "wikidata"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20327",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [
@@ -1756,21 +4928,388 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-01T03:30:41.147Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess",
-            "date": "2026-05-31",
-            "title": "Half Rotten Goddess / Persephone / Rival Plague",
-            "details": "a/a $13/$15 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-25-bottom-of-the-hill-ultrabomb-the-freak-accident",
+            "date": "2026-05-25",
+            "title": "UltraBomb / The Freak Accident",
+            "details": "UltraBomb, The Freak Accident",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-31-bottom-of-the-hill-the-woggles",
+            "eventId": "2026-05-26-bottom-of-the-hill-sloppy-seconds-memphis-murder-men-middle-aged-queers",
+            "date": "2026-05-26",
+            "title": "Sloppy Seconds / Memphis Murder Men / Middle Aged Queers",
+            "details": "Sloppy Seconds, Memphis Murder Men, Middle Aged Queers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-bottom-of-the-hill-accessory-facing-badvril",
+            "date": "2026-05-27",
+            "title": "Accessory / Facing / Badvril",
+            "details": "Accessory, Facing, Badvril",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-bottom-of-the-hill-supersuckers-scott-h-biram-hangtown",
+            "date": "2026-05-28",
+            "title": "Supersuckers / Scott H. Biram / Hangtown",
+            "details": "Supersuckers, Scott H. Biram, Hangtown",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-bottom-of-the-hill-chip-kinman-and-band-steakhouse-temple-beautiful-band",
+            "date": "2026-05-29",
+            "title": "Chip Kinman & Band / Steakhouse / Temple Beautiful Band",
+            "details": "Chip Kinman & Band, Steakhouse, Temple Beautiful Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-bottom-of-the-hill-leanna-firestone-abby-cates",
+            "date": "2026-05-30",
+            "title": "Leanna Firestone / Abby Cates",
+            "details": "Leanna Firestone, Abby Cates",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess-persephone-rival-plague",
             "date": "2026-05-31",
-            "title": "The Woggles / Hot Laundry / The Gum Tree Girls",
-            "details": "21+ $20 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Half Rotten Goddess / Persephone / Rival Plague",
+            "details": "Half Rotten Goddess, Persephone, Rival Plague",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-bottom-of-the-hill-openmic-7-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20327"
+          },
+          {
+            "eventId": "2026-06-01-bottom-of-the-hill-poetry-7-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20327"
+          },
+          {
+            "eventId": "2026-06-02-bottom-of-the-hill-sad-snack-foolish-relics-friendship-games",
+            "date": "2026-06-02",
+            "title": "Sad Snack / Foolish Relics / friendship games",
+            "details": "Sad Snack, Foolish Relics, friendship games",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-bottom-of-the-hill-for-horses-outer-sunset-davia-schendel",
+            "date": "2026-06-03",
+            "title": "For Horses / Outer Sunset / Davia Schendel",
+            "details": "For Horses, Outer Sunset, Davia Schendel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-bottom-of-the-hill-sleepbomb-hazzard-s-cure-ominess",
+            "date": "2026-06-04",
+            "title": "Sleepbomb / Hazzard's Cure / Ominess",
+            "details": "Sleepbomb, Hazzard's Cure, Ominess",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-bottom-of-the-hill-mikaela-davis-the-cormorants",
+            "date": "2026-06-05",
+            "title": "Mikaela Davis / The Cormorants",
+            "details": "Mikaela Davis, The Cormorants",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-bottom-of-the-hill-jonathan-richman",
+            "date": "2026-06-06",
+            "title": "Jonathan Richman",
+            "details": "Jonathan Richman",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-bottom-of-the-hill-jonathan-richman",
+            "date": "2026-06-07",
+            "title": "Jonathan Richman",
+            "details": "Jonathan Richman",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "bow-bow-cocktail-lounge": {
+      "id": "bow-bow-cocktail-lounge",
+      "name": "Bow Bow Cocktail Lounge",
+      "displayName": "Bow Bow Cocktail Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1155 Grant Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46529",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bow%20Bow%20Cocktail%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-bow-bow-cocktail-lounge-karaoke-9-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46529"
+          }
+        ]
+      }
+    },
+    "brannan-manor-restaurant-and-spirits": {
+      "id": "brannan-manor-restaurant-and-spirits",
+      "name": "Brannan Manor Restaurant & Spirits",
+      "displayName": "Brannan Manor Restaurant & Spirits",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "106 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46430",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Brannan%20Manor%20Restaurant%20%26%20Spirits%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-brannan-manor-restaurant-and-spirits-karaoke-10-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46430"
+          }
+        ]
+      }
+    },
+    "brew-city-grill": {
+      "id": "brew-city-grill",
+      "name": "Brew City Grill",
+      "displayName": "Brew City Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Campbell",
+      "region": "",
+      "address": "651 W Hamilton Ave Suite 1070 Campbell CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45021",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Brew%20City%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-brew-city-grill-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45021"
+          }
+        ]
+      }
+    },
+    "brew-coffee-and-beer": {
+      "id": "brew-coffee-and-beer",
+      "name": "Brew Coffee and Beer",
+      "displayName": "Brew Coffee and Beer",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "555 Healdsburg Ave Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=7213",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Brew%20Coffee%20and%20Beer%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-brew-coffee-and-beer-openmic-7-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=7213"
+          },
+          {
+            "eventId": "2026-06-02-brew-coffee-and-beer-poetry-7-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=7213"
+          }
+        ]
+      }
+    },
+    "brick-and-038-mortar-music-hall": {
+      "id": "brick-and-038-mortar-music-hall",
+      "name": "Brick &#038; Mortar Music Hall",
+      "displayName": "Brick &#038; Mortar Music Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Brick%20%26%23038%3B%20Mortar%20Music%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-brick-and-038-mortar-music-hall-daisy-grenade-vienna-vienna",
+            "date": "2026-06-02",
+            "title": "Daisy Grenade / Vienna Vienna",
+            "details": "Daisy Grenade, Vienna Vienna",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-brick-and-038-mortar-music-hall-atm-danny",
+            "date": "2026-06-04",
+            "title": "ATM Danny",
+            "details": "ATM Danny",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-brick-and-038-mortar-music-hall-alain-whyte-band-dj-ray-chaos",
+            "date": "2026-06-05",
+            "title": "Alain Whyte Band / Ray Chaos",
+            "details": "Alain Whyte Band, Dj Ray Chaos",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-brick-and-038-mortar-music-hall-racing-mount-pleasant",
+            "date": "2026-06-06",
+            "title": "Racing Mount Pleasant",
+            "details": "Racing Mount Pleasant",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -1918,7 +5457,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-01T03:30:41.147Z",
+        "lastImportedAt": "2026-06-01T22:10:59.830Z",
         "appearances": [
           {
             "eventId": "2026-05-31-brick-and-mortar-fun-lovin-criminals",
@@ -1926,6 +5465,215 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Fun Lovin' Criminals",
             "details": "a/a $34.24 (under 21 plus $5) 7pm/8pm ^",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "brick-and-mortar-music-hall": {
+      "id": "brick-and-mortar-music-hall",
+      "name": "Brick & Mortar Music Hall",
+      "displayName": "Brick & Mortar Music Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Brick%20%26%20Mortar%20Music%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:09:52.700Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-brick-and-mortar-music-hall-the-scratch-dug",
+            "date": "2026-05-27",
+            "title": "The Scratch / DUG",
+            "details": "The Scratch, DUG",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-brick-and-mortar-music-hall-jorden-kyle-danny-ali-reo-900-jay-armon-solus-the-happy-human-derder-laflare",
+            "date": "2026-05-28",
+            "title": "Jorden Kyle / Danny Ali / Reo 900 / Jay Armon / Solus The Happy Human / DerDer LaFlare",
+            "details": "Jorden Kyle, Danny Ali, Reo 900, Jay Armon, Solus The Happy Human, DerDer LaFlare",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-brick-and-mortar-music-hall-the-mom-dance-party",
+            "date": "2026-05-29",
+            "title": "The Mom Dance Party",
+            "details": "The Mom Dance Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-brick-and-mortar-music-hall-the-mom-dance-party",
+            "date": "2026-05-30",
+            "title": "The Mom Dance Party",
+            "details": "The Mom Dance Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-brick-and-mortar-music-hall-fun-lovin-criminals-rob-eberle",
+            "date": "2026-05-31",
+            "title": "Fun Lovin' Criminals / Rob Eberle",
+            "details": "Fun Lovin' Criminals, Rob Eberle",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-02-brick-and-mortar-music-hall-daisy-grenade-vienna-vienna",
+            "date": "2026-06-02",
+            "title": "Daisy Grenade / Vienna Vienna",
+            "details": "Daisy Grenade, Vienna Vienna",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-brick-and-mortar-music-hall-atm-danny",
+            "date": "2026-06-04",
+            "title": "ATM Danny",
+            "details": "ATM Danny",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-brick-and-mortar-music-hall-alain-whyte-band-dj-ray-chaos",
+            "date": "2026-06-05",
+            "title": "Alain Whyte Band / Ray Chaos",
+            "details": "Alain Whyte Band, Dj Ray Chaos",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-brick-and-mortar-music-hall-racing-mount-pleasant",
+            "date": "2026-06-06",
+            "title": "Racing Mount Pleasant",
+            "details": "Racing Mount Pleasant",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "brix-581": {
+      "id": "brix-581",
+      "name": "BRIX 581",
+      "displayName": "BRIX 581",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "581 5th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16743",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22BRIX%20581%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-brix-581-openmic-10-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16743"
+          },
+          {
+            "eventId": "2026-06-03-brix-581-poetry-10-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16743"
+          }
+        ]
+      }
+    },
+    "bubba-gump-shrimp-company": {
+      "id": "bubba-gump-shrimp-company",
+      "name": "Bubba Gump Shrimp Company",
+      "displayName": "Bubba Gump Shrimp Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "Pier 39 Box M-211 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16320",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bubba%20Gump%20Shrimp%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-bubba-gump-shrimp-company-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16320"
           }
         ]
       }
@@ -1982,6 +5730,108 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:44:57.886Z"
     },
+    "bus-stop": {
+      "id": "bus-stop",
+      "name": "Bus Stop",
+      "displayName": "Bus Stop",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1901 Union St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4564",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bus%20Stop%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-bus-stop-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4564"
+          }
+        ]
+      }
+    },
+    "butter": {
+      "id": "butter",
+      "name": "Butter",
+      "displayName": "Butter",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "354 11th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46421",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Butter%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-butter-karaoke-9-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46421"
+          }
+        ]
+      }
+    },
     "cafe-du-nord": {
       "id": "cafe-du-nord",
       "name": "Cafe Du Nord",
@@ -1994,6 +5844,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2174 Market St, San Francisco, CA 94114",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7667469,
         "longitude": -122.4303843
@@ -2141,29 +5993,204 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
             "eventId": "2026-05-28-cafe-du-nord-austin-giorgio",
             "date": "2026-05-28",
             "title": "Austin Giorgio",
-            "details": "a/a 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Austin Giorgio",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-cafe-du-nord-lime-garden",
-            "date": "2026-05-30",
-            "title": "Lime Garden",
-            "details": "a/a 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-07-cafe-du-nord-anthony-family-baby-lindo",
+            "date": "2026-06-07",
+            "title": "Anthony Family / Baby Lindo",
+            "details": "Anthony Family, Baby Lindo",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T21:09:52.467Z",
-      "summarySource": {
-        "label": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Cafe_Du_Nord",
-        "source": "wikipedia"
+      }
+    },
+    "california-jazz-conservatory": {
+      "id": "california-jazz-conservatory",
+      "name": "California Jazz Conservatory",
+      "displayName": "California Jazz Conservatory",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22California%20Jazz%20Conservatory%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-california-jazz-conservatory-12-30pm-pedro-pastrana-on-puerto-rican-jazz",
+            "date": "2026-06-03",
+            "title": "12:30pm Pedro Pastrana - On Puerto Rican Jazz",
+            "details": "12:30pm Pedro Pastrana - On Puerto Rican Jazz",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-california-jazz-conservatory-after-hours-tea-lounge-vinyl-listening-party",
+            "date": "2026-06-05",
+            "title": "After Hours Tea Lounge - vinyl listening party",
+            "details": "After Hours Tea Lounge - vinyl listening party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-california-jazz-conservatory-josh-jones-latin-quintet",
+            "date": "2026-06-06",
+            "title": "Josh Jones Latin Quintet",
+            "details": "Josh Jones Latin Quintet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-california-jazz-conservatory-4pm-the-b3-sessions-with-sylvester-burks",
+            "date": "2026-06-07",
+            "title": "4pm The B3 Sessions With Sylvester Burks",
+            "details": "4pm The B3 Sessions With Sylvester Burks",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "capitol-garage": {
+      "id": "capitol-garage",
+      "name": "Capitol Garage",
+      "displayName": "Capitol Garage",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1500 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3812",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Capitol%20Garage%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-capitol-garage-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3812"
+          }
+        ]
+      }
+    },
+    "caps-pizza-and-tap-house": {
+      "id": "caps-pizza-and-tap-house",
+      "name": "CAPs Pizza and Tap House",
+      "displayName": "CAPs Pizza and Tap House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "7628 Pacific Ave Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14153",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22CAPs%20Pizza%20and%20Tap%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-caps-pizza-and-tap-house-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14153"
+          },
+          {
+            "eventId": "2026-06-02-caps-pizza-and-tap-house-poetry-8-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14153"
+          },
+          {
+            "eventId": "2026-06-03-caps-pizza-and-tap-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30797"
+          }
+        ]
       }
     },
     "caravan-lounge": {
@@ -2313,6 +6340,64 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "manual"
       }
     },
+    "cast-iron-trading": {
+      "id": "cast-iron-trading",
+      "name": "Cast Iron Trading",
+      "displayName": "Cast Iron Trading",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "114 N San Joaquin St Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19762",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Cast%20Iron%20Trading%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-cast-iron-trading-openmic-7-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19762"
+          },
+          {
+            "eventId": "2026-06-05-cast-iron-trading-poetry-7-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19762"
+          }
+        ]
+      }
+    },
     "castro": {
       "id": "castro",
       "name": "Castro",
@@ -2407,6 +6492,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "429 Castro St, San Francisco, CA 94114",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7620333,
         "longitude": -122.43475910000001
@@ -2556,65 +6643,45 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
             "eventId": "2026-05-29-castro-theater-inji",
             "date": "2026-05-29",
             "title": "INJI",
-            "details": "a/a $39.25 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "INJI",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-29-castro-theater-dadi-freyr",
-            "date": "2026-05-29",
-            "title": "Dadi Freyr / Briet",
-            "details": "a/a 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-27-castro-fred-armisen-comedy-for-musicans",
-            "date": "2026-05-27",
-            "title": "Fred Armisen (comedy for musicans)",
-            "details": "a/a $65.25+ 7pm/8pm # (seated)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-castro-aldous-harding",
-            "date": "2026-05-28",
-            "title": "Aldous Harding / Sam Burton",
-            "details": "a/a $60-$41 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-castro-fred-armisen-comedy-for-musicans",
-            "date": "2026-05-28",
-            "title": "Fred Armisen (comedy for musicans)",
-            "details": "a/a $65.25+ 7pm8pm # (seated - sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-29-castro-kim-gordon",
-            "date": "2026-05-29",
-            "title": "Kim Gordon / Sasami",
-            "details": "a/a $48.60 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-castro-robby-hoffman-two-shows-comedian",
+            "eventId": "2026-05-30-castro-theater-robby-hoffman",
             "date": "2026-05-30",
-            "title": "Robby Hoffman (two shows - comedian)",
-            "details": "a/a $48+ 6pm/7pm and 9pm/9:30pm # (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Robby Hoffman",
+            "details": "Robby Hoffman",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-02-castro-theater-qveen-herby-thot-squad",
+            "date": "2026-06-02",
+            "title": "Qveen Herby / Thot Squad",
+            "details": "Qveen Herby, Thot Squad",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-castro-theater-horse-meat-disco-carrieondisco-dj-m3",
+            "date": "2026-06-06",
+            "title": "Horse Meat Disco / CarrieOnDisco / M3",
+            "details": "Horse Meat Disco, CarrieOnDisco, DJ M3",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-castro-theater-i-m-with-her-jordan-tice-joseph-terrell",
+            "date": "2026-06-07",
+            "title": "I'm With Her / Jordan Tice / Joseph Terrell",
+            "details": "I'm With Her, Jordan Tice, Joseph Terrell",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Wikidata",
-        "url": "https://www.wikidata.org/wiki/Q2941518",
-        "source": "wikidata"
-      },
-      "updatedAt": "2026-05-28T22:10:52.980Z"
+      }
     },
     "catalyst": {
       "id": "catalyst",
@@ -2781,7 +6848,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-01T03:30:41.147Z",
+        "lastImportedAt": "2026-06-01T22:10:59.830Z",
         "appearances": [
           {
             "eventId": "2026-05-31-catalyst-eagles-of-death-metal",
@@ -2852,6 +6919,159 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:45:46.072Z"
     },
+    "cato-s-ale-house": {
+      "id": "cato-s-ale-house",
+      "name": "Cato’s Ale House",
+      "displayName": "Cato’s Ale House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "3891 Piedmont Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3997",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Cato%E2%80%99s%20Ale%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.047Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-cato-s-ale-house-trivia-7-30pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3997"
+          }
+        ]
+      }
+    },
+    "cazbar-at-hotel-caza": {
+      "id": "cazbar-at-hotel-caza",
+      "name": "CazBar at Hotel Caza",
+      "displayName": "CazBar at Hotel Caza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1300 Columbus Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38642",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22CazBar%20at%20Hotel%20Caza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-cazbar-at-hotel-caza-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38642"
+          }
+        ]
+      }
+    },
+    "center-for-new-music": {
+      "id": "center-for-new-music",
+      "name": "Center for New Music",
+      "displayName": "Center for New Music",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Center%20for%20New%20Music%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.421Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-center-for-new-music-luminous-being",
+            "date": "2026-05-31",
+            "title": "Luminous Being",
+            "details": "Luminous Being",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-06-center-for-new-music-the-cornelius-cardew-choir-pauline-oliveros-birthday",
+            "date": "2026-06-06",
+            "title": "The Cornelius Cardew Choir (Pauline Oliveros’ Birthday)",
+            "details": "The Cornelius Cardew Choir (Pauline Oliveros’ Birthday)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
     "chapel": {
       "id": "chapel",
       "name": "Chapel",
@@ -2864,6 +7084,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "777 Valencia Street",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7604864,
         "longitude": -122.42129790000001
@@ -3028,22 +7250,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.371Z",
         "appearances": [
-          {
-            "eventId": "2026-05-31-chapel-marc-and-the-casuals",
-            "date": "2026-05-31",
-            "title": "Marc And The Casuals / The West Coast Spiritual Corinthians / dj Lead Teddy",
-            "details": "a/a $33.40 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-31-chapel-the-crosseyed",
-            "date": "2026-05-31",
-            "title": "The Crosseyed",
-            "details": "a/a $27.22 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-15-chapel-book-of-love",
             "date": "2027-05-15",
@@ -3064,6 +7272,282 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Justb",
             "details": "a/a $36.09 ($236-$100 vip) 6pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "chess-club-mechanics-institute": {
+      "id": "chess-club-mechanics-institute",
+      "name": "Chess Club (Mechanics' Institute)",
+      "displayName": "Chess Club (Mechanics' Institute)",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "57 Post St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53442",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chess%20Club%20(Mechanics'%20Institute)%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-chess-club-mechanics-institute-chess-6-30pm",
+            "date": "2026-06-02",
+            "title": "Chess",
+            "details": "Chess event at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53442"
+          }
+        ]
+      }
+    },
+    "chess-queen-s-club": {
+      "id": "chess-queen-s-club",
+      "name": "Chess Queen's Club",
+      "displayName": "Chess Queen's Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Mountain View",
+      "region": "",
+      "address": "2672 Bayshore Pkwy Suite 610 Mountain View CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53441",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chess%20Queen's%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-chess-queen-s-club-chess-2-30pm",
+            "date": "2026-06-06",
+            "title": "Chess",
+            "details": "Chess event at 2:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53441"
+          }
+        ]
+      }
+    },
+    "chief-sullivan-s": {
+      "id": "chief-sullivan-s",
+      "name": "Chief Sullivan's",
+      "displayName": "Chief Sullivan's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "622 Green St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38651",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chief%20Sullivan's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-chief-sullivan-s-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38651"
+          }
+        ]
+      }
+    },
+    "chopsticks-alley-art": {
+      "id": "chopsticks-alley-art",
+      "name": "Chopsticks Alley Art",
+      "displayName": "Chopsticks Alley Art",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "38 S Second St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19323",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chopsticks%20Alley%20Art%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-chopsticks-alley-art-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19323"
+          },
+          {
+            "eventId": "2026-06-03-chopsticks-alley-art-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19323"
+          }
+        ]
+      }
+    },
+    "church-of-clown": {
+      "id": "church-of-clown",
+      "name": "Church of Clown",
+      "displayName": "Church of Clown",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Church%20of%20Clown%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-29-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
+            "date": "2026-05-29",
+            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
+            "date": "2026-05-30",
+            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
+            "date": "2026-06-05",
+            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
+            "date": "2026-06-06",
+            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -3355,6 +7839,377 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:42:56.349Z"
     },
+    "clandestine-brewing": {
+      "id": "clandestine-brewing",
+      "name": "Clandestine Brewing",
+      "displayName": "Clandestine Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "980 S 1st St Suite B San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15757",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Clandestine%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-clandestine-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15757"
+          }
+        ]
+      }
+    },
+    "clara-s-junction": {
+      "id": "clara-s-junction",
+      "name": "Clara's Junction",
+      "displayName": "Clara's Junction",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Clara",
+      "region": "",
+      "address": "2221 Tasman Dr Santa Clara CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57476",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Clara's%20Junction%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-clara-s-junction-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57476"
+          }
+        ]
+      }
+    },
+    "classic-cars-west": {
+      "id": "classic-cars-west",
+      "name": "Classic Cars West",
+      "displayName": "Classic Cars West",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "499 Embarcadero building 7 Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46437",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Classic%20Cars%20West%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-classic-cars-west-karaoke-7-00pm",
+            "date": "2026-06-07",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46437"
+          }
+        ]
+      }
+    },
+    "coach-s-lounge-sports-bar-and-grill": {
+      "id": "coach-s-lounge-sports-bar-and-grill",
+      "name": "Coach’s Lounge Sports Bar and Grill",
+      "displayName": "Coach’s Lounge Sports Bar and Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "104 E Market St Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19764",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Coach%E2%80%99s%20Lounge%20Sports%20Bar%20and%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-coach-s-lounge-sports-bar-and-grill-openmic-8-00pm",
+            "date": "2026-06-07",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19764"
+          },
+          {
+            "eventId": "2026-06-07-coach-s-lounge-sports-bar-and-grill-poetry-8-00pm",
+            "date": "2026-06-07",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19764"
+          }
+        ]
+      }
+    },
+    "cobb-s-comedy-club": {
+      "id": "cobb-s-comedy-club",
+      "name": "Cobb’s Comedy Club",
+      "displayName": "Cobb’s Comedy Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "915 Columbus Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16738",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Cobb%E2%80%99s%20Comedy%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-cobb-s-comedy-club-openmic-7-30pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16738"
+          }
+        ]
+      }
+    },
+    "columbus-cafe": {
+      "id": "columbus-cafe",
+      "name": "Columbus Cafe",
+      "displayName": "Columbus Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "562 Green St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=36330",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Columbus%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-columbus-cafe-openmic-9-30pm",
+            "date": "2026-06-07",
+            "title": "Open Mic",
+            "details": "Open mic at 9:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=36330"
+          }
+        ]
+      }
+    },
+    "comet-club": {
+      "id": "comet-club",
+      "name": "Comet Club",
+      "displayName": "Comet Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3111 Fillmore St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19704",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Comet%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-comet-club-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19704"
+          },
+          {
+            "eventId": "2026-06-04-comet-club-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19704"
+          }
+        ]
+      }
+    },
     "community-music-center": {
       "id": "community-music-center",
       "name": "Community Music Center",
@@ -3529,6 +8384,108 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "wikipedia"
       }
     },
+    "connecticut-yankee": {
+      "id": "connecticut-yankee",
+      "name": "Connecticut Yankee",
+      "displayName": "Connecticut Yankee",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "100 Connecticut St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38654",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Connecticut%20Yankee%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-connecticut-yankee-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38654"
+          }
+        ]
+      }
+    },
+    "copper-bar-kitchen-and-microbrewery": {
+      "id": "copper-bar-kitchen-and-microbrewery",
+      "name": "Copper Bar Kitchen & Microbrewery",
+      "displayName": "Copper Bar Kitchen & Microbrewery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4092 18th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41324",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Copper%20Bar%20Kitchen%20%26%20Microbrewery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-copper-bar-kitchen-and-microbrewery-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41324"
+          }
+        ]
+      }
+    },
     "cornerstone": {
       "id": "cornerstone",
       "name": "Cornerstone",
@@ -3541,6 +8498,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2367 Shattuck Ave., Berkeley, CA 94704",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.866320099999996,
         "longitude": -122.26732290000001
@@ -3656,21 +8615,172 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.147Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
+          {
+            "eventId": "2026-05-28-cornerstone-being-as-an-ocean-lagrimas-commoner",
+            "date": "2026-05-28",
+            "title": "Being As An Ocean / Lagrimas / Commoner",
+            "details": "Being As An Ocean, Lagrimas, Commoner",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-cornerstone-jiluka",
+            "date": "2026-05-29",
+            "title": "Jiluka",
+            "details": "Jiluka",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-cornerstone-cd-ghost",
+            "date": "2026-05-30",
+            "title": "CD Ghost",
+            "details": "CD Ghost",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
           {
             "eventId": "2026-05-31-cornerstone-pradabagshawty",
             "date": "2026-05-31",
             "title": "Pradabagshawty",
-            "details": "a/a $28.29 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Pradabagshawty",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-31-cornerstone-sigh",
-            "date": "2026-05-31",
-            "title": "Sigh / Dreadnought",
-            "details": "8pm/9pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-01-cornerstone-kenny-mason-feardorian",
+            "date": "2026-06-01",
+            "title": "Kenny Mason / FearDorian",
+            "details": "Kenny Mason, FearDorian",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-cornerstone-doomsday-iron-front-four-winds-away-losing-streak",
+            "date": "2026-06-05",
+            "title": "Doomsday / Iron Front / Four Winds Away / Losing Streak",
+            "details": "Doomsday, Iron Front, Four Winds Away, Losing Streak",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-cornerstone-teen-suicide-pure-hex-cloud-nothings",
+            "date": "2026-06-06",
+            "title": "Teen Suicide / Pure Hex / Cloud Nothings",
+            "details": "Teen Suicide, Pure Hex, Cloud Nothings",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-cornerstone-sewerperson-autumndropsdead",
+            "date": "2026-06-07",
+            "title": "Sewerperson / autumndropsdead",
+            "details": "Sewerperson, autumndropsdead",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "country-club-elementary-school": {
+      "id": "country-club-elementary-school",
+      "name": "Country Club Elementary School",
+      "displayName": "Country Club Elementary School",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Ramon",
+      "region": "",
+      "address": "7534 Blue Fox Way San Ramon CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53004",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Country%20Club%20Elementary%20School%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-country-club-elementary-school-chess-8-00pm",
+            "date": "2026-06-05",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53004"
+          }
+        ]
+      }
+    },
+    "country-club-lanes": {
+      "id": "country-club-lanes",
+      "name": "Country Club Lanes",
+      "displayName": "Country Club Lanes",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2600 Watt Ave Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14161",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Country%20Club%20Lanes%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-country-club-lanes-openmic-8-30pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14161"
+          },
+          {
+            "eventId": "2026-06-03-country-club-lanes-poetry-8-30pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14161"
           }
         ]
       }
@@ -3887,6 +8997,157 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "manual"
       }
     },
+    "crybaby": {
+      "id": "crybaby",
+      "name": "Crybaby",
+      "displayName": "Crybaby",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Crybaby%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27977",
+          "confidence": "verified",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.415Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-28-crybaby-kranium",
+            "date": "2026-05-28",
+            "title": "Kranium",
+            "details": "Kranium",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-crybaby-blue-face",
+            "date": "2026-05-30",
+            "title": "Blue Face",
+            "details": "Blue Face",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-crybaby-the-10-year-celebration-of-blues-monday",
+            "date": "2026-06-01",
+            "title": "The 10 Year Celebration of Blues Monday",
+            "details": "The 10 Year Celebration of Blues Monday",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-crybaby-karaokay-with-mama-celeste",
+            "date": "2026-06-03",
+            "title": "Karaokay with Mama Celeste",
+            "details": "Karaokay with Mama Celeste",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-crybaby-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27977"
+          },
+          {
+            "eventId": "2026-06-04-crybaby-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27977"
+          },
+          {
+            "eventId": "2026-06-05-crybaby-1st-friday-party-with-shabazz-jambalaya-medvsa-latin-underground",
+            "date": "2026-06-05",
+            "title": "1st Friday Party with shabazz / Jambalaya / Medvsa / Latin Underground",
+            "details": "1st Friday Party with shabazz, Jambalaya, Medvsa, Latin Underground",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-crybaby-lil-blood-j-stalin",
+            "date": "2026-06-06",
+            "title": "Lil Blood / J. Stalin",
+            "details": "Lil Blood, J. Stalin",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "danny-coyle-s": {
+      "id": "danny-coyle-s",
+      "name": "Danny Coyle’s",
+      "displayName": "Danny Coyle’s",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "668 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4561",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Danny%20Coyle%E2%80%99s%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-danny-coyle-s-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4561"
+          }
+        ]
+      }
+    },
     "danny-murry": {
       "id": "danny-murry",
       "name": "Danny Murry's",
@@ -3946,6 +9207,57 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:52:04.468Z"
     },
+    "dave-and-buster-s": {
+      "id": "dave-and-buster-s",
+      "name": "Dave & Buster's",
+      "displayName": "Dave & Buster's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Concord",
+      "region": "",
+      "address": "2075 Diamond Blvd Ste. H180 Concord CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46167",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dave%20%26%20Buster's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-dave-and-buster-s-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46167"
+          }
+        ]
+      }
+    },
     "david": {
       "id": "david",
       "name": "David's",
@@ -3998,6 +9310,187 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T04:53:44.204Z"
     },
+    "davies-symphony-hall": {
+      "id": "davies-symphony-hall",
+      "name": "Davies Symphony Hall",
+      "displayName": "Davies Symphony Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Davies%20Symphony%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-29-davies-symphony-hall-ravel-and-music-of-the-americas",
+            "date": "2026-05-29",
+            "title": "Ravel & Music of the Americas",
+            "details": "Ravel & Music of the Americas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-davies-symphony-hall-ravel-and-music-of-the-americas",
+            "date": "2026-05-30",
+            "title": "Ravel & Music of the Americas",
+            "details": "Ravel & Music of the Americas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-davies-symphony-hall-san-francisco-symphony-chorus-concert",
+            "date": "2026-05-31",
+            "title": "San Francisco Symphony Chorus Concert",
+            "details": "San Francisco Symphony Chorus Concert",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-davies-symphony-hall-yo-yo-ma",
+            "date": "2026-06-01",
+            "title": "Yo-Yo Ma",
+            "details": "Yo-Yo Ma",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-davies-symphony-hall-njioma-grevious-violin-recital",
+            "date": "2026-06-03",
+            "title": "Njioma Grevious Violin Recital",
+            "details": "Njioma Grevious Violin Recital",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-davies-symphony-hall-elim-chan-conducts-la-mer",
+            "date": "2026-06-05",
+            "title": "Elim Chan Conducts La Mer",
+            "details": "Elim Chan Conducts La Mer",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-davies-symphony-hall-elim-chan-conducts-la-mer",
+            "date": "2026-06-06",
+            "title": "Elim Chan Conducts La Mer",
+            "details": "Elim Chan Conducts La Mer",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "defremery-park": {
+      "id": "defremery-park",
+      "name": "DeFremery Park",
+      "displayName": "DeFremery Park",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22DeFremery%20Park%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-defremery-park-circus-bella",
+            "date": "2026-06-03",
+            "title": "Circus Bella",
+            "details": "Circus Bella",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "delta-pacific-beverage-company-inc": {
+      "id": "delta-pacific-beverage-company-inc",
+      "name": "Delta Pacific Beverage Company, Inc.",
+      "displayName": "Delta Pacific Beverage Company, Inc.",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "2206 Stagecoach Rd Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30803",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Delta%20Pacific%20Beverage%20Company%2C%20Inc.%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-delta-pacific-beverage-company-inc-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30803"
+          }
+        ]
+      }
+    },
     "dna-lounge": {
       "id": "dna-lounge",
       "name": "DNA Lounge",
@@ -4010,6 +9503,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "375 Eleventh Street",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7711099,
         "longitude": -122.4127726
@@ -4160,14 +9655,202 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.147Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-dna-lounge-living-dead-girl",
-            "date": "2026-05-31",
-            "title": "Living Dead Girl",
-            "details": "a/a $17/$24 7pm/7:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-25-dna-lounge-monday-night-hubba",
+            "date": "2026-05-25",
+            "title": "Monday Night Hubba",
+            "details": "Monday Night Hubba",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-dna-lounge-male-tears-sleek-teeth-dj-starr-noir",
+            "date": "2026-05-27",
+            "title": "Male Tears / Sleek Teeth / Starr Noir",
+            "details": "Male Tears, Sleek Teeth, DJ Starr Noir",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-dna-lounge-living-dead-girl-diamantide-theya",
+            "date": "2026-05-30",
+            "title": "Living Dead Girl / Diamantide / Theya",
+            "details": "Living Dead Girl, Diamantide, Theya",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-dna-lounge-monday-night-hubba",
+            "date": "2026-06-01",
+            "title": "Monday Night Hubba",
+            "details": "Monday Night Hubba",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-dna-lounge-wraith-witchtrap-the-black-moriah-burial-oath",
+            "date": "2026-06-07",
+            "title": "Wraith / Witchtrap / The Black Moriah / Burial Oath",
+            "details": "Wraith, Witchtrap, The Black Moriah, Burial Oath",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "dogpatch-games": {
+      "id": "dogpatch-games",
+      "name": "Dogpatch Games",
+      "displayName": "Dogpatch Games",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1095 Tennessee St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46475",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dogpatch%20Games%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-dogpatch-games-game-7-00pm",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46475"
+          }
+        ]
+      }
+    },
+    "dogpatch-saloon": {
+      "id": "dogpatch-saloon",
+      "name": "Dogpatch Saloon",
+      "displayName": "Dogpatch Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2496 3rd St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38627",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dogpatch%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-dogpatch-saloon-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38627"
+          }
+        ]
+      }
+    },
+    "dolan-s-den-bar-and-grill": {
+      "id": "dolan-s-den-bar-and-grill",
+      "name": "Dolan's Den Bar & Grill",
+      "displayName": "Dolan's Den Bar & Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "995 Piner Rd Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15763",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dolan's%20Den%20Bar%20%26%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-dolan-s-den-bar-and-grill-openmic-9-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15763"
+          },
+          {
+            "eventId": "2026-06-01-dolan-s-den-bar-and-grill-poetry-9-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15763"
           }
         ]
       }
@@ -4184,6 +9867,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "El Cerrito",
       "region": "East Bay",
       "address": "10341 San Pablo Ave, El Cerrito, CA 94530",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.906841199999995,
         "longitude": -122.3059282
@@ -4286,14 +9971,550 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.148Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-down-home-music-record-swap",
+            "eventId": "2026-06-06-down-home-music-2pm-the-chuckleberries",
+            "date": "2026-06-06",
+            "title": "2pm The Chuckleberries",
+            "details": "2pm The Chuckleberries",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-down-home-music-2pm-san-kazakgascar",
+            "date": "2026-06-07",
+            "title": "2pm San Kazakgascar",
+            "details": "2pm San Kazakgascar",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "drake-s-dealership": {
+      "id": "drake-s-dealership",
+      "name": "Drake’s Dealership",
+      "displayName": "Drake’s Dealership",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2325 Broadway Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29729",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Drake%E2%80%99s%20Dealership%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-drake-s-dealership-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29729"
+          }
+        ]
+      }
+    },
+    "durty-nelly-s": {
+      "id": "durty-nelly-s",
+      "name": "Durty Nelly’s",
+      "displayName": "Durty Nelly’s",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2328 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16321",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Durty%20Nelly%E2%80%99s%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-durty-nelly-s-trivia-9-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16321"
+          }
+        ]
+      }
+    },
+    "east-brother-beer-co-rec-room": {
+      "id": "east-brother-beer-co-rec-room",
+      "name": "East Brother Beer Co. | Rec Room",
+      "displayName": "East Brother Beer Co. | Rec Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "135 4th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53210",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22East%20Brother%20Beer%20Co.%20%7C%20Rec%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-east-brother-beer-co-rec-room-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53210"
+          }
+        ]
+      }
+    },
+    "east-san-jose-carnegie-library": {
+      "id": "east-san-jose-carnegie-library",
+      "name": "East San Jose Carnegie Library",
+      "displayName": "East San Jose Carnegie Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1102 E Santa Clara St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46496",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22East%20San%20Jose%20Carnegie%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-east-san-jose-carnegie-library-game-4-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 4:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46496"
+          }
+        ]
+      }
+    },
+    "effie-s-restaurant-and-bar": {
+      "id": "effie-s-restaurant-and-bar",
+      "name": "Effie's Restaurant & Bar",
+      "displayName": "Effie's Restaurant & Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Campbell",
+      "region": "",
+      "address": "331 W Hacienda Ave Campbell CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=47971",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Effie's%20Restaurant%20%26%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-effie-s-restaurant-and-bar-karaoke-8-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=47971"
+          }
+        ]
+      }
+    },
+    "el-lopo": {
+      "id": "el-lopo",
+      "name": "El Lopo",
+      "displayName": "El Lopo",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1327 Polk St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38582",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22El%20Lopo%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-el-lopo-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38582"
+          }
+        ]
+      }
+    },
+    "el-rio": {
+      "id": "el-rio",
+      "name": "El Rio",
+      "displayName": "El Rio",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22El%20Rio%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-el-rio-joe-rut-and-the-sunshine-shovelers-nashville-honeymoon-noelle-and-the-deserters-caravan-222",
+            "date": "2026-05-25",
+            "title": "Joe Rut & The Sunshine Shovelers / Nashville Honeymoon / Noelle & the Deserters / Caravan 222",
+            "details": "Joe Rut & The Sunshine Shovelers, Nashville Honeymoon, Noelle & the Deserters, Caravan 222",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-el-rio-gloss-a-punk-rock-drag-show",
+            "date": "2026-05-28",
+            "title": "Gloss: A Punk Rock Drag Show",
+            "details": "Gloss: A Punk Rock Drag Show",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-el-rio-ew-baronhawk-poitier-tommy-c-trevor-sigler-five",
+            "date": "2026-05-30",
+            "title": "Ew / Baronhawk Poitier / Tommy C / Trevor Sigler / Five",
+            "details": "Ew, Baronhawk Poitier, Tommy C, Trevor Sigler, Five",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-el-rio-mahragan-ari-b-mashallah-mansaf-mama-alchemia",
             "date": "2026-05-31",
-            "title": "record swap",
-            "details": "a/a free 8am",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Mahragan / Ari B / Mashallah / Mansaf Mama / Alchemia",
+            "details": "Mahragan, Ari B, Mashallah, Mansaf Mama, Alchemia",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-el-rio-los-train-wreck-s-all-star-jam",
+            "date": "2026-06-03",
+            "title": "Los Train Wreck's All Star Jam",
+            "details": "Los Train Wreck's All Star Jam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-el-rio-sarah-coolidge-caroline-wolfson-marika-christine-ryli-discnogirl",
+            "date": "2026-06-04",
+            "title": "Sarah Coolidge / Caroline Wolfson / Marika Christine / Ryli / Discnogirl",
+            "details": "Sarah Coolidge, Caroline Wolfson, Marika Christine, Ryli, Discnogirl",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-el-rio-system-exclusive-sara-said-so",
+            "date": "2026-06-05",
+            "title": "System Exclusive / Sara Said So",
+            "details": "System Exclusive, Sara Said So",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-el-rio-pangea-fc-the-bogues",
+            "date": "2026-06-06",
+            "title": "Pangea FC / The Bogues",
+            "details": "Pangea FC, The Bogues",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-el-rio-latinas-forever-djs-and-drag",
+            "date": "2026-06-07",
+            "title": "Latinas Forever DJs and Drag",
+            "details": "Latinas Forever DJs and Drag",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "elbo-room": {
+      "id": "elbo-room",
+      "name": "Elbo Room",
+      "displayName": "Elbo Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Elbo%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-29-elbo-room-cali-agents-monk-hts-splash-alca-windstrong-yng-og-young-yay-dj-riddm-tiki10hunnit",
+            "date": "2026-05-29",
+            "title": "Cali Agents / Monk HTS / Splash Alca / Windstrong / YNG OG / Young Yay / Riddm / TIKI10HUNNIT",
+            "details": "Cali Agents, Monk HTS, Splash Alca, Windstrong, YNG OG, Young Yay, DJ Riddm, TIKI10HUNNIT",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-elbo-room-comedy-oakland",
+            "date": "2026-06-04",
+            "title": "Comedy Oakland",
+            "details": "Comedy Oakland",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-elbo-room-comedy-oakland",
+            "date": "2026-06-05",
+            "title": "Comedy Oakland",
+            "details": "Comedy Oakland",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-elbo-room-comedy-oakland",
+            "date": "2026-06-06",
+            "title": "Comedy Oakland",
+            "details": "Comedy Oakland",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "elbo-room-jack-london": {
+      "id": "elbo-room-jack-london",
+      "name": "Elbo Room Jack London",
+      "displayName": "Elbo Room Jack London",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "311 Broadway Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18675",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Elbo%20Room%20Jack%20London%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-elbo-room-jack-london-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18675"
+          },
+          {
+            "eventId": "2026-06-02-elbo-room-jack-london-poetry-8-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18675"
           }
         ]
       }
@@ -4453,6 +10674,658 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "localwiki"
       }
     },
+    "eli-s-mile-high-club": {
+      "id": "eli-s-mile-high-club",
+      "name": "Eli's Mile High Club",
+      "displayName": "Eli's Mile High Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Eli's%20Mile%20High%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27988",
+          "confidence": "verified",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-eli-s-mile-high-club-nate-bolden",
+            "date": "2026-05-25",
+            "title": "Nate Bolden",
+            "details": "Nate Bolden",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-eli-s-mile-high-club-daisychain-king-dream-swiss",
+            "date": "2026-05-28",
+            "title": "Daisychain / King Dream / Swiss",
+            "details": "Daisychain, King Dream, Swiss",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-eli-s-mile-high-club-mala-gre-a-icara-dj-sizzle",
+            "date": "2026-05-29",
+            "title": "Mala Greña / Icara / Sizzle",
+            "details": "Mala Greña, Icara, DJ Sizzle",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-eli-s-mile-high-club-abracanasty",
+            "date": "2026-05-30",
+            "title": "Abracanasty",
+            "details": "Abracanasty",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-eli-s-mile-high-club-busti-edgar-skoto",
+            "date": "2026-05-31",
+            "title": "Bustié / Edgar / Skoto",
+            "details": "Bustié, Edgar, Skoto",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-06-eli-s-mile-high-club-the-fin",
+            "date": "2026-06-06",
+            "title": "The fin.",
+            "details": "The fin.",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-eli-s-mile-high-club-christina-s-trip-tocca",
+            "date": "2026-06-07",
+            "title": "Christina's Trip / Tocca",
+            "details": "Christina's Trip, Tocca",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-eli-s-mile-high-club-openmic-6-00pm",
+            "date": "2026-06-07",
+            "title": "Open Mic",
+            "details": "Open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27988"
+          },
+          {
+            "eventId": "2026-06-07-eli-s-mile-high-club-poetry-6-00pm",
+            "date": "2026-06-07",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27988"
+          }
+        ]
+      }
+    },
+    "elixir": {
+      "id": "elixir",
+      "name": "Elixir",
+      "displayName": "Elixir",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3200 16th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4550",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Elixir%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-elixir-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4550"
+          }
+        ]
+      }
+    },
+    "emporium-arcade-bar": {
+      "id": "emporium-arcade-bar",
+      "name": "Emporium Arcade Bar",
+      "displayName": "Emporium Arcade Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "616 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=25555",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Emporium%20Arcade%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-emporium-arcade-bar-game-6-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53275"
+          },
+          {
+            "eventId": "2026-06-03-emporium-arcade-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=25555"
+          }
+        ]
+      }
+    },
+    "empresso-coffeehouse": {
+      "id": "empresso-coffeehouse",
+      "name": "Empresso Coffeehouse",
+      "displayName": "Empresso Coffeehouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "1231 W March Ln #6214 Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19765",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Empresso%20Coffeehouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-empresso-coffeehouse-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19765"
+          },
+          {
+            "eventId": "2026-06-03-empresso-coffeehouse-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30519"
+          },
+          {
+            "eventId": "2026-06-03-empresso-coffeehouse-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19765"
+          },
+          {
+            "eventId": "2026-06-03-empresso-coffeehouse-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30519"
+          }
+        ]
+      }
+    },
+    "eureka-valley-harvey-milk-memorial-branch-library": {
+      "id": "eureka-valley-harvey-milk-memorial-branch-library",
+      "name": "Eureka Valley / Harvey Milk Memorial Branch Library",
+      "displayName": "Eureka Valley / Harvey Milk Memorial Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1 Jose Sarria Ct San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46483",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Eureka%20Valley%20%2F%20Harvey%20Milk%20Memorial%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-eureka-valley-harvey-milk-memorial-branch-library-game-1-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 1:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46483"
+          },
+          {
+            "eventId": "2026-06-07-eureka-valley-harvey-milk-memorial-branch-library-book-8-00pm",
+            "date": "2026-06-07",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57231"
+          }
+        ]
+      }
+    },
+    "f8-nightclub-and-bar": {
+      "id": "f8-nightclub-and-bar",
+      "name": "F8 Nightclub & Bar",
+      "displayName": "F8 Nightclub & Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1192 Folsom St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53676",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22F8%20Nightclub%20%26%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-f8-nightclub-and-bar-dance-9-30pm",
+            "date": "2026-06-02",
+            "title": "Dance",
+            "details": "Dance event at 9:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53676"
+          }
+        ]
+      }
+    },
+    "faces-nightclub": {
+      "id": "faces-nightclub",
+      "name": "Faces Nightclub",
+      "displayName": "Faces Nightclub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2000 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46535",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Faces%20Nightclub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-faces-nightclub-karaoke-8-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46535"
+          }
+        ]
+      }
+    },
+    "festa-wine-and-cocktail-lounge-karaoke": {
+      "id": "festa-wine-and-cocktail-lounge-karaoke",
+      "name": "Festa Wine & Cocktail Lounge - Karaoke",
+      "displayName": "Festa Wine & Cocktail Lounge - Karaoke",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1825 Post St #210 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46417",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Festa%20Wine%20%26%20Cocktail%20Lounge%20-%20Karaoke%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-festa-wine-and-cocktail-lounge-karaoke-karaoke-7-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46417"
+          }
+        ]
+      }
+    },
+    "fibbar-magees": {
+      "id": "fibbar-magees",
+      "name": "Fibbar MaGees",
+      "displayName": "Fibbar MaGees",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sunnyvale",
+      "region": "",
+      "address": "156 S Murphy Ave Sunnyvale CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=56980",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fibbar%20MaGees%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-fibbar-magees-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=56980"
+          }
+        ]
+      }
+    },
+    "fieldhouse-american-sports-pub": {
+      "id": "fieldhouse-american-sports-pub",
+      "name": "Fieldhouse American Sports Pub",
+      "displayName": "Fieldhouse American Sports Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1310 Fulton Ave Suite D Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18603",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fieldhouse%20American%20Sports%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-fieldhouse-american-sports-pub-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18603"
+          }
+        ]
+      }
+    },
+    "fieldwork-brewing-company": {
+      "id": "fieldwork-brewing-company",
+      "name": "Fieldwork Brewing Company",
+      "displayName": "Fieldwork Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "1160 6th St Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20986",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fieldwork%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-fieldwork-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20986"
+          }
+        ]
+      }
+    },
     "fillmore": {
       "id": "fillmore",
       "name": "Fillmore",
@@ -4465,6 +11338,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1805 Geary Boulevard",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.783926,
         "longitude": -122.433072
@@ -4631,7 +11506,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
             "eventId": "2027-05-06-fillmore-french-79",
@@ -4639,6 +11514,57 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "French 79",
             "details": "a/a 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "finnegans-wake": {
+      "id": "finnegans-wake",
+      "name": "Finnegans Wake",
+      "displayName": "Finnegans Wake",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "937 Cole St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38663",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Finnegans%20Wake%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-finnegans-wake-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38663"
           }
         ]
       }
@@ -4682,7 +11608,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.148Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-finnish-hall-otherworld-ensemble",
@@ -4703,9 +11629,11 @@ window.SHOW_EXPLORER_VENUES = {
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
-      "city": "",
+      "city": "Alameda",
       "region": "",
-      "address": "",
+      "address": "1453 Webster St Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
@@ -4728,23 +11656,567 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Fireside%20Lounge%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3998",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
         "appearances": [
           {
             "eventId": "2026-05-30-fireside-lounge-travis-hayes",
             "date": "2026-05-30",
             "title": "Travis Hayes",
-            "details": "21+ 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Travis Hayes",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-fireside-lounge-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3999"
+          },
+          {
+            "eventId": "2026-06-03-fireside-lounge-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3999"
+          },
+          {
+            "eventId": "2026-06-03-fireside-lounge-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3998"
+          },
+          {
+            "eventId": "2026-06-05-fireside-lounge-bananas-diesel-dudes",
+            "date": "2026-06-05",
+            "title": "Bananas / Diesel Dudes",
+            "details": "Bananas, Diesel Dudes",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:00:03.743Z"
+      }
+    },
+    "first-church-of-the-buzzard": {
+      "id": "first-church-of-the-buzzard",
+      "name": "First Church of the Buzzard",
+      "displayName": "First Church of the Buzzard",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22First%20Church%20of%20the%20Buzzard%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.419Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-30-first-church-of-the-buzzard-leila-abdul-rauf-bat-noise-godgifu",
+            "date": "2026-05-30",
+            "title": "Leila Abdul-Rauf / Bat Noise / Godgifu",
+            "details": "Leila Abdul-Rauf, Bat Noise, Godgifu",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "fishbowl-bar-and-grill": {
+      "id": "fishbowl-bar-and-grill",
+      "name": "Fishbowl Bar And Grill",
+      "displayName": "Fishbowl Bar And Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1854 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=11001",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fishbowl%20Bar%20And%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-fishbowl-bar-and-grill-trivia-7-30pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=11001"
+          }
+        ]
+      }
+    },
+    "flanahan-s-pub": {
+      "id": "flanahan-s-pub",
+      "name": "Flanahan's Pub",
+      "displayName": "Flanahan's Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3805 Noriega St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53211",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Flanahan's%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-flanahan-s-pub-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53211"
+          }
+        ]
+      }
+    },
+    "floodcraft-brewing-co": {
+      "id": "floodcraft-brewing-co",
+      "name": "Floodcraft Brewing Co.",
+      "displayName": "Floodcraft Brewing Co.",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "777 The Alameda San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45018",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Floodcraft%20Brewing%20Co.%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.724Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-floodcraft-brewing-co-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45018"
+          }
+        ]
+      }
+    },
+    "florence-bar": {
+      "id": "florence-bar",
+      "name": "Florence Bar",
+      "displayName": "Florence Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "37349 Niles Blvd Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16737",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Florence%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.721Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-florence-bar-openmic-7-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16737"
+          },
+          {
+            "eventId": "2026-06-02-florence-bar-poetry-7-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16737"
+          }
+        ]
+      }
+    },
+    "fly": {
+      "id": "fly",
+      "name": "Fly",
+      "displayName": "Fly",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "762 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38578",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fly%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-fly-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38578"
+          }
+        ]
+      }
+    },
+    "flying-pig-bistro-pub": {
+      "id": "flying-pig-bistro-pub",
+      "name": "Flying Pig Bistro Pub",
+      "displayName": "Flying Pig Bistro Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "433 S Van Ness Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14364",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Flying%20Pig%20Bistro%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-flying-pig-bistro-pub-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14364"
+          }
+        ]
+      }
+    },
+    "focus-karaoke-and-cafe": {
+      "id": "focus-karaoke-and-cafe",
+      "name": "Focus Karaoke & Cafe",
+      "displayName": "Focus Karaoke & Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1336 Saratoga Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46413",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Focus%20Karaoke%20%26%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-focus-karaoke-and-cafe-karaoke-6-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46413"
+          }
+        ]
+      }
+    },
+    "fogbelt-brewing-company": {
+      "id": "fogbelt-brewing-company",
+      "name": "Fogbelt Brewing Company",
+      "displayName": "Fogbelt Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "1305 Cleveland Ave STE A Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55337",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fogbelt%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-fogbelt-brewing-company-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55337"
+          }
+        ]
+      }
+    },
+    "forbidden-island": {
+      "id": "forbidden-island",
+      "name": "Forbidden Island",
+      "displayName": "Forbidden Island",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "1304 Lincoln Ave Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54139",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Forbidden%20Island%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-forbidden-island-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54139"
+          }
+        ]
+      }
     },
     "fourth-bore": {
       "id": "fourth-bore",
@@ -4798,6 +12270,64 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:00:41.870Z"
     },
+    "fox-and-goose-public-house": {
+      "id": "fox-and-goose-public-house",
+      "name": "Fox & Goose Public House",
+      "displayName": "Fox & Goose Public House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1001 R St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28169",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fox%20%26%20Goose%20Public%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-fox-and-goose-public-house-openmic-7-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28169"
+          },
+          {
+            "eventId": "2026-06-01-fox-and-goose-public-house-poetry-7-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28169"
+          }
+        ]
+      }
+    },
     "fox-theater": {
       "id": "fox-theater",
       "name": "Fox Theater",
@@ -4810,6 +12340,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "1807 Telegraph Avenue, Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.8080211,
         "longitude": -122.2702226
@@ -4962,14 +12494,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-fox-theater-shpongle",
-            "date": "2026-05-31",
-            "title": "Shpongle",
-            "details": "a/a $66.75 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-27-fox-theater-the-last-dinner-party-automatic",
+            "date": "2026-05-27",
+            "title": "The Last Dinner Party / Automatic",
+            "details": "The Last Dinner Party, Automatic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-fox-theater-juvenile-with-the-400-degreez-band-and-special-guests",
+            "date": "2026-06-05",
+            "title": "Juvenile with The 400 Degreez Band & Special Guests",
+            "details": "Juvenile with The 400 Degreez Band & Special Guests",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-fox-theater-juvenile-with-the-400-degreez-band-and-038-special-guests",
+            "date": "2026-06-05",
+            "title": "Juvenile / The 400 Degreez Band &#038; Special Guests",
+            "details": "Juvenile with The 400 Degreez Band &#038; Special Guests",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
             "eventId": "2027-05-03-fox-theater-nothing-but-thieves",
@@ -4977,6 +12523,377 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Nothing But Thieves",
             "details": "a/a 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "game-kastle": {
+      "id": "game-kastle",
+      "name": "Game Kastle",
+      "displayName": "Game Kastle",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Clara",
+      "region": "",
+      "address": "1350 Coleman Ave Santa Clara CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46494",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Game%20Kastle%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-game-kastle-game-6-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46494"
+          },
+          {
+            "eventId": "2026-06-03-game-kastle-game-5-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 5:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46499"
+          }
+        ]
+      }
+    },
+    "game-kastle-fremont": {
+      "id": "game-kastle-fremont",
+      "name": "Game Kastle Fremont",
+      "displayName": "Game Kastle Fremont",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "3911 Washington Blvd Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32923",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Game%20Kastle%20Fremont%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-game-kastle-fremont-game-6-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32923"
+          }
+        ]
+      }
+    },
+    "gamescape": {
+      "id": "gamescape",
+      "name": "Gamescape",
+      "displayName": "Gamescape",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "333 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46477",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Gamescape%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-gamescape-game-7-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46477"
+          }
+        ]
+      }
+    },
+    "gamescape-north": {
+      "id": "gamescape-north",
+      "name": "Gamescape North",
+      "displayName": "Gamescape North",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Rafael",
+      "region": "",
+      "address": "1225 4th St San Rafael CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53280",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Gamescape%20North%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-gamescape-north-game-6-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53280"
+          }
+        ]
+      }
+    },
+    "garden-at-the-line": {
+      "id": "garden-at-the-line",
+      "name": "Garden At The Line",
+      "displayName": "Garden At The Line",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "6415 Elvas Ave Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41385",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Garden%20At%20The%20Line%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-garden-at-the-line-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41385"
+          }
+        ]
+      }
+    },
+    "geoffrey-s-inner-circle": {
+      "id": "geoffrey-s-inner-circle",
+      "name": "Geoffrey’s Inner Circle",
+      "displayName": "Geoffrey’s Inner Circle",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "410 14th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18672",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Geoffrey%E2%80%99s%20Inner%20Circle%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-geoffrey-s-inner-circle-openmic-8-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18672"
+          },
+          {
+            "eventId": "2026-06-04-geoffrey-s-inner-circle-poetry-8-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18672"
+          }
+        ]
+      }
+    },
+    "ghost-town-brewing": {
+      "id": "ghost-town-brewing",
+      "name": "Ghost Town Brewing",
+      "displayName": "Ghost Town Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1960 Adeline St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=21015",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ghost%20Town%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-ghost-town-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=21015"
           }
         ]
       }
@@ -5122,7 +13039,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.148Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-gilman-small-crush",
@@ -5130,6 +13047,551 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Small Crush / Love Spiral / Whine / Snallygaster / Mommy Mommy",
             "details": "a/a $5-$25 sliding scale 4pm/5pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "ginger-s": {
+      "id": "ginger-s",
+      "name": "Ginger’s",
+      "displayName": "Ginger’s",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "86 Hardie Pl San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30080",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ginger%E2%80%99s%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-ginger-s-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30080"
+          }
+        ]
+      }
+    },
+    "glen-park-branch-library": {
+      "id": "glen-park-branch-library",
+      "name": "Glen Park Branch Library",
+      "displayName": "Glen Park Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2825 Diamond St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57232",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Glen%20Park%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-glen-park-branch-library-book-8-00pm",
+            "date": "2026-06-02",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57232"
+          },
+          {
+            "eventId": "2026-06-03-glen-park-branch-library-game-12-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 12:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46484"
+          }
+        ]
+      }
+    },
+    "golden-gate-park-bandshell": {
+      "id": "golden-gate-park-bandshell",
+      "name": "Golden Gate Park Bandshell",
+      "displayName": "Golden Gate Park Bandshell",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Golden%20Gate%20Park%20Bandshell%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.421Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-golden-gate-park-bandshell-dub-mission-s-30th-anniversary-celebration",
+            "date": "2026-05-31",
+            "title": "Dub Mission’s 30th Anniversary Celebration",
+            "details": "Dub Mission’s 30th Anniversary Celebration",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "golden-gate-valley-branch-library": {
+      "id": "golden-gate-valley-branch-library",
+      "name": "Golden Gate Valley Branch Library",
+      "displayName": "Golden Gate Valley Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1801 Green St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57230",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Golden%20Gate%20Valley%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-golden-gate-valley-branch-library-book-8-00pm",
+            "date": "2026-06-01",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57230"
+          },
+          {
+            "eventId": "2026-06-04-golden-gate-valley-branch-library-game-12-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 12:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46485"
+          }
+        ]
+      }
+    },
+    "good-karma-fine-ales-food-and-hifi": {
+      "id": "good-karma-fine-ales-food-and-hifi",
+      "name": "Good Karma Fine Ales Food & HiFi",
+      "displayName": "Good Karma Fine Ales Food & HiFi",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "37 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19331",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Good%20Karma%20Fine%20Ales%20Food%20%26%20HiFi%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-good-karma-fine-ales-food-and-hifi-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19331"
+          }
+        ]
+      }
+    },
+    "good-karma-fine-ales-food-hifi": {
+      "id": "good-karma-fine-ales-food-hifi",
+      "name": "Good Karma Fine Ales Food HiFi",
+      "displayName": "Good Karma Fine Ales Food HiFi",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "37 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19325",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Good%20Karma%20Fine%20Ales%20Food%20HiFi%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-good-karma-fine-ales-food-hifi-openmic-6-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19325"
+          },
+          {
+            "eventId": "2026-06-05-good-karma-fine-ales-food-hifi-poetry-6-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19325"
+          }
+        ]
+      }
+    },
+    "goosetown-lounge": {
+      "id": "goosetown-lounge",
+      "name": "Goosetown Lounge",
+      "displayName": "Goosetown Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1072 Lincoln Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46527",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Goosetown%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-goosetown-lounge-karaoke-9-30pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46527"
+          }
+        ]
+      }
+    },
+    "grace-presbyterian-church": {
+      "id": "grace-presbyterian-church",
+      "name": "Grace Presbyterian Church",
+      "displayName": "Grace Presbyterian Church",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Walnut Creek",
+      "region": "",
+      "address": "2100 Tice Valley Blvd Walnut Creek CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53003",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Grace%20Presbyterian%20Church%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-grace-presbyterian-church-chess-8-00pm",
+            "date": "2026-06-05",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53003"
+          }
+        ]
+      }
+    },
+    "grateful-gardens": {
+      "id": "grateful-gardens",
+      "name": "Grateful Gardens",
+      "displayName": "Grateful Gardens",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "990 Meridian Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19337",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Grateful%20Gardens%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-grateful-gardens-openmic-8-00pm",
+            "date": "2026-06-06",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19337"
+          },
+          {
+            "eventId": "2026-06-06-grateful-gardens-poetry-8-00pm",
+            "date": "2026-06-06",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19337"
+          }
+        ]
+      }
+    },
+    "gray-area": {
+      "id": "gray-area",
+      "name": "Gray Area",
+      "displayName": "Gray Area",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Gray%20Area%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-29-gray-area-after-thought",
+            "date": "2026-05-29",
+            "title": "After Thought",
+            "details": "After Thought",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-gray-area-build-treat-heal",
+            "date": "2026-05-30",
+            "title": "Build / Treat / Heal",
+            "details": "Build, Treat, Heal",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-gray-area-immersive-story-club",
+            "date": "2026-05-31",
+            "title": "Immersive Story Club",
+            "details": "Immersive Story Club",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-gray-area-waves-of-change-a-night-of-vocals-electronics",
+            "date": "2026-06-05",
+            "title": "Waves of Change: A Night of Vocals + Electronics",
+            "details": "Waves of Change: A Night of Vocals + Electronics",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -5146,6 +13608,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "859 O'Farrell St, San Francisco, CA 94109",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7849611,
         "longitude": -122.41887779999999
@@ -5309,14 +13773,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-great-american-music-hall-of-montreal",
-            "date": "2026-05-31",
-            "title": "Of Montreal / Sloppy Jane",
-            "details": "a/a $27/$30 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-27-great-american-music-hall-sleepytime-gorilla-museum-inner-ear-brigade-lunar-mistake",
+            "date": "2026-05-27",
+            "title": "Sleepytime Gorilla Museum / Inner Ear Brigade / Lunar Mistake",
+            "details": "Sleepytime Gorilla Museum, Inner Ear Brigade, Lunar Mistake",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-great-american-music-hall-thaiboy-digital-whitearmor",
+            "date": "2026-05-28",
+            "title": "Thaiboy Digital / Whitearmor",
+            "details": "Thaiboy Digital, Whitearmor",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-great-american-music-hall-forbidden-cynic-doomsday-cultural-warfare",
+            "date": "2026-05-29",
+            "title": "Forbidden / Cynic / Doomsday / Cultural Warfare",
+            "details": "Forbidden, Cynic, Doomsday, Cultural Warfare",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
             "eventId": "2027-05-09-great-american-music-hall-anna-von-hausswolff",
@@ -5324,6 +13802,108 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Anna Von Hausswolff",
             "details": "a/a $25/$30 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "great-escape-games": {
+      "id": "great-escape-games",
+      "name": "Great Escape Games",
+      "displayName": "Great Escape Games",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1250 Howe Ave #3A Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14523",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Great%20Escape%20Games%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-great-escape-games-game-6-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14523"
+          }
+        ]
+      }
+    },
+    "great-escape-games-inc": {
+      "id": "great-escape-games-inc",
+      "name": "Great Escape Games, Inc.",
+      "displayName": "Great Escape Games, Inc.",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1250 Howe Ave #3A Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50663",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Great%20Escape%20Games%2C%20Inc.%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-great-escape-games-inc-chess-8-00pm",
+            "date": "2026-06-02",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50663"
           }
         ]
       }
@@ -5340,6 +13920,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "Hearst Greek Theatre, 2001 Gayley Rd, Berkeley, CA 94720",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.8735759,
         "longitude": -122.2544715
@@ -5509,14 +14091,144 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-01T03:30:41.148Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-greek-theatre-dark-star-orchestra",
-            "date": "2026-05-31",
-            "title": "Dark Star Orchestra / Melvin Seals & JGB",
-            "details": "a/a 5pm # (Benefit for the Rex Rondation - day 1)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-29-greek-theatre-alabama-shakes-nathaniel-rateliff",
+            "date": "2026-05-29",
+            "title": "Alabama Shakes / Nathaniel Rateliff",
+            "details": "Alabama Shakes, Nathaniel Rateliff",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-greek-theatre-alabama-shakes-nathaniel-rateliff",
+            "date": "2026-05-30",
+            "title": "Alabama Shakes / Nathaniel Rateliff",
+            "details": "Alabama Shakes, Nathaniel Rateliff",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "groundfloor": {
+      "id": "groundfloor",
+      "name": "Groundfloor",
+      "displayName": "Groundfloor",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4055 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27976",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Groundfloor%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-groundfloor-openmic-6-30pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27976"
+          },
+          {
+            "eventId": "2026-06-03-groundfloor-poetry-6-30pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27976"
+          }
+        ]
+      }
+    },
+    "groundstack-coffee": {
+      "id": "groundstack-coffee",
+      "name": "Groundstack Coffee",
+      "displayName": "Groundstack Coffee",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "3210 Pacific Ave Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30522",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Groundstack%20Coffee%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-groundstack-coffee-openmic-6-30pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30522"
+          },
+          {
+            "eventId": "2026-06-01-groundstack-coffee-poetry-6-30pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30522"
+          },
+          {
+            "eventId": "2026-06-03-groundstack-coffee-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30799"
           }
         ]
       }
@@ -5659,7 +14371,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.148Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-guild-theater-stu-allen",
@@ -5667,6 +14379,458 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Stu Allen / Mars Hotel",
             "details": "a/a (under 18 with parent) $61+ 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "guildhouse": {
+      "id": "guildhouse",
+      "name": "Guildhouse",
+      "displayName": "Guildhouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "420 First St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50069",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Guildhouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-guildhouse-game-7-00pm",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50069"
+          }
+        ]
+      }
+    },
+    "half-moon-bay-brewing-company": {
+      "id": "half-moon-bay-brewing-company",
+      "name": "Half Moon Bay Brewing Company",
+      "displayName": "Half Moon Bay Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Half Moon Bay",
+      "region": "",
+      "address": "390 Capistrano Rd Half Moon Bay CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41337",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Half%20Moon%20Bay%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-half-moon-bay-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41337"
+          }
+        ]
+      }
+    },
+    "hapa-s-brewing-company": {
+      "id": "hapa-s-brewing-company",
+      "name": "Hapa's Brewing Company",
+      "displayName": "Hapa's Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "460 Lincoln Ave #90 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45016",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hapa's%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-hapa-s-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45016"
+          }
+        ]
+      }
+    },
+    "happy-donuts": {
+      "id": "happy-donuts",
+      "name": "Happy Donuts",
+      "displayName": "Happy Donuts",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Palo Alto",
+      "region": "",
+      "address": "3916 El Camino Real Palo Alto CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50687",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Happy%20Donuts%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-happy-donuts-chess-8-00pm",
+            "date": "2026-06-05",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50687"
+          }
+        ]
+      }
+    },
+    "harmonic-brewing-thrive-city": {
+      "id": "harmonic-brewing-thrive-city",
+      "name": "Harmonic Brewing Thrive City",
+      "displayName": "Harmonic Brewing Thrive City",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "7 Warriors Wy Suite 206 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16437",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Harmonic%20Brewing%20Thrive%20City%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-harmonic-brewing-thrive-city-trivia-6-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16437"
+          }
+        ]
+      }
+    },
+    "harry-s-bar-sf": {
+      "id": "harry-s-bar-sf",
+      "name": "Harry's Bar SF",
+      "displayName": "Harry's Bar SF",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2020 Fillmore St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38579",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Harry's%20Bar%20SF%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-harry-s-bar-sf-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38579"
+          }
+        ]
+      }
+    },
+    "haven-wine-and-cheese": {
+      "id": "haven-wine-and-cheese",
+      "name": "Haven Wine & Cheese",
+      "displayName": "Haven Wine & Cheese",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Menlo Park",
+      "region": "",
+      "address": "1925 Menalto Ave Menlo Park CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54146",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Haven%20Wine%20%26%20Cheese%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-haven-wine-and-cheese-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54146"
+          }
+        ]
+      }
+    },
+    "henhouse-brewing-company": {
+      "id": "henhouse-brewing-company",
+      "name": "HenHouse Brewing Company",
+      "displayName": "HenHouse Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "322 Bellevue Ave Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55338",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22HenHouse%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-henhouse-brewing-company-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55338"
+          }
+        ]
+      }
+    },
+    "henry-j-kaiser": {
+      "id": "henry-j-kaiser",
+      "name": "Henry J. Kaiser",
+      "displayName": "Henry J. Kaiser",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Henry%20J.%20Kaiser%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-henry-j-kaiser-apocalyptica-metallica-tribute",
+            "date": "2026-06-03",
+            "title": "Apocalyptica (Metallica tribute)",
+            "details": "Apocalyptica (Metallica tribute)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -5855,6 +15019,173 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "wikipedia"
       }
     },
+    "henry-s-bar-and-restaurant": {
+      "id": "henry-s-bar-and-restaurant",
+      "name": "Henry’s Bar and Restaurant",
+      "displayName": "Henry’s Bar and Restaurant",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2600 Durant Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4544",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Henry%E2%80%99s%20Bar%20and%20Restaurant%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-henry-s-bar-and-restaurant-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4544"
+          }
+        ]
+      }
+    },
+    "henry-s-lounge": {
+      "id": "henry-s-lounge",
+      "name": "Henry’s Lounge",
+      "displayName": "Henry’s Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2019 O St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14152",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Henry%E2%80%99s%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.718Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-henry-s-lounge-openmic-8-30pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14152"
+          },
+          {
+            "eventId": "2026-06-01-henry-s-lounge-poetry-8-30pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14152"
+          },
+          {
+            "eventId": "2026-06-04-henry-s-lounge-trivia-6-30pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=56957"
+          }
+        ]
+      }
+    },
+    "hi-tops": {
+      "id": "hi-tops",
+      "name": "Hi Tops",
+      "displayName": "Hi Tops",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2247 Market St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41342",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hi%20Tops%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-hi-tops-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41342"
+          }
+        ]
+      }
+    },
     "hila-gelato": {
       "id": "hila-gelato",
       "name": "Hila Gelato",
@@ -5906,6 +15237,312 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:15:17.330Z"
+    },
+    "him-mark-lai-branch-library": {
+      "id": "him-mark-lai-branch-library",
+      "name": "Him Mark Lai Branch Library",
+      "displayName": "Him Mark Lai Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1135 Powell St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46482",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Him%20Mark%20Lai%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-him-mark-lai-branch-library-game-1-00pm",
+            "date": "2026-06-05",
+            "title": "Game Night",
+            "details": "Game night at 1:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46482"
+          }
+        ]
+      }
+    },
+    "history-san-jose": {
+      "id": "history-san-jose",
+      "name": "History San Jose",
+      "displayName": "History San Jose",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "Pacific Hotel Building San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19339",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22History%20San%20Jose%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-history-san-jose-poetry-6-30pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19339"
+          }
+        ]
+      }
+    },
+    "homestead-bowl": {
+      "id": "homestead-bowl",
+      "name": "Homestead Bowl",
+      "displayName": "Homestead Bowl",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Cupertino",
+      "region": "",
+      "address": "20990 Homestead Rd Cupertino CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46415",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Homestead%20Bowl%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-homestead-bowl-karaoke-8-00pm",
+            "date": "2026-06-06",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46415"
+          }
+        ]
+      }
+    },
+    "honey-and-the-trapcat": {
+      "id": "honey-and-the-trapcat",
+      "name": "Honey and The Trapcat",
+      "displayName": "Honey and The Trapcat",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1023 Front St A Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46502",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Honey%20and%20The%20Trapcat%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-honey-and-the-trapcat-game-8-00pm",
+            "date": "2026-06-05",
+            "title": "Game Night",
+            "details": "Game night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46502"
+          }
+        ]
+      }
+    },
+    "hop-and-vine": {
+      "id": "hop-and-vine",
+      "name": "Hop & Vine",
+      "displayName": "Hop & Vine",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1435 The Alameda San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57498",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hop%20%26%20Vine%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-hop-and-vine-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57498"
+          }
+        ]
+      }
+    },
+    "hop-gardens": {
+      "id": "hop-gardens",
+      "name": "Hop Gardens",
+      "displayName": "Hop Gardens",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2904 Franklin Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41343",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hop%20Gardens%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-hop-gardens-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41343"
+          }
+        ]
+      }
     },
     "hopmonk-tavern": {
       "id": "hopmonk-tavern",
@@ -6056,7 +15693,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-hopmonk-tavern-eilen-jewell",
@@ -6080,6 +15717,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "phone": "",
+      "recurringEvents": [],
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
@@ -6105,18 +15744,124 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.590Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-hotel-utah-the-sf-porchfest-house-band",
+            "eventId": "2026-05-25-hotel-utah-open-mic",
+            "date": "2026-05-25",
+            "title": "Open Mic",
+            "details": "Open Mic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-26-hotel-utah-open-bluegrass-jam",
+            "date": "2026-05-26",
+            "title": "Open Bluegrass Jam",
+            "details": "Open Bluegrass Jam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-hotel-utah-jerry-joseph-jeff-cotton-s-gin-joint",
+            "date": "2026-05-27",
+            "title": "Jerry Joseph / Jeff Cotton’s Gin Joint",
+            "details": "Jerry Joseph, Jeff Cotton’s Gin Joint",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-hotel-utah-jerry-joseph-jeff-cotton-s-gin-joint",
+            "date": "2026-05-28",
+            "title": "Jerry Joseph / Jeff Cotton’s Gin Joint",
+            "details": "Jerry Joseph, Jeff Cotton’s Gin Joint",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-hotel-utah-sf-porchfest-house-band-gen-11-maurice-tani-c-breezy-quar",
             "date": "2026-05-29",
-            "title": "The SF Porchfest House Band / Gen11 / Maurice Tani / C-Breezy Quartet / Jerry Giddens / The Fricks / Gutter Swan",
-            "details": "21+ $10 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "SF Porchfest House Band / Gen 11 / Maurice Tani / C-Breezy Quar",
+            "details": "SF Porchfest House Band, Gen 11, Maurice Tani, C-Breezy Quar",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-hotel-utah-the-audacity-freshman-cannibals-niblits",
+            "date": "2026-05-30",
+            "title": "The Audacity / Freshman Cannibals / Niblits",
+            "details": "The Audacity, Freshman Cannibals, Niblits",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-hotel-utah-open-mic",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open Mic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-hotel-utah-open-bluegrass-jam",
+            "date": "2026-06-02",
+            "title": "",
+            "details": "Open Bluegrass Jam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-hotel-utah-doubleplus-alright-the-shvkes-brnr",
+            "date": "2026-06-04",
+            "title": "Doubleplus Alright / THE SHVKES / BRNR",
+            "details": "Doubleplus Alright , THE SHVKES, BRNR",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:18:00.677Z"
+      }
+    },
+    "humble-sea-brewing-co-alameda-point": {
+      "id": "humble-sea-brewing-co-alameda-point",
+      "name": "Humble Sea Brewing Co. | Alameda Point",
+      "displayName": "Humble Sea Brewing Co. | Alameda Point",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "2350 Saratoga St #164 Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57551",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Humble%20Sea%20Brewing%20Co.%20%7C%20Alameda%20Point%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-humble-sea-brewing-co-alameda-point-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57551"
+          }
+        ]
+      }
     },
     "independent": {
       "id": "independent",
@@ -6130,6 +15875,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "628 Divisadero St, San Francisco, CA 94117",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.775531799999996,
         "longitude": -122.43760019999999
@@ -6288,28 +16035,283 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
-          {
-            "eventId": "2026-05-31-independent-jabouke-young-white",
-            "date": "2026-05-31",
-            "title": "Jabouke Young-White",
-            "details": "21+ $43.28 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-31-independent-chandol",
-            "date": "2026-05-31",
-            "title": "Chandol",
-            "details": "a/a $26.55 9pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-05-independent-odezenne",
             "date": "2027-05-05",
             "title": "Odezenne",
             "details": "a/a $32.47 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "ireland-s-32": {
+      "id": "ireland-s-32",
+      "name": "Ireland’s 32",
+      "displayName": "Ireland’s 32",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3920 Geary Blvd San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16741",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ireland%E2%80%99s%2032%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-ireland-s-32-openmic-9-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16741"
+          },
+          {
+            "eventId": "2026-06-02-ireland-s-32-poetry-9-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16741"
+          }
+        ]
+      }
+    },
+    "iron-and-vine-restaurant-bar-and-events": {
+      "id": "iron-and-vine-restaurant-bar-and-events",
+      "name": "Iron & Vine Restaurant Bar & Events",
+      "displayName": "Iron & Vine Restaurant Bar & Events",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "3330 Yulupa Ave Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55339",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Iron%20%26%20Vine%20Restaurant%20Bar%20%26%20Events%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-iron-and-vine-restaurant-bar-and-events-trivia-6-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55339"
+          }
+        ]
+      }
+    },
+    "iron-ox-brewing-company": {
+      "id": "iron-ox-brewing-company",
+      "name": "Iron Ox Brewing Company",
+      "displayName": "Iron Ox Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "3334 Industrial Dr Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=13913",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Iron%20Ox%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-iron-ox-brewing-company-openmic-6-00pm",
+            "date": "2026-06-06",
+            "title": "Open Mic",
+            "details": "Open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=13913"
+          },
+          {
+            "eventId": "2026-06-06-iron-ox-brewing-company-poetry-6-00pm",
+            "date": "2026-06-06",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=13913"
+          }
+        ]
+      }
+    },
+    "island-taste-caribbean-grill": {
+      "id": "island-taste-caribbean-grill",
+      "name": "Island Taste Caribbean Grill",
+      "displayName": "Island Taste Caribbean Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "225 E Santa Clara St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45025",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Island%20Taste%20Caribbean%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.361Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-island-taste-caribbean-grill-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45025"
+          }
+        ]
+      }
+    },
+    "it-s-your-move-games": {
+      "id": "it-s-your-move-games",
+      "name": "It's Your Move Games",
+      "displayName": "It's Your Move Games",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4920 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32726",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22It's%20Your%20Move%20Games%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-it-s-your-move-games-game-6-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32726"
           }
         ]
       }
@@ -6326,6 +16328,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "860 San Pablo Ave, Albany, CA 94706",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.890476,
         "longitude": -122.299261
@@ -6445,14 +16449,411 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-ivy-room-handmade-moments",
+            "eventId": "2026-05-25-ivy-room-e-s-c-gigas-fist-eaten-by-insects-diablura",
+            "date": "2026-05-25",
+            "title": "E.S.C. / Gigas Fist / Eaten By Insects / Diablura",
+            "details": "E.S.C., Gigas Fist, Eaten By Insects, Diablura",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-ivy-room-spaghetti-sam-reider-jim-campilongo-scott-amendola-matt-muntz",
+            "date": "2026-05-27",
+            "title": "Spaghetti (Sam Reider / Jim Campilongo / Scott Amendola / Matt Muntz)",
+            "details": "Spaghetti (Sam Reider, Jim Campilongo, Scott Amendola, Matt Muntz)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-ivy-room-soothsayer-bloodhum-theya",
+            "date": "2026-05-28",
+            "title": "Soothsayer / Bloodhum / Theya",
+            "details": "Soothsayer, Bloodhum, Theya",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-ivy-room-plunder-monarchy-of-roses-grain-dear-motorist",
+            "date": "2026-05-29",
+            "title": "Plunder / Monarchy Of Roses / Grain / Dear Motorist",
+            "details": "Plunder, Monarchy Of Roses, Grain, Dear Motorist",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-ivy-room-doug-gillard-the-bye-bye-blackbirds-bill-swan",
+            "date": "2026-05-30",
+            "title": "Doug Gillard / The Bye Bye Blackbirds / Bill Swan",
+            "details": "Doug Gillard, The Bye Bye Blackbirds, Bill Swan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-ivy-room-handmade-moments-magic-in-the-other-madeline-tasquin-aviva-la-fey",
             "date": "2026-05-31",
-            "title": "Handmade Moments / Magic In The Other / Madeline Tasquin / Aviva La Fey / dj Little Sunny",
-            "details": "21+ $25-$100 sliding scale 6pm/7pm (The Mixtape for Palestine Concert)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Handmade Moments / Magic In The Other / Madeline Tasquin / Aviva La Fey",
+            "details": "Handmade Moments, Magic In The Other, Madeline Tasquin, Aviva La Fey",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-02-ivy-room-bandworks",
+            "date": "2026-06-02",
+            "title": "Bandworks",
+            "details": "Bandworks",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-ivy-room-squid-saves-the-planet-everything-but-the-everything-elegant-trash-richard-turgeon-reflector-pool",
+            "date": "2026-06-03",
+            "title": "Squid Saves The Planet / Everything But The Everything / Elegant Trash / Richard Turgeon / Reflector Pool",
+            "details": "Squid Saves The Planet, Everything But The Everything, Elegant Trash, Richard Turgeon, Reflector Pool",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-ivy-room-normal-weirds-the-sharps-removed-screaming-creatures",
+            "date": "2026-06-04",
+            "title": "Normal Weirds / The Sharps Removed / Screaming Creatures",
+            "details": "Normal Weirds, The Sharps Removed, Screaming Creatures",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-ivy-room-the-helltones-mind-the-chord-lady-starbeast-jackie-clementine",
+            "date": "2026-06-05",
+            "title": "The Helltones / Mind The Chord / Lady Starbeast / Jackie Clementine",
+            "details": "The Helltones, Mind The Chord, Lady Starbeast, Jackie Clementine",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-ivy-room-harold-ray-and-east-side-dynamite-this-train-don-t-stop-balzac",
+            "date": "2026-06-06",
+            "title": "Harold Ray & East Side Dynamite / This Train Don't Stop / Balzac",
+            "details": "Harold Ray & East Side Dynamite, This Train Don't Stop, Balzac",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-ivy-room-harold-ray-and-038-east-side-dynamite-this-train-don-t-stop-balzac",
+            "date": "2026-06-06",
+            "title": "Harold Ray &#038; East Side Dynamite / This Train Don't Stop / Balzac",
+            "details": "Harold Ray &#038; East Side Dynamite, This Train Don't Stop, Balzac",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-ivy-room-the-montvales-creekbed-carter-hogan",
+            "date": "2026-06-07",
+            "title": "The Montvales / Creekbed Carter Hogan",
+            "details": "The Montvales, Creekbed Carter Hogan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "jack-holders-restaurant-and-bar": {
+      "id": "jack-holders-restaurant-and-bar",
+      "name": "Jack Holders Restaurant and Bar",
+      "displayName": "Jack Holders Restaurant and Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "3153 Meridian Ave #20 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19327",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jack%20Holders%20Restaurant%20and%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-jack-holders-restaurant-and-bar-trivia-6-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19327"
+          }
+        ]
+      }
+    },
+    "jack-london-square": {
+      "id": "jack-london-square",
+      "name": "Jack London Square",
+      "displayName": "Jack London Square",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "472 Water St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46511",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jack%20London%20Square%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-jack-london-square-game-7-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46511"
+          }
+        ]
+      }
+    },
+    "jack-s": {
+      "id": "jack-s",
+      "name": "Jack's",
+      "displayName": "Jack's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "167 E Taylor St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45020",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jack's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-jack-s-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45020"
+          }
+        ]
+      }
+    },
+    "jackalope": {
+      "id": "jackalope",
+      "name": "Jackalope",
+      "displayName": "Jackalope",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1092 Post St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5743",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jackalope%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-jackalope-trivia-8-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5743"
+          }
+        ]
+      }
+    },
+    "jaguar-karaoke-oakland": {
+      "id": "jaguar-karaoke-oakland",
+      "name": "Jaguar Karaoke Oakland",
+      "displayName": "Jaguar Karaoke Oakland",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4390 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46435",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jaguar%20Karaoke%20Oakland%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-jaguar-karaoke-oakland-karaoke-7-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46435"
+          }
+        ]
+      }
+    },
+    "javi-s-keyes-club": {
+      "id": "javi-s-keyes-club",
+      "name": "Javi's Keyes Club",
+      "displayName": "Javi's Keyes Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "396 Keyes St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38867",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Javi's%20Keyes%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-javi-s-keyes-club-openmic-8-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38867"
+          },
+          {
+            "eventId": "2026-06-01-javi-s-keyes-club-poetry-8-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38867"
           }
         ]
       }
@@ -6506,6 +16907,99 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:21:56.083Z"
+    },
+    "jupiter": {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "displayName": "Jupiter",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jupiter%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=34612",
+          "confidence": "verified",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-jupiter-cjc-jazz-jam-wednesdays",
+            "date": "2026-05-27",
+            "title": "CJC Jazz Jam Wednesdays",
+            "details": "CJC Jazz Jam Wednesdays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-jupiter-the-hogan-brothers",
+            "date": "2026-05-29",
+            "title": "The Hogan Brothers",
+            "details": "The Hogan Brothers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-jupiter-cjc-jazz-jam-wednesdays",
+            "date": "2026-06-03",
+            "title": "CJC Jazz Jam Wednesdays",
+            "details": "CJC Jazz Jam Wednesdays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-jupiter-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34612"
+          },
+          {
+            "eventId": "2026-06-05-jupiter-david-byrd-and-byrds-of-a-feather",
+            "date": "2026-06-05",
+            "title": "David Byrd & Byrds of a Feather",
+            "details": "David Byrd & Byrds of a Feather",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-jupiter-david-byrd-and-038-byrds-of-a-feather",
+            "date": "2026-06-05",
+            "title": "David Byrd &#038; Byrds of a Feather",
+            "details": "David Byrd &#038; Byrds of a Feather",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-jupiter-nathan-x-moody-trio",
+            "date": "2026-06-06",
+            "title": "Nathan X. Moody Trio",
+            "details": "Nathan X. Moody Trio",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
     },
     "jury-room": {
       "id": "jury-room",
@@ -6613,6 +17107,159 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:23:03.333Z"
     },
+    "k-time-karaoke": {
+      "id": "k-time-karaoke",
+      "name": "K-Time Karaoke",
+      "displayName": "K-Time Karaoke",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "870 Taraval St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46418",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22K-Time%20Karaoke%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-k-time-karaoke-karaoke-7-00pm",
+            "date": "2026-06-03",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46418"
+          }
+        ]
+      }
+    },
+    "karl-s-beacon": {
+      "id": "karl-s-beacon",
+      "name": "Karl's Beacon",
+      "displayName": "Karl's Beacon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1355 Taraval St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=56521",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Karl's%20Beacon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-karl-s-beacon-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=56521"
+          }
+        ]
+      }
+    },
+    "katie-bloom-s": {
+      "id": "katie-bloom-s",
+      "name": "Katie Bloom's",
+      "displayName": "Katie Bloom's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Campbell",
+      "region": "",
+      "address": "369 E Campbell Ave Campbell CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57500",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Katie%20Bloom's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-katie-bloom-s-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57500"
+          }
+        ]
+      }
+    },
     "kilowatt": {
       "id": "kilowatt",
       "name": "Kilowatt",
@@ -6625,6 +17272,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3160 16th St, San Francisco, CA 94103",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.765057899999995,
         "longitude": -122.4232555
@@ -6732,25 +17381,240 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-28-kilowatt-mint-field",
+            "eventId": "2026-05-28-kilowatt-mint-field-figure-eight",
             "date": "2026-05-28",
             "title": "Mint Field / Figure Eight",
-            "details": "21+ $21.33 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Mint Field, Figure Eight",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-kilowatt-rocksteady-riot",
+            "eventId": "2026-05-29-kilowatt-ashton-york-caleb-nichols-lizzie-waters",
+            "date": "2026-05-29",
+            "title": "Ashton York / Caleb Nichols / Lizzie Waters",
+            "details": "Ashton York, Caleb Nichols, Lizzie Waters",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-kilowatt-starbelliedbug-misandrist-big-dog-mastiff",
             "date": "2026-05-30",
-            "title": "Rocksteady Riot / Beyond The Zero / Lowline",
-            "details": "21+ free 1pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Starbelliedbug / Misandrist / Big Dog Mastiff",
+            "details": "Starbelliedbug, Misandrist, Big Dog Mastiff",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-kilowatt-forest-ray-silver-swoon-miles-gordon-and-the-ghost-train",
+            "date": "2026-05-31",
+            "title": "Forest Ray / Silver Swoon / Miles Gordon & The Ghost Train",
+            "details": "Forest Ray, Silver Swoon, Miles Gordon & The Ghost Train",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-kilowatt-cutting-up-the-elephant-deceit-trace-back",
+            "date": "2026-06-04",
+            "title": "Cutting Up The Elephant / Deceit / Trace Back",
+            "details": "Cutting Up The Elephant, Deceit, Trace Back",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-kilowatt-litty-debungus-phat-mark",
+            "date": "2026-06-05",
+            "title": "Litty Debungus / Phat Mark",
+            "details": "Litty Debungus, Phat Mark",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-kilowatt-1pm-cuva-bim-a-murder-for-crows-little-oil",
+            "date": "2026-06-06",
+            "title": "1pm Cuva Bimö / A Murder For Crows / Little Oil",
+            "details": "1pm Cuva Bimö, A Murder For Crows, Little Oil",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-kilowatt-7pm-bitchkiss-spunk-fatale-false-flag",
+            "date": "2026-06-06",
+            "title": "7pm Bitchkiss / Spunk / Fatale / False Flag",
+            "details": "7pm Bitchkiss, Spunk, Fatale, False Flag",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-kilowatt-1pm-bonecrown-posthumanx-viscelator-eaten-by-insects-diablura",
+            "date": "2026-06-07",
+            "title": "1pm Bonecrown / PosthumanX / Viscelator / Eaten By Insects / Diablura",
+            "details": "1pm Bonecrown, PosthumanX, Viscelator, Eaten By Insects, Diablura",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-kilowatt-7pm-sorry-it-s-over-psy-sound-st-strawberry-profit-drama",
+            "date": "2026-06-07",
+            "title": "7pm Sorry It’s Over / PSY SOUND / ST. STRAWBERRY / Profit Drama",
+            "details": "7pm Sorry It’s Over, PSY SOUND, ST. STRAWBERRY, Profit Drama",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:23:40.062Z"
+      }
+    },
+    "kilowatt-bar": {
+      "id": "kilowatt-bar",
+      "name": "Kilowatt Bar",
+      "displayName": "Kilowatt Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3160 16th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46422",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kilowatt%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-kilowatt-bar-karaoke-9-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46422"
+          }
+        ]
+      }
+    },
+    "kinfolx": {
+      "id": "kinfolx",
+      "name": "Kinfolx",
+      "displayName": "Kinfolx",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1951 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18671",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kinfolx%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-kinfolx-openmic-6-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18671"
+          },
+          {
+            "eventId": "2026-06-01-kinfolx-poetry-6-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18671"
+          }
+        ]
+      }
+    },
+    "king-cong-brewing-company": {
+      "id": "king-cong-brewing-company",
+      "name": "King Cong Brewing Company",
+      "displayName": "King Cong Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1709 Del Paso Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18598",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22King%20Cong%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-king-cong-brewing-company-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18598"
+          }
+        ]
+      }
     },
     "knockout": {
       "id": "knockout",
@@ -6764,6 +17628,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3223 Mission Street",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7451582,
         "longitude": -122.4199482
@@ -6815,6 +17681,13 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "google-places",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38630",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [
@@ -6857,39 +17730,298 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-05-28T02:07:23.591Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-knockout-kepi-ghoulie-electric",
+            "eventId": "2026-05-26-knockout-more-ephemeral-pink-stiletto-mutant",
+            "date": "2026-05-26",
+            "title": "More Ephemeral / Pink Stiletto / Mutant",
+            "details": "More Ephemeral, Pink Stiletto, Mutant",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-knockout-kepi-ghoulie-see-night-31zero8",
             "date": "2026-05-27",
-            "title": "Kepi Ghoulie Electric / See Night / 3108 (solo) / Pets",
-            "details": "21+ $10 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Kepi Ghoulie / See Night / 31ZERO8",
+            "details": "Kepi Ghoulie, See Night, 31ZERO8",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-28-knockout-kilroy-roger",
+            "eventId": "2026-05-28-knockout-dusty-slims-kilroy-rogers-sad-eyes-kill",
             "date": "2026-05-28",
-            "title": "Kilroy Roger / Sad Eyes Kill / Dusty Slims",
-            "details": "21+ $12 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Dusty Slims / Kilroy Rogers / Sad Eyes Kill",
+            "details": "Dusty Slims, Kilroy Rogers, Sad Eyes Kill",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-29-knockout-ex-heir",
+            "eventId": "2026-05-29-knockout-le-mal-55-castles-yama-uba",
             "date": "2026-05-29",
-            "title": "Ex Heir / Le Mal / 55 Castles / Yama Uba",
-            "details": "21+ $10 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Le Mal / 55 Castles / Yama Uba",
+            "details": "Le Mal, 55 Castles, Yama Uba",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-knockout-windows",
+            "eventId": "2026-05-30-knockout-jno-cage-wilson-czarina-mc-christian-b",
             "date": "2026-05-30",
-            "title": "Windows / Richard Tripps / The Pranks",
-            "details": "21+ $15 5pm/6pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "JNO / Cage Wilson / Czarina / MC Christian B",
+            "details": "JNO, Cage Wilson, Czarina, MC Christian B",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-knockout-terraplana-luna-ivy",
+            "date": "2026-05-31",
+            "title": "Terraplana / Luna Ivy",
+            "details": "Terraplana, Luna Ivy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-knockout-krazy-for-karaoke",
+            "date": "2026-06-01",
+            "title": "Krazy for Karaoke",
+            "details": "Krazy for Karaoke",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-knockout-brendon-b-career-woman",
+            "date": "2026-06-02",
+            "title": "Brendon B / Career Woman",
+            "details": "Brendon B, Career Woman",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-knockout-cigarettes-for-breakfast-welcome-strawberry-luna-ivy-softie",
+            "date": "2026-06-03",
+            "title": "Cigarettes For Breakfast / Welcome Strawberry / Luna Ivy / Softie",
+            "details": "Cigarettes For Breakfast, Welcome Strawberry, Luna Ivy, Softie",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-knockout-hell-bound-pound-sick-behavior-pest",
+            "date": "2026-06-04",
+            "title": "Hell Bound Pound / Sick Behavior / Pest",
+            "details": "Hell Bound Pound, Sick Behavior, Pest",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-knockout-jimmy-waters",
+            "date": "2026-06-05",
+            "title": "Jimmy Waters",
+            "details": "Jimmy Waters",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-knockout-trivia-6-00pm",
+            "date": "2026-06-07",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38630"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:24:21.594Z"
+      }
+    },
+    "kona-s": {
+      "id": "kona-s",
+      "name": "Kona's",
+      "displayName": "Kona's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "32 3rd St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54152",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kona's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-kona-s-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54152"
+          }
+        ]
+      }
+    },
+    "kozy-kar": {
+      "id": "kozy-kar",
+      "name": "Kozy Kar",
+      "displayName": "Kozy Kar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1548 Polk St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30085",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kozy%20Kar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-kozy-kar-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30085"
+          }
+        ]
+      }
+    },
+    "kupros-craft-house": {
+      "id": "kupros-craft-house",
+      "name": "Kupros Craft House",
+      "displayName": "Kupros Craft House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1217 21st St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18594",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kupros%20Craft%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-kupros-craft-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18594"
+          }
+        ]
+      }
+    },
+    "la-loulou": {
+      "id": "la-loulou",
+      "name": "La Loulou",
+      "displayName": "La Loulou",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4250 Piedmont Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54145",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22La%20Loulou%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-la-loulou-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54145"
+          }
+        ]
+      }
     },
     "la-onda": {
       "id": "la-onda",
@@ -6930,7 +18062,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-la-onda-ivan-cornejo",
@@ -6938,6 +18070,57 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Ivan Cornejo / J Balvin / Danny Ocean / Paulo Londra / La Arrolladora / El Gran Combo / Grupo Niche / Orishas / Emmanuel Cortes / El Malilla / Pedro Sampaio / Julio Caesar / Eydrey / Frater Cosmic Beats",
             "details": "a/a 11:30am",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "la-roccas-corner": {
+      "id": "la-roccas-corner",
+      "name": "La Roccas Corner",
+      "displayName": "La Roccas Corner",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "957 Columbus Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=2642",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22La%20Roccas%20Corner%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-la-roccas-corner-openmic-10-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=2642"
           }
         ]
       }
@@ -6993,6 +18176,544 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:27:52.528Z"
+    },
+    "last-rites": {
+      "id": "last-rites",
+      "name": "Last Rites",
+      "displayName": "Last Rites",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "718 14th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38649",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Last%20Rites%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-last-rites-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38649"
+          }
+        ]
+      }
+    },
+    "laughing-monk-brewing": {
+      "id": "laughing-monk-brewing",
+      "name": "Laughing Monk Brewing",
+      "displayName": "Laughing Monk Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1439 Egbert Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38662",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Laughing%20Monk%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-laughing-monk-brewing-openmic-7-30pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15748"
+          },
+          {
+            "eventId": "2026-06-03-laughing-monk-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38662"
+          }
+        ]
+      }
+    },
+    "laughs-unlimited": {
+      "id": "laughs-unlimited",
+      "name": "Laughs Unlimited",
+      "displayName": "Laughs Unlimited",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1207 Front St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3817",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Laughs%20Unlimited%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-laughs-unlimited-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3817"
+          }
+        ]
+      }
+    },
+    "leftys-taproom": {
+      "id": "leftys-taproom",
+      "name": "Leftys Taproom",
+      "displayName": "Leftys Taproom",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "5610 Elvas Ave Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41346",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Leftys%20Taproom%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-leftys-taproom-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41346"
+          }
+        ]
+      }
+    },
+    "linda-brooks-burton-branch-library": {
+      "id": "linda-brooks-burton-branch-library",
+      "name": "Linda Brooks-Burton Branch Library",
+      "displayName": "Linda Brooks-Burton Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "5075 3rd St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46480",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Linda%20Brooks-Burton%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-linda-brooks-burton-branch-library-game-10-00am",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46480"
+          }
+        ]
+      }
+    },
+    "little-hill-lounge": {
+      "id": "little-hill-lounge",
+      "name": "Little Hill Lounge",
+      "displayName": "Little Hill Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Little%20Hill%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-little-hill-lounge-suns-of-mothers-josh-lippi-dj-poindexter",
+            "date": "2026-05-25",
+            "title": "Suns of Mothers / Josh Lippi / Poindexter",
+            "details": "Suns of Mothers, Josh Lippi, DJ Poindexter",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-26-little-hill-lounge-mark-clifford-s-standards-hang",
+            "date": "2026-05-26",
+            "title": "Mark Clifford's Standards Hang",
+            "details": "Mark Clifford's Standards Hang",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-little-hill-lounge-excentrik",
+            "date": "2026-05-30",
+            "title": "Excentrik",
+            "details": "Excentrik",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-little-hill-lounge-ephemerald",
+            "date": "2026-06-04",
+            "title": "Ephemerald",
+            "details": "Ephemerald",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-little-hill-lounge-will-sprott-andr-s-miguel-cervantes-ed-masuga",
+            "date": "2026-06-06",
+            "title": "Will Sprott / Andrés Miguel Cervantes / Ed Masuga",
+            "details": "Will Sprott, Andrés Miguel Cervantes, Ed Masuga",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "loft-bar-and-bistro": {
+      "id": "loft-bar-and-bistro",
+      "name": "Loft Bar and Bistro",
+      "displayName": "Loft Bar and Bistro",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "90 S Second St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19342",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Loft%20Bar%20and%20Bistro%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-loft-bar-and-bistro-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19342"
+          }
+        ]
+      }
+    },
+    "lone-star-saloon": {
+      "id": "lone-star-saloon",
+      "name": "Lone Star Saloon",
+      "displayName": "Lone Star Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1354 Harrison St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38631",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lone%20Star%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-lone-star-saloon-trivia-7-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38631"
+          }
+        ]
+      }
+    },
+    "lost-and-found-beer-garden": {
+      "id": "lost-and-found-beer-garden",
+      "name": "Lost and Found Beer Garden",
+      "displayName": "Lost and Found Beer Garden",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2040 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18679",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lost%20and%20Found%20Beer%20Garden%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-lost-and-found-beer-garden-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18679"
+          }
+        ]
+      }
+    },
+    "lost-and-found-cocktail-bar": {
+      "id": "lost-and-found-cocktail-bar",
+      "name": "Lost and Found Cocktail Bar",
+      "displayName": "Lost and Found Cocktail Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1439 Taraval St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54148",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lost%20and%20Found%20Cocktail%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-lost-and-found-cocktail-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54148"
+          }
+        ]
+      }
     },
     "lost-church": {
       "id": "lost-church",
@@ -7085,7 +18806,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-lost-church-the-tofanas",
@@ -7093,6 +18814,108 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "The Tofanas / Dugyu & Friend",
             "details": "a/a $15 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "lost-marbles-brewery": {
+      "id": "lost-marbles-brewery",
+      "name": "Lost Marbles Brewery",
+      "displayName": "Lost Marbles Brewery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "823 Clement St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=10970",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lost%20Marbles%20Brewery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-lost-marbles-brewery-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=10970"
+          }
+        ]
+      }
+    },
+    "lounge-3411": {
+      "id": "lounge-3411",
+      "name": "Lounge 3411",
+      "displayName": "Lounge 3411",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "3411 MacArthur Blvd Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=10519",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lounge%203411%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-lounge-3411-openmic-9-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=10519"
           }
         ]
       }
@@ -7148,6 +18971,166 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:29:11.082Z"
+    },
+    "lucid-winery": {
+      "id": "lucid-winery",
+      "name": "Lucid Winery",
+      "displayName": "Lucid Winery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1015 R St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28166",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lucid%20Winery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-lucid-winery-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28166"
+          },
+          {
+            "eventId": "2026-06-04-lucid-winery-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28166"
+          }
+        ]
+      }
+    },
+    "lucid-winery-and-event-venue": {
+      "id": "lucid-winery-and-event-venue",
+      "name": "Lucid Winery & Event Venue",
+      "displayName": "Lucid Winery & Event Venue",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1015 R St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=56481",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lucid%20Winery%20%26%20Event%20Venue%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-lucid-winery-and-event-venue-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=56481"
+          }
+        ]
+      }
+    },
+    "lucky-13": {
+      "id": "lucky-13",
+      "name": "Lucky 13",
+      "displayName": "Lucky 13",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "1301 Park St Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=37089",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lucky%2013%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-lucky-13-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=37089"
+          }
+        ]
+      }
     },
     "luther-burbank-center": {
       "id": "luther-burbank-center",
@@ -7232,7 +19215,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.831Z",
         "appearances": [
           {
             "eventId": "2026-05-31-luther-burbank-center-the-stray-cats",
@@ -7240,6 +19223,333 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "The Stray Cats",
             "details": "a/a",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "mabuhay-gardens": {
+      "id": "mabuhay-gardens",
+      "name": "Mabuhay Gardens",
+      "displayName": "Mabuhay Gardens",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mabuhay%20Gardens%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-mabuhay-gardens-major-accident-monster-squad-ultra-sect-cross-checked",
+            "date": "2026-05-26",
+            "title": "Major Accident / Monster Squad / Ultra Sect / Cross Checked.",
+            "details": "Major Accident, Monster Squad, Ultra Sect, Cross Checked.",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-mabuhay-gardens-juniper-jazz-band",
+            "date": "2026-05-27",
+            "title": "Juniper Jazz Band",
+            "details": "Juniper Jazz Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-mabuhay-gardens-syrian-soap",
+            "date": "2026-05-31",
+            "title": "Syrian Soap",
+            "details": "Syrian Soap",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-mabuhay-gardens-cat-s-corner-swing-dance-party",
+            "date": "2026-06-03",
+            "title": "Cat's Corner Swing Dance Party",
+            "details": "Cat's Corner Swing Dance Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-mabuhay-gardens-karaoke",
+            "date": "2026-06-07",
+            "title": "Karaoke",
+            "details": "Karaoke",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "mad-dog-in-the-fog": {
+      "id": "mad-dog-in-the-fog",
+      "name": "Mad Dog in the Fog",
+      "displayName": "Mad Dog in the Fog",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1568 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4548",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mad%20Dog%20in%20the%20Fog%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-mad-dog-in-the-fog-trivia-8-15pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:15pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4548"
+          }
+        ]
+      }
+    },
+    "mad-oak-bar-n-yard": {
+      "id": "mad-oak-bar-n-yard",
+      "name": "Mad Oak Bar ‘N’ Yard",
+      "displayName": "Mad Oak Bar ‘N’ Yard",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "135 12th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39418",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mad%20Oak%20Bar%20%E2%80%98N%E2%80%99%20Yard%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-mad-oak-bar-n-yard-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39418"
+          }
+        ]
+      }
+    },
+    "magnolia-brewing": {
+      "id": "magnolia-brewing",
+      "name": "Magnolia Brewing",
+      "displayName": "Magnolia Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1398 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38632",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Magnolia%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.357Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-magnolia-brewing-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38632"
+          }
+        ]
+      }
+    },
+    "main-library": {
+      "id": "main-library",
+      "name": "Main Library",
+      "displayName": "Main Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "100 Larkin St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46478",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Main%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-main-library-game-12-00pm",
+            "date": "2026-06-07",
+            "title": "Game Night",
+            "details": "Game night at 12:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46478"
+          }
+        ]
+      }
+    },
+    "makai-island-kitchen-and-groggery": {
+      "id": "makai-island-kitchen-and-groggery",
+      "name": "Makai Island Kitchen & Groggery",
+      "displayName": "Makai Island Kitchen & Groggery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Cruz",
+      "region": "",
+      "address": "49A Municipal Wharf Santa Cruz CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54098",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Makai%20Island%20Kitchen%20%26%20Groggery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-makai-island-kitchen-and-groggery-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54098"
           }
         ]
       }
@@ -7256,6 +19566,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3225 22nd St, San Francisco, CA 94110",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.75526,
         "longitude": -122.41933990000001
@@ -7343,18 +19655,270 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-05-28T02:07:23.590Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-make-out-room-mr-butterfield",
+            "eventId": "2026-05-26-make-out-room-sad-bastard-club",
+            "date": "2026-05-26",
+            "title": "Sad Bastard Club",
+            "details": "Sad Bastard Club",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-make-out-room-andre-miguel-and-the-moment-not-yetis",
             "date": "2026-05-29",
-            "title": "Mr Butterfield / Now / Plastic Candles",
-            "details": "21+",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Andre Miguel & The Moment / Not Yetis",
+            "details": "Andre Miguel & The Moment, Not Yetis",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-make-out-room-kelley-stoltz-ryli-the-dates",
+            "date": "2026-05-31",
+            "title": "Kelley Stoltz / Ryli / The Dates",
+            "details": "Kelley Stoltz, Ryli, The Dates",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-make-out-room-cole-berliner-jas-stade-mayya",
+            "date": "2026-06-04",
+            "title": "Cole Berliner / Jas Stade / Mayya",
+            "details": "Cole Berliner, Jas Stade, Mayya",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-make-out-room-about-last-night-storytelling",
+            "date": "2026-06-05",
+            "title": "About Last Night Storytelling",
+            "details": "About Last Night Storytelling",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-make-out-room-hard-same-and-friends-double-dare-ya",
+            "date": "2026-06-06",
+            "title": "Hard Same and Friends / Double Dare Ya",
+            "details": "Hard Same and Friends, Double Dare Ya",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-make-out-room-clutch-the-pearls-drag-show",
+            "date": "2026-06-07",
+            "title": "Clutch the Pearls Drag Show",
+            "details": "Clutch the Pearls Drag Show",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:30:50.961Z"
+      }
+    },
+    "mare-island-brewing-co-coal-shed-brewery": {
+      "id": "mare-island-brewing-co-coal-shed-brewery",
+      "name": "Mare Island Brewing Co. – Coal Shed Brewery",
+      "displayName": "Mare Island Brewing Co. – Coal Shed Brewery",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Vallejo",
+      "region": "",
+      "address": "850 Nimitz Ave Vallejo CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55297",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mare%20Island%20Brewing%20Co.%20%E2%80%93%20Coal%20Shed%20Brewery%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-mare-island-brewing-co-coal-shed-brewery-trivia-6-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55297"
+          }
+        ]
+      }
+    },
+    "marina-branch-library": {
+      "id": "marina-branch-library",
+      "name": "Marina Branch Library",
+      "displayName": "Marina Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1890 Chestnut St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46486",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Marina%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-marina-branch-library-game-10-00am",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46486"
+          },
+          {
+            "eventId": "2026-06-07-marina-branch-library-book-8-00pm",
+            "date": "2026-06-07",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57234"
+          }
+        ]
+      }
+    },
+    "marsh-cabaret": {
+      "id": "marsh-cabaret",
+      "name": "Marsh Cabaret",
+      "displayName": "Marsh Cabaret",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Marsh%20Cabaret%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-marsh-cabaret-randy-craig-and-friends",
+            "date": "2026-05-27",
+            "title": "Randy Craig And Friends",
+            "details": "Randy Craig And Friends",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-marsh-cabaret-randy-craig-and-friends",
+            "date": "2026-06-03",
+            "title": "Randy Craig And Friends",
+            "details": "Randy Craig And Friends",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "martuni-s": {
+      "id": "martuni-s",
+      "name": "Martuni's",
+      "displayName": "Martuni's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4 Valencia St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=7512",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Martuni's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-martuni-s-openmic-9-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=7512"
+          }
+        ]
+      }
     },
     "masonic": {
       "id": "masonic",
@@ -7368,6 +19932,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1111 California St, San Francisco, CA 94108",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.791198,
         "longitude": -122.4129823
@@ -7475,22 +20041,220 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-05-28T02:07:23.587Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
         "appearances": [
           {
-            "eventId": "2026-05-28-masonic-social-distortion",
-            "date": "2026-05-28",
-            "title": "Social Distortion / Descendants / The Chats",
-            "details": "a/a 7:30pm $75.75 # @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-05-masonic-the-kid-laroi-tommy-richman-whizthemc",
+            "date": "2026-06-05",
+            "title": "The Kid Laroi / Tommy Richman / WhizTheMC",
+            "details": "The Kid Laroi, Tommy Richman, WhizTheMC",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:31:40.229Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://www.sfmasonic.com/",
-        "source": "official"
+      }
+    },
+    "mayes-oyster-house": {
+      "id": "mayes-oyster-house",
+      "name": "Mayes Oyster House",
+      "displayName": "Mayes Oyster House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1233 Polk St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=10492",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mayes%20Oyster%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-mayes-oyster-house-openmic-7-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=10492"
+          }
+        ]
+      }
+    },
+    "mcgee-s": {
+      "id": "mcgee-s",
+      "name": "McGee's",
+      "displayName": "McGee's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "1645 Park St Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54140",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22McGee's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mcgee-s-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54140"
+          }
+        ]
+      }
+    },
+    "mckinley-library": {
+      "id": "mckinley-library",
+      "name": "McKinley Library",
+      "displayName": "McKinley Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "601 Alhambra Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57235",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22McKinley%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-mckinley-library-book-8-00pm",
+            "date": "2026-06-06",
+            "title": "Book Event",
+            "details": "Book event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57235"
+          }
+        ]
+      }
+    },
+    "merchants-saloon": {
+      "id": "merchants-saloon",
+      "name": "Merchants' Saloon",
+      "displayName": "Merchants' Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "401 2nd St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46538",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Merchants'%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-merchants-saloon-karaoke-8-00pm",
+            "date": "2026-06-03",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46538"
+          }
+        ]
       }
     },
     "meritage-resort": {
@@ -7647,6 +20411,537 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:34:07.827Z"
     },
+    "midnight-sun": {
+      "id": "midnight-sun",
+      "name": "Midnight Sun",
+      "displayName": "Midnight Sun",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4067 18th St #2535 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14222",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Midnight%20Sun%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-midnight-sun-karaoke-9-00pm",
+            "date": "2026-06-03",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14222"
+          }
+        ]
+      }
+    },
+    "midtown-cafe": {
+      "id": "midtown-cafe",
+      "name": "Midtown Cafe",
+      "displayName": "Midtown Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "3000 Q St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46501",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Midtown%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-midtown-cafe-game-6-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46501"
+          }
+        ]
+      }
+    },
+    "midtown-spirits": {
+      "id": "midtown-spirits",
+      "name": "Midtown Spirits",
+      "displayName": "Midtown Spirits",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1717 19th St B Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46429",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Midtown%20Spirits%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-midtown-spirits-karaoke-8-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46429"
+          }
+        ]
+      }
+    },
+    "mike-s-place": {
+      "id": "mike-s-place",
+      "name": "Mike’s Place",
+      "displayName": "Mike’s Place",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "5837 Camden Ave F San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19330",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mike%E2%80%99s%20Place%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-mike-s-place-openmic-8-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19330"
+          },
+          {
+            "eventId": "2026-06-04-mike-s-place-poetry-8-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19330"
+          }
+        ]
+      }
+    },
+    "mimosas-social-club": {
+      "id": "mimosas-social-club",
+      "name": "Mimosas Social Club",
+      "displayName": "Mimosas Social Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "6002 Pacific Ave Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30354",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mimosas%20Social%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mimosas-social-club-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30354"
+          }
+        ]
+      }
+    },
+    "mission-bay-branch-library": {
+      "id": "mission-bay-branch-library",
+      "name": "Mission Bay Branch Library",
+      "displayName": "Mission Bay Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "960 4th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46488",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mission%20Bay%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-mission-bay-branch-library-game-10-00am",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46488"
+          }
+        ]
+      }
+    },
+    "mission-bowling-club": {
+      "id": "mission-bowling-club",
+      "name": "Mission Bowling Club",
+      "displayName": "Mission Bowling Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3176 17th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19092",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mission%20Bowling%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-mission-bowling-club-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19092"
+          }
+        ]
+      }
+    },
+    "mission-branch-library": {
+      "id": "mission-branch-library",
+      "name": "Mission Branch Library",
+      "displayName": "Mission Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1234 Valencia St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46487",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mission%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mission-branch-library-game-10-00am",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46487"
+          }
+        ]
+      }
+    },
+    "mission-pizza-and-pub": {
+      "id": "mission-pizza-and-pub",
+      "name": "Mission Pizza and Pub",
+      "displayName": "Mission Pizza and Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "1572 Washington Blvd Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20995",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mission%20Pizza%20and%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-mission-pizza-and-pub-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20995"
+          },
+          {
+            "eventId": "2026-06-04-mission-pizza-and-pub-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38024"
+          },
+          {
+            "eventId": "2026-06-04-mission-pizza-and-pub-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38024"
+          }
+        ]
+      }
+    },
+    "mizu-sushi-bar-and-grill": {
+      "id": "mizu-sushi-bar-and-grill",
+      "name": "Mizu Sushi Bar & Grill",
+      "displayName": "Mizu Sushi Bar & Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1035 S Winchester Blvd San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45022",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mizu%20Sushi%20Bar%20%26%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mizu-sushi-bar-and-grill-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45022"
+          }
+        ]
+      }
+    },
     "moe": {
       "id": "moe",
       "name": "Moe's Alley",
@@ -7659,6 +20954,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "1535 Commercial Wy, Santa Cruz, CA 95065",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 36.9877378,
         "longitude": -121.98287540000001
@@ -7754,7 +21051,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.371Z",
         "appearances": [
           {
             "eventId": "2027-05-19-moe-s-alley-buck-meek",
@@ -7762,6 +21059,261 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Buck Meek / Kisser",
             "details": "21+ $33.86 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "mojo-s-local-tap-and-kitchen": {
+      "id": "mojo-s-local-tap-and-kitchen",
+      "name": "MoJo’s Local Tap and Kitchen",
+      "displayName": "MoJo’s Local Tap and Kitchen",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1431 I St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18600",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22MoJo%E2%80%99s%20Local%20Tap%20and%20Kitchen%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mojo-s-local-tap-and-kitchen-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18600"
+          }
+        ]
+      }
+    },
+    "molloy-s-tavern": {
+      "id": "molloy-s-tavern",
+      "name": "Molloy's Tavern",
+      "displayName": "Molloy's Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1655 Mission Rd # 6 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53212",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Molloy's%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-molloy-s-tavern-trivia-7-30pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53212"
+          }
+        ]
+      }
+    },
+    "monaghan-s-bar": {
+      "id": "monaghan-s-bar",
+      "name": "Monaghan’s Bar",
+      "displayName": "Monaghan’s Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3243 Pierce St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4552",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Monaghan%E2%80%99s%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-monaghan-s-bar-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4552"
+          }
+        ]
+      }
+    },
+    "mosaic-restaurant": {
+      "id": "mosaic-restaurant",
+      "name": "Mosaic Restaurant",
+      "displayName": "Mosaic Restaurant",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "211 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16324",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mosaic%20Restaurant%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.728Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-mosaic-restaurant-openmic-9-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16324"
+          }
+        ]
+      }
+    },
+    "mothership-bar": {
+      "id": "mothership-bar",
+      "name": "Mothership Bar",
+      "displayName": "Mothership Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3152 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38665",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Mothership%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-mothership-bar-karaoke-7-00pm",
+            "date": "2026-06-03",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38665"
           }
         ]
       }
@@ -7893,7 +21445,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.832Z",
         "appearances": [
           {
             "eventId": "2026-05-31-mountain-winery-robby-krieger",
@@ -7901,6 +21453,210 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Robby Krieger / Tripform",
             "details": "a/a 5:30pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "moxy-oakland-downtown": {
+      "id": "moxy-oakland-downtown",
+      "name": "Moxy Oakland Downtown",
+      "displayName": "Moxy Oakland Downtown",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2225 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15756",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Moxy%20Oakland%20Downtown%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-moxy-oakland-downtown-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15756"
+          }
+        ]
+      }
+    },
+    "myth-lounge": {
+      "id": "myth-lounge",
+      "name": "Myth Lounge",
+      "displayName": "Myth Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "152 Post St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46524",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Myth%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-myth-lounge-karaoke-9-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46524"
+          }
+        ]
+      }
+    },
+    "napper-tandy": {
+      "id": "napper-tandy",
+      "name": "Napper Tandy",
+      "displayName": "Napper Tandy",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3200 24th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4563",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Napper%20Tandy%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-napper-tandy-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4563"
+          }
+        ]
+      }
+    },
+    "narrative-fermentations": {
+      "id": "narrative-fermentations",
+      "name": "Narrative Fermentations",
+      "displayName": "Narrative Fermentations",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "101 E Alma Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19326",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Narrative%20Fermentations%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.725Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-narrative-fermentations-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19326"
           }
         ]
       }
@@ -7917,6 +21673,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "406 Clement St, San Francisco, CA 94118",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.783123599999996,
         "longitude": -122.4637279
@@ -7978,6 +21736,13 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "google-places",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53678",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [
@@ -8024,14 +21789,258 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-neck-of-the-woods-september-is-the-only-time-i-dont-think-of-you",
+            "eventId": "2026-05-25-neck-of-the-woods-salsa-crazy-mondays",
+            "date": "2026-05-25",
+            "title": "Salsa Crazy Mondays",
+            "details": "Salsa Crazy Mondays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-neck-of-the-woods-pocket-full-of-crumbs-seko-one-hundred-angel",
+            "date": "2026-05-27",
+            "title": "Pocket Full Of Crumbs / Seko / One Hundred Angel",
+            "details": "Pocket Full Of Crumbs, Seko, One Hundred Angel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-neck-of-the-woods-proleter-tetsuo",
+            "date": "2026-05-28",
+            "title": "ProleteR / .Tetsuo",
+            "details": "ProleteR, .Tetsuo",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-neck-of-the-woods-queentide-eternal-wave-wormsalt",
+            "date": "2026-05-29",
+            "title": "Queentide / Eternal Wave / Wormsalt",
+            "details": "Queentide, Eternal Wave, Wormsalt",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-neck-of-the-woods-neighborhood-kids-a-1-indigenous-cats",
+            "date": "2026-05-30",
+            "title": "Neighborhood Kids / A-1 / Indigenous Cats",
+            "details": "Neighborhood Kids, A-1, Indigenous Cats",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-neck-of-the-woods-septemberistheonlytimeidontthinkofyou-noragami-losing-streak-likeeatingglass",
             "date": "2026-05-31",
-            "title": "September Is The Only Time I Dont Think Of You / Noragami / Losing Streak / Like Eating Glass",
-            "details": "a/a $19 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Septemberistheonlytimeidontthinkofyou / Noragami / Losing Streak / Likeeatingglass",
+            "details": "Septemberistheonlytimeidontthinkofyou, Noragami, Losing Streak, Likeeatingglass",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-neck-of-the-woods-dance-8-00pm",
+            "date": "2026-06-01",
+            "title": "Dance",
+            "details": "Dance event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53678"
+          },
+          {
+            "eventId": "2026-06-01-neck-of-the-woods-salsa-crazy-mondays",
+            "date": "2026-06-01",
+            "title": "Salsa Crazy Mondays",
+            "details": "Salsa Crazy Mondays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-neck-of-the-woods-open-mic-wednesdays",
+            "date": "2026-06-03",
+            "title": "Open Mic Wednesdays",
+            "details": "Open Mic Wednesdays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-neck-of-the-woods-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5492"
+          },
+          {
+            "eventId": "2026-06-03-neck-of-the-woods-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5492"
+          },
+          {
+            "eventId": "2026-06-04-neck-of-the-woods-clement-street-comedy",
+            "date": "2026-06-04",
+            "title": "Clement Street Comedy",
+            "details": "Clement Street Comedy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-neck-of-the-woods-spa-valentina-bludgeoned-hard-pressed-kiss-what-s-important",
+            "date": "2026-06-05",
+            "title": "Spa / Valentina Bludgeoned / Hard-Pressed Kiss / What's Important",
+            "details": "Spa, Valentina Bludgeoned, Hard-Pressed Kiss, What's Important",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-neck-of-the-woods-the-pine-lowercase-deaf-club-febuary-circa-40-the-test-dream-alyvia-othiel-superworld-sex-ed-cash-only-tonys-lorrrel-fingerswoventogether-and-more",
+            "date": "2026-06-06",
+            "title": "The Pine / Lowercase / Deaf Club / Febuary / Circa 40 / The Test Dream / Alyvia / Othiel / Superworld / Sex-Ed / Cash Only Tonys / Lorrrel / Fingerswoventogether and more",
+            "details": "The Pine, Lowercase, Deaf Club, Febuary, Circa 40, The Test Dream, Alyvia, Othiel, Superworld, Sex-Ed, Cash Only Tonys, Lorrrel, Fingerswoventogether and more",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "new-life-christian-fellowship": {
+      "id": "new-life-christian-fellowship",
+      "name": "New Life Christian Fellowship",
+      "displayName": "New Life Christian Fellowship",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Pacifica",
+      "region": "",
+      "address": "1125 Terra Nova Blvd Pacifica CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50679",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22New%20Life%20Christian%20Fellowship%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-new-life-christian-fellowship-chess-8-00pm",
+            "date": "2026-06-04",
+            "title": "Chess",
+            "details": "Chess event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50679"
+          }
+        ]
+      }
+    },
+    "next-door-north-beach": {
+      "id": "next-door-north-beach",
+      "name": "Next Door North Beach",
+      "displayName": "Next Door North Beach",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "570 Green St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41261",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Next%20Door%20North%20Beach%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-next-door-north-beach-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41261"
+          }
+        ]
+      }
+    },
+    "nickie-s": {
+      "id": "nickie-s",
+      "name": "Nickie's",
+      "displayName": "Nickie's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "466 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38678",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Nickie's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-nickie-s-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38678"
           }
         ]
       }
@@ -8095,6 +22104,516 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:37:50.847Z"
     },
+    "nirvana-soul-cafe": {
+      "id": "nirvana-soul-cafe",
+      "name": "Nirvana Soul Cafe",
+      "displayName": "Nirvana Soul Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "150 E San Fernando St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19324",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Nirvana%20Soul%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.730Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-nirvana-soul-cafe-openmic-7-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19324"
+          },
+          {
+            "eventId": "2026-06-05-nirvana-soul-cafe-poetry-7-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19324"
+          }
+        ]
+      }
+    },
+    "north-beach-branch-library": {
+      "id": "north-beach-branch-library",
+      "name": "North Beach Branch Library",
+      "displayName": "North Beach Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "850 Columbus Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46490",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22North%20Beach%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-north-beach-branch-library-game-10-00am",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46490"
+          }
+        ]
+      }
+    },
+    "nosso": {
+      "id": "nosso",
+      "name": "NOSSO",
+      "displayName": "NOSSO",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "532 8th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39422",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22NOSSO%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-nosso-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39422"
+          }
+        ]
+      }
+    },
+    "o-flaherty-s-irish-pub": {
+      "id": "o-flaherty-s-irish-pub",
+      "name": "O'Flaherty's Irish Pub",
+      "displayName": "O'Flaherty's Irish Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "25 N San Pedro St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18378",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22O'Flaherty's%20Irish%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-o-flaherty-s-irish-pub-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18378"
+          }
+        ]
+      }
+    },
+    "o-neills-irish-pub": {
+      "id": "o-neills-irish-pub",
+      "name": "O'Neills Irish Pub",
+      "displayName": "O'Neills Irish Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Mateo",
+      "region": "",
+      "address": "34 S B St San Mateo CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41360",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22O'Neills%20Irish%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-o-neills-irish-pub-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41360"
+          }
+        ]
+      }
+    },
+    "o-reilly-s-pub": {
+      "id": "o-reilly-s-pub",
+      "name": "O'Reilly’s Pub",
+      "displayName": "O'Reilly’s Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1840 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38629",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22O'Reilly%E2%80%99s%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-o-reilly-s-pub-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38629"
+          }
+        ]
+      }
+    },
+    "oakland-arena": {
+      "id": "oakland-arena",
+      "name": "Oakland Arena",
+      "displayName": "Oakland Arena",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Oakland%20Arena%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.428Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-oakland-arena-ariana-grande",
+            "date": "2026-06-06",
+            "title": "Ariana Grande",
+            "details": "Ariana Grande",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "oakland-public-library": {
+      "id": "oakland-public-library",
+      "name": "Oakland Public Library",
+      "displayName": "Oakland Public Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "125 14th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46510",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Oakland%20Public%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-oakland-public-library-game-5-00pm",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 5:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46510"
+          }
+        ]
+      }
+    },
+    "oakland-united-beerworks": {
+      "id": "oakland-united-beerworks",
+      "name": "Oakland United Beerworks",
+      "displayName": "Oakland United Beerworks",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "262 2nd St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55823",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Oakland%20United%20Beerworks%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.056Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-oakland-united-beerworks-trivia-3-00pm",
+            "date": "2026-06-07",
+            "title": "Trivia Night",
+            "details": "Trivia night at 3:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55823"
+          }
+        ]
+      }
+    },
+    "ocean-ale-house": {
+      "id": "ocean-ale-house",
+      "name": "Ocean Ale House",
+      "displayName": "Ocean Ale House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1314 Ocean Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38675",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ocean%20Ale%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-ocean-ale-house-trivia-8-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38675"
+          }
+        ]
+      }
+    },
     "old-princeton-landing": {
       "id": "old-princeton-landing",
       "name": "Old Princeton Landing",
@@ -8152,6 +22671,414 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:41:45.055Z"
     },
+    "on-the-y": {
+      "id": "on-the-y",
+      "name": "On The Y",
+      "displayName": "On The Y",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "670 Fulton Ave Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5828",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22On%20The%20Y%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-on-the-y-openmic-7-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5828"
+          }
+        ]
+      }
+    },
+    "ora-wine-bar": {
+      "id": "ora-wine-bar",
+      "name": "Ora Wine Bar",
+      "displayName": "Ora Wine Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1519 Polk St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38650",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ora%20Wine%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-ora-wine-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38650"
+          }
+        ]
+      }
+    },
+    "orchard-galleries": {
+      "id": "orchard-galleries",
+      "name": "Orchard Galleries",
+      "displayName": "Orchard Galleries",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Orchard%20Galleries%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.420Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-30-orchard-galleries-oakland-art-murmur-20th-anniversary-party",
+            "date": "2026-05-30",
+            "title": "Oakland Art Murmur 20th Anniversary Party",
+            "details": "Oakland Art Murmur 20th Anniversary Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "original-pattern-brewing-company": {
+      "id": "original-pattern-brewing-company",
+      "name": "Original Pattern Brewing Company",
+      "displayName": "Original Pattern Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "292 4th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29737",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Original%20Pattern%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-original-pattern-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29737"
+          }
+        ]
+      }
+    },
+    "otto-s-uptown-kitchen-lobby-restaurant": {
+      "id": "otto-s-uptown-kitchen-lobby-restaurant",
+      "name": "Otto’s Uptown Kitchen Lobby Restaurant",
+      "displayName": "Otto’s Uptown Kitchen Lobby Restaurant",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2455 Broadway Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=56361",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Otto%E2%80%99s%20Uptown%20Kitchen%20Lobby%20Restaurant%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-otto-s-uptown-kitchen-lobby-restaurant-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=56361"
+          }
+        ]
+      }
+    },
+    "palm-house": {
+      "id": "palm-house",
+      "name": "Palm House",
+      "displayName": "Palm House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2032 Union St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38648",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Palm%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-palm-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38648"
+          }
+        ]
+      }
+    },
+    "pandora-karaoke-and-bar": {
+      "id": "pandora-karaoke-and-bar",
+      "name": "Pandora Karaoke & Bar",
+      "displayName": "Pandora Karaoke & Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "50 Mason St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46416",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pandora%20Karaoke%20%26%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-pandora-karaoke-and-bar-karaoke-8-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46416"
+          },
+          {
+            "eventId": "2026-06-05-pandora-karaoke-and-bar-karaoke-8-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32652"
+          }
+        ]
+      }
+    },
+    "park-lane-lounge": {
+      "id": "park-lane-lounge",
+      "name": "Park Lane Lounge",
+      "displayName": "Park Lane Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "5152 Moorpark Ave #20 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38859",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Park%20Lane%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-park-lane-lounge-openmic-8-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38859"
+          }
+        ]
+      }
+    },
     "park-station": {
       "id": "park-station",
       "name": "Park Station",
@@ -8203,6 +23130,108 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:42:22.845Z"
+    },
+    "patriot-house-pub": {
+      "id": "patriot-house-pub",
+      "name": "Patriot House Pub",
+      "displayName": "Patriot House Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2 Embarcadero Ctr 3rd floor San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=11002",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Patriot%20House%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-patriot-house-pub-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=11002"
+          }
+        ]
+      }
+    },
+    "paulista-brazilian-cafe-kitchen-and-taproom": {
+      "id": "paulista-brazilian-cafe-kitchen-and-taproom",
+      "name": "Paulista Brazilian Cafe, Kitchen and Taproom",
+      "displayName": "Paulista Brazilian Cafe, Kitchen and Taproom",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4239 Park Blvd Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15740",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Paulista%20Brazilian%20Cafe%2C%20Kitchen%20and%20Taproom%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-paulista-brazilian-cafe-kitchen-and-taproom-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15740"
+          }
+        ]
+      }
     },
     "paviliion": {
       "id": "paviliion",
@@ -8390,7 +23419,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.832Z",
         "appearances": [
           {
             "eventId": "2026-05-31-pavilion-lil-wayne",
@@ -8398,6 +23427,108 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Lil Wayne / The Game / 2 Chainz",
             "details": "a/a $40.50+ 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "penelope": {
+      "id": "penelope",
+      "name": "Penelope",
+      "displayName": "Penelope",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "555 12th St #120 Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=6083",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Penelope%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-penelope-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=6083"
+          }
+        ]
+      }
+    },
+    "petaluma-senior-center": {
+      "id": "petaluma-senior-center",
+      "name": "Petaluma Senior Center",
+      "displayName": "Petaluma Senior Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Petaluma",
+      "region": "",
+      "address": "211 Novak Dr Petaluma CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50664",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Petaluma%20Senior%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-petaluma-senior-center-chess-12-30pm",
+            "date": "2026-06-02",
+            "title": "Chess",
+            "details": "Chess event at 12:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50664"
           }
         ]
       }
@@ -8557,6 +23688,57 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "official"
       }
     },
+    "pinstripes": {
+      "id": "pinstripes",
+      "name": "Pinstripes",
+      "displayName": "Pinstripes",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Mateo",
+      "region": "",
+      "address": "36 Hillsdale Mall San Mateo CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54147",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pinstripes%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-pinstripes-trivia-6-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54147"
+          }
+        ]
+      }
+    },
     "pioneer-saloon": {
       "id": "pioneer-saloon",
       "name": "Pioneer Saloon",
@@ -8607,6 +23789,210 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:46:23.132Z"
     },
+    "pitch-and-fiddle": {
+      "id": "pitch-and-fiddle",
+      "name": "Pitch and Fiddle",
+      "displayName": "Pitch and Fiddle",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "8704 La Riviera Dr Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39409",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pitch%20and%20Fiddle%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-pitch-and-fiddle-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39409"
+          }
+        ]
+      }
+    },
+    "pitt-s-pub": {
+      "id": "pitt-s-pub",
+      "name": "Pitt's Pub",
+      "displayName": "Pitt's Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4207 Judah St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54096",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pitt's%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-pitt-s-pub-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54096"
+          }
+        ]
+      }
+    },
+    "pizzasaurus-rex": {
+      "id": "pizzasaurus-rex",
+      "name": "Pizzasaurus Rex",
+      "displayName": "Pizzasaurus Rex",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2322 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20336",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pizzasaurus%20Rex%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.362Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-pizzasaurus-rex-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20336"
+          }
+        ]
+      }
+    },
+    "plank": {
+      "id": "plank",
+      "name": "Plank",
+      "displayName": "Plank",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "98 Broadway Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15747",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Plank%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-plank-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15747"
+          }
+        ]
+      }
+    },
     "point-san-pablo-harbor": {
       "id": "point-san-pablo-harbor",
       "name": "Point San Pablo Harbor",
@@ -8619,6 +24005,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "phone": "",
+      "recurringEvents": [],
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
@@ -8646,18 +24034,548 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
         "appearances": [
           {
-            "eventId": "2026-05-30-point-san-pablo-harbor-sean-hayes",
+            "eventId": "2026-05-30-point-san-pablo-harbor-sean-hayes-conspiracy-of-beards",
             "date": "2026-05-30",
             "title": "Sean Hayes / Conspiracy Of Beards",
-            "details": "a/a $39.19 7pm til 10:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Sean Hayes, Conspiracy Of Beards",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:47:40.845Z"
+      }
+    },
+    "pop-s-bar": {
+      "id": "pop-s-bar",
+      "name": "Pop's Bar",
+      "displayName": "Pop's Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2800 24th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53213",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Pop's%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-pop-s-bar-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53213"
+          }
+        ]
+      }
+    },
+    "portal": {
+      "id": "portal",
+      "name": "Portal",
+      "displayName": "Portal",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1611 2nd Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39416",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Portal%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-portal-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39416"
+          }
+        ]
+      }
+    },
+    "psyched-radio": {
+      "id": "psyched-radio",
+      "name": "Psyched Radio",
+      "displayName": "Psyched Radio",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Psyched%20Radio%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.428Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-psyched-radio-cosmic-kitten-buzzed-lightbeer-strange-men-fatale",
+            "date": "2026-06-06",
+            "title": "Cosmic Kitten / Buzzed Lightbeer / Strange Men / Fatale",
+            "details": "Cosmic Kitten, Buzzed Lightbeer, Strange Men, Fatale",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "public-works": {
+      "id": "public-works",
+      "name": "Public Works",
+      "displayName": "Public Works",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Public%20Works%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-public-works-art-battle-san-francisco",
+            "date": "2026-05-27",
+            "title": "Art Battle San Francisco",
+            "details": "Art Battle San Francisco",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-public-works-yamagucci",
+            "date": "2026-05-28",
+            "title": "Yamagucci",
+            "details": "Yamagucci",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-public-works-set-john-digweed",
+            "date": "2026-05-29",
+            "title": "SET / John Digweed",
+            "details": "SET, John Digweed",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-public-works-the-glitch-mob",
+            "date": "2026-05-30",
+            "title": "The Glitch Mob",
+            "details": "The Glitch Mob",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "punch-line-sf": {
+      "id": "punch-line-sf",
+      "name": "Punch Line SF",
+      "displayName": "Punch Line SF",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "444 Battery St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28207",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Punch%20Line%20SF%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-punch-line-sf-openmic-7-30pm",
+            "date": "2026-06-07",
+            "title": "Open Mic",
+            "details": "Open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28207"
+          },
+          {
+            "eventId": "2026-06-07-punch-line-sf-poetry-7-30pm",
+            "date": "2026-06-07",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28207"
+          }
+        ]
+      }
+    },
+    "que-rico-nightclub": {
+      "id": "que-rico-nightclub",
+      "name": "Que Rico Nightclub",
+      "displayName": "Que Rico Nightclub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "381 15th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=51148",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Que%20Rico%20Nightclub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-que-rico-nightclub-dance-7-00pm",
+            "date": "2026-06-05",
+            "title": "Dance",
+            "details": "Dance event at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=51148"
+          }
+        ]
+      }
+    },
+    "queen-sheba-ethiopian-cuisine": {
+      "id": "queen-sheba-ethiopian-cuisine",
+      "name": "Queen Sheba Ethiopian Cuisine",
+      "displayName": "Queen Sheba Ethiopian Cuisine",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1704 Broadway Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14169",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Queen%20Sheba%20Ethiopian%20Cuisine%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-queen-sheba-ethiopian-cuisine-openmic-8-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14169"
+          },
+          {
+            "eventId": "2026-06-04-queen-sheba-ethiopian-cuisine-poetry-8-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14169"
+          }
+        ]
+      }
+    },
+    "question-mark-bar": {
+      "id": "question-mark-bar",
+      "name": "Question Mark Bar",
+      "displayName": "Question Mark Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "312 Harriet St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16433",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Question%20Mark%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-question-mark-bar-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16433"
+          }
+        ]
+      }
+    },
+    "rae-rae-s-at-joe-s-corner": {
+      "id": "rae-rae-s-at-joe-s-corner",
+      "name": "Rae Rae's at Joe's Corner",
+      "displayName": "Rae Rae's at Joe's Corner",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "37713 Niles Blvd Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=48250",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rae%20Rae's%20at%20Joe's%20Corner%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-rae-rae-s-at-joe-s-corner-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=48250"
+          }
+        ]
+      }
+    },
+    "red-tomato-pizza-house": {
+      "id": "red-tomato-pizza-house",
+      "name": "Red Tomato Pizza House",
+      "displayName": "Red Tomato Pizza House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2017 University Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4570",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Red%20Tomato%20Pizza%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-red-tomato-pizza-house-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4570"
+          }
+        ]
+      }
     },
     "regency-ballroom": {
       "id": "regency-ballroom",
@@ -8671,6 +24589,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1300 Van Ness Ave, San Francisco, CA 94109",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7878701,
         "longitude": -122.4214133
@@ -8770,14 +24690,130 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.371Z",
         "appearances": [
+          {
+            "eventId": "2026-05-29-regency-ballroom-arjun-rampal",
+            "date": "2026-05-29",
+            "title": "Arjun Rampal",
+            "details": "Arjun Rampal",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-06-regency-ballroom-paul-oakenfold-the-crystal-method",
+            "date": "2026-06-06",
+            "title": "Paul Oakenfold / The Crystal Method",
+            "details": "Paul Oakenfold, The Crystal Method",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
           {
             "eventId": "2027-05-18-regency-ballroom-blue-october",
             "date": "2027-05-18",
             "title": "Blue October",
             "details": "a/a #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "ricardo-s-bar-and-grill": {
+      "id": "ricardo-s-bar-and-grill",
+      "name": "Ricardo's Bar and Grill",
+      "displayName": "Ricardo's Bar and Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "2700 Yulupa Ave Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55340",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ricardo's%20Bar%20and%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-ricardo-s-bar-and-grill-trivia-6-00pm",
+            "date": "2026-06-07",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55340"
+          }
+        ]
+      }
+    },
+    "rick-and-roxy-s": {
+      "id": "rick-and-roxy-s",
+      "name": "Rick & Roxy's",
+      "displayName": "Rick & Roxy's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2131 Lombard St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46474",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rick%20%26%20Roxy's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-rick-and-roxy-s-game-6-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46474"
           }
         ]
       }
@@ -8794,6 +24830,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "SAN FRANCISCO",
       "region": "SF",
       "address": "155 Fell Street",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.776120299999995,
         "longitude": -122.4205138
@@ -8905,21 +24943,77 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-rickshaw-stop-marietta",
-            "date": "2026-05-31",
-            "title": "Marietta / Snowing / Awakebutstillinbed",
-            "details": "a/a 7pm/7:45pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-26-rickshaw-stop-lowertown-fat-evil-children-poor-image",
+            "date": "2026-05-26",
+            "title": "Lowertown / Fat / Evil Children / Poor Image",
+            "details": "Lowertown, Fat, Evil Children, Poor Image",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-31-rickshaw-stop-super-greens",
+            "eventId": "2026-05-27-rickshaw-stop-nerd-nite-sf",
+            "date": "2026-05-27",
+            "title": "Nerd Nite SF",
+            "details": "Nerd Nite SF",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-rickshaw-stop-quinn-xcii-from-michigan-with-love",
+            "date": "2026-05-28",
+            "title": "Quinn XCII / From Michigan With Love",
+            "details": "Quinn XCII, From Michigan With Love",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-rickshaw-stop-samiam-the-flatliners-strangelight",
+            "date": "2026-05-29",
+            "title": "Samiam / The Flatliners / Strangelight",
+            "details": "Samiam, The Flatliners, Strangelight",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-rickshaw-stop-child-thorn-el-kabong",
+            "date": "2026-05-30",
+            "title": "Child / Thorn / El Kabong",
+            "details": "Child, Thorn, El Kabong",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-rickshaw-stop-marietta-snowing-awakebutstillinbed",
             "date": "2026-05-31",
-            "title": "Super Greens / Plaster / Often Easy",
-            "details": "a/a $15/$20 8pm/8:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Marietta / Snowing / Awakebutstillinbed",
+            "details": "Marietta, Snowing, Awakebutstillinbed",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-rickshaw-stop-prettyboy-chance-dirty-cello-matt-jaffe",
+            "date": "2026-06-04",
+            "title": "PrettyBoy Chance / Dirty Cello / Matt Jaffe",
+            "details": "PrettyBoy Chance, Dirty Cello, Matt Jaffe",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-rickshaw-stop-qt-pie-novalyze-deep-and-dark",
+            "date": "2026-06-06",
+            "title": "QT PIE / Novalyze / Deep & Dark",
+            "details": "QT PIE, Novalyze, Deep & Dark",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-rickshaw-stop-qt-pie-novalyze-deep-and-038-dark",
+            "date": "2026-06-06",
+            "title": "QT PIE / Novalyze / Deep &#038; Dark",
+            "details": "QT PIE, Novalyze, Deep &#038; Dark",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-rickshaw-stop-white-hills-ex-heir-heat",
+            "date": "2026-06-07",
+            "title": "White Hills / Ex-Heir / HEAT",
+            "details": "White Hills, Ex-Heir, HEAT",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -9030,6 +25124,57 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:50:17.790Z"
+    },
+    "rite-spot-cafe": {
+      "id": "rite-spot-cafe",
+      "name": "Rite Spot Cafe",
+      "displayName": "Rite Spot Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2099 Folsom St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41367",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rite%20Spot%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-rite-spot-cafe-karaoke-8-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41367"
+          }
+        ]
+      }
     },
     "ritz": {
       "id": "ritz",
@@ -9158,7 +25303,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:10:59.832Z",
         "appearances": [
           {
             "eventId": "2026-05-31-ritz-lords-of-acid",
@@ -9173,6 +25318,611 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Sweet Revenge (tribute)",
             "details": "a/a $25.68 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "robberbaron": {
+      "id": "robberbaron",
+      "name": "Robberbaron",
+      "displayName": "Robberbaron",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2032 Polk St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31487",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Robberbaron%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-robberbaron-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31487"
+          }
+        ]
+      }
+    },
+    "rockridge-improvement-club": {
+      "id": "rockridge-improvement-club",
+      "name": "Rockridge Improvement Club",
+      "displayName": "Rockridge Improvement Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "5515 College Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46539",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rockridge%20Improvement%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-rockridge-improvement-club-karaoke-9-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46539"
+          }
+        ]
+      }
+    },
+    "rookies-sports-lodge-downtown": {
+      "id": "rookies-sports-lodge-downtown",
+      "name": "Rookies Sports Lodge Downtown",
+      "displayName": "Rookies Sports Lodge Downtown",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "99 First St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46497",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rookies%20Sports%20Lodge%20Downtown%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-rookies-sports-lodge-downtown-game-7-30pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46497"
+          }
+        ]
+      }
+    },
+    "rookies-sports-lodge-willow-glen": {
+      "id": "rookies-sports-lodge-willow-glen",
+      "name": "Rookies Sports Lodge Willow Glen",
+      "displayName": "Rookies Sports Lodge Willow Glen",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1535 Meridian Ave #10 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45019",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rookies%20Sports%20Lodge%20Willow%20Glen%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-rookies-sports-lodge-willow-glen-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45019"
+          }
+        ]
+      }
+    },
+    "room-389": {
+      "id": "room-389",
+      "name": "Room 389",
+      "displayName": "Room 389",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "389 Grand Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4567",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Room%20389%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-room-389-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4567"
+          }
+        ]
+      }
+    },
+    "rootstock-arts-center": {
+      "id": "rootstock-arts-center",
+      "name": "RootStock Arts Center",
+      "displayName": "RootStock Arts Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22RootStock%20Arts%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.423Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-31-rootstock-arts-center-centennial-saint-john-coltrane-church-celebration",
+            "date": "2026-05-31",
+            "title": "Centennial Saint John Coltrane Church Celebration",
+            "details": "Centennial Saint John Coltrane Church Celebration",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "rosamunde-sausage-grill": {
+      "id": "rosamunde-sausage-grill",
+      "name": "Rosamunde Sausage Grill",
+      "displayName": "Rosamunde Sausage Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2832 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16319",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rosamunde%20Sausage%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-rosamunde-sausage-grill-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16319"
+          }
+        ]
+      }
+    },
+    "roscoe-s-bar-and-burgers": {
+      "id": "roscoe-s-bar-and-burgers",
+      "name": "Roscoe’s Bar and Burgers",
+      "displayName": "Roscoe’s Bar and Burgers",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2007 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14522",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Roscoe%E2%80%99s%20Bar%20and%20Burgers%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-roscoe-s-bar-and-burgers-karaoke-6-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14522"
+          }
+        ]
+      }
+    },
+    "rosenblum-cellars": {
+      "id": "rosenblum-cellars",
+      "name": "Rosenblum Cellars",
+      "displayName": "Rosenblum Cellars",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "10 Clay St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39417",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rosenblum%20Cellars%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-rosenblum-cellars-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39417"
+          }
+        ]
+      }
+    },
+    "rosie-mccann-s": {
+      "id": "rosie-mccann-s",
+      "name": "Rosie Mccann’s",
+      "displayName": "Rosie Mccann’s",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Cruz",
+      "region": "",
+      "address": "1220 Pacific Ave Santa Cruz CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5283",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rosie%20Mccann%E2%80%99s%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-rosie-mccann-s-trivia-6-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5283"
+          }
+        ]
+      }
+    },
+    "rosie-s-new-york-pizza": {
+      "id": "rosie-s-new-york-pizza",
+      "name": "Rosie's New York Pizza",
+      "displayName": "Rosie's New York Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1285 The Alameda San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45023",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rosie's%20New%20York%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-rosie-s-new-york-pizza-trivia-6-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45023"
+          }
+        ]
+      }
+    },
+    "round-table-pizza": {
+      "id": "round-table-pizza",
+      "name": "Round Table Pizza",
+      "displayName": "Round Table Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "5440 Thornwood Dr San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=45024",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Round%20Table%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-round-table-pizza-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=45024"
           }
         ]
       }
@@ -9233,6 +25983,363 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:52:07.839Z"
+    },
+    "ruby-room": {
+      "id": "ruby-room",
+      "name": "Ruby Room",
+      "displayName": "Ruby Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "132 14th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46434",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Ruby%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-ruby-room-karaoke-9-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46434"
+          }
+        ]
+      }
+    },
+    "sac-city-brews-neighborhood-tap-house": {
+      "id": "sac-city-brews-neighborhood-tap-house",
+      "name": "Sac City Brews Neighborhood Tap House",
+      "displayName": "Sac City Brews Neighborhood Tap House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "3940 60th St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39415",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sac%20City%20Brews%20Neighborhood%20Tap%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-sac-city-brews-neighborhood-tap-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39415"
+          }
+        ]
+      }
+    },
+    "sacramento-central-public-library": {
+      "id": "sacramento-central-public-library",
+      "name": "Sacramento Central Public Library",
+      "displayName": "Sacramento Central Public Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "828 I St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46500",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sacramento%20Central%20Public%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-sacramento-central-public-library-game-5-30pm",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 5:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46500"
+          }
+        ]
+      }
+    },
+    "sacramento-comedy-spot": {
+      "id": "sacramento-comedy-spot",
+      "name": "Sacramento Comedy Spot",
+      "displayName": "Sacramento Comedy Spot",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1050 20th St #130 Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28171",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sacramento%20Comedy%20Spot%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-sacramento-comedy-spot-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28171"
+          }
+        ]
+      }
+    },
+    "sacyard-community-tap-house": {
+      "id": "sacyard-community-tap-house",
+      "name": "SacYard Community Tap House",
+      "displayName": "SacYard Community Tap House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1725 33rd St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=21028",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22SacYard%20Community%20Tap%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-sacyard-community-tap-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=21028"
+          }
+        ]
+      }
+    },
+    "sally-brunn-branch-library": {
+      "id": "sally-brunn-branch-library",
+      "name": "Sally Brunn Branch Library",
+      "displayName": "Sally Brunn Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "451 Jersey St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46489",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sally%20Brunn%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-sally-brunn-branch-library-game-1-00pm",
+            "date": "2026-06-05",
+            "title": "Game Night",
+            "details": "Game night at 1:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46489"
+          }
+        ]
+      }
+    },
+    "saluhall": {
+      "id": "saluhall",
+      "name": "Saluhall",
+      "displayName": "Saluhall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "945 Market St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30954",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Saluhall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-saluhall-trivia-6-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30954"
+          }
+        ]
+      }
     },
     "san-jose-civic-center": {
       "id": "san-jose-civic-center",
@@ -9366,6 +26473,370 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "official"
       }
     },
+    "san-jose-improv": {
+      "id": "san-jose-improv",
+      "name": "San Jose Improv",
+      "displayName": "San Jose Improv",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "62 S Second St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18373",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22San%20Jose%20Improv%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-san-jose-improv-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18373"
+          }
+        ]
+      }
+    },
+    "san-jose-stage": {
+      "id": "san-jose-stage",
+      "name": "San Jose Stage",
+      "displayName": "San Jose Stage",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "490 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38868",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22San%20Jose%20Stage%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-san-jose-stage-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38868"
+          },
+          {
+            "eventId": "2026-06-03-san-jose-stage-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38868"
+          }
+        ]
+      }
+    },
+    "san-pedro-social": {
+      "id": "san-pedro-social",
+      "name": "San Pedro Social",
+      "displayName": "San Pedro Social",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "163 W Santa Clara St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41370",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22San%20Pedro%20Social%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-san-pedro-social-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41370"
+          }
+        ]
+      }
+    },
+    "san-pedro-square-market": {
+      "id": "san-pedro-square-market",
+      "name": "San Pedro Square Market",
+      "displayName": "San Pedro Square Market",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "87 North San Pedro St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3684",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22San%20Pedro%20Square%20Market%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-san-pedro-square-market-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3684"
+          }
+        ]
+      }
+    },
+    "sante-adairius-rustic-ales": {
+      "id": "sante-adairius-rustic-ales",
+      "name": "Sante Adairius Rustic Ales",
+      "displayName": "Sante Adairius Rustic Ales",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Capitola",
+      "region": "",
+      "address": "103 Kennedy Dr Capitola CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41371",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sante%20Adairius%20Rustic%20Ales%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-sante-adairius-rustic-ales-trivia-6-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41371"
+          }
+        ]
+      }
+    },
+    "scopo-divino": {
+      "id": "scopo-divino",
+      "name": "Scopo Divino",
+      "displayName": "Scopo Divino",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2800 California St #101 San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31488",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Scopo%20Divino%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-scopo-divino-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31488"
+          }
+        ]
+      }
+    },
+    "seawolf-public-house": {
+      "id": "seawolf-public-house",
+      "name": "Seawolf Public House",
+      "displayName": "Seawolf Public House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "350 4th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29739",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Seawolf%20Public%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-seawolf-public-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29739"
+          }
+        ]
+      }
+    },
     "senor-sisig": {
       "id": "senor-sisig",
       "name": "Senor Sisig",
@@ -9424,6 +26895,463 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:54:32.886Z"
+    },
+    "seven-trees-branch-library": {
+      "id": "seven-trees-branch-library",
+      "name": "Seven Trees Branch Library",
+      "displayName": "Seven Trees Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "3590 Cas Dr San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46493",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Seven%20Trees%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-seven-trees-branch-library-game-2-00pm",
+            "date": "2026-06-07",
+            "title": "Game Night",
+            "details": "Game night at 2:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46493"
+          }
+        ]
+      }
+    },
+    "sf-jazz-center": {
+      "id": "sf-jazz-center",
+      "name": "SF Jazz Center",
+      "displayName": "SF Jazz Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22SF%20Jazz%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-28-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
+            "date": "2026-05-28",
+            "title": "Terence Blanchard & Ravi Coltrane",
+            "details": "Terence Blanchard & Ravi Coltrane",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
+            "date": "2026-05-29",
+            "title": "Terence Blanchard & Ravi Coltrane",
+            "details": "Terence Blanchard & Ravi Coltrane",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
+            "date": "2026-05-30",
+            "title": "Terence Blanchard & Ravi Coltrane",
+            "details": "Terence Blanchard & Ravi Coltrane",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
+            "date": "2026-05-31",
+            "title": "Terence Blanchard & Ravi Coltrane",
+            "details": "Terence Blanchard & Ravi Coltrane",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-sf-jazz-center-robert-glasper",
+            "date": "2026-06-05",
+            "title": "Robert Glasper",
+            "details": "Robert Glasper",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-sf-jazz-center-robert-glasper",
+            "date": "2026-06-06",
+            "title": "Robert Glasper",
+            "details": "Robert Glasper",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "shady-oak-brewing-company": {
+      "id": "shady-oak-brewing-company",
+      "name": "Shady Oak Brewing Company",
+      "displayName": "Shady Oak Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "420 1st St Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55341",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shady%20Oak%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-shady-oak-brewing-company-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55341"
+          }
+        ]
+      }
+    },
+    "sheldons-hobbies": {
+      "id": "sheldons-hobbies",
+      "name": "Sheldons Hobbies",
+      "displayName": "Sheldons Hobbies",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1155 Lincoln Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46498",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sheldons%20Hobbies%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-sheldons-hobbies-game-6-30pm",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46498"
+          }
+        ]
+      }
+    },
+    "shelton-theater": {
+      "id": "shelton-theater",
+      "name": "Shelton Theater",
+      "displayName": "Shelton Theater",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "533 Sutter St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28214",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shelton%20Theater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-shelton-theater-openmic-7-00pm",
+            "date": "2026-06-06",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28214"
+          },
+          {
+            "eventId": "2026-06-06-shelton-theater-poetry-7-00pm",
+            "date": "2026-06-06",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28214"
+          }
+        ]
+      }
+    },
+    "shine": {
+      "id": "shine",
+      "name": "Shine",
+      "displayName": "Shine",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1400 E St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5174",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shine%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-shine-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5174"
+          }
+        ]
+      }
+    },
+    "shine-coffee-house": {
+      "id": "shine-coffee-house",
+      "name": "Shine Coffee House",
+      "displayName": "Shine Coffee House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1400 E St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38019",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shine%20Coffee%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-shine-coffee-house-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38019"
+          },
+          {
+            "eventId": "2026-06-03-shine-coffee-house-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38019"
+          }
+        ]
+      }
+    },
+    "shine-coffeehouse": {
+      "id": "shine-coffeehouse",
+      "name": "Shine Coffeehouse",
+      "displayName": "Shine Coffeehouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1400 E St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=34212",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shine%20Coffeehouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-shine-coffeehouse-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34212"
+          },
+          {
+            "eventId": "2026-06-03-shine-coffeehouse-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34212"
+          }
+        ]
+      }
     },
     "shoreline-amphitheatre": {
       "id": "shoreline-amphitheatre",
@@ -9573,6 +27501,57 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "official"
       }
     },
+    "shotwell-s-saloon": {
+      "id": "shotwell-s-saloon",
+      "name": "Shotwell's Saloon",
+      "displayName": "Shotwell's Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3349 20th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4540",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shotwell's%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-shotwell-s-saloon-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4540"
+          }
+        ]
+      }
+    },
     "shuggies": {
       "id": "shuggies",
       "name": "Shuggies",
@@ -9624,6 +27603,64 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T05:55:49.616Z"
+    },
+    "silver-cloud-restaurant-and-karaoke-bar": {
+      "id": "silver-cloud-restaurant-and-karaoke-bar",
+      "name": "Silver Cloud Restaurant & Karaoke Bar",
+      "displayName": "Silver Cloud Restaurant & Karaoke Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1994 Lombard St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14223",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Silver%20Cloud%20Restaurant%20%26%20Karaoke%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-silver-cloud-restaurant-and-karaoke-bar-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14223"
+          },
+          {
+            "eventId": "2026-06-04-silver-cloud-restaurant-and-karaoke-bar-karaoke-9-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38643"
+          }
+        ]
+      }
     },
     "smiley": {
       "id": "smiley",
@@ -9677,6 +27714,210 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:57:00.422Z"
     },
+    "smuggler-s-cove": {
+      "id": "smuggler-s-cove",
+      "name": "Smuggler’s Cove",
+      "displayName": "Smuggler’s Cove",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "650 Gough St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14422",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Smuggler%E2%80%99s%20Cove%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-smuggler-s-cove-game-5-00pm",
+            "date": "2026-06-06",
+            "title": "Game Night",
+            "details": "Game night at 5:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14422"
+          }
+        ]
+      }
+    },
+    "socal-s-tavern": {
+      "id": "socal-s-tavern",
+      "name": "Socal's Tavern",
+      "displayName": "Socal's Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "5200 Folsom Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39412",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Socal's%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-socal-s-tavern-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39412"
+          }
+        ]
+      }
+    },
+    "southside-spirit-house": {
+      "id": "southside-spirit-house",
+      "name": "Southside Spirit House",
+      "displayName": "Southside Spirit House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "575 Howard St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14365",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Southside%20Spirit%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-southside-spirit-house-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14365"
+          }
+        ]
+      }
+    },
+    "spark-social-sf": {
+      "id": "spark-social-sf",
+      "name": "Spark Social SF",
+      "displayName": "Spark Social SF",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "601 Mission Bay Blvd San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38580",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Spark%20Social%20SF%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-spark-social-sf-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38580"
+          }
+        ]
+      }
+    },
     "spats": {
       "id": "spats",
       "name": "Spats",
@@ -9689,6 +27930,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1974 Shattuck Ave., Berkeley, CA 94704",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.8726497,
         "longitude": -122.26875629999999
@@ -9766,18 +28009,386 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-30-spats-no-alternative",
+            "eventId": "2026-05-29-spats-joel-cusumano-dum-1-twin-bloom",
+            "date": "2026-05-29",
+            "title": "Joel Cusumano / Dum 1 / Twin Bloom",
+            "details": "Joel Cusumano, Dum 1, Twin Bloom",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-spats-no-alternative-highwinds-crash-outfit",
             "date": "2026-05-30",
-            "title": "No Alternative / The Throwups / Crash Outfit",
-            "details": "a/a $10 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "No Alternative / Highwinds / Crash Outfit",
+            "details": "No Alternative, Highwinds, Crash Outfit",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-spats-daytripper-demonsmoke-reptilian-arms",
+            "date": "2026-06-01",
+            "title": "Daytripper / DemonSmoke / Reptilian Arms",
+            "details": "Daytripper, DemonSmoke, Reptilian Arms",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-spats-slutzville-grrrizzly-disbeware-the-creepy-crawlies",
+            "date": "2026-06-04",
+            "title": "Slutzville / Grrrizzly / Disbeware / The Creepy Crawlies",
+            "details": "Slutzville, Grrrizzly, Disbeware, The Creepy Crawlies",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-spats-vaxxines-party-force-hell-bound-pound-shark-in-the-water",
+            "date": "2026-06-05",
+            "title": "Vaxxines / Party Force / Hell Bound Pound / Shark In The Water",
+            "details": "Vaxxines, Party Force, Hell Bound Pound, Shark In The Water",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-spats-55-castles-puppet-ssleeping-desiress",
+            "date": "2026-06-06",
+            "title": "55 Castles / Puppet / Ssleeping DesiresS",
+            "details": "55 Castles, Puppet, Ssleeping DesiresS",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-spats-vesseles-deathwalker-hands-of-goro",
+            "date": "2026-06-07",
+            "title": "Vesseles / DeathWalker / Hands of Goro",
+            "details": "Vesseles, DeathWalker, Hands of Goro",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:58:14.064Z"
+      }
+    },
+    "spats-berkeley": {
+      "id": "spats-berkeley",
+      "name": "Spats Berkeley",
+      "displayName": "Spats Berkeley",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "1974 Shattuck Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16740",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Spats%20Berkeley%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.722Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-spats-berkeley-openmic-8-30pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16740"
+          },
+          {
+            "eventId": "2026-06-02-spats-berkeley-poetry-8-30pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16740"
+          }
+        ]
+      }
+    },
+    "speisekammer": {
+      "id": "speisekammer",
+      "name": "Speisekammer",
+      "displayName": "Speisekammer",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Alameda",
+      "region": "",
+      "address": "2424 Lincoln Ave Alameda CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=35131",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Speisekammer%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-speisekammer-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35131"
+          },
+          {
+            "eventId": "2026-06-04-speisekammer-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35320"
+          },
+          {
+            "eventId": "2026-06-04-speisekammer-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35320"
+          }
+        ]
+      }
+    },
+    "splash-bar-san-jose": {
+      "id": "splash-bar-san-jose",
+      "name": "Splash Bar San Jose",
+      "displayName": "Splash Bar San Jose",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "65 Post St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57473",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Splash%20Bar%20San%20Jose%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-splash-bar-san-jose-trivia-8-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57473"
+          }
+        ]
+      }
+    },
+    "spotlight-ballroom": {
+      "id": "spotlight-ballroom",
+      "name": "Spotlight Ballroom",
+      "displayName": "Spotlight Ballroom",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2534 Industrial Blvd #150 Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53675",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Spotlight%20Ballroom%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-spotlight-ballroom-dance-8-00pm",
+            "date": "2026-06-05",
+            "title": "Dance",
+            "details": "Dance event at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53675"
+          }
+        ]
+      }
+    },
+    "stab-comedy-theater": {
+      "id": "stab-comedy-theater",
+      "name": "STAB! Comedy Theater",
+      "displayName": "STAB! Comedy Theater",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1710 Broadway Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=8127",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22STAB!%20Comedy%20Theater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-stab-comedy-theater-openmic-8-30pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=8127"
+          }
+        ]
+      }
+    },
+    "starlite-ballroom": {
+      "id": "starlite-ballroom",
+      "name": "Starlite Ballroom",
+      "displayName": "Starlite Ballroom",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "5178 Moorpark Ave #60 San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=50151",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Starlite%20Ballroom%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-starlite-ballroom-dance-6-00pm",
+            "date": "2026-06-07",
+            "title": "Dance",
+            "details": "Dance event at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50151"
+          }
+        ]
+      }
     },
     "starry-plough": {
       "id": "starry-plough",
@@ -9791,6 +28402,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "3101 Shattuck Ave., Berkeley, CA 94705",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.852990299999995,
         "longitude": -122.2659426
@@ -9894,46 +28507,52 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-starry-plough-school-of-rock-classic-metal",
-            "date": "2026-05-29",
-            "title": "School of Rock Classic Metal",
-            "details": "a/a $15 6pm (day 1)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-01-starry-plough-irish-c-ili-dance-with-live-band",
+            "date": "2026-06-01",
+            "title": "Irish Céili Dance with live band",
+            "details": "Irish Céili Dance with live band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
-            "eventId": "2026-05-29-starry-plough-school-of-rock-left-of-the-dial",
-            "date": "2026-05-29",
-            "title": "School of Rock Left of the Dial",
-            "details": "a/a $15 8pm (day 1)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-02-starry-plough-open-mic",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open Mic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
-            "eventId": "2026-05-30-starry-plough-school-of-rock-classic-metal",
-            "date": "2026-05-30",
-            "title": "School of Rock Classic Metal",
-            "details": "a/a $15 4pm (day 2)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-03-starry-plough-berkeley-poetry-slam",
+            "date": "2026-06-03",
+            "title": "Berkeley Poetry Slam",
+            "details": "Berkeley Poetry Slam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
-            "eventId": "2026-05-30-starry-plough-school-of-rock-left-of-the-dial",
-            "date": "2026-05-30",
-            "title": "School of Rock Left of the Dial",
-            "details": "a/a $15 6pm (day 2)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-04-starry-plough-free-funk-glory-jams",
+            "date": "2026-06-04",
+            "title": "Free Funk Glory Jams",
+            "details": "Free Funk Glory Jams",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
-            "eventId": "2026-05-30-starry-plough-the-midnight-crue",
-            "date": "2026-05-30",
-            "title": "The Midnight Crue / Beats-D",
-            "details": "a/a $15 9pm (School of Rock Adult Bands)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-06-starry-plough-sour-widows-still-ruins-dalmatia",
+            "date": "2026-06-06",
+            "title": "Sour Widows / Still Ruins / Dalmatia",
+            "details": "Sour Widows, Still Ruins, Dalmatia",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-starry-plough-irish-session",
+            "date": "2026-06-07",
+            "title": "Irish Session",
+            "details": "Irish Session",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:59:01.060Z"
+      }
     },
     "stern-grove-festival": {
       "id": "stern-grove-festival",
@@ -10063,6 +28682,602 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:59:43.461Z"
     },
+    "stoney-s-rockin-rodeo": {
+      "id": "stoney-s-rockin-rodeo",
+      "name": "Stoney's Rockin Rodeo",
+      "displayName": "Stoney's Rockin Rodeo",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1320 Del Paso Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=51136",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Stoney's%20Rockin%20Rodeo%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-stoney-s-rockin-rodeo-dance-7-00pm",
+            "date": "2026-06-04",
+            "title": "Dance",
+            "details": "Dance event at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=51136"
+          }
+        ]
+      }
+    },
+    "streets-pub-and-grub": {
+      "id": "streets-pub-and-grub",
+      "name": "Streets Pub and Grub",
+      "displayName": "Streets Pub and Grub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1804 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16453",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Streets%20Pub%20and%20Grub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-streets-pub-and-grub-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16453"
+          },
+          {
+            "eventId": "2026-06-07-streets-pub-and-grub-trivia-8-00pm",
+            "date": "2026-06-07",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55891"
+          }
+        ]
+      }
+    },
+    "studio-x": {
+      "id": "studio-x",
+      "name": "Studio X",
+      "displayName": "Studio X",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "829 27th Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27974",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Studio%20X%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-studio-x-openmic-7-30pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27974"
+          },
+          {
+            "eventId": "2026-06-04-studio-x-poetry-7-30pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27974"
+          }
+        ]
+      }
+    },
+    "sunset-branch-library": {
+      "id": "sunset-branch-library",
+      "name": "Sunset Branch Library",
+      "displayName": "Sunset Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1305 18th Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46491",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sunset%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-sunset-branch-library-game-10-00am",
+            "date": "2026-06-02",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46491"
+          }
+        ]
+      }
+    },
+    "sunset-squares-pizza": {
+      "id": "sunset-squares-pizza",
+      "name": "Sunset Squares Pizza",
+      "displayName": "Sunset Squares Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "553 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14450",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sunset%20Squares%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-sunset-squares-pizza-trivia-7-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14450"
+          }
+        ]
+      }
+    },
+    "swedish-american-hall": {
+      "id": "swedish-american-hall",
+      "name": "Swedish American Hall",
+      "displayName": "Swedish American Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Swedish%20American%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-swedish-american-hall-therapy-gecko",
+            "date": "2026-06-04",
+            "title": "Therapy Gecko",
+            "details": "Therapy Gecko",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "sweetwater-music-hall": {
+      "id": "sweetwater-music-hall",
+      "name": "Sweetwater Music Hall",
+      "displayName": "Sweetwater Music Hall",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sweetwater%20Music%20Hall%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-sweetwater-music-hall-open-mic-night",
+            "date": "2026-05-26",
+            "title": "Open Mic Night",
+            "details": "Open Mic Night",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-sweetwater-music-hall-john-craigie-performs-and-8220-help-the-lonely-beatles-for-sale-and-8221",
+            "date": "2026-05-27",
+            "title": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
+            "details": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-sweetwater-music-hall-john-craigie-performs-and-8220-help-the-lonely-beatles-for-sale-and-8221",
+            "date": "2026-05-28",
+            "title": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
+            "details": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-sweetwater-music-hall-purple-haze-tribute-to-jimi-hendrix",
+            "date": "2026-05-29",
+            "title": "Purple Haze: Tribute to Jimi Hendrix",
+            "details": "Purple Haze: Tribute to Jimi Hendrix",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-sweetwater-music-hall-sol-horizon-bob-marley-tribute",
+            "date": "2026-05-31",
+            "title": "Sol Horizon (Bob Marley Tribute)",
+            "details": "Sol Horizon (Bob Marley Tribute)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "tap-in-lounge": {
+      "id": "tap-in-lounge",
+      "name": "Tap in lounge",
+      "displayName": "Tap in lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "2012 Shattuck Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15749",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Tap%20in%20lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-tap-in-lounge-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15749"
+          }
+        ]
+      }
+    },
+    "taplands": {
+      "id": "taplands",
+      "name": "Taplands",
+      "displayName": "Taplands",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Clara",
+      "region": "",
+      "address": "1171 Homestead Rd Santa Clara CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57446",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Taplands%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.355Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-taplands-trivia-7-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57446"
+          }
+        ]
+      }
+    },
+    "teeth-bar-sf": {
+      "id": "teeth-bar-sf",
+      "name": "Teeth Bar SF",
+      "displayName": "Teeth Bar SF",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2323 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38633",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Teeth%20Bar%20SF%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-teeth-bar-sf-chess-7-00pm",
+            "date": "2026-06-01",
+            "title": "Chess",
+            "details": "Chess event at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53209"
+          },
+          {
+            "eventId": "2026-06-02-teeth-bar-sf-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38633"
+          }
+        ]
+      }
+    },
+    "temescal-brewing": {
+      "id": "temescal-brewing",
+      "name": "Temescal Brewing",
+      "displayName": "Temescal Brewing",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4115 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39420",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Temescal%20Brewing%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-temescal-brewing-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39420"
+          }
+        ]
+      }
+    },
     "tequila-mockingbird": {
       "id": "tequila-mockingbird",
       "name": "Tequila Mockingbird",
@@ -10075,6 +29290,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "phone": "",
+      "recurringEvents": [],
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
@@ -10100,18 +29317,4548 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-05-28T02:07:23.590Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-tequila-mockingbird-monk-execution",
+            "eventId": "2026-05-29-tequila-mockingbird-monk-execution-x-tra-aphid-circle-of-ruin",
             "date": "2026-05-29",
             "title": "Monk Execution / X-Tra / Aphid / Circle Of Ruin",
-            "details": "21+ $15 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Monk Execution, X-Tra, Aphid, Circle Of Ruin",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:01:36.962Z"
+      }
+    },
+    "the-abbey-tavern": {
+      "id": "the-abbey-tavern",
+      "name": "The Abbey Tavern",
+      "displayName": "The Abbey Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4100 Geary Blvd San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19706",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Abbey%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-abbey-tavern-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19706"
+          }
+        ]
+      }
+    },
+    "the-alan-blueford-center": {
+      "id": "the-alan-blueford-center",
+      "name": "The Alan Blueford Center",
+      "displayName": "The Alan Blueford Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2434 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27975",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Alan%20Blueford%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-the-alan-blueford-center-openmic-8-00pm",
+            "date": "2026-06-06",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27975"
+          },
+          {
+            "eventId": "2026-06-06-the-alan-blueford-center-poetry-8-00pm",
+            "date": "2026-06-06",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27975"
+          }
+        ]
+      }
+    },
+    "the-alembic": {
+      "id": "the-alembic",
+      "name": "The Alembic",
+      "displayName": "The Alembic",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1725 Haight St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31012",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Alembic%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-alembic-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31012"
+          }
+        ]
+      }
+    },
+    "the-alley": {
+      "id": "the-alley",
+      "name": "The Alley",
+      "displayName": "The Alley",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "3325 Grand Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4545",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Alley%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-alley-trivia-9-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4545"
+          }
+        ]
+      }
+    },
+    "the-athletic-club-oakland": {
+      "id": "the-athletic-club-oakland",
+      "name": "The Athletic Club Oakland",
+      "displayName": "The Athletic Club Oakland",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "59 Grand Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14556",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Athletic%20Club%20Oakland%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-the-athletic-club-oakland-karaoke-9-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14556"
+          }
+        ]
+      }
+    },
+    "the-avenue": {
+      "id": "the-avenue",
+      "name": "The Avenue",
+      "displayName": "The Avenue",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "4822 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32727",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Avenue%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.365Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-avenue-karaoke-9-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32727"
+          }
+        ]
+      }
+    },
+    "the-back-room": {
+      "id": "the-back-room",
+      "name": "The Back Room",
+      "displayName": "The Back Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Back%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-the-back-room-rick-dougherty-don-burnham",
+            "date": "2026-05-26",
+            "title": "Rick Dougherty / Don Burnham",
+            "details": "Rick Dougherty, Don Burnham",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-back-room-kaimera",
+            "date": "2026-05-29",
+            "title": "Kaimera",
+            "details": "Kaimera",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-back-room-yoav-konig-quartet-with-nico-colucci-michael-potter-miles-turk",
+            "date": "2026-06-05",
+            "title": "Yoav Konig Quartet with Nico Colucci / Michael Potter / Miles Turk",
+            "details": "Yoav Konig Quartet with Nico Colucci, Michael Potter, Miles Turk",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-back-room-the-charles-wheal-band",
+            "date": "2026-06-06",
+            "title": "The Charles Wheal Band",
+            "details": "The Charles Wheal Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-back-room-michael-mcnally-and-the-time-travelers",
+            "date": "2026-06-07",
+            "title": "Michael McNally and The Time Travelers",
+            "details": "Michael McNally and The Time Travelers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-barnyard-wine-bar": {
+      "id": "the-barnyard-wine-bar",
+      "name": "The Barnyard Wine Bar",
+      "displayName": "The Barnyard Wine Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Danville",
+      "region": "",
+      "address": "400 Sycamore Valley Rd Danville CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54141",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Barnyard%20Wine%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-barnyard-wine-bar-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54141"
+          }
+        ]
+      }
+    },
+    "the-bench": {
+      "id": "the-bench",
+      "name": "The Bench",
+      "displayName": "The Bench",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "39055 Paseo Padre Pkwy Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31814",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Bench%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.726Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-bench-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31814"
+          }
+        ]
+      }
+    },
+    "the-bitter-end": {
+      "id": "the-bitter-end",
+      "name": "The Bitter End",
+      "displayName": "The Bitter End",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "441 Clement St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4549",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Bitter%20End%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-bitter-end-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4549"
+          },
+          {
+            "eventId": "2026-06-03-the-bitter-end-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38653"
+          }
+        ]
+      }
+    },
+    "the-blue-light": {
+      "id": "the-blue-light",
+      "name": "The Blue Light",
+      "displayName": "The Blue Light",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1979 Union St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38647",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Blue%20Light%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-blue-light-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38647"
+          }
+        ]
+      }
+    },
+    "the-boardroom": {
+      "id": "the-boardroom",
+      "name": "The Boardroom",
+      "displayName": "The Boardroom",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1609 Powell St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5494",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Boardroom%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-boardroom-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5494"
+          }
+        ]
+      }
+    },
+    "the-branham-lounge": {
+      "id": "the-branham-lounge",
+      "name": "The Branham Lounge",
+      "displayName": "The Branham Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1116 Branham Ln San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19335",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Branham%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-branham-lounge-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19335"
+          }
+        ]
+      }
+    },
+    "the-cabin": {
+      "id": "the-cabin",
+      "name": "The Cabin",
+      "displayName": "The Cabin",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1207 21st St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20333",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Cabin%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-cabin-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20333"
+          }
+        ]
+      }
+    },
+    "the-caravan-lounge": {
+      "id": "the-caravan-lounge",
+      "name": "The Caravan Lounge",
+      "displayName": "The Caravan Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "98 Almaden Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16742",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Caravan%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-caravan-lounge-openmic-10-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16742"
+          },
+          {
+            "eventId": "2026-06-03-the-caravan-lounge-poetry-10-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 10:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16742"
+          }
+        ]
+      }
+    },
+    "the-chapel": {
+      "id": "the-chapel",
+      "name": "The Chapel",
+      "displayName": "The Chapel",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Chapel%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-the-chapel-jacob-fred-jazz-odyssey",
+            "date": "2026-05-27",
+            "title": "Jacob Fred Jazz Odyssey",
+            "details": "Jacob Fred Jazz Odyssey",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-the-chapel-isobel-campbell-pink-mountaintops",
+            "date": "2026-05-28",
+            "title": "Isobel Campbell / Pink Mountaintops",
+            "details": "Isobel Campbell, Pink Mountaintops",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-chapel-allah-las-sam-blasucci",
+            "date": "2026-05-29",
+            "title": "Allah-Las / Sam Blasucci",
+            "details": "Allah-Las, Sam Blasucci",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-the-chapel-allah-las-sam-blasucci",
+            "date": "2026-05-30",
+            "title": "Allah-Las / Sam Blasucci",
+            "details": "Allah-Las, Sam Blasucci",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-the-chapel-marc-and-the-casuals-the-west-coast-spiritual-corinthians-dj-lead-teddy",
+            "date": "2026-05-31",
+            "title": "Marc & the Casuals / The West Coast Spiritual Corinthians / Lead Teddy",
+            "details": "Marc & the Casuals, The West Coast Spiritual Corinthians, DJ Lead Teddy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-the-chapel-aja-monet-pher",
+            "date": "2026-06-01",
+            "title": "Aja Monet / PHER",
+            "details": "Aja Monet, PHER",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-the-chapel-rostam-henry-solomon",
+            "date": "2026-06-03",
+            "title": "ROSTAM / Henry Solomon",
+            "details": "ROSTAM, Henry Solomon",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-the-chapel-martin-rev-dagger-polyester-vj-divine-enfant-dj-omar",
+            "date": "2026-06-04",
+            "title": "Martin Rev / Dagger Polyester / VJ Divine Enfant / Omar",
+            "details": "Martin Rev, Dagger Polyester, VJ Divine Enfant, DJ Omar",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-chapel-jerry-s-middle-finger",
+            "date": "2026-06-05",
+            "title": "Jerry's Middle Finger",
+            "details": "Jerry's Middle Finger",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-chapel-jerry-s-middle-finger",
+            "date": "2026-06-06",
+            "title": "Jerry's Middle Finger",
+            "details": "Jerry's Middle Finger",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-chieftain-irish-pub-and-restaurant": {
+      "id": "the-chieftain-irish-pub-and-restaurant",
+      "name": "The Chieftain Irish Pub & Restaurant",
+      "displayName": "The Chieftain Irish Pub & Restaurant",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "198 5th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19707",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Chieftain%20Irish%20Pub%20%26%20Restaurant%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-chieftain-irish-pub-and-restaurant-trivia-7-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19707"
+          }
+        ]
+      }
+    },
+    "the-clarion-sf": {
+      "id": "the-clarion-sf",
+      "name": "The Clarion SF",
+      "displayName": "The Clarion SF",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2 Waverly Place San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28206",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Clarion%20SF%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-the-clarion-sf-openmic-1-00pm",
+            "date": "2026-06-06",
+            "title": "Open Mic",
+            "details": "Open mic at 1:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28206"
+          },
+          {
+            "eventId": "2026-06-06-the-clarion-sf-poetry-1-00pm",
+            "date": "2026-06-06",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 1:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28206"
+          }
+        ]
+      }
+    },
+    "the-clubhouse-bar-and-grill": {
+      "id": "the-clubhouse-bar-and-grill",
+      "name": "The Clubhouse Bar & Grill",
+      "displayName": "The Clubhouse Bar & Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "3082 Marlow Rd b 8 Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55342",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Clubhouse%20Bar%20%26%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-clubhouse-bar-and-grill-trivia-6-30pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55342"
+          }
+        ]
+      }
+    },
+    "the-coffee-garden": {
+      "id": "the-coffee-garden",
+      "name": "The Coffee Garden",
+      "displayName": "The Coffee Garden",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2904 Franklin Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=28172",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Coffee%20Garden%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-coffee-garden-openmic-8-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28172"
+          },
+          {
+            "eventId": "2026-06-04-the-coffee-garden-poetry-8-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=28172"
+          }
+        ]
+      }
+    },
+    "the-crossing-at-east-cut": {
+      "id": "the-crossing-at-east-cut",
+      "name": "The Crossing at East Cut",
+      "displayName": "The Crossing at East Cut",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "250 Main St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38655",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Crossing%20at%20East%20Cut%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-crossing-at-east-cut-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38655"
+          }
+        ]
+      }
+    },
+    "the-den-at-the-fox": {
+      "id": "the-den-at-the-fox",
+      "name": "The Den At The Fox",
+      "displayName": "The Den At The Fox",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1912 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29728",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Den%20At%20The%20Fox%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-den-at-the-fox-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29728"
+          }
+        ]
+      }
+    },
+    "the-depot": {
+      "id": "the-depot",
+      "name": "The Depot",
+      "displayName": "The Depot",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2001 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46427",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Depot%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-depot-karaoke-8-00pm",
+            "date": "2026-06-03",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46427"
+          }
+        ]
+      }
+    },
+    "the-detour": {
+      "id": "the-detour",
+      "name": "The Detour",
+      "displayName": "The Detour",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2200A Market St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=17153",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Detour%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.052Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-detour-trivia-7-30pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=17153"
+          }
+        ]
+      }
+    },
+    "the-distillery-karaoke": {
+      "id": "the-distillery-karaoke",
+      "name": "The Distillery Karaoke",
+      "displayName": "The Distillery Karaoke",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2107 L St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32700",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Distillery%20Karaoke%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.367Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-the-distillery-karaoke-karaoke-8-00pm",
+            "date": "2026-06-05",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32700"
+          }
+        ]
+      }
+    },
+    "the-doghouse": {
+      "id": "the-doghouse",
+      "name": "The Doghouse",
+      "displayName": "The Doghouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1336 N First St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19333",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Doghouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-doghouse-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19333"
+          }
+        ]
+      }
+    },
+    "the-dubliner": {
+      "id": "the-dubliner",
+      "name": "The Dubliner",
+      "displayName": "The Dubliner",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3838 24th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16436",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Dubliner%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-dubliner-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16436"
+          }
+        ]
+      }
+    },
+    "the-fillmore": {
+      "id": "the-fillmore",
+      "name": "The Fillmore",
+      "displayName": "The Fillmore",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Fillmore%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-the-fillmore-tk-from-ling-tosite-sigure",
+            "date": "2026-05-26",
+            "title": "Tk From Ling Tosite Sigure",
+            "details": "Tk From Ling Tosite Sigure",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-03-the-fillmore-kes",
+            "date": "2026-06-03",
+            "title": "Kes",
+            "details": "Kes",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-flamingo-house": {
+      "id": "the-flamingo-house",
+      "name": "The Flamingo House",
+      "displayName": "The Flamingo House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2315 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=53674",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Flamingo%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-the-flamingo-house-dance-9-00pm",
+            "date": "2026-06-05",
+            "title": "Dance",
+            "details": "Dance event at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=53674"
+          }
+        ]
+      }
+    },
+    "the-fountainhead": {
+      "id": "the-fountainhead",
+      "name": "The Fountainhead",
+      "displayName": "The Fountainhead",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "387 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15746",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Fountainhead%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-fountainhead-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15746"
+          }
+        ]
+      }
+    },
+    "the-freight": {
+      "id": "the-freight",
+      "name": "The Freight",
+      "displayName": "The Freight",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "East Bay",
+      "address": "2020 Addison St Berkeley CA",
+      "phone": "(510) 644-2020",
+      "recurringEvents": [
+        {
+          "type": "Open Mic",
+          "day": "Tuesday",
+          "time": "7:00pm",
+          "frequency": "Weekly",
+          "cost": "$5 admission fee",
+          "source": "badslava",
+          "sourceUrl": "https://badslava.com/details.php?id=1094"
+        }
+      ],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Freight%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=1094",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.thefreight.org/",
+          "confidence": "candidate",
+          "source": "badslava"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "http://maps.google.com/maps?f=q&hl=en&q=2020 Addison St+Berkeley+CA",
+          "confidence": "candidate",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "Address derived from BadSlava venue detail page."
+        },
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "City derived from BadSlava venue address."
+        },
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "Region inferred from BadSlava venue city."
+        },
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "Phone number derived from BadSlava venue detail page."
+        },
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "Recurring event details derived from BadSlava venue detail page."
+        },
+        {
+          "url": "https://badslava.com/details.php?id=1094",
+          "note": "BadSlava recurring listing: Weekly | Tuesday | 7:00pm | Open Mic | $5 admission fee."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-the-freight-jazzschool-studio-band-the-jazz-garden-big-band",
+            "date": "2026-05-26",
+            "title": "Jazzschool Studio Band / The Jazz Garden Big Band",
+            "details": "Jazzschool Studio Band, The Jazz Garden Big Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-the-freight-oscar-pe-as",
+            "date": "2026-05-28",
+            "title": "Oscar Peñas",
+            "details": "Oscar Peñas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-the-freight-12pm-bobby-mcferrin-and-motion-circlesongs",
+            "date": "2026-06-01",
+            "title": "12pm Bobby McFerrin And Motion: Circlesongs",
+            "details": "12pm Bobby McFerrin And Motion: Circlesongs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-the-freight-openmic-7-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=1094"
+          },
+          {
+            "eventId": "2026-06-02-the-freight-poetry-7-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=1094"
+          },
+          {
+            "eventId": "2026-06-03-the-freight-the-moth-storyslam-american-dreams",
+            "date": "2026-06-03",
+            "title": "The Moth Storyslam - American Dreams",
+            "details": "The Moth Storyslam - American Dreams",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-freight-natalie-and-brittany-haas",
+            "date": "2026-06-05",
+            "title": "Natalie & Brittany Haas",
+            "details": "Natalie & Brittany Haas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-freight-natalie-and-038-brittany-haas",
+            "date": "2026-06-05",
+            "title": "Natalie &#038; Brittany Haas",
+            "details": "Natalie &#038; Brittany Haas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-freight-booker-t-jones",
+            "date": "2026-06-06",
+            "title": "Booker T. Jones",
+            "details": "Booker T. Jones",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-freight-booker-t-jones",
+            "date": "2026-06-07",
+            "title": "Booker T. Jones",
+            "details": "Booker T. Jones",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-fremont-clubhouse-sportsbar-golf-club-and-event-center": {
+      "id": "the-fremont-clubhouse-sportsbar-golf-club-and-event-center",
+      "name": "The Fremont Clubhouse Sportsbar, Golf Club, and Event Center",
+      "displayName": "The Fremont Clubhouse Sportsbar, Golf Club, and Event Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "4020 Technology Pl Suite 1 Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55270",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Fremont%20Clubhouse%20Sportsbar%2C%20Golf%20Club%2C%20and%20Event%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-fremont-clubhouse-sportsbar-golf-club-and-event-center-trivia-6-30pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55270"
+          }
+        ]
+      }
+    },
+    "the-game-parlour": {
+      "id": "the-game-parlour",
+      "name": "The Game Parlour",
+      "displayName": "The Game Parlour",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1342 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=34140",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Game%20Parlour%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-game-parlour-game-6-00pm",
+            "date": "2026-06-03",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34140"
+          },
+          {
+            "eventId": "2026-06-04-the-game-parlour-game-6-00pm",
+            "date": "2026-06-04",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32651"
+          }
+        ]
+      }
+    },
+    "the-golden-bear": {
+      "id": "the-golden-bear",
+      "name": "The Golden Bear",
+      "displayName": "The Golden Bear",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2326 K St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14151",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Golden%20Bear%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-golden-bear-poetry-7-30pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14151"
+          }
+        ]
+      }
+    },
+    "the-golden-bull": {
+      "id": "the-golden-bull",
+      "name": "The Golden Bull",
+      "displayName": "The Golden Bull",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "412 14th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27984",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Golden%20Bull%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.731Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-the-golden-bull-openmic-9-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27984"
+          },
+          {
+            "eventId": "2026-06-05-the-golden-bull-poetry-9-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27984"
+          }
+        ]
+      }
+    },
+    "the-good-hop": {
+      "id": "the-good-hop",
+      "name": "The Good Hop",
+      "displayName": "The Good Hop",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2421 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29726",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Good%20Hop%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-good-hop-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29726"
+          }
+        ]
+      }
+    },
+    "the-goose-and-fern": {
+      "id": "the-goose-and-fern",
+      "name": "The Goose & Fern",
+      "displayName": "The Goose & Fern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "116 5th St Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55343",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Goose%20%26%20Fern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-the-goose-and-fern-trivia-7-30pm",
+            "date": "2026-06-07",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55343"
+          }
+        ]
+      }
+    },
+    "the-halfway-club": {
+      "id": "the-halfway-club",
+      "name": "The Halfway Club",
+      "displayName": "The Halfway Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1166 Geneva Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30084",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Halfway%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.049Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-halfway-club-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30084"
+          }
+        ]
+      }
+    },
+    "the-hotel-utah-saloon": {
+      "id": "the-hotel-utah-saloon",
+      "name": "The Hotel Utah Saloon",
+      "displayName": "The Hotel Utah Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "500 4th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=1244",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Hotel%20Utah%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-hotel-utah-saloon-openmic-7-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=1244"
+          },
+          {
+            "eventId": "2026-06-01-the-hotel-utah-saloon-poetry-7-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=1244"
+          }
+        ]
+      }
+    },
+    "the-independent": {
+      "id": "the-independent",
+      "name": "The Independent",
+      "displayName": "The Independent",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Independent%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-the-independent-old-mervs-where-s-west-ra-ra-viper",
+            "date": "2026-05-26",
+            "title": "Old Mervs / Where’s West? / Ra Ra Viper",
+            "details": "Old Mervs, Where’s West?, Ra Ra Viper",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-independent-ray-bull-babehoven",
+            "date": "2026-05-29",
+            "title": "Ray Bull / Babehoven",
+            "details": "Ray Bull, Babehoven",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-the-independent-the-emo-night-tour",
+            "date": "2026-05-30",
+            "title": "The Emo Night Tour",
+            "details": "The Emo Night Tour",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-the-independent-jaboukie-young-white",
+            "date": "2026-05-31",
+            "title": "Jaboukie Young-White",
+            "details": "Jaboukie Young-White",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-02-the-independent-bixby-bhertuy",
+            "date": "2026-06-02",
+            "title": "Bixby / Bhertuy",
+            "details": "Bixby, Bhertuy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-the-independent-bixby-bhertuy",
+            "date": "2026-06-03",
+            "title": "Bixby / Bhertuy",
+            "details": "Bixby, Bhertuy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-the-independent-claire-rosinkranz-stevie-bill",
+            "date": "2026-06-04",
+            "title": "Claire Rosinkranz / Stevie Bill",
+            "details": "Claire Rosinkranz, Stevie Bill",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-independent-agent-orange-the-drowns",
+            "date": "2026-06-07",
+            "title": "Agent Orange / The Drowns",
+            "details": "Agent Orange, The Drowns",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-lab": {
+      "id": "the-lab",
+      "name": "The Lab",
+      "displayName": "The Lab",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Lab%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-lab-juli-n-delgado-lopera-pretend-you-re-dead",
+            "date": "2026-06-04",
+            "title": "Julián Delgado Lopera: Pretend You're Dead!",
+            "details": "Julián Delgado Lopera: Pretend You're Dead!",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-lab-weston-olencki-ava-koohbor",
+            "date": "2026-06-06",
+            "title": "Weston Olencki / Ava Koohbor",
+            "details": "Weston Olencki, Ava Koohbor",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-legionnaire-saloon": {
+      "id": "the-legionnaire-saloon",
+      "name": "The Legionnaire Saloon",
+      "displayName": "The Legionnaire Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2272 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46537",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Legionnaire%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-legionnaire-saloon-karaoke-8-30pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46537"
+          },
+          {
+            "eventId": "2026-06-01-the-legionnaire-saloon-openmic-7-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27985"
+          },
+          {
+            "eventId": "2026-06-01-the-legionnaire-saloon-poetry-7-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27985"
+          }
+        ]
+      }
+    },
+    "the-liberties": {
+      "id": "the-liberties",
+      "name": "The Liberties",
+      "displayName": "The Liberties",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "998 Guerrero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38658",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Liberties%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-liberties-trivia-7-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38658"
+          }
+        ]
+      }
+    },
+    "the-lock-and-key-tapas-bar": {
+      "id": "the-lock-and-key-tapas-bar",
+      "name": "The Lock & Key - Tapas + Bar",
+      "displayName": "The Lock & Key - Tapas + Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2718 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39408",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Lock%20%26%20Key%20-%20Tapas%20%2B%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.363Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-lock-and-key-tapas-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39408"
+          }
+        ]
+      }
+    },
+    "the-lost-church": {
+      "id": "the-lost-church",
+      "name": "The Lost Church",
+      "displayName": "The Lost Church",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Lost%20Church%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19431",
+          "confidence": "verified",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-the-lost-church-tony-sparks-danny-dechi-benjamin-steinberg",
+            "date": "2026-05-27",
+            "title": "Tony Sparks / Danny Dechi / Benjamin Steinberg",
+            "details": "Tony Sparks, Danny Dechi, Benjamin Steinberg",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-lost-church-armando-anto",
+            "date": "2026-05-29",
+            "title": "Armando Anto",
+            "details": "Armando Anto",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-the-lost-church-bailey-blanton-meloncollie",
+            "date": "2026-05-30",
+            "title": "Bailey Blanton / MelonCollie",
+            "details": "Bailey Blanton, MelonCollie",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-the-lost-church-the-tofanas-duygu-friends",
+            "date": "2026-05-31",
+            "title": "The Tofanas / Duygu / Friends",
+            "details": "The Tofanas, Duygu, Friends",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-the-lost-church-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19431"
+          },
+          {
+            "eventId": "2026-06-04-the-lost-church-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19431"
+          },
+          {
+            "eventId": "2026-06-04-the-lost-church-the-glass-key-trio-rewards-program",
+            "date": "2026-06-04",
+            "title": "The Glass Key Trio / Rewards Program",
+            "details": "The Glass Key Trio, Rewards Program",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-lost-church-the-hot-licks-music-of-dan-hicks",
+            "date": "2026-06-05",
+            "title": "The Hot Licks (music of Dan Hicks)",
+            "details": "The Hot Licks (music of Dan Hicks)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-lost-church-the-set-up-comedy-show",
+            "date": "2026-06-06",
+            "title": "The Set Up Comedy Show",
+            "details": "The Set Up Comedy Show",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-lost-church-the-oldest-profession-written-and-performed-by-kaytlin-bailey",
+            "date": "2026-06-07",
+            "title": "The Oldest Profession written and performed by Kaytlin Bailey",
+            "details": "The Oldest Profession written and performed by Kaytlin Bailey",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-mercantile-saloon": {
+      "id": "the-mercantile-saloon",
+      "name": "The Mercantile Saloon",
+      "displayName": "The Mercantile Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1928 L St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46428",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Mercantile%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-mercantile-saloon-karaoke-7-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46428"
+          }
+        ]
+      }
+    },
+    "the-mint-karaoke-lounge": {
+      "id": "the-mint-karaoke-lounge",
+      "name": "The Mint Karaoke Lounge",
+      "displayName": "The Mint Karaoke Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1942 Market St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46528",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Mint%20Karaoke%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-mint-karaoke-lounge-karaoke-8-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46528"
+          }
+        ]
+      }
+    },
+    "the-monkey-house": {
+      "id": "the-monkey-house",
+      "name": "The Monkey House",
+      "displayName": "The Monkey House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "1638 University Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=34342",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Monkey%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-monkey-house-openmic-7-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34342"
+          },
+          {
+            "eventId": "2026-06-03-the-monkey-house-poetry-7-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=34342"
+          },
+          {
+            "eventId": "2026-06-04-the-monkey-house-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=37993"
+          },
+          {
+            "eventId": "2026-06-04-the-monkey-house-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=37993"
+          }
+        ]
+      }
+    },
+    "the-new-parish": {
+      "id": "the-new-parish",
+      "name": "The New Parish",
+      "displayName": "The New Parish",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1743 San Pablo Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27979",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20New%20Parish%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.719Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-new-parish-openmic-8-00pm",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27979"
+          },
+          {
+            "eventId": "2026-06-01-the-new-parish-poetry-8-00pm",
+            "date": "2026-06-01",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27979"
+          }
+        ]
+      }
+    },
+    "the-new-parkway-theater": {
+      "id": "the-new-parkway-theater",
+      "name": "The New Parkway Theater",
+      "displayName": "The New Parkway Theater",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "474 24th St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29733",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20New%20Parkway%20Theater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-new-parkway-theater-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29733"
+          }
+        ]
+      }
+    },
+    "the-oakland-metro-operahouse": {
+      "id": "the-oakland-metro-operahouse",
+      "name": "The Oakland Metro Operahouse",
+      "displayName": "The Oakland Metro Operahouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "639 23rd St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31391",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Oakland%20Metro%20Operahouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-oakland-metro-operahouse-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31391"
+          },
+          {
+            "eventId": "2026-06-03-the-oakland-metro-operahouse-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31391"
+          }
+        ]
+      }
+    },
+    "the-old-wagon-saloon-and-grill": {
+      "id": "the-old-wagon-saloon-and-grill",
+      "name": "The Old Wagon Saloon and Grill",
+      "displayName": "The Old Wagon Saloon and Grill",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "73 N San Pedro St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18376",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Old%20Wagon%20Saloon%20and%20Grill%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-old-wagon-saloon-and-grill-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18376"
+          }
+        ]
+      }
+    },
+    "the-pig-and-whistle": {
+      "id": "the-pig-and-whistle",
+      "name": "The Pig and Whistle",
+      "displayName": "The Pig and Whistle",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2801 Geary Blvd San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14361",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Pig%20and%20Whistle%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.358Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-pig-and-whistle-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14361"
+          }
+        ]
+      }
+    },
+    "the-planetarium": {
+      "id": "the-planetarium",
+      "name": "The Planetarium",
+      "displayName": "The Planetarium",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Planetarium%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-the-planetarium-fistfight-with-traffic-left-on-read-towhead-heavy-lifter",
+            "date": "2026-05-27",
+            "title": "Fistfight With Traffic / Left on Read / towhead / Heavy Lifter",
+            "details": "Fistfight With Traffic, Left on Read, towhead, Heavy Lifter",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-planetarium-lorraine-background-character-tocca-the-secretary",
+            "date": "2026-05-29",
+            "title": "Lorraine / Background Character / Tocca / The Secretary",
+            "details": "Lorraine, Background Character, Tocca, The Secretary",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-planetarium-parting-gift-esex-mypilotis-fistfight-with-traffic-grimmer",
+            "date": "2026-06-05",
+            "title": "Parting Gift / eSex / Mypilotis / Fistfight with Traffic / Grimmer",
+            "details": "Parting Gift, eSex, Mypilotis, Fistfight with Traffic, Grimmer",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-plex": {
+      "id": "the-plex",
+      "name": "The Plex",
+      "displayName": "The Plex",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "800 Embedded Way San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19332",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Plex%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-plex-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19332"
+          }
+        ]
+      }
+    },
+    "the-press-club": {
+      "id": "the-press-club",
+      "name": "The Press Club",
+      "displayName": "The Press Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1119 21st Street Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=51145",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Press%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-press-club-dance-6-00pm",
+            "date": "2026-06-04",
+            "title": "Dance",
+            "details": "Dance event at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=51145"
+          }
+        ]
+      }
+    },
+    "the-red-tail": {
+      "id": "the-red-tail",
+      "name": "The Red Tail",
+      "displayName": "The Red Tail",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "545 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38669",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Red%20Tail%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-red-tail-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38669"
+          }
+        ]
+      }
+    },
+    "the-riptide": {
+      "id": "the-riptide",
+      "name": "The Riptide",
+      "displayName": "The Riptide",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Riptide%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.424Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-riptide-open-mic",
+            "date": "2026-06-01",
+            "title": "Open Mic",
+            "details": "Open Mic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-the-riptide-eileen-s-punk-rock-and-schlock-karaoke",
+            "date": "2026-06-02",
+            "title": "Eileen's Punk Rock and Schlock Karaoke",
+            "details": "Eileen's Punk Rock and Schlock Karaoke",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-the-riptide-skankin-reggae-wednesdays-w-dj-sep-dub-mission",
+            "date": "2026-06-03",
+            "title": "Skankin': Reggae Wednesdays w/DJ Sep (Dub Mission)",
+            "details": "Skankin': Reggae Wednesdays w/DJ Sep (Dub Mission)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-riptide-josh-brough-band",
+            "date": "2026-06-06",
+            "title": "Josh Brough Band",
+            "details": "Josh Brough Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-riptide-nashville-honeymoon",
+            "date": "2026-06-07",
+            "title": "Nashville Honeymoon",
+            "details": "Nashville Honeymoon",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "the-ritz": {
+      "id": "the-ritz",
+      "name": "The Ritz",
+      "displayName": "The Ritz",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "400 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18372",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Ritz%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-ritz-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18372"
+          },
+          {
+            "eventId": "2026-06-02-the-ritz-poetry-8-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18372"
+          }
+        ]
+      }
+    },
+    "the-rumpus-room": {
+      "id": "the-rumpus-room",
+      "name": "The Rumpus Room",
+      "displayName": "The Rumpus Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "10 6th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46530",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Rumpus%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-rumpus-room-karaoke-9-00pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46530"
+          }
+        ]
+      }
+    },
+    "the-sage-and-drifter": {
+      "id": "the-sage-and-drifter",
+      "name": "The Sage & Drifter",
+      "displayName": "The Sage & Drifter",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1368 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38674",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Sage%20%26%20Drifter%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-sage-and-drifter-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38674"
+          }
+        ]
+      }
+    },
+    "the-san-francisco-mint": {
+      "id": "the-san-francisco-mint",
+      "name": "The San Francisco Mint",
+      "displayName": "The San Francisco Mint",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "88 5th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46419",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20San%20Francisco%20Mint%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-san-francisco-mint-karaoke-9-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46419"
+          }
+        ]
+      }
+    },
+    "the-sea-star": {
+      "id": "the-sea-star",
+      "name": "The Sea Star",
+      "displayName": "The Sea Star",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2289 3rd St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=16434",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Sea%20Star%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-sea-star-trivia-7-30pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=16434"
+          },
+          {
+            "eventId": "2026-06-03-the-sea-star-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19433"
+          },
+          {
+            "eventId": "2026-06-03-the-sea-star-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19433"
+          }
+        ]
+      }
+    },
+    "the-shady-lady-saloon": {
+      "id": "the-shady-lady-saloon",
+      "name": "The Shady Lady Saloon",
+      "displayName": "The Shady Lady Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1409 R St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31616",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Shady%20Lady%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-shady-lady-saloon-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31616"
+          },
+          {
+            "eventId": "2026-06-03-the-shady-lady-saloon-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31616"
+          },
+          {
+            "eventId": "2026-06-03-the-shady-lady-saloon-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31617"
+          }
+        ]
+      }
+    },
+    "the-shop-midtown": {
+      "id": "the-shop-midtown",
+      "name": "The Shop Midtown",
+      "displayName": "The Shop Midtown",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1720 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46536",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Shop%20Midtown%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-shop-midtown-karaoke-4-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 4:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46536"
+          }
+        ]
+      }
+    },
+    "the-sound-room": {
+      "id": "the-sound-room",
+      "name": "The Sound Room",
+      "displayName": "The Sound Room",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Sound%20Room%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18676",
+          "confidence": "verified",
+          "source": "badslava"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.414Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-27-the-sound-room-storyslam-oakland",
+            "date": "2026-05-27",
+            "title": "StorySlam Oakland",
+            "details": "StorySlam Oakland",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-the-sound-room-jules-leyhe-and-the-family-jules-adam-levy",
+            "date": "2026-05-28",
+            "title": "Jules Leyhe & The Family Jules / Adam Levy",
+            "details": "Jules Leyhe & The Family Jules, Adam Levy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-the-sound-room-mads-tolling-and-sam-reider-django-to-tango",
+            "date": "2026-05-29",
+            "title": "Mads Tolling & Sam Reider: Django to Tango",
+            "details": "Mads Tolling & Sam Reider: Django to Tango",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-the-sound-room-kenny-washington-quartet",
+            "date": "2026-05-30",
+            "title": "Kenny Washington Quartet",
+            "details": "Kenny Washington Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-the-sound-room-the-gabriel-schillinger-hyman-trio-with-tawanda-suessbrich-joaquim",
+            "date": "2026-06-04",
+            "title": "The Gabriel Schillinger-Hyman Trio with Tawanda Suessbrich-Joaquim",
+            "details": "The Gabriel Schillinger-Hyman Trio with Tawanda Suessbrich-Joaquim",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-the-sound-room-the-isaac-schwartztet-plays-the-music-of-wayne-shorter",
+            "date": "2026-06-05",
+            "title": "The Isaac Schwartztet plays the Music of Wayne Shorter",
+            "details": "The Isaac Schwartztet plays the Music of Wayne Shorter",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-the-sound-room-marina-crouse-my-favorite-things",
+            "date": "2026-06-06",
+            "title": "Marina Crouse: My Favorite Things",
+            "details": "Marina Crouse: My Favorite Things",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-the-sound-room-openmic-7-00pm",
+            "date": "2026-06-07",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18676"
+          },
+          {
+            "eventId": "2026-06-07-the-sound-room-poetry-7-00pm",
+            "date": "2026-06-07",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18676"
+          }
+        ]
+      }
+    },
+    "the-stage-at-harlow-s": {
+      "id": "the-stage-at-harlow-s",
+      "name": "The Stage at Harlow's",
+      "displayName": "The Stage at Harlow's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2708 J St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31360",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Stage%20at%20Harlow's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-stage-at-harlow-s-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31360"
+          },
+          {
+            "eventId": "2026-06-03-the-stage-at-harlow-s-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31360"
+          }
+        ]
+      }
+    },
+    "the-starry-plough-pub": {
+      "id": "the-starry-plough-pub",
+      "name": "The Starry Plough Pub",
+      "displayName": "The Starry Plough Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "3101 Shattuck Ave Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=2026",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Starry%20Plough%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-starry-plough-pub-openmic-8-00pm",
+            "date": "2026-06-02",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=2026"
+          },
+          {
+            "eventId": "2026-06-02-the-starry-plough-pub-poetry-8-00pm",
+            "date": "2026-06-02",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=2026"
+          }
+        ]
+      }
+    },
+    "the-station-public-house": {
+      "id": "the-station-public-house",
+      "name": "The Station Public House",
+      "displayName": "The Station Public House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Fremont",
+      "region": "",
+      "address": "750 Lincoln Way Fremont CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31813",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Station%20Public%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-station-public-house-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31813"
+          },
+          {
+            "eventId": "2026-06-03-the-station-public-house-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31813"
+          }
+        ]
+      }
+    },
+    "the-stork-club": {
+      "id": "the-stork-club",
+      "name": "The Stork Club",
+      "displayName": "The Stork Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2330 Telegraph Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27986",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Stork%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-the-stork-club-openmic-8-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27986"
+          },
+          {
+            "eventId": "2026-06-04-the-stork-club-poetry-8-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=27986"
+          }
+        ]
+      }
+    },
+    "the-sycamore": {
+      "id": "the-sycamore",
+      "name": "The Sycamore",
+      "displayName": "The Sycamore",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2140 Mission St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14363",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Sycamore%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.048Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-the-sycamore-trivia-7-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14363"
+          }
+        ]
+      }
+    },
+    "the-table": {
+      "id": "the-table",
+      "name": "The Table",
+      "displayName": "The Table",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1110 Willow St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31269",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Table%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-table-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31269"
+          }
+        ]
+      }
+    },
+    "the-temple-bar": {
+      "id": "the-temple-bar",
+      "name": "The Temple Bar",
+      "displayName": "The Temple Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "834 Irving St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=32264",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Temple%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-the-temple-bar-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32264"
+          }
+        ]
+      }
+    },
+    "the-terrace-room-events": {
+      "id": "the-terrace-room-events",
+      "name": "The Terrace Room Events",
+      "displayName": "The Terrace Room Events",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1800 Madison St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39421",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Terrace%20Room%20Events%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-terrace-room-events-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39421"
+          }
+        ]
+      }
+    },
+    "the-torch-club": {
+      "id": "the-torch-club",
+      "name": "The Torch Club",
+      "displayName": "The Torch Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "904 15th St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=3816",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Torch%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-torch-club-poetry-5-30pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 5:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=3816"
+          }
+        ]
+      }
+    },
+    "the-uptown": {
+      "id": "the-uptown",
+      "name": "The Uptown",
+      "displayName": "The Uptown",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "500 William St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46420",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Uptown%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.734Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-07-the-uptown-karaoke-8-00pm",
+            "date": "2026-06-07",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46420"
+          }
+        ]
+      }
+    },
+    "the-vesper": {
+      "id": "the-vesper",
+      "name": "The Vesper",
+      "displayName": "The Vesper",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "370 S First St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=31145",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Vesper%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-vesper-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31145"
+          },
+          {
+            "eventId": "2026-06-04-the-vesper-karaoke-8-00pm",
+            "date": "2026-06-04",
+            "title": "Karaoke",
+            "details": "Karaoke at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=31749"
+          }
+        ]
+      }
+    },
+    "the-willows": {
+      "id": "the-willows",
+      "name": "The Willows",
+      "displayName": "The Willows",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1582 Folsom St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14366",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Willows%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-the-willows-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14366"
+          }
+        ]
+      }
     },
     "thee-stork-club": {
       "id": "thee-stork-club",
@@ -10125,6 +33872,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "2330 Telegraph Ave, Oakland, CA 94612",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.813175699999995,
         "longitude": -122.26836569999999
@@ -10200,46 +33949,627 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-thee-stork-club-kontusion",
-            "date": "2026-05-27",
-            "title": "Kontusion / Dispossessed / Penury",
-            "details": "21+ $18/$20 8pm/9pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-26-thee-stork-club-telehealth-street-eaters-squiggle",
+            "date": "2026-05-26",
+            "title": "Telehealth / Street Eaters / Squiggle",
+            "details": "Telehealth, Street Eaters, Squiggle",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-27-thee-stork-club-stepmother",
-            "date": "2026-05-27",
-            "title": "Stepmother / Very Paranola / Replica Watch",
-            "details": "21+ $12/$15 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-28-thee-stork-club-gumby-s-junk",
+            "eventId": "2026-05-28-thee-stork-club-ms-smith-dj-sets-by-ms-smith-tom-marsi-finishher",
             "date": "2026-05-28",
-            "title": "Gumby's Junk / Miscomings / Sea MOss / Pateka",
-            "details": "21+ $12/$15 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "MS.SMITH / sets by MS. SMITH / Tom Marsi / FinishHer",
+            "details": "MS.SMITH, DJ sets by MS. SMITH, Tom Marsi, FinishHer",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-thee-stork-club-the-darts",
+            "eventId": "2026-05-29-thee-stork-club-late-to-the-party",
+            "date": "2026-05-29",
+            "title": "Late to the Party",
+            "details": "Late to the Party",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-thee-stork-club-the-darts-service-pretty-frankenstein",
             "date": "2026-05-30",
             "title": "The Darts / Service / Pretty Frankenstein",
-            "details": "21+ $15/$17 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "The Darts, Service, Pretty Frankenstein",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-05-30-thee-stork-club-tony-jay",
-            "date": "2026-05-30",
-            "title": "Tony Jay / Sachi's Mirror / Above Me",
-            "details": "21+ $10/$12 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-01-thee-stork-club-freakyoke-karaoke",
+            "date": "2026-06-01",
+            "title": "Freakyoke Karaoke",
+            "details": "Freakyoke Karaoke",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-thee-stork-club-marbled-eye-sympathy-flowers-animal-planet-dj-sly-ida",
+            "date": "2026-06-04",
+            "title": "Marbled Eye / Sympathy Flowers / Animal Planet / Sly Ida",
+            "details": "Marbled Eye, Sympathy Flowers, Animal Planet, DJ Sly Ida",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-thee-stork-club-hunx-and-his-punx-slippers",
+            "date": "2026-06-06",
+            "title": "Hunx and His Punx / Slippers",
+            "details": "Hunx and His Punx, Slippers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-thee-stork-club-zoe-fitzgerald-carter-deborah-crooks-tori-roze-and-the-hot-mess",
+            "date": "2026-06-07",
+            "title": "Zoe Fitzgerald Carter / Deborah Crooks / Tori Roze & the Hot Mess",
+            "details": "Zoe Fitzgerald Carter, Deborah Crooks, Tori Roze & the Hot Mess",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-thee-stork-club-zoe-fitzgerald-carter-deborah-crooks-tori-roze-and-038-the-hot-mess",
+            "date": "2026-06-07",
+            "title": "Zoe Fitzgerald Carter / Deborah Crooks / Tori Roze &#038; the Hot Mess",
+            "details": "Zoe Fitzgerald Carter, Deborah Crooks, Tori Roze &#038; the Hot Mess",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T06:02:08.684Z"
+      }
+    },
+    "thirsty-bar": {
+      "id": "thirsty-bar",
+      "name": "thirsty.bar",
+      "displayName": "thirsty.bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Clara",
+      "region": "",
+      "address": "1031 Monroe St Santa Clara CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57489",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22thirsty.bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-thirsty-bar-trivia-6-30pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57489"
+          }
+        ]
+      }
+    },
+    "thrillhouse-records": {
+      "id": "thrillhouse-records",
+      "name": "Thrillhouse Records",
+      "displayName": "Thrillhouse Records",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Thrillhouse%20Records%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.349Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-thrillhouse-records-war-of-knives-all-to-the-grave-ratfuck-skolp-phatality-bbq-beard",
+            "date": "2026-05-25",
+            "title": "War Of Knives / All To The Grave / Ratfuck / Skolp / Phatality / BBQ Beard",
+            "details": "War Of Knives, All To The Grave, Ratfuck, Skolp, Phatality, BBQ Beard",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "timeout-tavern": {
+      "id": "timeout-tavern",
+      "name": "TimeOut Tavern",
+      "displayName": "TimeOut Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1750 Divisadero St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38673",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22TimeOut%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-timeout-tavern-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38673"
+          }
+        ]
+      }
+    },
+    "tipsy-putt": {
+      "id": "tipsy-putt",
+      "name": "Tipsy Putt",
+      "displayName": "Tipsy Putt",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sunnyvale",
+      "region": "",
+      "address": "301 W McKinley Ave #150 Sunnyvale CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=47969",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Tipsy%20Putt%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-tipsy-putt-karaoke-7-00pm",
+            "date": "2026-06-01",
+            "title": "Karaoke",
+            "details": "Karaoke at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=47969"
+          },
+          {
+            "eventId": "2026-06-03-tipsy-putt-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39410"
+          }
+        ]
+      }
+    },
+    "touchstone-brewing-company": {
+      "id": "touchstone-brewing-company",
+      "name": "Touchstone Brewing Company",
+      "displayName": "Touchstone Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "116 N 16th St Suite 100 Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41390",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Touchstone%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-touchstone-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41390"
+          }
+        ]
+      }
+    },
+    "trail-house-cafe": {
+      "id": "trail-house-cafe",
+      "name": "Trail House Cafe",
+      "displayName": "Trail House Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "4036 Montgomery Dr Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55344",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Trail%20House%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-trail-house-cafe-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55344"
+          }
+        ]
+      }
+    },
+    "trials-pub": {
+      "id": "trials-pub",
+      "name": "Trials Pub",
+      "displayName": "Trials Pub",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "265 N First St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57506",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Trials%20Pub%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-trials-pub-trivia-8-00pm",
+            "date": "2026-06-01",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57506"
+          }
+        ]
+      }
+    },
+    "tupelo": {
+      "id": "tupelo",
+      "name": "Tupelo",
+      "displayName": "Tupelo",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1337 Grant Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14224",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Tupelo%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.723Z",
+        "lastImportedAt": "2026-06-01T22:56:06.359Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-tupelo-karaoke-9-30pm",
+            "date": "2026-06-02",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14224"
+          }
+        ]
+      }
+    },
+    "two-pitchers-brewing-company": {
+      "id": "two-pitchers-brewing-company",
+      "name": "Two Pitchers Brewing Company",
+      "displayName": "Two Pitchers Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "2344 Webster St Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=18677",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Two%20Pitchers%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-two-pitchers-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=18677"
+          }
+        ]
+      }
+    },
+    "two-rivers-cider": {
+      "id": "two-rivers-cider",
+      "name": "Two Rivers Cider",
+      "displayName": "Two Rivers Cider",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "4311 Attawa Ave #300 Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14512",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Two%20Rivers%20Cider%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-two-rivers-cider-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14512"
+          }
+        ]
+      }
+    },
+    "uc-berkeley-botanic-garden": {
+      "id": "uc-berkeley-botanic-garden",
+      "name": "UC Berkeley Botanic Garden",
+      "displayName": "UC Berkeley Botanic Garden",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22UC%20Berkeley%20Botanic%20Garden%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.425Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-uc-berkeley-botanic-garden-william-prince",
+            "date": "2026-06-04",
+            "title": "William Prince",
+            "details": "William Prince",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
     },
     "uc-theater": {
       "id": "uc-theater",
@@ -10253,6 +34583,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2036 University Ave, Berkeley, CA 94704",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.8718053,
         "longitude": -122.26980859999999
@@ -10364,21 +34696,232 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.371Z",
         "appearances": [
-          {
-            "eventId": "2026-05-31-uc-theater-josh-tatofi",
-            "date": "2026-05-31",
-            "title": "Josh Tatofi",
-            "details": "a/a $40 7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2027-05-17-uc-theater-the-bouncing-souls",
             "date": "2027-05-17",
             "title": "The Bouncing Souls / The Suicide Machines",
             "details": "a/a 6pm til 11:30pm # @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "uc-theatre": {
+      "id": "uc-theatre",
+      "name": "UC Theatre",
+      "displayName": "UC Theatre",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22UC%20Theatre%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.413Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-26-uc-theatre-inner-wave-twin-seas",
+            "date": "2026-05-26",
+            "title": "Inner Wave / Twin Seas",
+            "details": "Inner Wave, Twin Seas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-uc-theatre-elmiene",
+            "date": "2026-05-27",
+            "title": "Elmiene",
+            "details": "Elmiene",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-uc-theatre-sepultura-exodus-biohazard-tribal-gaze",
+            "date": "2026-05-28",
+            "title": "Sepultura / Exodus / Biohazard / Tribal Gaze",
+            "details": "Sepultura, Exodus, Biohazard, Tribal Gaze",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-uc-theatre-bodysnatcher-carnifex-200-stab-wounds-ingested-gates-to-hell-bodybox",
+            "date": "2026-05-29",
+            "title": "Bodysnatcher / Carnifex / 200 Stab Wounds / Ingested / Gates To Hell / Bodybox",
+            "details": "Bodysnatcher, Carnifex, 200 Stab Wounds, Ingested, Gates To Hell, Bodybox",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-uc-theatre-ladytron-danz-cm",
+            "date": "2026-05-30",
+            "title": "Ladytron / Danz CM",
+            "details": "Ladytron, Danz CM",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "underdogs-tres": {
+      "id": "underdogs-tres",
+      "name": "Underdogs Tres",
+      "displayName": "Underdogs Tres",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1224 9th Ave San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38644",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Underdogs%20Tres%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.053Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-underdogs-tres-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38644"
+          }
+        ]
+      }
+    },
+    "university-of-beer": {
+      "id": "university-of-beer",
+      "name": "University of Beer",
+      "displayName": "University of Beer",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "5090 Folsom Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=39413",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22University%20of%20Beer%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-university-of-beer-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=39413"
+          }
+        ]
+      }
+    },
+    "up-the-creek-record": {
+      "id": "up-the-creek-record",
+      "name": "Up the Creek Record",
+      "displayName": "Up the Creek Record",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Up%20the%20Creek%20Record%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.418Z",
+        "lastImportedAt": "2026-06-01T22:56:06.353Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-29-up-the-creek-record-breezy-street-band-tom-petty-project",
+            "date": "2026-05-29",
+            "title": "Breezy Street Band / Tom Petty Project",
+            "details": "Breezy Street Band, Tom Petty Project",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           }
         ]
       }
@@ -10395,6 +34938,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Walnut Creek",
       "region": "East Bay",
       "address": "2042 Mt Diablo Blvd, Walnut Creek, CA 94596",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.8972403,
         "longitude": -122.0684994
@@ -10466,14 +35011,65 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-01T03:30:41.149Z",
+        "lastImportedAt": "2026-06-01T22:56:06.354Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-up-the-creek-records-ghost-town-hangmen",
-            "date": "2026-05-31",
-            "title": "Ghost Town Hangmen / Thee Dirty Zeros / The Tinglers",
-            "details": "a/a $15 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-05-30-up-the-creek-records-tektonic-lost-marakas-blue-indeed",
+            "date": "2026-05-30",
+            "title": "Tektonic / Lost Marakas / Blue Indeed",
+            "details": "Tektonic, Lost Marakas, Blue Indeed",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
+      }
+    },
+    "uproar-brewing-company": {
+      "id": "uproar-brewing-company",
+      "name": "Uproar Brewing Company",
+      "displayName": "Uproar Brewing Company",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "439 S 1st St San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57470",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Uproar%20Brewing%20Company%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-uproar-brewing-company-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57470"
           }
         ]
       }
@@ -10626,6 +35222,57 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "official"
       }
     },
+    "urban-roots-brewery-and-smokehouse": {
+      "id": "urban-roots-brewery-and-smokehouse",
+      "name": "Urban Roots Brewery & Smokehouse",
+      "displayName": "Urban Roots Brewery & Smokehouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "1322 V St Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=41330",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Urban%20Roots%20Brewery%20%26%20Smokehouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-urban-roots-brewery-and-smokehouse-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=41330"
+          }
+        ]
+      }
+    },
     "used-dreams-night-market": {
       "id": "used-dreams-night-market",
       "name": "Used Dreams Night Market",
@@ -10678,6 +35325,319 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T06:07:29.645Z"
     },
+    "valley-tavern": {
+      "id": "valley-tavern",
+      "name": "Valley Tavern",
+      "displayName": "Valley Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4054 24th St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=4551",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Valley%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-valley-tavern-trivia-8-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=4551"
+          }
+        ]
+      }
+    },
+    "veg-cafe-and-bar": {
+      "id": "veg-cafe-and-bar",
+      "name": "Veg Cafe & Bar",
+      "displayName": "Veg Cafe & Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "2431 J St 2nd Floor Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=55652",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Veg%20Cafe%20%26%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-veg-cafe-and-bar-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=55652"
+          }
+        ]
+      }
+    },
+    "victory-hall-and-parlor": {
+      "id": "victory-hall-and-parlor",
+      "name": "Victory Hall And Parlor",
+      "displayName": "Victory Hall And Parlor",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "360 Ritch St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=19093",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Victory%20Hall%20And%20Parlor%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.054Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-victory-hall-and-parlor-trivia-7-00pm",
+            "date": "2026-06-05",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=19093"
+          }
+        ]
+      }
+    },
+    "victory-house": {
+      "id": "victory-house",
+      "name": "Victory House",
+      "displayName": "Victory House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Rosa",
+      "region": "",
+      "address": "3215 Coffey Ln Santa Rosa CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20353",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Victory%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-victory-house-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20353"
+          }
+        ]
+      }
+    },
+    "victory-point-cafe": {
+      "id": "victory-point-cafe",
+      "name": "Victory Point Cafe",
+      "displayName": "Victory Point Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "1797 Shattuck Ave Ste A Berkeley CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=47178",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Victory%20Point%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-victory-point-cafe-game-6-00pm",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=47178"
+          }
+        ]
+      }
+    },
+    "vince-s-ristorante": {
+      "id": "vince-s-ristorante",
+      "name": "Vince’s Ristorante",
+      "displayName": "Vince’s Ristorante",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Sacramento",
+      "region": "",
+      "address": "840 Harbor Blvd Sacramento CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=5687",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Vince%E2%80%99s%20Ristorante%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.732Z",
+        "lastImportedAt": "2026-06-01T22:56:06.368Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-05-vince-s-ristorante-openmic-9-00pm",
+            "date": "2026-06-05",
+            "title": "Open Mic",
+            "details": "Open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5687"
+          },
+          {
+            "eventId": "2026-06-05-vince-s-ristorante-poetry-9-00pm",
+            "date": "2026-06-05",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=5687"
+          }
+        ]
+      }
+    },
     "vinnie": {
       "id": "vinnie",
       "name": "Vinnie's",
@@ -10717,7 +35677,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:10:59.832Z",
         "appearances": [
           {
             "eventId": "2026-05-31-vinnie-s-day-labor",
@@ -10741,6 +35701,8 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "982 Market Street",
+      "phone": "",
+      "recurringEvents": [],
       "geo": {
         "latitude": 37.7826737,
         "longitude": -122.41042800000001
@@ -10852,8 +35814,29 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-01T03:30:41.150Z",
+        "lastImportedAt": "2026-06-01T22:56:06.371Z",
         "appearances": [
+          {
+            "eventId": "2026-05-26-warfield-wale-and-smino",
+            "date": "2026-05-26",
+            "title": "Wale & Smino",
+            "details": "Wale & Smino",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-04-warfield-clara-la-san-sausha",
+            "date": "2026-06-04",
+            "title": "Clara La San / Sausha",
+            "details": "Clara La San, Sausha",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-warfield-the-human-league-soft-cell-alison-moyet",
+            "date": "2026-06-05",
+            "title": "The Human League / Soft Cell / Alison Moyet",
+            "details": "The Human League, Soft Cell, Alison Moyet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
           {
             "eventId": "2027-05-16-warfield-valery-meladze",
             "date": "2027-05-16",
@@ -11026,6 +36009,289 @@ window.SHOW_EXPLORER_VENUES = {
         "source": "official"
       }
     },
+    "western-addition-branch-library": {
+      "id": "western-addition-branch-library",
+      "name": "Western Addition Branch Library",
+      "displayName": "Western Addition Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1550 Scott St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46492",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Western%20Addition%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.720Z",
+        "lastImportedAt": "2026-06-01T22:56:06.356Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-01-western-addition-branch-library-game-10-00am",
+            "date": "2026-06-01",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46492"
+          }
+        ]
+      }
+    },
+    "westwood": {
+      "id": "westwood",
+      "name": "Westwood",
+      "displayName": "Westwood",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "2036 Lombard St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38656",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Westwood%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-westwood-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38656"
+          }
+        ]
+      }
+    },
+    "wheelhouse": {
+      "id": "wheelhouse",
+      "name": "Wheelhouse",
+      "displayName": "Wheelhouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1173 Lincoln Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30086",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Wheelhouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-wheelhouse-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30086"
+          }
+        ]
+      }
+    },
+    "wheelhouse-of-willow-glen": {
+      "id": "wheelhouse-of-willow-glen",
+      "name": "Wheelhouse Of Willow Glen",
+      "displayName": "Wheelhouse Of Willow Glen",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "1173 Lincoln Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=35974",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Wheelhouse%20Of%20Willow%20Glen%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-wheelhouse-of-willow-glen-openmic-8-00pm",
+            "date": "2026-06-03",
+            "title": "Open Mic",
+            "details": "Open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35974"
+          },
+          {
+            "eventId": "2026-06-03-wheelhouse-of-willow-glen-poetry-8-00pm",
+            "date": "2026-06-03",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35974"
+          },
+          {
+            "eventId": "2026-06-07-wheelhouse-of-willow-glen-karaoke-5-00pm",
+            "date": "2026-06-07",
+            "title": "Karaoke",
+            "details": "Karaoke at 5:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=50074"
+          }
+        ]
+      }
+    },
+    "whirlows": {
+      "id": "whirlows",
+      "name": "Whirlows",
+      "displayName": "Whirlows",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Stockton",
+      "region": "",
+      "address": "1926 Pacific Ave Stockton CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=35864",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Whirlows%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.727Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-whirlows-trivia-7-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=35864"
+          },
+          {
+            "eventId": "2026-06-04-whirlows-openmic-7-00pm",
+            "date": "2026-06-04",
+            "title": "Open Mic",
+            "details": "Open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32801"
+          },
+          {
+            "eventId": "2026-06-04-whirlows-poetry-7-00pm",
+            "date": "2026-06-04",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=32801"
+          }
+        ]
+      }
+    },
     "wildhawk": {
       "id": "wildhawk",
       "name": "Wildhawk",
@@ -11130,6 +36396,57 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T06:13:41.375Z"
     },
+    "willow-den-public-house": {
+      "id": "willow-den-public-house",
+      "name": "Willow Den Public House",
+      "displayName": "Willow Den Public House",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Jose",
+      "region": "",
+      "address": "803 Lincoln Ave San Jose CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46525",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Willow%20Den%20Public%20House%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.733Z",
+        "lastImportedAt": "2026-06-01T22:56:06.369Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-06-willow-den-public-house-karaoke-9-00pm",
+            "date": "2026-06-06",
+            "title": "Karaoke",
+            "details": "Karaoke at 9:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46525"
+          }
+        ]
+      }
+    },
     "winters-tavern": {
       "id": "winters-tavern",
       "name": "Winters Tavern",
@@ -11219,6 +36536,152 @@ window.SHOW_EXPLORER_VENUES = {
         "label": "Official",
         "url": "https://winterstavern.com/",
         "source": "official"
+      }
+    },
+    "woodbury": {
+      "id": "woodbury",
+      "name": "Woodbury",
+      "displayName": "Woodbury",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "685 3rd St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=30964",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Woodbury%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.053Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-woodbury-trivia-7-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=30964"
+          }
+        ]
+      }
+    },
+    "would-you-believe": {
+      "id": "would-you-believe",
+      "name": "Would You Believe",
+      "displayName": "Would You Believe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4652 Geary Blvd San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=38677",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Would%20You%20Believe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.050Z",
+        "lastImportedAt": "2026-06-01T22:56:06.360Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-02-would-you-believe-trivia-7-00pm",
+            "date": "2026-06-02",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38677"
+          }
+        ]
+      }
+    },
+    "wyldflowr-arts": {
+      "id": "wyldflowr-arts",
+      "name": "WyldFlowr Arts",
+      "displayName": "WyldFlowr Arts",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22WyldFlowr%20Arts%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.416Z",
+        "lastImportedAt": "2026-06-01T22:56:06.351Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-28-wyldflowr-arts-nishanth-chari-and-sameer-gupta",
+            "date": "2026-05-28",
+            "title": "Nishanth Chari & Sameer Gupta",
+            "details": "Nishanth Chari & Sameer Gupta",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          }
+        ]
       }
     },
     "x-bar": {
@@ -11344,6 +36807,294 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       },
       "updatedAt": "2026-05-28T06:15:12.919Z"
+    },
+    "yoshi-s": {
+      "id": "yoshi-s",
+      "name": "Yoshi's",
+      "displayName": "Yoshi's",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Yoshi's%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:07:23.412Z",
+        "lastImportedAt": "2026-06-01T22:56:06.370Z",
+        "appearances": [
+          {
+            "eventId": "2026-05-25-yoshi-s-kevin-moore-carl-wheeler",
+            "date": "2026-05-25",
+            "title": "Kevin Moore / Carl Wheeler",
+            "details": "Kevin Moore, Carl Wheeler",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-26-yoshi-s-jonathan-lyte",
+            "date": "2026-05-26",
+            "title": "Jonathan Lyte",
+            "details": "Jonathan Lyte",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-27-yoshi-s-miguel-zen-n-quartet",
+            "date": "2026-05-27",
+            "title": "Miguel Zenón Quartet",
+            "details": "Miguel Zenón Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-28-yoshi-s-stella-cole",
+            "date": "2026-05-28",
+            "title": "Stella Cole",
+            "details": "Stella Cole",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-29-yoshi-s-stella-cole",
+            "date": "2026-05-29",
+            "title": "Stella Cole",
+            "details": "Stella Cole",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-30-yoshi-s-eric-darius",
+            "date": "2026-05-30",
+            "title": "Eric Darius",
+            "details": "Eric Darius",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-05-31-yoshi-s-that-70-s-flow",
+            "date": "2026-05-31",
+            "title": "That 70's Flow",
+            "details": "That 70's Flow",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+          },
+          {
+            "eventId": "2026-06-01-yoshi-s-make-me-laugh-monday",
+            "date": "2026-06-01",
+            "title": "Make Me Laugh Monday",
+            "details": "Make Me Laugh Monday",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-02-yoshi-s-smooth-jazz-alley",
+            "date": "2026-06-02",
+            "title": "Smooth Jazz Alley",
+            "details": "Smooth Jazz Alley",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-03-yoshi-s-el-cerrito-high-school-jazz-bands",
+            "date": "2026-06-03",
+            "title": "El Cerrito High School Jazz Bands",
+            "details": "El Cerrito High School Jazz Bands",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-04-yoshi-s-lindsey-webster",
+            "date": "2026-06-04",
+            "title": "Lindsey Webster",
+            "details": "Lindsey Webster",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-05-yoshi-s-kevin-ross",
+            "date": "2026-06-05",
+            "title": "Kevin Ross",
+            "details": "Kevin Ross",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-06-yoshi-s-doug-e-fresh",
+            "date": "2026-06-06",
+            "title": "Doug E. Fresh",
+            "details": "Doug E. Fresh",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          },
+          {
+            "eventId": "2026-06-07-yoshi-s-doug-e-fresh",
+            "date": "2026-06-07",
+            "title": "Doug E. Fresh",
+            "details": "Doug E. Fresh",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+          }
+        ]
+      }
+    },
+    "zachary-s-chicago-pizza": {
+      "id": "zachary-s-chicago-pizza",
+      "name": "Zachary’s Chicago Pizza",
+      "displayName": "Zachary’s Chicago Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "3917 Grand Ave Oakland CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29732",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Zachary%E2%80%99s%20Chicago%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-zachary-s-chicago-pizza-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=29732"
+          }
+        ]
+      }
+    },
+    "zeki-s-bar": {
+      "id": "zeki-s-bar",
+      "name": "Zeki’s Bar",
+      "displayName": "Zeki’s Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "1319 California St San Francisco CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=14360",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Zeki%E2%80%99s%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:25:44.051Z",
+        "lastImportedAt": "2026-06-01T22:56:06.364Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-03-zeki-s-bar-trivia-8-00pm",
+            "date": "2026-06-03",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=14360"
+          }
+        ]
+      }
+    },
+    "zinz-wine-bar": {
+      "id": "zinz-wine-bar",
+      "name": "Zinz Wine Bar",
+      "displayName": "Zinz Wine Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Corte Madera",
+      "region": "",
+      "address": "207 Corte Madera Ave Corte Madera CA",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=54142",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Zinz%20Wine%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-01T22:55:53.729Z",
+        "lastImportedAt": "2026-06-01T22:56:06.366Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-04-zinz-wine-bar-trivia-6-00pm",
+            "date": "2026-06-04",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=54142"
+          }
+        ]
+      }
     }
   }
 };

@@ -6,12 +6,16 @@ const venueStore = newerStore(savedStore, baseStore);
 const state = {
   query: "",
   filter: "review",
+  fromDate: todayString(),
+  toDate: dateStringFromOffset(6),
   selectedId: ""
 };
 
 const queue = document.querySelector("#venueQueue");
 const form = document.querySelector("#venueForm");
 const search = document.querySelector("#venueSearch");
+const fromDateInput = document.querySelector("#fromDateInput");
+const toDateInput = document.querySelector("#toDateInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
 const enrichLikelyButton = document.querySelector("#enrichLikelyButton");
@@ -29,6 +33,8 @@ const fields = {
   region: document.querySelector("#regionInput"),
   regionOptions: document.querySelector("#regionOptions"),
   address: document.querySelector("#addressInput"),
+  phone: document.querySelector("#phoneInput"),
+  recurringEvents: document.querySelector("#recurringEventsInput"),
   capacity: document.querySelector("#capacityInput"),
   geo: document.querySelector("#geoInput"),
   mergeTarget: document.querySelector("#mergeTargetInput"),
@@ -39,6 +45,7 @@ const fields = {
   rejectedSection: document.querySelector("#rejectedLinksSection"),
   rejectedCount: document.querySelector("#rejectedLinkCount"),
   note: document.querySelector("#noteInput"),
+  appearanceHeading: document.querySelector("#appearanceHeading"),
   appearances: document.querySelector("#appearanceList"),
   saveStatus: document.querySelector("#saveStatus")
 };
@@ -76,6 +83,19 @@ function venues() {
   return Object.values(venueStore.venues || {}).sort((a, b) => sortNameFor(a).localeCompare(sortNameFor(b)));
 }
 
+function todayString() {
+  return dateStringFromOffset(0);
+}
+
+function dateStringFromOffset(offsetDays) {
+  const date = new Date();
+  date.setDate(date.getDate() + offsetDays);
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
 function sortNameFor(venue) {
   return displayNameFor(venue).replace(/^the\s+/i, "").trim();
 }
@@ -107,8 +127,10 @@ function venueText(venue) {
     venue.status,
     venue.venueType,
     venue.address,
+    venue.phone,
     venue.summary,
     venue.reviewNotes,
+    ...(venue.recurringEvents || []).flatMap((item) => [item.type, item.day, item.time, item.frequency, item.cost, item.sourceUrl]),
     ...(venue.aliases || []),
     ...(venue.links || []).flatMap((link) => [link.type, link.label, link.url, link.confidence])
   ].join(" ").toLowerCase();
@@ -119,8 +141,17 @@ function filteredVenues() {
   return venues().filter((venue) => {
     const matchesQuery = !query || venueText(venue).includes(query);
     const matchesFilter = state.filter === "all" || venue.confidence === state.filter;
-    return matchesQuery && matchesFilter;
+    const matchesDate = !state.fromDate && !state.toDate ? true : appearancesInRange(venue.source?.appearances || []).length > 0;
+    return matchesQuery && matchesFilter && matchesDate;
   });
+}
+
+function appearancesInRange(appearances) {
+  return appearances.filter((appearance) => {
+    if (state.fromDate && appearance.date < state.fromDate) return false;
+    if (state.toDate && appearance.date > state.toDate) return false;
+    return true;
+  }).sort((a, b) => a.date.localeCompare(b.date) || (a.title || "").localeCompare(b.title || ""));
 }
 
 function preferredFilter() {
@@ -157,7 +188,8 @@ function renderQueue() {
     button.type = "button";
     button.innerHTML = `<strong></strong><span></span>`;
     button.querySelector("strong").textContent = displayNameFor(venue);
-    button.querySelector("span").textContent = [venue.name !== displayNameFor(venue) ? venue.name : "", venue.city || "unknown city", venue.confidence].filter(Boolean).join(" | ");
+    const count = appearancesInRange(venue.source?.appearances || []).length;
+    button.querySelector("span").textContent = [venue.name !== displayNameFor(venue) ? venue.name : "", venue.city || "unknown city", venue.confidence, `${count} in range`].filter(Boolean).join(" | ");
     button.addEventListener("click", () => {
       state.selectedId = venue.id;
       render();
@@ -188,6 +220,8 @@ function renderForm() {
   fields.city.value = venue.city || "";
   fields.region.value = venue.region || "";
   fields.address.value = venue.address || "";
+  fields.phone.value = venue.phone || "";
+  fields.recurringEvents.value = formatRecurringEvents(venue.recurringEvents || []);
   fields.capacity.value = venue.capacity || "";
   fields.geo.value = venue.geo ? `${venue.geo.latitude}, ${venue.geo.longitude}` : "";
   fields.summary.value = venue.summary || "";
@@ -341,17 +375,18 @@ function linkRow(venue, link, rejected = false) {
 }
 
 function renderAppearances(venue) {
-  const appearances = venue.source?.appearances || [];
+  const appearances = appearancesInRange(venue.source?.appearances || []);
+  fields.appearanceHeading.textContent = state.fromDate || state.toDate ? "Events in Range" : "Events";
   fields.appearances.replaceChildren();
   if (!appearances.length) {
     const empty = document.createElement("p");
     empty.className = "appearance";
-    empty.textContent = "No upcoming events are attached to this venue yet.";
+    empty.textContent = "No events match the selected date range.";
     fields.appearances.append(empty);
     return;
   }
 
-  appearances.slice().sort((a, b) => a.date.localeCompare(b.date)).forEach((appearance) => {
+  appearances.forEach((appearance) => {
     const item = document.createElement("p");
     item.className = "appearance";
     item.textContent = `${appearance.date} - ${appearance.title || "Untitled event"} - ${appearance.details || ""}`;
@@ -370,6 +405,8 @@ function updateSelectedVenueFromForm() {
   venue.city = fields.city.value.trim();
   venue.region = fields.region.value.trim();
   venue.address = fields.address.value.trim();
+  venue.phone = fields.phone.value.trim();
+  venue.recurringEvents = parseRecurringEvents(fields.recurringEvents.value);
   venue.capacity = fields.capacity.value.trim();
   venue.geo = parseGeo(fields.geo.value);
   const previousSummary = venue.summary || "";
@@ -481,6 +518,38 @@ function parseGeo(value) {
   return { latitude: Number(match[1]), longitude: Number(match[2]) };
 }
 
+function formatRecurringEvents(items) {
+  return items.map((item) => {
+    return [
+      item.frequency || "",
+      item.day || "",
+      item.time || "",
+      item.type || "",
+      item.cost || "",
+      item.sourceUrl || ""
+    ].join(" | ").replace(/\s+\|\s+$/g, "");
+  }).join("\n");
+}
+
+function parseRecurringEvents(value) {
+  return value
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [frequency = "", day = "", time = "", type = "", cost = "", sourceUrl = ""] = line.split("|").map((part) => part.trim());
+      return {
+        frequency,
+        day,
+        time,
+        type,
+        cost,
+        sourceUrl,
+        source: sourceUrl ? "manual" : "manual"
+      };
+    });
+}
+
 function persistDraft() {
   venueStore.generatedAt = new Date().toISOString();
   localStorage.setItem(STORE_KEY, JSON.stringify(venueStore));
@@ -586,6 +655,7 @@ function labelForType(type = "") {
     instagram: "Instagram",
     liveNation: "Live Nation",
     maps: "Maps",
+    badSlava: "BadSlava",
     official: "Official",
     search: "Search",
     theList: "The List",
@@ -661,6 +731,21 @@ enrichLikelyButton.addEventListener("click", enrichLikelyVenues);
 
 search.addEventListener("input", (event) => {
   state.query = event.target.value;
+  render();
+});
+
+fromDateInput.value = state.fromDate;
+toDateInput.value = state.toDate;
+
+fromDateInput.addEventListener("input", (event) => {
+  state.fromDate = event.target.value;
+  state.selectedId = "";
+  render();
+});
+
+toDateInput.addEventListener("input", (event) => {
+  state.toDate = event.target.value;
+  state.selectedId = "";
   render();
 });
 

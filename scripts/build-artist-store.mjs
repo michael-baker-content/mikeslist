@@ -129,11 +129,32 @@ function eventSummary(event) {
   };
 }
 
+function publicReviewNote(...notes) {
+  return notes
+    .find(Boolean)
+    ?.replace(/\s*Enrichment has not been reviewed yet\./g, "")
+    .replace(/\s+/g, " ")
+    .trim() || "";
+}
+
+function sanitizeReviewNotes(value) {
+  if (Array.isArray(value)) {
+    value.forEach(sanitizeReviewNotes);
+    return value;
+  }
+  if (!value || typeof value !== "object") return value;
+  for (const [key, child] of Object.entries(value)) {
+    if (key === "note" || key === "reviewNotes") value[key] = publicReviewNote(child);
+    else sanitizeReviewNotes(child);
+  }
+  return value;
+}
+
 const events = await readWindowData(EVENTS_PATH, "SHOW_EXPLORER_EVENTS", []);
-const existing = await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", {
+const existing = sanitizeReviewNotes(await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", {
   generatedAt: "",
   artists: {}
-});
+}));
 
 const artists = {};
 
@@ -150,7 +171,7 @@ for (const event of events) {
       confidence: previous.confidence || artist.confidence || "review",
       summary: previous.summary || "",
       disambiguation: previous.disambiguation || "",
-      reviewNotes: previous.reviewNotes || previous.note || artist.note || "",
+      reviewNotes: publicReviewNote(previous.reviewNotes, previous.note, artist.note),
       supportPriority: supportPriorityForLinks(previous.links || []),
       links: previous.links || [],
       evidence: previous.evidence || [],

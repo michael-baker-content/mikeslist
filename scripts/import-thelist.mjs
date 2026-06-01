@@ -1,4 +1,5 @@
 import { writeFile } from "node:fs/promises";
+import { classifyEventText, mergeClassifications } from "./event-classifier.mjs";
 
 const SOURCE_URL = "https://jon.luini.com/thelist/date.html";
 const OUTPUT_PATH = new URL("../data/imported-events.js", import.meta.url);
@@ -130,7 +131,7 @@ function placeholderArtist(name, artistLinks = []) {
     tags: ["unknown"],
     locality: "unknown",
     confidence: matchingLinks.length ? "likely" : "review",
-    note: "Imported from The List. Enrichment has not been reviewed yet.",
+    note: "Imported from The List.",
     links: [
       ...matchingLinks,
       {
@@ -138,7 +139,7 @@ function placeholderArtist(name, artistLinks = []) {
         url: `https://duckduckgo.com/?q=${encodeURIComponent(`"${name}" band music`)}`,
         type: "search",
         confidence: "research",
-        source: "imported"
+        source: "the-list"
       }
     ]
   };
@@ -203,16 +204,28 @@ function parseEvents(html) {
     const details = stripTags(cells[detailCellIndex]);
     if (!venue || !details) continue;
 
+    const listingClassifications = normalized.artistNames.map(classifyEventText);
+    const performerNames = normalized.artistNames.filter((name, index) => !listingClassifications[index].isNonArtistListing);
+    const eventMeta = mergeClassifications(classifyEventText(details), ...listingClassifications);
+    const title = performerNames.length ? "" : normalized.artistNames.join(", ");
+
     events.push({
       id: slugify(`${normalized.date}-${venue}-${normalized.artistNames[0]}`),
       date: normalized.date,
+      title,
       venueId: venueIdFor(venueHref, venue),
       venue,
       venueHref,
       city: "",
       details,
       sourceUrl: SOURCE_URL,
-      artists: normalized.artistNames.map((name) => placeholderArtist(name, artistLinks))
+      source: {
+        name: "The List",
+        url: SOURCE_URL
+      },
+      eventTypes: eventMeta.eventTypes,
+      themes: eventMeta.themes,
+      artists: performerNames.map((name) => placeholderArtist(name, artistLinks))
     });
   }
 

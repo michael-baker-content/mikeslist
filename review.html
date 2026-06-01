@@ -20,6 +20,7 @@
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" href="admin.html">Admin</a>
         <a class="source-link" href="venue-review.html">Venues</a>
         <button id="exportButton" class="source-link button-link" type="button">Export</button>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
@@ -41,6 +42,17 @@
           <span>Search</span>
           <input id="artistSearch" type="search" placeholder="Artist, venue, tag, link">
         </label>
+
+        <div class="date-range" aria-label="Appearance date range">
+          <label>
+            <span>From</span>
+            <input id="fromDateInput" type="date">
+          </label>
+          <label>
+            <span>To</span>
+            <input id="toDateInput" type="date">
+          </label>
+        </div>
 
         <div class="filter-group" role="group" aria-label="Quick filters">
           <button class="chip active" type="button" data-review-filter="review">Needs review</button>
@@ -134,7 +146,7 @@
           </form>
 
           <div class="appearances">
-            <h3>Upcoming Shows</h3>
+            <h3 id="appearanceHeading">Shows in Range</h3>
             <div id="appearanceList"></div>
           </div>
         </section>
