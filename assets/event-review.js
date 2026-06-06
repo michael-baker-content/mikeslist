@@ -11,6 +11,7 @@ const state = {
   query: "",
   filter: "needsMetadata",
   source: "all",
+  sort: "default",
   fromDate: todayString(),
   toDate: dateStringFromOffset(6),
   selectedId: ""
@@ -21,6 +22,7 @@ const form = document.querySelector("#eventForm");
 const search = document.querySelector("#eventSearch");
 const fromDateInput = document.querySelector("#fromDateInput");
 const toDateInput = document.querySelector("#toDateInput");
+const sortInput = document.querySelector("#eventSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const sourceFilterButtons = [...document.querySelectorAll("[data-source-filter]")];
 
@@ -33,6 +35,7 @@ const fields = {
   title: document.querySelector("#titleInput"),
   displayName: document.querySelector("#displayNameInput"),
   details: document.querySelector("#detailsInput"),
+  eventDescription: document.querySelector("#eventDescriptionInput"),
   mikesPick: document.querySelector("#mikesPickInput"),
   eventTypes: document.querySelector("#eventTypesInput"),
   eventTypeOptions: document.querySelector("#eventTypeOptions"),
@@ -74,6 +77,7 @@ function normalizeEventRecord(event) {
   event.title = cleanJoinedText(event.title || "");
   event.displayName = cleanJoinedText(event.displayName || "");
   event.details = cleanJoinedText(event.details || "");
+  event.eventDescription = cleanJoinedText(event.eventDescription || "");
   event.eventTypes = uniqueList(event.eventTypes || []);
   event.themes = uniqueList(event.themes || []);
   event.artists = mergeArtists(event.artists || []);
@@ -128,6 +132,7 @@ function eventText(event) {
     event.region,
     event.displayName,
     event.details,
+    event.eventDescription,
     event.mikesPick ? "Mike's Pick featured" : "",
     ...sourceNamesForEvent(event),
     event.source?.name,
@@ -146,7 +151,18 @@ function visibleEvents() {
   refreshDuplicateIndex();
   return events
     .filter((event) => matchesDateRange(event) && matchesFilter(event) && matchesSource(event) && (!query || eventText(event).includes(query)))
-    .sort((a, b) => a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue) || eventTitle(a).localeCompare(eventTitle(b)));
+    .sort(compareVisibleEvents);
+}
+
+function compareVisibleEvents(a, b) {
+  if (state.sort === "title") {
+    return eventTitle(a).localeCompare(eventTitle(b))
+      || a.date.localeCompare(b.date)
+      || a.venue.localeCompare(b.venue);
+  }
+  return a.date.localeCompare(b.date)
+    || a.venue.localeCompare(b.venue)
+    || eventTitle(a).localeCompare(eventTitle(b));
 }
 
 function matchesDateRange(event) {
@@ -266,6 +282,7 @@ function renderForm() {
   fields.title.value = cleanJoinedText(event.title || "");
   fields.displayName.value = cleanJoinedText(event.displayName || "");
   fields.details.value = cleanJoinedText(event.details || "");
+  fields.eventDescription.value = cleanJoinedText(event.eventDescription || "");
   setMikesPickButton(Boolean(event.mikesPick));
   fields.eventTypes.value = (event.eventTypes || []).join(", ");
   fields.themes.value = (event.themes || []).join(", ");
@@ -510,6 +527,7 @@ function updateSelectedEventFromForm() {
   event.title = cleanJoinedText(fields.title.value);
   event.displayName = cleanJoinedText(fields.displayName.value);
   event.details = cleanJoinedText(fields.details.value);
+  event.eventDescription = cleanJoinedText(fields.eventDescription.value);
   event.mikesPick = fields.mikesPick.getAttribute("aria-pressed") === "true";
   event.eventTypes = splitList(fields.eventTypes.value);
   event.themes = splitList(fields.themes.value);
@@ -627,6 +645,7 @@ function mergeEventData(target, source) {
   target.displayName = preferredShowText(target.displayName, source.displayName);
   target.title = preferredShowText(target.title, source.title);
   target.details = uniqueDetails(target.details, source.details);
+  target.eventDescription = uniqueDetails(target.eventDescription, source.eventDescription);
   target.mikesPick = Boolean(target.mikesPick || source.mikesPick);
   target.eventTypes = uniqueList([...(target.eventTypes || []), ...(source.eventTypes || [])]);
   target.themes = uniqueList([...(target.themes || []), ...(source.themes || [])]);
@@ -797,11 +816,16 @@ function slugify(text) {
 
 function syncFilterButtons() {
   filterButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
+    setPressed(button, button.dataset.reviewFilter === state.filter);
   });
   sourceFilterButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.sourceFilter === state.source);
+    setPressed(button, button.dataset.sourceFilter === state.source);
   });
+}
+
+function setPressed(button, active) {
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
 function render() {
@@ -823,6 +847,7 @@ search.addEventListener("input", (event) => {
 
 fromDateInput.value = state.fromDate;
 toDateInput.value = state.toDate;
+sortInput.value = state.sort;
 
 fromDateInput.addEventListener("input", (event) => {
   state.fromDate = event.target.value;
@@ -832,6 +857,12 @@ fromDateInput.addEventListener("input", (event) => {
 
 toDateInput.addEventListener("input", (event) => {
   state.toDate = event.target.value;
+  state.selectedId = "";
+  render();
+});
+
+sortInput.addEventListener("change", (event) => {
+  state.sort = event.target.value;
   state.selectedId = "";
   render();
 });

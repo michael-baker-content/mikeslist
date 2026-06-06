@@ -36,6 +36,7 @@ const fields = {
   displayName: document.querySelector("#displayNameInput"),
   locality: document.querySelector("#localityInput"),
   genres: document.querySelector("#genresInput"),
+  imageUrl: document.querySelector("#imageUrlInput"),
   priority: document.querySelector("#priorityInput"),
   summary: document.querySelector("#summaryInput"),
   links: document.querySelector("#linksEditor"),
@@ -112,6 +113,7 @@ function artistText(artist) {
     artist.name,
     artist.displayName,
     artist.locality,
+    artist.imageUrl,
     artist.summary,
     artist.disambiguation,
     artist.reviewNotes,
@@ -204,8 +206,13 @@ function renderVenueFilterOptions() {
 
 function syncFilterButtons() {
   filterButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
+    setPressed(button, button.dataset.reviewFilter === state.filter);
   });
+}
+
+function setPressed(button, active) {
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
 function updateSummary() {
@@ -295,6 +302,7 @@ function selectArtist(id) {
   fields.displayName.value = artist.displayName || "";
   fields.locality.value = artist.locality || "";
   fields.genres.value = (artist.genres || artist.tags || []).join(", ");
+  fields.imageUrl.value = artist.imageUrl || "";
   fields.priority.value = supportPriorityForArtist(artist).join(", ");
   fields.summary.value = artist.summary || "";
   renderLinkEditor(artist.links || []);
@@ -431,6 +439,7 @@ function mergeArtistData(target, source) {
     source.displayName
   ].filter((value) => value && normalizeName(value) !== normalizeName(target.name) && normalizeName(value) !== normalizeName(target.displayName || "")));
   target.genres = uniqueList([...(target.genres || target.tags || []), ...(source.genres || source.tags || [])]);
+  target.imageUrl ||= source.imageUrl || "";
   target.locality = preferredText(target.locality, source.locality, "unknown");
   target.summary = preferredText(target.summary, source.summary);
   target.reviewNotes = uniqueParagraphs(target.reviewNotes, source.reviewNotes || source.note);
@@ -652,6 +661,7 @@ form.addEventListener("submit", async (event) => {
   artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+  artist.imageUrl = fields.imageUrl.value.trim();
   delete artist.tags;
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.summary = fields.summary.value.trim();
@@ -972,6 +982,7 @@ async function saveCurrentArtist() {
   artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+  artist.imageUrl = fields.imageUrl.value.trim();
   delete artist.tags;
   artist.summary = fields.summary.value.trim();
   artist.links = readLinkEditor();

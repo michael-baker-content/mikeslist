@@ -9,6 +9,7 @@ const steps = [
   ["Import BadSlava trivia", "scripts/import-badslava.mjs", ...process.argv.slice(2)],
   ["Classify event metadata", "scripts/classify-event-metadata.mjs"],
   ["Rebuild artist store", "scripts/build-artist-store.mjs"],
+  ["Rebuild public artist store", "scripts/build-public-artist-store.mjs"],
   ["Rebuild venue store", "scripts/build-venue-store.mjs"]
 ];
 

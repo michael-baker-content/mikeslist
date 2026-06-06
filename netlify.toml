@@ -1,0 +1,32 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/admin.html"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/review.html"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/venue-review.html"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/event-review.html"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/suggestions.html"
+  to = "/index.html"
+  status = 302
+
+[[redirects]]
+  from = "/login.html"
+  to = "/index.html"
+  status = 302

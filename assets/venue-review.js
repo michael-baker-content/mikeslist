@@ -33,6 +33,7 @@ const fields = {
   region: document.querySelector("#regionInput"),
   regionOptions: document.querySelector("#regionOptions"),
   address: document.querySelector("#addressInput"),
+  imageUrl: document.querySelector("#imageUrlInput"),
   phone: document.querySelector("#phoneInput"),
   recurringEvents: document.querySelector("#recurringEventsInput"),
   capacity: document.querySelector("#capacityInput"),
@@ -127,6 +128,7 @@ function venueText(venue) {
     venue.status,
     venue.venueType,
     venue.address,
+    venue.imageUrl,
     venue.phone,
     venue.summary,
     venue.reviewNotes,
@@ -163,8 +165,13 @@ function preferredFilter() {
 
 function syncFilterButtons() {
   filterButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
+    setPressed(button, button.dataset.reviewFilter === state.filter);
   });
+}
+
+function setPressed(button, active) {
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
 function updateTotals() {
@@ -220,6 +227,7 @@ function renderForm() {
   fields.city.value = venue.city || "";
   fields.region.value = venue.region || "";
   fields.address.value = venue.address || "";
+  fields.imageUrl.value = venue.imageUrl || "";
   fields.phone.value = venue.phone || "";
   fields.recurringEvents.value = formatRecurringEvents(venue.recurringEvents || []);
   fields.capacity.value = venue.capacity || "";
@@ -405,6 +413,7 @@ function updateSelectedVenueFromForm() {
   venue.city = fields.city.value.trim();
   venue.region = fields.region.value.trim();
   venue.address = fields.address.value.trim();
+  venue.imageUrl = fields.imageUrl.value.trim();
   venue.phone = fields.phone.value.trim();
   venue.recurringEvents = parseRecurringEvents(fields.recurringEvents.value);
   venue.capacity = fields.capacity.value.trim();
@@ -438,6 +447,7 @@ async function mergeSelectedVenue() {
     source.displayName,
     ...(source.aliases || [])
   ].filter(Boolean));
+  target.imageUrl ||= source.imageUrl || "";
   target.links = mergeVenueLinks(target.links || [], source.links || []);
   target.evidence = [...(target.evidence || []), ...(source.evidence || [])];
   target.source ||= {};

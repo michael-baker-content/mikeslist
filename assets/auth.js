@@ -7,6 +7,7 @@
     "suggestions.html"
   ]);
   const publicHeaderPaths = new Set(["sources.html"]);
+  const currentPath = window.location.pathname.replace(/^\//, "") || "index.html";
 
   async function fetchSession() {
     try {
@@ -28,6 +29,12 @@
 
   function syncAdminNavigation(session) {
     document.body.classList.toggle("auth-admin", Boolean(session.admin));
+
+    if (adminPaths.has(currentPath) && !session.admin) {
+      window.location.href = `login.html?next=${encodeURIComponent(window.location.pathname)}`;
+      return;
+    }
+
     document.querySelectorAll("a[href]").forEach((link) => {
       if (!adminPaths.has(pathForLink(link))) return;
       link.hidden = !session.admin;
@@ -49,7 +56,7 @@
     });
 
     document.querySelectorAll(".nav-actions").forEach((nav) => {
-      if (!session.authenticated && !nav.querySelector("[data-login-link]")) {
+      if (!session.authenticated && adminPaths.has(currentPath) && !nav.querySelector("[data-login-link]")) {
         const login = document.createElement("a");
         login.className = "source-link";
         login.href = `login.html?next=${encodeURIComponent(window.location.pathname || "/admin.html")}`;

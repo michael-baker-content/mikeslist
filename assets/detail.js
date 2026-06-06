@@ -56,6 +56,8 @@ function renderArtistPage(id) {
     heroSection({
       kicker: "Artist",
       title,
+      imageUrl: artist.imageUrl || "",
+      imageAlt: `${title} artist image`,
       summary: artist.summary || "No summary has been added yet.",
       meta: [
         artist.locality || "unknown locality",
@@ -93,6 +95,8 @@ function renderVenuePage(id) {
     heroSection({
       kicker: "Venue",
       title,
+      imageUrl: venue.imageUrl || "",
+      imageAlt: `${title} venue image`,
       summary: venue.summary || "No summary has been added yet.",
       meta: [
         [venue.city, venue.region].filter(Boolean).join(", "),
@@ -119,14 +123,16 @@ function renderVenuePage(id) {
   );
 }
 
-function heroSection({ kicker, title, summary, meta }) {
+function heroSection({ kicker, title, imageUrl = "", imageAlt = "", summary, meta }) {
   const section = document.createElement("section");
   section.className = "detail-hero";
   section.innerHTML = `
-    <p class="kicker"></p>
-    <h2 class="statement-type"></h2>
-    <p class="detail-summary"></p>
-    <div class="detail-chips"></div>
+    <div class="detail-hero-copy">
+      <p class="kicker"></p>
+      <h2 class="statement-type"></h2>
+      <p class="detail-summary"></p>
+      <div class="detail-chips"></div>
+    </div>
   `;
   section.querySelector(".kicker").textContent = kicker;
   section.querySelector("h2").textContent = title;
@@ -137,6 +143,14 @@ function heroSection({ kicker, title, summary, meta }) {
     chip.textContent = item;
     chips.append(chip);
   });
+  if (imageUrl) {
+    section.classList.add("has-image");
+    const image = document.createElement("img");
+    image.className = "detail-hero-image";
+    image.src = imageUrl;
+    image.alt = imageAlt || "";
+    section.prepend(image);
+  }
   return section;
 }
 

@@ -43,8 +43,13 @@ function renderTotals() {
 
 function renderButtons() {
   groupButtons.forEach((button) => {
-    button.classList.toggle("active", button.dataset.suggestionGroup === state.group);
+    setPressed(button, button.dataset.suggestionGroup === state.group);
   });
+}
+
+function setPressed(button, active) {
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
 function render() {

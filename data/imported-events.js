@@ -32529,53 +32529,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": ""
   },
   {
-    "id": "2026-06-05-bill-graham-civic-auditorium-alesso",
-    "date": "2026-06-05",
-    "title": "",
-    "venueId": "bill-graham-civic-auditorium",
-    "venue": "Bill Graham Civic Auditorium",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Alesso",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Alesso",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Alesso%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-      }
-    ],
-    "showType": "artist",
-    "displayName": ""
-  },
-  {
     "id": "2026-06-05-billy-defrank-lgbtq-community-center-game-6-00pm",
     "date": "2026-06-05",
     "title": "Game Night",
@@ -33103,71 +33056,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": ""
   },
   {
-    "id": "2026-06-05-chapel-jerry-s-middle-finger",
-    "date": "2026-06-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "chapel",
-    "venue": "Chapel",
-    "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
-    "city": "",
-    "details": "a/a 8pm/9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jerry's Middle Finger",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jerry's%20Middle%20Finger%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Undead Internet (visuals)",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Undead%20Internet%20(visuals)%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": ""
-  },
-  {
     "id": "2026-06-05-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
     "date": "2026-06-05",
     "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
@@ -33207,7 +33095,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Civic Auditorium",
     "venueHref": "https://jon.luini.com/thelist/club.html#civic_auditorium",
     "city": "",
-    "details": "18+ $78.15 7pm/8pm #",
+    "details": "18+ $78.15 7pm/8pm # / Alesso",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -33223,7 +33111,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from The List. / Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -33278,9 +33166,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      },
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "region": "San Francisco",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-05-cornerstone-doomsday-iron-front-four-winds-away-losing-streak",
@@ -35674,7 +35572,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Jerry's Middle Finger",
+    "details": "Jerry's Middle Finger / a/a 8pm/9pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -35690,7 +35588,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -35701,16 +35599,44 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Undead Internet (visuals)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Undead%20Internet%20(visuals)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+      },
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-05-the-freight-natalie-and-brittany-haas",
@@ -36541,10 +36467,13 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "Lil Ghost",
     "region": "San Francisco",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-beeryland-karaoke-8-00pm",
@@ -36585,7 +36514,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Louis Tomlinson, The Aces",
+    "details": "Louis Tomlinson, The Aces / a/a $88.45 6pm/7pm #",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -36601,7 +36530,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -36620,7 +36549,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -36637,10 +36566,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+      },
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-06-biscuits-and-blues-josh-smith",
@@ -37143,71 +37081,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": ""
   },
   {
-    "id": "2026-06-06-chapel-jerry-s-middle-finger",
-    "date": "2026-06-06",
-    "title": "",
-    "showType": "artist",
-    "venueId": "chapel",
-    "venue": "Chapel",
-    "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
-    "city": "",
-    "details": "a/a 8pm/9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jerry's Middle Finger",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jerry's%20Middle%20Finger%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Undead Internet (visuals)",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Undead%20Internet%20(visuals)%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": ""
-  },
-  {
     "id": "2026-06-06-chess-queen-s-club-chess-2-30pm",
     "date": "2026-06-06",
     "title": "Chess",
@@ -37246,7 +37119,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+    "details": "The Mis-Adventure of Short Sword and Long Bow delivers classic Dungeons & Dragons-style thrills—packed with oddball characters, unpredictable magic, and glorious mayhem.",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -37256,7 +37129,8 @@ window.SHOW_EXPLORER_EVENTS = [
       "theater"
     ],
     "themes": [
-      "clowns"
+      "clowns",
+      "d&d"
     ],
     "artists": [],
     "sources": [
@@ -37266,72 +37140,10 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "showType": "event",
-    "displayName": ""
-  },
-  {
-    "id": "2026-06-06-civic-auditorium-louis-tomlinson",
-    "date": "2026-06-06",
-    "title": "",
-    "showType": "artist",
-    "venueId": "civic-auditorium",
-    "venue": "Civic Auditorium",
-    "venueHref": "https://jon.luini.com/thelist/club.html#civic_auditorium",
-    "city": "",
-    "details": "a/a $88.45 6pm/7pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Louis Tomlinson",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Louis%20Tomlinson%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Aces",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Aces%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "https://www.churchofclown.org/events/longbow",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/6219a68fab3b802391f1e5d9/c7836f2f-af61-4c61-a942-4be6fdf3c3a6/The+fantasy+misadventures+of+short+sword+and+longbow+%281080+x+1080+px%29.png?format=1500w"
   },
   {
     "id": "2026-06-06-community-center-fields-spoon",
@@ -37555,7 +37367,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "County Fair",
     "venueHref": "https://jon.luini.com/thelist/club.html#county_fair",
     "city": "",
-    "details": "a/a",
+    "details": "Gym Class Heroes (8pm) Dog Park (6:30pm) Croozer (3pm)",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -37565,61 +37377,58 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Gym Class Heroes (8pm)",
+        "name": "Gym Class Heroes",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Gym%20Class%20Heroes%20(8pm)%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Gym%20Class%20Heroes%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "manual"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
-        "name": "Dog Park (6:30pm)",
+        "name": "Dog Park",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dog%20Park%20(6%3A30pm)%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Dog%20Park%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "manual"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
-        "name": "Croozer (3pm)",
+        "name": "Croozer",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Croozer%20(3pm)%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Croozer%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "manual"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
@@ -37628,7 +37437,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "Gym Class Heroes, Dog Park, Croozer",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-crybaby-lil-blood",
@@ -37747,7 +37559,10 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-down-home-music-2pm-the-chuckleberries",
@@ -37794,7 +37609,10 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "The Chuckleberries",
+    "mikesPick": false,
+    "infoUrl": "https://bayareapunk.com/bands/THE_CHUCKLEBERRIES.html",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-down-home-music-chuckleberries-2pm-in-store",
@@ -37822,7 +37640,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": "screening of Les Blank's \"The Blues According to Lightin' Hopkins\""
+    "displayName": "screening of Les Blank's \"The Blues According to Lightin' Hopkins\"",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-el-rio-pangea-fc-the-bogues",
@@ -37967,52 +37788,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": ""
   },
   {
-    "id": "2026-06-06-freight-booker-t-jones",
-    "date": "2026-06-06",
-    "title": "",
-    "showType": "artist",
-    "venueId": "freight",
-    "venue": "Freight",
-    "venueHref": "https://jon.luini.com/thelist/club.html#freight",
-    "city": "",
-    "details": "a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Booker T. Jones",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Booker%20T.%20Jones%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": ""
-  },
-  {
     "id": "2026-06-06-gilman-membership-meeting",
     "date": "2026-06-06",
     "title": "Membership Meeting",
@@ -38021,7 +37796,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Gilman",
     "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
     "city": "",
-    "details": "a/a 4pm",
+    "details": "a/a 4pm. Meetings happen twice a month, every first and third Saturday of the month, before that night's concert or event. They are open to everyone. Anyone with a membership card is considered part of the Gilman street collective and can get involved in the operation of the club. These membership cards are sold at every concert are an required to get into the night's event. A membership card is valid for one year.",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -38042,7 +37817,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": "Membership Meeting"
+    "displayName": "Membership Meeting",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-gilman-en-vitro",
@@ -38397,7 +38175,10 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": "",
     "region": "East Bay",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-jupiter-nathan-x-moody-trio",
@@ -38637,25 +38418,6 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
-      },
-      {
-        "name": "1pm Cuva Bimö",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%221pm%20Cuva%20Bim%C3%B6%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
       }
     ],
     "sources": [
@@ -38668,10 +38430,13 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "Cuva Bimo, A Murder For Crows, Little Oil",
     "region": "San Francisco",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-knockout-record-swap",
@@ -39138,7 +38903,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Neck of the Woods",
     "venueHref": "https://jon.luini.com/thelist/club.html#neck_of_the_woods",
     "city": "",
-    "details": "a/a $40 ($65 2 day pass) 4pm/5pm",
+    "details": "a/a $40 ($65 2 day pass) 4pm/5pm see jun 7th for list of bands",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -39173,7 +38938,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-noble-cinema-studios-dread",
@@ -39621,7 +39389,10 @@ window.SHOW_EXPLORER_EVENTS = [
     "showType": "artist",
     "displayName": "",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-revolution-cafe-inside-nfg-9-30pm",
@@ -40274,7 +40045,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": "Square Dance (called by Robin Fisher)"
+    "displayName": "Square Dance (called by Robin Fisher)",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-sf-jazz-center-robert-glasper",
@@ -40563,7 +40337,10 @@ window.SHOW_EXPLORER_EVENTS = [
     "showType": "artist",
     "displayName": "",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-sub-zero-festival-dvic",
@@ -40738,7 +40515,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Jerry's Middle Finger",
+    "details": "Jerry's Middle Finger / a/a 8pm/9pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -40754,7 +40531,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -40765,16 +40542,44 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Undead Internet (visuals)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Undead%20Internet%20(visuals)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+      },
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-06-the-clarion-sf-poetry-1-00pm",
@@ -40818,7 +40623,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Booker T. Jones",
+    "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -40834,7 +40639,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -40851,10 +40656,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+      },
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-06-the-lab-weston-olencki-ava-koohbor",
@@ -41122,7 +40936,10 @@ window.SHOW_EXPLORER_EVENTS = [
     "showType": "artist",
     "displayName": "",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-06-union-square-adam-x-and-frankie-bones",
@@ -41529,6 +41346,39 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
+        "name": "AroMa",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22AroMa%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          },
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22AroMa%20%26%20more%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          },
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22AroMa%20%26%23038%3B%20more%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ],
+        "displayName": ""
+      },
+      {
         "name": "The Seshen",
         "tags": [
           "unknown"
@@ -41546,51 +41396,6 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
-      },
-      {
-        "name": "AroMa",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22AroMa%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "AroMa & more",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22AroMa%20%26%20more%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22AroMa%20%26%23038%3B%20more%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
       }
     ],
     "sources": [
@@ -41603,10 +41408,13 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "The Seshen, AroMa & more",
     "region": "San Francisco",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-924-gilman-dog-house-hazy-portraits-the-treedome-osie-the-hayds",
@@ -41866,7 +41674,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-brick-and-mortar-leven-kali",
@@ -42025,7 +41836,10 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "The B3 Sessions With Sylvester Burks",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-castro-theater-i-m-with-her-jordan-tice-joseph-terrell",
@@ -42046,44 +41860,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "I'm With Her",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22I'm%20With%20Her%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Jordan Tice",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jordan%20Tice%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
         "name": "Joseph Terrell",
         "tags": [
           "unknown"
@@ -42098,25 +41874,32 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
+          },
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jordan%20Tice%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
           }
         ],
         "displayName": ""
       },
       {
-        "name": "Jordan Tice And Joseph Terrell",
+        "name": "I'm With Her",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jordan%20Tice%20And%20Joseph%20Terrell%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22I'm%20With%20Her%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
         ],
         "displayName": ""
@@ -42331,7 +42114,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Sewerperson, autumndropsdead",
+    "details": "Sewerperson, autumndropsdead / a/a $28.29 7pm/8pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -42347,7 +42130,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -42383,56 +42166,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-      }
-    ],
-    "showType": "artist",
-    "displayName": ""
-  },
-  {
-    "id": "2026-06-07-cornerstone-sewerperson",
-    "date": "2026-06-07",
-    "title": "",
-    "showType": "artist",
-    "venueId": "cornerstone",
-    "venue": "Cornerstone",
-    "venueHref": "https://jon.luini.com/thelist/club.html#cornerstone",
-    "city": "",
-    "details": "a/a $28.29 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Sewerperson",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sewerperson%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
+      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "showType": "artist",
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-07-county-fair-the-hype-boy-from-jersey-8pm",
@@ -42625,7 +42371,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Down Home Music",
     "venueHref": "https://jon.luini.com/thelist/club.html#down_home_music",
     "city": "",
-    "details": "a/a free 2pm / 2pm San Kazakgascar",
+    "details": "a/a free 2pm / San Kazakgascar",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -42652,25 +42398,6 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
-      },
-      {
-        "name": "2pm San Kazakgascar",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%222pm%20San%20Kazakgascar%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
       }
     ],
     "sources": [
@@ -42683,10 +42410,13 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "San Kazakgascar",
     "region": "East Bay",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-el-rio-latinas-forever-djs-and-drag",
@@ -42850,52 +42580,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": ""
   },
   {
-    "id": "2026-06-07-freight-booker-t-jones",
-    "date": "2026-06-07",
-    "title": "",
-    "showType": "artist",
-    "venueId": "freight",
-    "venue": "Freight",
-    "venueHref": "https://jon.luini.com/thelist/club.html#freight",
-    "city": "",
-    "details": "a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Booker T. Jones",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Booker%20T.%20Jones%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": ""
-  },
-  {
     "id": "2026-06-07-gilman-the-hayds",
     "date": "2026-06-07",
     "title": "",
@@ -43015,7 +42699,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-gouth-street-stage-the-hyperdrive-kittens",
@@ -43072,7 +42759,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Independent",
     "venueHref": "https://jon.luini.com/thelist/club.html#independent",
     "city": "",
-    "details": "21+ $31.55 7:30pm/8pm @",
+    "details": "21+ $31.55 7:30pm/8pm @ / Agent Orange, The Drowns",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -43088,7 +42775,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from The List. / Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -43107,7 +42794,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from The List. / Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -43124,9 +42811,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      },
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "region": "San Francisco",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-07-ivy-room-the-montvales-creekbed-carter-hogan",
@@ -43161,6 +42858,13 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
+          },
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Montvales%20(album%20release)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
           }
         ],
         "displayName": ""
@@ -43180,38 +42884,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Montvales (album release)",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Montvales%20(album%20release)%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Creekbed Carter Hogan (album release)",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
+          },
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Creekbed%20Carter%20Hogan%20(album%20release)%22%20band%20music",
@@ -43341,20 +43014,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Eaten By Insets",
+        "name": "Eaten By Insects",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eaten%20By%20Insets%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Eaten%20By%20Insects%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
         ],
         "displayName": ""
@@ -43434,44 +43107,6 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
-      },
-      {
-        "name": "1pm Bonecrown",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%221pm%20Bonecrown%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Eaten By Insects",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eaten%20By%20Insects%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
       }
     ],
     "sources": [
@@ -43484,10 +43119,13 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "Eaten By Insects, Bonecrown, PosthumanX, Viscelator, Diablura",
     "region": "San Francisco",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-kilowatt-sorry-it-s-over",
@@ -44624,7 +44262,7 @@ window.SHOW_EXPLORER_EVENTS = [
   {
     "id": "2026-06-07-starry-plough-irish-session",
     "date": "2026-06-07",
-    "title": "",
+    "title": "Irish Session",
     "venueId": "starry-plough",
     "venue": "Starry Plough",
     "venueHref": "",
@@ -44636,37 +44274,24 @@ window.SHOW_EXPLORER_EVENTS = [
       "name": "KALX",
       "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
     },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Irish Session",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Irish%20Session%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      }
+    "eventTypes": [
+      "jam session"
     ],
+    "themes": [
+      "irish"
+    ],
+    "artists": [],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
       }
     ],
-    "showType": "artist",
-    "displayName": ""
+    "showType": "event",
+    "displayName": "Irish Session",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-tequila-mockingbird-prima-materia",
@@ -44808,7 +44433,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Booker T. Jones",
+    "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
     "source": {
       "name": "KALX",
@@ -44824,7 +44449,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX.",
+        "note": "Imported from KALX. / Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -44841,76 +44466,19 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-      }
-    ],
-    "showType": "artist",
-    "displayName": ""
-  },
-  {
-    "id": "2026-06-07-the-independent-agent-orange-the-drowns",
-    "date": "2026-06-07",
-    "title": "",
-    "venueId": "the-independent",
-    "venue": "The Independent",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Agent Orange, The Drowns",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Agent Orange",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Agent%20Orange%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
       },
       {
-        "name": "The Drowns",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Drowns%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "showType": "artist",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-06-07-the-lost-church-the-oldest-profession-written-and-performed-by-kaytlin-bailey",
@@ -44941,7 +44509,10 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "showType": "event",
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": true,
+    "infoUrl": "https://theoldestprofession.org/",
+    "imageUrl": "https://theoldestprofession.org/wp-content/uploads/2025/04/kaytlin-bailey.jpg"
   },
   {
     "id": "2026-06-07-the-riptide-nashville-honeymoon",
@@ -45156,7 +44727,10 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": "",
     "region": "East Bay",
     "time": "",
-    "price": ""
+    "price": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-07-wheelhouse-of-willow-glen-karaoke-5-00pm",
@@ -45913,7 +45487,10 @@ window.SHOW_EXPLORER_EVENTS = [
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": ""
   },
   {
     "id": "2026-06-09-brick-and-mortar-bleood",
@@ -54231,8 +53808,8 @@ window.SHOW_EXPLORER_EVENTS = [
   {
     "id": "2026-06-14-mountain-winery-dana-carvey-and-david-spade",
     "date": "2026-06-14",
-    "title": "",
-    "showType": "artist",
+    "title": "Dana Carvey & David Spade",
+    "showType": "event",
     "venueId": "mountain-winery",
     "venue": "Mountain Winery",
     "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
@@ -54245,34 +53822,14 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [
-      {
-        "name": "Dana Carvey & David Spade",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dana%20Carvey%20%26%20David%20Spade%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
+    "artists": [],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
-    "displayName": ""
+    "displayName": "Dana Carvey & David Spade"
   },
   {
     "id": "2026-06-14-neck-of-the-woods-pena",

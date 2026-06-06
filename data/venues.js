@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-06-05T23:55:11.671Z",
+  "generatedAt": "2026-06-06T20:52:48.039Z",
   "venues": {
     "49": {
       "id": "49",
@@ -13,6 +13,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40,7 +41,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-07-25-49-ers-stadium-ed-sheeran",
@@ -85,6 +86,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1015 Folsom St, San Francisco, CA 94103",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -195,7 +197,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.864Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-05-1015-big-gigantic",
@@ -219,6 +221,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Rohnert Park",
       "region": "North Bay",
       "address": "1500 Valley House Dr #210, Rohnert Park, CA 94928",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -321,7 +324,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-06-1100-valley-houe-drive-hot-buttered-rum",
@@ -345,6 +348,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "",
       "address": "1001 Center St #1 Santa Cruz CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -372,7 +376,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-11th-hour-coffee-trivia-7-00pm",
@@ -403,6 +407,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "2501 Harrison St, Oakland, CA 94612",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -492,7 +497,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.426Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-06-1st-cong-church-of-oakland-w-kamau-bell",
@@ -659,6 +664,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "288 S Second St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -686,7 +692,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-3below-theaters-and-cafe-trivia-7-00pm",
@@ -710,6 +716,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2200 Clement St, San Francisco, CA 94121",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -837,7 +844,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.662Z",
+        "lastImportedAt": "2026-06-06T20:52:48.029Z",
         "appearances": [
           {
             "eventId": "2026-05-27-4-star-theater-tommy-guerrero-josh-lippi-dj-groove-merchant",
@@ -898,7 +905,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-07-4-star-theater-the-seshen",
             "date": "2026-06-07",
-            "title": "The Seshen / AroMa / AroMa & more",
+            "title": "AroMa / The Seshen",
             "details": "a/a 7pm/7:30pm til 10:30pm / The Seshen, AroMa & more",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -945,6 +952,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -972,7 +980,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.894Z",
-        "lastImportedAt": "2026-06-05T23:55:11.648Z",
+        "lastImportedAt": "2026-06-06T20:52:48.015Z",
         "appearances": [
           {
             "eventId": "2026-08-05-49er-s-stadium-ac-dc",
@@ -1099,6 +1107,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "620 Jones St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1126,7 +1135,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-04-620-jones-trivia-6-00pm",
@@ -1150,6 +1159,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "162 Jackson St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1177,7 +1187,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-7-bamboo-lounge-karaoke-8-00pm",
@@ -1208,6 +1218,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "1255 7th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -1302,7 +1313,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-7th-west-game-6-00pm",
@@ -1340,6 +1351,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1360,7 +1372,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-05-26-924-gilman-concision-fifteen-rhema-lost-not-found-a-new-day-state-of-reliance",
@@ -1440,6 +1452,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1467,7 +1480,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.646Z",
+        "lastImportedAt": "2026-06-06T20:52:48.013Z",
         "appearances": [
           {
             "eventId": "2026-07-26-a-house-alejandro-escovedo-and-the-electric-saints",
@@ -1491,6 +1504,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "409 Gough St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1518,7 +1532,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-afterwork-bar-trivia-7-00pm",
@@ -1542,6 +1556,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Pleasanton",
       "region": "East Bay",
       "address": "2005 Valley Ave Gate 8, Pleasanton, CA 94566",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -1643,7 +1658,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.152Z",
-        "lastImportedAt": "2026-06-05T23:55:11.641Z",
+        "lastImportedAt": "2026-06-06T20:52:48.007Z",
         "appearances": [
           {
             "eventId": "2026-06-19-alameda-county-fair-the-gene-simmons-band",
@@ -1779,6 +1794,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "1716 Park St Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1806,7 +1822,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-alameda-island-brewing-trivia-7-00pm",
@@ -1830,6 +1846,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "2214 Business Cir San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1857,7 +1874,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-07-alex-s-49er-inn-karaoke-8-00pm",
@@ -1881,6 +1898,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "651 W Tower Ave Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1908,7 +1926,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-almanac-beer-company-trivia-6-30pm",
@@ -1932,6 +1950,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -1959,7 +1978,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.875Z",
-        "lastImportedAt": "2026-06-05T23:55:11.632Z",
+        "lastImportedAt": "2026-06-06T20:52:47.997Z",
         "appearances": [
           {
             "eventId": "2026-06-17-amoeba-music-shrapknel",
@@ -1983,6 +2002,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Napa",
       "region": "",
       "address": "1450 1st St Napa CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -2010,7 +2030,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-andaz-napa-trivia-6-00pm",
@@ -2086,6 +2106,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "550 37th Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -2113,7 +2134,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.607Z",
+        "lastImportedAt": "2026-06-06T20:52:47.972Z",
         "appearances": [
           {
             "eventId": "2026-06-02-anza-branch-library-game-10-00am",
@@ -2196,6 +2217,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "7000 S Coliseum Wy, Oakland, CA 94621",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -2342,7 +2364,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.669Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-06-09-arena-ariana-grande",
@@ -2520,6 +2542,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -2540,7 +2563,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.418Z",
-        "lastImportedAt": "2026-06-05T23:55:11.603Z",
+        "lastImportedAt": "2026-06-06T20:52:47.967Z",
         "appearances": [
           {
             "eventId": "2026-05-30-art-house-gallery-and-8220-crazy-for-you-and-8221-release-party-with-radio-insecto-dave-s-van",
@@ -2564,6 +2587,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1317 San Pablo Ave, Berkeley, CA 94702",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -2648,7 +2672,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-05-27-ashkenaz-stu-allen-and-mars-hotel",
@@ -2728,6 +2752,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2730 21st St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -2755,7 +2780,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.609Z",
+        "lastImportedAt": "2026-06-06T20:52:47.972Z",
         "appearances": [
           {
             "eventId": "2026-06-02-asiento-trivia-7-30pm",
@@ -2831,6 +2856,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "California",
       "region": "SF",
       "address": "420 Mason St, San Francisco, CA 94102",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -2991,7 +3017,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-05-26-august-hall-dance-with-the-dead-magic-sword",
@@ -3274,6 +3300,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Palo Alto",
       "region": "",
       "address": "450 Bryant St Palo Alto CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3301,7 +3328,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-avenidas-chess-8-00pm",
@@ -3325,6 +3352,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1429 Broadway Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3352,7 +3380,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-awaken-cafe-and-roasting-openmic-7-00pm",
@@ -3383,6 +3411,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "705 16th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3410,7 +3439,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-ballast-point-brewing-trivia-7-00pm",
@@ -3434,6 +3463,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3461,7 +3491,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-06-05T23:55:11.626Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-06-10-band-shell-alvie-and-the-breakfast-pigs",
@@ -3485,6 +3515,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "952 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3512,7 +3543,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-02-barbary-coast-trivia-7-00pm",
@@ -3543,6 +3574,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1525 Cortland Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3570,7 +3602,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.609Z",
+        "lastImportedAt": "2026-06-06T20:52:47.975Z",
         "appearances": [
           {
             "eventId": "2026-06-02-barebottle-brewing-company-trivia-7-00pm",
@@ -3594,6 +3626,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3621,7 +3654,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-05T23:55:11.641Z",
+        "lastImportedAt": "2026-06-06T20:52:48.006Z",
         "appearances": [
           {
             "eventId": "2026-07-11-barrel-proof-lounge-viva-la-punk-fest-day-1-see-jul-12th-revolution-cafe-for-bands",
@@ -3645,6 +3678,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Burlingame",
       "region": "",
       "address": "305 California Dr Burlingame CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3672,7 +3706,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.609Z",
+        "lastImportedAt": "2026-06-06T20:52:47.975Z",
         "appearances": [
           {
             "eventId": "2026-06-02-barrelhouse-trivia-7-30pm",
@@ -3696,6 +3730,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3723,7 +3758,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.993Z",
         "appearances": [
           {
             "eventId": "2026-06-13-bay-area-maker-farm-eee-vee-ee",
@@ -3747,6 +3782,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2550 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3774,7 +3810,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.969Z",
         "appearances": [
           {
             "eventId": "2026-06-01-bear-vs-bull-trivia-9-00pm",
@@ -3798,6 +3834,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -3825,7 +3862,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-05T23:55:11.636Z",
+        "lastImportedAt": "2026-06-06T20:52:48.002Z",
         "appearances": [
           {
             "eventId": "2026-06-26-beauty-supply-above-tay-ho-mr-butterfield",
@@ -3849,6 +3886,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "2318 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -3951,7 +3989,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-06-beeryland-karaoke-8-00pm",
@@ -3975,6 +4013,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Mateo",
       "region": "",
       "address": "4330 Olympic Ave San Mateo CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4002,7 +4041,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-04-bel-mateo-bowl-trivia-7-00pm",
@@ -4026,6 +4065,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "565 Green St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4053,7 +4093,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.969Z",
         "appearances": [
           {
             "eventId": "2026-06-01-belle-cora-trivia-7-00pm",
@@ -4077,6 +4117,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "5612 College Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4104,7 +4145,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-ben-n-nick-s-bar-and-grill-trivia-8-00pm",
@@ -4128,6 +4169,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2622 San Pablo Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -4196,7 +4238,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-05-berkeley-chess-school-chess-5-30pm",
@@ -4220,6 +4262,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "2315 Durant Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4247,7 +4290,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-berkeley-city-club-poetry-8-00pm",
@@ -4271,6 +4314,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4291,7 +4335,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.420Z",
-        "lastImportedAt": "2026-06-05T23:55:11.604Z",
+        "lastImportedAt": "2026-06-06T20:52:47.968Z",
         "appearances": [
           {
             "eventId": "2026-05-31-berkeley-finnish-hall-otherworld-ensemble-zele",
@@ -4315,6 +4359,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "500 Cortland Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4342,7 +4387,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-04-bernal-heights-branch-library-game-10-00am",
@@ -4366,6 +4411,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -4386,7 +4432,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-27-bill-graham-civic-auditorium-yellowcard-new-found-glory-plain-white-t-s",
@@ -4410,17 +4456,10 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
           },
           {
-            "eventId": "2026-06-05-bill-graham-civic-auditorium-alesso",
-            "date": "2026-06-05",
-            "title": "Alesso",
-            "details": "Alesso",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
             "eventId": "2026-06-06-bill-graham-civic-auditorium-louis-tomlinson-the-aces",
             "date": "2026-06-06",
             "title": "Louis Tomlinson / The Aces",
-            "details": "Louis Tomlinson, The Aces",
+            "details": "Louis Tomlinson, The Aces / a/a $88.45 6pm/7pm #",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
@@ -4438,6 +4477,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "South Bay",
       "address": "938 The Alameda, San Jose, CA 95126",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -4541,7 +4581,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-05-billy-defrank-lgbtq-community-center-game-6-00pm",
@@ -4565,6 +4605,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1025 Columbus Ave, San Francisco, CA 94133",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -4720,7 +4761,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-06-11-bimbo-s-365-club-naomi-scott",
@@ -4856,6 +4897,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "401 Mason St, San Francisco, CA 94102",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -4946,7 +4988,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-25-biscuits-and-blues-gamperdrums-presents-zinggflower",
@@ -5026,6 +5068,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5053,7 +5096,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-06-bistro-ensign-red",
@@ -5077,6 +5120,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4541 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5104,7 +5148,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-black-bird-bookstore-and-cafe-openmic-7-00pm",
@@ -5135,6 +5179,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "400 Eddy St, San Francisco, CA 94109",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -5252,7 +5297,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.604Z",
+        "lastImportedAt": "2026-06-06T20:52:47.968Z",
         "appearances": [
           {
             "eventId": "2026-05-27-black-cat-joe-warner-dante-and-8216-taz-roberson-michael-and-8216-tiny-lindsey-angelo-luster",
@@ -5297,6 +5342,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "544 Bryant St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5324,7 +5370,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-black-hammer-brewing-company-trivia-7-00pm",
@@ -5348,6 +5394,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "3201 Adeline St Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5375,7 +5422,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.975Z",
         "appearances": [
           {
             "eventId": "2026-06-02-black-repertory-group-theater-openmic-8-00pm",
@@ -5406,6 +5453,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2124 Market St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5433,7 +5481,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-blackbird-bar-trivia-7-00pm",
@@ -5457,6 +5505,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Redwood City",
       "region": "",
       "address": "2048 Broadway Redwood City CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5484,7 +5533,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-blacksmith-trivia-7-00pm",
@@ -5508,6 +5557,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5535,7 +5585,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-06-26-blue-laggon-manual-fade",
@@ -5566,6 +5616,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "923 Pacific Ave, Santa Cruz, CA 95060",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -5680,7 +5731,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.649Z",
+        "lastImportedAt": "2026-06-06T20:52:48.017Z",
         "appearances": [
           {
             "eventId": "2026-07-18-blue-lagoon-eldrith",
@@ -5711,6 +5762,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2072 University Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -5791,7 +5843,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-02-bobby-g-s-pizzeria-openmic-7-00pm",
@@ -5843,6 +5895,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "5039 Almaden Expy San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5870,7 +5923,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-05-bogey-s-pizza-poetry-6-00pm",
@@ -5894,6 +5947,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "47 Kearny St 4th Floor San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5921,7 +5975,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-book-club-of-california-book-8-00pm",
@@ -5945,6 +5999,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1875 S Bascom Ave #600 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -5972,7 +6027,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-books-inc-book-7-00pm",
@@ -5996,6 +6051,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -6016,7 +6072,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-27-boom-boom-room-no-mercy-band",
@@ -6089,6 +6145,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1740 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -6116,7 +6173,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-07-borderlands-books-book-8-00pm",
@@ -6140,6 +6197,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1233 17th St, San Francisco, CA 94107",
+      "imageUrl": "https://media.spacebase.com/img/spaces/7703/16487501_1439309606081599_6333266740927572190_o.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -6282,7 +6340,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.036Z",
         "appearances": [
           {
             "eventId": "2026-05-25-bottom-of-the-hill-ultrabomb-the-freak-accident",
@@ -6782,6 +6840,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1155 Grant Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -6809,7 +6868,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-05-bow-bow-cocktail-lounge-karaoke-9-00pm",
@@ -6833,6 +6892,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Campbell",
       "region": "",
       "address": "651 W Hamilton Ave Suite 1070 Campbell CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -6860,7 +6920,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.975Z",
         "appearances": [
           {
             "eventId": "2026-06-02-brew-city-grill-trivia-7-00pm",
@@ -6884,6 +6944,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -6904,7 +6965,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-02-brick-and-038-mortar-music-hall-daisy-grenade-vienna-vienna",
@@ -6938,6 +6999,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1710 Mission Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -7073,7 +7135,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.669Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-06-02-brick-and-mortar-daisy-grenade",
@@ -7230,6 +7292,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -7250,7 +7313,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-27-brick-and-mortar-music-hall-the-scratch-dug",
@@ -7330,6 +7393,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "581 5th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -7357,7 +7421,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-brix-581-openmic-10-00pm",
@@ -7388,6 +7452,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "Pier 39 Box M-211 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -7415,7 +7480,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.975Z",
         "appearances": [
           {
             "eventId": "2026-06-02-bubba-gump-shrimp-company-trivia-8-00pm",
@@ -7491,6 +7556,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1901 Union St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -7518,7 +7584,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-bus-stop-trivia-8-00pm",
@@ -7542,6 +7608,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "354 11th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -7569,7 +7636,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-butter-karaoke-9-00pm",
@@ -7593,6 +7660,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2174 Market St, San Francisco, CA 94114",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -7745,7 +7813,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.667Z",
+        "lastImportedAt": "2026-06-06T20:52:48.035Z",
         "appearances": [
           {
             "eventId": "2026-05-28-cafe-du-nord-austin-giorgio",
@@ -7846,6 +7914,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2040 Addison St, Berkeley, CA 94704",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/644ab50d4119dd44d15beaed/1685640019429-5M50WM6DIMKPA5HZ94YH/6c+Jazz+Cafe+and+Bar+California+Jazz+Conservatory.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -7955,7 +8024,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-03-california-jazz-conservatory-12-30pm-pedro-pastrana-on-puerto-rican-jazz",
@@ -8000,6 +8069,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -8027,7 +8097,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.864Z",
-        "lastImportedAt": "2026-06-05T23:55:11.653Z",
+        "lastImportedAt": "2026-06-06T20:52:48.021Z",
         "appearances": [
           {
             "eventId": "2026-06-05-california-theater-wreckless-strangers",
@@ -8058,6 +8128,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "7628 Pacific Ave Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -8085,7 +8156,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-02-caps-pizza-and-tap-house-openmic-8-00pm",
@@ -8123,6 +8194,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -8150,7 +8222,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-05T23:55:11.636Z",
+        "lastImportedAt": "2026-06-06T20:52:48.002Z",
         "appearances": [
           {
             "eventId": "2026-06-26-caravan-lazer-beam",
@@ -8174,6 +8246,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "South Bay",
       "address": "98 S Almaden Ave, San Jose, CA 95113",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -8293,7 +8366,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-05T23:55:11.632Z",
+        "lastImportedAt": "2026-06-06T20:52:47.998Z",
         "appearances": [
           {
             "eventId": "2026-06-18-caravan-lounge-emo-night-with-dj-wayne-o",
@@ -8317,6 +8390,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "114 N San Joaquin St Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -8344,7 +8418,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-cast-iron-trading-poetry-7-00pm",
@@ -8368,6 +8442,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -8397,7 +8472,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-06-02-castro-qveen-herby",
@@ -8612,6 +8687,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "429 Castro St, San Francisco, CA 94114",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -8770,7 +8846,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.035Z",
         "appearances": [
           {
             "eventId": "2026-05-29-castro-theater-inji",
@@ -8803,7 +8879,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-07-castro-theater-i-m-with-her-jordan-tice-joseph-terrell",
             "date": "2026-06-07",
-            "title": "I'm With Her / Jordan Tice / Joseph Terrell / Jordan Tice And Joseph Terrell",
+            "title": "Joseph Terrell / I'm With Her",
             "details": "I'm With Her, Jordan Tice, Joseph Terrell / a/a $54+ 6pm/7pm # (sold out)",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
@@ -8908,6 +8984,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "1011 Pacific Ave., Santa Cruz, CA 95060",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -9064,7 +9141,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.032Z",
         "appearances": [
           {
             "eventId": "2026-06-05-catalyst-the-hu",
@@ -9144,6 +9221,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -9173,7 +9251,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.656Z",
+        "lastImportedAt": "2026-06-06T20:52:48.024Z",
         "appearances": [
           {
             "eventId": "2026-06-12-catalyst-atrium-hunx-and-his-punx",
@@ -9211,6 +9289,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "3891 Piedmont Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -9238,7 +9317,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-cato-s-ale-house-trivia-7-30pm",
@@ -9262,6 +9341,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1300 Columbus Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -9289,7 +9369,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-cazbar-at-hotel-caza-trivia-7-00pm",
@@ -9313,6 +9393,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "55 Taylor St, San Francisco, CA 94102",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -9401,7 +9482,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-31-center-for-new-music-luminous-being",
@@ -9434,6 +9515,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "777 Valencia Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -9603,7 +9685,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-06-03-chapel-rostam",
@@ -9617,20 +9699,6 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-04",
             "title": "Martin Rev / Dagger Polyester / vj Divine Enfant / dj Omar Perez",
             "details": "a/a $37.11 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-chapel-jerry-s-middle-finger",
-            "date": "2026-06-05",
-            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
-            "details": "a/a 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-chapel-jerry-s-middle-finger",
-            "date": "2026-06-06",
-            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
-            "details": "a/a 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9998,6 +10066,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "57 Post St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10025,7 +10094,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-chess-club-mechanics-institute-chess-6-30pm",
@@ -10049,6 +10118,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Mountain View",
       "region": "",
       "address": "2672 Bayshore Pkwy Suite 610 Mountain View CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10076,7 +10146,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-chess-queen-s-club-chess-2-30pm",
@@ -10100,6 +10170,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "622 Green St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10127,7 +10198,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-chief-sullivan-s-trivia-7-00pm",
@@ -10151,6 +10222,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "38 S Second St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10178,7 +10250,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-chopsticks-alley-art-openmic-7-00pm",
@@ -10209,6 +10281,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10229,7 +10302,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-05-29-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
@@ -10256,7 +10329,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-06-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
             "date": "2026-06-06",
             "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
+            "details": "The Mis-Adventure of Short Sword and Long Bow delivers classic Dungeons & Dragons-style thrills—packed with oddball characters, unpredictable magic, and glorious mayhem.",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
@@ -10274,6 +10347,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10301,7 +10375,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.869Z",
-        "lastImportedAt": "2026-06-05T23:55:11.655Z",
+        "lastImportedAt": "2026-06-06T20:52:48.023Z",
         "appearances": [
           {
             "eventId": "2026-06-07-city-hall-ac-and-the-heatwave",
@@ -10367,6 +10441,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10394,7 +10469,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -10420,6 +10495,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "99 Grove St, San Francisco, CA 94102",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -10568,20 +10644,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.666Z",
+        "lastImportedAt": "2026-06-06T20:52:48.033Z",
         "appearances": [
           {
             "eventId": "2026-06-05-civic-auditorium-alesso",
             "date": "2026-06-05",
             "title": "Alesso / Joa / Sentinel",
-            "details": "18+ $78.15 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-civic-auditorium-louis-tomlinson",
-            "date": "2026-06-06",
-            "title": "Louis Tomlinson / The Aces",
-            "details": "a/a $88.45 6pm/7pm #",
+            "details": "18+ $78.15 7pm/8pm # / Alesso",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10662,6 +10731,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10689,7 +10759,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.637Z",
+        "lastImportedAt": "2026-06-06T20:52:48.002Z",
         "appearances": [
           {
             "eventId": "2026-06-27-civic-center-sf-pride",
@@ -10713,6 +10783,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10740,7 +10811,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.637Z",
+        "lastImportedAt": "2026-06-06T20:52:48.003Z",
         "appearances": [
           {
             "eventId": "2026-06-28-civic-center-and-market-street-parade-sf-pride",
@@ -10764,6 +10835,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "980 S 1st St Suite B San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10791,7 +10863,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-clandestine-brewing-trivia-7-00pm",
@@ -10815,6 +10887,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Clara",
       "region": "",
       "address": "2221 Tasman Dr Santa Clara CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -10842,7 +10915,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.613Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-clara-s-junction-trivia-6-30pm",
@@ -10866,6 +10939,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "499 Embarcadero building 7, Oakland, CA 94606",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -10950,7 +11024,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-classic-cars-west-karaoke-7-00pm",
@@ -10974,6 +11048,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "104 E Market St Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11001,7 +11076,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-coach-s-lounge-sports-bar-and-grill-poetry-8-00pm",
@@ -11025,6 +11100,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "915 Columbus Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11052,7 +11128,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-cobb-s-comedy-club-openmic-7-30pm",
@@ -11076,6 +11152,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "562 Green St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11103,7 +11180,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-columbus-cafe-openmic-9-30pm",
@@ -11127,6 +11204,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3111 Fillmore St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11154,7 +11232,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-04-comet-club-openmic-7-00pm",
@@ -11185,6 +11263,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Healdsburg",
       "region": "North Bay",
       "address": "1557 Healdsburg Ave, Healdsburg, CA 95448",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -11297,7 +11376,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-community-center-fields-spoon",
@@ -11495,6 +11574,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "100 Connecticut St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11522,7 +11602,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.979Z",
         "appearances": [
           {
             "eventId": "2026-06-03-connecticut-yankee-trivia-6-30pm",
@@ -11546,6 +11626,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4092 18th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11573,7 +11654,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-copper-bar-kitchen-and-microbrewery-trivia-7-00pm",
@@ -11597,6 +11678,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2367 Shattuck Ave., Berkeley, CA 94704",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -11717,7 +11799,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.666Z",
+        "lastImportedAt": "2026-06-06T20:52:48.034Z",
         "appearances": [
           {
             "eventId": "2026-05-28-cornerstone-being-as-an-ocean-lagrimas-commoner",
@@ -11772,15 +11854,8 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-07-cornerstone-sewerperson-autumndropsdead",
             "date": "2026-06-07",
             "title": "Sewerperson / autumndropsdead",
-            "details": "Sewerperson, autumndropsdead",
+            "details": "Sewerperson, autumndropsdead / a/a $28.29 7pm/8pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-cornerstone-sewerperson",
-            "date": "2026-06-07",
-            "title": "Sewerperson",
-            "details": "a/a $28.29 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-10-cornerstone-mihali",
@@ -11951,6 +12026,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Ramon",
       "region": "",
       "address": "7534 Blue Fox Way San Ramon CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -11978,7 +12054,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-country-club-elementary-school-chess-8-00pm",
@@ -12002,6 +12078,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Mateo",
       "region": "Peninsula",
       "address": "1346 Saratoga Drive, San Mateo, CA 94403",
+      "imageUrl": "",
       "phone": "(650) 574-3247",
       "recurringEvents": [],
       "geo": {
@@ -12124,7 +12201,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.864Z",
-        "lastImportedAt": "2026-06-05T23:55:11.631Z",
+        "lastImportedAt": "2026-06-06T20:52:47.995Z",
         "appearances": [
           {
             "eventId": "2026-06-05-county-fair-hinder-8pm",
@@ -12136,8 +12213,8 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-06-county-fair-gym-class-heroes-8pm",
             "date": "2026-06-06",
-            "title": "Gym Class Heroes (8pm) / Dog Park (6:30pm) / Croozer (3pm)",
-            "details": "a/a",
+            "title": "Gym Class Heroes / Dog Park / Croozer",
+            "details": "Gym Class Heroes (8pm) Dog Park (6:30pm) Croozer (3pm)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -12197,6 +12274,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -12224,7 +12302,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-05T23:55:11.666Z",
+        "lastImportedAt": "2026-06-06T20:52:48.034Z",
         "appearances": [
           {
             "eventId": "2026-06-12-cow-palace-gryffin",
@@ -12262,6 +12340,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "1134 Soquel Avenue",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -12450,7 +12529,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.036Z",
         "appearances": [
           {
             "eventId": "2026-06-05-crepe-place-cosmic-kitten",
@@ -12516,6 +12595,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -12550,7 +12630,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-06-05T23:55:11.635Z",
+        "lastImportedAt": "2026-06-06T20:52:48.001Z",
         "appearances": [
           {
             "eventId": "2026-05-28-crybaby-kranium",
@@ -12644,6 +12724,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "668 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -12671,7 +12752,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-danny-coyle-s-trivia-8-00pm",
@@ -12695,6 +12776,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -12724,7 +12806,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.637Z",
+        "lastImportedAt": "2026-06-06T20:52:48.002Z",
         "appearances": [
           {
             "eventId": "2026-06-20-danny-murry-s-iinarcs",
@@ -12755,6 +12837,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Concord",
       "region": "",
       "address": "2075 Diamond Blvd Ste. H180 Concord CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -12782,7 +12865,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-dave-and-buster-s-trivia-7-30pm",
@@ -12858,6 +12941,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "Davies Symphony Hall, 201 Van Ness Ave, San Francisco, CA 94102",
+      "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/1b/17/91/99/davies-symphony-hall.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -12942,7 +13026,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.660Z",
+        "lastImportedAt": "2026-06-06T20:52:48.028Z",
         "appearances": [
           {
             "eventId": "2026-05-29-davies-symphony-hall-ravel-and-music-of-the-americas",
@@ -13036,6 +13120,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13056,7 +13141,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-defremery-park-circus-bella",
@@ -13080,6 +13165,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "2206 Stagecoach Rd Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13107,7 +13193,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-delta-pacific-beverage-company-inc-trivia-7-00pm",
@@ -13131,6 +13217,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13158,7 +13245,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-06-05T23:55:11.659Z",
+        "lastImportedAt": "2026-06-06T20:52:48.026Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
@@ -13182,6 +13269,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "375 Eleventh Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -13337,7 +13425,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-05-25-dna-lounge-monday-night-hubba",
@@ -13403,6 +13491,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1095 Tennessee St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13430,7 +13519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-dogpatch-games-game-7-00pm",
@@ -13454,6 +13543,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2496 3rd St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13481,7 +13571,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-dogpatch-saloon-trivia-7-00pm",
@@ -13505,6 +13595,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "El Cerrito",
       "region": "East Bay",
       "address": "10341 San Pablo Ave, El Cerrito, CA 94530",
+      "imageUrl": "https://www.downhomemusic.com/wp-content/uploads/2024/12/cdbd99b8-6345-1b42-ea99-14a196a7deb9.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -13610,7 +13701,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.637Z",
+        "lastImportedAt": "2026-06-06T20:52:48.002Z",
         "appearances": [
           {
             "eventId": "2026-06-06-down-home-music-2pm-the-chuckleberries",
@@ -13629,8 +13720,8 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-07-down-home-music-san-kazakgascar",
             "date": "2026-06-07",
-            "title": "San Kazakgascar / 2pm San Kazakgascar",
-            "details": "a/a free 2pm / 2pm San Kazakgascar",
+            "title": "San Kazakgascar",
+            "details": "a/a free 2pm / San Kazakgascar",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -13676,6 +13767,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13703,7 +13795,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-05T23:55:11.641Z",
+        "lastImportedAt": "2026-06-06T20:52:48.006Z",
         "appearances": [
           {
             "eventId": "2026-07-11-drake-s-barrel-house-nixed",
@@ -13727,6 +13819,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2325 Broadway Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13754,7 +13847,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-drake-s-dealership-trivia-7-00pm",
@@ -13778,6 +13871,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2328 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13805,7 +13899,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-durty-nelly-s-trivia-9-00pm",
@@ -13829,6 +13923,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13856,7 +13951,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-05T23:55:11.651Z",
+        "lastImportedAt": "2026-06-06T20:52:48.018Z",
         "appearances": [
           {
             "eventId": "2026-06-11-eagle-no-captains",
@@ -13894,6 +13989,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "135 4th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13921,7 +14017,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-east-brother-beer-co-rec-room-trivia-7-00pm",
@@ -13945,6 +14041,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1102 E Santa Clara St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -13972,7 +14069,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-east-san-jose-carnegie-library-game-4-00pm",
@@ -13996,6 +14093,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Campbell",
       "region": "",
       "address": "331 W Hacienda Ave Campbell CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14023,7 +14121,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-effie-s-restaurant-and-bar-karaoke-8-00pm",
@@ -14047,6 +14145,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1327 Polk St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14074,7 +14173,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-el-lopo-trivia-7-30pm",
@@ -14098,6 +14197,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3158 Mission St, San Francisco, CA 94110",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -14213,7 +14313,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.636Z",
+        "lastImportedAt": "2026-06-06T20:52:48.001Z",
         "appearances": [
           {
             "eventId": "2026-05-25-el-rio-joe-rut-and-the-sunshine-shovelers-nashville-honeymoon-noelle-and-the-deserters-caravan-222",
@@ -14300,6 +14400,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14320,7 +14421,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-05-29-elbo-room-cali-agents-monk-hts-splash-alca-windstrong-yng-og-young-yay-dj-riddm-tiki10hunnit",
@@ -14365,6 +14466,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "311 Broadway Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14392,7 +14494,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.610Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-elbo-room-jack-london-openmic-8-00pm",
@@ -14423,6 +14525,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "3629 Martin Luther King Jr Way, Oakland, CA 94609",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -14550,7 +14653,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.642Z",
+        "lastImportedAt": "2026-06-06T20:52:48.009Z",
         "appearances": [
           {
             "eventId": "2026-06-19-eli-s-mile-high-club-vorlus",
@@ -14581,6 +14684,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "3629 Martin Luther King Jr Way, Oakland, CA 94609",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -14679,7 +14783,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-05-25-eli-s-mile-high-club-nate-bolden",
@@ -14752,6 +14856,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3200 16th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14779,7 +14884,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-elixir-trivia-7-00pm",
@@ -14803,6 +14908,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "616 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14830,7 +14936,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-01-emporium-arcade-bar-game-6-00pm",
@@ -14861,6 +14967,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "1231 W March Ln #6214 Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14888,7 +14995,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-empresso-coffeehouse-openmic-7-00pm",
@@ -14933,6 +15040,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1 Jose Sarria Ct San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -14960,7 +15068,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-01-eureka-valley-harvey-milk-memorial-branch-library-game-1-00pm",
@@ -14991,6 +15099,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1192 Folsom St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15018,7 +15127,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-f8-nightclub-and-bar-dance-9-30pm",
@@ -15042,6 +15151,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15069,7 +15179,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.645Z",
+        "lastImportedAt": "2026-06-06T20:52:48.012Z",
         "appearances": [
           {
             "eventId": "2026-07-25-faction-brewing-the-pandoras",
@@ -15093,6 +15203,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15120,7 +15231,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.645Z",
+        "lastImportedAt": "2026-06-06T20:52:48.012Z",
         "appearances": [
           {
             "eventId": "2026-07-25-fairgrounds-10-000-maniacs",
@@ -15144,6 +15255,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15171,7 +15283,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-05T23:55:11.654Z",
+        "lastImportedAt": "2026-06-06T20:52:48.021Z",
         "appearances": [
           {
             "eventId": "2026-07-17-felton-music-hall-hot-buttered-rum",
@@ -15209,6 +15321,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1825 Post St #210 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15236,7 +15349,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-festa-wine-and-cocktail-lounge-karaoke-karaoke-7-00pm",
@@ -15260,6 +15373,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Sunnyvale",
       "region": "",
       "address": "156 S Murphy Ave Sunnyvale CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15287,7 +15401,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-fibbar-magees-trivia-7-00pm",
@@ -15311,6 +15425,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "1160 6th St Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15338,7 +15453,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-fieldwork-brewing-company-trivia-7-00pm",
@@ -15362,6 +15477,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15389,7 +15505,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.994Z",
         "appearances": [
           {
             "eventId": "2026-06-13-fifty-s-liquor-merked",
@@ -15413,6 +15529,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1805 Geary Boulevard",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -15581,7 +15698,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-06-03-fillmore-kes",
@@ -15885,6 +16002,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "937 Cole St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -15912,7 +16030,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-finnegans-wake-trivia-7-30pm",
@@ -15987,6 +16105,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "1453 Webster St Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16023,7 +16142,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-05-30-fireside-lounge-travis-hayes",
@@ -16075,6 +16194,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16102,7 +16222,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-05-30-first-church-of-the-buzzard-leila-abdul-rauf-bat-noise-godgifu",
@@ -16133,6 +16253,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16160,7 +16281,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.994Z",
         "appearances": [
           {
             "eventId": "2026-06-13-first-congregational-calicos",
@@ -16184,6 +16305,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1854 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16211,7 +16333,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-fishbowl-bar-and-grill-trivia-7-30pm",
@@ -16235,6 +16357,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3805 Noriega St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16262,7 +16385,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-flanahan-s-pub-trivia-7-30pm",
@@ -16286,6 +16409,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "777 The Alameda San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16313,7 +16437,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-floodcraft-brewing-co-trivia-7-00pm",
@@ -16337,6 +16461,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "37349 Niles Blvd Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16364,7 +16489,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-florence-bar-openmic-7-00pm",
@@ -16395,6 +16520,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "762 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16422,7 +16548,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-fly-trivia-7-30pm",
@@ -16446,6 +16572,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "433 S Van Ness Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16473,7 +16600,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-flying-pig-bistro-pub-trivia-7-30pm",
@@ -16497,6 +16624,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1336 Saratoga Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16524,7 +16652,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-focus-karaoke-and-cafe-karaoke-6-00pm",
@@ -16548,6 +16676,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "1304 Lincoln Ave Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16575,7 +16704,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-forbidden-island-trivia-6-00pm",
@@ -16599,6 +16728,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -16626,7 +16756,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.646Z",
+        "lastImportedAt": "2026-06-06T20:52:48.013Z",
         "appearances": [
           {
             "eventId": "2026-07-24-forest-meadows-the-terrapin-family-band",
@@ -16716,6 +16846,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "1807 Telegraph Avenue, Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -16874,7 +17005,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-05-27-fox-theater-the-last-dinner-party-automatic",
@@ -17080,6 +17211,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17108,22 +17240,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-06-05T23:55:11.665Z",
+        "lastImportedAt": "2026-06-06T20:52:48.033Z",
         "appearances": [
-          {
-            "eventId": "2026-06-06-freight-booker-t-jones",
-            "date": "2026-06-06",
-            "title": "Booker T. Jones",
-            "details": "a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-freight-booker-t-jones",
-            "date": "2026-06-07",
-            "title": "Booker T. Jones",
-            "details": "a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-07-10-freight-pure-prairie-league",
             "date": "2026-07-10",
@@ -17174,6 +17292,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stanford, California",
       "region": "",
       "address": "351 Lasuen St, Stanford, CA 94305",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -17246,7 +17365,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-06-05T23:55:11.665Z",
+        "lastImportedAt": "2026-06-06T20:52:48.033Z",
         "appearances": [
           {
             "eventId": "2026-06-03-frost-amphitheater-paul-simon",
@@ -17312,6 +17431,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17339,7 +17459,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.899Z",
-        "lastImportedAt": "2026-06-05T23:55:11.652Z",
+        "lastImportedAt": "2026-06-06T20:52:48.020Z",
         "appearances": [
           {
             "eventId": "2026-08-21-fruit-yard-amphitheater-ty-myers",
@@ -17363,6 +17483,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Clara",
       "region": "",
       "address": "1350 Coleman Ave Santa Clara CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17390,7 +17511,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-game-kastle-game-6-00pm",
@@ -17414,6 +17535,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "3911 Washington Blvd Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17441,7 +17563,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-game-kastle-fremont-game-6-00pm",
@@ -17465,6 +17587,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "333 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17492,7 +17615,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-gamescape-game-7-00pm",
@@ -17516,6 +17639,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Rafael",
       "region": "",
       "address": "1225 4th St San Rafael CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17543,7 +17667,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-gamescape-north-game-6-00pm",
@@ -17567,6 +17691,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "410 14th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -17674,7 +17799,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-geoffrey-s-inner-circle-openmic-8-00pm",
@@ -17705,6 +17830,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1960 Adeline St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17732,7 +17858,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-ghost-town-brewing-trivia-7-00pm",
@@ -17756,6 +17882,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17783,7 +17910,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.899Z",
-        "lastImportedAt": "2026-06-05T23:55:11.652Z",
+        "lastImportedAt": "2026-06-06T20:52:48.020Z",
         "appearances": [
           {
             "eventId": "2026-08-21-giant-s-ball-park-noah-kaham",
@@ -17807,6 +17934,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -17834,7 +17962,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.878Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-06-20-giants-ballpark-fuerza-regida",
@@ -17860,6 +17988,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "California",
       "region": "East Bay",
       "address": "924 Gilman St, Berkeley, CA 94710",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/9f/5c/35/924-gilman.jpg?w=1200&h=1200&s=1",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -17991,7 +18120,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.658Z",
+        "lastImportedAt": "2026-06-06T20:52:48.026Z",
         "appearances": [
           {
             "eventId": "2026-06-03-gilman-dog-party",
@@ -18011,7 +18140,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-06-gilman-membership-meeting",
             "date": "2026-06-06",
             "title": "Membership Meeting",
-            "details": "a/a 4pm",
+            "details": "a/a 4pm. Meetings happen twice a month, every first and third Saturday of the month, before that night's concert or event. They are open to everyone. Anyone with a membership card is considered part of the Gilman street collective and can get involved in the operation of the club. These membership cards are sold at every concert are an required to get into the night's event. A membership card is valid for one year.",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -18176,6 +18305,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18203,7 +18333,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.032Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -18227,6 +18357,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "86 Hardie Pl San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18254,7 +18385,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-ginger-s-trivia-7-00pm",
@@ -18278,6 +18409,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2825 Diamond St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18305,7 +18437,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-02-glen-park-branch-library-book-8-00pm",
@@ -18336,6 +18468,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18356,7 +18489,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.969Z",
         "appearances": [
           {
             "eventId": "2026-05-31-golden-gate-park-bandshell-dub-mission-s-30th-anniversary-celebration",
@@ -18380,6 +18513,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1801 Green St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18407,7 +18541,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-01-golden-gate-valley-branch-library-book-8-00pm",
@@ -18438,6 +18572,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "37 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18465,7 +18600,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-good-karma-fine-ales-food-and-hifi-trivia-7-30pm",
@@ -18489,6 +18624,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "37 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18516,7 +18652,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-good-karma-fine-ales-food-hifi-poetry-6-00pm",
@@ -18540,6 +18676,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1072 Lincoln Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18567,7 +18704,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-goosetown-lounge-karaoke-9-30pm",
@@ -18591,6 +18728,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18618,7 +18756,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.869Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-gouth-street-stage-the-hyperdrive-kittens",
@@ -18642,6 +18780,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Walnut Creek",
       "region": "",
       "address": "2100 Tice Valley Blvd Walnut Creek CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18669,7 +18808,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-grace-presbyterian-church-chess-8-00pm",
@@ -18693,6 +18832,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "990 Meridian Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -18720,7 +18860,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-grateful-gardens-poetry-8-00pm",
@@ -18744,6 +18884,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2665 Mission St, San Francisco, CA 94110",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -18870,7 +19011,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.663Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-05-29-gray-area-after-thought",
@@ -18922,6 +19063,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "859 O'Farrell St, San Francisco, CA 94109",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -19090,7 +19232,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-05-27-great-american-music-hall-sleepytime-gorilla-museum-inner-ear-brigade-lunar-mistake",
@@ -19408,6 +19550,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -19435,7 +19578,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.994Z",
         "appearances": [
           {
             "eventId": "2026-06-13-great-northern-takuya-nakamura",
@@ -19459,6 +19602,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "Hearst Greek Theatre, 2001 Gayley Rd, Berkeley, CA 94720",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -19630,7 +19774,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.665Z",
+        "lastImportedAt": "2026-06-06T20:52:48.032Z",
         "appearances": [
           {
             "eventId": "2026-05-29-greek-theatre-alabama-shakes-nathaniel-rateliff",
@@ -19829,6 +19973,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "4055 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -19856,7 +20001,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-groundfloor-openmic-6-30pm",
@@ -19887,6 +20032,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "3210 Pacific Ave Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -19914,7 +20060,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-01-groundstack-coffee-openmic-6-30pm",
@@ -19952,6 +20098,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Menlo Park",
       "region": "Peninsula",
       "address": "949 El Camino Real, Menlo Park, CA 94025",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -20080,7 +20227,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-05T23:55:11.667Z",
+        "lastImportedAt": "2026-06-06T20:52:48.035Z",
         "appearances": [
           {
             "eventId": "2026-06-13-guild-theater-dogs-in-a-pile",
@@ -20118,6 +20265,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "420 First St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20145,7 +20293,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-guildhouse-game-7-00pm",
@@ -20169,6 +20317,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20196,7 +20345,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.897Z",
-        "lastImportedAt": "2026-06-05T23:55:11.652Z",
+        "lastImportedAt": "2026-06-06T20:52:48.019Z",
         "appearances": [
           {
             "eventId": "2026-08-12-gundlach-bundschu-winery-beach-bunny-and-the-beths",
@@ -20227,6 +20376,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Half Moon Bay",
       "region": "",
       "address": "390 Capistrano Rd Half Moon Bay CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20254,7 +20404,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-half-moon-bay-brewing-company-trivia-7-00pm",
@@ -20278,6 +20428,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20305,7 +20456,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.852Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.976Z",
         "appearances": [
           {
             "eventId": "2026-06-02-hammer-theater-center-amper-and-one",
@@ -20329,6 +20480,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "460 Lincoln Ave #90 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20356,7 +20508,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-hapa-s-brewing-company-trivia-7-00pm",
@@ -20380,6 +20532,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Palo Alto",
       "region": "",
       "address": "3916 El Camino Real Palo Alto CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20407,7 +20560,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-happy-donuts-chess-8-00pm",
@@ -20431,6 +20584,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "7 Warriors Wy Suite 206 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20458,7 +20612,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-harmonic-brewing-thrive-city-trivia-6-00pm",
@@ -20482,6 +20636,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2020 Fillmore St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20509,7 +20664,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-harry-s-bar-sf-trivia-7-00pm",
@@ -20533,6 +20688,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Menlo Park",
       "region": "",
       "address": "1925 Menalto Ave Menlo Park CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20560,7 +20716,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-haven-wine-and-cheese-trivia-6-00pm",
@@ -20584,6 +20740,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20604,7 +20761,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-henry-j-kaiser-apocalyptica-metallica-tribute",
@@ -20628,6 +20785,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "10 10th St, Oakland, CA 94607",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -20784,7 +20942,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-06-03-henry-j-kaiser-center-apocalyptica",
@@ -20822,6 +20980,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "2600 Durant Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20849,7 +21008,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-henry-s-bar-and-restaurant-trivia-7-00pm",
@@ -20873,6 +21032,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2247 Market St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -20900,7 +21060,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-hi-tops-trivia-8-00pm",
@@ -20976,6 +21136,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1135 Powell St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21003,7 +21164,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-him-mark-lai-branch-library-game-1-00pm",
@@ -21027,6 +21188,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "Pacific Hotel Building San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21054,7 +21216,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-history-san-jose-poetry-6-30pm",
@@ -21078,6 +21240,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Cupertino",
       "region": "",
       "address": "20990 Homestead Rd Cupertino CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21105,7 +21268,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-homestead-bowl-karaoke-8-00pm",
@@ -21129,6 +21292,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1435 The Alameda San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21156,7 +21320,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.614Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-hop-and-vine-trivia-7-00pm",
@@ -21180,6 +21344,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21207,7 +21372,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-05T23:55:11.641Z",
+        "lastImportedAt": "2026-06-06T20:52:48.007Z",
         "appearances": [
           {
             "eventId": "2026-07-10-hopmonk-white-denim",
@@ -21238,6 +21403,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Novato",
       "region": "North Bay",
       "address": "224 Vintage Way",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -21377,7 +21543,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-06-02-hopmonk-tavern-san-marin-high-school-rock-bands",
@@ -21709,6 +21875,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21736,7 +21903,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-05T23:55:11.649Z",
+        "lastImportedAt": "2026-06-06T20:52:48.017Z",
         "appearances": [
           {
             "eventId": "2026-08-08-hopmonk-tavern-novato-the-beat-farmers",
@@ -21760,6 +21927,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21787,7 +21955,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-05-25-hotel-utah-open-mic",
@@ -21874,6 +22042,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "2350 Saratoga St #164 Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -21901,7 +22070,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.980Z",
         "appearances": [
           {
             "eventId": "2026-06-03-humble-sea-brewing-co-alameda-point-trivia-6-00pm",
@@ -21927,6 +22096,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "628 Divisadero St, San Francisco, CA 94117",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -22090,7 +22260,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-06-02-independent-bixby",
@@ -22110,7 +22280,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-07-independent-agent-orange",
             "date": "2026-06-07",
             "title": "Agent Orange / The Drowns",
-            "details": "21+ $31.55 7:30pm/8pm @",
+            "details": "21+ $31.55 7:30pm/8pm @ / Agent Orange, The Drowns",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22394,6 +22564,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3920 Geary Blvd San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -22421,7 +22592,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-ireland-s-32-openmic-9-00pm",
@@ -22452,6 +22623,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "225 E Santa Clara St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -22479,7 +22651,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-island-taste-caribbean-grill-trivia-7-00pm",
@@ -22503,6 +22675,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "4920 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -22616,7 +22789,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-it-s-your-move-games-game-6-00pm",
@@ -22640,6 +22813,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "860 San Pablo Ave, Albany, CA 94706",
+      "imageUrl": "https://www.bayimproviser.com/images/venue/195/profile_IvyRoom_IMG_2665.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -22764,7 +22938,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.669Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-05-25-ivy-room-e-s-c-gigas-fist-eaten-by-insects-diablura",
@@ -22860,7 +23034,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-07-ivy-room-the-montvales-creekbed-carter-hogan",
             "date": "2026-06-07",
-            "title": "The Montvales / Creekbed Carter Hogan / The Montvales (album release) / Creekbed Carter Hogan (album release)",
+            "title": "The Montvales / Creekbed Carter Hogan",
             "details": "The Montvales, Creekbed Carter Hogan / 21+ $20 6pm/7pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
@@ -23096,6 +23270,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "3153 Meridian Ave #20 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23123,7 +23298,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-jack-holders-restaurant-and-bar-trivia-6-30pm",
@@ -23147,6 +23322,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "472 Water St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23174,7 +23350,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-jack-london-square-game-7-00pm",
@@ -23198,6 +23374,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "167 E Taylor St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23225,7 +23402,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-jack-s-trivia-7-00pm",
@@ -23249,6 +23426,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1092 Post St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23276,7 +23454,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-jackalope-trivia-8-00pm",
@@ -23300,6 +23478,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "4390 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -23368,7 +23547,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.620Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-jaguar-karaoke-oakland-karaoke-7-00pm",
@@ -23392,6 +23571,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "396 Keyes St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23419,7 +23599,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-javi-s-keyes-club-openmic-8-00pm",
@@ -23500,6 +23680,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23527,7 +23708,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-05T23:55:11.642Z",
+        "lastImportedAt": "2026-06-06T20:52:48.009Z",
         "appearances": [
           {
             "eventId": "2026-07-15-juction-beer-garden-hot-buttered-rum",
@@ -23551,6 +23732,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2181 Shattuck Ave., Berkeley, CA 94704",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -23640,7 +23822,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-05-27-jupiter-cjc-jazz-jam-wednesdays",
@@ -23699,6 +23881,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "712 Ocean St, Santa Cruz, CA 95060",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -23783,7 +23966,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-05T23:55:11.651Z",
+        "lastImportedAt": "2026-06-06T20:52:48.019Z",
         "appearances": [
           {
             "eventId": "2026-06-07-jury-room-witch-ripper",
@@ -23856,6 +24039,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "870 Taraval St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23883,7 +24067,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-k-time-karaoke-karaoke-7-00pm",
@@ -23907,6 +24091,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1355 Taraval St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23934,7 +24119,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-karl-s-beacon-trivia-8-00pm",
@@ -23958,6 +24143,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Campbell",
       "region": "",
       "address": "369 E Campbell Ave Campbell CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -23985,7 +24171,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-katie-bloom-s-trivia-7-00pm",
@@ -24009,6 +24195,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3160 16th St, San Francisco, CA 94103",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -24120,7 +24307,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.669Z",
+        "lastImportedAt": "2026-06-06T20:52:48.036Z",
         "appearances": [
           {
             "eventId": "2026-05-28-kilowatt-mint-field-figure-eight",
@@ -24181,14 +24368,14 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-06-kilowatt-cuva-bimo",
             "date": "2026-06-06",
-            "title": "Cuva Bimo / A Murder For Crows / Little Oil / 1pm Cuva Bimö",
+            "title": "Cuva Bimo / A Murder For Crows / Little Oil",
             "details": "21+ free 1pm / 1pm Cuva Bimö, A Murder For Crows, Little Oil",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-07-kilowatt-bonecrown",
             "date": "2026-06-07",
-            "title": "Eaten By Insets / Bonecrown / PosthumanX / Viscelator / Diablura / 1pm Bonecrown / Eaten By Insects",
+            "title": "Eaten By Insects / Bonecrown / PosthumanX / Viscelator / Diablura",
             "details": "21+ free 1pm / 1pm Bonecrown, PosthumanX, Viscelator, Eaten By Insects, Diablura",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -24487,6 +24674,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3160 16th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -24514,7 +24702,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-kilowatt-bar-karaoke-9-00pm",
@@ -24538,6 +24726,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1951 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -24565,7 +24754,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-kinfolx-openmic-6-00pm",
@@ -24596,6 +24785,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3223 Mission Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -24701,7 +24891,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.645Z",
+        "lastImportedAt": "2026-06-06T20:52:48.012Z",
         "appearances": [
           {
             "eventId": "2026-05-26-knockout-more-ephemeral-pink-stiletto-mutant",
@@ -25019,6 +25209,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25046,7 +25237,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-05T23:55:11.648Z",
+        "lastImportedAt": "2026-06-06T20:52:48.015Z",
         "appearances": [
           {
             "eventId": "2026-06-12-knot-club-ben-morrison",
@@ -25077,6 +25268,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "32 3rd St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25104,7 +25296,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-kona-s-trivia-6-00pm",
@@ -25128,6 +25320,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1548 Polk St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25155,7 +25348,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-kozy-kar-trivia-8-00pm",
@@ -25179,6 +25372,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "4250 Piedmont Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25206,7 +25400,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-la-loulou-trivia-6-30pm",
@@ -25281,6 +25475,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "957 Columbus Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25308,7 +25503,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-la-roccas-corner-openmic-10-00pm",
@@ -25384,6 +25579,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25411,7 +25607,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.890Z",
-        "lastImportedAt": "2026-06-05T23:55:11.644Z",
+        "lastImportedAt": "2026-06-06T20:52:48.011Z",
         "appearances": [
           {
             "eventId": "2026-07-22-lane-splitters-pizza-sleeepers-a-d",
@@ -25435,6 +25631,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "718 14th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25462,7 +25659,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-last-rites-trivia-7-00pm",
@@ -25486,6 +25683,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1439 Egbert Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25513,7 +25711,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-02-laughing-monk-brewing-openmic-7-30pm",
@@ -25544,6 +25742,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "5075 3rd St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25571,7 +25770,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-linda-brooks-burton-branch-library-game-10-00am",
@@ -25595,6 +25794,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "El Cerrito",
       "region": "East Bay",
       "address": "10753 San Pablo Ave, El Cerrito, CA 94530",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -25689,7 +25889,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.622Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-05-25-little-hill-lounge-suns-of-mothers-josh-lippi-dj-poindexter",
@@ -25741,6 +25941,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "90 S Second St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25768,7 +25969,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-loft-bar-and-bistro-trivia-7-00pm",
@@ -25792,6 +25993,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1354 Harrison St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25819,7 +26021,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.970Z",
         "appearances": [
           {
             "eventId": "2026-06-01-lone-star-saloon-trivia-7-00pm",
@@ -25843,6 +26045,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2040 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25870,7 +26073,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-lost-and-found-beer-garden-trivia-7-00pm",
@@ -25894,6 +26097,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1439 Taraval St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -25921,7 +26125,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-lost-and-found-cocktail-bar-trivia-7-00pm",
@@ -25945,6 +26149,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "988 Columbus Avenue",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -26026,7 +26231,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:48.000Z",
         "appearances": [
           {
             "eventId": "2026-06-20-lost-church-nightjars",
@@ -26050,6 +26255,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "823 Clement St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26077,7 +26283,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-lost-marbles-brewery-trivia-7-00pm",
@@ -26101,6 +26307,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26128,7 +26335,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.876Z",
-        "lastImportedAt": "2026-06-05T23:55:11.633Z",
+        "lastImportedAt": "2026-06-06T20:52:47.998Z",
         "appearances": [
           {
             "eventId": "2026-06-18-lot-andre-thierry-accordion",
@@ -26152,6 +26359,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "3411 MacArthur Blvd Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -26221,7 +26429,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-lounge-3411-openmic-9-00pm",
@@ -26297,6 +26505,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "1301 Park St Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26324,7 +26533,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-lucky-13-trivia-8-00pm",
@@ -26348,6 +26557,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26375,7 +26585,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.853Z",
-        "lastImportedAt": "2026-06-05T23:55:11.656Z",
+        "lastImportedAt": "2026-06-06T20:52:48.023Z",
         "appearances": [
           {
             "eventId": "2026-06-02-luther-burbank-center-ellie-james-and-the-electric-dream",
@@ -26413,6 +26623,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26440,7 +26651,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.633Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-05-26-mabuhay-gardens-major-accident-monster-squad-ultra-sect-cross-checked",
@@ -26513,6 +26724,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26540,7 +26752,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-05T23:55:11.646Z",
+        "lastImportedAt": "2026-06-06T20:52:48.013Z",
         "appearances": [
           {
             "eventId": "2026-07-25-mabuhay-gardens-and-on-broadway-leestock",
@@ -26564,6 +26776,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1568 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26591,7 +26804,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mad-dog-in-the-fog-trivia-8-15pm",
@@ -26615,6 +26828,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "135 12th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26642,7 +26856,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mad-oak-bar-n-yard-trivia-7-00pm",
@@ -26666,6 +26880,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1398 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26693,7 +26908,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-magnolia-brewing-trivia-7-00pm",
@@ -26717,6 +26932,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "100 Larkin St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26744,7 +26960,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-05T23:55:11.624Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-main-library-game-12-00pm",
@@ -26768,6 +26984,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "",
       "address": "49A Municipal Wharf Santa Cruz CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -26795,7 +27012,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-makai-island-kitchen-and-groggery-trivia-7-00pm",
@@ -26819,6 +27036,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "3225 22nd St, San Francisco, CA 94110",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -26912,7 +27130,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.638Z",
+        "lastImportedAt": "2026-06-06T20:52:48.003Z",
         "appearances": [
           {
             "eventId": "2026-05-26-make-out-room-sad-bastard-club",
@@ -26992,6 +27210,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Vallejo",
       "region": "",
       "address": "850 Nimitz Ave Vallejo CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27019,7 +27238,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mare-island-brewing-co-coal-shed-brewery-trivia-6-30pm",
@@ -27043,6 +27262,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1890 Chestnut St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27070,7 +27290,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-01-marina-branch-library-game-10-00am",
@@ -27101,6 +27321,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27121,7 +27342,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-05-27-marsh-cabaret-randy-craig-and-friends",
@@ -27152,6 +27373,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4 Valencia St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27179,7 +27401,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-martuni-s-openmic-9-00pm",
@@ -27203,6 +27425,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1111 California St, San Francisco, CA 94108",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -27318,7 +27541,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.038Z",
         "appearances": [
           {
             "eventId": "2026-06-05-masonic-the-kid-laroi-tommy-richman-whizthemc",
@@ -27580,6 +27803,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1233 Polk St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27607,7 +27831,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.986Z",
         "appearances": [
           {
             "eventId": "2026-06-05-mayes-oyster-house-openmic-7-00pm",
@@ -27631,6 +27855,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "",
       "address": "1645 Park St Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27658,7 +27883,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-mcgee-s-trivia-6-30pm",
@@ -27682,6 +27907,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "401 2nd St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27709,7 +27935,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-merchants-saloon-karaoke-8-00pm",
@@ -27733,6 +27959,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -27760,7 +27987,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.666Z",
+        "lastImportedAt": "2026-06-06T20:52:48.034Z",
         "appearances": [
           {
             "eventId": "2026-06-14-meritage-resort-brit-floyd",
@@ -28063,6 +28290,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4067 18th St #2535 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28090,7 +28318,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-midnight-sun-karaoke-9-00pm",
@@ -28114,6 +28342,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28141,7 +28370,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -28165,6 +28394,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "5837 Camden Ave F San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28192,7 +28422,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-mike-s-place-openmic-8-00pm",
@@ -28223,6 +28453,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "6002 Pacific Ave Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28250,7 +28481,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-mimosas-social-club-trivia-7-00pm",
@@ -28274,6 +28505,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "960 4th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28301,7 +28533,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-mission-bay-branch-library-game-10-00am",
@@ -28325,6 +28557,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3176 17th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28352,7 +28585,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mission-bowling-club-trivia-7-00pm",
@@ -28376,6 +28609,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1234 Valencia St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28403,7 +28637,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-mission-branch-library-game-10-00am",
@@ -28427,6 +28661,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "1572 Washington Blvd Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28454,7 +28689,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mission-pizza-and-pub-trivia-7-00pm",
@@ -28492,6 +28727,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1035 S Winchester Blvd San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28519,7 +28755,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-mizu-sushi-bar-and-grill-trivia-7-00pm",
@@ -28543,6 +28779,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "1535 Commercial Wy, Santa Cruz, CA 95065",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -28645,7 +28882,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-06-05-moe-s-alley-agent-orange",
@@ -28711,6 +28948,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1655 Mission Rd # 6 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28738,7 +28976,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-molloy-s-tavern-trivia-7-30pm",
@@ -28762,6 +29000,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3243 Pierce St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28789,7 +29028,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-monaghan-s-bar-trivia-8-00pm",
@@ -28813,6 +29052,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "211 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28840,7 +29080,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-mosaic-restaurant-openmic-9-00pm",
@@ -28864,6 +29104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28891,7 +29132,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-05T23:55:11.644Z",
+        "lastImportedAt": "2026-06-06T20:52:48.011Z",
         "appearances": [
           {
             "eventId": "2026-07-17-mosswood-park-pavement",
@@ -28929,6 +29170,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3152 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -28956,7 +29198,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-mothership-bar-karaoke-7-00pm",
@@ -28980,6 +29222,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Saratoga",
       "region": "South Bay",
       "address": "14831 Pierce Rd, Saratoga, CA 95070",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -29100,7 +29343,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.667Z",
+        "lastImportedAt": "2026-06-06T20:52:48.034Z",
         "appearances": [
           {
             "eventId": "2026-06-02-mountain-winery-yacht-rock-revue",
@@ -29607,6 +29850,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2225 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -29634,7 +29878,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-moxy-oakland-downtown-trivia-7-00pm",
@@ -29658,6 +29902,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -29685,7 +29930,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-06-05T23:55:11.666Z",
+        "lastImportedAt": "2026-06-06T20:52:48.034Z",
         "appearances": [
           {
             "eventId": "2026-07-06-music-hall-dj-stefan-aronsen",
@@ -29716,6 +29961,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "152 Post St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -29743,7 +29989,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-myth-lounge-karaoke-9-00pm",
@@ -29767,6 +30013,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3200 24th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -29794,7 +30041,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-napper-tandy-trivia-7-00pm",
@@ -29818,6 +30065,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "101 E Alma Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -29845,7 +30093,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-narrative-fermentations-trivia-7-00pm",
@@ -29869,6 +30117,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "406 Clement St, San Francisco, CA 94118",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -29988,7 +30237,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.655Z",
+        "lastImportedAt": "2026-06-06T20:52:48.023Z",
         "appearances": [
           {
             "eventId": "2026-05-25-neck-of-the-woods-salsa-crazy-mondays",
@@ -30099,7 +30348,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-06-neck-of-the-woods-california-kicks-see-jun-7th-for-list-of-bands",
             "date": "2026-06-06",
             "title": "California Kicks - see jun 7th for list of bands",
-            "details": "a/a $40 ($65 2 day pass) 4pm/5pm",
+            "details": "a/a $40 ($65 2 day pass) 4pm/5pm see jun 7th for list of bands",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -30278,6 +30527,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30305,7 +30555,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-06-05T23:55:11.633Z",
+        "lastImportedAt": "2026-06-06T20:52:47.999Z",
         "appearances": [
           {
             "eventId": "2026-06-19-new-farm-three-reefs-deep",
@@ -30329,6 +30579,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Pacifica",
       "region": "",
       "address": "1125 Terra Nova Blvd Pacifica CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30356,7 +30607,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-new-life-christian-fellowship-chess-8-00pm",
@@ -30380,6 +30631,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "570 Green St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30407,7 +30659,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-next-door-north-beach-trivia-7-30pm",
@@ -30431,6 +30683,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "466 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30458,7 +30711,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-nickie-s-trivia-7-00pm",
@@ -30541,6 +30794,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "150 E San Fernando St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30568,7 +30822,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-nirvana-soul-cafe-poetry-7-00pm",
@@ -30592,6 +30846,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30619,7 +30874,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.639Z",
+        "lastImportedAt": "2026-06-06T20:52:48.004Z",
         "appearances": [
           {
             "eventId": "2026-06-06-noble-cinema-studios-dread",
@@ -30650,6 +30905,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "850 Columbus Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30677,7 +30933,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-north-beach-branch-library-game-10-00am",
@@ -30701,6 +30957,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "532 8th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30728,7 +30985,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-nosso-trivia-7-00pm",
@@ -30752,6 +31009,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "25 N San Pedro St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30779,7 +31037,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-o-flaherty-s-irish-pub-trivia-7-00pm",
@@ -30803,6 +31061,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Mateo",
       "region": "",
       "address": "34 S B St San Mateo CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30830,7 +31089,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-o-neills-irish-pub-trivia-7-00pm",
@@ -30854,6 +31113,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1840 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -30881,7 +31141,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-o-reilly-s-pub-trivia-7-00pm",
@@ -30908,6 +31168,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "7000 S Coliseum Wy, Oakland, CA 94621",
+      "imageUrl": "https://www.theoaklandarena.com/assets/img/FYFWGhpl-f8c2c14390.jpeg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -31066,7 +31327,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.428Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-oakland-arena-ariana-grande",
@@ -31090,6 +31351,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "125 14th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31117,7 +31379,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.611Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-oakland-public-library-game-5-00pm",
@@ -31141,6 +31403,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31168,7 +31431,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.878Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:48.000Z",
         "appearances": [
           {
             "eventId": "2026-06-20-oakland-secret-gallery-lost-objects",
@@ -31192,6 +31455,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "262 2nd St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31219,7 +31483,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.056Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-oakland-united-beerworks-trivia-3-00pm",
@@ -31243,6 +31507,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1314 Ocean Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31277,7 +31542,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.627Z",
+        "lastImportedAt": "2026-06-06T20:52:47.992Z",
         "appearances": [
           {
             "eventId": "2026-06-04-ocean-ale-house-trivia-8-00pm",
@@ -31308,6 +31573,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31335,7 +31601,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.655Z",
+        "lastImportedAt": "2026-06-06T20:52:48.023Z",
         "appearances": [
           {
             "eventId": "2026-07-17-old-princeton-landing-jerry-s-middle-finger",
@@ -31380,6 +31646,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1519 Polk St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31407,7 +31674,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-ora-wine-bar-trivia-7-00pm",
@@ -31431,6 +31698,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31451,7 +31719,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.420Z",
-        "lastImportedAt": "2026-06-05T23:55:11.604Z",
+        "lastImportedAt": "2026-06-06T20:52:47.968Z",
         "appearances": [
           {
             "eventId": "2026-05-30-orchard-galleries-oakland-art-murmur-20th-anniversary-party",
@@ -31475,6 +31743,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "292 4th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31502,7 +31771,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-original-pattern-brewing-company-trivia-7-00pm",
@@ -31526,6 +31795,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2455 Broadway Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31553,7 +31823,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-otto-s-uptown-kitchen-lobby-restaurant-trivia-7-30pm",
@@ -31577,6 +31847,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31604,7 +31875,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-05T23:55:11.650Z",
+        "lastImportedAt": "2026-06-06T20:52:48.018Z",
         "appearances": [
           {
             "eventId": "2026-08-07-outside-lands-charli-xcx",
@@ -31642,6 +31913,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31669,7 +31941,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-06-05T23:55:11.660Z",
+        "lastImportedAt": "2026-06-06T20:52:48.028Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -31693,6 +31965,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31720,7 +31993,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.036Z",
         "appearances": [
           {
             "eventId": "2026-06-11-palace-of-fine-arts-bruce-hornsby-and-the-noisemakers",
@@ -31758,6 +32031,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2032 Union St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31785,7 +32059,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-palm-house-trivia-7-00pm",
@@ -31809,6 +32083,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "50 Mason St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31836,7 +32111,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-01-pandora-karaoke-and-bar-karaoke-8-00pm",
@@ -31867,6 +32142,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31894,7 +32170,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-06-05T23:55:11.658Z",
+        "lastImportedAt": "2026-06-06T20:52:48.026Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
@@ -31918,6 +32194,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "5152 Moorpark Ave #20 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -31945,7 +32222,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-park-lane-lounge-openmic-8-00pm",
@@ -32021,6 +32298,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2 Embarcadero Ctr 3rd floor San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32048,7 +32326,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.615Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-patriot-house-pub-trivia-6-00pm",
@@ -32072,6 +32350,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "4239 Park Blvd Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32099,7 +32378,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.981Z",
         "appearances": [
           {
             "eventId": "2026-06-03-paulista-brazilian-cafe-kitchen-and-taproom-trivia-7-00pm",
@@ -32182,6 +32461,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Concord",
       "region": "East Bay",
       "address": "2000 Kirker Pass Road",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -32299,7 +32579,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-05T23:55:11.659Z",
+        "lastImportedAt": "2026-06-06T20:52:48.027Z",
         "appearances": [
           {
             "eventId": "2026-07-24-pavilion-jimmy-eat-world",
@@ -32351,6 +32631,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32378,7 +32659,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-05T23:55:11.627Z",
+        "lastImportedAt": "2026-06-06T20:52:47.992Z",
         "appearances": [
           {
             "eventId": "2026-06-11-peacock-lounge-bob-ostertag",
@@ -32402,6 +32683,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "555 12th St #120 Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32429,7 +32711,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-penelope-openmic-8-00pm",
@@ -32453,6 +32735,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Petaluma",
       "region": "",
       "address": "211 Novak Dr Petaluma CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32480,7 +32763,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-petaluma-senior-center-chess-12-30pm",
@@ -32504,6 +32787,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Petaluma",
       "region": "North Bay",
       "address": "201 Washington St, Petaluma, CA 94952",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -32620,7 +32904,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.653Z",
+        "lastImportedAt": "2026-06-06T20:52:48.021Z",
         "appearances": [
           {
             "eventId": "2026-06-06-phoenix-theater-scribe",
@@ -32707,6 +32991,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32734,7 +33019,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-06-05T23:55:11.660Z",
+        "lastImportedAt": "2026-06-06T20:52:48.028Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
@@ -32765,6 +33050,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Mateo",
       "region": "",
       "address": "36 Hillsdale Mall San Mateo CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32792,7 +33078,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-pinstripes-trivia-6-00pm",
@@ -32866,6 +33152,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4207 Judah St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32893,7 +33180,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.977Z",
         "appearances": [
           {
             "eventId": "2026-06-02-pitt-s-pub-trivia-7-00pm",
@@ -32917,6 +33204,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "98 Broadway Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32944,7 +33232,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-plank-trivia-7-00pm",
@@ -32968,6 +33256,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -32997,7 +33286,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-05T23:55:11.631Z",
+        "lastImportedAt": "2026-06-06T20:52:47.997Z",
         "appearances": [
           {
             "eventId": "2026-05-30-point-san-pablo-harbor-sean-hayes-conspiracy-of-beards",
@@ -33028,6 +33317,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2800 24th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33055,7 +33345,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-pop-s-bar-trivia-7-30pm",
@@ -33079,6 +33369,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1611 2nd Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33106,7 +33397,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-portal-trivia-7-00pm",
@@ -33130,6 +33421,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "988 Market St, San Francisco, CA 94102",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -33227,7 +33519,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.428Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.988Z",
         "appearances": [
           {
             "eventId": "2026-06-06-psyched-radio-cosmic-kitten-buzzed-lightbeer-strange-men-fatale",
@@ -33251,6 +33543,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33271,7 +33564,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.604Z",
+        "lastImportedAt": "2026-06-06T20:52:47.968Z",
         "appearances": [
           {
             "eventId": "2026-05-27-public-works-art-battle-san-francisco",
@@ -33316,6 +33609,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "444 Battery St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33343,7 +33637,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-punch-line-sf-poetry-7-30pm",
@@ -33367,6 +33661,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33394,7 +33689,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.884Z",
-        "lastImportedAt": "2026-06-05T23:55:11.639Z",
+        "lastImportedAt": "2026-06-06T20:52:48.005Z",
         "appearances": [
           {
             "eventId": "2026-06-28-pussy-palace-altar-de-fey",
@@ -33425,6 +33720,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33452,7 +33748,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-06-05T23:55:11.648Z",
+        "lastImportedAt": "2026-06-06T20:52:48.015Z",
         "appearances": [
           {
             "eventId": "2026-08-01-quarry-amphitheater-joe-russo-s-almost-dead-tribute",
@@ -33476,6 +33772,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "381 15th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33503,7 +33800,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-que-rico-nightclub-dance-7-00pm",
@@ -33527,6 +33824,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "312 Harriet St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33554,7 +33852,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-question-mark-bar-trivia-7-00pm",
@@ -33578,6 +33876,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "37713 Niles Blvd Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33605,7 +33904,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-rae-rae-s-at-joe-s-corner-trivia-7-00pm",
@@ -33629,6 +33928,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "2017 University Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33656,7 +33956,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-red-tomato-pizza-house-trivia-7-00pm",
@@ -33680,6 +33980,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -33707,7 +34008,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.993Z",
         "appearances": [
           {
             "eventId": "2026-06-12-redwood-cafe-new-copasetics",
@@ -33731,6 +34032,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1300 Van Ness Ave, San Francisco, CA 94109",
+      "imageUrl": "https://storage.googleapis.com/cms-org.media.aegpresents.com/venue-rentals/venues/regency-ballroom/medium/medium_09.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -33845,7 +34147,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-05-29-regency-ballroom-arjun-rampal",
@@ -34107,6 +34409,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -34134,7 +34437,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.642Z",
+        "lastImportedAt": "2026-06-06T20:52:48.008Z",
         "appearances": [
           {
             "eventId": "2026-06-06-revolution-cafe-inside-nfg-9-30pm",
@@ -34165,6 +34468,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2131 Lombard St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -34192,7 +34496,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-rick-and-roxy-s-game-6-00pm",
@@ -34216,6 +34520,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -34243,7 +34548,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-05T23:55:11.643Z",
+        "lastImportedAt": "2026-06-06T20:52:48.009Z",
         "appearances": [
           {
             "eventId": "2026-07-17-ricksaw-stop-akrilla",
@@ -34267,6 +34572,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "155 Fell Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -34382,7 +34688,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.669Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-05-26-rickshaw-stop-lowertown-fat-evil-children-poor-image",
@@ -34756,6 +35062,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
       "address": "1205 Soquel Ave, Santa Cruz, CA 95062",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -34840,7 +35147,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-05T23:55:11.663Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-06-18-rio-theater-lucinda-williams-and-her-band",
@@ -34906,6 +35213,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2099 Folsom St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -34933,7 +35241,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-rite-spot-cafe-karaoke-8-00pm",
@@ -34957,6 +35265,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "South Bay",
       "address": "400 S 1st St, San Jose, CA 95113",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -35074,7 +35383,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-05T23:55:11.662Z",
+        "lastImportedAt": "2026-06-06T20:52:48.030Z",
         "appearances": [
           {
             "eventId": "2026-06-02-ritz-infected-rain",
@@ -35259,6 +35568,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2032 Polk St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35286,7 +35596,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-robberbaron-trivia-7-30pm",
@@ -35310,6 +35620,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "5515 College Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35337,7 +35648,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-rockridge-improvement-club-karaoke-9-00pm",
@@ -35361,6 +35672,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35388,7 +35700,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.890Z",
-        "lastImportedAt": "2026-06-05T23:55:11.644Z",
+        "lastImportedAt": "2026-06-06T20:52:48.011Z",
         "appearances": [
           {
             "eventId": "2026-07-19-rolph-street-pomona-st-beer-drinkers-and-hell-raisers-tribute",
@@ -35412,6 +35724,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "99 First St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35439,7 +35752,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-rookies-sports-lodge-downtown-game-7-30pm",
@@ -35463,6 +35776,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1535 Meridian Ave #10 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35490,7 +35804,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-rookies-sports-lodge-willow-glen-trivia-7-00pm",
@@ -35514,6 +35828,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "389 Grand Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35541,7 +35856,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-room-389-trivia-7-00pm",
@@ -35565,6 +35880,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35585,7 +35901,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.423Z",
-        "lastImportedAt": "2026-06-05T23:55:11.605Z",
+        "lastImportedAt": "2026-06-06T20:52:47.969Z",
         "appearances": [
           {
             "eventId": "2026-05-31-rootstock-arts-center-centennial-saint-john-coltrane-church-celebration",
@@ -35609,6 +35925,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2832 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35636,7 +35953,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-rosamunde-sausage-grill-trivia-7-30pm",
@@ -35660,6 +35977,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "10 Clay St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35687,7 +36005,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-rosenblum-cellars-trivia-6-00pm",
@@ -35711,6 +36029,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Cruz",
       "region": "",
       "address": "1220 Pacific Ave Santa Cruz CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35738,7 +36057,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-rosie-mccann-s-trivia-6-30pm",
@@ -35762,6 +36081,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1285 The Alameda San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35789,7 +36109,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-rosie-s-new-york-pizza-trivia-6-00pm",
@@ -35813,6 +36133,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "5440 Thornwood Dr San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35840,7 +36161,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-round-table-pizza-trivia-7-00pm",
@@ -35864,6 +36185,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35891,7 +36213,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-roxie-movie-house-di-anno-iron-maiden-s-lost-singer-film",
@@ -35915,6 +36237,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "132 14th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35942,7 +36265,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-ruby-room-karaoke-9-00pm",
@@ -35966,6 +36289,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -35993,7 +36317,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-salesforce-park-the-bg-stringband",
@@ -36017,6 +36341,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "451 Jersey St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36044,7 +36369,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-sally-brunn-branch-library-game-1-00pm",
@@ -36068,6 +36393,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "945 Market St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36095,7 +36421,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-saluhall-trivia-6-00pm",
@@ -36119,6 +36445,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36146,7 +36473,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.896Z",
-        "lastImportedAt": "2026-06-05T23:55:11.650Z",
+        "lastImportedAt": "2026-06-06T20:52:48.018Z",
         "appearances": [
           {
             "eventId": "2026-08-11-san-jose-civic-the-beths",
@@ -36170,6 +36497,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "South Bay",
       "address": "135 W. San Carlos St., San Jose, CA 95113",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -36274,7 +36602,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.663Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-06-10-san-jose-civic-center-the-rose",
@@ -36319,6 +36647,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "62 S Second St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36346,7 +36675,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-san-jose-improv-openmic-8-00pm",
@@ -36370,6 +36699,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "490 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36397,7 +36727,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-san-jose-stage-openmic-8-00pm",
@@ -36428,6 +36758,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "163 W Santa Clara St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36455,7 +36786,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-san-pedro-social-trivia-7-00pm",
@@ -36479,6 +36810,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "87 North San Pedro St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36506,7 +36838,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-san-pedro-square-market-trivia-7-00pm",
@@ -36530,6 +36862,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Capitola",
       "region": "",
       "address": "103 Kennedy Dr Capitola CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36557,7 +36890,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-sante-adairius-rustic-ales-trivia-6-00pm",
@@ -36581,6 +36914,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2800 California St #101 San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36608,7 +36942,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-scopo-divino-trivia-7-00pm",
@@ -36632,6 +36966,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "350 4th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36659,7 +36994,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-seawolf-public-house-trivia-7-00pm",
@@ -36742,6 +37077,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "3590 Cas Dr San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36769,7 +37105,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-seven-trees-branch-library-game-2-00pm",
@@ -36793,6 +37129,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "https://meyersound.com/wp-content/uploads/2013/04/jazz_3.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36813,7 +37150,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-05-28-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
@@ -36872,6 +37209,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36899,7 +37237,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.036Z",
         "appearances": [
           {
             "eventId": "2026-07-17-shark-tank-nate-bargatze",
@@ -36965,6 +37303,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1155 Lincoln Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -36992,7 +37331,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-sheldons-hobbies-game-6-30pm",
@@ -37016,6 +37355,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "533 Sutter St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37043,7 +37383,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-shelton-theater-poetry-7-00pm",
@@ -37067,6 +37407,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37094,7 +37435,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-shop-adi-bedlam",
@@ -37118,6 +37459,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37145,7 +37487,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-06-05T23:55:11.658Z",
+        "lastImportedAt": "2026-06-06T20:52:48.026Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -37169,6 +37511,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Mountain View",
       "region": "South Bay",
       "address": "One Amphitheatre Pkwy, Mountain View, CA 94043",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -37282,7 +37625,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.663Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-06-23-shoreline-amphitheatre-kid-cudi",
@@ -37390,6 +37733,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37417,7 +37761,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-06-05T23:55:11.660Z",
+        "lastImportedAt": "2026-06-06T20:52:48.027Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
@@ -37441,6 +37785,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37468,7 +37813,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-06-05T23:55:11.661Z",
+        "lastImportedAt": "2026-06-06T20:52:48.029Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -37492,6 +37837,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37519,7 +37865,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-05T23:55:11.640Z",
+        "lastImportedAt": "2026-06-06T20:52:48.005Z",
         "appearances": [
           {
             "eventId": "2026-07-08-shorline-amphitheater-chris-stapletown",
@@ -37543,6 +37889,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3349 20th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37570,7 +37917,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-shotwell-s-saloon-trivia-8-00pm",
@@ -37646,6 +37993,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1994 Lombard St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37673,7 +38021,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-03-silver-cloud-restaurant-and-karaoke-bar-trivia-7-30pm",
@@ -37756,6 +38104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "650 Gough St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37783,7 +38132,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-smuggler-s-cove-game-5-00pm",
@@ -37807,6 +38156,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37834,7 +38184,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-05T23:55:11.629Z",
+        "lastImportedAt": "2026-06-06T20:52:47.994Z",
         "appearances": [
           {
             "eventId": "2026-06-13-snow-park-stillyoung",
@@ -37858,6 +38208,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "575 Howard St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37885,7 +38236,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-southside-spirit-house-trivia-8-00pm",
@@ -37909,6 +38260,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "601 Mission Bay Blvd San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -37936,7 +38288,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-spark-social-sf-trivia-6-30pm",
@@ -37960,6 +38312,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1974 Shattuck Ave., Berkeley, CA 94704",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -38051,7 +38404,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-05T23:55:11.652Z",
+        "lastImportedAt": "2026-06-06T20:52:48.019Z",
         "appearances": [
           {
             "eventId": "2026-05-29-spats-joel-cusumano-dum-1-twin-bloom",
@@ -38138,6 +38491,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "1974 Shattuck Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38165,7 +38519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-spats-berkeley-openmic-8-30pm",
@@ -38196,6 +38550,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Alameda",
       "region": "East Bay",
       "address": "2424 Lincoln Ave Alameda CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -38294,7 +38649,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-03-speisekammer-trivia-7-00pm",
@@ -38332,6 +38687,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "65 Post St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38359,7 +38715,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-splash-bar-san-jose-trivia-8-00pm",
@@ -38383,6 +38739,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "5178 Moorpark Ave #60 San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38410,7 +38767,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-06-07-starlite-ballroom-dance-6-00pm",
@@ -38434,6 +38791,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "3101 Shattuck Ave., Berkeley, CA 94705",
+      "imageUrl": "https://s.hdnux.com/photos/01/24/56/06/22208948/4/rawImage.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -38539,7 +38897,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-05T23:55:11.628Z",
+        "lastImportedAt": "2026-06-06T20:52:47.993Z",
         "appearances": [
           {
             "eventId": "2026-06-01-starry-plough-irish-c-ili-dance-with-live-band",
@@ -38605,6 +38963,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38632,7 +38991,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-06-05T23:55:11.646Z",
+        "lastImportedAt": "2026-06-06T20:52:48.013Z",
         "appearances": [
           {
             "eventId": "2026-06-03-stay-gold-deli-slinger",
@@ -38670,6 +39029,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "Wawona St, San Francisco, CA 94132",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -38775,7 +39135,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.652Z",
+        "lastImportedAt": "2026-06-06T20:52:48.019Z",
         "appearances": [
           {
             "eventId": "2026-06-14-stern-grove-festival-peter-cat-recording-co",
@@ -38869,6 +39229,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38896,7 +39257,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-05T23:55:11.648Z",
+        "lastImportedAt": "2026-06-06T20:52:48.015Z",
         "appearances": [
           {
             "eventId": "2026-06-11-streetlight-records-whitney-thai",
@@ -38941,6 +39302,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "829 27th Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -38968,7 +39330,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.618Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-studio-x-openmic-7-30pm",
@@ -38999,6 +39361,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "South Bay",
       "address": "387 S 1st St, San Jose, CA 95113",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -39122,7 +39485,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-sub-zero-festival-dvic",
@@ -39146,6 +39509,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1305 18th Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39173,7 +39537,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-sunset-branch-library-game-10-00am",
@@ -39197,6 +39561,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "553 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39224,7 +39589,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-sunset-squares-pizza-trivia-7-30pm",
@@ -39248,6 +39613,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39275,7 +39641,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.663Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-06-04-swedish-american-hall-therapy-gecko",
@@ -39313,6 +39679,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39340,7 +39707,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.668Z",
+        "lastImportedAt": "2026-06-06T20:52:48.035Z",
         "appearances": [
           {
             "eventId": "2026-05-26-sweetwater-music-hall-open-mic-night",
@@ -39539,6 +39906,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2012 Shattuck Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -39612,7 +39980,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.984Z",
         "appearances": [
           {
             "eventId": "2026-06-04-tap-in-lounge-trivia-7-00pm",
@@ -39636,6 +40004,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Clara",
       "region": "",
       "address": "1171 Homestead Rd Santa Clara CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39663,7 +40032,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-taplands-trivia-7-00pm",
@@ -39687,6 +40056,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39714,7 +40084,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-05T23:55:11.629Z",
+        "lastImportedAt": "2026-06-06T20:52:47.995Z",
         "appearances": [
           {
             "eventId": "2026-06-13-taqueria-mila-laguna-screech",
@@ -39738,6 +40108,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2323 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39765,7 +40136,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-01-teeth-bar-sf-chess-7-00pm",
@@ -39796,6 +40167,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "4115 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39823,7 +40195,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-temescal-brewing-trivia-7-00pm",
@@ -39847,6 +40219,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39874,7 +40247,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-05-29-tequila-mockingbird-monk-execution-x-tra-aphid-circle-of-ruin",
@@ -39905,6 +40278,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4100 Geary Blvd San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -39932,7 +40306,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-abbey-tavern-trivia-7-30pm",
@@ -39956,6 +40330,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "2434 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -40024,7 +40399,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-the-alan-blueford-center-poetry-8-00pm",
@@ -40048,6 +40423,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1725 Haight St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40075,7 +40451,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-alembic-trivia-7-30pm",
@@ -40099,6 +40475,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "3325 Grand Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40126,7 +40503,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-alley-trivia-9-00pm",
@@ -40150,6 +40527,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "59 Grand Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -40231,7 +40609,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-the-athletic-club-oakland-karaoke-9-00pm",
@@ -40255,6 +40633,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "4822 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -40331,7 +40710,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-avenue-karaoke-9-00pm",
@@ -40355,6 +40734,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1984 Bonita Ave, Berkeley, CA 94704",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -40445,7 +40825,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-05-26-the-back-room-rick-dougherty-don-burnham",
@@ -40497,6 +40877,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Danville",
       "region": "",
       "address": "400 Sycamore Valley Rd Danville CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40524,7 +40905,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-barnyard-wine-bar-trivia-7-00pm",
@@ -40548,6 +40929,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "39055 Paseo Padre Pkwy Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40575,7 +40957,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-bench-trivia-7-00pm",
@@ -40599,6 +40981,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "441 Clement St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40626,7 +41009,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-bitter-end-trivia-8-00pm",
@@ -40657,6 +41040,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1979 Union St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40684,7 +41068,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-blue-light-trivia-7-00pm",
@@ -40708,6 +41092,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1609 Powell St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40735,7 +41120,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-boardroom-trivia-7-30pm",
@@ -40759,6 +41144,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1116 Branham Ln San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40786,7 +41172,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-branham-lounge-trivia-7-00pm",
@@ -40810,6 +41196,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "98 Almaden Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40837,7 +41224,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-caravan-lounge-openmic-10-00pm",
@@ -40868,6 +41255,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -40888,7 +41276,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-05-27-the-chapel-jacob-fred-jazz-odyssey",
@@ -40949,15 +41337,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-05-the-chapel-jerry-s-middle-finger",
             "date": "2026-06-05",
-            "title": "Jerry's Middle Finger",
-            "details": "Jerry's Middle Finger",
+            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
+            "details": "Jerry's Middle Finger / a/a 8pm/9pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
             "eventId": "2026-06-06-the-chapel-jerry-s-middle-finger",
             "date": "2026-06-06",
-            "title": "Jerry's Middle Finger",
-            "details": "Jerry's Middle Finger",
+            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
+            "details": "Jerry's Middle Finger / a/a 8pm/9pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
@@ -40975,6 +41363,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "198 5th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41002,7 +41391,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-chieftain-irish-pub-and-restaurant-trivia-7-30pm",
@@ -41026,6 +41415,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2 Waverly Place San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41053,7 +41443,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-the-clarion-sf-poetry-1-00pm",
@@ -41077,6 +41467,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "250 Main St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41104,7 +41495,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-crossing-at-east-cut-trivia-7-00pm",
@@ -41128,6 +41519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1912 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41155,7 +41547,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-den-at-the-fox-trivia-7-00pm",
@@ -41179,6 +41571,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2200A Market St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41206,7 +41599,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-detour-trivia-7-30pm",
@@ -41230,6 +41623,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1336 N First St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41257,7 +41651,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-doghouse-trivia-7-00pm",
@@ -41281,6 +41675,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "3838 24th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41308,7 +41703,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-dubliner-trivia-8-00pm",
@@ -41332,6 +41727,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41352,7 +41748,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-05-26-the-fillmore-tk-from-ling-tosite-sigure",
@@ -41383,6 +41779,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "387 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41410,7 +41807,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-fountainhead-trivia-7-00pm",
@@ -41436,6 +41833,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2020 Addison St Berkeley CA",
+      "imageUrl": "",
       "phone": "(510) 644-2020",
       "recurringEvents": [
         {
@@ -41546,7 +41944,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-05-26-the-freight-jazzschool-studio-band-the-jazz-garden-big-band",
@@ -41601,14 +41999,14 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-06-the-freight-booker-t-jones",
             "date": "2026-06-06",
             "title": "Booker T. Jones",
-            "details": "Booker T. Jones",
+            "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           },
           {
             "eventId": "2026-06-07-the-freight-booker-t-jones",
             "date": "2026-06-07",
             "title": "Booker T. Jones",
-            "details": "Booker T. Jones",
+            "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
@@ -41626,6 +42024,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "4020 Technology Pl Suite 1 Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41653,7 +42052,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-fremont-clubhouse-sportsbar-golf-club-and-event-center-trivia-6-30pm",
@@ -41677,6 +42076,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1342 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41704,7 +42104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-game-parlour-game-6-00pm",
@@ -41735,6 +42135,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "412 14th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41793,7 +42194,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-the-golden-bull-poetry-9-00pm",
@@ -41817,6 +42218,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2421 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41844,7 +42246,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-good-hop-trivia-7-00pm",
@@ -41868,6 +42270,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1166 Geneva Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41895,7 +42298,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-halfway-club-trivia-7-00pm",
@@ -41919,6 +42322,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "500 4th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41946,7 +42350,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-hotel-utah-saloon-openmic-7-00pm",
@@ -41977,6 +42381,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -41997,7 +42402,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-05-26-the-independent-old-mervs-where-s-west-ra-ra-viper",
@@ -42047,13 +42452,6 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Claire Rosinkranz / Stevie Bill",
             "details": "Claire Rosinkranz, Stevie Bill",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-the-independent-agent-orange-the-drowns",
-            "date": "2026-06-07",
-            "title": "Agent Orange / The Drowns",
-            "details": "Agent Orange, The Drowns",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -42070,6 +42468,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "2948 16th St, San Francisco, CA 94103",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -42151,7 +42550,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-lab-juli-n-delgado-lopera-pretend-you-re-dead",
@@ -42182,6 +42581,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2272 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42209,7 +42609,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-legionnaire-saloon-karaoke-8-30pm",
@@ -42247,6 +42647,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "998 Guerrero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42274,7 +42675,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-liberties-trivia-7-00pm",
@@ -42298,6 +42699,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42325,7 +42727,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.990Z",
         "appearances": [
           {
             "eventId": "2026-05-27-the-lost-church-tony-sparks-danny-dechi-benjamin-steinberg",
@@ -42412,6 +42814,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1942 Market St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42439,7 +42842,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-mint-karaoke-lounge-karaoke-8-00pm",
@@ -42463,6 +42866,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1638 University Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -42525,7 +42929,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-monkey-house-openmic-7-00pm",
@@ -42570,6 +42974,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1743 San Pablo Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42597,7 +43002,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-new-parish-openmic-8-00pm",
@@ -42628,6 +43033,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "474 24th St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42655,7 +43061,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-new-parkway-theater-trivia-7-00pm",
@@ -42679,6 +43085,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "639 23rd St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42706,7 +43113,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-oakland-metro-operahouse-openmic-8-00pm",
@@ -42737,6 +43144,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "73 N San Pedro St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42764,7 +43172,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-old-wagon-saloon-and-grill-trivia-7-00pm",
@@ -42788,6 +43196,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2801 Geary Blvd San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42815,7 +43224,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-pig-and-whistle-trivia-8-00pm",
@@ -42839,6 +43248,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Richmond",
       "region": "East Bay",
       "address": "5327 Jacuzzi St, Richmond, CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42916,7 +43326,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-05-27-the-planetarium-fistfight-with-traffic-left-on-read-towhead-heavy-lifter",
@@ -42954,6 +43364,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "800 Embedded Way San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -42981,7 +43392,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-plex-trivia-7-00pm",
@@ -43005,6 +43416,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "545 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43032,7 +43444,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-red-tail-trivia-7-00pm",
@@ -43056,6 +43468,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43076,7 +43489,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.424Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-riptide-open-mic",
@@ -43128,6 +43541,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "400 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43155,7 +43569,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-ritz-openmic-8-00pm",
@@ -43186,6 +43600,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "10 6th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43213,7 +43628,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-rumpus-room-karaoke-9-00pm",
@@ -43237,6 +43652,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1368 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43264,7 +43680,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-sage-and-drifter-trivia-7-00pm",
@@ -43288,6 +43704,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "88 5th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43315,7 +43732,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-san-francisco-mint-karaoke-9-00pm",
@@ -43339,6 +43756,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2289 3rd St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43366,7 +43784,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.982Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-sea-star-trivia-7-30pm",
@@ -43404,6 +43822,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43431,7 +43850,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-05-27-the-sound-room-storyslam-oakland",
@@ -43504,6 +43923,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "3101 Shattuck Ave Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43531,7 +43951,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-starry-plough-pub-openmic-8-00pm",
@@ -43562,6 +43982,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Fremont",
       "region": "",
       "address": "750 Lincoln Way Fremont CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43589,7 +44010,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-station-public-house-openmic-8-00pm",
@@ -43620,6 +44041,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2330 Telegraph Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43647,7 +44069,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-the-stork-club-openmic-8-00pm",
@@ -43678,6 +44100,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2140 Mission St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43705,7 +44128,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-the-sycamore-trivia-7-00pm",
@@ -43729,6 +44152,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1110 Willow St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43756,7 +44180,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.616Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-table-trivia-7-00pm",
@@ -43780,6 +44204,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "834 Irving St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43807,7 +44232,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-the-temple-bar-trivia-7-00pm",
@@ -43831,6 +44256,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "1800 Madison St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43858,7 +44284,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-terrace-room-events-trivia-7-00pm",
@@ -43882,6 +44308,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "500 William St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43909,7 +44336,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-06-07-the-uptown-karaoke-8-00pm",
@@ -43933,6 +44360,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "370 S First St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -43960,7 +44388,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-vesper-trivia-7-00pm",
@@ -43991,6 +44419,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1582 Folsom St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44018,7 +44447,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-the-willows-trivia-7-00pm",
@@ -44044,6 +44473,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "2330 Telegraph Ave, Oakland, CA 94612",
+      "imageUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/CVuTMswfBVvB5TSnGYDzMA/348s.jpg",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -44128,7 +44558,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-05T23:55:11.665Z",
+        "lastImportedAt": "2026-06-06T20:52:48.032Z",
         "appearances": [
           {
             "eventId": "2026-05-26-thee-stork-club-telehealth-street-eaters-squiggle",
@@ -44369,6 +44799,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Santa Clara",
       "region": "",
       "address": "1031 Monroe St Santa Clara CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44396,7 +44827,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-05T23:55:11.606Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-thirsty-bar-trivia-6-30pm",
@@ -44420,6 +44851,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44440,7 +44872,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.599Z",
+        "lastImportedAt": "2026-06-06T20:52:47.962Z",
         "appearances": [
           {
             "eventId": "2026-05-25-thrillhouse-records-war-of-knives-all-to-the-grave-ratfuck-skolp-phatality-bbq-beard",
@@ -44464,6 +44896,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44491,7 +44924,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-05T23:55:11.629Z",
+        "lastImportedAt": "2026-06-06T20:52:47.995Z",
         "appearances": [
           {
             "eventId": "2026-06-13-thunder-valley-the-chicks",
@@ -44515,6 +44948,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1750 Divisadero St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44542,7 +44976,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-timeout-tavern-trivia-7-00pm",
@@ -44566,6 +45000,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Sunnyvale",
       "region": "",
       "address": "301 W McKinley Ave #150 Sunnyvale CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44593,7 +45028,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-05T23:55:11.607Z",
+        "lastImportedAt": "2026-06-06T20:52:47.971Z",
         "appearances": [
           {
             "eventId": "2026-06-01-tipsy-putt-karaoke-7-00pm",
@@ -44617,6 +45052,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "265 N First St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44644,7 +45080,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-05T23:55:11.607Z",
+        "lastImportedAt": "2026-06-06T20:52:47.972Z",
         "appearances": [
           {
             "eventId": "2026-06-01-trials-pub-trivia-8-00pm",
@@ -44668,6 +45104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1337 Grant Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44695,7 +45132,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-tupelo-karaoke-9-30pm",
@@ -44719,6 +45156,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "2344 Webster St Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -44746,7 +45184,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-two-pitchers-brewing-company-trivia-7-00pm",
@@ -44770,6 +45208,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "1550 Wildcat Canyon Rd, Berkeley, CA 94708",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -44842,7 +45281,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-uc-berkeley-botanic-garden-william-prince",
@@ -44866,6 +45305,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2036 University Ave, Berkeley, CA 94704",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -44979,7 +45419,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-06-23-uc-theater-boa",
@@ -45122,6 +45562,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45142,7 +45583,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-05T23:55:11.604Z",
+        "lastImportedAt": "2026-06-06T20:52:47.968Z",
         "appearances": [
           {
             "eventId": "2026-05-26-uc-theatre-inner-wave-twin-seas",
@@ -45194,6 +45635,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1224 9th Ave San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45221,7 +45663,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.053Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-underdogs-tres-trivia-7-00pm",
@@ -45245,6 +45687,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45272,7 +45715,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-union-square-adam-x-and-frankie-bones",
@@ -45296,6 +45739,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45316,7 +45760,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.418Z",
-        "lastImportedAt": "2026-06-05T23:55:11.603Z",
+        "lastImportedAt": "2026-06-06T20:52:47.967Z",
         "appearances": [
           {
             "eventId": "2026-05-29-up-the-creek-record-breezy-street-band-tom-petty-project",
@@ -45340,6 +45784,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Walnut Creek",
       "region": "East Bay",
       "address": "2042 Mt Diablo Blvd, Walnut Creek, CA 94596",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -45413,7 +45858,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-05T23:55:11.647Z",
+        "lastImportedAt": "2026-06-06T20:52:48.014Z",
         "appearances": [
           {
             "eventId": "2026-05-30-up-the-creek-records-tektonic-lost-marakas-blue-indeed",
@@ -45486,6 +45931,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "439 S 1st St San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45513,7 +45959,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-uproar-brewing-company-trivia-7-00pm",
@@ -45537,6 +45983,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1350 Third Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -45650,7 +46097,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.031Z",
         "appearances": [
           {
             "eventId": "2026-06-09-uptown-theater-blackberry-smoke",
@@ -45810,6 +46257,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4054 24th St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45837,7 +46285,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-valley-tavern-trivia-8-00pm",
@@ -45861,6 +46309,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45888,7 +46337,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.883Z",
-        "lastImportedAt": "2026-06-05T23:55:11.637Z",
+        "lastImportedAt": "2026-06-06T20:52:48.003Z",
         "appearances": [
           {
             "eventId": "2026-06-27-veterans-memorial-hyoerdrive-kittens",
@@ -45912,6 +46361,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "360 Ritch St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45939,7 +46389,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.054Z",
-        "lastImportedAt": "2026-06-05T23:55:11.621Z",
+        "lastImportedAt": "2026-06-06T20:52:47.987Z",
         "appearances": [
           {
             "eventId": "2026-06-05-victory-hall-and-parlor-trivia-7-00pm",
@@ -45963,6 +46413,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Berkeley",
       "region": "",
       "address": "1797 Shattuck Ave Ste A Berkeley CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -45990,7 +46441,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-05T23:55:11.607Z",
+        "lastImportedAt": "2026-06-06T20:52:47.972Z",
         "appearances": [
           {
             "eventId": "2026-06-01-victory-point-cafe-game-6-00pm",
@@ -46014,6 +46465,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46043,7 +46495,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-05T23:55:11.634Z",
+        "lastImportedAt": "2026-06-06T20:52:48.000Z",
         "appearances": [
           {
             "eventId": "2026-06-20-vinnie-s-rusty-chains-tribute",
@@ -46067,6 +46519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "982 Market Street",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -46180,7 +46633,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-05T23:55:11.671Z",
+        "lastImportedAt": "2026-06-06T20:52:48.039Z",
         "appearances": [
           {
             "eventId": "2026-05-26-warfield-wale-and-smino",
@@ -46428,6 +46881,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46455,7 +46909,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-06-05T23:55:11.664Z",
+        "lastImportedAt": "2026-06-06T20:52:48.032Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -46479,6 +46933,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "SF",
       "address": "1 Warriors Wy, San Francisco, CA 94158",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -46613,7 +47068,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-05T23:55:11.670Z",
+        "lastImportedAt": "2026-06-06T20:52:48.037Z",
         "appearances": [
           {
             "eventId": "2026-06-20-warriors-stadium-diljit-dosanjh",
@@ -46735,6 +47190,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46762,7 +47218,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-05T23:55:11.650Z",
+        "lastImportedAt": "2026-06-06T20:52:48.017Z",
         "appearances": [
           {
             "eventId": "2026-08-08-warriros-stadium-neggab-trainor",
@@ -46786,6 +47242,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1550 Scott St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46813,7 +47270,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-05T23:55:11.607Z",
+        "lastImportedAt": "2026-06-06T20:52:47.972Z",
         "appearances": [
           {
             "eventId": "2026-06-01-western-addition-branch-library-game-10-00am",
@@ -46837,6 +47294,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "2036 Lombard St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46864,7 +47322,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-westwood-trivia-7-00pm",
@@ -46888,6 +47346,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1173 Lincoln Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46915,7 +47374,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-wheelhouse-trivia-7-00pm",
@@ -46939,6 +47398,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "1173 Lincoln Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -46966,7 +47426,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-06-03-wheelhouse-of-willow-glen-openmic-8-00pm",
@@ -47004,6 +47464,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Stockton",
       "region": "",
       "address": "1926 Pacific Ave Stockton CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47031,7 +47492,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-03-whirlows-trivia-7-00pm",
@@ -47173,6 +47634,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Jose",
       "region": "",
       "address": "803 Lincoln Ave San Jose CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47200,7 +47662,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-willow-den-public-house-karaoke-9-00pm",
@@ -47224,6 +47686,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47251,7 +47714,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-05T23:55:11.623Z",
+        "lastImportedAt": "2026-06-06T20:52:47.989Z",
         "appearances": [
           {
             "eventId": "2026-06-06-winter-s-tavern-black-gold-sun",
@@ -47275,6 +47738,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Pacifica",
       "region": "Peninsula",
       "address": "1522 Francisco Blvd, Pacifica, CA 94044",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47338,7 +47802,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-05T23:55:11.651Z",
+        "lastImportedAt": "2026-06-06T20:52:48.019Z",
         "appearances": [
           {
             "eventId": "2026-06-27-winters-tavern-mfg-midnight",
@@ -47369,6 +47833,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "685 3rd St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47396,7 +47861,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.053Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-woodbury-trivia-7-00pm",
@@ -47420,6 +47885,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "4652 Geary Blvd San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47447,7 +47913,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-05T23:55:11.612Z",
+        "lastImportedAt": "2026-06-06T20:52:47.978Z",
         "appearances": [
           {
             "eventId": "2026-06-02-would-you-believe-trivia-7-00pm",
@@ -47471,6 +47937,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47491,7 +47958,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-05T23:55:11.602Z",
+        "lastImportedAt": "2026-06-06T20:52:47.965Z",
         "appearances": [
           {
             "eventId": "2026-05-28-wyldflowr-arts-nishanth-chari-and-sameer-gupta",
@@ -47639,6 +48106,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "East Bay",
       "address": "510 Embarcadero West, Oakland, CA 94607",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": {
@@ -47738,7 +48206,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-05T23:55:11.625Z",
+        "lastImportedAt": "2026-06-06T20:52:47.991Z",
         "appearances": [
           {
             "eventId": "2026-05-25-yoshi-s-kevin-moore-carl-wheeler",
@@ -47853,6 +48321,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Oakland",
       "region": "",
       "address": "3917 Grand Ave Oakland CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47880,7 +48349,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-zachary-s-chicago-pizza-trivia-8-00pm",
@@ -47904,6 +48373,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "San Francisco",
       "region": "",
       "address": "1319 California St San Francisco CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47931,7 +48401,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-05T23:55:11.617Z",
+        "lastImportedAt": "2026-06-06T20:52:47.983Z",
         "appearances": [
           {
             "eventId": "2026-06-03-zeki-s-bar-trivia-8-00pm",
@@ -47955,6 +48425,7 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "Corte Madera",
       "region": "",
       "address": "207 Corte Madera Ave Corte Madera CA",
+      "imageUrl": "",
       "phone": "",
       "recurringEvents": [],
       "geo": null,
@@ -47982,7 +48453,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-05T23:55:11.619Z",
+        "lastImportedAt": "2026-06-06T20:52:47.985Z",
         "appearances": [
           {
             "eventId": "2026-06-04-zinz-wine-bar-trivia-6-00pm",

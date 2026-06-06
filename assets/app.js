@@ -40,9 +40,8 @@ const toDateInput = document.querySelector("#toDateInput");
 const venueFilterInput = document.querySelector("#venueFilterInput");
 const cityFilterInput = document.querySelector("#cityFilterInput");
 const sortInput = document.querySelector("#sortInput");
+const searchCustomization = document.querySelector(".search-customization");
 const advancedFilters = document.querySelector(".advanced-filters");
-const stickyFiltersButton = document.querySelector("#stickyFiltersButton");
-const stickyMapButton = document.querySelector("#stickyMapButton");
 const stickyToolsMenu = document.querySelector(".sticky-tools-menu");
 const stickyToolsMenuButton = document.querySelector("#stickyToolsMenuButton");
 const stickyToolsPopover = document.querySelector("#stickyToolsPopover");
@@ -63,6 +62,7 @@ let eventRenderToken = 0;
 let lastListingScrollY = 0;
 let keepFiltersOpenUntil = 0;
 let keepMapOpenUntil = 0;
+let venueMapRequested = false;
 
 const venueMapPlot = {
   left: 36,
@@ -401,11 +401,11 @@ function renderVenueLinks(venue, container) {
   });
 }
 
-function renderEventTaxonomy(event, container) {
+function renderEventLinks(event, venue, container) {
   container.replaceChildren();
   const chips = [
     ...(event.eventTypes || []).map((type) => ({ kind: "type", value: type, label: labelForEventType(type) })),
-    ...(event.themes || []).map((theme) => ({ kind: "theme", value: theme, label: `Theme: ${theme}` }))
+    ...(event.themes || []).map((theme) => ({ kind: "theme", value: theme, label: theme }))
   ];
   chips.forEach((chip) => {
     const button = document.createElement("button");
@@ -419,10 +419,7 @@ function renderEventTaxonomy(event, container) {
     });
     container.append(button);
   });
-}
 
-function renderSourceLinks(event, container) {
-  container.replaceChildren();
   if (event.infoUrl) {
     const anchor = document.createElement("a");
     anchor.href = event.infoUrl;
@@ -447,6 +444,8 @@ function renderSourceLinks(event, container) {
     anchor.textContent = name;
     container.append(anchor);
   });
+
+  renderVenueLinks(venue, container);
 }
 
 function renderEventListing(event) {
@@ -457,7 +456,8 @@ function renderEventListing(event) {
   title.textContent = displayNameForEvent(event);
   const meta = document.createElement("p");
   meta.className = "artist-note";
-  meta.textContent = [labelForEventTypes(event), event.details].filter(Boolean).join(" | ");
+  meta.textContent = [labelForEventTypes(event), event.eventDescription].filter(Boolean).join(" | ");
+  meta.hidden = !meta.textContent;
   node.append(title, meta);
   return node;
 }
@@ -468,25 +468,35 @@ function imageForEvent(event) {
     eventImageCache.set(event, event.imageUrl);
     return event.imageUrl;
   }
+
+  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  if (isArtistShow(event) && topArtist.imageUrl) {
+    eventImageCache.set(event, topArtist.imageUrl);
+    return topArtist.imageUrl;
+  }
+  const venue = enrichVenue(event);
+  if (venue.imageUrl) {
+    eventImageCache.set(event, venue.imageUrl);
+    return venue.imageUrl;
+  }
   const genericImage = genericImageForEvent(event);
   if (genericImage) {
     eventImageCache.set(event, genericImage.url);
     return genericImage.url;
   }
-
-  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
   const palette = paletteForArtist(topArtist);
   const title = displayNameForArtist(topArtist) || event.venue || "Bay Area Show";
   const subtitleParts = [
     ...(topArtist.genres || topArtist.tags || []).slice(0, 2),
     topArtist.locality
   ].filter(Boolean);
-  const titleLines = wrapPosterText(title, 16, 2).map(escapeSvg);
+  const titleLines = wrapPosterText(title, 15, 2);
   const subtitle = escapeSvg(truncateText(subtitleParts.join(" / ") || "Live music", 34));
   const initials = escapeSvg(initialsFor(displayNameForArtist(topArtist) || event.venue || "BA"));
   const titleMarkup = titleLines.map((line, index) => {
-    const y = 176 + index * 46;
-    return `<text x="34" y="${y}" fill="#fffdfa" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="850">${line}</text>`;
+    const y = 162 + index * 42;
+    const fitAttributes = line.length > 16 ? ` textLength="376" lengthAdjust="spacingAndGlyphs"` : "";
+    return `<text x="48" y="${y}" fill="#fffdfa" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="850"${fitAttributes}>${escapeSvg(line)}</text>`;
   }).join("");
   const svg = `
     <svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" preserveAspectRatio="none" role="img" aria-label="${escapeSvg(title)}">
@@ -503,9 +513,9 @@ function imageForEvent(event) {
       <rect width="480" height="360" fill="url(#lines)"/>
       <circle cx="392" cy="70" r="78" fill="${palette[2]}" opacity=".26"/>
       <circle cx="72" cy="314" r="104" fill="#fffdfa" opacity=".14"/>
-      <text x="34" y="48" fill="#fffdfa" opacity=".78" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">TOP BILL</text>
+      <text x="48" y="48" fill="#fffdfa" opacity=".78" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">TOP BILL</text>
       ${titleMarkup}
-      <text x="36" y="282" fill="#fffdfa" opacity=".82" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">${subtitle}</text>
+      <text x="50" y="248" fill="#fffdfa" opacity=".84" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">${subtitle}</text>
       <text x="388" y="320" text-anchor="middle" fill="#fffdfa" opacity=".28" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="900">${initials}</text>
     </svg>`;
   const image = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
@@ -521,7 +531,10 @@ function genericImageForEvent(event) {
 }
 
 function wrapPosterText(text, maxLineLength, maxLines) {
-  const words = String(text).split(/\s+/).filter(Boolean);
+  const words = String(text)
+    .split(/\s+/)
+    .filter(Boolean)
+    .flatMap((word) => splitLongPosterWord(word, maxLineLength));
   const lines = [];
   let line = "";
   words.forEach((word) => {
@@ -539,6 +552,16 @@ function wrapPosterText(text, maxLineLength, maxLines) {
     visible[visible.length - 1] = truncateText(visible[visible.length - 1], Math.max(4, maxLineLength - 1));
   }
   return visible.length ? visible : ["Live Show"];
+}
+
+function splitLongPosterWord(word, maxLineLength) {
+  if (word.length <= maxLineLength) return [word];
+  const chunks = [];
+  for (let index = 0; index < word.length; index += maxLineLength) {
+    const chunk = word.slice(index, index + maxLineLength);
+    chunks.push(index + maxLineLength < word.length ? `${chunk}-` : chunk);
+  }
+  return chunks;
 }
 
 function truncateText(text, maxLength) {
@@ -744,13 +767,25 @@ function scheduleEventCardBatch(callback) {
 
 function appendEventCardBatch(list, start, end) {
   const fragment = document.createDocumentFragment();
+  const groupByDate = state.sort === "date";
   for (let index = start; index < end; index += 1) {
-    fragment.append(createEventCard(list[index]));
+    const event = list[index];
+    if (groupByDate && event.date !== list[index - 1]?.date) {
+      fragment.append(createDateGroupHeader(event.date));
+    }
+    fragment.append(createEventCard(event, { showDate: !groupByDate }));
   }
   eventList.append(fragment);
 }
 
-function createEventCard(event) {
+function createDateGroupHeader(dateText) {
+  const header = document.createElement("h2");
+  header.className = "date-group-heading";
+  header.textContent = formatDate(dateText);
+  return header;
+}
+
+function createEventCard(event, options = {}) {
   const venue = enrichVenue(event);
   const node = eventTemplate.content.firstElementChild.cloneNode(true);
   const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: event.venue });
@@ -764,8 +799,10 @@ function createEventCard(event) {
     badge.textContent = "Mike's Pick";
     node.querySelector(".event-image-wrap").append(badge);
   }
-  node.querySelector(".event-date").dateTime = event.date;
-  node.querySelector(".event-date").textContent = formatDate(event.date);
+  const dateNode = node.querySelector(".event-date");
+  dateNode.dateTime = event.date;
+  dateNode.textContent = formatDate(event.date);
+  dateNode.hidden = !options.showDate;
   const venuePlace = [venue.city, venue.region].filter(Boolean).join(", ");
   const venueName = venue.displayName || venue.name || event.venue;
   const venueLink = document.createElement("a");
@@ -773,12 +810,11 @@ function createEventCard(event) {
   venueLink.textContent = venuePlace ? `${venueName}, ${venuePlace}` : venueName;
   node.querySelector(".event-venue").replaceChildren(venueLink);
   node.querySelector(".event-detail").textContent = event.details;
-  renderVenueLinks(venue, node.querySelector(".venue-links"));
-  renderEventTaxonomy(event, node.querySelector(".event-taxonomy"));
-  renderSourceLinks(event, node.querySelector(".source-links"));
+  renderEventLinks(event, venue, node.querySelector(".event-links"));
 
   const artistList = node.querySelector(".artist-list");
   if (isArtistShow(event) && event.artists.length) {
+    artistList.classList.toggle("single-artist", event.artists.length === 1);
     event.artists.forEach((artist) => artistList.append(renderArtist(artist)));
   } else {
     artistList.append(renderEventListing(event));
@@ -792,19 +828,22 @@ function updateFilterButtons() {
     const active = state.filter === "custom"
       ? filter === "custom" || state.customFilters.includes(filter)
       : filter === state.filter;
-    button.classList.toggle("active", active);
-    button.setAttribute("aria-pressed", active ? "true" : "false");
+    setPressed(button, active);
   });
+  sourceFilterButtons.forEach((button) => {
+    setPressed(button, button.dataset.sourceFilter === state.source);
+  });
+}
+
+function setPressed(button, active) {
+  button.classList.toggle("active", active);
+  button.setAttribute("aria-pressed", active ? "true" : "false");
 }
 
 function setupVenueMapDisclosure() {
   if (!venueMap) return;
-  const sync = () => {
-    if (mobileMapQuery.matches) venueMap.removeAttribute("open");
-    else venueMap.setAttribute("open", "");
-  };
-  sync();
-  mobileMapQuery.addEventListener?.("change", sync);
+  venueMap.hidden = true;
+  venueMap.removeAttribute("open");
 }
 
 function setupStickyListingTools() {
@@ -816,7 +855,10 @@ function setupStickyListingTools() {
     const now = Date.now();
     document.body.classList.toggle("listing-tools-active", active);
     if (active) {
-      if (now > keepFiltersOpenUntil) advancedFilters?.removeAttribute("open");
+      if (now > keepFiltersOpenUntil) {
+        searchCustomization?.removeAttribute("open");
+        advancedFilters?.removeAttribute("open");
+      }
       if (mobileMapQuery.matches && now > keepMapOpenUntil) venueMap?.removeAttribute("open");
     }
   };
@@ -836,8 +878,10 @@ function jumpToFilters() {
   lastListingScrollY = window.scrollY;
   keepFiltersOpenUntil = Date.now() + 1600;
   returnToListingsButton.disabled = false;
+  searchCustomization?.setAttribute("open", "");
   advancedFilters?.setAttribute("open", "");
   showControls?.scrollIntoView({ behavior: "smooth", block: "start" });
+  window.setTimeout(() => searchCustomization?.setAttribute("open", ""), 320);
   window.setTimeout(() => advancedFilters?.setAttribute("open", ""), 320);
   window.setTimeout(() => searchInput?.focus({ preventScroll: true }), 260);
 }
@@ -849,13 +893,20 @@ function returnToListings() {
 function setStickyToolsMenuOpen(isOpen) {
   if (!stickyToolsMenuButton || !stickyToolsPopover) return;
   stickyToolsMenuButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  stickyToolsMenuButton.setAttribute("aria-label", isOpen ? "Close sticky tools menu" : "Open sticky tools menu");
+  stickyToolsMenu?.classList.toggle("menu-open", isOpen);
+  stickyToolsMenuButton.classList.remove("menu-toggle-activated");
+  window.requestAnimationFrame(() => stickyToolsMenuButton.classList.add("menu-toggle-activated"));
+  window.setTimeout(() => stickyToolsMenuButton.classList.remove("menu-toggle-activated"), 420);
   stickyToolsPopover.hidden = !isOpen;
 }
 
 function jumpToMap() {
   lastListingScrollY = window.scrollY;
   keepMapOpenUntil = Date.now() + 1600;
+  venueMapRequested = true;
   returnToListingsButton.disabled = false;
+  if (venueMap) venueMap.hidden = false;
   venueMap?.setAttribute("open", "");
   venueMap?.scrollIntoView({ behavior: "smooth", block: "start" });
   window.setTimeout(() => venueMap?.setAttribute("open", ""), 320);
@@ -865,7 +916,7 @@ function renderVenueMap(list) {
   if (!venueMap || !venueMapSvg) return;
   const renderToken = ++venueMapRenderToken;
   const venues = uniqueVenuesWithGeo(list);
-  venueMap.hidden = venues.length === 0;
+  venueMap.hidden = !venueMapRequested || venues.length === 0;
   if (venueMapCount) venueMapCount.textContent = `${venues.length} mapped venue${venues.length === 1 ? "" : "s"}`;
   if (!venues.length) {
     venueMapSvg.replaceChildren();
@@ -1347,18 +1398,14 @@ function activateCustomForControlChange() {
 
 sourceFilterButtons.forEach((button) => {
   button.addEventListener("click", () => {
-    sourceFilterButtons.forEach((item) => item.classList.remove("active"));
-    button.classList.add("active");
     state.source = button.dataset.sourceFilter;
     activateCustomForControlChange();
     render();
   });
 });
 
-jumpToFiltersButton?.addEventListener("click", jumpToFilters);
 returnToListingsButton?.addEventListener("click", returnToListings);
-stickyFiltersButton?.addEventListener("click", jumpToFilters);
-stickyMapButton?.addEventListener("click", jumpToMap);
+jumpToFiltersButton?.addEventListener("click", jumpToFilters);
 stickyToolsMenuButton?.addEventListener("click", () => {
   setStickyToolsMenuOpen(stickyToolsMenuButton.getAttribute("aria-expanded") !== "true");
 });

@@ -1,5 +1,5 @@
 {
-  "name": "bay-area-show-explorer",
+  "name": "mikeslist",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "suggest": "node scripts/suggest-review-edits.mjs",
     "suggest:artists": "node scripts/create-suggested-artists.mjs",
     "normalize:events": "node scripts/normalize-event-store.mjs",
+    "build:public-artists": "node scripts/build-public-artist-store.mjs",
     "enrich:badslava-venues": "node scripts/enrich-venues-badslava.mjs"
   }
 }

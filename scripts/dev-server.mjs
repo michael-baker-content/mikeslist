@@ -219,6 +219,7 @@ async function handleSaveArtists(request, response) {
 
   payload.generatedAt = new Date().toISOString();
   await writeFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await runScript("scripts/build-public-artist-store.mjs");
   send(response, 200, JSON.stringify({ ok: true, savedAt: payload.generatedAt }), "application/json; charset=utf-8");
 }
 
@@ -259,6 +260,7 @@ async function handleSaveEvents(request, response) {
 
   await writeFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   await runScript("scripts/build-artist-store.mjs");
+  await runScript("scripts/build-public-artist-store.mjs");
   await runScript("scripts/build-venue-store.mjs");
   send(response, 200, JSON.stringify({ ok: true, savedAt: new Date().toISOString(), count: payload.length }), "application/json; charset=utf-8");
 }

@@ -74,6 +74,14 @@
             <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
           </div>
         </div>
+
+        <label class="compact-filter">
+          <span>Sort</span>
+          <select id="eventSortInput">
+            <option value="default">Default</option>
+            <option value="title">Alphabetical</option>
+          </select>
+        </label>
       </section>
 
       <section class="summary" aria-live="polite">
@@ -178,8 +186,13 @@
             </div>
 
             <label>
-              <span>Details</span>
-              <textarea id="detailsInput" rows="3" placeholder="Listing details, time, notes, age policy"></textarea>
+              <span>Main Card Details</span>
+              <textarea id="detailsInput" rows="3" placeholder="Text shown with the show image, venue, time, and date"></textarea>
+            </label>
+
+            <label>
+              <span>Event Description</span>
+              <textarea id="eventDescriptionInput" rows="3" placeholder="Optional text for the lower non-music event card"></textarea>
             </label>
 
             <div class="field-grid two-column">

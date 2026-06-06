@@ -120,6 +120,7 @@ for (const event of events) {
     city: previous.city || event.city || "",
     region: previous.region || "",
     address: previous.address || event.address || "",
+    imageUrl: previous.imageUrl || "",
     phone: previous.phone || "",
     recurringEvents: previous.recurringEvents || [],
     geo: previous.geo || null,
