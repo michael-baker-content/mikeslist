@@ -20,7 +20,7 @@
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
-        <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
+        <a class="source-link" href="sources.html">Sources</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="5"></circle>
@@ -48,20 +48,33 @@
           <span>Verify venue details, recurring events, BadSlava enrichment, and upcoming event appearances.</span>
         </a>
 
-        <a class="admin-card" href="index.html">
-          <span class="kicker">Public calendar</span>
-          <strong>Show Explorer</strong>
-          <span>Check the music-first default view, then use All or event-type filters to audit non-music listings.</span>
+        <a class="admin-card" href="event-review.html">
+          <span class="kicker">Show metadata</span>
+          <strong>Review Shows</strong>
+          <span>Clean up show types, event types, themes, titles, details, and artist-vs-event classification.</span>
         </a>
 
-        <a class="admin-card" href="https://badslava.com/open-mics.php?state=CA" target="_blank" rel="noreferrer">
-          <span class="kicker">Source check</span>
-          <strong>BadSlava CA</strong>
-          <span>Open the statewide source pages when a non-music event or venue needs confirmation.</span>
+        <a class="admin-card" href="suggestions.html">
+          <span class="kicker">Automation queue</span>
+          <strong>Review Suggestions</strong>
+          <span>Inspect suggested display names, show-type moves, duplicate sources, and venue merge candidates before applying edits.</span>
         </a>
+
+        <section class="admin-card source-card" aria-label="Sources">
+          <span class="kicker">Sources</span>
+          <strong>Source Checks</strong>
+          <span>Open source calendars when a listing, venue, or source-specific import needs confirmation.</span>
+          <div class="admin-source-links">
+            <a href="sources.html">Sources Page</a>
+            <a href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
+            <a href="https://www.kalx.berkeley.edu/events/" target="_blank" rel="noreferrer">KALX</a>
+            <a href="https://badslava.com/open-mics.php?state=CA" target="_blank" rel="noreferrer">BadSlava</a>
+          </div>
+        </section>
       </section>
     </main>
 
     <script src="assets/nav.js"></script>
+    <script src="assets/auth.js"></script>
   </body>
 </html>

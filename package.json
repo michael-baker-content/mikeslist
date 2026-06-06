@@ -12,6 +12,9 @@
     "classify": "node scripts/classify-event-metadata.mjs",
     "refresh": "node scripts/refresh-thelist.mjs",
     "refine-upcoming": "node scripts/refine-upcoming.mjs",
+    "suggest": "node scripts/suggest-review-edits.mjs",
+    "suggest:artists": "node scripts/create-suggested-artists.mjs",
+    "normalize:events": "node scripts/normalize-event-store.mjs",
     "enrich:badslava-venues": "node scripts/enrich-venues-badslava.mjs"
   }
 }

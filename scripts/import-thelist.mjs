@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { classifyEventText, mergeClassifications } from "./event-classifier.mjs";
 
 const SOURCE_URL = "https://jon.luini.com/thelist/date.html";
@@ -9,18 +9,18 @@ const args = new Map(process.argv.slice(2).map((arg) => {
 }));
 
 const monthNames = new Map([
-  ["jan", "01"],
-  ["feb", "02"],
-  ["mar", "03"],
-  ["apr", "04"],
+  ["jan", "01"], ["january", "01"],
+  ["feb", "02"], ["february", "02"],
+  ["mar", "03"], ["march", "03"],
+  ["apr", "04"], ["april", "04"],
   ["may", "05"],
-  ["jun", "06"],
-  ["jul", "07"],
-  ["aug", "08"],
-  ["sep", "09"],
-  ["oct", "10"],
-  ["nov", "11"],
-  ["dec", "12"]
+  ["jun", "06"], ["june", "06"],
+  ["jul", "07"], ["july", "07"],
+  ["aug", "08"], ["august", "08"],
+  ["sep", "09"], ["september", "09"],
+  ["oct", "10"], ["october", "10"],
+  ["nov", "11"], ["november", "11"],
+  ["dec", "12"], ["december", "12"]
 ]);
 
 function clean(text) {
@@ -55,7 +55,7 @@ function extractCells(rowHtml) {
 }
 
 function extractMonth(rowHtml) {
-  const match = rowHtml.match(/<th\b[^>]*>[\s\S]*?([a-z]{3})\s+(\d{4})[\s\S]*?<\/th>/i);
+  const match = rowHtml.match(/<th\b[^>]*>[\s\S]*?([a-z]+)\s+(\d{4})[\s\S]*?<\/th>/i);
   if (!match) return null;
   const month = monthNames.get(match[1].toLowerCase());
   return month ? { month, year: match[2] } : null;
@@ -213,6 +213,7 @@ function parseEvents(html) {
       id: slugify(`${normalized.date}-${venue}-${normalized.artistNames[0]}`),
       date: normalized.date,
       title,
+      showType: performerNames.length ? "artist" : "event",
       venueId: venueIdFor(venueHref, venue),
       venue,
       venueHref,
@@ -245,14 +246,96 @@ if (!response.ok) {
 const html = await response.text();
 const updatedDate = extractUpdatedDate(html);
 const fromDate = importFromDate(updatedDate);
-const events = parseEvents(html).filter((event) => {
+const existing = await readWindowData(OUTPUT_PATH, "SHOW_EXPLORER_EVENTS", []);
+const theListEvents = parseEvents(html).filter((event) => {
   return !fromDate || event.date >= fromDate;
-}).sort((a, b) => {
+});
+const events = mergeEvents(existing, theListEvents).sort((a, b) => {
   return a.date.localeCompare(b.date) || a.venue.localeCompare(b.venue);
 });
 const payload = `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(events, null, 2)};\n`;
 await writeFile(OUTPUT_PATH, payload, "utf8");
 
-const artists = events.flatMap((event) => event.artists);
+const artists = theListEvents.flatMap((event) => event.artists);
 const fromLabel = fromDate ? ` from ${fromDate}` : "";
-console.log(`Imported ${events.length} events${fromLabel} and ${artists.length} artist slots to ${OUTPUT_PATH.pathname}`);
+console.log(`Merged ${theListEvents.length} The List events${fromLabel} and ${artists.length} artist slots into ${OUTPUT_PATH.pathname}`);
+
+async function readWindowData(path, globalName, fallback) {
+  try {
+    const text = await readFile(path, "utf8");
+    const match = text.match(new RegExp(`window\\.${globalName}\\s*=\\s*([\\s\\S]*);\\s*$`));
+    return match ? JSON.parse(match[1]) : fallback;
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
+
+function mergeEvents(existing, incoming) {
+  const byId = new Map(existing.map((event) => [event.id, normalizeEventSources(event)]));
+  for (const event of incoming) {
+    const duplicate = [...byId.values()].find((item) => eventKey(item) === eventKey(event));
+    if (duplicate) {
+      duplicate.sources = mergeSources(duplicate.sources, [event.source]);
+      duplicate.source = duplicate.sources[0];
+      duplicate.sourceUrl ||= event.sourceUrl;
+      duplicate.venueHref ||= event.venueHref;
+      duplicate.city ||= event.city;
+      duplicate.eventTypes = mergeList(duplicate.eventTypes, event.eventTypes);
+      duplicate.themes = mergeList(duplicate.themes, event.themes);
+      duplicate.artists = mergeArtists(duplicate.artists || [], event.artists || []);
+      if (duplicate.showType !== "event" && event.showType === "artist") duplicate.showType = "artist";
+    } else {
+      byId.set(event.id, normalizeEventSources(event));
+    }
+  }
+  return [...byId.values()];
+}
+
+function normalizeEventSources(event) {
+  return {
+    ...event,
+    sources: mergeSources(event.sources || [], [event.source || (event.sourceUrl ? { name: "Source", url: event.sourceUrl } : null)])
+  };
+}
+
+function mergeSources(existing, incoming) {
+  const sources = new Map();
+  for (const source of [...existing, ...incoming].filter(Boolean)) {
+    const name = sourceNameForUrl(source.url, source.name);
+    sources.set(`${name}|${source.url}`, { ...source, name });
+  }
+  return [...sources.values()];
+}
+
+function mergeList(existing = [], incoming = []) {
+  return [...new Set([...existing, ...incoming])];
+}
+
+function mergeArtists(existing, incoming) {
+  const artists = new Map(existing.map((artist) => [slugify(artist.name), artist]));
+  for (const artist of incoming) {
+    if (!artists.has(slugify(artist.name))) artists.set(slugify(artist.name), artist);
+  }
+  return [...artists.values()];
+}
+
+function eventKey(event) {
+  return `${event.date}|${slugify(event.venue)}|${slugify(event.details || eventTitle(event))}`;
+}
+
+function eventTitle(event) {
+  return event.title || (event.artists || []).map((artist) => artist.name).join(", ") || event.details || "";
+}
+
+function sourceNames(event) {
+  return [...new Set([...(event.sources || []), event.source].filter(Boolean).map((source) => sourceNameForUrl(source.url, source.name)).filter(Boolean))];
+}
+
+function sourceNameForUrl(url, fallback = "Source") {
+  const normalized = String(url || "").toLowerCase();
+  if (normalized.includes("jon.luini.com") || normalized.includes("thelist")) return "The List";
+  if (normalized.includes("kalx.berkeley.edu")) return "KALX";
+  if (normalized.includes("badslava.com")) return "BadSlava";
+  return fallback && fallback !== "Source" ? fallback : "Source";
+}

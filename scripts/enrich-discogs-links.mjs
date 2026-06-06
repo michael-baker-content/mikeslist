@@ -26,6 +26,20 @@ function normalizeName(name = "") {
   return name.toLowerCase().replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function artistReviewNames(artist) {
+  return [
+    artist.name,
+    artist.displayName,
+    ...(artist.aliases || [])
+  ].filter(Boolean);
+}
+
+function matchesArtistFilter(artist, filter) {
+  if (!filter) return true;
+  const wanted = normalizeName(filter);
+  return artistReviewNames(artist).some((value) => normalizeName(value) === wanted);
+}
+
 function discogsId(url = "") {
   return url.match(/discogs\.com\/artist\/(\d+)/i)?.[1] || "";
 }
@@ -40,20 +54,18 @@ async function fetchDiscogsArtist(id) {
 }
 
 function classifyDiscogsLink(artist, discogs) {
-  const artistName = normalizeName(artist.name);
-  const aliases = (artist.aliases || []).map(normalizeName);
+  const artistNames = artistReviewNames(artist).map(normalizeName);
   const discogsName = normalizeName(discogs.name);
   const realName = normalizeName(discogs.realname);
 
-  if (discogsName === artistName) return "discogsArtist";
-  if (aliases.includes(discogsName)) return "discogsAlias";
-  if (realName && (discogsName === realName || aliases.includes(realName))) return "discogsLegalName";
+  if (artistNames.includes(discogsName)) return "discogsArtist";
+  if (realName && artistNames.includes(realName)) return "discogsLegalName";
   return "discogsAlias";
 }
 
 const store = await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", { artists: {} });
 const artists = Object.values(store.artists || {})
-  .filter((artist) => !onlyArtist || normalizeName(artist.name) === normalizeName(onlyArtist));
+  .filter((artist) => matchesArtistFilter(artist, onlyArtist));
 
 let checked = 0;
 let changed = 0;

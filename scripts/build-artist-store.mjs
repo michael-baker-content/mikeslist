@@ -159,12 +159,14 @@ const existing = sanitizeReviewNotes(await readWindowData(ARTISTS_PATH, "SHOW_EX
 const artists = {};
 
 for (const event of events) {
+  if (showTypeForEvent(event) !== "artist") continue;
   for (const artist of event.artists || []) {
     const id = slugify(artist.name);
     const previous = existing.artists?.[id] || {};
     const current = artists[id] || {
       id,
       name: previous.name || artist.name,
+      displayName: previous.displayName || artist.displayName || "",
       aliases: previous.aliases || [],
       genres: previous.genres || previous.tags || artist.tags || [],
       locality: previous.locality || artist.locality || "unknown",
@@ -192,7 +194,7 @@ for (const event of events) {
 const payload = {
   generatedAt: new Date().toISOString(),
   artists: Object.fromEntries(Object.entries({
-    ...(existing.artists || {}),
+    ...staleExistingArtists(existing.artists || {}, artists),
     ...artists
   }).sort(([a], [b]) => a.localeCompare(b)))
 };
@@ -200,6 +202,29 @@ const payload = {
 await writeFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
 
 console.log(`Built ${Object.keys(payload.artists).length} artist records at ${ARTISTS_PATH.pathname}`);
+
+function staleExistingArtists(existingArtists, currentArtists) {
+  return Object.fromEntries(Object.entries(existingArtists).map(([id, artist]) => {
+    if (currentArtists[id]) return [id, artist];
+    if (isExtractedArtistRecord(artist)) return [id, artist];
+    return [id, {
+      ...artist,
+      source: {
+        ...(artist.source || {}),
+        appearances: []
+      }
+    }];
+  }));
+}
+
+function isExtractedArtistRecord(artist) {
+  return /^Extracted from event-style artist listing\b/.test(artist.reviewNotes || "");
+}
+
+function showTypeForEvent(event) {
+  if (event.showType === "event" || event.showType === "artist") return event.showType;
+  return (event.artists || []).length ? "artist" : "event";
+}
 
 function supportPriorityForLinks(links) {
   const verifiedTypes = [...new Set(links

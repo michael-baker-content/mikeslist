@@ -30,6 +30,20 @@ function normalizeName(name) {
   return name.toLowerCase().replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function artistSearchName(artist) {
+  return artist.displayName || artist.name || "";
+}
+
+function matchesArtistFilter(artist, filter) {
+  if (!filter) return true;
+  const wanted = normalizeName(filter);
+  return [
+    artist.name,
+    artist.displayName,
+    ...(artist.aliases || [])
+  ].some((value) => normalizeName(value || "") === wanted);
+}
+
 function isGoodMatch(artistName, candidate) {
   const score = Number(candidate.score || 0);
   if (score < 95) return false;
@@ -154,7 +168,7 @@ function rejectedMusicBrainzIds(artist) {
 
 const store = await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", { artists: {} });
 const candidates = Object.values(store.artists)
-  .filter((artist) => !onlyArtist || normalizeName(artist.name) === normalizeName(onlyArtist))
+  .filter((artist) => matchesArtistFilter(artist, onlyArtist))
   .filter((artist) => {
     return onlyArtist || !artist.links?.some((link) => link.type === "musicbrainz" && link.confidence !== "rejected");
   })
@@ -165,14 +179,15 @@ let enriched = 0;
 for (const artist of candidates) {
   let result;
   const mbid = existingMusicBrainzId(artist);
+  const searchName = artistSearchName(artist);
   try {
-    result = mbid ? { artists: [await getMusicBrainzArtist(mbid)] } : await searchMusicBrainz(artist.name);
+    result = mbid ? { artists: [await getMusicBrainzArtist(mbid)] } : await searchMusicBrainz(searchName);
   } catch (error) {
     console.warn(`Skipped ${artist.name}: ${error.message}`);
     await sleep(1100);
     continue;
   }
-  const match = mbid ? result.artists[0] : (result.artists || []).find((candidate) => isGoodMatch(artist.name, candidate));
+  const match = mbid ? result.artists[0] : (result.artists || []).find((candidate) => isGoodMatch(searchName, candidate));
   if (match && !rejectedMusicBrainzIds(artist).has(match.id)) {
     const url = `https://musicbrainz.org/artist/${match.id}`;
     artist.links = mergeLinks(artist.links, [{
@@ -190,7 +205,7 @@ for (const artist of candidates) {
     }
     artist.disambiguation ||= match.disambiguation || "";
     artist.confidence = artist.confidence === "review" ? "likely" : artist.confidence;
-    addEvidence(artist, url, `MusicBrainz returned a high-score artist match for "${artist.name}".`);
+    addEvidence(artist, url, `MusicBrainz returned a high-score artist match for "${searchName}".`);
     enriched += 1;
   }
   await sleep(1100);

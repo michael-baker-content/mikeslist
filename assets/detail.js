@@ -47,15 +47,16 @@ function setupBackNavigation() {
 function renderArtistPage(id) {
   const artist = artistStore.artists?.[id];
   if (!artist) return renderMissing("Artist not found.");
-  detailTitle.textContent = artist.name;
-  document.title = `${artist.name} - Bay Area Show Explorer`;
+  const title = displayNameForArtist(artist);
+  detailTitle.textContent = title;
+  document.title = `${title} - Bay Area Show Explorer`;
 
   const shows = events.filter((event) => event.artists.some((item) => slugify(item.name) === artist.id));
   detailPanel.replaceChildren(
     heroSection({
-      kicker: artist.confidence || "review",
-      title: artist.name,
-      summary: artist.summary || artist.reviewNotes || "No summary has been added yet.",
+      kicker: "Artist",
+      title,
+      summary: artist.summary || "No summary has been added yet.",
       meta: [
         artist.locality || "unknown locality",
         ...(artist.genres || artist.tags || []).slice(0, 4)
@@ -64,13 +65,12 @@ function renderArtistPage(id) {
     infoGrid([
       ["Locality", artist.locality || "unknown"],
       ["Genres", (artist.genres || artist.tags || []).join(", ") || "unknown"],
-      ["Aliases", (artist.aliases || []).join(", ") || "none"],
-      ["Confidence", artist.confidence || "review"]
+      ["Aliases", (artist.aliases || []).join(", ") || "none"]
     ]),
     linkSection("Links", prioritizedArtistLinks(artist.links || [])),
     showsSection("Upcoming Shows", shows.map((event) => ({
       date: event.date,
-      title: event.artists.map((item) => item.name).join(" / "),
+      title: displayNameForEvent(event),
       meta: eventLineFor(event),
       href: `venue.html?id=${encodeURIComponent(resolveVenue(event).id || venueIdFor(event))}`
     })))
@@ -91,9 +91,9 @@ function renderVenuePage(id) {
   });
   detailPanel.replaceChildren(
     heroSection({
-      kicker: venue.confidence || "review",
+      kicker: "Venue",
       title,
-      summary: venue.summary || venue.reviewNotes || "No summary has been added yet.",
+      summary: venue.summary || "No summary has been added yet.",
       meta: [
         [venue.city, venue.region].filter(Boolean).join(", "),
         venue.venueType,
@@ -106,14 +106,13 @@ function renderVenuePage(id) {
       ["Phone", venue.phone || "unknown"],
       ["Age Policy", venue.agePolicy || "unknown"],
       ["Capacity", venue.capacity || "unknown"],
-      ["Status", venue.status || "unknown"],
-      ["Confidence", venue.confidence || "review"]
+      ["Status", venue.status || "unknown"]
     ]),
     linkSection("Links", activeLinks(venue.links || [])),
     recurringSection("Recurring Events", venue.recurringEvents || []),
     showsSection("Upcoming Shows", shows.map((event) => ({
       date: event.date,
-      title: event.artists.map((artist) => artist.name).join(" / "),
+      title: displayNameForEvent(event),
       meta: event.details || "",
       href: `index.html?show=${encodeURIComponent(event.id || "")}`
     })))
@@ -165,7 +164,7 @@ function linkSection(title, links) {
   if (!links.length) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "No reviewed links yet.";
+    empty.textContent = "No links yet.";
     section.append(empty);
     return section;
   }
@@ -189,7 +188,7 @@ function recurringSection(title, items) {
   if (!items.length) {
     const empty = document.createElement("p");
     empty.className = "empty-state";
-    empty.textContent = "No recurring events have been reviewed yet.";
+    empty.textContent = "No recurring events yet.";
     list.append(empty);
     return section;
   }
@@ -297,6 +296,14 @@ function eventLineFor(event) {
 
 function displayNameFor(venue) {
   return venue.displayName || venue.name || "";
+}
+
+function displayNameForArtist(artist = {}) {
+  return artist.displayName || artist.name || "";
+}
+
+function displayNameForEvent(event = {}) {
+  return event.displayName || event.title || (event.artists || []).map(displayNameForArtist).filter(Boolean).join(" / ") || event.details || "Show";
 }
 
 function venueIdFor(event) {

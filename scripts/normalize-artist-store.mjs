@@ -116,8 +116,76 @@ function isAutoRejectedNoise(link) {
   return link.confidence === "rejected" && (
     link.reviewNote === "Noisy platform/navigation link from a verified page, not an artist profile candidate." ||
     link.reviewNote === "Duplicate URL candidate; a stronger/canonical link is already stored." ||
-    link.reviewNote === "Bandcamp subpage is superseded by the verified Bandcamp artist page."
+    link.reviewNote === "Bandcamp subpage is superseded by the verified Bandcamp artist page." ||
+    link.reviewNote === "Rejected Wikipedia navigation or related-article link; a canonical Wikipedia artist link is already stored."
   );
+}
+
+function isWikipediaUrl(url = "") {
+  try {
+    const host = new URL(url).hostname;
+    return host === "wikipedia.org" || host.endsWith(".wikipedia.org");
+  } catch {
+    return false;
+  }
+}
+
+function isWikimediaNoiseUrl(url = "") {
+  try {
+    const host = new URL(url).hostname;
+    return host === "wikimedia.org" || host.endsWith(".wikimedia.org");
+  } catch {
+    return false;
+  }
+}
+
+function canonicalWikipediaArticleUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    if (!isWikipediaUrl(parsed.href)) return "";
+    if (parsed.hostname !== "en.wikipedia.org") return "";
+    if (!parsed.pathname.startsWith("/wiki/")) return "";
+    const title = decodeURIComponent(parsed.pathname.slice("/wiki/".length));
+    if (!title || wikipediaNamespace(title)) return "";
+    parsed.hash = "";
+    parsed.search = "";
+    parsed.hostname = "en.wikipedia.org";
+    return parsed.href;
+  } catch {
+    return "";
+  }
+}
+
+function wikipediaNamespace(title = "") {
+  return title.match(/^([^:]+):/)?.[1] || "";
+}
+
+function hasAcceptedWikipediaLink(artist) {
+  return (artist.links || []).some((link) => {
+    return link.confidence !== "rejected" && isWikipediaUrl(link.url || "");
+  });
+}
+
+function shouldDropRejectedWikipediaNoise(artist, link) {
+  if (link.confidence !== "rejected") return false;
+  if (isWikimediaNoiseUrl(link.url || "")) return true;
+  if (!isWikipediaUrl(link.url || "")) return false;
+  if (!hasAcceptedWikipediaLink(artist)) return false;
+  const canonical = canonicalWikipediaArticleUrl(link.url || "");
+  if (!canonical) return true;
+  return !sameWikipediaArticle(canonical, acceptedWikipediaUrls(artist));
+}
+
+function acceptedWikipediaUrls(artist) {
+  return (artist.links || [])
+    .filter((link) => link.confidence !== "rejected")
+    .map((link) => canonicalWikipediaArticleUrl(link.url || ""))
+    .filter(Boolean);
+}
+
+function sameWikipediaArticle(url, urls = []) {
+  const normalized = normalizedUrl(url);
+  return urls.some((item) => normalizedUrl(item) === normalized);
 }
 
 function canonicalCandidateUrl(url = "") {
@@ -228,6 +296,12 @@ for (const artist of Object.values(store.artists || {})) {
   }
 
   for (const link of artist.links || []) {
+    if (isWikipediaUrl(link.url || "") && link.type !== "wikipedia") {
+      link.type = "wikipedia";
+      link.label = "Wikipedia";
+      changed += 1;
+    }
+
     if (link.source === "verified-page" && link.confidence === "candidate") {
       const canonical = canonicalCandidateUrl(link.url || "");
       if (canonical !== link.url) {
@@ -282,6 +356,12 @@ for (const artist of Object.values(store.artists || {})) {
     }
 
     if (hasVerifiedSameBandcampHost(artist, link)) {
+      link.drop = true;
+      changed += 1;
+    }
+
+    if (shouldDropRejectedWikipediaNoise(artist, link)) {
+      link.reviewNote = "Rejected Wikipedia navigation or related-article link; a canonical Wikipedia artist link is already stored.";
       link.drop = true;
       changed += 1;
     }

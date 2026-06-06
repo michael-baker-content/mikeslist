@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Show Review - Bay Area Show Explorer</title>
+    <script src="assets/theme.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="kicker">Show metadata</p>
+        <h1>Show Review</h1>
+      </div>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Shows</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
+        <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" data-admin-only href="review.html">Artists</a>
+        <a class="source-link" data-admin-only href="venue-review.html">Venues</a>
+        <button id="exportButton" class="source-link button-link" type="button">Export</button>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="review-layout">
+      <section class="controls" aria-label="Show filters">
+        <label class="search">
+          <span>Search</span>
+          <input id="eventSearch" type="search" placeholder="Show, venue, type, theme, source">
+        </label>
+
+        <div class="date-range" aria-label="Event date range">
+          <label>
+            <span>From</span>
+            <input id="fromDateInput" type="date">
+          </label>
+          <label>
+            <span>To</span>
+            <input id="toDateInput" type="date">
+          </label>
+        </div>
+
+        <div class="filter-group" role="group" aria-label="Quick filters">
+          <button class="chip active" type="button" data-review-filter="needsMetadata">Needs metadata</button>
+          <button class="chip" type="button" data-review-filter="duplicates">Likely duplicates</button>
+          <button class="chip" type="button" data-review-filter="recent">Recently changed</button>
+          <button class="chip" type="button" data-review-filter="nonArtist">Event shows</button>
+          <button class="chip" type="button" data-review-filter="artistBacked">Artist shows</button>
+          <button class="chip" type="button" data-review-filter="all">All</button>
+        </div>
+
+        <div class="source-filter" aria-label="Source filters">
+          <span>Source</span>
+          <div class="filter-group" role="group" aria-label="Source filters">
+            <button class="chip active" type="button" data-source-filter="all">All sources</button>
+            <button class="chip" type="button" data-source-filter="the-list">The List</button>
+            <button class="chip" type="button" data-source-filter="kalx">KALX</button>
+            <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="summary" aria-live="polite">
+        <div>
+          <strong id="eventTotal">0</strong>
+          <span>shows</span>
+        </div>
+        <div>
+          <strong id="metadataTotal">0</strong>
+          <span>need metadata</span>
+        </div>
+        <div>
+          <strong id="nonArtistTotal">0</strong>
+          <span>event shows</span>
+        </div>
+        <div>
+          <strong id="duplicateTotal">0</strong>
+          <span>likely duplicates</span>
+        </div>
+        <div>
+          <strong id="sourceSummary">0 / 0 / 0</strong>
+          <span>List / KALX / BadSlava</span>
+        </div>
+      </section>
+
+      <section class="review-grid">
+        <aside id="eventQueue" class="queue-list" aria-label="Shows"></aside>
+
+        <section class="review-panel" aria-label="Selected show">
+          <form id="eventForm">
+            <div class="form-heading">
+              <div>
+                <p class="kicker">Selected show</p>
+                <h2 id="selectedName">Choose a show</h2>
+              </div>
+              <span id="selectedStatus" class="confidence review">review</span>
+            </div>
+
+            <details class="merge-panel" aria-label="Merge show">
+              <summary>
+                <div>
+                  <p class="kicker">Duplicate tools</p>
+                  <h3>Merge Duplicate Show</h3>
+                </div>
+                <span>Open merge</span>
+              </summary>
+              <div class="merge-panel-body">
+                <p>Fold this show into a canonical listing of the same type and keep source, artist, type, and theme data.</p>
+                <label>
+                  <span>Merge Into Canonical Show</span>
+                  <select id="mergeEventInput"></select>
+                </label>
+                <button id="mergeEventButton" class="chip danger-chip" type="button">Merge Selected Show</button>
+              </div>
+            </details>
+
+            <section class="duplicate-panel" aria-label="Duplicate suggestions">
+              <div class="section-heading compact-heading">
+                <div>
+                  <p class="kicker">Possible matches</p>
+                  <h3>Source Comparison</h3>
+                </div>
+                <span id="duplicateCount" class="confidence review">0</span>
+              </div>
+              <div id="duplicateSuggestions" class="duplicate-suggestions"></div>
+            </section>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Date</span>
+                <input id="dateInput" type="date">
+              </label>
+
+              <label>
+                <span>Venue</span>
+                <input id="venueInput" type="text">
+              </label>
+            </div>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Show Type</span>
+                <select id="showTypeInput">
+                  <option value="artist">Artist show</option>
+                  <option value="event">Event show</option>
+                </select>
+              </label>
+
+              <button id="mikesPickInput" class="chip pick-toggle" type="button" aria-pressed="false">Mike's Pick</button>
+            </div>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Title</span>
+                <input id="titleInput" type="text" placeholder="Karaoke, Trivia Night, artist billing, theme name">
+              </label>
+
+              <label>
+                <span>Display Name</span>
+                <input id="displayNameInput" type="text" placeholder="Clean public-facing label">
+              </label>
+            </div>
+
+            <label>
+              <span>Details</span>
+              <textarea id="detailsInput" rows="3" placeholder="Listing details, time, notes, age policy"></textarea>
+            </label>
+
+            <div class="field-grid two-column">
+              <label>
+                <span>Event Types</span>
+                <input id="eventTypesInput" type="text" list="eventTypeOptions" placeholder="karaoke, openMic, trivia">
+                <datalist id="eventTypeOptions"></datalist>
+              </label>
+
+              <label>
+                <span>Themes</span>
+                <input id="themesInput" type="text" placeholder="80s, goth, salsa, pride">
+              </label>
+            </div>
+
+            <label>
+              <span>Artists</span>
+              <textarea id="artistsInput" rows="4" placeholder="One artist per line. Event shows do not create artist records."></textarea>
+            </label>
+
+            <div class="field-grid three-column">
+              <label>
+                <span>Source</span>
+                <input id="sourceInput" type="url" placeholder="https://">
+              </label>
+
+              <label>
+                <span>Show Info Link</span>
+                <input id="infoUrlInput" type="url" placeholder="https://event or ticket page">
+              </label>
+
+              <label>
+                <span>Image Link</span>
+                <input id="imageUrlInput" type="url" placeholder="https://image.jpg">
+              </label>
+            </div>
+
+            <div class="form-actions">
+              <button class="chip active" type="submit">Save Event</button>
+              <button id="clearArtistsButton" class="chip" type="button">Clear Artists</button>
+              <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
+              <span id="saveStatus" class="save-status" aria-live="polite"></span>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <script src="data/imported-events.js"></script>
+    <script src="assets/nav.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/event-review.js"></script>
+  </body>
+</html>

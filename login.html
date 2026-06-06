@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Venue - Bay Area Show Explorer</title>
+    <title>Log In - Bay Area Show Explorer</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="kicker">Venue profile</p>
-        <h1 id="detailTitle" class="statement-type">Venue</h1>
+        <p class="kicker">Private tools</p>
+        <h1>Log In</h1>
       </div>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
         <span></span>
@@ -20,7 +20,6 @@
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
         <a class="source-link" href="sources.html">Sources</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
@@ -35,22 +34,20 @@
       </nav>
     </header>
 
-    <main class="detail-layout" data-detail-kind="venue">
-      <section class="detail-nav" aria-label="Profile navigation">
-        <button id="backButton" class="source-link button-link detail-back" type="button">← Back</button>
-        <a class="source-link" href="index.html">Shows</a>
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
-        <a class="source-link" href="sources.html">Sources</a>
-      </section>
-      <section id="detailPanel" class="detail-panel" aria-live="polite"></section>
+    <main class="auth-layout">
+      <form id="loginForm" class="auth-card">
+        <p class="kicker">Admin access</p>
+        <h2>Enter your access key</h2>
+        <label>
+          <span>Access Key</span>
+          <input id="accessKeyInput" type="password" autocomplete="current-password" required>
+        </label>
+        <button class="chip active" type="submit">Log In</button>
+        <p id="loginStatus" class="save-status" aria-live="polite"></p>
+      </form>
     </main>
 
-    <script src="data/sample-events.js"></script>
-    <script src="data/imported-events.js"></script>
-    <script src="data/artists.js"></script>
-    <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
-    <script src="assets/detail.js"></script>
   </body>
 </html>

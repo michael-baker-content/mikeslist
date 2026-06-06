@@ -45,6 +45,20 @@ function normalizeName(name) {
   return name.toLowerCase().replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function artistSearchName(artist) {
+  return artist.displayName || artist.name || "";
+}
+
+function matchesArtistFilter(artist, filter) {
+  if (!filter) return true;
+  const wanted = normalizeName(filter);
+  return [
+    artist.name,
+    artist.displayName,
+    ...(artist.aliases || [])
+  ].some((value) => normalizeName(value || "") === wanted);
+}
+
 async function fetchText(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 10000);
@@ -160,6 +174,9 @@ function canonicalCandidateUrl(url = "") {
 function shouldKeepCandidate(type, url = "") {
   const parsed = new URL(url);
 
+  if (isWikipediaUrl(url)) return false;
+  if (parsed.hostname === "wikimedia.org" || parsed.hostname.endsWith(".wikimedia.org")) return false;
+
   if (type === "bandcamp") {
     if (parsed.hostname === "bandcamp.com" || parsed.hostname === "www.bandcamp.com") return false;
     const parts = parsed.pathname.split("/").filter(Boolean);
@@ -191,15 +208,33 @@ function inferLinkType(url = "") {
   if (lower.includes("youtube.com") || lower.includes("youtu.be")) return "youtube";
   if (lower.includes("soundcloud.com")) return "soundcloud";
   if (lower.includes("discogs.com")) return "discogsArtist";
-  if (lower.includes("wikipedia.org")) return "wikipedia";
+  if (isWikipediaUrl(url)) return "wikipedia";
   if (lower.includes("music.apple.com")) return "appleMusic";
   if (lower.includes("music.amazon.com")) return "amazonMusic";
   if (lower.includes("ticketmaster.com")) return "ticketmaster";
   if (lower.includes("qobuz.com")) return "qobuz";
   if (lower.includes("deezer.com")) return "deezer";
   if (lower.includes("tidal.com")) return "tidal";
-  if (lower.includes("wikidata.org")) return "wikidata";
+  if (isWikidataUrl(url)) return "wikidata";
   return "";
+}
+
+function isWikipediaUrl(url = "") {
+  try {
+    const host = new URL(url).hostname;
+    return host === "wikipedia.org" || host.endsWith(".wikipedia.org");
+  } catch {
+    return false;
+  }
+}
+
+function isWikidataUrl(url = "") {
+  try {
+    const host = new URL(url).hostname;
+    return host === "wikidata.org" || host.endsWith(".wikidata.org");
+  } catch {
+    return false;
+  }
 }
 
 function labelForType(type = "") {
@@ -265,7 +300,7 @@ function mergeCandidateLinks(existingLinks = [], incomingLinks = []) {
 function summaryFromDescription(artist, description) {
   const clean = description.replace(/\s+/g, " ").trim();
   if (!clean || clean.length < 20) return "";
-  if (!clean.toLowerCase().includes(artist.name.toLowerCase().split(" ")[0])) return "";
+  if (!clean.toLowerCase().includes(artistSearchName(artist).toLowerCase().split(" ")[0])) return "";
   if (clean.length <= 220) return clean;
   const trimmed = clean.slice(0, 217).replace(/\s+\S*$/, "").trim();
   return `${trimmed}...`;
@@ -285,13 +320,14 @@ function genresFromText(text) {
 }
 
 function trustedMetadataLinks(artist) {
-  const preferred = new Set(["official", "bandcamp", "facebook", "instagram", "tiktok", "youtube", "youtubeMusic", "spotify", "appleMusic", "linktree"]);
+  const preferred = new Set(["official", "bandcamp", "facebook", "instagram", "tiktok", "youtube", "youtubeMusic", "spotify", "appleMusic", "linktree", "wikipedia"]);
   return (artist.links || [])
     .filter((link) => link.confidence === "verified" && preferred.has(link.type) && /^https?:\/\//i.test(link.url))
     .slice(0, 10);
 }
 
 function shouldHarvestOutboundLinks(link) {
+  if (isWikipediaUrl(link.url)) return false;
   return ["official", "bandcamp", "facebook", "instagram", "tiktok", "linktree"].includes(link.type);
 }
 
@@ -308,7 +344,7 @@ function addEvidence(artist, url, note) {
 
 const store = await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", { artists: {} });
 const artists = Object.values(store.artists || {})
-  .filter((artist) => !onlyArtist || normalizeName(artist.name) === normalizeName(onlyArtist));
+  .filter((artist) => matchesArtistFilter(artist, onlyArtist));
 
 let changed = 0;
 

@@ -20,8 +20,9 @@
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
-        <a class="source-link" href="admin.html">Admin</a>
-        <a class="source-link" href="venue-review.html">Venues</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
+        <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" data-admin-only href="venue-review.html">Venues</a>
         <button id="exportButton" class="source-link button-link" type="button">Export</button>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
@@ -60,6 +61,25 @@
           <button class="chip" type="button" data-review-filter="verified">Verified</button>
           <button class="chip" type="button" data-review-filter="all">All</button>
         </div>
+
+        <details class="advanced-filters">
+          <summary>Queue options</summary>
+          <div class="advanced-filter-grid">
+            <label>
+              <span>Venue</span>
+              <select id="venueFilterInput"></select>
+            </label>
+            <label>
+              <span>Sort</span>
+              <select id="artistSortInput">
+                <option value="name">Artist name</option>
+                <option value="venue">Venue, then artist</option>
+                <option value="date">Next show date</option>
+                <option value="status">Review status</option>
+              </select>
+            </label>
+          </div>
+        </details>
       </section>
 
       <section class="summary" aria-live="polite">
@@ -90,6 +110,24 @@
               <span id="selectedConfidence" class="confidence review">review</span>
             </div>
 
+            <div class="record-navigation" aria-label="Artist record navigation">
+              <button id="previousArtistButton" class="chip" type="button">Previous</button>
+              <span id="artistPosition" class="record-position">0 of 0</span>
+              <button id="nextArtistButton" class="chip active" type="button">Next</button>
+            </div>
+
+            <section class="merge-panel" aria-label="Merge artist">
+              <div>
+                <h3>Merge Artist</h3>
+                <p>Move this artist's listings, aliases, links, and notes into a canonical artist record.</p>
+              </div>
+              <label>
+                <span>Merge Into</span>
+                <select id="mergeArtistInput"></select>
+              </label>
+              <button id="mergeArtistButton" class="chip danger-chip" type="button">Merge Selected Artist</button>
+            </section>
+
             <label>
               <span>Confidence</span>
               <select id="confidenceInput">
@@ -97,6 +135,11 @@
                 <option value="likely">Likely match</option>
                 <option value="verified">Verified</option>
               </select>
+            </label>
+
+            <label>
+              <span>Display Name</span>
+              <input id="displayNameInput" type="text" placeholder="Clean public-facing name">
             </label>
 
             <label>
@@ -153,8 +196,10 @@
       </section>
     </main>
 
+    <script src="data/imported-events.js"></script>
     <script src="data/artists.js"></script>
     <script src="assets/nav.js"></script>
+    <script src="assets/auth.js"></script>
     <script src="assets/review.js"></script>
   </body>
 </html>

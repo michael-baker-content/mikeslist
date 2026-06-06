@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Venue - Bay Area Show Explorer</title>
+    <title>Suggestions - Bay Area Show Explorer</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="kicker">Venue profile</p>
-        <h1 id="detailTitle" class="statement-type">Venue</h1>
+        <p class="kicker">Review automation</p>
+        <h1>Suggestions</h1>
       </div>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
         <span></span>
@@ -21,7 +21,6 @@
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Shows</a>
         <a class="source-link" data-admin-only href="admin.html">Admin</a>
-        <a class="source-link" href="sources.html">Sources</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="5"></circle>
@@ -35,22 +34,43 @@
       </nav>
     </header>
 
-    <main class="detail-layout" data-detail-kind="venue">
-      <section class="detail-nav" aria-label="Profile navigation">
-        <button id="backButton" class="source-link button-link detail-back" type="button">← Back</button>
-        <a class="source-link" href="index.html">Shows</a>
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
-        <a class="source-link" href="sources.html">Sources</a>
+    <main class="admin-layout">
+      <section class="source-intro">
+        Suggested edits are generated from repeatable patterns and are not applied automatically.
       </section>
-      <section id="detailPanel" class="detail-panel" aria-live="polite"></section>
+
+      <section class="summary" aria-label="Suggestion totals">
+        <div>
+          <strong id="suggestionTotal">0</strong>
+          <span>suggestions</span>
+        </div>
+        <div>
+          <strong id="artistSuggestionTotal">0</strong>
+          <span>artist records</span>
+        </div>
+        <div>
+          <strong id="eventSuggestionTotal">0</strong>
+          <span>show records</span>
+        </div>
+        <div>
+          <strong id="venueSuggestionTotal">0</strong>
+          <span>venue records</span>
+        </div>
+      </section>
+
+      <section class="suggestion-toolbar" aria-label="Suggestion filters">
+        <button class="chip active" type="button" data-suggestion-group="all">All</button>
+        <button class="chip" type="button" data-suggestion-group="artists">Artists</button>
+        <button class="chip" type="button" data-suggestion-group="events">Shows</button>
+        <button class="chip" type="button" data-suggestion-group="venues">Venues</button>
+      </section>
+
+      <section id="suggestionList" class="suggestion-list" aria-label="Suggested edits"></section>
     </main>
 
-    <script src="data/sample-events.js"></script>
-    <script src="data/imported-events.js"></script>
-    <script src="data/artists.js"></script>
-    <script src="data/venues.js"></script>
+    <script src="data/review-suggestions.js"></script>
+    <script src="assets/suggestions.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
-    <script src="assets/detail.js"></script>
   </body>
 </html>

@@ -44,6 +44,20 @@ function normalizeName(name) {
   return name.toLowerCase().replace(/^the\s+/, "").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
+function artistSearchName(artist) {
+  return artist.displayName || artist.name || "";
+}
+
+function matchesArtistFilter(artist, filter) {
+  if (!filter) return true;
+  const wanted = normalizeName(filter);
+  return [
+    artist.name,
+    artist.displayName,
+    ...(artist.aliases || [])
+  ].some((value) => normalizeName(value || "") === wanted);
+}
+
 async function fetchJson(url) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 12000);
@@ -305,7 +319,7 @@ function addEvidence(artist, url, note) {
 
 const store = await readWindowData(ARTISTS_PATH, "SHOW_EXPLORER_ARTISTS", { artists: {} });
 const candidates = Object.values(store.artists)
-  .filter((artist) => !onlyArtist || normalizeName(artist.name) === normalizeName(onlyArtist))
+  .filter((artist) => matchesArtistFilter(artist, onlyArtist))
   .filter((artist) => onlyArtist || !artist.links?.some((link) => link.type === "wikidata"))
   .slice(0, limit);
 
@@ -315,7 +329,8 @@ for (const artist of candidates) {
   try {
     const rejected = rejectedExternalIdsFromLinks(artist.links || []);
     const externalMatch = await findEntityFromExistingLinks(artist);
-    const search = externalMatch || await searchEntity(artist.name);
+    const searchName = artistSearchName(artist);
+    const search = externalMatch || await searchEntity(searchName);
     if (!search?.id || rejected.has(`wikidata:${search.id}`)) {
       await sleep(400);
       continue;
@@ -352,7 +367,7 @@ for (const artist of candidates) {
     artist.confidence = artist.confidence === "review" ? "likely" : artist.confidence;
     const evidenceNote = externalMatch
       ? `Wikidata entity ${search.id} matched an existing ${externalMatch.via.type} artist identifier for "${artist.name}".`
-      : `Wikidata entity ${search.id} exactly matched the artist name "${artist.name}" and supplied structured external identifiers.`;
+      : `Wikidata entity ${search.id} exactly matched the artist name "${searchName}" and supplied structured external identifiers.`;
     addEvidence(artist, wikidataUrl, evidenceNote);
     enriched += 1;
   } catch (error) {

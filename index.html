@@ -19,8 +19,8 @@
         <span></span>
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
-        <a class="source-link" href="admin.html">Admin</a>
-        <a class="source-link" href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">The List</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
+        <a class="source-link" href="sources.html">Sources</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="5"></circle>
@@ -35,62 +35,128 @@
     </header>
 
     <main>
-      <section class="controls" aria-label="Show filters">
-        <label class="search">
-          <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Artist, venue, neighborhood, genre">
+      <section class="explorer-top" aria-label="Map and filters">
+        <details id="venueMap" class="venue-map" aria-label="Mapped venues" open>
+          <summary class="section-heading">
+            <h3>Venue Map</h3>
+            <span id="venueMapCount"></span>
+          </summary>
+          <div id="venueGoogleMap" class="venue-google-map" aria-label="Google map of venues with visible shows" hidden></div>
+          <svg id="venueMapSvg" viewBox="0 0 1000 620" role="img" aria-label="Map of venues with visible shows"></svg>
+          <section class="summary venue-map-summary" aria-live="polite">
+            <div>
+              <strong id="eventCount">0</strong>
+              <span>shows</span>
+            </div>
+            <div>
+              <strong id="artistCount">0</strong>
+              <span>artists</span>
+            </div>
+          </section>
+        </details>
+
+        <section class="filters-panel" aria-label="Show filters and result summary">
+          <section id="showControls" class="controls" aria-label="Show filters">
+            <label class="search">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Artist, venue, genre">
+            </label>
+
+            <div class="date-range" aria-label="Date range">
+              <label>
+                <span>From</span>
+                <input id="fromDateInput" type="date">
+              </label>
+              <label>
+                <span>To</span>
+                <input id="toDateInput" type="date">
+              </label>
+            </div>
+
+            <div class="filter-group" role="group" aria-label="Quick filters">
+              <button class="chip active" type="button" data-filter="music">Music</button>
+              <button class="chip" type="button" data-filter="custom">Custom</button>
+              <button class="chip" type="button" data-filter="picks">Mike's Picks</button>
+              <button class="chip" type="button" data-filter="all">All</button>
+            </div>
+
+            <details class="tag-filter-group">
+              <summary>Show tags</summary>
+              <div class="filter-group" role="group" aria-label="Show tag filters">
+              <button class="chip" type="button" data-filter="tonight">Tonight</button>
+              <button class="chip" type="button" data-filter="allAges">All ages</button>
+              <button class="chip" type="button" data-filter="karaoke">Karaoke</button>
+              <button class="chip" type="button" data-filter="trivia">Trivia</button>
+              <button class="chip" type="button" data-filter="openMic">Open mic</button>
+              <button class="chip" type="button" data-filter="poetry">Poetry</button>
+              <button class="chip" type="button" data-filter="game">Games</button>
+              <button class="chip" type="button" data-filter="local">Local-first</button>
+              </div>
+            </details>
+
+            <div class="source-filter" aria-label="Source filters">
+              <span>Source</span>
+              <div class="filter-group" role="group" aria-label="Source filters">
+                <button class="chip active" type="button" data-source-filter="all">All</button>
+                <button class="chip" type="button" data-source-filter="the-list">The List</button>
+                <button class="chip" type="button" data-source-filter="kalx">KALX</button>
+                <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
+              </div>
+            </div>
+
+            <details class="advanced-filters" open>
+              <summary>More filters</summary>
+              <div class="advanced-filter-grid">
+                <label>
+                  <span>Venue</span>
+                  <select id="venueFilterInput"></select>
+                </label>
+                <label>
+                  <span>City</span>
+                  <select id="cityFilterInput"></select>
+                </label>
+                <label>
+                  <span>Sort</span>
+                  <select id="sortInput">
+                    <option value="date">Date</option>
+                    <option value="venue">Venue</option>
+                    <option value="city">City</option>
+                    <option value="source">Source</option>
+                    <option value="title">Show title</option>
+                  </select>
+                </label>
+              </div>
+            </details>
+          </section>
+        </section>
+      </section>
+
+      <section class="sticky-explorer-tools" aria-label="Sticky show tools">
+        <label class="sticky-search">
+          <span>Search listings</span>
+          <input id="stickySearchInput" type="search" placeholder="Search shows">
         </label>
-
-        <div class="date-range" aria-label="Date range">
-          <label>
-            <span>From</span>
-            <input id="fromDateInput" type="date">
-          </label>
-          <label>
-            <span>To</span>
-            <input id="toDateInput" type="date">
-          </label>
+        <button id="stickyFiltersButton" class="chip active" type="button">Filters</button>
+        <button id="stickyMapButton" class="chip" type="button">Map</button>
+        <div class="sticky-tools-menu">
+          <button id="stickyToolsMenuButton" class="chip sticky-tools-menu-button" type="button" aria-label="Open sticky tools menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div id="stickyToolsPopover" class="sticky-tools-popover" hidden>
+            <button id="stickyMenuFiltersButton" class="chip active" type="button">Filters</button>
+            <button id="stickyMenuMapButton" class="chip" type="button">Map</button>
+          </div>
         </div>
-
-        <div class="filter-group" role="group" aria-label="Quick filters">
-          <button class="chip active" type="button" data-filter="default">Default</button>
-          <button class="chip" type="button" data-filter="all">All</button>
-          <button class="chip" type="button" data-filter="tonight">Tonight</button>
-          <button class="chip" type="button" data-filter="allAges">All ages</button>
-          <button class="chip" type="button" data-filter="karaoke">Karaoke</button>
-          <button class="chip" type="button" data-filter="trivia">Trivia</button>
-          <button class="chip" type="button" data-filter="openMic">Open mic</button>
-          <button class="chip" type="button" data-filter="poetry">Poetry</button>
-          <button class="chip" type="button" data-filter="game">Games</button>
-          <button class="chip" type="button" data-filter="local">Local-first</button>
-          <button class="chip" type="button" data-filter="needsReview">Needs review</button>
-        </div>
-      </section>
-
-      <section class="summary" aria-live="polite">
-        <div>
-          <strong id="eventCount">0</strong>
-          <span>shows</span>
-        </div>
-        <div>
-          <strong id="artistCount">0</strong>
-          <span>artists</span>
-        </div>
-        <div>
-          <strong id="reviewCount">0</strong>
-          <span>to verify</span>
-        </div>
-      </section>
-
-      <section id="venueMap" class="venue-map" aria-label="Mapped venues">
-        <div class="section-heading">
-          <h3>Venue Map</h3>
-          <span id="venueMapCount"></span>
-        </div>
-        <svg id="venueMapSvg" viewBox="0 0 1000 620" role="img" aria-label="Map of venues with visible shows"></svg>
       </section>
 
       <section id="eventList" class="event-list" aria-label="Concert listings"></section>
+
+      <div class="listing-jump-actions" aria-label="Listing navigation shortcuts">
+        <button id="jumpToFiltersButton" class="chip active" type="button">Filters</button>
+        <button id="returnToListingsButton" class="chip" type="button" disabled>Back to listings</button>
+      </div>
     </main>
 
     <dialog id="venueModal" class="venue-modal">
@@ -132,7 +198,6 @@
             <h2 class="artist-name"></h2>
             <p class="artist-tags"></p>
           </div>
-          <span class="confidence"></span>
         </div>
         <p class="artist-note"></p>
         <div class="artist-links"></div>
@@ -144,6 +209,7 @@
     <script src="data/artists.js"></script>
     <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
-    <script src="assets/app.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/app.js?v=map-bounds-20260602"></script>
   </body>
 </html>

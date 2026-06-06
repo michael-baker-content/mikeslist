@@ -1,11 +1,17 @@
 const STORE_KEY = "bay-area-show-explorer-artists";
+const EVENTS_STORE_KEY = "bay-area-show-explorer-events";
 const baseStore = window.SHOW_EXPLORER_ARTISTS || { artists: {} };
 const savedStore = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
 const artistStore = newerStore(savedStore, baseStore);
+const baseEvents = [...(window.SHOW_EXPLORER_EVENTS || [])];
+const savedEvents = JSON.parse(localStorage.getItem(EVENTS_STORE_KEY) || "null");
+const events = Array.isArray(savedEvents) ? JSON.parse(JSON.stringify(savedEvents)) : JSON.parse(JSON.stringify(baseEvents));
 
 const state = {
   query: "",
   filter: "review",
+  venue: "all",
+  sort: "name",
   fromDate: todayString(),
   toDate: dateStringFromOffset(6),
   selectedId: ""
@@ -16,13 +22,18 @@ const form = document.querySelector("#artistForm");
 const search = document.querySelector("#artistSearch");
 const fromDateInput = document.querySelector("#fromDateInput");
 const toDateInput = document.querySelector("#toDateInput");
+const venueFilterInput = document.querySelector("#venueFilterInput");
+const artistSortInput = document.querySelector("#artistSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
+const previousArtistButton = document.querySelector("#previousArtistButton");
+const nextArtistButton = document.querySelector("#nextArtistButton");
 
 const fields = {
   selectedName: document.querySelector("#selectedName"),
   selectedConfidence: document.querySelector("#selectedConfidence"),
   confidence: document.querySelector("#confidenceInput"),
+  displayName: document.querySelector("#displayNameInput"),
   locality: document.querySelector("#localityInput"),
   genres: document.querySelector("#genresInput"),
   priority: document.querySelector("#priorityInput"),
@@ -32,8 +43,10 @@ const fields = {
   rejectedSection: document.querySelector("#rejectedLinksSection"),
   rejectedCount: document.querySelector("#rejectedLinkCount"),
   note: document.querySelector("#noteInput"),
+  mergeArtist: document.querySelector("#mergeArtistInput"),
   appearanceHeading: document.querySelector("#appearanceHeading"),
   appearances: document.querySelector("#appearanceList"),
+  artistPosition: document.querySelector("#artistPosition"),
   saveStatus: document.querySelector("#saveStatus")
 };
 
@@ -78,9 +91,7 @@ function newerStore(saved, base) {
 }
 
 function artists() {
-  return Object.values(artistStore.artists || {}).sort((a, b) => {
-    return a.name.localeCompare(b.name);
-  });
+  return Object.values(artistStore.artists || {});
 }
 
 function todayString() {
@@ -99,10 +110,12 @@ function dateStringFromOffset(offsetDays) {
 function artistText(artist) {
   return [
     artist.name,
+    artist.displayName,
     artist.locality,
     artist.summary,
     artist.disambiguation,
     artist.reviewNotes,
+    ...(artist.aliases || []),
     ...(artist.genres || artist.tags || []),
     ...(artist.links || []).flatMap((link) => [link.type, link.label, link.url, link.confidence]),
     ...(artist.evidence || []).flatMap((item) => [item.url, item.note]),
@@ -115,9 +128,11 @@ function visibleArtists() {
   return artists().filter((artist) => {
     const filterMatch = state.filter === "all" || artist.confidence === state.filter;
     const queryMatch = !query || artistText(artist).includes(query);
-    const dateMatch = !state.fromDate && !state.toDate ? true : appearancesInRange(artist.source?.appearances || []).length > 0;
-    return filterMatch && queryMatch && dateMatch;
-  });
+    const appearances = appearancesInRange(artist.source?.appearances || []);
+    const dateMatch = !state.fromDate && !state.toDate ? true : appearances.length > 0;
+    const venueMatch = state.venue === "all" || appearances.some((appearance) => venueKey(appearance.venue) === state.venue);
+    return filterMatch && queryMatch && dateMatch && venueMatch;
+  }).sort(compareArtistsForQueue);
 }
 
 function appearancesInRange(appearances) {
@@ -135,6 +150,58 @@ function preferredFilter() {
   return "all";
 }
 
+function compareArtistsForQueue(a, b) {
+  if (state.sort === "venue") {
+    return primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
+      || nextDateForArtist(a).localeCompare(nextDateForArtist(b))
+      || a.name.localeCompare(b.name);
+  }
+  if (state.sort === "date") {
+    return nextDateForArtist(a).localeCompare(nextDateForArtist(b))
+      || primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
+      || a.name.localeCompare(b.name);
+  }
+  if (state.sort === "status") {
+    return confidenceSortRank(a.confidence) - confidenceSortRank(b.confidence)
+      || primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
+      || a.name.localeCompare(b.name);
+  }
+  return a.name.localeCompare(b.name);
+}
+
+function primaryVenueForArtist(artist) {
+  return appearancesInRange(artist.source?.appearances || [])[0]?.venue || "";
+}
+
+function nextDateForArtist(artist) {
+  return appearancesInRange(artist.source?.appearances || [])[0]?.date || "9999-12-31";
+}
+
+function confidenceSortRank(confidence = "review") {
+  return { review: 0, likely: 1, verified: 2, rejected: 3 }[confidence] ?? 4;
+}
+
+function venueKey(value = "") {
+  return String(value || "").toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function renderVenueFilterOptions() {
+  const current = state.venue;
+  const venues = new Map();
+  artists().forEach((artist) => {
+    appearancesInRange(artist.source?.appearances || []).forEach((appearance) => {
+      if (!appearance.venue) return;
+      venues.set(venueKey(appearance.venue), appearance.venue);
+    });
+  });
+  venueFilterInput.replaceChildren(new Option("All venues", "all"));
+  [...venues.entries()]
+    .sort((a, b) => a[1].localeCompare(b[1]))
+    .forEach(([key, name]) => venueFilterInput.append(new Option(name, key)));
+  state.venue = current === "all" || venues.has(current) ? current : "all";
+  venueFilterInput.value = state.venue;
+}
+
 function syncFilterButtons() {
   filterButtons.forEach((button) => {
     button.classList.toggle("active", button.dataset.reviewFilter === state.filter);
@@ -150,6 +217,7 @@ function updateSummary() {
 
 function inferLinkType(url = "") {
   const lower = url.toLowerCase();
+  const host = hostForUrl(url);
   if (lower.includes("bandcamp.com")) return "bandcamp";
   if (lower.includes("linktr.ee")) return "linktree";
   if (lower.includes("instagram.com")) return "instagram";
@@ -162,16 +230,24 @@ function inferLinkType(url = "") {
   if (lower.includes("youtube.com") || lower.includes("youtu.be")) return "youtube";
   if (lower.includes("soundcloud.com")) return "soundcloud";
   if (lower.includes("discogs.com")) return "discogs";
-  if (lower.includes("wikipedia.org")) return "wikipedia";
+  if (host === "wikipedia.org" || host.endsWith(".wikipedia.org")) return "wikipedia";
   if (lower.includes("music.apple.com")) return "appleMusic";
   if (lower.includes("music.amazon.com")) return "amazonMusic";
   if (lower.includes("ticketmaster.com")) return "ticketmaster";
   if (lower.includes("qobuz.com")) return "qobuz";
   if (lower.includes("deezer.com")) return "deezer";
   if (lower.includes("tidal.com")) return "tidal";
-  if (lower.includes("wikidata.org")) return "wikidata";
+  if (host === "wikidata.org" || host.endsWith(".wikidata.org")) return "wikidata";
   if (lower.includes("duckduckgo.com") || lower.includes("google.com/search")) return "search";
   return "official";
+}
+
+function hostForUrl(url = "") {
+  try {
+    return new URL(url).hostname;
+  } catch {
+    return "";
+  }
 }
 
 function labelForType(type = "official") {
@@ -216,12 +292,14 @@ function selectArtist(id) {
   enrichButton.disabled = artist.confidence !== "likely";
   enrichButton.title = artist.confidence === "likely" ? "Try Wikidata, MusicBrainz, and Discogs enrichment for this artist" : "Enrichment is intended for Likely artists";
   fields.confidence.value = artist.confidence || "review";
+  fields.displayName.value = artist.displayName || "";
   fields.locality.value = artist.locality || "";
   fields.genres.value = (artist.genres || artist.tags || []).join(", ");
   fields.priority.value = supportPriorityForArtist(artist).join(", ");
   fields.summary.value = artist.summary || "";
   renderLinkEditor(artist.links || []);
   fields.note.value = artist.reviewNotes || artist.note || "";
+  renderMergeArtistOptions(artist);
 
   fields.appearances.replaceChildren();
   const appearances = appearancesInRange(artist.source?.appearances || []);
@@ -232,19 +310,245 @@ function selectArtist(id) {
     empty.textContent = "No shows match the selected date range.";
     fields.appearances.append(empty);
   }
-  appearances.forEach((show) => {
-    const item = document.createElement("p");
-    item.className = "appearance";
-    item.textContent = `${show.date} - ${show.venue} - ${show.details}`;
-    fields.appearances.append(item);
-  });
+  appearances.forEach((show) => fields.appearances.append(createAppearanceRow(artist, show)));
 
   renderQueue();
+}
+
+function renderMergeArtistOptions(selectedArtist) {
+  fields.mergeArtist.replaceChildren();
+  fields.mergeArtist.append(new Option("Choose canonical artist...", ""));
+  artists()
+    .filter((artist) => artist.id !== selectedArtist.id)
+    .forEach((artist) => {
+      const displayName = artist.displayName || artist.name;
+      const label = [displayName, normalizeName(artist.name) !== normalizeName(displayName) ? artist.name : "", artist.confidence || "review"]
+        .filter(Boolean)
+        .join(" - ");
+      fields.mergeArtist.append(new Option(label, artist.id));
+    });
+}
+
+function createAppearanceRow(artist, show) {
+  const item = document.createElement("div");
+  item.className = "appearance appearance-control";
+
+  const event = eventForAppearance(show);
+  const text = document.createElement("p");
+  text.textContent = `${show.date} - ${show.venue} - ${show.details}`;
+  item.append(text);
+
+  if (!event) return item;
+
+  const controls = document.createElement("div");
+  controls.className = "filter-group compact-filter";
+
+  const type = document.createElement("select");
+  type.setAttribute("aria-label", "Show type");
+  type.add(new Option("Artist show", "artist"));
+  type.add(new Option("Event show", "event"));
+  type.value = showTypeForEvent(event);
+
+  const displayName = document.createElement("input");
+  displayName.type = "text";
+  displayName.placeholder = "Show display name";
+  displayName.value = event.displayName || "";
+
+  const save = document.createElement("button");
+  save.className = "chip";
+  save.type = "button";
+  save.textContent = "Save Show";
+  save.addEventListener("click", async () => {
+    const nextType = type.value === "event" ? "event" : "artist";
+    event.showType = nextType;
+    event.displayName = displayName.value.trim();
+    if (nextType === "event") {
+      event.title ||= event.displayName || artist.displayName || artist.name;
+      event.artists = [];
+    } else if (!(event.artists || []).length) {
+      event.artists = [artistPlaceholderFromReview(artist)];
+    }
+    await persistEvents();
+  });
+
+  controls.append(type, displayName, save);
+  item.append(controls);
+  return item;
+}
+
+function eventForAppearance(show) {
+  if (show.eventId) return events.find((event) => event.id === show.eventId) || null;
+  return events.find((event) => {
+    return event.date === show.date
+      && event.venue === show.venue
+      && (event.details || "") === (show.details || "");
+  }) || null;
+}
+
+function showTypeForEvent(event) {
+  if (event.showType === "event" || event.showType === "artist") return event.showType;
+  return (event.artists || []).length ? "artist" : "event";
+}
+
+function artistPlaceholderFromReview(artist) {
+  return {
+    name: artist.name,
+    displayName: artist.displayName || "",
+    tags: artist.genres || artist.tags || ["unknown"],
+    locality: artist.locality || "unknown",
+    confidence: artist.confidence || "review",
+    links: artist.links || []
+  };
+}
+
+async function mergeSelectedArtist() {
+  const source = artistStore.artists[state.selectedId];
+  const targetId = fields.mergeArtist.value;
+  const target = artistStore.artists[targetId];
+  if (!source || !target || source.id === target.id) return;
+
+  const confirmed = window.confirm(`Merge "${source.displayName || source.name}" into "${target.displayName || target.name}"? This will update show listings and remove the duplicate artist record.`);
+  if (!confirmed) return;
+
+  mergeArtistData(target, source);
+  const renamed = renameArtistInEvents(source, target);
+  delete artistStore.artists[source.id];
+
+  await persistEvents();
+  await persist();
+  updateSummary();
+  state.selectedId = target.id;
+  selectArtist(target.id);
+  fields.saveStatus.textContent = `Merged ${source.name} into ${target.name}${renamed ? ` across ${renamed} show listing${renamed === 1 ? "" : "s"}` : ""}`;
+}
+
+function mergeArtistData(target, source) {
+  target.displayName ||= source.displayName || "";
+  target.aliases = uniqueList([
+    ...(target.aliases || []),
+    ...(source.aliases || []),
+    source.name,
+    source.displayName
+  ].filter((value) => value && normalizeName(value) !== normalizeName(target.name) && normalizeName(value) !== normalizeName(target.displayName || "")));
+  target.genres = uniqueList([...(target.genres || target.tags || []), ...(source.genres || source.tags || [])]);
+  target.locality = preferredText(target.locality, source.locality, "unknown");
+  target.summary = preferredText(target.summary, source.summary);
+  target.reviewNotes = uniqueParagraphs(target.reviewNotes, source.reviewNotes || source.note);
+  target.links = mergeLinks(target.links || [], source.links || []);
+  target.evidence = mergeEvidence(target.evidence || [], source.evidence || []);
+  target.supportPriority = supportPriorityForLinks(target.links || []);
+  target.confidence = higherConfidence(target.confidence, source.confidence);
+  target.source = {
+    ...(target.source || {}),
+    firstSeenAt: earliestDate(target.source?.firstSeenAt, source.source?.firstSeenAt),
+    lastImportedAt: latestDate(target.source?.lastImportedAt, source.source?.lastImportedAt),
+    appearances: mergeAppearances(target.source?.appearances || [], source.source?.appearances || [])
+  };
+}
+
+function renameArtistInEvents(source, target) {
+  let renamed = 0;
+  events.forEach((event) => {
+    if (showTypeForEvent(event) !== "artist") return;
+    const artists = event.artists || [];
+    const sourceMatches = artists.filter((artist) => sameArtistName(artist.name, source));
+    if (!sourceMatches.length) return;
+
+    const targetArtist = artists.find((artist) => sameArtistName(artist.name, target)) || artistPlaceholderFromReview(target);
+    sourceMatches.forEach((artist) => mergeEventArtistData(targetArtist, artist, source));
+    event.artists = [
+      targetArtist,
+      ...artists.filter((artist) => !sameArtistName(artist.name, source) && !sameArtistName(artist.name, target))
+    ];
+    renamed += 1;
+  });
+  return renamed;
+}
+
+function mergeEventArtistData(targetArtist, sourceArtist, sourceRecord) {
+  targetArtist.name = targetArtist.name || sourceRecord.name;
+  targetArtist.displayName ||= sourceRecord.displayName || sourceArtist.displayName || "";
+  targetArtist.tags = uniqueList([...(targetArtist.tags || []), ...(sourceArtist.tags || []), ...(sourceRecord.genres || [])]);
+  targetArtist.locality = preferredText(targetArtist.locality, sourceArtist.locality || sourceRecord.locality, "unknown");
+  targetArtist.confidence = higherConfidence(targetArtist.confidence, sourceArtist.confidence || sourceRecord.confidence);
+  targetArtist.links = mergeLinks(targetArtist.links || [], sourceArtist.links || sourceRecord.links || []);
+}
+
+function sameArtistName(name, artist) {
+  const normalized = normalizeName(name);
+  return [artist.name, artist.displayName, ...(artist.aliases || [])].some((value) => normalizeName(value) === normalized);
+}
+
+function mergeLinks(existingLinks = [], incomingLinks = []) {
+  const links = new Map();
+  [...existingLinks, ...incomingLinks].filter((link) => link?.url).forEach((link) => {
+    const key = link.url;
+    const previous = links.get(key);
+    if (!previous || confidenceRank(link.confidence) > confidenceRank(previous.confidence)) links.set(key, { ...previous, ...link });
+  });
+  return [...links.values()];
+}
+
+function mergeEvidence(existing = [], incoming = []) {
+  const evidence = new Map();
+  [...existing, ...incoming].filter(Boolean).forEach((item) => {
+    evidence.set(`${item.url || ""}|${item.note || ""}`, item);
+  });
+  return [...evidence.values()];
+}
+
+function mergeAppearances(existing = [], incoming = []) {
+  const appearances = new Map();
+  [...existing, ...incoming].filter(Boolean).forEach((show) => {
+    appearances.set(show.eventId || `${show.date}|${show.venue}|${show.details}`, show);
+  });
+  return [...appearances.values()].sort((a, b) => (a.date || "").localeCompare(b.date || "") || (a.venue || "").localeCompare(b.venue || ""));
+}
+
+function uniqueList(items = []) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const value = String(item || "").trim();
+    const key = normalizeName(value);
+    if (!value || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+function uniqueParagraphs(...items) {
+  return uniqueList(items.flatMap((item) => String(item || "").split(/\n+/))).join("\n");
+}
+
+function preferredText(current = "", incoming = "", weakValue = "") {
+  if (!current || normalizeName(current) === normalizeName(weakValue)) return incoming || current || "";
+  return current;
+}
+
+function higherConfidence(current = "review", incoming = "review") {
+  return confidenceRank(incoming) > confidenceRank(current) ? incoming : current;
+}
+
+function earliestDate(a = "", b = "") {
+  if (!a) return b || "";
+  if (!b) return a || "";
+  return a < b ? a : b;
+}
+
+function latestDate(a = "", b = "") {
+  if (!a) return b || "";
+  if (!b) return a || "";
+  return a > b ? a : b;
+}
+
+function normalizeName(value = "") {
+  return String(value).toLowerCase().replace(/&/g, " and ").replace(/[^a-z0-9]+/g, " ").trim();
 }
 
 function renderQueue() {
   const list = visibleArtists();
   queue.replaceChildren();
+  updateRecordNavigation(list);
 
   if (!list.length) {
     const empty = document.createElement("p");
@@ -270,6 +574,34 @@ function renderQueue() {
     button.addEventListener("click", () => selectArtist(artist.id));
     queue.append(button);
   });
+  keepSelectedQueueItemVisible();
+}
+
+function updateRecordNavigation(list = visibleArtists()) {
+  const index = list.findIndex((artist) => artist.id === state.selectedId);
+  const hasSelection = index >= 0;
+  fields.artistPosition.textContent = hasSelection ? `${index + 1} of ${list.length}` : `0 of ${list.length}`;
+  previousArtistButton.disabled = !hasSelection || index === 0;
+  nextArtistButton.disabled = !hasSelection || index === list.length - 1;
+}
+
+function selectRelativeArtist(direction) {
+  const list = visibleArtists();
+  const index = list.findIndex((artist) => artist.id === state.selectedId);
+  if (index < 0) return;
+  const next = list[index + direction];
+  if (next) selectArtist(next.id);
+}
+
+function keepSelectedQueueItemVisible() {
+  const active = queue.querySelector(".queue-item.active");
+  if (!active) return;
+  const activeTop = active.offsetTop;
+  const activeBottom = activeTop + active.offsetHeight;
+  const visibleTop = queue.scrollTop;
+  const visibleBottom = visibleTop + queue.clientHeight;
+  if (activeTop < visibleTop) queue.scrollTop = activeTop;
+  else if (activeBottom > visibleBottom) queue.scrollTop = activeBottom - queue.clientHeight;
 }
 
 async function persist() {
@@ -292,12 +624,32 @@ async function persist() {
   }
 }
 
+async function persistEvents() {
+  localStorage.setItem(EVENTS_STORE_KEY, JSON.stringify(events));
+  fields.saveStatus.textContent = "Saved show in browser";
+
+  try {
+    const response = await fetch("/api/events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(events)
+    });
+    if (!response.ok) throw new Error(`Save failed: ${response.status}`);
+    const result = await response.json();
+    localStorage.removeItem(EVENTS_STORE_KEY);
+    fields.saveStatus.textContent = `Saved show data at ${new Date(result.savedAt).toLocaleTimeString()}`;
+  } catch {
+    fields.saveStatus.textContent = "Saved show in browser only";
+  }
+}
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
 
   artist.confidence = fields.confidence.value;
+  artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
   delete artist.tags;
@@ -476,11 +828,24 @@ toDateInput.value = state.toDate;
 
 fromDateInput.addEventListener("input", (event) => {
   state.fromDate = event.target.value;
+  renderVenueFilterOptions();
   syncArtistSelection();
 });
 
 toDateInput.addEventListener("input", (event) => {
   state.toDate = event.target.value;
+  renderVenueFilterOptions();
+  syncArtistSelection();
+});
+
+venueFilterInput.addEventListener("change", (event) => {
+  state.venue = event.target.value;
+  syncArtistSelection();
+});
+
+artistSortInput.value = state.sort;
+artistSortInput.addEventListener("change", (event) => {
+  state.sort = event.target.value;
   syncArtistSelection();
 });
 
@@ -512,6 +877,11 @@ document.querySelector("#addLinkButton").addEventListener("click", () => {
   fields.links.append(createLinkRow({ confidence: "candidate", source: "manual" }));
 });
 
+previousArtistButton.addEventListener("click", () => selectRelativeArtist(-1));
+nextArtistButton.addEventListener("click", () => selectRelativeArtist(1));
+
+document.querySelector("#mergeArtistButton").addEventListener("click", mergeSelectedArtist);
+
 enrichButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
@@ -520,13 +890,14 @@ enrichButton.addEventListener("click", async () => {
   await saveCurrentArtist();
 
   enrichButton.disabled = true;
-  fields.saveStatus.textContent = `Enriching ${artist.name}...`;
+  const enrichmentName = artist.displayName || artist.name;
+  fields.saveStatus.textContent = `Enriching ${enrichmentName}...`;
 
   try {
     const response = await fetch("/api/enrich-artist", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id: artist.id, name: artist.name })
+      body: JSON.stringify({ id: artist.id, name: enrichmentName })
     });
     if (!response.ok) throw new Error(`Enrichment failed: ${response.status}`);
     const result = await response.json();
@@ -546,6 +917,7 @@ document.querySelector("#clearLocalButton").addEventListener("click", () => {
   const confirmed = window.confirm("Clear browser-saved review edits and reload from data/artists.js?");
   if (!confirmed) return;
   localStorage.removeItem(STORE_KEY);
+  localStorage.removeItem(EVENTS_STORE_KEY);
   window.location.reload();
 });
 
@@ -562,6 +934,7 @@ document.querySelector("#exportButton").addEventListener("click", () => {
 
 updateSummary();
 state.filter = preferredFilter();
+renderVenueFilterOptions();
 syncFilterButtons();
 const first = visibleArtists()[0] || artists()[0];
 if (first) selectArtist(first.id);
@@ -596,6 +969,7 @@ async function saveCurrentArtist() {
   if (!artist) return;
 
   artist.confidence = fields.confidence.value;
+  artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
   delete artist.tags;

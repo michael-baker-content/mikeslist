@@ -29,12 +29,13 @@ const classifiedEvents = events.map((event) => {
   const next = {
     ...event,
     title: event.title || titles.join(", "),
+    showType: artists.length ? "artist" : "event",
     eventTypes: merged.eventTypes,
     themes: merged.themes,
     artists
   };
 
-  if ((event.artists || []).length !== artists.length || next.eventTypes.length !== (event.eventTypes || []).length || next.themes.length !== (event.themes || []).length) {
+  if (event.showType !== next.showType || (event.artists || []).length !== artists.length || next.eventTypes.length !== (event.eventTypes || []).length || next.themes.length !== (event.themes || []).length) {
     updatedEvents += 1;
   }
 

@@ -88,6 +88,7 @@ function eventFromKalxListing(date, region, venue, listing, sourceUrl) {
     id: slugify(`${date}-${venue}-${listing}`),
     date,
     title,
+    showType: artistNames.length ? "artist" : "event",
     venueId: slugify(venue),
     venue,
     venueHref: "",
