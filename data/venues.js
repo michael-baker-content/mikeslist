@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-06-06T20:52:48.039Z",
+  "generatedAt": "2026-06-09T00:33:30.606Z",
   "venues": {
     "49": {
       "id": "49",
@@ -41,7 +41,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-07-25-49-ers-stadium-ed-sheeran",
@@ -376,18 +376,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-11th-hour-coffee-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-11th-hour-coffee-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41309"
           },
           {
-            "eventId": "2026-06-04-11th-hour-coffee-trivia-6-30pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-11th-hour-coffee-trivia-6-30pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=54136"
@@ -692,11 +692,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-3below-theaters-and-cafe-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-3below-theaters-and-cafe-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19341"
@@ -844,76 +844,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.029Z",
+        "lastImportedAt": "2026-06-09T00:28:16.050Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-4-star-theater-tommy-guerrero-josh-lippi-dj-groove-merchant",
-            "date": "2026-05-27",
-            "title": "Tommy Guerrero / Josh Lippi / Groove Merchant",
-            "details": "Tommy Guerrero, Josh Lippi, DJ Groove Merchant",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-4-star-theater-kelley-stoltz-the-telephone-numbers-no-picture",
-            "date": "2026-05-29",
-            "title": "Kelley Stoltz / The Telephone Numbers / No Picture",
-            "details": "Kelley Stoltz, The Telephone Numbers, No Picture",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-4-star-theater-woods-dougie-poole",
-            "date": "2026-06-01",
-            "title": "Woods / Dougie Poole",
-            "details": "Woods, Dougie Poole",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-4-star-theater-mia-wilson-ny-oh",
-            "date": "2026-06-02",
-            "title": "Mia Wilson / Ny Oh",
-            "details": "Mia Wilson, Ny Oh",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-4-star-theater-mia-wilson",
-            "date": "2026-06-02",
-            "title": "Mia Wilson / Ny Oh",
-            "details": "a/a 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-4-star-theater-rachel-lichtman-kelley-stoltz-paul-myers",
-            "date": "2026-06-04",
-            "title": "Rachel Lichtman / Kelley Stoltz / Paul Myers",
-            "details": "Rachel Lichtman, Kelley Stoltz, Paul Myers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-4-star-theater-film-programme-4",
-            "date": "2026-06-04",
-            "title": "film \"Programme 4\"",
-            "details": "a/a 7:30pm/8pm til 10:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-4-star-theater-eli-winter-trio-danny-paul-grody-duo-chiromancer",
-            "date": "2026-06-05",
-            "title": "Eli Winter Trio / Danny Paul Grody Duo / CHIROMANCER",
-            "details": "Eli Winter Trio, Danny Paul Grody Duo, CHIROMANCER / a/a 7pm/8pm til 11pm https://www.4-star-movies.com/calendar-of-events/live-music-eli-winter-trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-4-star-theater-the-seshen",
-            "date": "2026-06-07",
-            "title": "AroMa / The Seshen",
-            "details": "a/a 7pm/7:30pm til 10:30pm / The Seshen, AroMa & more",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-11-4-star-theater-mojohand-barfight-henry-plotnick-trio",
+            "date": "2026-06-11",
+            "title": "Mojohand / Barfight / Henry Plotnick Trio",
+            "details": "Mojohand, Barfight, Henry Plotnick Trio",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-14-4-star-theater-penelope-trappers",
             "date": "2026-06-14",
-            "title": "Penelope Trappers",
-            "details": "a/a 7pm/8pm til 11pm",
+            "title": "Penelope Trappes / Maria BC",
+            "details": "a/a 7pm/8pm til 11pm / Penelope Trappes, Maria BC",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -980,7 +924,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.894Z",
-        "lastImportedAt": "2026-06-06T20:52:48.015Z",
+        "lastImportedAt": "2026-06-09T00:28:16.032Z",
         "appearances": [
           {
             "eventId": "2026-08-05-49er-s-stadium-ac-dc",
@@ -1135,11 +1079,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-620-jones-trivia-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-620-jones-trivia-6-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30083"
@@ -1187,18 +1131,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-7-bamboo-lounge-karaoke-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-7-bamboo-lounge-karaoke-8-00pm",
+            "date": "2026-06-11",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32642"
           },
           {
-            "eventId": "2026-06-05-7-bamboo-lounge-karaoke-8-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-7-bamboo-lounge-karaoke-8-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=34130"
@@ -1313,25 +1257,18 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-7th-west-game-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-7th-west-game-6-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15762"
           },
           {
-            "eventId": "2026-06-04-7th-west-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=15761"
-          },
-          {
-            "eventId": "2026-06-04-7th-west-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-7th-west-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15761"
@@ -1372,70 +1309,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-924-gilman-concision-fifteen-rhema-lost-not-found-a-new-day-state-of-reliance",
-            "date": "2026-05-26",
-            "title": "Concision / Fifteen Rhema / Lost Not Found / A New Day / State of Reliance",
-            "details": "Concision, Fifteen Rhema, Lost Not Found, A New Day, State of Reliance",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-924-gilman-summer-fest-bitchfit-hell-bound-pound-enemy-proof-jazmin-hope-virility-happy-now",
+            "date": "2026-06-12",
+            "title": "Summer Fest: Bitchfit / Hell Bound Pound / Enemy Proof / Jazmin Hope Virility / Happy Now",
+            "details": "Summer Fest: Bitchfit, Hell Bound Pound, Enemy Proof, Jazmin Hope Virility, Happy Now",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-27-924-gilman-worst-party-ever-camp-ghost-robo-pumpkin-jordan-giardino",
-            "date": "2026-05-27",
-            "title": "Worst Party Ever / Camp Ghost / Robo Pumpkin / Jordan Giardino",
-            "details": "Worst Party Ever, Camp Ghost, Robo Pumpkin, Jordan Giardino",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-924-gilman-battle-flask-grosero-las-ratas-blood-compact-ante-warning-different-method",
-            "date": "2026-05-29",
-            "title": "Battle Flask / Grosero / Las Ratas / Blood Compact / Ante / Warning / Different Method",
-            "details": "Battle Flask, Grosero, Las Ratas, Blood Compact, Ante, Warning, Different Method",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-924-gilman-choke-martirio-aruspex-happy-society-postnasal-drainage-infadel-crohns",
-            "date": "2026-05-30",
-            "title": "Choke / Martirio / Aruspex / Happy Society / Postnasal Drainage / Infadel / Crohns",
-            "details": "Choke, Martirio, Aruspex, Happy Society, Postnasal Drainage, Infadel, Crohns",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-924-gilman-small-crush-whine-love-spiral-snallygaster-mommy-mommy",
-            "date": "2026-05-31",
-            "title": "Small Crush / Whine / Love Spiral / Snallygaster / Mommy Mommy",
-            "details": "Small Crush, Whine, Love Spiral, Snallygaster, Mommy Mommy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-924-gilman-dog-party-pet-mosquito-crescent-indigo",
-            "date": "2026-06-03",
-            "title": "Dog Party / Pet Mosquito / Crescent Indigo",
-            "details": "Dog Party, Pet Mosquito, Crescent Indigo",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-924-gilman-fight-fair-duck-duck-goose-aplacewe-vealwaysbeen-my-precious-solitude-wounded-deer",
-            "date": "2026-06-05",
-            "title": "Fight Fair / Duck Duck Goose / aplacewe'vealwaysbeen / my precious solitude / Wounded Deer",
-            "details": "Fight Fair, Duck Duck Goose, aplacewe'vealwaysbeen, my precious solitude, Wounded Deer",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-924-gilman-winnoa-seeyou-work-just-let-me-go-funds-for-jimmy-luna-ivy-en-vitro",
-            "date": "2026-06-06",
-            "title": "Seeyou@work / Winnoa / Just let me go / Funds For Jimmy / Luna Ivy / En-Vitro",
-            "details": "Winnoa, Seeyou@work, Just let me go, Funds For Jimmy, Luna Ivy, En-Vitro",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-924-gilman-dog-house-hazy-portraits-the-treedome-osie-the-hayds",
-            "date": "2026-06-07",
-            "title": "Dog House / Hazy Portraits / The Treedome / OSIE / the Hayds",
-            "details": "Dog House, Hazy Portraits, The Treedome, OSIE, the Hayds",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-924-gilman-summer-fest-the-dollheads-we-might-die-stay-out-east-brothers-halibut-head-calling-the-skies",
+            "date": "2026-06-13",
+            "title": "The Dollheads / We Might Die / Stay Out / East Brothers / Halibut Head / Calling The Skies",
+            "details": "Summer Fest: The Dollheads, We Might Die, Stay Out, East Brothers, Halibut Head, Calling The Skies",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -1480,13 +1368,86 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.013Z",
+        "lastImportedAt": "2026-06-09T00:28:16.029Z",
         "appearances": [
           {
             "eventId": "2026-07-26-a-house-alejandro-escovedo-and-the-electric-saints",
             "date": "2026-07-26",
             "title": "Alejandro Escovedo & The Electric Saints",
             "details": "a/a 3pm (address disclosed after ticket purchase)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "above-dna-lounge": {
+      "id": "above-dna-lounge",
+      "name": "Above DNA Lounge",
+      "displayName": "Above DNA Lounge",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#above_dna_lounge",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Above%20DNA%20Lounge%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.910Z",
+        "lastImportedAt": "2026-06-09T00:28:16.045Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-19-above-dna-lounge-section-5150",
+            "date": "2026-06-19",
+            "title": "Section 5150 / Cultural Warfare / Violent Coercion",
+            "details": "a/a $15/$21 8pm/8:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-20-above-dna-lounge-gayc-dc",
+            "date": "2026-06-20",
+            "title": "Gayc/DC / Middle-Aged Queers / Niko Storment / KC Shane",
+            "details": "a/a $18/$25 8pm/8:3pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-12-above-dna-lounge-nuda",
+            "date": "2026-08-12",
+            "title": "Nuda / Sine / dj Starr Noir",
+            "details": "a/a $20/$28 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-above-dna-lounge-jonhhy-manchild",
+            "date": "2026-09-13",
+            "title": "Jonhhy Manchild / Friend Of A Friend / Karma And The Killjoys",
+            "details": "a/a $15/$21 7pm/7:30pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -1532,11 +1493,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-afterwork-bar-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-afterwork-bar-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38679"
@@ -1658,7 +1619,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.152Z",
-        "lastImportedAt": "2026-06-06T20:52:48.007Z",
+        "lastImportedAt": "2026-06-09T00:28:16.024Z",
         "appearances": [
           {
             "eventId": "2026-06-19-alameda-county-fair-the-gene-simmons-band",
@@ -1822,11 +1783,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-alameda-island-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-alameda-island-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15743"
@@ -1874,11 +1835,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-alex-s-49er-inn-karaoke-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-alex-s-49er-inn-karaoke-8-00pm",
+            "date": "2026-06-14",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46526"
@@ -1926,11 +1887,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-almanac-beer-company-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-almanac-beer-company-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=20982"
@@ -1978,7 +1939,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.875Z",
-        "lastImportedAt": "2026-06-06T20:52:47.997Z",
+        "lastImportedAt": "2026-06-09T00:28:16.013Z",
         "appearances": [
           {
             "eventId": "2026-06-17-amoeba-music-shrapknel",
@@ -2030,11 +1991,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-andaz-napa-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-andaz-napa-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39678"
@@ -2134,11 +2095,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.972Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-anza-branch-library-game-10-00am",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-anza-branch-library-game-10-00am",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46479"
@@ -2364,13 +2325,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.058Z",
         "appearances": [
           {
             "eventId": "2026-06-09-arena-ariana-grande",
             "date": "2026-06-09",
             "title": "Ariana Grande",
-            "details": "The Eternal Sunshine Tour will commence on June 6, 2026, at Oakland Arena in Oakland, and end on September 1 of the same year in London, United Kingdom, consisting of 41 shows.",
+            "details": "a/a #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -2523,8 +2484,60 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-11-19-arena-katsey",
             "date": "2026-11-19",
-            "title": "Katsey",
+            "title": "Katsey / Katseye",
             "details": "a/a 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "arlene-francis-center": {
+      "id": "arlene-francis-center",
+      "name": "Arlene Francis Center",
+      "displayName": "Arlene Francis Center",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#arlene_francis_center",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Arlene%20Francis%20Center%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.914Z",
+        "lastImportedAt": "2026-06-09T00:28:16.018Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-26-arlene-francis-center-gnawing",
+            "date": "2026-06-26",
+            "title": "Gnawing / Execute / Utter Scorn / Smashed Teeth / Gravement",
+            "details": "a/a $15 7pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -2646,6 +2659,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://maps.google.com/?cid=6765348186622871065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "confidence": "verified",
           "source": "google-places"
+        },
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#ashkenaz",
+          "confidence": "verified",
+          "source": "the list"
         }
       ],
       "evidence": [
@@ -2672,70 +2692,42 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-ashkenaz-stu-allen-and-mars-hotel",
-            "date": "2026-05-27",
-            "title": "Stu Allen & Mars Hotel",
-            "details": "Stu Allen & Mars Hotel",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-ashkenaz-balkan-folk-dance",
+            "date": "2026-06-10",
+            "title": "Balkan Folk Dance",
+            "details": "Balkan Folk Dance",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-ashkenaz-tom-rigney-and-flambeau",
-            "date": "2026-05-28",
-            "title": "Tom Rigney & Flambeau",
-            "details": "Tom Rigney & Flambeau",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-ashkenaz-iko-ya-ya",
+            "date": "2026-06-11",
+            "title": "Iko Ya Ya",
+            "details": "Iko Ya Ya",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-ashkenaz-quattro-paper-kayak",
-            "date": "2026-05-29",
-            "title": "Quattro / Paper Kayak",
-            "details": "Quattro, Paper Kayak",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-ashkenaz-eric-thompson-and-dead-roots-revival",
+            "date": "2026-06-12",
+            "title": "Eric Thompson & Dead Roots Revival",
+            "details": "Eric Thompson & Dead Roots Revival",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-ashkenaz-khalifa-do-accordion",
-            "date": "2026-05-30",
-            "title": "Khalifa do Accordion",
-            "details": "Khalifa do Accordion",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-ashkenaz-mortified-presents-morti-pride",
+            "date": "2026-06-13",
+            "title": "",
+            "details": "Mortified Presents Morti-Pride",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-03-ashkenaz-grateful-dead-night-with-joe-marcinek-mark-karan-mookie-siegel-anna-elva-and-angeline-saris",
-            "date": "2026-06-03",
-            "title": "Grateful Dead Night with Joe Marcinek / Mark Karan / Mookie Siegel / Anna Elva & Angeline Saris",
-            "details": "Grateful Dead Night with Joe Marcinek, Mark Karan, Mookie Siegel, Anna Elva & Angeline Saris",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-ashkenaz-grateful-dead-night-with-joe-marcinek-mark-karan-mookie-siegel-anna-elva-and-038-angeline-saris",
-            "date": "2026-06-03",
-            "title": "Grateful Dead Night / Joe Marcinek / Mark Karan / Mookie Siegel / Anna Elva & Angeline Saris",
-            "details": "Grateful Dead Night with Joe Marcinek, Mark Karan, Mookie Siegel, Anna Elva & Angeline Saris",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-ashkenaz-mark-st-mary-s-louisiana-blues-and-zydeco-band",
-            "date": "2026-06-05",
-            "title": "Mark St. Mary's Louisiana Blues & Zydeco Band",
-            "details": "Mark St. Mary's Louisiana Blues & Zydeco Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-ashkenaz-afrofest-2026-featuring-brotha-peace",
-            "date": "2026-06-06",
-            "title": "AfroFest 2026 featuring Brotha Peace",
-            "details": "AfroFest 2026 featuring Brotha Peace",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-ashkenaz-ashkenaz-open-house",
-            "date": "2026-06-07",
-            "title": "Ashkenaz Open House",
-            "details": "Ashkenaz Open House",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-ashkenaz-chip-godwin-s-long-time-curse",
+            "date": "2026-06-14",
+            "title": "Chip Godwin's Long Time Curse",
+            "details": "Chip Godwin's Long Time Curse / a/a $15/$20 10pm/10:30pm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -2780,11 +2772,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.972Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-asiento-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-asiento-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=4543"
@@ -3017,63 +3009,14 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-august-hall-dance-with-the-dead-magic-sword",
-            "date": "2026-05-26",
-            "title": "Dance With The Dead / Magic Sword",
-            "details": "Dance With The Dead, Magic Sword",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-august-hall-chapterhouse",
-            "date": "2026-05-28",
-            "title": "Chapterhouse",
-            "details": "Chapterhouse",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-august-hall-vundabar-yot-club",
-            "date": "2026-05-29",
-            "title": "Vundabar / Yot Club",
-            "details": "Vundabar, Yot Club",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-august-hall-princess-forever-sasha-colby",
-            "date": "2026-05-30",
-            "title": "Princess Forever / Sasha Colby",
-            "details": "Princess Forever, Sasha Colby",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-02-august-hall-the-cab-jady-carr",
-            "date": "2026-06-02",
-            "title": "The Cab / Jady / CARR",
-            "details": "The Cab, Jady, CARR",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-august-hall-the-cab",
-            "date": "2026-06-02",
-            "title": "The Cab / Jady / Carr",
-            "details": "6:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-august-hall-lil-ghost",
-            "date": "2026-06-06",
-            "title": "Lil Ghost / Ghost",
-            "details": "7pm/8pm / Ghost",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-09-august-hall-the-church",
             "date": "2026-06-09",
             "title": "The Church",
-            "details": "6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "The Church",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-23-august-hall-kings-kaleidoscove",
@@ -3160,9 +3103,23 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-29-august-hall-ethan-regan",
+            "date": "2026-09-29",
+            "title": "Ethan Regan / Harf.",
+            "details": "7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-01-august-hall-don-west",
             "date": "2026-10-01",
             "title": "Don West",
+            "details": "7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-07-august-hall-french-police",
+            "date": "2026-10-07",
+            "title": "French Police / Social Order",
             "details": "7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -3202,6 +3159,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-28-august-hall-ax-and-the-hatchetmen",
+            "date": "2026-10-28",
+            "title": "Ax And The Hatchetmen",
+            "details": "7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-29-august-hall-a-twink-and-a-redhead",
             "date": "2026-10-29",
             "title": "A Twink And A Redhead",
@@ -3227,6 +3191,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-06",
             "title": "Bahamas",
             "details": "7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-08-august-hall-countess-luann",
+            "date": "2026-11-08",
+            "title": "Countess Luann",
+            "details": "21+ $60.40 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -3275,7 +3246,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-11-22-august-hall-boston-manor",
             "date": "2026-11-22",
             "title": "Boston Manor / Ben Quad / Super Sometimes",
-            "details": "6:30pm 5+",
+            "details": "6:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -3328,11 +3299,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-avenidas-chess-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-avenidas-chess-8-00pm",
+            "date": "2026-06-10",
             "title": "Chess",
             "details": "Chess event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=50672"
@@ -3380,18 +3351,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-awaken-cafe-and-roasting-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=18674"
-          },
-          {
-            "eventId": "2026-06-03-awaken-cafe-and-roasting-poetry-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-awaken-cafe-and-roasting-poetry-7-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18674"
@@ -3439,11 +3403,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-ballast-point-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-ballast-point-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38581"
@@ -3491,7 +3455,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-06-06T20:52:47.991Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
             "eventId": "2026-06-10-band-shell-alvie-and-the-breakfast-pigs",
@@ -3543,18 +3507,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-barbary-coast-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-barbary-coast-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14123"
           },
           {
-            "eventId": "2026-06-04-barbary-coast-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-barbary-coast-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38652"
@@ -3602,11 +3566,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.975Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-barebottle-brewing-company-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-barebottle-brewing-company-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=10969"
@@ -3654,7 +3618,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-06T20:52:48.006Z",
+        "lastImportedAt": "2026-06-09T00:28:16.023Z",
         "appearances": [
           {
             "eventId": "2026-07-11-barrel-proof-lounge-viva-la-punk-fest-day-1-see-jul-12th-revolution-cafe-for-bands",
@@ -3706,11 +3670,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.975Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-barrelhouse-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-barrelhouse-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=41316"
@@ -3758,14 +3722,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-06T20:52:47.993Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
             "eventId": "2026-06-13-bay-area-maker-farm-eee-vee-ee",
             "date": "2026-06-13",
             "title": "Eee Vee EE / Hobogoblins / Big Tractor",
-            "details": "a/a $7-$20 6pm ( Benefit Community Bike Projects)",
+            "details": "a/a $7-$20 6pm ( Benefit Community Bike Projects) / Eee Vee EE, Hobogoblins, Big Tractor",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "bayview-linda-brooks-burton-branch-library": {
+      "id": "bayview-linda-brooks-burton-branch-library",
+      "name": "Bayview / Linda Brooks-Burton Branch Library",
+      "displayName": "Bayview / Linda Brooks-Burton Branch Library",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "5075 3rd St San Francisco CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46480",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bayview%20%2F%20Linda%20Brooks-Burton%20Branch%20Library%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.892Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-10-bayview-linda-brooks-burton-branch-library-game-10-00am",
+            "date": "2026-06-10",
+            "title": "Game Night",
+            "details": "Game night at 10:00am",
+            "sourceUrl": "https://badslava.com/details.php?id=46480"
           }
         ]
       }
@@ -3810,11 +3826,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-06T20:52:47.969Z",
+        "lastImportedAt": "2026-06-09T00:28:15.992Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-bear-vs-bull-trivia-9-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-bear-vs-bull-trivia-9-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14453"
@@ -3862,7 +3878,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-06T20:52:48.002Z",
+        "lastImportedAt": "2026-06-09T00:28:16.018Z",
         "appearances": [
           {
             "eventId": "2026-06-26-beauty-supply-above-tay-ho-mr-butterfield",
@@ -3989,11 +4005,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-beeryland-karaoke-8-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-beeryland-karaoke-8-00pm",
+            "date": "2026-06-13",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46436"
@@ -4041,11 +4057,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-bel-mateo-bowl-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-bel-mateo-bowl-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54137"
@@ -4093,11 +4109,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-06T20:52:47.969Z",
+        "lastImportedAt": "2026-06-09T00:28:15.993Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-belle-cora-trivia-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-belle-cora-trivia-7-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38657"
@@ -4145,11 +4161,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-ben-n-nick-s-bar-and-grill-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-ben-n-nick-s-bar-and-grill-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4560"
@@ -4238,11 +4254,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-berkeley-chess-school-chess-5-30pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-berkeley-chess-school-chess-5-30pm",
+            "date": "2026-06-12",
             "title": "Chess",
             "details": "Chess event at 5:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53443"
@@ -4290,11 +4306,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-berkeley-city-club-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-berkeley-city-club-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=588"
@@ -4387,11 +4403,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-bernal-heights-branch-library-game-10-00am",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-bernal-heights-branch-library-game-10-00am",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46481"
@@ -4581,11 +4597,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-billy-defrank-lgbtq-community-center-game-6-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-billy-defrank-lgbtq-community-center-game-6-00pm",
+            "date": "2026-06-12",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14401"
@@ -4597,7 +4613,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "bimbo",
       "name": "Bimbo's 365 Club",
       "displayName": "Bimbo's 365 Club",
-      "aliases": [],
+      "aliases": [
+        "Bimbos 365 Club"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -4761,27 +4779,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
           {
             "eventId": "2026-06-11-bimbo-s-365-club-naomi-scott",
             "date": "2026-06-11",
             "title": "Naomi Scott / Daphne Gale",
-            "details": "a/a $40.18 ($115.88 vip) 7pm/8pm",
+            "details": "a/a $40.18 ($115.88 vip) 7pm/8pm / Naomi Scott, Daphne Gale",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-bimbo-s-365-club-the-phiharmonik",
             "date": "2026-06-12",
-            "title": "The Phiharmonik / August Lee Stevens / Griot B",
-            "details": "a/a 7pm/8pm (sold out) (Tiny Desk Contest)",
+            "title": "The Philharmonik / August Lee Stevens / Griot B",
+            "details": "a/a 7pm/8pm (sold out) (Tiny Desk Contest) / Tiny Desk Contest On The Road 2026: The Philharmonik, Griot B, August Lee Stevens",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-bimbo-s-365-club-sistas-who-kill",
             "date": "2026-06-13",
             "title": "Sistas Who Kill",
-            "details": "21+ $46.36 7pm/8pm (fully seated)",
+            "details": "21+ $46.36 7pm/8pm (fully seated) / Sistas Who Kill: Back From The Dead",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -4796,6 +4814,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-27",
             "title": "Daniela Andrade / Brahny",
             "details": "a/a 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-14-bimbo-s-365-club-lady-camden",
+            "date": "2026-08-14",
+            "title": "Lady Camden / Suzie Toot / Frankie Fictitious / Starya / Aurris x Lillth / Toxxin",
+            "details": "21+ 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -4881,6 +4906,51 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Pokey LaFarge / Cicada Rhythm",
             "details": "21+ $46.36 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "bimbos-365-club": {
+      "id": "bimbos-365-club",
+      "name": "Bimbos 365 Club",
+      "displayName": "Bimbos 365 Club",
+      "aliases": [],
+      "confidence": "rejected",
+      "mergedInto": "bimbo",
+      "status": "inactive",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "Merged into Bimbo's 365 Club.",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bimbos%20365%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.899Z",
+        "lastImportedAt": "2026-06-09T00:13:04.894Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-12-bimbos-365-club-tiny-desk-contest-on-the-road-2026-the-philharmonik-griot-b-august-lee-stevens",
+            "date": "2026-06-12",
+            "title": "Tiny Desk Contest On The Road 2026: The Philharmonik / Griot B / August Lee Stevens",
+            "details": "Tiny Desk Contest On The Road 2026: The Philharmonik, Griot B, August Lee Stevens",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -4988,70 +5058,49 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-biscuits-and-blues-gamperdrums-presents-zinggflower",
-            "date": "2026-05-25",
-            "title": "GamperDrums Presents: ZinggFlower",
+            "eventId": "2026-06-08-biscuits-and-blues-gamperdrums-presents-zinggflower",
+            "date": "2026-06-08",
+            "title": "ZinggFlower",
             "details": "GamperDrums Presents: ZinggFlower",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-26-biscuits-and-blues-the-west-coast-blues-revue",
-            "date": "2026-05-26",
+            "eventId": "2026-06-09-biscuits-and-blues-the-west-coast-blues-revue",
+            "date": "2026-06-09",
             "title": "The West Coast Blues Revue",
             "details": "The West Coast Blues Revue",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-biscuits-and-blues-chase-walker-band",
-            "date": "2026-05-29",
-            "title": "Chase Walker Band",
-            "details": "Chase Walker Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-biscuits-and-blues-minor-gold",
+            "date": "2026-06-10",
+            "title": "Minor Gold",
+            "details": "Minor Gold",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-biscuits-and-blues-earl-thomas-featuring-the-anthony-cullins-band",
-            "date": "2026-05-30",
-            "title": "Earl Thomas Featuring The Anthony Cullins Band",
-            "details": "Earl Thomas Featuring The Anthony Cullins Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-biscuits-and-blues-j-c-smith-band",
+            "date": "2026-06-12",
+            "title": "J.C. Smith Band",
+            "details": "J.C. Smith Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-31-biscuits-and-blues-hadden-sayers",
-            "date": "2026-05-31",
-            "title": "Hadden Sayers",
-            "details": "Hadden Sayers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-biscuits-and-blues-jill-dineen-the-carmen-ratti-band",
+            "date": "2026-06-13",
+            "title": "Jill Dineen / The Carmen Ratti Band",
+            "details": "Jill Dineen, The Carmen Ratti Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-01-biscuits-and-blues-gamperdrums-presents-zinggflower",
-            "date": "2026-06-01",
-            "title": "GamperDrums Presents: ZinggFlower",
-            "details": "GamperDrums Presents: ZinggFlower",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-biscuits-and-blues-west-coast-blues-revue",
-            "date": "2026-06-02",
-            "title": "West Coast Blues Revue",
-            "details": "West Coast Blues Revue",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-biscuits-and-blues-fillmore-slim",
-            "date": "2026-06-05",
-            "title": "Fillmore Slim",
-            "details": "Fillmore Slim",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-biscuits-and-blues-josh-smith",
-            "date": "2026-06-06",
-            "title": "Josh Smith",
-            "details": "Josh Smith",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-biscuits-and-blues-shane-dwight",
+            "date": "2026-06-14",
+            "title": "Shane Dwight",
+            "details": "Shane Dwight",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -5148,18 +5197,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-black-bird-bookstore-and-cafe-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=28210"
-          },
-          {
-            "eventId": "2026-06-03-black-bird-bookstore-and-cafe-poetry-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-black-bird-bookstore-and-cafe-poetry-7-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=28210"
@@ -5297,35 +5339,70 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:47.968Z",
+        "lastImportedAt": "2026-06-09T00:28:16.015Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-black-cat-joe-warner-dante-and-8216-taz-roberson-michael-and-8216-tiny-lindsey-angelo-luster",
-            "date": "2026-05-27",
-            "title": "Joe Warner / Dante &#8216;Taz' Roberson / Michael &#8216;Tiny' Lindsey / Angelo Luster",
-            "details": "Joe Warner, Dante &#8216;Taz' Roberson, Michael &#8216;Tiny' Lindsey, Angelo Luster",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-black-cat-kazemde-george",
+            "date": "2026-06-10",
+            "title": "Kazemde George",
+            "details": "21+ $30 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-28-black-cat-maralisa-and-the-starlight-martinis",
-            "date": "2026-05-28",
-            "title": "Maralisa & The Starlight Martinis",
-            "details": "Maralisa & The Starlight Martinis",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-black-cat-veotis-latchison",
+            "date": "2026-06-11",
+            "title": "Veotis Latchison",
+            "details": "21+ $30 7pm and 9:15pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-29-black-cat-brandon-goldberg",
-            "date": "2026-05-29",
-            "title": "Brandon Goldberg",
-            "details": "Brandon Goldberg",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-black-cat-greg-abate-quartet",
+            "date": "2026-06-12",
+            "title": "Greg Abate Quartet",
+            "details": "21+ $40 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-31-black-cat-brandon-goldberg",
-            "date": "2026-05-31",
-            "title": "Brandon Goldberg",
-            "details": "Brandon Goldberg",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-black-cat-greg-abate-quartet",
+            "date": "2026-06-13",
+            "title": "Greg Abate Quartet",
+            "details": "21+ $40 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-14-black-cat-greg-abate-quartet",
+            "date": "2026-06-14",
+            "title": "Greg Abate Quartet",
+            "details": "21+ $40 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-17-black-cat-richard-benitez-iii",
+            "date": "2026-06-17",
+            "title": "Richard Benitez III",
+            "details": "21+ $30 7pm til 9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-18-black-cat-willie-jones-ii-quartet",
+            "date": "2026-06-18",
+            "title": "Willie Jones II Quartet",
+            "details": "21+ $30 7pm and 9:15pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-19-black-cat-willie-jones-ii-quartet",
+            "date": "2026-06-19",
+            "title": "Willie Jones II Quartet",
+            "details": "21+ $30 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-20-black-cat-willie-jones-ii-quartet",
+            "date": "2026-06-20",
+            "title": "Willie Jones II Quartet",
+            "details": "21+ $30 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -5370,11 +5447,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-black-hammer-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-black-hammer-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38628"
@@ -5422,18 +5499,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.975Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-black-repertory-group-theater-openmic-8-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=7321"
-          },
-          {
-            "eventId": "2026-06-02-black-repertory-group-theater-poetry-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-black-repertory-group-theater-poetry-8-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=7321"
@@ -5481,11 +5551,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-blackbird-bar-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-blackbird-bar-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32114"
@@ -5533,11 +5603,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-blacksmith-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-blacksmith-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41319"
@@ -5585,7 +5655,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
           {
             "eventId": "2026-06-26-blue-laggon-manual-fade",
@@ -5731,7 +5801,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.017Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
             "eventId": "2026-07-18-blue-lagoon-eldrith",
@@ -5843,39 +5913,32 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-bobby-g-s-pizzeria-openmic-7-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38661"
-          },
-          {
-            "eventId": "2026-06-02-bobby-g-s-pizzeria-poetry-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-bobby-g-s-pizzeria-poetry-7-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38661"
           },
           {
-            "eventId": "2026-06-03-bobby-g-s-pizzeria-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-bobby-g-s-pizzeria-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38659"
           },
           {
-            "eventId": "2026-06-04-bobby-g-s-pizzeria-game-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-bobby-g-s-pizzeria-game-7-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=33550"
           },
           {
-            "eventId": "2026-06-05-bobby-g-s-pizzeria-karaoke-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-bobby-g-s-pizzeria-karaoke-7-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38660"
@@ -5923,11 +5986,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-bogey-s-pizza-poetry-6-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-bogey-s-pizza-poetry-6-00pm",
+            "date": "2026-06-12",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19322"
@@ -5975,11 +6038,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-book-club-of-california-book-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-book-club-of-california-book-8-00pm",
+            "date": "2026-06-10",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57229"
@@ -6027,11 +6090,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-books-inc-book-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-books-inc-book-7-00pm",
+            "date": "2026-06-10",
             "title": "Book Event",
             "details": "Book event at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31747"
@@ -6072,63 +6135,14 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-boom-boom-room-no-mercy-band",
-            "date": "2026-05-27",
-            "title": "No Mercy Band",
-            "details": "No Mercy Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-boom-boom-room-house-of-love-3-casa-del-sol-tree-adams-scott-law-dale-fanning-chris-haugen",
-            "date": "2026-05-28",
-            "title": "House Of Love 3: Casa Del Sol / Tree Adams / Scott Law / Dale Fanning / Chris Haugen",
-            "details": "House Of Love 3: Casa Del Sol, Tree Adams, Scott Law, Dale Fanning, Chris Haugen",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-boom-boom-room-afrolicious",
-            "date": "2026-05-29",
-            "title": "Afrolicious",
-            "details": "Afrolicious",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-boom-boom-room-the-attic-growler",
-            "date": "2026-05-30",
-            "title": "The Attic / Growler",
-            "details": "The Attic, Growler",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-boom-boom-room-live-cuban-salsa-party",
-            "date": "2026-05-31",
-            "title": "Live Cuban Salsa Party",
-            "details": "Live Cuban Salsa Party",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-boom-boom-room-zoo-band",
-            "date": "2026-06-03",
-            "title": "Zoo Band",
-            "details": "Zoo Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-boom-boom-room-sheldon-alexander-funk-jam",
-            "date": "2026-06-04",
-            "title": "Sheldon Alexander Funk Jam",
-            "details": "Sheldon Alexander Funk Jam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-boom-boom-room-pabsy-airplug",
-            "date": "2026-06-06",
-            "title": "Pabsy / Airplug",
-            "details": "Pabsy, Airplug",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-boom-boom-room-tracorum-bon-bon-vivant",
+            "date": "2026-06-12",
+            "title": "Tracorum / Bon Bon Vivant",
+            "details": "Tracorum, Bon Bon Vivant",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -6173,11 +6187,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-borderlands-books-book-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-borderlands-books-book-8-00pm",
+            "date": "2026-06-14",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57233"
@@ -6340,181 +6354,62 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.036Z",
+        "lastImportedAt": "2026-06-09T00:28:16.058Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-bottom-of-the-hill-ultrabomb-the-freak-accident",
-            "date": "2026-05-25",
-            "title": "UltraBomb / The Freak Accident",
-            "details": "UltraBomb, The Freak Accident",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-26-bottom-of-the-hill-sloppy-seconds-memphis-murder-men-middle-aged-queers",
-            "date": "2026-05-26",
-            "title": "Sloppy Seconds / Memphis Murder Men / Middle Aged Queers",
-            "details": "Sloppy Seconds, Memphis Murder Men, Middle Aged Queers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-bottom-of-the-hill-accessory-facing-badvril",
-            "date": "2026-05-27",
-            "title": "Accessory / Facing / Badvril",
-            "details": "Accessory, Facing, Badvril",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-bottom-of-the-hill-supersuckers-scott-h-biram-hangtown",
-            "date": "2026-05-28",
-            "title": "Supersuckers / Scott H. Biram / Hangtown",
-            "details": "Supersuckers, Scott H. Biram, Hangtown",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-bottom-of-the-hill-chip-kinman-and-band-steakhouse-temple-beautiful-band",
-            "date": "2026-05-29",
-            "title": "Chip Kinman & Band / Steakhouse / Temple Beautiful Band",
-            "details": "Chip Kinman & Band, Steakhouse, Temple Beautiful Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-bottom-of-the-hill-leanna-firestone-abby-cates",
-            "date": "2026-05-30",
-            "title": "Leanna Firestone / Abby Cates",
-            "details": "Leanna Firestone, Abby Cates",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-bottom-of-the-hill-half-rotten-goddess-persephone-rival-plague",
-            "date": "2026-05-31",
-            "title": "Half Rotten Goddess / Persephone / Rival Plague",
-            "details": "Half Rotten Goddess, Persephone, Rival Plague",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-bottom-of-the-hill-openmic-7-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=20327"
-          },
-          {
-            "eventId": "2026-06-01-bottom-of-the-hill-poetry-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-bottom-of-the-hill-poetry-7-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=20327"
           },
           {
-            "eventId": "2026-06-02-bottom-of-the-hill-sad-snack-foolish-relics-friendship-games",
-            "date": "2026-06-02",
-            "title": "Sad Snack / Foolish Relics / friendship games",
-            "details": "Sad Snack, Foolish Relics, friendship games",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-bottom-of-the-hill-sad-snack",
-            "date": "2026-06-02",
-            "title": "Sad Snack / Foolish Relics / Friendship Games",
-            "details": "a/a $13/$15 8pm/8:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-03-bottom-of-the-hill-for-horses-outer-sunset-davia-schendel",
-            "date": "2026-06-03",
-            "title": "For Horses / Outer Sunset / Davia Schendel",
-            "details": "For Horses, Outer Sunset, Davia Schendel",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-bottom-of-the-hill-for-horses",
-            "date": "2026-06-03",
-            "title": "For Horses / Outer Sunset / Davia Schendel",
-            "details": "a/a $15/$20 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-bottom-of-the-hill-sleepbomb-hazzard-s-cure-ominess",
-            "date": "2026-06-04",
-            "title": "Sleepbomb / Hazzard's Cure / Ominess",
-            "details": "Sleepbomb, Hazzard's Cure, Ominess",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-bottom-of-the-hill-sleepbomb",
-            "date": "2026-06-04",
-            "title": "Hazzards Cure / Sleepbomb / Ominess",
-            "details": "21+ $13/$15 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-bottom-of-the-hill-mikaela-davis-the-cormorants",
-            "date": "2026-06-05",
-            "title": "Mikaela Davis / The Cormorants",
-            "details": "Mikaela Davis, The Cormorants / a/a $20/$23 8pm/8:30pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-bottom-of-the-hill-jonathan-richman",
-            "date": "2026-06-06",
-            "title": "Jonathan Richman",
-            "details": "21+ $30/$35 8pm/9pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-bottom-of-the-hill-jonathan-richman",
-            "date": "2026-06-07",
-            "title": "Jonathan Richman",
-            "details": "a/a $30/$35 8pm/9pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-06-08-bottom-of-the-hill-witch-ripper",
             "date": "2026-06-08",
             "title": "Witch Ripper / Lowcaster / Disastroid",
-            "details": "21+ $15/$20 7:30pm/8pm",
+            "details": "21+ $15/$20 7:30pm/8pm / Witch Ripper, Lowcaster, Disastroid",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-09-bottom-of-the-hill-jeff-rosenstock",
             "date": "2026-06-09",
             "title": "Jeff Rosenstock / Star 99",
-            "details": "a/a $10/$25 ($50 2 day) 8pm/9pm @ (sold out)",
+            "details": "a/a $10/$25 ($50 2 day) 8pm/9pm @ (sold out) / Jeff Rosenstock, Star 99",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-10-bottom-of-the-hill-jeff-rosenstock",
             "date": "2026-06-10",
             "title": "Jeff Rosenstock / Star 99",
-            "details": "a/a $10/$25 ($50 2 day) 8pm/9pm @ (sold out)",
+            "details": "a/a $10/$25 ($50 2 day) 8pm/9pm @ (sold out) / Jeff Rosenstock, Star 99",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-11-bottom-of-the-hill-moon-walker",
             "date": "2026-06-11",
             "title": "Moon Walker / Pretoria / Super Cassette",
-            "details": "a/a $20/$25 7pm/7:30pm",
+            "details": "a/a $20/$25 7pm/7:30pm / Moon Walker, Pretoria, Super Cassette",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-bottom-of-the-hill-lip-critic",
             "date": "2026-06-12",
             "title": "Lip Critic / Flatwounds / Bejalvin",
-            "details": "a/a $18/$20 8pm/9pm",
+            "details": "a/a $18/$20 8pm/9pm / Lip Critic, Flatwounds, Bejalvin",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-bottom-of-the-hill-neil-hamburger",
             "date": "2026-06-13",
             "title": "Neil Hamburger / Sir Richard Bishop",
-            "details": "21+ $20 8pm/9pm",
+            "details": "21+ $20 8pm/9pm / Neil Hamburger, Sir Richard Bishop",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-bottom-of-the-hill-the-dwarves",
             "date": "2026-06-14",
             "title": "The Dwarves / The Pandoras / Screaming Bloody Marys / Sid Presley",
-            "details": "a/a $25 7:30pm/8:30pm @",
+            "details": "a/a $25 7:30pm/8:30pm @ / The Dwarves, The Pandoras, Screaming Bloody Marys, DJ Sid Presley",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6567,6 +6462,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-06-23-bottom-of-the-hill-dream-arenas",
+            "date": "2026-06-23",
+            "title": "Dream Arenas / Glass Girl / Dalmatia",
+            "details": "21+ $13/$15 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-06-24-bottom-of-the-hill-benny-la-mar",
             "date": "2026-06-24",
             "title": "Benny La Mar / Laurin Hunter / Max Fees",
@@ -6574,10 +6476,38 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-06-25-bottom-of-the-hill-dark-meta-railroad",
+            "date": "2026-06-25",
+            "title": "Dark Meta Railroad / Plaster / Freak Nature Puppets",
+            "details": "21+ $13/$15 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-06-26-bottom-of-the-hill-mike-watt-and-th-missingmen",
             "date": "2026-06-26",
             "title": "Mike Watt & Th Missingmen / Sister Double Happiness (album release) / Mayya",
             "details": "21+ $25 8pm/8:30pm @ (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-27-bottom-of-the-hill-cocker-power",
+            "date": "2026-06-27",
+            "title": "Cocker Power / Fantasy / Latitude",
+            "details": "21+ $15 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-28-bottom-of-the-hill-cowboy-beauty-queen-album-release",
+            "date": "2026-06-28",
+            "title": "Cowboy Beauty Queen (album release) / Preschool / Spleens",
+            "details": "21+ $13/$15 7pm/8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-30-bottom-of-the-hill-buzzed-lightbeer",
+            "date": "2026-06-30",
+            "title": "Buzzed Lightbeer / Rabbit / Bed Bug Guru",
+            "details": "21+ $19.81 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6597,7 +6527,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-07-03-bottom-of-the-hill-the-vesuvians",
             "date": "2026-07-03",
-            "title": "The Vesuvians / This Train Don't Stop / Tectonics",
+            "title": "The Vesuvians / This Train Don't Stop / Tectonics / TheSelecterDJKirk",
             "details": "21+ $13/$15 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -6612,21 +6542,35 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-07-09-bottom-of-the-hill-ted-leo-and-the-pharmacists",
             "date": "2026-07-09",
             "title": "Ted Leo And The Pharmacists / Rip Room",
-            "details": "a/a $35/$40 7pm/8pm @ (3 day pass sold out)",
+            "details": "a/a $35/$40 7pm/8pm @ (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-07-10-bottom-of-the-hill-ted-leo-and-the-pharmacists",
             "date": "2026-07-10",
             "title": "Ted Leo And The Pharmacists / Pork Belly",
-            "details": "a/a $35/$40 7pm/8pm @ (3 day pass sold out)",
+            "details": "a/a $35/$40 7pm/8pm @ (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-07-11-bottom-of-the-hill-ted-leo-and-the-pharmacists",
             "date": "2026-07-11",
             "title": "Ted Leo And The Pharmacists / Local Bylaws",
-            "details": "a/a $35/$40 7pm/8pm @ (3 day pass sold out)",
+            "details": "a/a $35/$40 7pm/8pm @ (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-12-bottom-of-the-hill-kelley-stoltz",
+            "date": "2026-07-12",
+            "title": "Kelley Stoltz / Secret Family / Richard Tripps",
+            "details": "21+ $14/$18 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-14-bottom-of-the-hill-floral",
+            "date": "2026-07-14",
+            "title": "Floral / Gumby's Junk / Quarter Conscious",
+            "details": "a/a $13/$15 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6637,10 +6581,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-07-17-bottom-of-the-hill-my-dog-jack",
+            "date": "2026-07-17",
+            "title": "My Dog Jack / Joe Kaplow / Rob Summerlin",
+            "details": "21+ $20 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-07-18-bottom-of-the-hill-the-good-luck-thrift-store-outfit",
             "date": "2026-07-18",
-            "title": "The Good Luck Thrift Store Outfit / Honey Run",
+            "title": "The Good Luck Thrift Store Outfit / Honey Run / Noelle And The Deserters",
             "details": "a/a $22/$25 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-22-bottom-of-the-hill-pigeon-pit",
+            "date": "2026-07-22",
+            "title": "Pigeon Pit / Propolis / Facing",
+            "details": "a/a $13/$15 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6653,14 +6611,14 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-07-24-bottom-of-the-hill-scissors-for-lefty",
             "date": "2026-07-24",
-            "title": "Scissors For Lefty / My First Earthquake / Stefan Aronsen",
+            "title": "Scissors For Lefty / My First Earthquake / Stefan Aronsen / dj Stefan Aronsen",
             "details": "21+ $20 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-07-25-bottom-of-the-hill-the-body",
             "date": "2026-07-25",
-            "title": "The Body / Big Brave",
+            "title": "The Body / Big Brave / Cel Genesis",
             "details": "21+ $20 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -6669,6 +6627,20 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-26",
             "title": "Parts And Labor / Evicshen / Hlllyh",
             "details": "21+ $25 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-28-bottom-of-the-hill-jesse-malin",
+            "date": "2026-07-28",
+            "title": "Jesse Malin",
+            "details": "a/a $30/$35 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-29-bottom-of-the-hill-toro-y-moi",
+            "date": "2026-07-29",
+            "title": "Toro Y Moi",
+            "details": "21+ $45 8pm/9pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6695,8 +6667,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-08-06-bottom-of-the-hill-prewn",
             "date": "2026-08-06",
-            "title": "Prewn",
+            "title": "Prewn / Whitney's Playland / The New Trust",
             "details": "a/a $15/$18 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-07-bottom-of-the-hill-kid-congo-and-the-pink-monkey-birds",
+            "date": "2026-08-07",
+            "title": "Kid Congo And The Pink Monkey Birds / The Wind-Ups / Universal Beat",
+            "details": "21+ $20/$25 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6707,10 +6686,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-08-13-bottom-of-the-hill-caravan-222-album-release",
+            "date": "2026-08-13",
+            "title": "Caravan 222 (album release) / Country Risque / The Ugly",
+            "details": "21+ $15/$18 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-14-bottom-of-the-hill-plosivs",
+            "date": "2026-08-14",
+            "title": "Plosivs / Tijuana Panthers / Minus Numbers",
+            "details": "21+ $25/$29 7:30pm/8:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-08-15-bottom-of-the-hill-dillinger-four",
             "date": "2026-08-15",
             "title": "Dillinger Four / Off With Their Heads / Middle-Aged Queers",
-            "details": "21+ $33/$35 7:30pm/8:30pm @ $",
+            "details": "21+ $33/$35 7:30pm/8:30pm @ (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6718,6 +6711,20 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-08-16",
             "title": "Dillinger Four / Off With Their Heads / Mermaid Island",
             "details": "a/a $36.91/$35 7:30pm/8:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-18-bottom-of-the-hill-ida",
+            "date": "2026-08-18",
+            "title": "Ida / Tara Jane O'Neil / Storey Littleton",
+            "details": "a/a $20/$25 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-19-bottom-of-the-hill-silkworm",
+            "date": "2026-08-19",
+            "title": "Silkworm / Nina Nastasia",
+            "details": "21+ $25/$30 7:30pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6749,6 +6756,41 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-08-27-bottom-of-the-hill-nerf-herder",
+            "date": "2026-08-27",
+            "title": "Nerf Herder / Pulsars / Dog Party",
+            "details": "a/a $25/$30 7pm/8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-28-bottom-of-the-hill-nerf-herder",
+            "date": "2026-08-28",
+            "title": "Nerf Herder / Rider High / The Kegels",
+            "details": "a/a $25/$30 7pm/8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-29-bottom-of-the-hill-arnocorps",
+            "date": "2026-08-29",
+            "title": "Arnocorps / Flexx Bronco / The Memphis Murder Men",
+            "details": "21+ $20 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-30-bottom-of-the-hill-tom-kenny-and-the-hi-seas",
+            "date": "2026-08-30",
+            "title": "Tom Kenny & The Hi Seas / Michael Michael Motorcycle / Cape Fury",
+            "details": "a/a $20/$25 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-31-bottom-of-the-hill-summer-salt",
+            "date": "2026-08-31",
+            "title": "Summer Salt",
+            "details": "21+ $30/$35 7:30pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-02-bottom-of-the-hill-asian-man-records-35th-anniversary-celebration",
             "date": "2026-09-02",
             "title": "Asian Man Records 35th Anniversary Celebration",
@@ -6777,6 +6819,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band",
+            "date": "2026-09-09",
+            "title": "The Kofy Brown Band / SKip The Needle",
+            "details": "21+ $15 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-11-bottom-of-the-hill-bratmobile",
             "date": "2026-09-11",
             "title": "Bratmobile / The Okmonics",
@@ -6798,10 +6847,45 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-18-bottom-of-the-hill-steel-pole-bath-tub",
+            "date": "2026-09-18",
+            "title": "Steel Pole Bath Tub / Ovarian Trolley / Wife",
+            "details": "21+ $35/$40 7:30pm/8:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-23-bottom-of-the-hill-wd-cola",
+            "date": "2026-09-23",
+            "title": "wd Cola / Artificial Go",
+            "details": "a/a $22/$25 7:30pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-29-bottom-of-the-hill-the-quiet-men",
+            "date": "2026-09-29",
+            "title": "The Quiet Men / Greg Hoy & The Boys / Fast & Vengefully",
+            "details": "a/a $15 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-04-bottom-of-the-hill-acid-mothers-temple",
             "date": "2026-10-04",
             "title": "Acid Mothers Temple / Magick Potion / The Green Door",
             "details": "21+ $22/$25 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-13-bottom-of-the-hill-wolves-of-glendale",
+            "date": "2026-10-13",
+            "title": "Wolves Of Glendale",
+            "details": "a/a $25/$30 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-25-bottom-of-the-hill-castle",
+            "date": "2026-10-25",
+            "title": "Castle / Nite / Three Towers",
+            "details": "21+ $15/$18 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -6823,6 +6907,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-10",
             "title": "Hit The Lights / Forever Came Calling / Fox Royale",
             "details": "21+ $25/$30 7:30pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-13-bottom-of-the-hill-jon-spencer",
+            "date": "2026-11-13",
+            "title": "Jon Spencer / Fuckwolf",
+            "details": "21+ $30/$35 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -6868,11 +6959,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-bow-bow-cocktail-lounge-karaoke-9-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-bow-bow-cocktail-lounge-karaoke-9-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46529"
@@ -6920,11 +7011,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.975Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-brew-city-grill-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-brew-city-grill-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45021"
@@ -7135,55 +7226,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-brick-and-mortar-daisy-grenade",
-            "date": "2026-06-02",
-            "title": "Daisy Grenade / Vienna Vienna",
-            "details": "a/a $30.57 (under 21 plus $5) 7pm/8pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-03-brick-and-mortar-seahaven",
-            "date": "2026-06-03",
-            "title": "Seahaven / Breakup Shoes / House & Home",
-            "details": "a/a $35.72 (under 21 plus $5) 7pm/8pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-brick-and-mortar-atm-danny",
-            "date": "2026-06-04",
-            "title": "ATM Danny",
-            "details": "a/a $26.74 (under 21 plus $5) 7pm/8pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-brick-and-mortar-leven-kali",
-            "date": "2026-06-07",
-            "title": "Leven Kali",
-            "details": "a/a $35.72+ (under 21 plus $5) 7pm/8pm ^",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-09-brick-and-mortar-bleood",
             "date": "2026-06-09",
             "title": "Bleood",
-            "details": "a/a (under 21 plus $5) 7pm/8pm ^ (sold out)",
+            "details": "a/a (under 21 plus $5) 7pm/8pm ^ (sold out) / bleood",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-brick-and-mortar-by-storm",
             "date": "2026-06-12",
             "title": "By Storm / Corridos Ketamina",
-            "details": "a/a $29.54 (under 21 plus $5) 8pm/9pm ^",
+            "details": "a/a $29.54 (under 21 plus $5) 8pm/9pm ^ / By Storm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-brick-and-mortar-little-image",
             "date": "2026-06-13",
-            "title": "Little Image",
-            "details": "a/a $27.58 (under 21 plus $5) 8pm/9pm ^",
+            "title": "Little Image / Slow Coast",
+            "details": "a/a $27.58 (under 21 plus $5) 8pm/9pm ^ / Little Image, Slow Coast",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -7226,6 +7289,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-27",
             "title": "Sekou",
             "details": "a/a (under 21 plus $5) 8pm/9pm ^",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-17-brick-and-mortar-femcels",
+            "date": "2026-07-17",
+            "title": "Femcels",
+            "details": "a/a (under 21 plus $5) ^",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -7313,70 +7383,14 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-08T23:22:05.861Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-brick-and-mortar-music-hall-the-scratch-dug",
-            "date": "2026-05-27",
-            "title": "The Scratch / DUG",
-            "details": "The Scratch, DUG",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-brick-and-mortar-music-hall-jorden-kyle-danny-ali-reo-900-jay-armon-solus-the-happy-human-derder-laflare",
-            "date": "2026-05-28",
-            "title": "Jorden Kyle / Danny Ali / Reo 900 / Jay Armon / Solus The Happy Human / DerDer LaFlare",
-            "details": "Jorden Kyle, Danny Ali, Reo 900, Jay Armon, Solus The Happy Human, DerDer LaFlare",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-brick-and-mortar-music-hall-the-mom-dance-party",
-            "date": "2026-05-29",
-            "title": "The Mom Dance Party",
-            "details": "The Mom Dance Party",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-brick-and-mortar-music-hall-the-mom-dance-party",
-            "date": "2026-05-30",
-            "title": "The Mom Dance Party",
-            "details": "The Mom Dance Party",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-brick-and-mortar-music-hall-fun-lovin-criminals-rob-eberle",
-            "date": "2026-05-31",
-            "title": "Fun Lovin' Criminals / Rob Eberle",
-            "details": "Fun Lovin' Criminals, Rob Eberle",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-02-brick-and-mortar-music-hall-daisy-grenade-vienna-vienna",
-            "date": "2026-06-02",
-            "title": "Daisy Grenade / Vienna Vienna",
-            "details": "Daisy Grenade, Vienna Vienna",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-brick-and-mortar-music-hall-atm-danny",
-            "date": "2026-06-04",
-            "title": "ATM Danny",
-            "details": "ATM Danny",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-brick-and-mortar-music-hall-alain-whyte-band-dj-ray-chaos",
-            "date": "2026-06-05",
-            "title": "Alain Whyte Band / Ray Chaos / dj Ray Chaos",
-            "details": "Alain Whyte Band, Dj Ray Chaos / a/a $33.24 (under 21 plus $5) 8pm/9pm ^",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-brick-and-mortar-music-hall-racing-mount-pleasant",
-            "date": "2026-06-06",
-            "title": "Racing Mount Pleasant",
-            "details": "Racing Mount Pleasant / a/a $30.67 (under 21 plus $5) 8pm/9pm ^",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-brick-and-mortar-music-hall-little-image-slow-coast",
+            "date": "2026-06-13",
+            "title": "Little Image / Slow Coast",
+            "details": "Little Image, Slow Coast",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -7421,18 +7435,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-brix-581-openmic-10-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 10:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=16743"
-          },
-          {
-            "eventId": "2026-06-03-brix-581-poetry-10-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-brix-581-poetry-10-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 10:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16743"
@@ -7480,11 +7487,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.975Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-bubba-gump-shrimp-company-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-bubba-gump-shrimp-company-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16320"
@@ -7584,11 +7591,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-bus-stop-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-bus-stop-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4564"
@@ -7636,11 +7643,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.993Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-butter-karaoke-9-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-butter-karaoke-9-00pm",
+            "date": "2026-06-08",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46421"
@@ -7813,41 +7820,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.035Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
-          {
-            "eventId": "2026-05-28-cafe-du-nord-austin-giorgio",
-            "date": "2026-05-28",
-            "title": "Austin Giorgio",
-            "details": "Austin Giorgio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-07-cafe-du-nord-anthony-family-baby-lindo",
-            "date": "2026-06-07",
-            "title": "Anthony Family / Baby Lindo",
-            "details": "Anthony Family, Baby Lindo",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-09-cafe-du-nord-syd-taylor",
             "date": "2026-06-09",
             "title": "Syd Taylor",
-            "details": "a/a 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Syd Taylor",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-10-cafe-du-nord-grooblen",
             "date": "2026-06-10",
-            "title": "Grooblen / Heavens Club / Al Harper / Tucheetta",
-            "details": "21+ $18/$20 7pm/8pm",
+            "title": "Heavens Club / Grooblen / Al Harper / Tucheetta",
+            "details": "21+ $18/$20 7pm/8pm / Grooblen, Heaven's Club, Al Harper, tucheetta",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-11-cafe-du-nord-camp-blue",
             "date": "2026-06-11",
-            "title": "Camp Blue / Famous Friend / Floats",
-            "details": "a/a 8pm",
+            "title": "Camp Blue / Famous Friend / Floats / Lovers Peak",
+            "details": "a/a 8pm / Camp Blu, Famous Friend, Floats, Lovers Peak",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -7856,6 +7849,13 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Leah Kate",
             "details": "a/a 9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-13-cafe-du-nord-leo-middea",
+            "date": "2026-06-13",
+            "title": "Leo Middea",
+            "details": "Leo Middea",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-18-cafe-du-nord-fai-laci",
@@ -8097,12 +8097,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.864Z",
-        "lastImportedAt": "2026-06-06T20:52:48.021Z",
+        "lastImportedAt": "2026-06-09T00:28:16.037Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-california-theater-wreckless-strangers",
-            "date": "2026-06-05",
-            "title": "Wreckless Strangers / Pardon The Interruption",
+            "eventId": "2026-06-26-california-theater-wreckles-strangers",
+            "date": "2026-06-26",
+            "title": "Wreckles Strangers / Pardon The Interruption",
             "details": "a/a $20-$30 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -8156,25 +8156,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-caps-pizza-and-tap-house-openmic-8-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=14153"
-          },
-          {
-            "eventId": "2026-06-02-caps-pizza-and-tap-house-poetry-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-caps-pizza-and-tap-house-poetry-8-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14153"
           },
           {
-            "eventId": "2026-06-03-caps-pizza-and-tap-house-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-caps-pizza-and-tap-house-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30797"
@@ -8222,7 +8215,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-06-06T20:52:48.002Z",
+        "lastImportedAt": "2026-06-09T00:28:16.018Z",
         "appearances": [
           {
             "eventId": "2026-06-26-caravan-lazer-beam",
@@ -8366,7 +8359,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-06T20:52:47.998Z",
+        "lastImportedAt": "2026-06-09T00:28:16.014Z",
         "appearances": [
           {
             "eventId": "2026-06-18-caravan-lounge-emo-night-with-dj-wayne-o",
@@ -8418,11 +8411,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-cast-iron-trading-poetry-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-cast-iron-trading-poetry-7-00pm",
+            "date": "2026-06-12",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19762"
@@ -8472,15 +8465,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-castro-qveen-herby",
-            "date": "2026-06-02",
-            "title": "Qveen Herby / Thot Squad",
-            "details": "a/a 7pm/8pm # (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-24-castro-alok-comedian",
             "date": "2026-06-24",
@@ -8538,6 +8524,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-16-castro-jeff-bernat",
+            "date": "2026-09-16",
+            "title": "Jeff Bernat",
+            "details": "a/a $48+ 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-17-castro-josh-thomas",
             "date": "2026-09-17",
             "title": "Josh Thomas",
@@ -8563,6 +8556,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-28",
             "title": "Aldous Harding / Sam Burton",
             "details": "a/a $60-$41 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-05-castro-she-and-him",
+            "date": "2026-10-05",
+            "title": "She & Him",
+            "details": "a/a 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -8622,6 +8622,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-23-castro-julia-jacklin",
+            "date": "2026-10-23",
+            "title": "Julia Jacklin",
+            "details": "a/a $48+ 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-27-castro-fred-armisen-comedy-for-musicans",
             "date": "2026-10-27",
             "title": "Fred Armisen (comedy for musicans)",
@@ -8654,6 +8661,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-12",
             "title": "Olafur Arnalds",
             "details": "a/a $64.75+ 7pm/8pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-29-castro-dweezil-zappa",
+            "date": "2026-11-29",
+            "title": "Dweezil Zappa",
+            "details": "a/a $76+ 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -8846,49 +8860,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:48.035Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-castro-theater-inji",
-            "date": "2026-05-29",
-            "title": "INJI",
-            "details": "INJI",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-castro-theater-robby-hoffman",
-            "date": "2026-05-30",
-            "title": "Robby Hoffman",
-            "details": "Robby Hoffman",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-02-castro-theater-qveen-herby-thot-squad",
-            "date": "2026-06-02",
-            "title": "Qveen Herby / Thot Squad",
-            "details": "Qveen Herby, Thot Squad",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-castro-theater-horse-meat-disco-carrieondisco-dj-m3",
-            "date": "2026-06-06",
-            "title": "Horse Meat Disco / CarrieOnDisco / M3 / dj M3",
-            "details": "Horse Meat Disco, CarrieOnDisco, DJ M3 / 21+ 7pm/7pm # (sold out)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-castro-theater-i-m-with-her-jordan-tice-joseph-terrell",
-            "date": "2026-06-07",
-            "title": "Joseph Terrell / I'm With Her",
-            "details": "I'm With Her, Jordan Tice, Joseph Terrell / a/a $54+ 6pm/7pm # (sold out)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-10-castro-theater-built-this-city-an-sf-pride-variety-spectacular",
+            "date": "2026-06-10",
+            "title": "",
+            "details": "Built This City: An SF Pride Variety Spectacular",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-castro-theater-the-crane-wives",
             "date": "2026-06-13",
             "title": "The Crane Wives / Yasmin Williams",
-            "details": "a/a $41+ 7pm/8pm # (sold out)",
+            "details": "a/a $41+ 7pm/8pm # (sold out) / The Crane Wives, Yasmin Williams",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-14-castro-theater-broadway-bares",
+            "date": "2026-06-14",
+            "title": "Broadway Bares",
+            "details": "Broadway Bares",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-07-07-castro-theater-kurt-vile-and-the-violators",
@@ -9141,22 +9134,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.032Z",
+        "lastImportedAt": "2026-06-09T00:28:16.053Z",
         "appearances": [
-          {
-            "eventId": "2026-06-05-catalyst-the-hu",
-            "date": "2026-06-05",
-            "title": "The Hu / Rasmus",
-            "details": "16+ $61.47 8pm/9pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-catalyst-1-umbrella",
-            "date": "2026-06-07",
-            "title": "1 Umbrella",
-            "details": "16+ $40.55 8pm/9pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-11-catalyst-rayburger",
             "date": "2026-06-11",
@@ -9251,7 +9230,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.024Z",
+        "lastImportedAt": "2026-06-09T00:28:16.044Z",
         "appearances": [
           {
             "eventId": "2026-06-12-catalyst-atrium-hunx-and-his-punx",
@@ -9317,11 +9296,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.047Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.993Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-cato-s-ale-house-trivia-7-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-cato-s-ale-house-trivia-7-30pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=3997"
@@ -9369,11 +9348,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-cazbar-at-hotel-caza-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-cazbar-at-hotel-caza-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38642"
@@ -9482,21 +9461,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-05-31-center-for-new-music-luminous-being",
-            "date": "2026-05-31",
-            "title": "Luminous Being",
-            "details": "Luminous Being",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-center-for-new-music-kra-pao",
+            "date": "2026-06-12",
+            "title": "Kra Pao",
+            "details": "Kra Pao",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-center-for-new-music-the-cornelius-cardew-choir-pauline-oliveros-birthday",
-            "date": "2026-06-06",
-            "title": "The Cornelius Cardew Choir (Pauline Oliveros’ Birthday)",
-            "details": "The Cornelius Cardew Choir (Pauline Oliveros’ Birthday)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-center-for-new-music-ekg-thom-blum-eric-glick-rieman-cut-aaron-oppenheim",
+            "date": "2026-06-13",
+            "title": "EKG / Thom Blum / Eric Glick Rieman / CUT / Aaron Oppenheim",
+            "details": "EKG, Thom Blum, Eric Glick Rieman, CUT, Aaron Oppenheim",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -9685,54 +9664,40 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.061Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-chapel-rostam",
-            "date": "2026-06-03",
-            "title": "Rostam / Henry Solomon",
-            "details": "a/a $39.59 7pm/8pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-chapel-martin-rev",
-            "date": "2026-06-04",
-            "title": "Martin Rev / Dagger Polyester / vj Divine Enfant / dj Omar Perez",
-            "details": "a/a $37.11 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-chapel-don-carlos",
             "date": "2026-06-12",
             "title": "Don Carlos / Floratura / dj Irie Dole",
-            "details": "a/a $55.67 8pm/9pm (was feb 19th)",
+            "details": "a/a $55.67 8pm/9pm (was feb 19th) / Don Carlos, Floratura, DJ and Host Irie Dole",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-06-13-chapel-thee-marloes",
-            "date": "2026-06-13",
-            "title": "Thee Marloes / Thee Heart Tones",
-            "details": "a/a 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-13-upcoming-kalx-coannounce-sat-6-20-dengue-fever-the-chapel",
+            "date": "2026-06-20",
+            "title": "Dengue Fever",
+            "details": "Sat 6/20: Dengue Fever @ The Chapel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-16-chapel-asgeir",
             "date": "2026-06-16",
             "title": "Asgeir",
-            "details": "a/a 7pm/8pm",
+            "details": "a/a $26/$30 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-17-chapel-jesca-hoop",
             "date": "2026-06-17",
-            "title": "Jesca Hoop",
+            "title": "Jesca Hoop / Fau Fables",
             "details": "a/a $45.77 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-20-chapel-dengue-fever",
             "date": "2026-06-20",
-            "title": "Dengue Fever",
+            "title": "Dengue Fever / Bolero! / Mad Alchemy Liquid Light Show",
             "details": "a/a $48.25 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -9783,6 +9748,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-19",
             "title": "Babe Rainbow",
             "details": "a/a $39.59 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-22-chapel-friendship",
+            "date": "2026-07-22",
+            "title": "Friendship / The Reds Pinks & Purples / Cindy",
+            "details": "a/a $27.22 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9898,6 +9870,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-05-chapel-drink-the-sea",
+            "date": "2026-09-05",
+            "title": "Drink The Sea",
+            "details": "a/a 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-13-chapel-carla-dal-forno",
             "date": "2026-09-13",
             "title": "Carla Dal Forno",
@@ -9968,6 +9947,20 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-20-chapel-the-devil-makes-three",
+            "date": "2026-10-20",
+            "title": "The Devil Makes Three",
+            "details": "a/a $51.44 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-21-chapel-the-devil-makes-three",
+            "date": "2026-10-21",
+            "title": "The Devil Makes Three",
+            "details": "a/a $51.44 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-24-chapel-weatherday",
             "date": "2026-10-24",
             "title": "Weatherday",
@@ -10000,6 +9993,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-13",
             "title": "ri Other Lives",
             "details": "a/a $30/$35 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-16-chapel-margaret-glaspy",
+            "date": "2026-11-16",
+            "title": "Margaret Glaspy / Anna Tivel",
+            "details": "a/a $27.22 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10094,11 +10094,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-chess-club-mechanics-institute-chess-6-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-chess-club-mechanics-institute-chess-6-30pm",
+            "date": "2026-06-09",
             "title": "Chess",
             "details": "Chess event at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53442"
@@ -10146,11 +10146,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-chess-queen-s-club-chess-2-30pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-chess-queen-s-club-chess-2-30pm",
+            "date": "2026-06-13",
             "title": "Chess",
             "details": "Chess event at 2:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53441"
@@ -10198,14 +10198,59 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-chief-sullivan-s-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-chief-sullivan-s-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38651"
+          }
+        ]
+      }
+    },
+    "chochenyo-park": {
+      "id": "chochenyo-park",
+      "name": "Chochenyo Park",
+      "displayName": "Chochenyo Park",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Chochenyo%20Park%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.904Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-13-chochenyo-park-unity-fest",
+            "date": "2026-06-13",
+            "title": "",
+            "details": "Unity Fest",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -10250,18 +10295,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-chopsticks-alley-art-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19323"
-          },
-          {
-            "eventId": "2026-06-03-chopsticks-alley-art-poetry-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-chopsticks-alley-art-poetry-7-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19323"
@@ -10302,35 +10340,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
-            "date": "2026-05-29",
-            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-church-of-clown-spring-2026-student-showcase",
+            "date": "2026-06-12",
+            "title": "",
+            "details": "Spring 2026 Student Showcase",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
-            "date": "2026-05-30",
-            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
-            "date": "2026-06-05",
-            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "details": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-church-of-clown-the-fantasy-mis-adventures-of-short-sword-and-long-bow",
-            "date": "2026-06-06",
-            "title": "The Fantasy (Mis)Adventures of Short Sword and Long Bow",
-            "details": "The Mis-Adventure of Short Sword and Long Bow delivers classic Dungeons & Dragons-style thrills—packed with oddball characters, unpredictable magic, and glorious mayhem.",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-church-of-clown-spring-2026-student-showcase",
+            "date": "2026-06-13",
+            "title": "",
+            "details": "Spring 2026 Student Showcase",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -10375,15 +10399,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.869Z",
-        "lastImportedAt": "2026-06-06T20:52:48.023Z",
+        "lastImportedAt": "2026-06-09T00:28:16.041Z",
         "appearances": [
-          {
-            "eventId": "2026-06-07-city-hall-ac-and-the-heatwave",
-            "date": "2026-06-07",
-            "title": "AC & The Heatwave",
-            "details": "a/a 5pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-21-city-hall-the-floorshakers",
             "date": "2026-06-21",
@@ -10469,7 +10486,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -10644,15 +10661,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.033Z",
+        "lastImportedAt": "2026-06-09T00:28:16.054Z",
         "appearances": [
-          {
-            "eventId": "2026-06-05-civic-auditorium-alesso",
-            "date": "2026-06-05",
-            "title": "Alesso / Joa / Sentinel",
-            "details": "18+ $78.15 7pm/8pm # / Alesso",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-23-civic-auditorium-madison-beer",
             "date": "2026-06-23",
@@ -10665,6 +10675,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-26",
             "title": "Dillon Francis b2b Flosstradamus",
             "details": "18+ $67.25 7pm/8pm # (Dillstradamus)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-10-civic-auditorium-slander",
+            "date": "2026-07-10",
+            "title": "Slander / Space Laces / Taiki Nulight / Vctre",
+            "details": "18+ 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10759,7 +10776,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.002Z",
+        "lastImportedAt": "2026-06-09T00:28:16.019Z",
         "appearances": [
           {
             "eventId": "2026-06-27-civic-center-sf-pride",
@@ -10811,7 +10828,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.003Z",
+        "lastImportedAt": "2026-06-09T00:28:16.020Z",
         "appearances": [
           {
             "eventId": "2026-06-28-civic-center-and-market-street-parade-sf-pride",
@@ -10863,11 +10880,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-clandestine-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-clandestine-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15757"
@@ -10915,11 +10932,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-clara-s-junction-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-clara-s-junction-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=57476"
@@ -11024,11 +11041,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-classic-cars-west-karaoke-7-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-classic-cars-west-karaoke-7-00pm",
+            "date": "2026-06-14",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46437"
@@ -11076,11 +11093,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-coach-s-lounge-sports-bar-and-grill-poetry-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-coach-s-lounge-sports-bar-and-grill-poetry-8-00pm",
+            "date": "2026-06-14",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19764"
@@ -11128,11 +11145,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-cobb-s-comedy-club-openmic-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-cobb-s-comedy-club-openmic-7-30pm",
+            "date": "2026-06-09",
             "title": "Open Mic",
             "details": "Open mic at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=16738"
@@ -11180,11 +11197,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-columbus-cafe-openmic-9-30pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-columbus-cafe-openmic-9-30pm",
+            "date": "2026-06-14",
             "title": "Open Mic",
             "details": "Open mic at 9:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=36330"
@@ -11232,18 +11249,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-comet-club-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19704"
-          },
-          {
-            "eventId": "2026-06-04-comet-club-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-comet-club-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19704"
@@ -11602,11 +11612,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.979Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-connecticut-yankee-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-connecticut-yankee-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=38654"
@@ -11654,14 +11664,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-copper-bar-kitchen-and-microbrewery-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-copper-bar-kitchen-and-microbrewery-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41324"
+          }
+        ]
+      }
+    },
+    "corner-of-park-place-and-washington": {
+      "id": "corner-of-park-place-and-washington",
+      "name": "corner of Park Place and Washington",
+      "displayName": "corner of Park Place and Washington",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#corner_of_park_place_and_washington",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22corner%20of%20Park%20Place%20and%20Washington%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.919Z",
+        "lastImportedAt": "2026-06-09T00:28:16.022Z",
+        "appearances": [
+          {
+            "eventId": "2026-07-10-corner-of-park-place-and-washington-wreckless-strangers",
+            "date": "2026-07-10",
+            "title": "Wreckless Strangers",
+            "details": "a/a free 5:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -11799,91 +11861,42 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.034Z",
+        "lastImportedAt": "2026-06-09T00:28:16.055Z",
         "appearances": [
           {
-            "eventId": "2026-05-28-cornerstone-being-as-an-ocean-lagrimas-commoner",
-            "date": "2026-05-28",
-            "title": "Being As An Ocean / Lagrimas / Commoner",
-            "details": "Being As An Ocean, Lagrimas, Commoner",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-cornerstone-jiluka",
-            "date": "2026-05-29",
-            "title": "Jiluka",
-            "details": "Jiluka",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-cornerstone-cd-ghost",
-            "date": "2026-05-30",
-            "title": "CD Ghost",
-            "details": "CD Ghost",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-cornerstone-pradabagshawty",
-            "date": "2026-05-31",
-            "title": "Pradabagshawty",
-            "details": "Pradabagshawty",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-cornerstone-kenny-mason-feardorian",
-            "date": "2026-06-01",
-            "title": "Kenny Mason / FearDorian",
-            "details": "Kenny Mason, FearDorian",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-cornerstone-doomsday-iron-front-four-winds-away-losing-streak",
-            "date": "2026-06-05",
-            "title": "Doomsday / Iron Front / Four Winds Away / Losing Streak",
-            "details": "Doomsday, Iron Front, Four Winds Away, Losing Streak / a/a $27.78 7pm/8pm @",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-cornerstone-teen-suicide",
-            "date": "2026-06-06",
-            "title": "Teen Suicide / Cloud Nothings / Pure Hex",
-            "details": "a/a 8pm/9pm / Teen Suicide, Pure Hex, Cloud Nothings",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-cornerstone-sewerperson-autumndropsdead",
-            "date": "2026-06-07",
-            "title": "Sewerperson / autumndropsdead",
-            "details": "Sewerperson, autumndropsdead / a/a $28.29 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-09-cornerstone-jhariah-mijita",
+            "date": "2026-06-09",
+            "title": "Jhariah / Mijita",
+            "details": "Jhariah, Mijita",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-10-cornerstone-mihali",
             "date": "2026-06-10",
             "title": "Mihali",
-            "details": "a/a 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Mihali",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-11-cornerstone-lila-ike",
             "date": "2026-06-11",
-            "title": "Lila Ike",
-            "details": "a/a 7pm/8pm",
+            "title": "Lila Ike / Lila Iké",
+            "details": "a/a 7pm/8pm / Lila Iké",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-cornerstone-troy-doherty",
             "date": "2026-06-12",
             "title": "Troy Doherty",
-            "details": "a/a $33.43 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Troy Doherty",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-cornerstone-witch-club-satan",
             "date": "2026-06-13",
-            "title": "Witch Club Satan / Patriarchy",
-            "details": "a/a $33.43 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Witch Club Satan",
+            "details": "Witch Club Satan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-17-cornerstone-sadie-jean",
@@ -12054,11 +12067,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-country-club-elementary-school-chess-8-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-country-club-elementary-school-chess-8-00pm",
+            "date": "2026-06-12",
             "title": "Chess",
             "details": "Chess event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53004"
@@ -12201,29 +12214,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.864Z",
-        "lastImportedAt": "2026-06-06T20:52:47.995Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
-          {
-            "eventId": "2026-06-05-county-fair-hinder-8pm",
-            "date": "2026-06-05",
-            "title": "The Young Barons / Hinder / Never Ending Fall / Black Pontiac",
-            "details": "a/a 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-county-fair-gym-class-heroes-8pm",
-            "date": "2026-06-06",
-            "title": "Gym Class Heroes / Dog Park / Croozer",
-            "details": "Gym Class Heroes (8pm) Dog Park (6:30pm) Croozer (3pm)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-county-fair-the-hype-boy-from-jersey-8pm",
-            "date": "2026-06-07",
-            "title": "The Hype Boy From Jersey (8pm) / Brooke Alexx (6:30pm),",
-            "details": "a/a",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-10-county-fair-queen-nation",
             "date": "2026-06-10",
@@ -12255,8 +12247,8 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-14-county-fair-san-vicente-7-30pm",
             "date": "2026-06-14",
-            "title": "San Vicente (7:30pm) / Patrulla / Mismos / Tiranos (3:30pm)",
-            "details": "a/a",
+            "title": "San Vicente / Patrulla / Mismos / Tiranos",
+            "details": "a/a San Vicente (7:30pm) Patrulla Mismos Tiranos (3:30pm)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -12302,20 +12294,20 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-06T20:52:48.034Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
           {
             "eventId": "2026-06-12-cow-palace-gryffin",
             "date": "2026-06-12",
             "title": "Gryffin / Lost Frequencies / Viperactive / Nova Haus",
-            "details": "18+ $78.15 ($154.75 preferred viewing) 8pm #",
+            "details": "18+ $78.15 ($154.75 preferred viewing) 8pm # / Gryffin, Lost Frequencies, Viperactive, Nova Haus",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-cow-palace-gryffin",
             "date": "2026-06-13",
             "title": "Gryffin / Lost Frequencies / Frank Walker / Ghostdragon",
-            "details": "18+ $78 # (sold out)",
+            "details": "18+ $78 # (sold out) / Gryffin, Lost Frequencies, Frank Walker, GhostDragon",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -12323,6 +12315,65 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-24",
             "title": "Sofi Tuckker / Drama / Kito",
             "details": "18+ $68 ($484/$202 vip) 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-31-cow-palace-knocked-loose",
+            "date": "2026-10-31",
+            "title": "Knocked Loose / Denzel Curry / Superheaven / Boundaries",
+            "details": "a/a $78+ 7pm # @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "creek-park": {
+      "id": "creek-park",
+      "name": "Creek Park",
+      "displayName": "Creek Park",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#creek_park",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Creek%20Park%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.932Z",
+        "lastImportedAt": "2026-06-09T00:28:16.037Z",
+        "appearances": [
+          {
+            "eventId": "2026-08-22-creek-park-wreckless-strangers",
+            "date": "2026-08-22",
+            "title": "Wreckless Strangers",
+            "details": "a/a free 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -12529,15 +12580,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-06T20:52:48.036Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
-          {
-            "eventId": "2026-06-05-crepe-place-cosmic-kitten",
-            "date": "2026-06-05",
-            "title": "Cosmic Kitten / Cut-Rate Druggist",
-            "details": "a/a $15 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-07-08-crepe-place-dylan-leblane",
             "date": "2026-07-08",
@@ -12630,70 +12674,28 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-06-06T20:52:48.001Z",
+        "lastImportedAt": "2026-06-09T00:28:16.017Z",
         "appearances": [
           {
-            "eventId": "2026-05-28-crybaby-kranium",
-            "date": "2026-05-28",
-            "title": "Kranium",
-            "details": "Kranium",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-09-crybaby-chrocktikal",
+            "date": "2026-06-09",
+            "title": "ChRocktikal",
+            "details": "ChRocktikal",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-crybaby-blue-face",
-            "date": "2026-05-30",
-            "title": "Blue Face",
-            "details": "Blue Face",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-crybaby-the-10-year-celebration-of-blues-monday",
-            "date": "2026-06-01",
-            "title": "The 10 Year Celebration of Blues Monday",
-            "details": "The 10 Year Celebration of Blues Monday",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-crybaby-karaokay-with-mama-celeste",
-            "date": "2026-06-03",
-            "title": "Karaokay with Mama Celeste",
-            "details": "Karaokay with Mama Celeste",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-crybaby-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27977"
-          },
-          {
-            "eventId": "2026-06-04-crybaby-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-crybaby-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27977"
           },
           {
-            "eventId": "2026-06-05-crybaby-1st-friday-party-with-shabazz-jambalaya-medvsa-latin-underground",
-            "date": "2026-06-05",
-            "title": "Crybaby - 1st Friday Party",
-            "details": "1st Friday Party with shabazz, Jambalaya, Medvsa, Latin Underground",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-crybaby-lil-blood",
-            "date": "2026-06-06",
-            "title": "Lil Blood / J. Stalin",
-            "details": "a/a $18.81 7pm / Lil Blood, J. Stalin",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-09-crybaby-chrocktikal",
-            "date": "2026-06-09",
-            "title": "ChRocktikal",
-            "details": "a/a $50 ($250-$125 vip) 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-13-crybaby-preciosa-night",
+            "date": "2026-06-13",
+            "title": "Preciosa Night",
+            "details": "Preciosa Night",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-20-crybaby-guttermouth",
@@ -12752,11 +12754,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-danny-coyle-s-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-danny-coyle-s-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4561"
@@ -12806,7 +12808,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.002Z",
+        "lastImportedAt": "2026-06-09T00:28:16.019Z",
         "appearances": [
           {
             "eventId": "2026-06-20-danny-murry-s-iinarcs",
@@ -12829,7 +12831,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "dave-and-buster-s",
       "name": "Dave & Buster's",
       "displayName": "Dave & Buster's",
-      "aliases": [],
+      "aliases": [
+        "Dave & Buster's Concord - USA"
+      ],
       "confidence": "review",
       "mergedInto": "",
       "status": "unknown",
@@ -12865,11 +12869,63 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-dave-and-buster-s-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-dave-and-buster-s-trivia-7-30pm",
+            "date": "2026-06-09",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46168"
+          }
+        ]
+      }
+    },
+    "dave-and-buster-s-concord-usa": {
+      "id": "dave-and-buster-s-concord-usa",
+      "name": "Dave & Buster's Concord - USA",
+      "displayName": "Dave & Buster's Concord - USA",
+      "aliases": [],
+      "confidence": "rejected",
+      "mergedInto": "dave-and-buster-s",
+      "status": "inactive",
+      "venueType": "unknown",
+      "city": "Concord",
+      "region": "",
+      "address": "2075 Diamond Blvd Ste. H180 Concord CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "Merged into Dave & Buster's.",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46167",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dave%20%26%20Buster's%20Concord%20-%20USA%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.889Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-09-dave-and-buster-s-concord-usa-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=46167"
@@ -13026,56 +13082,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-06T20:52:48.028Z",
+        "lastImportedAt": "2026-06-09T00:28:16.048Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-davies-symphony-hall-ravel-and-music-of-the-americas",
-            "date": "2026-05-29",
-            "title": "Ravel & Music of the Americas",
-            "details": "Ravel & Music of the Americas",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-davies-symphony-hall-scheherazade",
+            "date": "2026-06-12",
+            "title": "San Francisco Symphony",
+            "details": "Scheherazade",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-davies-symphony-hall-ravel-and-music-of-the-americas",
-            "date": "2026-05-30",
-            "title": "Ravel & Music of the Americas",
-            "details": "Ravel & Music of the Americas",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-davies-symphony-hall-scheherazade",
+            "date": "2026-06-13",
+            "title": "San Francisco Symphony",
+            "details": "Scheherazade",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-31-davies-symphony-hall-san-francisco-symphony-chorus-concert",
-            "date": "2026-05-31",
-            "title": "San Francisco Symphony Chorus Concert",
-            "details": "San Francisco Symphony Chorus Concert",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-davies-symphony-hall-yo-yo-ma",
-            "date": "2026-06-01",
-            "title": "Yo-Yo Ma",
-            "details": "Yo-Yo Ma",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-davies-symphony-hall-njioma-grevious-violin-recital",
-            "date": "2026-06-03",
-            "title": "Njioma Grevious Violin Recital",
-            "details": "Njioma Grevious Violin Recital",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-davies-symphony-hall-elim-chan-conducts-la-mer",
-            "date": "2026-06-05",
-            "title": "Elim Chan Conducts La Mer",
-            "details": "Elim Chan Conducts La Mer",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-davies-symphony-hall-elim-chan-conducts-la-mer",
-            "date": "2026-06-06",
-            "title": "Elim Chan Conducts La Mer",
-            "details": "Elim Chan Conducts La Mer",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-davies-symphony-hall-scheherazade",
+            "date": "2026-06-14",
+            "title": "San Francisco Symphony",
+            "details": "Scheherazade",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-16-davies-symphony-hall-herb-alpert-and-the-tijuana-brass",
@@ -13153,6 +13181,58 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       }
     },
+    "degrees-plato": {
+      "id": "degrees-plato",
+      "name": "Degrees Plato",
+      "displayName": "Degrees Plato",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#degrees_plato",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Degrees%20Plato%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.912Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-21-degrees-plato-orchestra-gold-unplugged",
+            "date": "2026-06-21",
+            "title": "Orchestra Gold Unplugged / Youth opening performances (7pm)",
+            "details": "a/a free 7pm til 9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "delta-pacific-beverage-company-inc": {
       "id": "delta-pacific-beverage-company-inc",
       "name": "Delta Pacific Beverage Company, Inc.",
@@ -13193,11 +13273,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-delta-pacific-beverage-company-inc-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-delta-pacific-beverage-company-inc-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30803"
@@ -13245,7 +13325,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-06-06T20:52:48.026Z",
+        "lastImportedAt": "2026-06-09T00:28:16.047Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
@@ -13425,48 +13505,34 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.045Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-dna-lounge-monday-night-hubba",
-            "date": "2026-05-25",
+            "eventId": "2026-06-08-dna-lounge-monday-night-hubba",
+            "date": "2026-06-08",
             "title": "Monday Night Hubba",
             "details": "Monday Night Hubba",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-27-dna-lounge-male-tears-sleek-teeth-dj-starr-noir",
-            "date": "2026-05-27",
-            "title": "Male Tears / Sleek Teeth / Starr Noir",
-            "details": "Male Tears, Sleek Teeth, DJ Starr Noir",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-dna-lounge-living-dead-girl-diamantide-theya",
-            "date": "2026-05-30",
-            "title": "Living Dead Girl / Diamantide / Theya",
-            "details": "Living Dead Girl, Diamantide, Theya",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-dna-lounge-monday-night-hubba",
-            "date": "2026-06-01",
-            "title": "Monday Night Hubba",
-            "details": "Monday Night Hubba",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-dna-lounge-wraith-witchtrap-the-black-moriah-burial-oath",
-            "date": "2026-06-07",
-            "title": "Wraith / Witchtrap / The Black Moriah / Burial Oath",
-            "details": "Wraith, Witchtrap, The Black Moriah, Burial Oath / a/a $22/$32 7pm/7:30pm @",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-dna-lounge-mortified-morti-pride",
+            "date": "2026-06-12",
+            "title": "",
+            "details": "Mortified: Morti-Pride",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-14-dna-lounge-gurschach",
             "date": "2026-06-14",
             "title": "Gurschach / Nox Sinister / Barbarous / Crepuscle",
-            "details": "a/a $15/$22 6pm/6:30pm @",
+            "details": "a/a $15/$22 6pm/6:30pm @ / Gürschach, Nox Sinister, Barbarous, Crepuscle",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-18-dna-lounge-micro-mania-wrestling",
+            "date": "2026-06-18",
+            "title": "Micro Mania Wrestling",
+            "details": "a/a $65-$22 7:30pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -13474,6 +13540,34 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-20",
             "title": "Gayc/DC / Middle-Aged Queers / Niko Storment / KC Shane",
             "details": "a/a $18/$25 8pm/8:3pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-10-dna-lounge-the-last-decade",
+            "date": "2026-07-10",
+            "title": "The Last Decade / Nu-Metal Jacket / Apollyon / Selena Catwoman / Sumkid / Fantoms",
+            "details": "18+ $10/$20 9pm til 2am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-29-dna-lounge-redsign",
+            "date": "2026-08-29",
+            "title": "Redsign / Icesawder",
+            "details": "18+ $20/$25/$35 7:30pm til 1am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-dna-lounge-apollyon",
+            "date": "2026-09-11",
+            "title": "Apollyon / Selena Catwoman / dj 5umk1d / Fantoms",
+            "details": "18+ $10/$20 9:30pm til 2am",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-dna-lounge-zeromind",
+            "date": "2026-09-13",
+            "title": "Zeromind / The Random Devils / Brodre",
+            "details": "a/a $15/$22 7pm/7:30pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -13519,11 +13613,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-dogpatch-games-game-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-dogpatch-games-game-7-00pm",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46475"
@@ -13571,11 +13665,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-dogpatch-saloon-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-dogpatch-saloon-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38627"
@@ -13701,41 +13795,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.002Z",
+        "lastImportedAt": "2026-06-09T00:28:16.019Z",
         "appearances": [
-          {
-            "eventId": "2026-06-06-down-home-music-2pm-the-chuckleberries",
-            "date": "2026-06-06",
-            "title": "2pm The Chuckleberries",
-            "details": "2pm The Chuckleberries",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-down-home-music-chuckleberries-2pm-in-store",
-            "date": "2026-06-06",
-            "title": "screening of Les Blank's \"The Blues According to Lightin' Hopkins\"",
-            "details": "a/a free 2pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-down-home-music-san-kazakgascar",
-            "date": "2026-06-07",
-            "title": "San Kazakgascar",
-            "details": "a/a free 2pm / San Kazakgascar",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-13-down-home-music-goat-family",
             "date": "2026-06-13",
-            "title": "Goat Family",
-            "details": "a/a 2pm",
+            "title": "Goat Family / The Goat Family",
+            "details": "a/a 2pm / The Goat Family",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-down-home-music-the-seagulls",
             "date": "2026-06-14",
-            "title": "The Seagulls",
-            "details": "a/a 2pm",
+            "title": "The Seagulls / Seagulls",
+            "details": "a/a 2pm / Seagulls",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -13751,6 +13824,51 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Ex Capitals",
             "details": "a/a 2pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "downtown-point-richmond": {
+      "id": "downtown-point-richmond",
+      "name": "Downtown Point Richmond",
+      "displayName": "Downtown Point Richmond",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Downtown%20Point%20Richmond%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.902Z",
+        "lastImportedAt": "2026-06-09T00:28:16.007Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-12-downtown-point-richmond-los-cenzontles-miko-marks",
+            "date": "2026-06-12",
+            "title": "Los Cenzontles / Miko Marks",
+            "details": "Los Cenzontles, Miko Marks",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -13795,7 +13913,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-06T20:52:48.006Z",
+        "lastImportedAt": "2026-06-09T00:28:16.023Z",
         "appearances": [
           {
             "eventId": "2026-07-11-drake-s-barrel-house-nixed",
@@ -13847,11 +13965,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-drake-s-dealership-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-drake-s-dealership-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29729"
@@ -13899,11 +14017,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-durty-nelly-s-trivia-9-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-durty-nelly-s-trivia-9-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16321"
@@ -13951,13 +14069,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-06T20:52:48.018Z",
+        "lastImportedAt": "2026-06-09T00:28:16.034Z",
         "appearances": [
           {
             "eventId": "2026-06-11-eagle-no-captains",
             "date": "2026-06-11",
             "title": "No Captains / Pupils Punk / Wonderland Rejects / Sin Luto",
-            "details": "21+ $10 8:30pm",
+            "details": "21+ $10 8:30pm / No Captains, Pupils Punk, Wonderland Rejects, Sin Luto",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -14017,11 +14135,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-east-brother-beer-co-rec-room-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-east-brother-beer-co-rec-room-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53210"
@@ -14069,11 +14187,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-east-san-jose-carnegie-library-game-4-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-east-san-jose-carnegie-library-game-4-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 4:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46496"
@@ -14121,11 +14239,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-effie-s-restaurant-and-bar-karaoke-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-effie-s-restaurant-and-bar-karaoke-8-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=47971"
@@ -14173,11 +14291,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-el-lopo-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-el-lopo-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=38582"
@@ -14313,70 +14431,14 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:48.001Z",
+        "lastImportedAt": "2026-06-09T00:28:16.018Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-el-rio-joe-rut-and-the-sunshine-shovelers-nashville-honeymoon-noelle-and-the-deserters-caravan-222",
-            "date": "2026-05-25",
-            "title": "Joe Rut & The Sunshine Shovelers / Nashville Honeymoon / Noelle & the Deserters / Caravan 222",
-            "details": "Joe Rut & The Sunshine Shovelers, Nashville Honeymoon, Noelle & the Deserters, Caravan 222",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-el-rio-gloss-a-punk-rock-drag-show",
-            "date": "2026-05-28",
-            "title": "Gloss: A Punk Rock Drag Show",
-            "details": "Gloss: A Punk Rock Drag Show",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-el-rio-ew-baronhawk-poitier-tommy-c-trevor-sigler-five",
-            "date": "2026-05-30",
-            "title": "Ew / Baronhawk Poitier / Tommy C / Trevor Sigler / Five",
-            "details": "Ew, Baronhawk Poitier, Tommy C, Trevor Sigler, Five",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-el-rio-mahragan-ari-b-mashallah-mansaf-mama-alchemia",
-            "date": "2026-05-31",
-            "title": "Mahragan / Ari B / Mashallah / Mansaf Mama / Alchemia",
-            "details": "Mahragan, Ari B, Mashallah, Mansaf Mama, Alchemia",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-el-rio-los-train-wreck-s-all-star-jam",
-            "date": "2026-06-03",
-            "title": "Los Train Wreck's All Star Jam",
-            "details": "Los Train Wreck's All Star Jam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-el-rio-sarah-coolidge-caroline-wolfson-marika-christine-ryli-discnogirl",
-            "date": "2026-06-04",
-            "title": "Sarah Coolidge / Caroline Wolfson / Marika Christine / Ryli / Discnogirl",
-            "details": "Sarah Coolidge, Caroline Wolfson, Marika Christine, Ryli, Discnogirl",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-el-rio-system-exclusive-sara-said-so",
-            "date": "2026-06-05",
-            "title": "System Exclusive / Sara Said So",
-            "details": "System Exclusive, Sara Said So",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-el-rio-pangea-fc-the-bogues",
-            "date": "2026-06-06",
-            "title": "Pangea FC / The Bogues",
-            "details": "Pangea FC, The Bogues",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-el-rio-latinas-forever-djs-and-drag",
-            "date": "2026-06-07",
-            "title": "Latinas Forever DJs and Drag",
-            "details": "Latinas Forever DJs and Drag",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-el-rio-warped-drag-punk-rock-emo-nite",
+            "date": "2026-06-12",
+            "title": "Warped Drag: Punk Rock/Emo Nite",
+            "details": "Warped Drag: Punk Rock/Emo Nite",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-25-el-rio-swell-foop",
@@ -14421,35 +14483,28 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-elbo-room-cali-agents-monk-hts-splash-alca-windstrong-yng-og-young-yay-dj-riddm-tiki10hunnit",
-            "date": "2026-05-29",
-            "title": "Cali Agents / Monk HTS / Splash Alca / Windstrong / YNG OG / Young Yay / Riddm / TIKI10HUNNIT",
-            "details": "Cali Agents, Monk HTS, Splash Alca, Windstrong, YNG OG, Young Yay, DJ Riddm, TIKI10HUNNIT",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-elbo-room-comedy-oakland",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-elbo-room-comedy-oakland",
+            "date": "2026-06-11",
             "title": "Comedy Oakland",
             "details": "Comedy Oakland",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-05-elbo-room-comedy-oakland",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-elbo-room-comedy-oakland",
+            "date": "2026-06-12",
             "title": "Comedy Oakland",
             "details": "Comedy Oakland",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-elbo-room-comedy-oakland",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-elbo-room-comedy-oakland",
+            "date": "2026-06-13",
             "title": "Comedy Oakland",
             "details": "Comedy Oakland",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -14494,18 +14549,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-elbo-room-jack-london-openmic-8-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=18675"
-          },
-          {
-            "eventId": "2026-06-02-elbo-room-jack-london-poetry-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-elbo-room-jack-london-poetry-8-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18675"
@@ -14517,7 +14565,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "eli",
       "name": "Eli's Mile High Club",
       "displayName": "Eli's Mile High Club",
-      "aliases": [],
+      "aliases": [
+        "Eli's Mile High Club"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -14595,6 +14645,14 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://localwiki.org/oakland/Eli%27s_Mile_High_Club",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=27988",
+          "confidence": "verified",
+          "source": "badslava",
+          "display": false
         }
       ],
       "evidence": [
@@ -14649,12 +14707,51 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://localwiki.org/oakland/Eli%27s_Mile_High_Club",
           "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=15052035998927508423&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.elismilehighclub.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
         }
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.009Z",
+        "lastImportedAt": "2026-06-09T00:28:16.027Z",
         "appearances": [
+          {
+            "eventId": "2026-06-12-eli-s-mile-high-club-phantom-hound",
+            "date": "2026-06-12",
+            "title": "Phantom Hound / Oxide / Dread Spire / Low Cross",
+            "details": "21+ 8pm / Phantom Hound, Oxide, Dread Spire, Low Cross",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-06-19-eli-s-mile-high-club-vorlus",
             "date": "2026-06-19",
@@ -14668,6 +14765,13 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Josie Cotton / Heather And The Hot Guys / dj Cristy Bubbles",
             "details": "21+ $15 10pm $ (Mosswood Meltdown)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-18-eli-s-mile-high-club-memo-pst",
+            "date": "2026-07-18",
+            "title": "Memo PST / Warp",
+            "details": "21+ $17.53 10pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -14677,9 +14781,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Eli's Mile High Club",
       "displayName": "Eli's Mile High Club",
       "aliases": [],
-      "confidence": "verified",
-      "mergedInto": "",
-      "status": "active",
+      "confidence": "rejected",
+      "mergedInto": "eli",
+      "status": "inactive",
       "venueType": "club",
       "city": "Oakland",
       "region": "East Bay",
@@ -14695,7 +14799,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "historic North Oakland nightclub",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Eli's Mile High Club.",
       "links": [
         {
           "type": "search",
@@ -14783,60 +14887,25 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-eli-s-mile-high-club-nate-bolden",
-            "date": "2026-05-25",
-            "title": "Nate Bolden",
-            "details": "Nate Bolden",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-08-eli-s-mile-high-club-doug-cole",
+            "date": "2026-06-08",
+            "title": "Doug Cole",
+            "details": "Doug Cole",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-eli-s-mile-high-club-daisychain-king-dream-swiss",
-            "date": "2026-05-28",
-            "title": "Daisychain / King Dream / Swiss",
-            "details": "Daisychain, King Dream, Swiss",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-14-eli-s-mile-high-club-lividity-burt-bacharach-hemotoxin-mutate",
+            "date": "2026-06-14",
+            "title": "Lividity / Burt Bacharach / Hemotoxin / Mutate",
+            "details": "Lividity, Burt Bacharach, Hemotoxin, Mutate",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-eli-s-mile-high-club-mala-gre-a-icara-dj-sizzle",
-            "date": "2026-05-29",
-            "title": "Mala Greña / Icara / Sizzle",
-            "details": "Mala Greña, Icara, DJ Sizzle",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-eli-s-mile-high-club-abracanasty",
-            "date": "2026-05-30",
-            "title": "Abracanasty",
-            "details": "Abracanasty",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-eli-s-mile-high-club-busti-edgar-skoto",
-            "date": "2026-05-31",
-            "title": "Bustié / Edgar / Skoto",
-            "details": "Bustié, Edgar, Skoto",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-06-eli-s-mile-high-club-the-fin",
-            "date": "2026-06-06",
-            "title": "The fin.",
-            "details": "The fin.",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-eli-s-mile-high-club-christina-s-trip-tocca",
-            "date": "2026-06-07",
-            "title": "Christina's Trip / Tocca",
-            "details": "Christina's Trip, Tocca",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-eli-s-mile-high-club-poetry-6-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-eli-s-mile-high-club-poetry-6-00pm",
+            "date": "2026-06-14",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27988"
@@ -14884,14 +14953,59 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-elixir-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-elixir-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4550"
+          }
+        ]
+      }
+    },
+    "embarcadero-plaza": {
+      "id": "embarcadero-plaza",
+      "name": "Embarcadero Plaza",
+      "displayName": "Embarcadero Plaza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Embarcadero%20Plaza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.904Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-13-embarcadero-plaza-dirtybird-justin-jay-j-phlip-kevin-knapp-mat-joe",
+            "date": "2026-06-13",
+            "title": "Dirtybird / Justin Jay / J.Phlip / Kevin Knapp / Mat.Joe!",
+            "details": "Dirtybird, Justin Jay, J.Phlip, Kevin Knapp, Mat.Joe!",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -14936,18 +15050,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-emporium-arcade-bar-game-6-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-emporium-arcade-bar-game-6-00pm",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53275"
           },
           {
-            "eventId": "2026-06-03-emporium-arcade-bar-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-emporium-arcade-bar-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=25555"
@@ -14995,32 +15109,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-empresso-coffeehouse-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19765"
-          },
-          {
-            "eventId": "2026-06-03-empresso-coffeehouse-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=30519"
-          },
-          {
-            "eventId": "2026-06-03-empresso-coffeehouse-poetry-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-empresso-coffeehouse-poetry-7-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19765"
           },
           {
-            "eventId": "2026-06-03-empresso-coffeehouse-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-empresso-coffeehouse-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30519"
@@ -15068,18 +15168,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-eureka-valley-harvey-milk-memorial-branch-library-game-1-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-eureka-valley-harvey-milk-memorial-branch-library-game-1-00pm",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 1:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46483"
           },
           {
-            "eventId": "2026-06-07-eureka-valley-harvey-milk-memorial-branch-library-book-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-eureka-valley-harvey-milk-memorial-branch-library-book-8-00pm",
+            "date": "2026-06-14",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57231"
@@ -15127,11 +15227,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-f8-nightclub-and-bar-dance-9-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-f8-nightclub-and-bar-dance-9-30pm",
+            "date": "2026-06-09",
             "title": "Dance",
             "details": "Dance event at 9:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53676"
@@ -15179,7 +15279,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.012Z",
+        "lastImportedAt": "2026-06-09T00:28:16.029Z",
         "appearances": [
           {
             "eventId": "2026-07-25-faction-brewing-the-pandoras",
@@ -15231,7 +15331,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.012Z",
+        "lastImportedAt": "2026-06-09T00:28:16.029Z",
         "appearances": [
           {
             "eventId": "2026-07-25-fairgrounds-10-000-maniacs",
@@ -15283,7 +15383,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-06T20:52:48.021Z",
+        "lastImportedAt": "2026-06-09T00:28:16.038Z",
         "appearances": [
           {
             "eventId": "2026-07-17-felton-music-hall-hot-buttered-rum",
@@ -15349,11 +15449,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-festa-wine-and-cocktail-lounge-karaoke-karaoke-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-festa-wine-and-cocktail-lounge-karaoke-karaoke-7-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46417"
@@ -15401,14 +15501,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-fibbar-magees-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-fibbar-magees-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=56980"
+          }
+        ]
+      }
+    },
+    "fieldwork": {
+      "id": "fieldwork",
+      "name": "Fieldwork",
+      "displayName": "Fieldwork",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Berkeley",
+      "region": "",
+      "address": "1160 Sixth St Berkeley CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=20986",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Fieldwork%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.894Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-10-fieldwork-trivia-7-00pm",
+            "date": "2026-06-10",
+            "title": "Trivia Night",
+            "details": "Trivia night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=20986"
           }
         ]
       }
@@ -15505,7 +15657,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-06T20:52:47.994Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
             "eventId": "2026-06-13-fifty-s-liquor-merked",
@@ -15521,7 +15673,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "fillmore",
       "name": "Fillmore",
       "displayName": "The Fillmore",
-      "aliases": [],
+      "aliases": [
+        "The Fillmore"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -15698,20 +15852,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-fillmore-kes",
-            "date": "2026-06-03",
-            "title": "Kes",
-            "details": "a/a $48 ($129.80 vip) 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-fillmore-toadies",
             "date": "2026-06-12",
             "title": "Toadies / Local H / Sparta",
-            "details": "a/a $56+ 7pm/8pm #",
+            "details": "a/a $56+ 7pm/8pm # / Toadies",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -16030,11 +16177,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-finnegans-wake-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-finnegans-wake-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=38663"
@@ -16142,42 +16289,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-05-30-fireside-lounge-travis-hayes",
-            "date": "2026-05-30",
-            "title": "Travis Hayes",
-            "details": "Travis Hayes",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-fireside-lounge-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=3999"
-          },
-          {
-            "eventId": "2026-06-03-fireside-lounge-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-fireside-lounge-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=3999"
           },
           {
-            "eventId": "2026-06-03-fireside-lounge-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-fireside-lounge-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=3998"
-          },
-          {
-            "eventId": "2026-06-05-fireside-lounge-bananas-diesel-dudes",
-            "date": "2026-06-05",
-            "title": "Bananas / Diesel Dudes / The Bananas",
-            "details": "Bananas, Diesel Dudes / 21+ $10 7pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
           }
         ]
       }
@@ -16222,15 +16348,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-first-church-of-the-buzzard-leila-abdul-rauf-bat-noise-godgifu",
-            "date": "2026-05-30",
-            "title": "Leila Abdul-Rauf / Bat Noise / Godgifu",
-            "details": "Leila Abdul-Rauf, Bat Noise, Godgifu",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
           {
             "eventId": "2026-06-20-first-church-of-the-buzzard-deathgrave",
             "date": "2026-06-20",
@@ -16281,7 +16400,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-06T20:52:47.994Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
             "eventId": "2026-06-13-first-congregational-calicos",
@@ -16333,11 +16452,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-fishbowl-bar-and-grill-trivia-7-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-fishbowl-bar-and-grill-trivia-7-30pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=11001"
@@ -16385,11 +16504,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-flanahan-s-pub-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-flanahan-s-pub-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53211"
@@ -16437,11 +16556,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.724Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-floodcraft-brewing-co-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-floodcraft-brewing-co-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45018"
@@ -16489,18 +16608,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.721Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-florence-bar-openmic-7-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=16737"
-          },
-          {
-            "eventId": "2026-06-02-florence-bar-poetry-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-florence-bar-poetry-7-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16737"
@@ -16548,11 +16660,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-fly-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-fly-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=38578"
@@ -16600,11 +16712,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.996Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-flying-pig-bistro-pub-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-flying-pig-bistro-pub-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=14364"
@@ -16652,11 +16764,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-focus-karaoke-and-cafe-karaoke-6-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-focus-karaoke-and-cafe-karaoke-6-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46413"
@@ -16704,11 +16816,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-forbidden-island-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-forbidden-island-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54139"
@@ -16756,7 +16868,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.013Z",
+        "lastImportedAt": "2026-06-09T00:28:16.029Z",
         "appearances": [
           {
             "eventId": "2026-07-24-forest-meadows-the-terrapin-family-band",
@@ -16838,7 +16950,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "fox-theater",
       "name": "Fox Theater",
       "displayName": "Fox Theater",
-      "aliases": [],
+      "aliases": [
+        "The Den At The Fox"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -16947,6 +17061,13 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=29728",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [
@@ -17005,22 +17126,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-fox-theater-the-last-dinner-party-automatic",
-            "date": "2026-05-27",
-            "title": "The Last Dinner Party / Automatic",
-            "details": "The Last Dinner Party, Automatic",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-fox-theater-juvenile",
-            "date": "2026-06-05",
-            "title": "Juvenile, The 400 Degreez Band",
-            "details": "a/a 7pm/8pm # / Juvenile with The 400 Degreez Band & Special Guests",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-19-fox-theater-daboydame-and-friends",
             "date": "2026-06-19",
@@ -17155,10 +17262,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-09-fox-theater-mastodon",
+            "date": "2026-10-09",
+            "title": "Mastodon / Deafheaven / Alcest",
+            "details": "a/a $59.60 7pm # @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-19-fox-theater-geese",
             "date": "2026-10-19",
             "title": "Geese",
             "details": "a/a 8pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-23-fox-theater-gary-clark-jr",
+            "date": "2026-10-23",
+            "title": "Gary Clark Jr.",
+            "details": "a/a $66 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -17186,7 +17307,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2027-04-03-fox-theater-nothing-but-thieves",
             "date": "2027-04-03",
             "title": "Nothing But Thieves",
-            "details": "a/a 8pm #",
+            "details": "a/a $59+ 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -17240,7 +17361,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-06-06T20:52:48.033Z",
+        "lastImportedAt": "2026-06-09T00:28:16.054Z",
         "appearances": [
           {
             "eventId": "2026-07-10-freight-pure-prairie-league",
@@ -17365,22 +17486,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-06-06T20:52:48.033Z",
+        "lastImportedAt": "2026-06-09T00:28:16.054Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-frost-amphitheater-paul-simon",
-            "date": "2026-06-03",
-            "title": "Paul Simon",
-            "details": "a/a 5:30pm/7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-frost-amphitheater-paul-simon",
-            "date": "2026-06-04",
-            "title": "Paul Simon",
-            "details": "a/a 5:30pm/7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-08-15-frost-amphitheater-goose",
             "date": "2026-08-15",
@@ -17459,7 +17566,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.899Z",
-        "lastImportedAt": "2026-06-06T20:52:48.020Z",
+        "lastImportedAt": "2026-06-09T00:28:16.036Z",
         "appearances": [
           {
             "eventId": "2026-08-21-fruit-yard-amphitheater-ty-myers",
@@ -17563,14 +17670,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-game-kastle-fremont-game-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-game-kastle-fremont-game-6-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32923"
+          }
+        ]
+      }
+    },
+    "game-kastle-santa-clara": {
+      "id": "game-kastle-santa-clara",
+      "name": "Game Kastle (Santa Clara)",
+      "displayName": "Game Kastle Santa Clara",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Santa Clara",
+      "region": "",
+      "address": "1350 Coleman Ave Santa Clara CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=46494",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Game%20Kastle%20(Santa%20Clara)%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.887Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-game-kastle-santa-clara-game-6-00pm",
+            "date": "2026-06-08",
+            "title": "Game Night",
+            "details": "Game night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=46494"
           }
         ]
       }
@@ -17615,11 +17774,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-gamescape-game-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-gamescape-game-7-00pm",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46477"
@@ -17667,11 +17826,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-gamescape-north-game-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-gamescape-north-game-6-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53280"
@@ -17799,18 +17958,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-geoffrey-s-inner-circle-openmic-8-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=18672"
-          },
-          {
-            "eventId": "2026-06-04-geoffrey-s-inner-circle-poetry-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-geoffrey-s-inner-circle-poetry-8-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18672"
@@ -17858,11 +18010,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-ghost-town-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-ghost-town-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=21015"
@@ -17910,7 +18062,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.899Z",
-        "lastImportedAt": "2026-06-06T20:52:48.020Z",
+        "lastImportedAt": "2026-06-09T00:28:16.036Z",
         "appearances": [
           {
             "eventId": "2026-08-21-giant-s-ball-park-noah-kaham",
@@ -17962,7 +18114,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.878Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
         "appearances": [
           {
             "eventId": "2026-06-20-giants-ballpark-fuerza-regida",
@@ -18120,48 +18272,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.026Z",
+        "lastImportedAt": "2026-06-09T00:28:16.047Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-gilman-dog-party",
-            "date": "2026-06-03",
-            "title": "Dog Party / Pet Mosquito / Crescent Indigo",
-            "details": "a/a $15 7pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-gilman-fight-fair",
-            "date": "2026-06-05",
-            "title": "Aplacewevealwaysbeen / Fight Fair / Duck Duck Goose / My Precious Solitude / Wounded Deer",
-            "details": "a/a $18/$20 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-gilman-membership-meeting",
-            "date": "2026-06-06",
-            "title": "Membership Meeting",
-            "details": "a/a 4pm. Meetings happen twice a month, every first and third Saturday of the month, before that night's concert or event. They are open to everyone. Anyone with a membership card is considered part of the Gilman street collective and can get involved in the operation of the club. These membership cards are sold at every concert are an required to get into the night's event. A membership card is valid for one year.",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-gilman-en-vitro",
-            "date": "2026-06-06",
-            "title": "En-Vitro / Luna Ivy / Funds For Jimmy / Just Let Me Go / Winnoa / Seeyouatwork!",
-            "details": "a/a $13/$15 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-gilman-the-hayds",
-            "date": "2026-06-07",
-            "title": "The Hayds / Osie / Hazy Portraits / The Treedome / Dog House",
-            "details": "a/a $13/$15 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-08-gilman-destiny-bond",
             "date": "2026-06-08",
-            "title": "Destiny Bond / Gumm / Urban Sprawl / Bad Word / Eliminators",
-            "details": "a/a $15 7pm @",
+            "title": "Bad Word / Destiny Bond / Gumm / Urban Sprawl / Eliminators",
+            "details": "a/a $15 7pm @ / Destiny Bond, Gumm, Bad World, Eliminators",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -18181,7 +18298,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-06-14-gilman-sound-training-workshop",
             "date": "2026-06-14",
-            "title": "Sound Training Workshop",
+            "title": "",
             "details": "a/a free noon til 4pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -18193,17 +18310,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-06-20-gilman-membership-meeting",
-            "date": "2026-06-20",
-            "title": "Membership Meeting",
-            "details": "a/a 4pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-06-20-gilman-ashes-at-last",
             "date": "2026-06-20",
             "title": "Ashes At Last / Live Longer Burn Everything / Houses We Die In / Concision / Sovereign Suicide",
             "details": "a/a $12/$15 6pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-20-gilman-membership-meeting",
+            "date": "2026-06-20",
+            "title": "Membership Meeting",
+            "details": "a/a 4pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -18333,7 +18450,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-06T20:52:48.032Z",
+        "lastImportedAt": "2026-06-09T00:28:16.053Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -18385,11 +18502,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-ginger-s-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-ginger-s-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30080"
@@ -18437,18 +18554,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-glen-park-branch-library-book-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-glen-park-branch-library-book-8-00pm",
+            "date": "2026-06-09",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57232"
           },
           {
-            "eventId": "2026-06-03-glen-park-branch-library-game-12-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-glen-park-branch-library-game-12-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 12:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46484"
@@ -18541,18 +18658,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-golden-gate-valley-branch-library-book-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-golden-gate-valley-branch-library-book-8-00pm",
+            "date": "2026-06-08",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57230"
           },
           {
-            "eventId": "2026-06-04-golden-gate-valley-branch-library-game-12-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-golden-gate-valley-branch-library-game-12-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 12:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46485"
@@ -18564,7 +18681,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "good-karma-fine-ales-food-and-hifi",
       "name": "Good Karma Fine Ales Food & HiFi",
       "displayName": "Good Karma Fine Ales Food & HiFi",
-      "aliases": [],
+      "aliases": [
+        "Good Karma Fine Ales Food HiFi"
+      ],
       "confidence": "review",
       "mergedInto": "",
       "status": "unknown",
@@ -18600,11 +18719,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-good-karma-fine-ales-food-and-hifi-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-good-karma-fine-ales-food-and-hifi-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=19331"
@@ -18617,9 +18736,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Good Karma Fine Ales Food HiFi",
       "displayName": "Good Karma Fine Ales Food HiFi",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "good-karma-fine-ales-food-and-hifi",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "San Jose",
       "region": "",
@@ -18632,7 +18751,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Good Karma Fine Ales Food & HiFi.",
       "links": [
         {
           "type": "badSlava",
@@ -18652,11 +18771,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-good-karma-fine-ales-food-hifi-poetry-6-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-good-karma-fine-ales-food-hifi-poetry-6-00pm",
+            "date": "2026-06-12",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19325"
@@ -18704,11 +18823,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-goosetown-lounge-karaoke-9-30pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-goosetown-lounge-karaoke-9-30pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 9:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=46527"
@@ -18808,11 +18927,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-grace-presbyterian-church-chess-8-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-grace-presbyterian-church-chess-8-00pm",
+            "date": "2026-06-12",
             "title": "Chess",
             "details": "Chess event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53003"
@@ -18860,11 +18979,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-grateful-gardens-poetry-8-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-grateful-gardens-poetry-8-00pm",
+            "date": "2026-06-13",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19337"
@@ -19011,35 +19130,14 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.051Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-gray-area-after-thought",
-            "date": "2026-05-29",
-            "title": "After Thought",
-            "details": "After Thought",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-gray-area-build-treat-heal",
-            "date": "2026-05-30",
-            "title": "Build / Treat / Heal",
-            "details": "Build, Treat, Heal",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-gray-area-immersive-story-club",
-            "date": "2026-05-31",
-            "title": "Immersive Story Club",
-            "details": "Immersive Story Club",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-gray-area-waves-of-change-a-night-of-vocals-electronics",
-            "date": "2026-06-05",
-            "title": "Waves of Change: A Night of Vocals + Electronics",
-            "details": "Waves of Change: A Night of Vocals + Electronics",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-gray-area-paradessence-by-visible-cloak",
+            "date": "2026-06-12",
+            "title": "Visible Cloaks",
+            "details": "Paradessence by Visible Cloaks",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-10-08-gray-area-eraserhead-xiu-xiu",
@@ -19232,55 +19330,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-05-27-great-american-music-hall-sleepytime-gorilla-museum-inner-ear-brigade-lunar-mistake",
-            "date": "2026-05-27",
-            "title": "Sleepytime Gorilla Museum / Inner Ear Brigade / Lunar Mistake",
-            "details": "Sleepytime Gorilla Museum, Inner Ear Brigade, Lunar Mistake",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-great-american-music-hall-thaiboy-digital-whitearmor",
-            "date": "2026-05-28",
-            "title": "Thaiboy Digital / Whitearmor",
-            "details": "Thaiboy Digital, Whitearmor",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-great-american-music-hall-forbidden-cynic-doomsday-cultural-warfare",
-            "date": "2026-05-29",
-            "title": "Forbidden / Cynic / Doomsday / Cultural Warfare",
-            "details": "Forbidden, Cynic, Doomsday, Cultural Warfare",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-06-great-american-music-hall-larussell",
-            "date": "2026-06-06",
-            "title": "LaRussell",
-            "details": "a/a $35/$45/$50 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-09-great-american-music-hall-tigers-jaw",
             "date": "2026-06-09",
             "title": "Tigers Jaw / Bleary Eyed / Pool Kids",
-            "details": "a/a $27/$30 7pm/8pm (sold out)",
+            "details": "a/a $27/$30 7pm/8pm (sold out) / Tigers Jaw, Pool Kids, Bleary Eyed",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-great-american-music-hall-monolord",
             "date": "2026-06-13",
             "title": "Monolord / Mizmor / Snakemother",
-            "details": "a/a $27.50/$30 8pm/9pm $",
+            "details": "a/a $27.50/$30 8pm/9pm $ / Monolord, Mizmor, Snakemother",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-great-american-music-hall-pete-and-bas",
             "date": "2026-06-14",
             "title": "Pete & BAs / Delivery Boys",
-            "details": "a/a $34/$38 ($109 vip) 7pm/8pm",
+            "details": "a/a $34/$38 ($109 vip) 7pm/8pm / Pete & Bas, Delivery Boys",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -19515,6 +19585,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-12-06-great-american-music-hall-zorn",
+            "date": "2026-12-06",
+            "title": "Zorn / Medeski / Lombardo",
+            "details": "a/a $40/$55 ($20 students - $99 balcony) 3pm/4pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-12-13-great-american-music-hall-matt-hansen",
             "date": "2026-12-13",
             "title": "Matt Hansen",
@@ -19578,14 +19655,59 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-06T20:52:47.994Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
             "eventId": "2026-06-13-great-northern-takuya-nakamura",
             "date": "2026-06-13",
             "title": "Takuya Nakamura",
-            "details": "21+ $29.14 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Takuya Nakamura",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          }
+        ]
+      }
+    },
+    "greek-theater": {
+      "id": "greek-theater",
+      "name": "Greek Theater",
+      "displayName": "Greek Theater",
+      "aliases": [],
+      "confidence": "rejected",
+      "mergedInto": "greek-theatre",
+      "status": "inactive",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "Merged into Hearst Greek Theatre.",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Greek%20Theater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.899Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-13-greek-theater-bob-dylan-lucinda-williams-and-her-band-the-john-doe-folk-trio",
+            "date": "2026-06-13",
+            "title": "Bob Dylan / Lucinda Williams and Her Band / The John Doe Folk Trio",
+            "details": "Bob Dylan, Lucinda Williams and Her Band, The John Doe Folk Trio / a/a 6pm/7pm # (sold out)",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -19594,7 +19716,9 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "greek-theatre",
       "name": "Greek Theatre",
       "displayName": "Hearst Greek Theatre",
-      "aliases": [],
+      "aliases": [
+        "Greek Theater"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -19774,41 +19898,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:48.032Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
-          {
-            "eventId": "2026-05-29-greek-theatre-alabama-shakes-nathaniel-rateliff",
-            "date": "2026-05-29",
-            "title": "Alabama Shakes / Nathaniel Rateliff",
-            "details": "Alabama Shakes, Nathaniel Rateliff",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-greek-theatre-alabama-shakes-nathaniel-rateliff",
-            "date": "2026-05-30",
-            "title": "Alabama Shakes / Nathaniel Rateliff",
-            "details": "Alabama Shakes, Nathaniel Rateliff",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
           {
             "eventId": "2026-06-11-greek-theatre-james-blake",
             "date": "2026-06-11",
             "title": "James Blake / SwaVay",
-            "details": "a/a $77 5:30pm/7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-13-greek-theatre-bob-dylan",
-            "date": "2026-06-13",
-            "title": "Bob Dylan / Lucinda Williams And Her Band / The John Doe Folk Trio",
-            "details": "a/a 6pm/7pm # (sold out)",
+            "details": "a/a $77 5:30pm/7pm # / James Blake, Swavay",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-greek-theatre-bob-dylan",
             "date": "2026-06-14",
             "title": "Bob Dylan / Lucinda Williams And Her Band / The John Doe Folk Trio",
-            "details": "a/a 5:30pm/6:30pm #",
+            "details": "a/a 5:30pm/6:30pm # / Bob Dylan, Lucinda Williams and Her Band, The John Doe Folk Trio",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -19957,6 +20060,13 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Vulfpeck",
             "details": "a/a 6:30pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-07-greek-theatre-hugel",
+            "date": "2026-11-07",
+            "title": "Hugel",
+            "details": "18+ $78.15 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -20001,18 +20111,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-groundfloor-openmic-6-30pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 6:30pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27976"
-          },
-          {
-            "eventId": "2026-06-03-groundfloor-poetry-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-groundfloor-poetry-6-30pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=27976"
@@ -20060,25 +20163,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.718Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-groundstack-coffee-openmic-6-30pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 6:30pm",
-            "sourceUrl": "https://badslava.com/details.php?id=30522"
-          },
-          {
-            "eventId": "2026-06-01-groundstack-coffee-poetry-6-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-groundstack-coffee-poetry-6-30pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=30522"
           },
           {
-            "eventId": "2026-06-03-groundstack-coffee-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-groundstack-coffee-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30799"
@@ -20227,7 +20323,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-06T20:52:48.035Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
           {
             "eventId": "2026-06-13-guild-theater-dogs-in-a-pile",
@@ -20293,11 +20389,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.976Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-guildhouse-game-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-guildhouse-game-7-00pm",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=50069"
@@ -20345,13 +20441,20 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.897Z",
-        "lastImportedAt": "2026-06-06T20:52:48.019Z",
+        "lastImportedAt": "2026-06-09T00:28:16.035Z",
         "appearances": [
           {
             "eventId": "2026-08-12-gundlach-bundschu-winery-beach-bunny-and-the-beths",
             "date": "2026-08-12",
             "title": "Beach Bunny & The Beths / Wishy",
             "details": "a/a 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-12-gundlach-bundschu-winery-beach-bunny",
+            "date": "2026-08-12",
+            "title": "Beach Bunny / The Beths / Wishy",
+            "details": "a/a $92.52 ($16+ parking) 5pm/6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -20404,11 +20507,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-half-moon-bay-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-half-moon-bay-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41337"
@@ -20508,11 +20611,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-hapa-s-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-hapa-s-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45016"
@@ -20560,11 +20663,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-happy-donuts-chess-8-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-happy-donuts-chess-8-00pm",
+            "date": "2026-06-12",
             "title": "Chess",
             "details": "Chess event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=50687"
@@ -20612,11 +20715,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-harmonic-brewing-thrive-city-trivia-6-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-harmonic-brewing-thrive-city-trivia-6-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16437"
@@ -20664,11 +20767,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-harry-s-bar-sf-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-harry-s-bar-sf-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38579"
@@ -20724,6 +20827,58 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54146"
+          }
+        ]
+      }
+    },
+    "hearth-bar": {
+      "id": "hearth-bar",
+      "name": "Hearth Bar",
+      "displayName": "Hearth Bar",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "4701 Geary Blvd San Francisco CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=6063",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hearth%20Bar%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.905Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-13-hearth-bar-poetry-8-00pm",
+            "date": "2026-06-13",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=6063"
           }
         ]
       }
@@ -20942,15 +21097,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-henry-j-kaiser-center-apocalyptica",
-            "date": "2026-06-03",
-            "title": "Apocalyptica",
-            "details": "a/a $56.95-$45.10 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-10-24-henry-j-kaiser-center-celtic-thunder",
             "date": "2026-10-24",
@@ -21008,14 +21156,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-henry-s-bar-and-restaurant-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-henry-s-bar-and-restaurant-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4544"
+          }
+        ]
+      }
+    },
+    "hesher": {
+      "id": "hesher",
+      "name": "Hesher's Pizza",
+      "displayName": "Hesher's Pizza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#hesher",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hesher's%20Pizza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.890Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-09-hesher-s-pizza-urban-sprawl",
+            "date": "2026-06-09",
+            "title": "Urban Sprawl / Deathro / Judy And The Jerks / Big",
+            "details": "a/a 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -21060,11 +21260,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-hi-tops-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-hi-tops-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41342"
@@ -21124,6 +21324,51 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "updatedAt": "2026-05-28T05:15:17.330Z"
     },
+    "hillside-club": {
+      "id": "hillside-club",
+      "name": "Hillside Club",
+      "displayName": "Hillside Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Hillside%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.890Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-09-hillside-club-hoot-community-music-night",
+            "date": "2026-06-09",
+            "title": "",
+            "details": "Hoot! Community Music Night",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          }
+        ]
+      }
+    },
     "him-mark-lai-branch-library": {
       "id": "him-mark-lai-branch-library",
       "name": "Him Mark Lai Branch Library",
@@ -21164,11 +21409,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-him-mark-lai-branch-library-game-1-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-him-mark-lai-branch-library-game-1-00pm",
+            "date": "2026-06-12",
             "title": "Game Night",
             "details": "Game night at 1:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46482"
@@ -21216,11 +21461,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-history-san-jose-poetry-6-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-history-san-jose-poetry-6-30pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=19339"
@@ -21268,11 +21513,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.732Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-homestead-bowl-karaoke-8-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-homestead-bowl-karaoke-8-00pm",
+            "date": "2026-06-13",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46415"
@@ -21320,11 +21565,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-hop-and-vine-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-hop-and-vine-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57498"
@@ -21372,7 +21617,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-06T20:52:48.007Z",
+        "lastImportedAt": "2026-06-09T00:28:16.024Z",
         "appearances": [
           {
             "eventId": "2026-07-10-hopmonk-white-denim",
@@ -21543,15 +21788,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-hopmonk-tavern-san-marin-high-school-rock-bands",
-            "date": "2026-06-02",
-            "title": "San Marin High School Rock Bands",
-            "details": "a/a $26.94 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-hopmonk-tavern-david-nelson-band",
             "date": "2026-06-12",
@@ -21903,7 +22141,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-06T20:52:48.017Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
             "eventId": "2026-08-08-hopmonk-tavern-novato-the-beat-farmers",
@@ -21955,76 +22193,111 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-hotel-utah-open-mic",
-            "date": "2026-05-25",
+            "eventId": "2026-06-08-hotel-utah-open-mic",
+            "date": "2026-06-08",
             "title": "Open Mic",
             "details": "Open Mic",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-26-hotel-utah-open-bluegrass-jam",
-            "date": "2026-05-26",
+            "eventId": "2026-06-09-hotel-utah-open-bluegrass-jam",
+            "date": "2026-06-09",
             "title": "Open Bluegrass Jam",
             "details": "Open Bluegrass Jam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-27-hotel-utah-jerry-joseph-jeff-cotton-s-gin-joint",
-            "date": "2026-05-27",
-            "title": "Jerry Joseph / Jeff Cotton’s Gin Joint",
-            "details": "Jerry Joseph, Jeff Cotton’s Gin Joint",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-hotel-utah-i-wear-capes",
+            "date": "2026-06-11",
+            "title": "I Wear Capes / J. McKinnon & The Newcomers / Gooper / Tasha Malan",
+            "details": "21+ $10/$15 7pm / Tasha Malan, J. McKinnon & The Newcomers, Gooper",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-28-hotel-utah-jerry-joseph-jeff-cotton-s-gin-joint",
-            "date": "2026-05-28",
-            "title": "Jerry Joseph / Jeff Cotton’s Gin Joint",
-            "details": "Jerry Joseph, Jeff Cotton’s Gin Joint",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-hotel-utah-cherie-lebow-and-bond-girl",
+            "date": "2026-06-12",
+            "title": "Cherie Lebow & Bond Girl / The Shimmering Lights / Lowlife Coa",
+            "details": "21+ $12/$15 8pm / Cherie Lebow & Bond Girl, The Shimmering Lights, Lowlife Coa",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-29-hotel-utah-sf-porchfest-house-band-gen-11-maurice-tani-c-breezy-quar",
-            "date": "2026-05-29",
-            "title": "SF Porchfest House Band / Gen 11 / Maurice Tani / C-Breezy Quar",
-            "details": "SF Porchfest House Band, Gen 11, Maurice Tani, C-Breezy Quar",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-16-hotel-utah-girl-cries-wolf",
+            "date": "2026-06-16",
+            "title": "Girl Cries Wolf / Circling Saturn / Masked Jestures",
+            "details": "21+ $10/$15 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-05-30-hotel-utah-the-audacity-freshman-cannibals-niblits",
-            "date": "2026-05-30",
-            "title": "The Audacity / Freshman Cannibals / Niblits",
-            "details": "The Audacity, Freshman Cannibals, Niblits",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-hotel-utah-open-mic",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open Mic",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-hotel-utah-open-bluegrass-jam",
-            "date": "2026-06-02",
-            "title": "",
-            "details": "Open Bluegrass Jam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-hotel-utah-doubleplus-alright-the-shvkes-brnr",
-            "date": "2026-06-04",
-            "title": "Doubleplus Alright / THE SHVKES / BRNR",
-            "details": "Doubleplus Alright , THE SHVKES, BRNR",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-19-hotel-utah-the-hazards",
+            "date": "2026-06-19",
+            "title": "The Hazards / Vivren / Garage Spiders / Right To Remain / Accidents At Sundown",
+            "details": "21+ $12/$15 8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-20-hotel-utah-ajar",
             "date": "2026-06-20",
             "title": "Ajar / LoFi Satellites / The Hyperdrive Kittens / Circle Of Ruin",
             "details": "8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-20-hotel-utah-circle-of-ruin",
+            "date": "2026-06-20",
+            "title": "Circle Of Ruin / Lofi Satellites / Hyperdrive Kittens / Ajar",
+            "details": "21+ $12/$15 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-24-hotel-utah-sinking",
+            "date": "2026-06-24",
+            "title": "Sinking / Yuwa / Novus Moon",
+            "details": "21+ $10/$15 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-03-hotel-utah-our-graves",
+            "date": "2026-07-03",
+            "title": "Our Graves / Fetzer / Flesh Industry / Npmn",
+            "details": "21+ $12/$15 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-10-hotel-utah-persephone",
+            "date": "2026-07-10",
+            "title": "Persephone / Cyber Bullies / Surf Monster / Hangtown",
+            "details": "21+ $12/$15 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-17-hotel-utah-extra-extra",
+            "date": "2026-07-17",
+            "title": "Extra! Extra! / The Jaws Of Brooklyn / Ghost Party",
+            "details": "21+ $12/$15 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-23-hotel-utah-laurin-hunter",
+            "date": "2026-07-23",
+            "title": "Laurin Hunter / Inigo Red / Joe Clifford / Said Sara",
+            "details": "21+ $12/$15 7pm (acoustictopia)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-14-hotel-utah-sounding-arrow",
+            "date": "2026-08-14",
+            "title": "Sounding Arrow / Gary Jules / Breezers",
+            "details": "21+ $17/$20 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-03-hotel-utah-taylor-bickett",
+            "date": "2026-11-03",
+            "title": "Taylor Bickett",
+            "details": "21+ $18/$20 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -22070,11 +22343,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.980Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-humble-sea-brewing-co-alameda-point-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-humble-sea-brewing-co-alameda-point-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57551"
@@ -22260,62 +22533,48 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-independent-bixby",
-            "date": "2026-06-02",
-            "title": "Bixby",
-            "details": "a/a 7:30pm/8pm (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-03-independent-bixby",
-            "date": "2026-06-03",
-            "title": "Bixby",
-            "details": "a/a $31.55 ($138.40 vip) 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-independent-agent-orange",
-            "date": "2026-06-07",
-            "title": "Agent Orange / The Drowns",
-            "details": "21+ $31.55 7:30pm/8pm @ / Agent Orange, The Drowns",
+            "eventId": "2026-06-08-independent-conway-the-machine",
+            "date": "2026-06-08",
+            "title": "Conway The Machine / TF / dj Muggs",
+            "details": "a/a $42.05 7:30pm/8pm / Conway The Machine",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-09-independent-searows",
             "date": "2026-06-09",
             "title": "Searows / Mori",
-            "details": "a/a $33.50 ($110 vip) 7:30pm/8pm (sold out)",
+            "details": "a/a $33.50 ($110 vip) 7:30pm/8pm (sold out) / Searows, Mori",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-10-independent-searows",
             "date": "2026-06-10",
             "title": "Searows / Mori",
-            "details": "a/a $33.50 ($110 vip) 7:30pm/8pm",
+            "details": "a/a $33.50 ($110 vip) 7:30pm/8pm / Searows, Mori",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-11-independent-mr-tout-le-monde",
             "date": "2026-06-11",
-            "title": "Mr Tout Le Monde",
-            "details": "21+ $31.55 7:30pm/8pm",
+            "title": "Mr Tout Le Monde / Dave Cinco",
+            "details": "21+ $31.55 7:30pm/8pm / Mr Tout Le Monde, Dave Cinco",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-independent-elujay",
             "date": "2026-06-13",
             "title": "Elujay / Lovey / Sunday",
-            "details": "a/a $31.55 8:30pm/9pm",
+            "details": "a/a $31.55 8:30pm/9pm / Elujay, Lovey, SundaY",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-independent-em-beihold",
             "date": "2026-06-14",
             "title": "EM Beihold / Janani K. Jha",
-            "details": "a/a $39.80 ($115.55 vip) 7:30pm/8pm",
+            "details": "a/a $39.80 ($115.55 vip) 7:30pm/8pm / Em Beihold, Janani K. Jha",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22459,6 +22718,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-17-independent-mustard-service",
+            "date": "2026-09-17",
+            "title": "Mustard Service / Pity Party / Manwolves / Chicano Mosh",
+            "details": "a/a $34.05 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-20-independent-deca-jones",
             "date": "2026-09-20",
             "title": "Deca Jones",
@@ -22470,6 +22736,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-26",
             "title": "West 22nd",
             "details": "a/a $28.55 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-29-independent-way-dynamic",
+            "date": "2026-09-29",
+            "title": "Way Dynamic / Slippers",
+            "details": "a/a $31.55 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22526,6 +22799,27 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-06",
             "title": "King Buffalo / L.A. Witch",
             "details": "21+ $31.55 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-11-independent-stop-light-observation",
+            "date": "2026-11-11",
+            "title": "Stop Light Observation",
+            "details": "a/a $31.55 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-12-03-independent-meek",
+            "date": "2026-12-03",
+            "title": "Meek",
+            "details": "a/a $32.55 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-12-10-independent-feeble-little-horse",
+            "date": "2026-12-10",
+            "title": "Feeble Little Horse / Mop",
+            "details": "a/a $36.05 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22592,18 +22886,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-ireland-s-32-openmic-9-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 9:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=16741"
-          },
-          {
-            "eventId": "2026-06-02-ireland-s-32-poetry-9-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-ireland-s-32-poetry-9-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16741"
@@ -22651,11 +22938,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-island-taste-caribbean-grill-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-island-taste-caribbean-grill-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45025"
@@ -22789,11 +23076,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-it-s-your-move-games-game-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-it-s-your-move-games-game-6-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32726"
@@ -22938,118 +23225,41 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-ivy-room-e-s-c-gigas-fist-eaten-by-insects-diablura",
-            "date": "2026-05-25",
-            "title": "E.S.C. / Gigas Fist / Eaten By Insects / Diablura",
-            "details": "E.S.C., Gigas Fist, Eaten By Insects, Diablura",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-09-ivy-room-yeah-no-doll-parts-the-echoes-six-songs",
+            "date": "2026-06-09",
+            "title": "Yeah No / Doll Parts / The Echoes / Six Songs",
+            "details": "Yeah No, Doll Parts, The Echoes, Six Songs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-27-ivy-room-spaghetti-sam-reider-jim-campilongo-scott-amendola-matt-muntz",
-            "date": "2026-05-27",
-            "title": "Spaghetti (Sam Reider / Jim Campilongo / Scott Amendola / Matt Muntz)",
-            "details": "Spaghetti (Sam Reider, Jim Campilongo, Scott Amendola, Matt Muntz)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-ivy-room-soothsayer-bloodhum-theya",
-            "date": "2026-05-28",
-            "title": "Soothsayer / Bloodhum / Theya",
-            "details": "Soothsayer, Bloodhum, Theya",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-ivy-room-plunder-monarchy-of-roses-grain-dear-motorist",
-            "date": "2026-05-29",
-            "title": "Plunder / Monarchy Of Roses / Grain / Dear Motorist",
-            "details": "Plunder, Monarchy Of Roses, Grain, Dear Motorist",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-ivy-room-doug-gillard-the-bye-bye-blackbirds-bill-swan",
-            "date": "2026-05-30",
-            "title": "Doug Gillard / The Bye Bye Blackbirds / Bill Swan",
-            "details": "Doug Gillard, The Bye Bye Blackbirds, Bill Swan",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-ivy-room-handmade-moments-magic-in-the-other-madeline-tasquin-aviva-la-fey",
-            "date": "2026-05-31",
-            "title": "Handmade Moments / Magic In The Other / Madeline Tasquin / Aviva La Fey",
-            "details": "Handmade Moments, Magic In The Other, Madeline Tasquin, Aviva La Fey",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-02-ivy-room-bandworks",
-            "date": "2026-06-02",
-            "title": "Bandworks",
-            "details": "Bandworks",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-ivy-room-squid-saves-the-planet-everything-but-the-everything-elegant-trash-richard-turgeon-reflector-pool",
-            "date": "2026-06-03",
-            "title": "Squid Saves The Planet / Everything But The Everything / Elegant Trash / Richard Turgeon / Reflector Pool",
-            "details": "Squid Saves The Planet, Everything But The Everything, Elegant Trash, Richard Turgeon, Reflector Pool",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-ivy-room-squid-saves-the-planet-9-50pm",
-            "date": "2026-06-03",
-            "title": "Squid Saves The Planet (9:50pm) / Everything But The Everything / Elegant Trash / Richard Turgeon / Dead Weight / Reflector Pool / mc Patty",
-            "details": "21+ $15 ($25 vip) 6pm/6:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-ivy-room-normal-weirds-the-sharps-removed-screaming-creatures",
-            "date": "2026-06-04",
-            "title": "Normal Weirds / The Sharps Removed / Screaming Creatures",
-            "details": "Normal Weirds, The Sharps Removed, Screaming Creatures",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-ivy-room-the-sharps-removed-8-45pm",
-            "date": "2026-06-04",
-            "title": "The Sharps Removed (8:45pm) / Normal Weirds",
-            "details": "21+ $12.92 6:30pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-ivy-room-the-helltones-mind-the-chord-lady-starbeast-jackie-clementine",
-            "date": "2026-06-05",
-            "title": "The Helltones / Mind The Chord / Lady Starbeast / Jackie Clementine",
-            "details": "The Helltones, Mind The Chord, Lady Starbeast, Jackie Clementine / 21+ $15 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-ivy-room-harold-ray-and-east-side-dynamite",
-            "date": "2026-06-06",
-            "title": "Harold Ray And East Side Dynamite / This Train Don't Stop / Balzac",
-            "details": "21+ $18 7pm/8pm / Harold Ray & East Side Dynamite, This Train Don't Stop, Balzac",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-ivy-room-the-montvales-creekbed-carter-hogan",
-            "date": "2026-06-07",
-            "title": "The Montvales / Creekbed Carter Hogan",
-            "details": "The Montvales, Creekbed Carter Hogan / 21+ $20 6pm/7pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-10-ivy-room-key-change-the-saboteurs-the-strangers-ear-clap",
+            "date": "2026-06-10",
+            "title": "Key Change / The Saboteurs / The Strangers / Ear Clap",
+            "details": "Key Change, The Saboteurs, The Strangers, Ear Clap",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-11-ivy-room-never-come-down",
             "date": "2026-06-11",
-            "title": "Never Come Down",
-            "details": "21+ $25 7:30pm/8pm",
+            "title": "Never Come Down / The Good Bad",
+            "details": "21+ $25 7:30pm/8pm / Never Come Down, The Good Bad",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-12-ivy-room-ryan-macneill-and-the-big-deal-pabsy-mad-archaic",
+            "date": "2026-06-12",
+            "title": "Ryan MacNeill and The Big Deal / Pabsy / Mad Archaic",
+            "details": "Ryan MacNeill and The Big Deal, Pabsy, Mad Archaic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-ivy-room-the-gold-souls",
             "date": "2026-06-13",
             "title": "The Gold Souls / Floratura",
-            "details": "21+ $15 7:30pm/8pm",
+            "details": "21+ $15 7:30pm/8pm / The Gold Souls, Floratura",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -23058,6 +23268,13 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Jah Yzer / Smoky / OG The dj / Jae Five",
             "details": "21+ $13.18 8pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-14-ivy-room-the-return-of-king-of-kings-reggae",
+            "date": "2026-06-14",
+            "title": "No artist listed",
+            "details": "The Return of King of Kings Reggae",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-16-ivy-room-ethan-buckner",
@@ -23109,6 +23326,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-07-01-ivy-room-bl-cast-for-rocky-horror-9-50pm",
+            "date": "2026-07-01",
+            "title": "BL Cast for Rocky Horror (9:50pm) / The Backstabbers / Crap / Elegant Trash / Cretins / Vertacyn Arc Materializer / mc Patty",
+            "details": "21+ $15 ($25 vip) 6pm/6:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-07-02-ivy-room-the-applicators",
             "date": "2026-07-02",
             "title": "The Applicators / Sympathy Flowers / Damage Party",
@@ -23134,6 +23358,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-12",
             "title": "Maurice Tani / Nashville Honeymoon",
             "details": "21+ $18 2pm/3pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-15-ivy-room-miles-to-nowhere-9-50pm",
+            "date": "2026-07-15",
+            "title": "Miles To Nowhere (9:50pm) / The Contraptions / Jordan Coley And The Left Door / Hollow Minds / Elegant Trash / Minds Without A Face / Teeth On Wheels / mc Patty",
+            "details": "21+ $15 ($25 vip) 6pm/6:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -23298,11 +23529,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-jack-holders-restaurant-and-bar-trivia-6-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-jack-holders-restaurant-and-bar-trivia-6-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=19327"
@@ -23350,11 +23581,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-jack-london-square-game-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-jack-london-square-game-7-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46511"
@@ -23402,11 +23633,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-jack-s-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-jack-s-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45020"
@@ -23454,11 +23685,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-jackalope-trivia-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-jackalope-trivia-8-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=5743"
@@ -23547,11 +23778,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-jaguar-karaoke-oakland-karaoke-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-jaguar-karaoke-oakland-karaoke-7-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46435"
@@ -23599,18 +23830,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-javi-s-keyes-club-openmic-8-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38867"
-          },
-          {
-            "eventId": "2026-06-01-javi-s-keyes-club-poetry-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-javi-s-keyes-club-poetry-8-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38867"
@@ -23708,7 +23932,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-06T20:52:48.009Z",
+        "lastImportedAt": "2026-06-09T00:28:16.025Z",
         "appearances": [
           {
             "eventId": "2026-07-15-juction-beer-garden-hot-buttered-rum",
@@ -23822,49 +24046,35 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-jupiter-cjc-jazz-jam-wednesdays",
-            "date": "2026-05-27",
+            "eventId": "2026-06-10-jupiter-cjc-jazz-jam-wednesdays",
+            "date": "2026-06-10",
             "title": "CJC Jazz Jam Wednesdays",
             "details": "CJC Jazz Jam Wednesdays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-jupiter-the-hogan-brothers",
-            "date": "2026-05-29",
-            "title": "The Hogan Brothers",
-            "details": "The Hogan Brothers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-jupiter-cjc-jazz-jam-wednesdays",
-            "date": "2026-06-03",
-            "title": "CJC Jazz Jam Wednesdays",
-            "details": "CJC Jazz Jam Wednesdays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-jupiter-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-jupiter-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=34612"
           },
           {
-            "eventId": "2026-06-05-jupiter-david-byrd-and-byrds-of-a-feather",
-            "date": "2026-06-05",
-            "title": "David Byrd & Byrds of a Feather",
-            "details": "David Byrd & Byrds of a Feather",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-jupiter-isaac-schwartz-trio",
+            "date": "2026-06-12",
+            "title": "Isaac Schwartz Trio",
+            "details": "Isaac Schwartz Trio",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-jupiter-nathan-x-moody-trio",
-            "date": "2026-06-06",
-            "title": "Nathan X. Moody Trio",
-            "details": "Nathan X. Moody Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-jupiter-el-duo",
+            "date": "2026-06-13",
+            "title": "El Duo",
+            "details": "El Duo",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -23966,15 +24176,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-06T20:52:48.019Z",
+        "lastImportedAt": "2026-06-09T00:28:16.035Z",
         "appearances": [
-          {
-            "eventId": "2026-06-07-jury-room-witch-ripper",
-            "date": "2026-06-07",
-            "title": "Witch Ripper / Disastroid / Cavetrain",
-            "details": "21+ $10 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-jury-room-dissociation",
             "date": "2026-06-12",
@@ -24067,11 +24270,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-k-time-karaoke-karaoke-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-k-time-karaoke-karaoke-7-00pm",
+            "date": "2026-06-10",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46418"
@@ -24119,11 +24322,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-karl-s-beacon-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-karl-s-beacon-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=56521"
@@ -24171,14 +24374,59 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-katie-bloom-s-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-katie-bloom-s-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57500"
+          }
+        ]
+      }
+    },
+    "kerouac-alley": {
+      "id": "kerouac-alley",
+      "name": "Kerouac Alley",
+      "displayName": "Kerouac Alley",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Kerouac%20Alley%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.894Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-10-kerouac-alley-the-okmoniks-pork-belly",
+            "date": "2026-06-10",
+            "title": "The Okmoniks / Pork Belly",
+            "details": "The Okmoniks, Pork Belly",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -24307,118 +24555,41 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.036Z",
+        "lastImportedAt": "2026-06-09T00:28:16.058Z",
         "appearances": [
-          {
-            "eventId": "2026-05-28-kilowatt-mint-field-figure-eight",
-            "date": "2026-05-28",
-            "title": "Mint Field / Figure Eight",
-            "details": "Mint Field, Figure Eight",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-kilowatt-ashton-york-caleb-nichols-lizzie-waters",
-            "date": "2026-05-29",
-            "title": "Ashton York / Caleb Nichols / Lizzie Waters",
-            "details": "Ashton York, Caleb Nichols, Lizzie Waters",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-kilowatt-starbelliedbug-misandrist-big-dog-mastiff",
-            "date": "2026-05-30",
-            "title": "Starbelliedbug / Misandrist / Big Dog Mastiff",
-            "details": "Starbelliedbug, Misandrist, Big Dog Mastiff",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-kilowatt-forest-ray-silver-swoon-miles-gordon-and-the-ghost-train",
-            "date": "2026-05-31",
-            "title": "Forest Ray / Silver Swoon / Miles Gordon & The Ghost Train",
-            "details": "Forest Ray, Silver Swoon, Miles Gordon & The Ghost Train",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-kilowatt-cutting-up-the-elephant-deceit-trace-back",
-            "date": "2026-06-04",
-            "title": "Cutting Up The Elephant / Deceit / Trace Back",
-            "details": "Cutting Up The Elephant, Deceit, Trace Back",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-kilowatt-cutting-up-the-elephant",
-            "date": "2026-06-04",
-            "title": "Cutting Up The Elephant / Deceit / Trace Back",
-            "details": "21+ $13.39 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-kilowatt-litty-debungus-phat-mark",
-            "date": "2026-06-05",
-            "title": "Litty Debungus / Phat Mark",
-            "details": "Litty Debungus, Phat Mark / 21+ $13.39 7pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-kilowatt-7pm-bitchkiss-spunk-fatale-false-flag",
-            "date": "2026-06-06",
-            "title": "Bitchkiss / Spunk / Fatale / False Flag",
-            "details": "7pm Bitchkiss, Spunk, Fatale, False Flag / 21+ $19.06 7pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-kilowatt-cuva-bimo",
-            "date": "2026-06-06",
-            "title": "Cuva Bimo / A Murder For Crows / Little Oil",
-            "details": "21+ free 1pm / 1pm Cuva Bimö, A Murder For Crows, Little Oil",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-kilowatt-bonecrown",
-            "date": "2026-06-07",
-            "title": "Eaten By Insects / Bonecrown / PosthumanX / Viscelator / Diablura",
-            "details": "21+ free 1pm / 1pm Bonecrown, PosthumanX, Viscelator, Eaten By Insects, Diablura",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-kilowatt-sorry-it-s-over",
-            "date": "2026-06-07",
-            "title": "Sorry It's Over / Psy Sound / St. Strawberry / Profit Drama / 7pm Sorry It’s Over",
-            "details": "21+ $15.66 7pm / 7pm Sorry It’s Over, PSY SOUND, ST. STRAWBERRY, Profit Drama",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-09-kilowatt-family-obligation",
             "date": "2026-06-09",
             "title": "Family Obligation / Gretta Seabird / Neon Ships",
-            "details": "21+ free 6pm",
+            "details": "21+ free 6pm / Family Obligation, Gretta Seabird, Neon Ships",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-10-kilowatt-vetch",
             "date": "2026-06-10",
             "title": "Vetch / Garnet / Hoarse",
-            "details": "21+ free 7pm",
+            "details": "21+ free 7pm / Vetch, Garnet, Hoarse",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-11-kilowatt-quintron",
             "date": "2026-06-11",
             "title": "Quintron / Miss Pussycat / Diesel Dudes / Replica Watch",
-            "details": "21+ $24.72 8pm",
+            "details": "21+ $24.72 8pm / Quintron + Miss Pussycat, Diesel Dudes, Replica Watch",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-kilowatt-yea-ming-and-the-rumors-album-release",
             "date": "2026-06-12",
-            "title": "Yea-Ming And The Rumors (album release) / Silverware / Rhymies",
-            "details": "21+ free 6:30pm",
+            "title": "Yea-Ming And The Rumors / Silverware / Rhymies",
+            "details": "21+ free 6:30pm / Yea-Ming and the Rumours, Silverware, Rhymies",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-kilowatt-stratejacket",
             "date": "2026-06-14",
             "title": "Stratejacket / 2morrows June / Sunburnt / Casino Youth",
-            "details": "21+ $13.39 7pm",
+            "details": "21+ $13.39 7pm / Stratejacket, 2Morrows June, Sunburnt, Casino Youth",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -24485,17 +24656,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-07-05-kilowatt-val-holly-and-the-wanderers",
-            "date": "2026-07-05",
-            "title": "Val Holly And The Wanderers / My Three Sons / Fast Friends",
-            "details": "21+ free 1pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-07-05-kilowatt-poems",
             "date": "2026-07-05",
             "title": "Poems / Isabella Rosetta / Claire Eileen",
             "details": "21+ free 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-05-kilowatt-val-holly-and-the-wanderers",
+            "date": "2026-07-05",
+            "title": "Val Holly And The Wanderers / My Three Sons / Fast Friends",
+            "details": "21+ free 1pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -24520,17 +24691,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-07-12-kilowatt-schlong",
-            "date": "2026-07-12",
-            "title": "Schlong / Damage Party",
-            "details": "21+ $13.39/$15 1pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-07-12-kilowatt-moderator-x-the-architect",
             "date": "2026-07-12",
             "title": "Moderator x The Architect",
             "details": "21+ $19.06 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-12-kilowatt-schlong",
+            "date": "2026-07-12",
+            "title": "Schlong / Damage Party",
+            "details": "21+ $13.39/$15 1pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -24702,11 +24873,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-kilowatt-bar-karaoke-9-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-kilowatt-bar-karaoke-9-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46422"
@@ -24754,18 +24925,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-kinfolx-openmic-6-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 6:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=18671"
-          },
-          {
-            "eventId": "2026-06-01-kinfolx-poetry-6-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-kinfolx-poetry-6-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18671"
@@ -24891,168 +25055,56 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.012Z",
+        "lastImportedAt": "2026-06-09T00:28:16.028Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-knockout-more-ephemeral-pink-stiletto-mutant",
-            "date": "2026-05-26",
-            "title": "More Ephemeral / Pink Stiletto / Mutant",
-            "details": "More Ephemeral, Pink Stiletto, Mutant",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-knockout-kepi-ghoulie-see-night-31zero8",
-            "date": "2026-05-27",
-            "title": "Kepi Ghoulie / See Night / 31ZERO8",
-            "details": "Kepi Ghoulie, See Night, 31ZERO8",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-knockout-dusty-slims-kilroy-rogers-sad-eyes-kill",
-            "date": "2026-05-28",
-            "title": "Dusty Slims / Kilroy Rogers / Sad Eyes Kill",
-            "details": "Dusty Slims, Kilroy Rogers, Sad Eyes Kill",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-knockout-le-mal-55-castles-yama-uba",
-            "date": "2026-05-29",
-            "title": "Le Mal / 55 Castles / Yama Uba",
-            "details": "Le Mal, 55 Castles, Yama Uba",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-knockout-jno-cage-wilson-czarina-mc-christian-b",
-            "date": "2026-05-30",
-            "title": "JNO / Cage Wilson / Czarina / MC Christian B",
-            "details": "JNO, Cage Wilson, Czarina, MC Christian B",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-knockout-terraplana-luna-ivy",
-            "date": "2026-05-31",
-            "title": "Terraplana / Luna Ivy",
-            "details": "Terraplana, Luna Ivy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-knockout-krazy-for-karaoke",
-            "date": "2026-06-01",
-            "title": "Krazy for Karaoke",
-            "details": "Krazy for Karaoke",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-knockout-brendon-b-career-woman",
-            "date": "2026-06-02",
-            "title": "Brendon B / Career Woman",
-            "details": "Brendon B, Career Woman",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-knockout-brendon-b",
-            "date": "2026-06-02",
-            "title": "Brendon B / Career Woman",
-            "details": "21+ $10 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-03-knockout-cigarettes-for-breakfast-welcome-strawberry-luna-ivy-softie",
-            "date": "2026-06-03",
-            "title": "Cigarettes For Breakfast / Welcome Strawberry / Luna Ivy / Softie",
-            "details": "Cigarettes For Breakfast, Welcome Strawberry, Luna Ivy, Softie",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-knockout-cigarettes-for-breakfast",
-            "date": "2026-06-03",
-            "title": "Cigarettes For Breakfast / Welcome Straberry / Luna Ivy / Softie / dj Yule Be Sorry",
-            "details": "21+ $15 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-knockout-hell-bound-pound-sick-behavior-pest",
-            "date": "2026-06-04",
-            "title": "Hell Bound Pound / Sick Behavior / Pest",
-            "details": "Hell Bound Pound, Sick Behavior, Pest",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-knockout-hell-bound-pound",
-            "date": "2026-06-04",
-            "title": "Hell Bound Pound / Sick Behavior / The Upchucks",
-            "details": "21+ $10 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-knockout-jimmy-waters",
-            "date": "2026-06-05",
-            "title": "Jimmy Waters / IJame$ / Lil Toni / YBDunzit / DaNamesLB / Current / dj Dev",
-            "details": "21+ $15 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-knockout-record-swap",
-            "date": "2026-06-06",
-            "title": "record swap",
-            "details": "21+ free 5pm (in honor of Rob Gongora) https://www.instagram.com/calihigh1999",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-knockout-trivia-6-00pm",
-            "date": "2026-06-07",
-            "title": "Trivia Night",
-            "details": "Trivia night at 6:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38630"
-          },
-          {
-            "eventId": "2026-06-07-knockout-pretty-boys",
-            "date": "2026-06-07",
-            "title": "Pretty Boys / Electric Ex / Often Easy",
-            "details": "21+ $10 5pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-08-knockout-ladybird",
             "date": "2026-06-08",
             "title": "Ladybird / Country Risque / Outer District",
-            "details": "21+ $10 5pm/6pm",
+            "details": "21+ $10 5pm/6pm / Ladybird, Country Risque, Outer District",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-09-knockout-samantha-mckaige",
             "date": "2026-06-09",
             "title": "Samantha McKaige / Steve Ryu",
-            "details": "21+ $10 7pm/8pm",
+            "details": "21+ $10 7pm/8pm / Samantha McKaige, Steve Ryu",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-10-knockout-lauren-lakis",
             "date": "2026-06-10",
             "title": "Lauren Lakis / Present / Ringlet",
-            "details": "21+ $10 7pm/8pm",
+            "details": "21+ $10 7pm/8pm / Lauren Lakis, Present, Ringlet",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-knockout-rockin-lloyd-tripp",
             "date": "2026-06-12",
             "title": "Rockin' Lloyd Tripp / Arsen Roulette / Johnny Baker / dj Okie Oran",
-            "details": "21+ $12 5pm/6pm",
+            "details": "21+ $12 5pm/6pm / Rockin’ Lloyd Tripp, Arsen Roulette, Johnny Baker",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-knockout-edgar",
             "date": "2026-06-13",
             "title": "Edgar / Pregnant / Onsite Laundry",
-            "details": "21+ $10 5pm/6pm",
+            "details": "21+ $10 5pm/6pm / Edgar, Pregnant, Onsite Laundry",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-knockout-star-bellied-bug",
             "date": "2026-06-14",
-            "title": "Star Bellied Bug / Madi Gaines / Frecks / Pope Suburban",
-            "details": "21+ $10 5pm/6pm",
+            "title": "Starbelliedbug / Madi Gaines / Frecks / Pope Suburban",
+            "details": "21+ $10 5pm/6pm / Star Belliedbug, Madi Gaines, Frecks, Pope Suburban",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-14-knockout-trivia-6-00pm",
+            "date": "2026-06-14",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38630"
           },
           {
             "eventId": "2026-06-16-knockout-maya-songbird",
@@ -25237,7 +25289,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-06T20:52:48.015Z",
+        "lastImportedAt": "2026-06-09T00:28:16.031Z",
         "appearances": [
           {
             "eventId": "2026-06-12-knot-club-ben-morrison",
@@ -25296,11 +25348,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-kona-s-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-kona-s-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54152"
@@ -25348,11 +25400,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.000Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-kozy-kar-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-kozy-kar-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30085"
@@ -25503,11 +25555,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-la-roccas-corner-openmic-10-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-la-roccas-corner-openmic-10-00pm",
+            "date": "2026-06-09",
             "title": "Open Mic",
             "details": "Open mic at 10:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=2642"
@@ -25607,8 +25659,15 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.890Z",
-        "lastImportedAt": "2026-06-06T20:52:48.011Z",
+        "lastImportedAt": "2026-06-09T00:28:16.028Z",
         "appearances": [
+          {
+            "eventId": "2026-07-11-lane-splitters-pizza-sleeepers-a-d",
+            "date": "2026-07-11",
+            "title": "Sleeepers A.D. / Everything But The Everything / The Fricks Tell Me Tell Me",
+            "details": "a/a $5 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-07-22-lane-splitters-pizza-sleeepers-a-d",
             "date": "2026-07-22",
@@ -25659,11 +25718,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-last-rites-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-last-rites-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38649"
@@ -25711,18 +25770,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-laughing-monk-brewing-openmic-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-laughing-monk-brewing-openmic-7-30pm",
+            "date": "2026-06-09",
             "title": "Open Mic",
             "details": "Open mic at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=15748"
           },
           {
-            "eventId": "2026-06-03-laughing-monk-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-laughing-monk-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38662"
@@ -25889,42 +25948,49 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:47.988Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-little-hill-lounge-suns-of-mothers-josh-lippi-dj-poindexter",
-            "date": "2026-05-25",
-            "title": "Suns of Mothers / Josh Lippi / Poindexter",
-            "details": "Suns of Mothers, Josh Lippi, DJ Poindexter",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-08-little-hill-lounge-rewards-program",
+            "date": "2026-06-08",
+            "title": "",
+            "details": "Rewards Program",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-26-little-hill-lounge-mark-clifford-s-standards-hang",
-            "date": "2026-05-26",
-            "title": "Mark Clifford's Standards Hang",
-            "details": "Mark Clifford's Standards Hang",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-09-little-hill-lounge-jazz-on-tuesdays",
+            "date": "2026-06-09",
+            "title": "No artist listed",
+            "details": "Jazz on Tuesdays",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-little-hill-lounge-excentrik",
-            "date": "2026-05-30",
-            "title": "Excentrik",
-            "details": "Excentrik",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-little-hill-lounge-deathx-xhead-dj-power-top-ramen",
+            "date": "2026-06-11",
+            "title": "Deathx_xHead / Power Top Ramen",
+            "details": "Deathx_xHead, DJ Power Top Ramen",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-04-little-hill-lounge-ephemerald",
-            "date": "2026-06-04",
-            "title": "Ephemerald",
-            "details": "Ephemerald",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-little-hill-lounge-brian-mello-and-the-afterglow-jill-olson",
+            "date": "2026-06-12",
+            "title": "Brian Mello and the Afterglow / Jill Olson",
+            "details": "Brian Mello and the Afterglow, Jill Olson",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-little-hill-lounge-will-sprott-andr-s-miguel-cervantes-ed-masuga",
-            "date": "2026-06-06",
-            "title": "Will Sprott / Andrés Miguel Cervantes / Ed Masuga",
-            "details": "Will Sprott, Andrés Miguel Cervantes, Ed Masuga",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-little-hill-lounge-christina-s-trip-mox-natasha-sandworm",
+            "date": "2026-06-13",
+            "title": "Christina's Trip / Mox / Natasha Sandworm",
+            "details": "Christina's Trip, Mox, Natasha Sandworm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-little-hill-lounge-little-hill-sessions-acoustic-night",
+            "date": "2026-06-14",
+            "title": "No artist listed",
+            "details": "Little Hill Sessions Acoustic Night",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -25969,11 +26035,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-loft-bar-and-bistro-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-loft-bar-and-bistro-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19342"
@@ -26021,11 +26087,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.970Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-lone-star-saloon-trivia-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-lone-star-saloon-trivia-7-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38631"
@@ -26073,11 +26139,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-lost-and-found-beer-garden-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-lost-and-found-beer-garden-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18679"
@@ -26125,11 +26191,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-lost-and-found-cocktail-bar-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-lost-and-found-cocktail-bar-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54148"
@@ -26231,7 +26297,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-06T20:52:48.000Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
         "appearances": [
           {
             "eventId": "2026-06-20-lost-church-nightjars",
@@ -26283,11 +26349,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-lost-marbles-brewery-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-lost-marbles-brewery-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=10970"
@@ -26335,7 +26401,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.876Z",
-        "lastImportedAt": "2026-06-06T20:52:47.998Z",
+        "lastImportedAt": "2026-06-09T00:28:16.014Z",
         "appearances": [
           {
             "eventId": "2026-06-18-lot-andre-thierry-accordion",
@@ -26429,11 +26495,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.005Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-lounge-3411-openmic-9-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-lounge-3411-openmic-9-00pm",
+            "date": "2026-06-11",
             "title": "Open Mic",
             "details": "Open mic at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=10519"
@@ -26533,11 +26599,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-lucky-13-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-lucky-13-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=37089"
@@ -26585,15 +26651,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.853Z",
-        "lastImportedAt": "2026-06-06T20:52:48.023Z",
+        "lastImportedAt": "2026-06-09T00:28:16.043Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-luther-burbank-center-ellie-james-and-the-electric-dream",
-            "date": "2026-06-02",
-            "title": "Ellie James And The Electric Dream",
-            "details": "a/a 5:30pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-07-31-luther-burbank-center-the-stray-cats",
             "date": "2026-07-31",
@@ -26651,48 +26710,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.015Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-mabuhay-gardens-major-accident-monster-squad-ultra-sect-cross-checked",
-            "date": "2026-05-26",
-            "title": "Major Accident / Monster Squad / Ultra Sect / Cross Checked.",
-            "details": "Major Accident, Monster Squad, Ultra Sect, Cross Checked.",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-mabuhay-gardens-juniper-jazz-band",
-            "date": "2026-05-27",
-            "title": "Juniper Jazz Band",
-            "details": "Juniper Jazz Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-mabuhay-gardens-syrian-soap",
-            "date": "2026-05-31",
-            "title": "Syrian Soap",
-            "details": "Syrian Soap",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-mabuhay-gardens-cat-s-corner-swing-dance-party",
-            "date": "2026-06-03",
-            "title": "Cat's Corner Swing Dance Party",
-            "details": "Cat's Corner Swing Dance Party",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-mabuhay-gardens-karaoke",
-            "date": "2026-06-07",
-            "title": "Karaoke",
-            "details": "Karaoke",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-10-mabuhay-gardens-the-infirmities-9-50-pm",
             "date": "2026-06-10",
-            "title": "The Infirmities (9:50 pm) / The Young Barons / Minor Sun / Elegant Trash / Pussy Toupee / Torpedo Wharf / mc Patty",
-            "details": "21+ $15 ($25 vip) 6pm/6:30pm @",
+            "title": "The Infirmities / The Young Barons / Minor Sun / Elegant Trash / Pussy Toupee / Torpedo Wharf / mc Patty / Infirmities / The Hellflowers",
+            "details": "21+ $15 ($25 vip) 6pm/6:30pm @ / Infirmities, The Hellflowers, Elegant Trash, The Young Barons, Pussy Toupee, Torpedo Wharf",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -26752,7 +26776,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-06-06T20:52:48.013Z",
+        "lastImportedAt": "2026-06-09T00:28:16.029Z",
         "appearances": [
           {
             "eventId": "2026-07-25-mabuhay-gardens-and-on-broadway-leestock",
@@ -26804,11 +26828,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-mad-dog-in-the-fog-trivia-8-15pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-mad-dog-in-the-fog-trivia-8-15pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:15pm",
             "sourceUrl": "https://badslava.com/details.php?id=4548"
@@ -26856,11 +26880,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-mad-oak-bar-n-yard-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-mad-oak-bar-n-yard-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39418"
@@ -26908,11 +26932,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-magnolia-brewing-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-magnolia-brewing-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38632"
@@ -26960,11 +26984,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-main-library-game-12-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-main-library-game-12-00pm",
+            "date": "2026-06-14",
             "title": "Game Night",
             "details": "Game night at 12:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46478"
@@ -27012,11 +27036,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-makai-island-kitchen-and-groggery-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-makai-island-kitchen-and-groggery-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54098"
@@ -27130,56 +27154,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:48.003Z",
+        "lastImportedAt": "2026-06-09T00:28:16.020Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-make-out-room-sad-bastard-club",
-            "date": "2026-05-26",
-            "title": "Sad Bastard Club",
-            "details": "Sad Bastard Club",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-make-out-room-andr-s-miguel-cervantes-pio-gabriel-katie-mae",
+            "date": "2026-06-10",
+            "title": "Andrés Miguel Cervantes / Pio Gabriel / Katie Mae",
+            "details": "Andrés Miguel Cervantes, Pio Gabriel, Katie Mae",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-make-out-room-andre-miguel-and-the-moment-not-yetis",
-            "date": "2026-05-29",
-            "title": "Andre Miguel & The Moment / Not Yetis",
-            "details": "Andre Miguel & The Moment, Not Yetis",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-make-out-room-above-me-foggy-memories-black-thumb",
+            "date": "2026-06-11",
+            "title": "Above Me / Foggy Memories / Black Thumb",
+            "details": "Above Me, Foggy Memories , Black Thumb",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-31-make-out-room-kelley-stoltz-ryli-the-dates",
-            "date": "2026-05-31",
-            "title": "Kelley Stoltz / Ryli / The Dates",
-            "details": "Kelley Stoltz, Ryli, The Dates",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-make-out-room-cole-berliner-jas-stade-mayya",
-            "date": "2026-06-04",
-            "title": "Cole Berliner / Jas Stade / Mayya",
-            "details": "Cole Berliner, Jas Stade, Mayya",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-make-out-room-about-last-night-storytelling",
-            "date": "2026-06-05",
-            "title": "About Last Night Storytelling",
-            "details": "About Last Night Storytelling",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-make-out-room-hard-same-and-friends-double-dare-ya",
-            "date": "2026-06-06",
-            "title": "Hard Same and Friends / Double Dare Ya",
-            "details": "Hard Same and Friends, Double Dare Ya",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-make-out-room-clutch-the-pearls-drag-show",
-            "date": "2026-06-07",
-            "title": "Clutch the Pearls Drag Show",
-            "details": "Clutch the Pearls Drag Show",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-make-out-room-al-from-hell-fest-imprint-design-nightflghters-fuzz-attack-short-dogs",
+            "date": "2026-06-12",
+            "title": "Nightflighters / Imprint Design / Fuzz Attack / Short Dogs",
+            "details": "Al from Hell Fest: Imprint Design, Nightflighters, Fuzz Attack, Short Dogs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-12-make-out-room-highwind",
@@ -27187,6 +27183,20 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Highwind / Fuzz Attack / Night Fighters / Imprint Design / dj Erik Love / dj Vango / dj Empress",
             "details": "21+ 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-13-make-out-room-starry-skemes-the-marigold-fold-angie-mclaughlin",
+            "date": "2026-06-13",
+            "title": "Starry Skemes / The Marigold Fold / Angie Mclaughlin",
+            "details": "Starry Skemes, The Marigold Fold, Angie Mclaughlin",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-make-out-room-dangerverse-glow-scout-unicrone",
+            "date": "2026-06-14",
+            "title": "Dangerverse / Glow Scout / Unicrone",
+            "details": "Dangerverse, Glow Scout, Unicrone",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-29-make-out-room-mr-butterfield",
@@ -27238,11 +27248,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-mare-island-brewing-co-coal-shed-brewery-trivia-6-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-mare-island-brewing-co-coal-shed-brewery-trivia-6-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=55297"
@@ -27290,18 +27300,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-marina-branch-library-game-10-00am",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-marina-branch-library-game-10-00am",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46486"
           },
           {
-            "eventId": "2026-06-07-marina-branch-library-book-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-marina-branch-library-book-8-00pm",
+            "date": "2026-06-14",
             "title": "Book Event",
             "details": "Book event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57234"
@@ -27401,11 +27411,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.997Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-martuni-s-openmic-9-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-martuni-s-openmic-9-00pm",
+            "date": "2026-06-09",
             "title": "Open Mic",
             "details": "Open mic at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=7512"
@@ -27541,40 +27551,33 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.038Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-06-05-masonic-the-kid-laroi-tommy-richman-whizthemc",
-            "date": "2026-06-05",
-            "title": "The Kid Laroi / Tommy Richman / WizThe MC",
-            "details": "The Kid Laroi, Tommy Richman, WhizTheMC / a/a 7:30pm #",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-10-masonic-belle-and-sebastian",
             "date": "2026-06-10",
             "title": "Belle & Sebastian / Beachwood Sparks",
-            "details": "a/a $75.50 7pm/8pm #",
+            "details": "a/a $75.50 7pm/8pm # / Belle & Sebastian Play Tigermilk + Classic Songs",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-11-masonic-belle-and-sebastian",
             "date": "2026-06-11",
-            "title": "Belle & Sebastian",
-            "details": "a/a $75.50 7pm/8pm #",
+            "title": "Belle & Sebastian / Tyler Ballgame",
+            "details": "a/a $75.50 7pm/8pm # / Belle & Sebastian Play If You're Feeling Sinister + Classic Songs",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-masonic-jim-gaffigan-comedian-two-shows",
             "date": "2026-06-13",
-            "title": "Jim Gaffigan (comedian - two shows)",
-            "details": "a/a $59.75+ 4pm/5pm and 7pm/8pm #",
+            "title": "Jim Gaffigan",
+            "details": "a/a $59.75+ 4pm/5pm and 7pm/8pm # (two shows)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-masonic-jim-gaffigan-comedian-two-shows",
             "date": "2026-06-14",
-            "title": "Jim Gaffigan (comedian - two shows)",
+            "title": "Jim Gaffigan",
             "details": "a/a $59.75+ 3pm/4pm and 6pm/7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -27750,7 +27753,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-10-29-masonic-the-chicks",
             "date": "2026-10-29",
             "title": "The Chicks",
-            "details": "a/a #",
+            "details": "a/a 7pm/8:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -27831,11 +27834,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.986Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-mayes-oyster-house-openmic-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-mayes-oyster-house-openmic-7-00pm",
+            "date": "2026-06-12",
             "title": "Open Mic",
             "details": "Open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=10492"
@@ -27883,11 +27886,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-mcgee-s-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-mcgee-s-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=54140"
@@ -27935,11 +27938,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-merchants-saloon-karaoke-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-merchants-saloon-karaoke-8-00pm",
+            "date": "2026-06-10",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46538"
@@ -27987,7 +27990,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.034Z",
+        "lastImportedAt": "2026-06-09T00:28:16.055Z",
         "appearances": [
           {
             "eventId": "2026-06-14-meritage-resort-brit-floyd",
@@ -28318,11 +28321,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-midnight-sun-karaoke-9-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-midnight-sun-karaoke-9-00pm",
+            "date": "2026-06-10",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14222"
@@ -28370,7 +28373,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -28422,18 +28425,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-mike-s-place-openmic-8-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19330"
-          },
-          {
-            "eventId": "2026-06-04-mike-s-place-poetry-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-mike-s-place-poetry-8-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19330"
@@ -28481,11 +28477,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-mimosas-social-club-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-mimosas-social-club-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30354"
@@ -28533,11 +28529,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-mission-bay-branch-library-game-10-00am",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-mission-bay-branch-library-game-10-00am",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46488"
@@ -28585,11 +28581,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-mission-bowling-club-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-mission-bowling-club-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19092"
@@ -28637,11 +28633,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-mission-branch-library-game-10-00am",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-mission-branch-library-game-10-00am",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46487"
@@ -28689,25 +28685,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-mission-pizza-and-pub-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-mission-pizza-and-pub-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=20995"
           },
           {
-            "eventId": "2026-06-04-mission-pizza-and-pub-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38024"
-          },
-          {
-            "eventId": "2026-06-04-mission-pizza-and-pub-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-mission-pizza-and-pub-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38024"
@@ -28755,11 +28744,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-mizu-sushi-bar-and-grill-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-mizu-sushi-bar-and-grill-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45022"
@@ -28882,20 +28871,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.061Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-moe-s-alley-agent-orange",
-            "date": "2026-06-05",
-            "title": "Agent Orange / The Drowns / Enemy Of My Enemy",
-            "details": "21+ $27.22 7pm/8:30pm @",
+            "eventId": "2026-06-12-moe-s-alley-the-smithereens",
+            "date": "2026-06-12",
+            "title": "The Smithereens",
+            "details": "21+ $47.82 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-06-07-moe-s-ally-the-alex-lucero-band",
-            "date": "2026-06-07",
-            "title": "The Alex Lucero Band",
-            "details": "21+ $24.13 7pm/8pm",
+            "eventId": "2026-06-13-moe-s-alley-la-santa-cecilia",
+            "date": "2026-06-13",
+            "title": "La Santa Cecilia",
+            "details": "21+ $35.46 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -28903,6 +28892,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-13",
             "title": "White Denim / Arc Iris",
             "details": "21+ 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-19-moe-s-alley-raylnd-baxter",
+            "date": "2026-09-19",
+            "title": "Raylnd Baxter",
+            "details": "21+ $36/$40 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -28976,11 +28972,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-molloy-s-tavern-trivia-7-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-molloy-s-tavern-trivia-7-30pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53212"
@@ -29028,14 +29024,59 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-monaghan-s-bar-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-monaghan-s-bar-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4552"
+          }
+        ]
+      }
+    },
+    "monarch": {
+      "id": "monarch",
+      "name": "Monarch",
+      "displayName": "Monarch",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Monarch%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.903Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-12-monarch-distant-matter-z2b-etc",
+            "date": "2026-06-12",
+            "title": "Distant Matter / z2b",
+            "details": "Distant Matter, z2b, etc.",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -29080,11 +29121,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.728Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-mosaic-restaurant-openmic-9-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-mosaic-restaurant-openmic-9-00pm",
+            "date": "2026-06-11",
             "title": "Open Mic",
             "details": "Open mic at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16324"
@@ -29132,7 +29173,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-06T20:52:48.011Z",
+        "lastImportedAt": "2026-06-09T00:28:16.027Z",
         "appearances": [
           {
             "eventId": "2026-07-17-mosswood-park-pavement",
@@ -29198,11 +29239,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-mothership-bar-karaoke-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-mothership-bar-karaoke-7-00pm",
+            "date": "2026-06-10",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38665"
@@ -29343,33 +29384,19 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.034Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-mountain-winery-yacht-rock-revue",
-            "date": "2026-06-02",
-            "title": "Yacht Rock Revue",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-mountain-winery-thievery-corporation",
-            "date": "2026-06-05",
-            "title": "Thievery Corporation",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-mountain-winery-brit-floyd-tribute",
             "date": "2026-06-12",
-            "title": "Brit Floyd (tribute)",
+            "title": "Brit Floyd",
             "details": "a/a 5:30pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-mountain-winery-brit-floyd-tribute",
             "date": "2026-06-13",
-            "title": "Brit Floyd (tribute)",
+            "title": "Brit Floyd",
             "details": "a/a 5:30pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -29377,7 +29404,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-06-14-mountain-winery-dana-carvey-and-david-spade",
             "date": "2026-06-14",
             "title": "Dana Carvey & David Spade",
-            "details": "a/a 6pm/8pm",
+            "details": "a/a 6pm/8pm Dana Carvey & David Spade",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -29878,11 +29905,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-moxy-oakland-downtown-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-moxy-oakland-downtown-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15756"
@@ -29930,8 +29957,15 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-06-06T20:52:48.034Z",
+        "lastImportedAt": "2026-06-09T00:28:16.055Z",
         "appearances": [
+          {
+            "eventId": "2026-06-16-music-hall-brett-dennen",
+            "date": "2026-06-16",
+            "title": "Brett Dennen",
+            "details": "16 with adult)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-07-06-music-hall-dj-stefan-aronsen",
             "date": "2026-07-06",
@@ -29945,6 +29979,51 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Black Flag (Greg Ginn / Max Zanelly / David Rodriquez / Bryce Weston)",
             "details": "16 with adult) $43 ($55 balcuny) 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "musicians-union": {
+      "id": "musicians-union",
+      "name": "Musicians Union",
+      "displayName": "Musicians Union",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Musicians%20Union%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.908Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-14-musicians-union-simm-series",
+            "date": "2026-06-14",
+            "title": "SIMM Series",
+            "details": "SIMM Series",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -29989,11 +30068,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-myth-lounge-karaoke-9-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-myth-lounge-karaoke-9-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46524"
@@ -30041,11 +30120,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-napper-tandy-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-napper-tandy-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4563"
@@ -30093,11 +30172,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.725Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-narrative-fermentations-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-narrative-fermentations-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19326"
@@ -30237,126 +30316,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.023Z",
+        "lastImportedAt": "2026-06-09T00:28:16.042Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-neck-of-the-woods-salsa-crazy-mondays",
-            "date": "2026-05-25",
-            "title": "Salsa Crazy Mondays",
-            "details": "Salsa Crazy Mondays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-neck-of-the-woods-pocket-full-of-crumbs-seko-one-hundred-angel",
-            "date": "2026-05-27",
-            "title": "Pocket Full Of Crumbs / Seko / One Hundred Angel",
-            "details": "Pocket Full Of Crumbs, Seko, One Hundred Angel",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-neck-of-the-woods-proleter-tetsuo",
-            "date": "2026-05-28",
-            "title": "ProleteR / .Tetsuo",
-            "details": "ProleteR, .Tetsuo",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-neck-of-the-woods-queentide-eternal-wave-wormsalt",
-            "date": "2026-05-29",
-            "title": "Queentide / Eternal Wave / Wormsalt",
-            "details": "Queentide, Eternal Wave, Wormsalt",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-neck-of-the-woods-neighborhood-kids-a-1-indigenous-cats",
-            "date": "2026-05-30",
-            "title": "Neighborhood Kids / A-1 / Indigenous Cats",
-            "details": "Neighborhood Kids, A-1, Indigenous Cats",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-neck-of-the-woods-septemberistheonlytimeidontthinkofyou-noragami-losing-streak-likeeatingglass",
-            "date": "2026-05-31",
-            "title": "Septemberistheonlytimeidontthinkofyou / Noragami / Losing Streak / Likeeatingglass",
-            "details": "Septemberistheonlytimeidontthinkofyou, Noragami, Losing Streak, Likeeatingglass",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-neck-of-the-woods-dance-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-neck-of-the-woods-dance-8-00pm",
+            "date": "2026-06-08",
             "title": "Dance",
             "details": "Dance event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53678"
           },
           {
-            "eventId": "2026-06-01-neck-of-the-woods-salsa-crazy-mondays",
-            "date": "2026-06-01",
-            "title": "Salsa Crazy Mondays",
-            "details": "Salsa Crazy Mondays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-neck-of-the-woods-open-mic-wednesdays",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-neck-of-the-woods-open-mic-wednesdays",
+            "date": "2026-06-10",
             "title": "Open Mic Wednesdays",
-            "details": "Open Mic Wednesdays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "details": "Open Mic Wednesdays / Open mic at 7:00pm / Poetry open mic at 7:00pm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-03-neck-of-the-woods-dead-love-triangle",
-            "date": "2026-06-03",
-            "title": "Dead Love Triangle / Bruha / Warphole / Hazy Portraits",
-            "details": "a/a $14.60 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-03-neck-of-the-woods-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=5492"
-          },
-          {
-            "eventId": "2026-06-03-neck-of-the-woods-poetry-7-00pm",
-            "date": "2026-06-03",
-            "title": "Poetry Open Mic",
-            "details": "Poetry open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=5492"
-          },
-          {
-            "eventId": "2026-06-04-neck-of-the-woods-clement-street-comedy",
-            "date": "2026-06-04",
-            "title": "Clement Street Comedy",
-            "details": "Clement Street Comedy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-neck-of-the-woods-spa-valentina-bludgeoned-hard-pressed-kiss-what-s-important",
-            "date": "2026-06-05",
-            "title": "Spa / Valentina Bludgeoned / Hard-Pressed Kiss / What's Important",
-            "details": "Spa, Valentina Bludgeoned, Hard-Pressed Kiss, What's Important / a/a $14.60 7:30pm/8:30pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-neck-of-the-woods-the-pine-lowercase-deaf-club-febuary-circa-40-the-test-dream-alyvia-othiel-superworld-sex-ed-cash-only-tonys-lorrrel-fingerswoventogether-and-more",
-            "date": "2026-06-06",
-            "title": "Fingerswoventogether and more / The Pine / Lowercase / Deaf Club / Febuary / Circa 40 / The Test Dream / Alyvia / Othiel / Superworld / Sex-Ed / Cash Only Tonys / Lorrrel",
-            "details": "The Pine, Lowercase, Deaf Club, Febuary, Circa 40, The Test Dream, Alyvia, Othiel, Superworld, Sex-Ed, Cash Only Tonys, Lorrrel, Fingerswoventogether and more",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-neck-of-the-woods-california-kicks-see-jun-7th-for-list-of-bands",
-            "date": "2026-06-06",
-            "title": "California Kicks - see jun 7th for list of bands",
-            "details": "a/a $40 ($65 2 day pass) 4pm/5pm see jun 7th for list of bands",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-07-neck-of-the-woods-the-pine",
-            "date": "2026-06-07",
-            "title": "The Pine / Lowercase / Deaf Club / Febuary / Circa 40 / The Test Dream / Alyvia / Othiel / Superworld / Sex-Ed / Cash Only Tonys / Lorrrel / Fingerswoventogether / Foxglove / Drought / My Better Half / Shadowpass / Gravess / Concealer",
-            "details": "a/a $40 ($65 2 day pass) 4pm/5pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-11-neck-of-the-woods-clement-st-comedy",
+            "date": "2026-06-11",
+            "title": "Clement St Comedy",
+            "details": "Clement St Comedy",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-12-neck-of-the-woods-dogwater",
@@ -30366,10 +30347,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-06-13-neck-of-the-woods-dyego",
+            "eventId": "2026-06-13-neck-of-the-woods-dyego-blunites-the-treedome-american-woman",
             "date": "2026-06-13",
-            "title": "Dyego / Blunites / Americican Woman",
-            "details": "a/a $14.60 7:30pm/8pm",
+            "title": "American Woman / Dyego / BluNites / The Treedome",
+            "details": "Dyego, BluNites, The Treedome, American Woman / a/a $14.60 7:30pm/8pm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-neck-of-the-woods-cherry-pick",
+            "date": "2026-06-14",
+            "title": "Cherry Pick / Softie / Luna Ivy / Meadow",
+            "details": "a/a $14.60 7pm/8pm / Cherry Pick, Softie, Luna Ivy, Meadow",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -30377,13 +30365,6 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-06-14",
             "title": "Pena / The Breathing Room / Miss Hits",
             "details": "a/a $22.39 6pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-14-neck-of-the-woods-cherry-pick",
-            "date": "2026-06-14",
-            "title": "Cherry Pick / Softie / Luna Ivy / Meadow",
-            "details": "a/a $14.60 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -30429,17 +30410,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-07-03-neck-of-the-woods-frolic-album-release",
-            "date": "2026-07-03",
-            "title": "Frolic (album release) / Blind Illusion / Broken Glass Sanctuary / Hemotoxin",
-            "details": "a/a $15/$20 7pm/7:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-07-03-neck-of-the-woods-big-girl",
             "date": "2026-07-03",
             "title": "Big Girl / Bloodsugar / Bomshell",
             "details": "a/a $14.60 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-03-neck-of-the-woods-frolic-album-release",
+            "date": "2026-07-03",
+            "title": "Frolic (album release) / Blind Illusion / Broken Glass Sanctuary / Hemotoxin",
+            "details": "a/a $15/$20 7pm/7:30pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -30555,7 +30536,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-06-06T20:52:47.999Z",
+        "lastImportedAt": "2026-06-09T00:28:16.015Z",
         "appearances": [
           {
             "eventId": "2026-06-19-new-farm-three-reefs-deep",
@@ -30607,11 +30588,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-new-life-christian-fellowship-chess-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-new-life-christian-fellowship-chess-8-00pm",
+            "date": "2026-06-11",
             "title": "Chess",
             "details": "Chess event at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=50679"
@@ -30659,11 +30640,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-next-door-north-beach-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-next-door-north-beach-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=41261"
@@ -30711,11 +30692,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-nickie-s-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-nickie-s-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38678"
@@ -30822,11 +30803,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.730Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-nirvana-soul-cafe-poetry-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-nirvana-soul-cafe-poetry-7-00pm",
+            "date": "2026-06-12",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19324"
@@ -30874,15 +30855,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-06T20:52:48.004Z",
+        "lastImportedAt": "2026-06-09T00:28:16.021Z",
         "appearances": [
-          {
-            "eventId": "2026-06-06-noble-cinema-studios-dread",
-            "date": "2026-06-06",
-            "title": "Dread / Right To Remain / Speak For The Dead / Clueless",
-            "details": "a/a $10 1pm/1:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-07-03-noble-cinema-studios-s-h-e-d",
             "date": "2026-07-03",
@@ -30933,11 +30907,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-north-beach-branch-library-game-10-00am",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-north-beach-branch-library-game-10-00am",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46490"
@@ -30985,11 +30959,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-nosso-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-nosso-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39422"
@@ -31037,11 +31011,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-o-flaherty-s-irish-pub-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-o-flaherty-s-irish-pub-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18378"
@@ -31089,11 +31063,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-o-neills-irish-pub-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-o-neills-irish-pub-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41360"
@@ -31141,11 +31115,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-o-reilly-s-pub-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-o-reilly-s-pub-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38629"
@@ -31379,11 +31353,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-oakland-public-library-game-5-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-oakland-public-library-game-5-00pm",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 5:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46510"
@@ -31431,7 +31405,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.878Z",
-        "lastImportedAt": "2026-06-06T20:52:48.000Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
         "appearances": [
           {
             "eventId": "2026-06-20-oakland-secret-gallery-lost-objects",
@@ -31483,11 +31457,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.056Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-oakland-united-beerworks-trivia-3-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-oakland-united-beerworks-trivia-3-00pm",
+            "date": "2026-06-14",
             "title": "Trivia Night",
             "details": "Trivia night at 3:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=55823"
@@ -31542,21 +31516,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.992Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
-          {
-            "eventId": "2026-06-04-ocean-ale-house-trivia-8-00pm",
-            "date": "2026-06-04",
-            "title": "Trivia Night",
-            "details": "Trivia night at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38675"
-          },
           {
             "eventId": "2026-06-11-ocean-ale-house-adrian-west-band",
             "date": "2026-06-11",
             "title": "Adrian West Band",
             "details": "21+ free 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-11-ocean-ale-house-trivia-8-00pm",
+            "date": "2026-06-11",
+            "title": "Trivia Night",
+            "details": "Trivia night at 8:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=38675"
           }
         ]
       }
@@ -31601,7 +31575,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.023Z",
+        "lastImportedAt": "2026-06-09T00:28:16.041Z",
         "appearances": [
           {
             "eventId": "2026-07-17-old-princeton-landing-jerry-s-middle-finger",
@@ -31629,6 +31603,58 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-08-29",
             "title": "Built To Spill",
             "details": "a/a $50.44 5:30pm/6:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "old-western-saloon": {
+      "id": "old-western-saloon",
+      "name": "Old Western Saloon",
+      "displayName": "Old Western Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#old_western_saloon",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Old%20Western%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.935Z",
+        "lastImportedAt": "2026-06-09T00:28:16.040Z",
+        "appearances": [
+          {
+            "eventId": "2026-08-28-old-western-saloon-wreckless-strangers",
+            "date": "2026-08-28",
+            "title": "Wreckless Strangers",
+            "details": "21+ $10 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -31674,11 +31700,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-ora-wine-bar-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-ora-wine-bar-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38650"
@@ -31771,11 +31797,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-original-pattern-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-original-pattern-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29737"
@@ -31823,11 +31849,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-otto-s-uptown-kitchen-lobby-restaurant-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-otto-s-uptown-kitchen-lobby-restaurant-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=56361"
@@ -31875,7 +31901,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-06T20:52:48.018Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
             "eventId": "2026-08-07-outside-lands-charli-xcx",
@@ -31941,7 +31967,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-06-06T20:52:48.028Z",
+        "lastImportedAt": "2026-06-09T00:28:16.048Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -31993,21 +32019,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-06T20:52:48.036Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
           {
             "eventId": "2026-06-11-palace-of-fine-arts-bruce-hornsby-and-the-noisemakers",
             "date": "2026-06-11",
             "title": "Bruce Hornsby & The Noisemakers",
-            "details": "a/a $78+ 8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Bruce Hornsby & The Noisemakers",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-12-palace-of-fine-arts-kristin-key",
             "date": "2026-06-12",
             "title": "Kristin Key",
-            "details": "18+ 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Kristin Key",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-11-10-palace-of-fine-arts-the-tallest-man-on-earth",
@@ -32059,11 +32085,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-palm-house-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-palm-house-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38648"
@@ -32111,18 +32137,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-pandora-karaoke-and-bar-karaoke-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-pandora-karaoke-and-bar-karaoke-8-00pm",
+            "date": "2026-06-08",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46416"
           },
           {
-            "eventId": "2026-06-05-pandora-karaoke-and-bar-karaoke-8-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-pandora-karaoke-and-bar-karaoke-8-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32652"
@@ -32170,7 +32196,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-06-06T20:52:48.026Z",
+        "lastImportedAt": "2026-06-09T00:28:16.046Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
@@ -32222,11 +32248,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-park-lane-lounge-openmic-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-park-lane-lounge-openmic-8-00pm",
+            "date": "2026-06-08",
             "title": "Open Mic",
             "details": "Open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38859"
@@ -32326,11 +32352,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-patriot-house-pub-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-patriot-house-pub-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=11002"
@@ -32378,11 +32404,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.981Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-paulista-brazilian-cafe-kitchen-and-taproom-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-paulista-brazilian-cafe-kitchen-and-taproom-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15740"
@@ -32579,7 +32605,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-06T20:52:48.027Z",
+        "lastImportedAt": "2026-06-09T00:28:16.056Z",
         "appearances": [
           {
             "eventId": "2026-07-24-pavilion-jimmy-eat-world",
@@ -32614,6 +32640,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-20",
             "title": "Rob Zombie / Marilyn Manson / The Hu / Orgy",
             "details": "a/a $40+ 6:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-27-pavilion-bryson-tiller",
+            "date": "2026-10-27",
+            "title": "Bryson Tiller",
+            "details": "a/a 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -32659,13 +32692,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-06T20:52:47.992Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
             "eventId": "2026-06-11-peacock-lounge-bob-ostertag",
             "date": "2026-06-11",
             "title": "Bob Ostertag / Antimatter & Jacob Felix Heule / Philip Perkins / Anti-Ear",
-            "details": "a/a $5-$15 8pm til 11pm",
+            "details": "a/a $5-$15 8pm til 11pm / Bob Ostertag, Antimatter & Jacob Felix Heule, Philip Perkins, Anti-Ear",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -32711,11 +32744,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-penelope-openmic-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-penelope-openmic-8-00pm",
+            "date": "2026-06-10",
             "title": "Open Mic",
             "details": "Open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=6083"
@@ -32763,11 +32796,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-petaluma-senior-center-chess-12-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-petaluma-senior-center-chess-12-30pm",
+            "date": "2026-06-09",
             "title": "Chess",
             "details": "Chess event at 12:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=50664"
@@ -32904,15 +32937,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.021Z",
+        "lastImportedAt": "2026-06-09T00:28:16.037Z",
         "appearances": [
-          {
-            "eventId": "2026-06-06-phoenix-theater-scribe",
-            "date": "2026-06-06",
-            "title": "Scribe / Old Man's Chair / Ike Panick / dj Sage Bay",
-            "details": "a/a $15.49 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-08-phoenix-theater-brokencyde",
             "date": "2026-06-08",
@@ -32970,6 +32996,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-08-08-phoenix-theater-what-s-wrong",
+            "date": "2026-08-08",
+            "title": "What's Wrong / Ocean Ghost / American Diet / Bone Thistle / Eveninthespring",
+            "details": "a/a $15.49 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-08-22-phoenix-theater-built-to-spill",
             "date": "2026-08-22",
             "title": "Built To Spill / Playdead",
@@ -33019,7 +33052,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-06-06T20:52:48.028Z",
+        "lastImportedAt": "2026-06-09T00:28:16.049Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
@@ -33078,11 +33111,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-pinstripes-trivia-6-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-pinstripes-trivia-6-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54147"
@@ -33180,14 +33213,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.977Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-pitt-s-pub-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-pitt-s-pub-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54096"
+          }
+        ]
+      }
+    },
+    "planetarium": {
+      "id": "planetarium",
+      "name": "Planetarium",
+      "displayName": "Planetarium",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#planetarium",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Planetarium%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.908Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-14-planetarium-machine-country",
+            "date": "2026-06-14",
+            "title": "Machine Country / Luv / Crohns / Greyhound / Blood Compact",
+            "details": "a/a $10 6:30pm/7pm / Machine Country, LUV, Crohns, Greyhound, Blood Compact",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -33232,14 +33317,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-plank-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-plank-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15747"
+          }
+        ]
+      }
+    },
+    "plough-and-stars": {
+      "id": "plough-and-stars",
+      "name": "Plough and Stars",
+      "displayName": "Plough and Stars",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#plough_and_stars",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Plough%20and%20Stars%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.903Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-12-plough-and-stars-long-time-curse-tribute",
+            "date": "2026-06-12",
+            "title": "Long Time Curse",
+            "details": "21+ $10-$15 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -33286,15 +33423,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-06-06T20:52:47.997Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-point-san-pablo-harbor-sean-hayes-conspiracy-of-beards",
-            "date": "2026-05-30",
-            "title": "Sean Hayes / Conspiracy Of Beards",
-            "details": "Sean Hayes, Conspiracy Of Beards",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
           {
             "eventId": "2026-06-14-point-san-pablo-harbor-awesome-orchestra-collective",
             "date": "2026-06-14",
@@ -33345,11 +33475,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-pop-s-bar-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-pop-s-bar-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=53213"
@@ -33397,11 +33527,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-portal-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-portal-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39416"
@@ -33564,35 +33694,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.968Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-public-works-art-battle-san-francisco",
-            "date": "2026-05-27",
-            "title": "Art Battle San Francisco",
-            "details": "Art Battle San Francisco",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-public-works-eargasm-god",
+            "date": "2026-06-12",
+            "title": "Eargasm God",
+            "details": "Eargasm God",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-public-works-yamagucci",
-            "date": "2026-05-28",
-            "title": "Yamagucci",
-            "details": "Yamagucci",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-public-works-set-john-digweed",
-            "date": "2026-05-29",
-            "title": "SET / John Digweed",
-            "details": "SET, John Digweed",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-public-works-the-glitch-mob",
-            "date": "2026-05-30",
-            "title": "The Glitch Mob",
-            "details": "The Glitch Mob",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-public-works-connor-wall",
+            "date": "2026-06-13",
+            "title": "Connor Wall",
+            "details": "Connor Wall",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -33637,11 +33753,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-punch-line-sf-poetry-7-30pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-punch-line-sf-poetry-7-30pm",
+            "date": "2026-06-14",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=28207"
@@ -33689,7 +33805,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.884Z",
-        "lastImportedAt": "2026-06-06T20:52:48.005Z",
+        "lastImportedAt": "2026-06-09T00:28:16.021Z",
         "appearances": [
           {
             "eventId": "2026-06-28-pussy-palace-altar-de-fey",
@@ -33748,7 +33864,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-06-06T20:52:48.015Z",
+        "lastImportedAt": "2026-06-09T00:28:16.031Z",
         "appearances": [
           {
             "eventId": "2026-08-01-quarry-amphitheater-joe-russo-s-almost-dead-tribute",
@@ -33800,11 +33916,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.008Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-que-rico-nightclub-dance-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-que-rico-nightclub-dance-7-00pm",
+            "date": "2026-06-12",
             "title": "Dance",
             "details": "Dance event at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=51148"
@@ -33852,11 +33968,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-question-mark-bar-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-question-mark-bar-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16433"
@@ -33904,11 +34020,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-rae-rae-s-at-joe-s-corner-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-rae-rae-s-at-joe-s-corner-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=48250"
@@ -33956,11 +34072,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-red-tomato-pizza-house-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-red-tomato-pizza-house-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4570"
@@ -34008,7 +34124,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-06T20:52:47.993Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
             "eventId": "2026-06-12-redwood-cafe-new-copasetics",
@@ -34016,6 +34132,51 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "New Copasetics",
             "details": "a/a 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "redwood-grove": {
+      "id": "redwood-grove",
+      "name": "Redwood Grove",
+      "displayName": "Redwood Grove",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Redwood%20Grove%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.900Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-11-redwood-grove-jenny-gillespie-mason-the-saxophones",
+            "date": "2026-06-11",
+            "title": "Jenny Gillespie Mason / The Saxophones",
+            "details": "Jenny Gillespie Mason, The Saxophones",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -34147,22 +34308,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-05-29-regency-ballroom-arjun-rampal",
-            "date": "2026-05-29",
-            "title": "Arjun Rampal",
-            "details": "Arjun Rampal",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-06-regency-ballroom-paul-oakenfold-the-crystal-method",
-            "date": "2026-06-06",
-            "title": "Paul Oakenfold / The Crystal Method",
-            "details": "Paul Oakenfold, The Crystal Method / 18+ 7pm/8pm #",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-13-regency-ballroom-vtss",
             "date": "2026-06-13",
@@ -34318,9 +34465,23 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-21-regency-ballroom-uncle-acid-and-the-deadbeats",
+            "date": "2026-09-21",
+            "title": "Uncle Acid & The Deadbeats / Messa",
+            "details": "a/a 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-13-regency-ballroom-mico",
             "date": "2026-10-13",
             "title": "Mico",
+            "details": "a/a 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-16-regency-ballroom-moe",
+            "date": "2026-10-16",
+            "title": "Moe.",
             "details": "a/a 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -34371,6 +34532,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-16",
             "title": "Manic Street Preachers",
             "details": "a/a $62 ($97.94 balcony seated) 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-20-regency-ballroom-layton-giordani",
+            "date": "2026-11-20",
+            "title": "Layton Giordani",
+            "details": "18+ 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -34437,15 +34605,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-06-06T20:52:48.008Z",
+        "lastImportedAt": "2026-06-09T00:28:16.024Z",
         "appearances": [
-          {
-            "eventId": "2026-06-06-revolution-cafe-inside-nfg-9-30pm",
-            "date": "2026-06-06",
-            "title": "inside: NFG (9:30pm) / Mugslug / Sick Behavior / Stop Up / Angry Aztecs / Normal Weirds / Out Of The Ring / Fuzz Attack / Man The Gallows / outside: Outpatient X (9pm) / Mokosos / Hemmed Up / Blunt Force Karma / Boar / Esc / Hellcatraz / Hell Bound Pound / Butchered Hens / Panhandlers Union / Blind Dog / Moosetrout / dj Test / dj Officer Dady / dj Tanke",
-            "details": "a/a $15/$20 (kids with parents free) noon til 11pm @ (Grinch Fest)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-07-12-revolution-cafe-battalion-of-saints",
             "date": "2026-07-12",
@@ -34496,11 +34657,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-rick-and-roxy-s-game-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-rick-and-roxy-s-game-6-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46474"
@@ -34548,7 +34709,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-06T20:52:48.009Z",
+        "lastImportedAt": "2026-06-09T00:28:16.026Z",
         "appearances": [
           {
             "eventId": "2026-07-17-ricksaw-stop-akrilla",
@@ -34688,104 +34849,34 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-rickshaw-stop-lowertown-fat-evil-children-poor-image",
-            "date": "2026-05-26",
-            "title": "Lowertown / Fat / Evil Children / Poor Image",
-            "details": "Lowertown, Fat, Evil Children, Poor Image",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-rickshaw-stop-nerd-nite-sf",
-            "date": "2026-05-27",
-            "title": "Nerd Nite SF",
-            "details": "Nerd Nite SF",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-rickshaw-stop-quinn-xcii-from-michigan-with-love",
-            "date": "2026-05-28",
-            "title": "Quinn XCII / From Michigan With Love",
-            "details": "Quinn XCII, From Michigan With Love",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-rickshaw-stop-samiam-the-flatliners-strangelight",
-            "date": "2026-05-29",
-            "title": "Samiam / The Flatliners / Strangelight",
-            "details": "Samiam, The Flatliners, Strangelight",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-rickshaw-stop-child-thorn-el-kabong",
-            "date": "2026-05-30",
-            "title": "Child / Thorn / El Kabong",
-            "details": "Child, Thorn, El Kabong",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-rickshaw-stop-marietta-snowing-awakebutstillinbed",
-            "date": "2026-05-31",
-            "title": "Marietta / Snowing / Awakebutstillinbed",
-            "details": "Marietta, Snowing, Awakebutstillinbed",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-rickshaw-stop-prettyboy-chance-dirty-cello-matt-jaffe",
-            "date": "2026-06-04",
-            "title": "PrettyBoy Chance / Dirty Cello / Matt Jaffe",
-            "details": "PrettyBoy Chance, Dirty Cello, Matt Jaffe",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-rickshaw-stop-prettyboy-chance",
-            "date": "2026-06-04",
-            "title": "PrettyBoy Chance / Dirty Cello / Matt Jaffe",
-            "details": "a/a $15 8pm/8:45pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-rickshaw-stop-qt-pie-novalyze-deep-and-dark",
-            "date": "2026-06-06",
-            "title": "QT PIE / Novalyze / Deep & Dark",
-            "details": "QT PIE, Novalyze, Deep & Dark",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-rickshaw-stop-white-hills-ex-heir-heat",
-            "date": "2026-06-07",
-            "title": "White Hills / Ex-Heir / HEAT",
-            "details": "White Hills, Ex-Heir, HEAT / a/a $15/$18 8pm/8:45pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-11-rickshaw-stop-brijean",
             "date": "2026-06-11",
-            "title": "Brijean / Mild Universe / dj Nobe",
-            "details": "a/a $25/$30 7pm/8pm",
+            "title": "Brijean / Mild Universe / dj Nobe / N0be",
+            "details": "a/a $25/$30 7pm/8pm / BRIJEAN, Mild Universe, DJ N0be",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-12-rickshaw-stop-dorian-electra",
             "date": "2026-06-12",
             "title": "Dorian Electra",
-            "details": "a/a $37.14 ($115.32 vip) 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Dorian Electra",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-rickshaw-stop-jason-tygner",
             "date": "2026-06-13",
-            "title": "Jason Tygner",
-            "details": "a/a $20/$25 8pm/8pm",
+            "title": "Jasper Tygner",
+            "details": "a/a $20/$25 8pm/8pm / Jasper Tygner",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-14-rickshaw-stop-the-messthetics",
             "date": "2026-06-14",
-            "title": "The Messthetics / James Brandon Lewis",
-            "details": "a/a $20/$25 7pm/8pm",
+            "title": "The Messthetics / James Brandon Lewis / Chris Forsyth",
+            "details": "a/a $20/$25 7pm/8pm / The Messthetics, James Brandon Lewis, Chris Forsyth",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -34838,6 +34929,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-07-01-rickshaw-stop-the-live-oaks",
+            "date": "2026-07-01",
+            "title": "The Live Oaks / Family Worship Center / Damma Damma / dj Walkin' Love",
+            "details": "a/a $15/$20 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-07-02-rickshaw-stop-silverset",
             "date": "2026-07-02",
             "title": "Silverset / Paper Straw / Lizzie Waters",
@@ -34849,6 +34947,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-16",
             "title": "Bed Bug Guru / Welcome Straberry / Blous3",
             "details": "a/a $15/$20 8pm/8:45pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-17-rickshaw-stop-akrila",
+            "date": "2026-07-17",
+            "title": "Akrila",
+            "details": "a/a $20/$25 8pm/9pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -34922,10 +35027,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-08-23-rickshaw-stop-hippie-death-cult",
+            "date": "2026-08-23",
+            "title": "Hippie Death Cult / Earth Tongue / La Sombra / Snakemother",
+            "details": "a/a $18/$23 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-08-25-rickshaw-stop-black-marble",
             "date": "2026-08-25",
             "title": "Black Marble / The Serfs / Jimmy Cicero / dj Omar",
             "details": "a/a $25/$30 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-27-rickshaw-stop-otha",
+            "date": "2026-08-27",
+            "title": "Otha / TrickyFM",
+            "details": "a/a",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -34971,10 +35090,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-20-rickshaw-stop-solya",
+            "date": "2026-09-20",
+            "title": "Solya / Tele Novella",
+            "details": "a/a $22/$26 ($65 vip) 7pm/8pm (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-21-rickshaw-stop-friko",
             "date": "2026-09-21",
             "title": "Friko",
             "details": "a/a $26/$29 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-02-rickshaw-stop-the-bends",
+            "date": "2026-10-02",
+            "title": "The Bends",
+            "details": "a/a $20/$24 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -34999,6 +35132,20 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-09-rickshaw-stop-tim-atlas",
+            "date": "2026-10-09",
+            "title": "Tim Atlas",
+            "details": "a/a $20/$25 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-16-rickshaw-stop-diles-que-no-maten",
+            "date": "2026-10-16",
+            "title": "Diles Que No Maten / Present / Trough / Ulyssescfm",
+            "details": "a/a $20/$25 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-17-rickshaw-stop-flower-face",
             "date": "2026-10-17",
             "title": "Flower Face",
@@ -35008,8 +35155,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-19-rickshaw-stop-bebe-stockwell",
             "date": "2026-10-19",
-            "title": "Bebe Stockwell",
-            "details": "a/a 8pm",
+            "title": "Bebe Stockwell / Khatumu",
+            "details": "a/a $28.25 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-25-rickshaw-stop-kyle-gordon",
+            "date": "2026-10-25",
+            "title": "Kyle Gordon",
+            "details": "a/a $25/$30 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -35017,6 +35171,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-27",
             "title": "Otha",
             "details": "a/a $20/$25 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-27-rickshaw-stop-violet-grohl",
+            "date": "2026-10-27",
+            "title": "Violet Grohl",
+            "details": "a/a $35.06 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -35037,7 +35198,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-11-15-rickshaw-stop-francisca-valenzuela",
             "date": "2026-11-15",
             "title": "Francisca Valenzuela",
-            "details": "a/a $35+ 8pm",
+            "details": "a/a $35+ 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -35045,6 +35206,58 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-20",
             "title": "Natural Child / Buzzed Lightbeer / Milk For The Angry / Catnip / dj Sonosphere",
             "details": "a/a $25/$30 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "rio-nido-roadhouse": {
+      "id": "rio-nido-roadhouse",
+      "name": "Rio Nido Roadhouse",
+      "displayName": "Rio Nido Roadhouse",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#rio_nido_roadhouse",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Rio%20Nido%20Roadhouse%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.936Z",
+        "lastImportedAt": "2026-06-09T00:28:16.042Z",
+        "appearances": [
+          {
+            "eventId": "2026-08-30-rio-nido-roadhouse-wreckless-strangers",
+            "date": "2026-08-30",
+            "title": "Wreckless Strangers",
+            "details": "1pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -35147,7 +35360,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.051Z",
         "appearances": [
           {
             "eventId": "2026-06-18-rio-theater-lucinda-williams-and-her-band",
@@ -35241,11 +35454,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-rite-spot-cafe-karaoke-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-rite-spot-cafe-karaoke-8-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41367"
@@ -35383,41 +35596,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-06-06T20:52:48.030Z",
+        "lastImportedAt": "2026-06-09T00:28:16.051Z",
         "appearances": [
-          {
-            "eventId": "2026-06-02-ritz-infected-rain",
-            "date": "2026-06-02",
-            "title": "Infected Rain / Stitched Up Heart",
-            "details": "a/a $31 7pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-ritz-true-north",
-            "date": "2026-06-05",
-            "title": "True North / Out In Front / Pinknoise",
-            "details": "a/a $18 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-06-ritz-the-alain-whyte",
-            "date": "2026-06-06",
-            "title": "The Alain Whyte",
-            "details": "a/a $31.34 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-ritz-nerd-halen",
             "date": "2026-06-12",
-            "title": "Nerd Halen",
-            "details": "a/a $25.68 8pm",
+            "title": "Nerd Halen / Hal Sparks",
+            "details": "a/a $20/$25 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-13-ritz-elijah-scott",
             "date": "2026-06-13",
-            "title": "Elijah Scott",
-            "details": "?/?",
+            "title": "Elijah Scott / Devora",
+            "details": "a/a $25/$28 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -35477,10 +35669,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-07-17-ritz-matte-blvck",
+            "date": "2026-07-17",
+            "title": "Matte Blvck / Snakes Of Russia / So Much Blood",
+            "details": "a/a $20 ($75 vip) 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-07-18-ritz-system-of-a-clown",
             "date": "2026-07-18",
             "title": "System Of A Clown / El Guapo / Bukaki Blaster",
             "details": "21+ $19 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-20-ritz-haunt-m",
+            "date": "2026-07-20",
+            "title": "Haunt M / Cathedral Bells",
+            "details": "a/a $18 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -35540,6 +35746,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-25-ritz-revocation",
+            "date": "2026-09-25",
+            "title": "Revocation / Defeated Sanity / FUming Mouth / Weeping",
+            "details": "a/a $22 6pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-03-ritz-all-shall-perish",
             "date": "2026-10-03",
             "title": "All Shall Perish",
@@ -35596,11 +35809,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-robberbaron-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-robberbaron-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=31487"
@@ -35648,11 +35861,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-rockridge-improvement-club-karaoke-9-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-rockridge-improvement-club-karaoke-9-00pm",
+            "date": "2026-06-12",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46539"
@@ -35700,7 +35913,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.890Z",
-        "lastImportedAt": "2026-06-06T20:52:48.011Z",
+        "lastImportedAt": "2026-06-09T00:28:16.028Z",
         "appearances": [
           {
             "eventId": "2026-07-19-rolph-street-pomona-st-beer-drinkers-and-hell-raisers-tribute",
@@ -35752,11 +35965,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.994Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-rookies-sports-lodge-downtown-game-7-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-rookies-sports-lodge-downtown-game-7-30pm",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=46497"
@@ -35804,11 +36017,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-rookies-sports-lodge-willow-glen-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-rookies-sports-lodge-willow-glen-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45019"
@@ -35856,11 +36069,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-room-389-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-room-389-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4567"
@@ -35953,11 +36166,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-rosamunde-sausage-grill-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-rosamunde-sausage-grill-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=16319"
@@ -36005,11 +36218,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-rosenblum-cellars-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-rosenblum-cellars-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39417"
@@ -36057,11 +36270,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-rosie-mccann-s-trivia-6-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-rosie-mccann-s-trivia-6-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=5283"
@@ -36109,11 +36322,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-rosie-s-new-york-pizza-trivia-6-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-rosie-s-new-york-pizza-trivia-6-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45023"
@@ -36161,11 +36374,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-round-table-pizza-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-round-table-pizza-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=45024"
@@ -36265,11 +36478,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-ruby-room-karaoke-9-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-ruby-room-karaoke-9-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46434"
@@ -36369,11 +36582,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-sally-brunn-branch-library-game-1-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-sally-brunn-branch-library-game-1-00pm",
+            "date": "2026-06-12",
             "title": "Game Night",
             "details": "Game night at 1:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46489"
@@ -36421,11 +36634,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-saluhall-trivia-6-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-saluhall-trivia-6-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30954"
@@ -36473,7 +36686,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.896Z",
-        "lastImportedAt": "2026-06-06T20:52:48.018Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
             "eventId": "2026-08-11-san-jose-civic-the-beths",
@@ -36602,7 +36815,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-06-10-san-jose-civic-center-the-rose",
@@ -36675,11 +36888,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-san-jose-improv-openmic-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-san-jose-improv-openmic-8-00pm",
+            "date": "2026-06-10",
             "title": "Open Mic",
             "details": "Open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18373"
@@ -36727,18 +36940,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-san-jose-stage-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=38868"
-          },
-          {
-            "eventId": "2026-06-03-san-jose-stage-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-san-jose-stage-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38868"
@@ -36786,11 +36992,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-san-pedro-social-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-san-pedro-social-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41370"
@@ -36838,11 +37044,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-san-pedro-square-market-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-san-pedro-square-market-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=3684"
@@ -36890,11 +37096,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-sante-adairius-rustic-ales-trivia-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-sante-adairius-rustic-ales-trivia-6-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=41371"
@@ -36942,11 +37148,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-scopo-divino-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-scopo-divino-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31488"
@@ -36994,11 +37200,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-seawolf-public-house-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-seawolf-public-house-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29739"
@@ -37105,11 +37311,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-seven-trees-branch-library-game-2-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-seven-trees-branch-library-game-2-00pm",
+            "date": "2026-06-14",
             "title": "Game Night",
             "details": "Game night at 2:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46493"
@@ -37150,49 +37356,35 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-05-28-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
-            "date": "2026-05-28",
-            "title": "Terence Blanchard & Ravi Coltrane",
-            "details": "Terence Blanchard & Ravi Coltrane",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-sf-jazz-center-chucho-vald-s-royal-quartet",
+            "date": "2026-06-11",
+            "title": "Chucho Valdés Royal Quartet",
+            "details": "Chucho Valdés Royal Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
-            "date": "2026-05-29",
-            "title": "Terence Blanchard & Ravi Coltrane",
-            "details": "Terence Blanchard & Ravi Coltrane",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-sf-jazz-center-chucho-vald-s-royal-quartet",
+            "date": "2026-06-12",
+            "title": "Chucho Valdés Royal Quartet",
+            "details": "Chucho Valdés Royal Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
-            "date": "2026-05-30",
-            "title": "Terence Blanchard & Ravi Coltrane",
-            "details": "Terence Blanchard & Ravi Coltrane",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-sf-jazz-center-chucho-vald-s-royal-quartet",
+            "date": "2026-06-13",
+            "title": "Chucho Valdés Royal Quartet",
+            "details": "Chucho Valdés Royal Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-31-sf-jazz-center-terence-blanchard-and-ravi-coltrane",
-            "date": "2026-05-31",
-            "title": "Terence Blanchard & Ravi Coltrane",
-            "details": "Terence Blanchard & Ravi Coltrane",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-sf-jazz-center-robert-glasper",
-            "date": "2026-06-05",
-            "title": "Robert Glasper",
-            "details": "His project is devoted to re-conceptualized versions of Miles Davis compositions originating from his score to director and actor Don Cheadle’s 2015 Davis tribute film Miles Ahead.",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-sf-jazz-center-robert-glasper",
-            "date": "2026-06-06",
-            "title": "Robert Glasper",
-            "details": "This encore begins bright and early. Glasper's project is devoted to re-conceptualized versions of Miles Davis compositions originating from his score to director and actor Don Cheadle’s 2015 Davis tribute film Miles Ahead.",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-sf-jazz-center-chucho-vald-s-royal-quartet",
+            "date": "2026-06-14",
+            "title": "Chucho Valdés Royal Quartet",
+            "details": "Chucho Valdés Royal Quartet",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -37237,7 +37429,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-06-06T20:52:48.036Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
           {
             "eventId": "2026-07-17-shark-tank-nate-bargatze",
@@ -37331,11 +37523,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-sheldons-hobbies-game-6-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-sheldons-hobbies-game-6-30pm",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=46498"
@@ -37383,11 +37575,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.010Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-shelton-theater-poetry-7-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-shelton-theater-poetry-7-00pm",
+            "date": "2026-06-13",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=28214"
@@ -37487,7 +37679,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-06-06T20:52:48.026Z",
+        "lastImportedAt": "2026-06-09T00:28:16.046Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -37625,7 +37817,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-06-23-shoreline-amphitheatre-kid-cudi",
@@ -37712,6 +37904,20 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-03-shoreline-amphitheatre-kehlani",
+            "date": "2026-10-03",
+            "title": "Kehlani / Durand Bernarr / Isaia Huron / TheArtis$t / Waseel",
+            "details": "a/a $40+ 5pm/6:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-04-shoreline-amphitheatre-kehlani",
+            "date": "2026-10-04",
+            "title": "Kehlani / Durand Bernarr / Isaia Huron / TheArti$t / Waseel",
+            "details": "a/a $40+ 5pm/6:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-08-shoreline-amphitheatre-mumford-and-sons",
             "date": "2026-10-08",
             "title": "Mumford & Sons / Sierra Ferrell",
@@ -37761,7 +37967,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-06-06T20:52:48.027Z",
+        "lastImportedAt": "2026-06-09T00:28:16.048Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
@@ -37813,7 +38019,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-06-06T20:52:48.029Z",
+        "lastImportedAt": "2026-06-09T00:28:16.049Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -37865,7 +38071,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-06-06T20:52:48.005Z",
+        "lastImportedAt": "2026-06-09T00:28:16.022Z",
         "appearances": [
           {
             "eventId": "2026-07-08-shorline-amphitheater-chris-stapletown",
@@ -37917,11 +38123,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-shotwell-s-saloon-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-shotwell-s-saloon-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4540"
@@ -38021,21 +38227,73 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-silver-cloud-restaurant-and-karaoke-bar-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-silver-cloud-restaurant-and-karaoke-bar-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=14223"
           },
           {
-            "eventId": "2026-06-04-silver-cloud-restaurant-and-karaoke-bar-karaoke-9-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-silver-cloud-restaurant-and-karaoke-bar-karaoke-9-00pm",
+            "date": "2026-06-11",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38643"
+          }
+        ]
+      }
+    },
+    "simple-pleasures-cafe": {
+      "id": "simple-pleasures-cafe",
+      "name": "Simple Pleasures Cafe",
+      "displayName": "Simple Pleasures Cafe",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "3434 Balboa St San Francisco CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=9127",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Simple%20Pleasures%20Cafe%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.900Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-11-simple-pleasures-cafe-poetry-6-30pm",
+            "date": "2026-06-11",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=9127"
           }
         ]
       }
@@ -38132,11 +38390,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-smuggler-s-cove-game-5-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-smuggler-s-cove-game-5-00pm",
+            "date": "2026-06-13",
             "title": "Game Night",
             "details": "Game night at 5:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14422"
@@ -38184,13 +38442,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-06T20:52:47.994Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
             "eventId": "2026-06-13-snow-park-stillyoung",
             "date": "2026-06-13",
             "title": "Stillyoung / B. Hamilton / Bliss Abyss / Sad Dads",
-            "details": "a/a 1pm free (Dax Chili Cookoff)",
+            "details": "a/a 1pm free (Dax Chili Cookoff) / Dax Chili Cookoff: Stillyoung, B. Hamilton, Bliss Abyss, Sad Dads",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -38236,11 +38494,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-southside-spirit-house-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-southside-spirit-house-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14365"
@@ -38288,11 +38546,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.001Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-spark-social-sf-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-spark-social-sf-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=38580"
@@ -38404,62 +38662,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-06T20:52:48.019Z",
+        "lastImportedAt": "2026-06-09T00:28:16.035Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-spats-joel-cusumano-dum-1-twin-bloom",
-            "date": "2026-05-29",
-            "title": "Joel Cusumano / Dum 1 / Twin Bloom",
-            "details": "Joel Cusumano, Dum 1, Twin Bloom",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-spats-no-alternative-highwinds-crash-outfit",
-            "date": "2026-05-30",
-            "title": "No Alternative / Highwinds / Crash Outfit",
-            "details": "No Alternative, Highwinds, Crash Outfit",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-spats-daytripper-demonsmoke-reptilian-arms",
-            "date": "2026-06-01",
-            "title": "Daytripper / DemonSmoke / Reptilian Arms",
-            "details": "Daytripper, DemonSmoke, Reptilian Arms",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-spats-slutzville-grrrizzly-disbeware-the-creepy-crawlies",
-            "date": "2026-06-04",
-            "title": "Slutzville / Grrrizzly / Disbeware / The Creepy Crawlies",
-            "details": "Slutzville, Grrrizzly, Disbeware, The Creepy Crawlies",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-spats-vaxxines-party-force-hell-bound-pound-shark-in-the-water",
-            "date": "2026-06-05",
-            "title": "Vaxxines / Party Force / Hell Bound Pound / Shark In The Water",
-            "details": "Vaxxines, Party Force, Hell Bound Pound, Shark In The Water / a/a $20 7pm/7:30pm (Punks With Lunch Benefit)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-spats-55-castles-puppet-ssleeping-desiress",
-            "date": "2026-06-06",
-            "title": "55 Castles / Puppet / Ssleeping DesiresS",
-            "details": "55 Castles, Puppet, Ssleeping DesiresS",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-spats-vesseles",
-            "date": "2026-06-07",
-            "title": "Vesseles / Deathwalker / Hands Of Goro",
-            "details": "a/a $15 / Vesseles, DeathWalker, Hands of Goro",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-10-spats-donald-beaman-bill-baird-dead-nettle",
+            "date": "2026-06-10",
+            "title": "Donald Beaman / Bill Baird / Dead Nettle",
+            "details": "Donald Beaman, Bill Baird, Dead Nettle",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-spats-darkswoon",
             "date": "2026-06-13",
             "title": "Darkswoon / Vague Lanes / Lotus Grrl",
-            "details": "a/a $12 8pm",
+            "details": "a/a $12 8pm / Darkswoon, Vague Lanes, Lotus Grrl",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -38519,18 +38735,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.722Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-spats-berkeley-openmic-8-30pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:30pm",
-            "sourceUrl": "https://badslava.com/details.php?id=16740"
-          },
-          {
-            "eventId": "2026-06-02-spats-berkeley-poetry-8-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-spats-berkeley-poetry-8-30pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=16740"
@@ -38649,25 +38858,18 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-speisekammer-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-speisekammer-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=35131"
           },
           {
-            "eventId": "2026-06-04-speisekammer-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=35320"
-          },
-          {
-            "eventId": "2026-06-04-speisekammer-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-speisekammer-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=35320"
@@ -38715,14 +38917,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-splash-bar-san-jose-trivia-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-splash-bar-san-jose-trivia-8-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57473"
+          }
+        ]
+      }
+    },
+    "st-francis-episcopal-church": {
+      "id": "st-francis-episcopal-church",
+      "name": "St Francis Episcopal Church",
+      "displayName": "St Francis Episcopal Church",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "",
+      "address": "399 San Fernando Wy San Francisco CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57674",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22St%20Francis%20Episcopal%20Church%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.888Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-st-francis-episcopal-church-game-7-00pm",
+            "date": "2026-06-08",
+            "title": "Game Night",
+            "details": "Game night at 7:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57674"
           }
         ]
       }
@@ -38767,11 +39021,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-starlite-ballroom-dance-6-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-starlite-ballroom-dance-6-00pm",
+            "date": "2026-06-14",
             "title": "Dance",
             "details": "Dance event at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=50151"
@@ -38783,7 +39037,10 @@ window.SHOW_EXPLORER_VENUES = {
       "id": "starry-plough",
       "name": "Starry Plough",
       "displayName": "The Starry Plough",
-      "aliases": [],
+      "aliases": [
+        "The Starry Plough",
+        "The Starry Plough Pub"
+      ],
       "confidence": "verified",
       "mergedInto": "",
       "status": "active",
@@ -38855,6 +39112,13 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "google-places",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=2026",
+          "confidence": "verified",
+          "source": "badslava"
         }
       ],
       "evidence": [
@@ -38897,55 +39161,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-06T20:52:47.993Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
-          {
-            "eventId": "2026-06-01-starry-plough-irish-c-ili-dance-with-live-band",
-            "date": "2026-06-01",
-            "title": "Irish Céili Dance with live band",
-            "details": "Irish Céili Dance with live band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-starry-plough-open-mic",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open Mic",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-starry-plough-berkeley-poetry-slam",
-            "date": "2026-06-03",
-            "title": "Berkeley Poetry Slam",
-            "details": "Berkeley Poetry Slam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-starry-plough-free-funk-glory-jams",
-            "date": "2026-06-04",
-            "title": "Free Funk Glory Jams",
-            "details": "Free Funk Glory Jams",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-starry-plough-sour-widows-still-ruins-dalmatia",
-            "date": "2026-06-06",
-            "title": "Sour Widows / Still Ruins / Dalmatia",
-            "details": "Sour Widows, Still Ruins, Dalmatia / a/a $20",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-starry-plough-irish-session",
-            "date": "2026-06-07",
-            "title": "Irish Session",
-            "details": "Irish Session",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
           {
             "eventId": "2026-06-12-starry-plough-margie-turner-and-the-outback-band",
             "date": "2026-06-12",
-            "title": "Margie Turner And The Outback Band",
-            "details": "a/a $10-$20 sliding scale 8pm til 11:30pm",
+            "title": "Margie Turner and the Outback Blues Band",
+            "details": "a/a $10-$20 sliding scale 8pm til 11:30pm / Margie Turner and the Outback Blues Band",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -38991,15 +39213,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-06-06T20:52:48.013Z",
+        "lastImportedAt": "2026-06-09T00:28:16.030Z",
         "appearances": [
-          {
-            "eventId": "2026-06-03-stay-gold-deli-slinger",
-            "date": "2026-06-03",
-            "title": "Slinger / Flowers For Emily / Day Hie / Sailor Set Sail",
-            "details": "a/a",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-17-stay-gold-deli-piss-mist",
             "date": "2026-06-17",
@@ -39017,14 +39232,242 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       }
     },
+    "stern-grove": {
+      "id": "stern-grove",
+      "name": "Stern Grove",
+      "displayName": "Stern Grove Festival",
+      "aliases": [
+        "Stern Grove Festival"
+      ],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "active",
+      "venueType": "unknown",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "19th Avenue and Sloat Boulevard San Francisco, CA 94132",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/60412e150e5c1277769df1a8/1623129835651-XXV5OBJIUQ0YTGP29F4G/Sunny+audience.jpg",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": {
+        "latitude": 37.7359493,
+        "longitude": -122.47956320000002
+      },
+      "agePolicy": "all-ages",
+      "capacity": "",
+      "summary": "Sign up with your email address to receive Festival news and updates.",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Stern%20Grove%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#stern_grove_festival",
+          "confidence": "verified",
+          "source": "imported"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.sterngrove.org/",
+          "confidence": "verified",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sterngrovefestival/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/sterngrovefest",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/sterngrovefestival/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sterngrove.org/"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "City inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11267080471726886461&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://www.sterngrove.org/",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.908Z",
+        "lastImportedAt": "2026-06-08T23:33:29.113Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-14-stern-grove-peter-cat-recording-co-marinero",
+            "date": "2026-06-14",
+            "title": "Peter Cat Recording Co. / Marinero",
+            "details": "Peter Cat Recording Co., Marinero",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-stern-grove-festival-peter-cat-recording-co",
+            "date": "2026-06-14",
+            "title": "Peter Cat Recording Co. / Marinero",
+            "details": "a/a free noon/2pm (1pm dj) / Peter Cat Recording Co., Marinero",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-21-stern-grove-festival-bomba-estereo",
+            "date": "2026-06-21",
+            "title": "Bomba Estereo / La Misa Negra",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-28-stern-grove-festival-japanese-breakfast",
+            "date": "2026-06-28",
+            "title": "Japanese Breakfast / dj Evie Stokes",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-05-stern-grove-festival-major-lazer",
+            "date": "2026-07-05",
+            "title": "Major Lazer / Fijiana / dj Bad Juuju / dj Patrick King Most",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-12-stern-grove-festival-sf-symphony",
+            "date": "2026-07-12",
+            "title": "SF Symphony / Bela Fleck",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-19-stern-grove-festival-charley-crockett",
+            "date": "2026-07-19",
+            "title": "Charley Crockett / Nicki Bluhm / dj Eryka",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-26-stern-grove-festival-suki-waterhouse",
+            "date": "2026-07-26",
+            "title": "Suki Waterhouse / dj Cheryl Waters",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-02-stern-grove-festival-violent-femmes",
+            "date": "2026-08-02",
+            "title": "Violent Femmes / Tune-Yards / j Lady Ryan",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-09-stern-grove-festival-patti-labelle",
+            "date": "2026-08-09",
+            "title": "Patti LaBelle / Destant Wolf / dj Malachai",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-15-stern-grove-festival-public-enemy",
+            "date": "2026-08-15",
+            "title": "Public Enemy / dj Davey D",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-08-16-stern-grove-festival-al-green",
+            "date": "2026-08-16",
+            "title": "Al Green / Goapele / The Glide Ensemble / dj Wonway Posibul",
+            "details": "a/a free noon/2pm (1pm dj)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      },
+      "updatedAt": "2026-06-09T00:33:30.570Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.sterngrove.org/",
+        "source": "official"
+      }
+    },
     "stern-grove-festival": {
       "id": "stern-grove-festival",
       "name": "Stern Grove Festival",
       "displayName": "Stern Grove Festival",
       "aliases": [],
-      "confidence": "likely",
-      "mergedInto": "",
-      "status": "active",
+      "confidence": "rejected",
+      "mergedInto": "stern-grove",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "San Francisco",
       "region": "SF",
@@ -39040,7 +39483,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Stern Grove.",
       "links": [
         {
           "type": "theList",
@@ -39135,13 +39578,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.019Z",
+        "lastImportedAt": "2026-06-09T00:28:16.035Z",
         "appearances": [
           {
             "eventId": "2026-06-14-stern-grove-festival-peter-cat-recording-co",
             "date": "2026-06-14",
             "title": "Peter Cat Recording Co. / Marinero",
-            "details": "a/a free noon/2pm (1pm dj)",
+            "details": "a/a free noon/2pm (1pm dj) / Peter Cat Recording Co., Marinero",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -39257,7 +39700,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-06-06T20:52:48.015Z",
+        "lastImportedAt": "2026-06-09T00:28:16.032Z",
         "appearances": [
           {
             "eventId": "2026-06-11-streetlight-records-whitney-thai",
@@ -39267,17 +39710,17 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-07-26-streetlight-records-frances-archesta",
-            "date": "2026-07-26",
-            "title": "Frances Archesta",
-            "details": "a/a free 3pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
             "eventId": "2026-07-26-streetlight-records-blurry-stars",
             "date": "2026-07-26",
             "title": "Blurry Stars",
             "details": "a/a free 4:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-26-streetlight-records-frances-archesta",
+            "date": "2026-07-26",
+            "title": "Frances Archesta",
+            "details": "a/a free 3pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -39330,18 +39773,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-studio-x-openmic-7-30pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:30pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27974"
-          },
-          {
-            "eventId": "2026-06-04-studio-x-poetry-7-30pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-studio-x-poetry-7-30pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=27974"
@@ -39537,11 +39973,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-sunset-branch-library-game-10-00am",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-sunset-branch-library-game-10-00am",
+            "date": "2026-06-09",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46491"
@@ -39589,11 +40025,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-sunset-squares-pizza-trivia-7-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-sunset-squares-pizza-trivia-7-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=14450"
@@ -39641,21 +40077,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.051Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-swedish-american-hall-therapy-gecko",
-            "date": "2026-06-04",
-            "title": "Therapy Gecko",
-            "details": "a/a 7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-10-swedish-american-hall-flawed-mangoes-scarlet-house",
+            "date": "2026-06-10",
+            "title": "Flawed Mangoes / Scarlet House",
+            "details": "Flawed Mangoes, Scarlet House / a/a 8pm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-10-swedish-american-hall-flawed-mangoes",
-            "date": "2026-06-10",
-            "title": "Flawed Mangoes",
-            "details": "a/a 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-06-12-swedish-american-hall-laura-mvula",
+            "date": "2026-06-12",
+            "title": "Laura Mvula",
+            "details": "Laura Mvula",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-10-06-swedish-american-hall-friqtao",
@@ -39707,63 +40143,56 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:48.035Z",
+        "lastImportedAt": "2026-06-09T00:28:16.057Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-sweetwater-music-hall-open-mic-night",
-            "date": "2026-05-26",
-            "title": "Open Mic Night",
-            "details": "Open Mic Night",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-27-sweetwater-music-hall-john-craigie-performs-and-8220-help-the-lonely-beatles-for-sale-and-8221",
-            "date": "2026-05-27",
-            "title": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
-            "details": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-sweetwater-music-hall-john-craigie-performs-and-8220-help-the-lonely-beatles-for-sale-and-8221",
-            "date": "2026-05-28",
-            "title": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
-            "details": "John Craigie performs &#8220;Help! The Lonely Beatles For Sale&#8221;",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-sweetwater-music-hall-purple-haze-tribute-to-jimi-hendrix",
-            "date": "2026-05-29",
-            "title": "Purple Haze: Tribute to Jimi Hendrix",
-            "details": "Purple Haze: Tribute to Jimi Hendrix",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-sweetwater-music-hall-sol-horizon-bob-marley-tribute",
-            "date": "2026-05-31",
-            "title": "Sol Horizon (Bob Marley Tribute)",
-            "details": "Sol Horizon (Bob Marley Tribute)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
           {
             "eventId": "2026-06-08-sweetwater-music-hall-redwood-ramblers",
             "date": "2026-06-08",
-            "title": "Redwood Ramblers / The Drop D's / Midnight Ruckus / Mad Indigo / Stray Dogs / Moern Relics",
-            "details": "a/a 6pm/7pm (Bandworks)",
+            "title": "Modern Relics / Redwood Ramblers / The Drop D's / Midnight Ruckus / Mad Indigo / Stray Dogs",
+            "details": "a/a 6pm/7pm (Bandworks) / Redwood Ramblers, The Drop D's, Midnight Ruckus, Mad Indigo, Stray Dogs, Modern Relics",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-09-sweetwater-music-hall-open-mic-night-with-matt-jaffe",
+            "date": "2026-06-09",
+            "title": "Open Mic Night with Matt Jaffe",
+            "details": "Open Mic Night with Matt Jaffe",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-10-sweetwater-music-hall-third-world-kumar-fyah",
+            "date": "2026-06-10",
+            "title": "Third World / Kumar Fyah",
+            "details": "Third World, Kumar Fyah",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-11-sweetwater-music-hall-patrick-heij",
+            "date": "2026-06-11",
+            "title": "Patrick Heij",
+            "details": "Patrick Heij",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-12-sweetwater-music-hall-the-samples",
             "date": "2026-06-12",
             "title": "The Samples",
-            "details": "a/a 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "The Samples",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-sweetwater-music-hall-hall-pass",
             "date": "2026-06-13",
             "title": "Hall Pass",
-            "details": "a/a 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "Hall Pass",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-sweetwater-music-hall-gate-5-six-strawberry-jam-street-level-bubba-s-taxi",
+            "date": "2026-06-14",
+            "title": "Gate 5 Six / Strawberry Jam / Street Level / Bubba’s Taxi",
+            "details": "Gate 5 Six, Strawberry Jam, Street Level, Bubba’s Taxi",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-19-sweetwater-music-hall-corduroy-tribute",
@@ -39980,11 +40409,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.984Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-tap-in-lounge-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-tap-in-lounge-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15749"
@@ -40032,11 +40461,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-taplands-trivia-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-taplands-trivia-7-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57446"
@@ -40084,7 +40513,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-06T20:52:47.995Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
             "eventId": "2026-06-13-taqueria-mila-laguna-screech",
@@ -40136,18 +40565,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-teeth-bar-sf-chess-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-teeth-bar-sf-chess-7-00pm",
+            "date": "2026-06-08",
             "title": "Chess",
             "details": "Chess event at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=53209"
           },
           {
-            "eventId": "2026-06-02-teeth-bar-sf-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-teeth-bar-sf-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38633"
@@ -40195,11 +40624,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-temescal-brewing-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-temescal-brewing-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39420"
@@ -40306,11 +40735,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-abbey-tavern-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-abbey-tavern-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=19706"
@@ -40399,11 +40828,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-the-alan-blueford-center-poetry-8-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-the-alan-blueford-center-poetry-8-00pm",
+            "date": "2026-06-13",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27975"
@@ -40451,11 +40880,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-alembic-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-alembic-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=31012"
@@ -40503,11 +40932,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-alley-trivia-9-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-alley-trivia-9-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4545"
@@ -40710,11 +41139,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-avenue-karaoke-9-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-avenue-karaoke-9-00pm",
+            "date": "2026-06-11",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32727"
@@ -40825,42 +41254,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-the-back-room-rick-dougherty-don-burnham",
-            "date": "2026-05-26",
-            "title": "Rick Dougherty / Don Burnham",
-            "details": "Rick Dougherty, Don Burnham",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-09-the-back-room-minor-gold-david-redd",
+            "date": "2026-06-09",
+            "title": "Minor Gold / David Redd",
+            "details": "Minor Gold, David Redd",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-the-back-room-kaimera",
-            "date": "2026-05-29",
-            "title": "Kaimera",
-            "details": "Kaimera",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-the-back-room-yoav-konig-quartet-with-nico-colucci-michael-potter-miles-turk",
-            "date": "2026-06-05",
-            "title": "Yoav Konig Quartet with Nico Colucci / Michael Potter / Miles Turk",
-            "details": "Yoav Konig Quartet with Nico Colucci, Michael Potter, Miles Turk",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-the-back-room-the-charles-wheal-band",
-            "date": "2026-06-06",
-            "title": "The Charles Wheal Band",
-            "details": "The Charles Wheal Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-the-back-room-michael-mcnally-and-the-time-travelers",
-            "date": "2026-06-07",
-            "title": "Michael McNally and The Time Travelers",
-            "details": "Michael McNally and The Time Travelers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-11-the-back-room-dan-navarro",
+            "date": "2026-06-11",
+            "title": "Dan Navarro",
+            "details": "Dan Navarro",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -40905,11 +41313,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-barnyard-wine-bar-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-barnyard-wine-bar-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54141"
@@ -40957,11 +41365,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.726Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-bench-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-bench-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31814"
@@ -41009,18 +41417,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-bitter-end-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-bitter-end-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4549"
           },
           {
-            "eventId": "2026-06-03-the-bitter-end-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-bitter-end-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38653"
@@ -41068,11 +41476,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-blue-light-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-blue-light-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38647"
@@ -41120,11 +41528,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-boardroom-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-boardroom-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=5494"
@@ -41172,11 +41580,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-branham-lounge-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-branham-lounge-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19335"
@@ -41224,18 +41632,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-caravan-lounge-openmic-10-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 10:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=16742"
-          },
-          {
-            "eventId": "2026-06-03-the-caravan-lounge-poetry-10-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-caravan-lounge-poetry-10-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 10:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16742"
@@ -41276,77 +41677,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.013Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-the-chapel-jacob-fred-jazz-odyssey",
-            "date": "2026-05-27",
-            "title": "Jacob Fred Jazz Odyssey",
-            "details": "Jacob Fred Jazz Odyssey",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-the-chapel-thee-marloes-thee-heart-tones",
+            "date": "2026-06-13",
+            "title": "Thee Marloes / Thee Heart Tones",
+            "details": "Thee Marloes, Thee Heart Tones / a/a 8pm/9pm",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-the-chapel-isobel-campbell-pink-mountaintops",
-            "date": "2026-05-28",
-            "title": "Isobel Campbell / Pink Mountaintops",
-            "details": "Isobel Campbell, Pink Mountaintops",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-the-chapel-allah-las-sam-blasucci",
-            "date": "2026-05-29",
-            "title": "Allah-Las / Sam Blasucci",
-            "details": "Allah-Las, Sam Blasucci",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-the-chapel-allah-las-sam-blasucci",
-            "date": "2026-05-30",
-            "title": "Allah-Las / Sam Blasucci",
-            "details": "Allah-Las, Sam Blasucci",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-the-chapel-marc-and-the-casuals-the-west-coast-spiritual-corinthians-dj-lead-teddy",
-            "date": "2026-05-31",
-            "title": "Marc & the Casuals / The West Coast Spiritual Corinthians / Lead Teddy",
-            "details": "Marc & the Casuals, The West Coast Spiritual Corinthians, DJ Lead Teddy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-the-chapel-aja-monet-pher",
-            "date": "2026-06-01",
-            "title": "Aja Monet / PHER",
-            "details": "Aja Monet, PHER",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-the-chapel-rostam-henry-solomon",
-            "date": "2026-06-03",
-            "title": "ROSTAM / Henry Solomon",
-            "details": "ROSTAM, Henry Solomon",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-the-chapel-martin-rev-dagger-polyester-vj-divine-enfant-dj-omar",
-            "date": "2026-06-04",
-            "title": "Martin Rev / Dagger Polyester / VJ Divine Enfant / Omar",
-            "details": "Martin Rev, Dagger Polyester, VJ Divine Enfant, DJ Omar",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-the-chapel-jerry-s-middle-finger",
-            "date": "2026-06-05",
-            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
-            "details": "Jerry's Middle Finger / a/a 8pm/9pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-the-chapel-jerry-s-middle-finger",
-            "date": "2026-06-06",
-            "title": "Jerry's Middle Finger / Undead Internet (visuals)",
-            "details": "Jerry's Middle Finger / a/a 8pm/9pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-upcoming-kalx-coannounce-sat-6-20-dengue-fever-the-chapel",
+            "date": "2026-06-20",
+            "title": "Dengue Fever",
+            "details": "Sat 6/20: Dengue Fever @ The Chapel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -41391,11 +41736,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-chieftain-irish-pub-and-restaurant-trivia-7-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-chieftain-irish-pub-and-restaurant-trivia-7-30pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=19707"
@@ -41443,11 +41788,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-the-clarion-sf-poetry-1-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-the-clarion-sf-poetry-1-00pm",
+            "date": "2026-06-13",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 1:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=28206"
@@ -41495,11 +41840,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-crossing-at-east-cut-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-crossing-at-east-cut-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38655"
@@ -41512,9 +41857,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "The Den At The Fox",
       "displayName": "The Den At The Fox",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "fox-theater",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "Oakland",
       "region": "",
@@ -41527,7 +41872,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into Fox Theater.",
       "links": [
         {
           "type": "badSlava",
@@ -41547,11 +41892,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-den-at-the-fox-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-den-at-the-fox-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29728"
@@ -41599,11 +41944,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-detour-trivia-7-30pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-09-the-detour-game-7-30pm",
+            "date": "2026-06-09",
+            "title": "Game Night",
+            "details": "Game night at 7:30pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57679"
+          },
+          {
+            "eventId": "2026-06-11-the-detour-trivia-7-30pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=17153"
@@ -41651,11 +42003,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-doghouse-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-doghouse-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19333"
@@ -41703,11 +42055,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-dubliner-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-dubliner-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=16436"
@@ -41720,9 +42072,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "The Fillmore",
       "displayName": "The Fillmore",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "fillmore",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "",
       "region": "",
@@ -41735,7 +42087,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into The Fillmore.",
       "links": [
         {
           "type": "search",
@@ -41748,21 +42100,14 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:17:12.098Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-the-fillmore-tk-from-ling-tosite-sigure",
-            "date": "2026-05-26",
-            "title": "Tk From Ling Tosite Sigure",
-            "details": "Tk From Ling Tosite Sigure",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-03-the-fillmore-kes",
-            "date": "2026-06-03",
-            "title": "Kes",
-            "details": "Kes",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-the-fillmore-toadies",
+            "date": "2026-06-12",
+            "title": "Toadies",
+            "details": "Toadies",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -41807,11 +42152,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-fountainhead-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-fountainhead-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=15746"
@@ -41944,70 +42289,49 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-the-freight-jazzschool-studio-band-the-jazz-garden-big-band",
-            "date": "2026-05-26",
-            "title": "Jazzschool Studio Band / The Jazz Garden Big Band",
-            "details": "Jazzschool Studio Band, The Jazz Garden Big Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-08-the-freight-bobby-mcferrin-and-motion-circlesongs",
+            "date": "2026-06-08",
+            "title": "Bobby McFerrin and MOTION: Circlesongs",
+            "details": "Bobby McFerrin and MOTION: Circlesongs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-the-freight-oscar-pe-as",
-            "date": "2026-05-28",
-            "title": "Oscar Peñas",
-            "details": "Oscar Peñas",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-the-freight-12pm-bobby-mcferrin-and-motion-circlesongs",
-            "date": "2026-06-01",
-            "title": "12pm Bobby McFerrin And Motion: Circlesongs",
-            "details": "12pm Bobby McFerrin And Motion: Circlesongs",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-the-freight-openmic-7-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=1094"
-          },
-          {
-            "eventId": "2026-06-02-the-freight-poetry-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-freight-poetry-7-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=1094"
           },
           {
-            "eventId": "2026-06-03-the-freight-the-moth-storyslam-american-dreams",
-            "date": "2026-06-03",
-            "title": "The Moth Storyslam - American Dreams",
-            "details": "The Moth Storyslam - American Dreams",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-09-the-freight-whose-live-anyway",
+            "date": "2026-06-09",
+            "title": "Whose Live Anyway?",
+            "details": "Whose Live Anyway?",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-05-the-freight-natalie-and-brittany-haas",
-            "date": "2026-06-05",
-            "title": "Natalie & Brittany Haas",
-            "details": "Natalie & Brittany Haas",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-11-the-freight-third-world-kumar-fyah",
+            "date": "2026-06-11",
+            "title": "Third World / Kumar Fyah",
+            "details": "Third World, Kumar Fyah",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-the-freight-booker-t-jones",
-            "date": "2026-06-06",
-            "title": "Booker T. Jones",
-            "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-the-freight-oakland-interfaith-gospel-choir-juneteenth-celebration",
+            "date": "2026-06-12",
+            "title": "Oakland Interfaith Gospel Choir",
+            "details": "Oakland Interfaith Gospel Choir Juneteenth Celebration",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-07-the-freight-booker-t-jones",
-            "date": "2026-06-07",
-            "title": "Booker T. Jones",
-            "details": "Booker T. Jones / a/a $49/$54 ($69/$74 premium) 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-the-freight-billie-holiday-project-featuring-stella-heath",
+            "date": "2026-06-13",
+            "title": "Stella Heath",
+            "details": "Billie Holiday Project featuring Stella Heath",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -42052,11 +42376,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-fremont-clubhouse-sportsbar-golf-club-and-event-center-trivia-6-30pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-fremont-clubhouse-sportsbar-golf-club-and-event-center-trivia-6-30pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=55270"
@@ -42104,18 +42428,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-game-parlour-game-6-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-game-parlour-game-6-00pm",
+            "date": "2026-06-10",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=34140"
           },
           {
-            "eventId": "2026-06-04-the-game-parlour-game-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-game-parlour-game-6-00pm",
+            "date": "2026-06-11",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32651"
@@ -42194,11 +42518,11 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.731Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-the-golden-bull-poetry-9-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-the-golden-bull-poetry-9-00pm",
+            "date": "2026-06-12",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27984"
@@ -42246,11 +42570,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-good-hop-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-good-hop-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29726"
@@ -42298,11 +42622,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.049Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-halfway-club-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-halfway-club-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30084"
@@ -42350,18 +42674,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-hotel-utah-saloon-openmic-7-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=1244"
-          },
-          {
-            "eventId": "2026-06-01-the-hotel-utah-saloon-poetry-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-hotel-utah-saloon-poetry-7-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=1244"
@@ -42402,56 +42719,80 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-05-26-the-independent-old-mervs-where-s-west-ra-ra-viper",
-            "date": "2026-05-26",
-            "title": "Old Mervs / Where’s West? / Ra Ra Viper",
-            "details": "Old Mervs, Where’s West?, Ra Ra Viper",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-the-independent-rave-jesus",
+            "date": "2026-06-12",
+            "title": "Rave Jesus",
+            "details": "Rave Jesus",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          }
+        ]
+      }
+    },
+    "the-jazz-school": {
+      "id": "the-jazz-school",
+      "name": "The Jazz School",
+      "displayName": "The Jazz School",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Jazz%20School%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.888Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-the-jazz-school-skills-for-independent-musicians-with-lisa-mezzacappa",
+            "date": "2026-06-08",
+            "title": "",
+            "details": "Skills For Independent Musicians With Lisa Mezzacappa",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-the-independent-ray-bull-babehoven",
-            "date": "2026-05-29",
-            "title": "Ray Bull / Babehoven",
-            "details": "Ray Bull, Babehoven",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-the-jazz-school-brown-bag-jazz-hangs",
+            "date": "2026-06-10",
+            "title": "Brown Bag Jazz Hangs",
+            "details": "Brown Bag Jazz Hangs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-the-independent-the-emo-night-tour",
-            "date": "2026-05-30",
-            "title": "The Emo Night Tour",
-            "details": "The Emo Night Tour",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-the-jazz-school-dick-conte-jazz-piano-benefit-scholarship-concert",
+            "date": "2026-06-13",
+            "title": "Dick Conte",
+            "details": "Dick Conte Jazz Piano Benefit Scholarship Concert",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-31-the-independent-jaboukie-young-white",
-            "date": "2026-05-31",
-            "title": "Jaboukie Young-White",
-            "details": "Jaboukie Young-White",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-02-the-independent-bixby-bhertuy",
-            "date": "2026-06-02",
-            "title": "Bixby / Bhertuy",
-            "details": "Bixby, Bhertuy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-the-independent-bixby-bhertuy",
-            "date": "2026-06-03",
-            "title": "Bixby / Bhertuy",
-            "details": "Bixby, Bhertuy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-the-independent-claire-rosinkranz-stevie-bill",
-            "date": "2026-06-04",
-            "title": "Claire Rosinkranz / Stevie Bill",
-            "details": "Claire Rosinkranz, Stevie Bill",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-the-jazz-school-electric-squeezebox-orchestra",
+            "date": "2026-06-14",
+            "title": "Electric Squeezebox Orchestra",
+            "details": "Electric Squeezebox Orchestra",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -42550,21 +42891,14 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-lab-juli-n-delgado-lopera-pretend-you-re-dead",
-            "date": "2026-06-04",
-            "title": "Julián Delgado Lopera: Pretend You're Dead!",
-            "details": "Julián Delgado Lopera: Pretend You're Dead!",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-the-lab-weston-olencki-ava-koohbor",
-            "date": "2026-06-06",
-            "title": "Weston Olencki / Ava Koohbor",
-            "details": "Weston Olencki, Ava Koohbor",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-the-lab-bill-basquin-lori-goldston-phil-perkins",
+            "date": "2026-06-13",
+            "title": "Bill Basquin / Lori Goldston / Phil Perkins",
+            "details": "Bill Basquin, Lori Goldston, Phil Perkins",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -42609,25 +42943,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-legionnaire-saloon-karaoke-8-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-legionnaire-saloon-karaoke-8-30pm",
+            "date": "2026-06-08",
             "title": "Karaoke",
             "details": "Karaoke at 8:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=46537"
           },
           {
-            "eventId": "2026-06-01-the-legionnaire-saloon-openmic-7-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27985"
-          },
-          {
-            "eventId": "2026-06-01-the-legionnaire-saloon-poetry-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-legionnaire-saloon-poetry-7-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27985"
@@ -42675,11 +43002,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-liberties-trivia-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-liberties-trivia-7-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38658"
@@ -42727,77 +43054,101 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.990Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-the-lost-church-tony-sparks-danny-dechi-benjamin-steinberg",
-            "date": "2026-05-27",
-            "title": "Tony Sparks / Danny Dechi / Benjamin Steinberg",
-            "details": "Tony Sparks, Danny Dechi, Benjamin Steinberg",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-the-lost-church-san-miguel-fraser-m-glivry-allen",
+            "date": "2026-06-10",
+            "title": "San Miguel Fraser / M’Glivry Allen",
+            "details": "San Miguel Fraser, M’Glivry Allen",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-the-lost-church-armando-anto",
-            "date": "2026-05-29",
-            "title": "Armando Anto",
-            "details": "Armando Anto",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-the-lost-church-bailey-blanton-meloncollie",
-            "date": "2026-05-30",
-            "title": "Bailey Blanton / MelonCollie",
-            "details": "Bailey Blanton, MelonCollie",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-the-lost-church-the-tofanas-duygu-friends",
-            "date": "2026-05-31",
-            "title": "The Tofanas / Duygu / Friends",
-            "details": "The Tofanas, Duygu, Friends",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-the-lost-church-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19431"
-          },
-          {
-            "eventId": "2026-06-04-the-lost-church-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-lost-church-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19431"
           },
           {
-            "eventId": "2026-06-04-the-lost-church-the-glass-key-trio-rewards-program",
-            "date": "2026-06-04",
-            "title": "The Glass Key Trio / Rewards Program",
-            "details": "The Glass Key Trio, Rewards Program",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-11-the-lost-church-you-re-going-to-die",
+            "date": "2026-06-11",
+            "title": "You’re Going to Die",
+            "details": "You’re Going to Die",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-05-the-lost-church-the-hot-licks-music-of-dan-hicks",
-            "date": "2026-06-05",
-            "title": "The Hot Licks (music of Dan Hicks)",
-            "details": "The Hot Licks (music of Dan Hicks)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-12-the-lost-church-lucy-clearwater-gillian-grogan",
+            "date": "2026-06-12",
+            "title": "Lucy Clearwater / Gillian Grogan",
+            "details": "Lucy Clearwater, Gillian Grogan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-06-the-lost-church-the-set-up-comedy-show",
-            "date": "2026-06-06",
-            "title": "The Set Up Comedy Show",
-            "details": "The Set Up Comedy Show",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-13-the-lost-church-the-setup",
+            "date": "2026-06-13",
+            "title": "The Setup",
+            "details": "The Setup",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-06-07-the-lost-church-the-oldest-profession-written-and-performed-by-kaytlin-bailey",
-            "date": "2026-06-07",
-            "title": "The Oldest Profession written and performed by Kaytlin Bailey",
-            "details": "The Oldest Profession written and performed by Kaytlin Bailey",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-the-lost-church-lily-vakili-matt-herrero",
+            "date": "2026-06-14",
+            "title": "Lily Vakili / Matt Herrero",
+            "details": "Lily Vakili, Matt Herrero",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          }
+        ]
+      }
+    },
+    "the-masonic": {
+      "id": "the-masonic",
+      "name": "The Masonic",
+      "displayName": "The Masonic",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Masonic%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.898Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-13-the-masonic-jim-gaffigan",
+            "date": "2026-06-13",
+            "title": "Jim Gaffigan",
+            "details": "Jim Gaffigan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-the-masonic-jim-gaffigan",
+            "date": "2026-06-14",
+            "title": "",
+            "details": "Jim Gaffigan",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -42842,11 +43193,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-mint-karaoke-lounge-karaoke-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-mint-karaoke-lounge-karaoke-8-00pm",
+            "date": "2026-06-08",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46528"
@@ -42929,32 +43280,18 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-monkey-house-openmic-7-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=34342"
-          },
-          {
-            "eventId": "2026-06-03-the-monkey-house-poetry-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-monkey-house-poetry-7-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=34342"
           },
           {
-            "eventId": "2026-06-04-the-monkey-house-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=37993"
-          },
-          {
-            "eventId": "2026-06-04-the-monkey-house-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-monkey-house-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=37993"
@@ -43002,18 +43339,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.719Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-new-parish-openmic-8-00pm",
-            "date": "2026-06-01",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27979"
-          },
-          {
-            "eventId": "2026-06-01-the-new-parish-poetry-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-new-parish-poetry-8-00pm",
+            "date": "2026-06-08",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27979"
@@ -43061,11 +43391,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-new-parkway-theater-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-new-parkway-theater-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29733"
@@ -43113,18 +43443,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-oakland-metro-operahouse-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=31391"
-          },
-          {
-            "eventId": "2026-06-03-the-oakland-metro-operahouse-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-oakland-metro-operahouse-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31391"
@@ -43172,11 +43495,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-old-wagon-saloon-and-grill-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-old-wagon-saloon-and-grill-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18376"
@@ -43224,11 +43547,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-pig-and-whistle-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-pig-and-whistle-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14361"
@@ -43326,28 +43649,14 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-08T23:28:52.146Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-the-planetarium-fistfight-with-traffic-left-on-read-towhead-heavy-lifter",
-            "date": "2026-05-27",
-            "title": "Fistfight With Traffic / Left on Read / towhead / Heavy Lifter",
-            "details": "Fistfight With Traffic, Left on Read, towhead, Heavy Lifter",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-the-planetarium-lorraine-background-character-tocca-the-secretary",
-            "date": "2026-05-29",
-            "title": "Lorraine / Background Character / Tocca / The Secretary",
-            "details": "Lorraine, Background Character, Tocca, The Secretary",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-05-the-planetarium-parting-gift-esex-mypilotis-fistfight-with-traffic-grimmer",
-            "date": "2026-06-05",
-            "title": "Parting Gift / eSex / Mypilotis / Fistfight with Traffic / Grimmer",
-            "details": "Parting Gift, eSex, Mypilotis, Fistfight with Traffic, Grimmer",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-the-planetarium-machine-country-luv-crohns-greyhound-blood-compact",
+            "date": "2026-06-14",
+            "title": "Machine Country / LUV / Crohns / Greyhound / Blood Compact",
+            "details": "Machine Country, LUV, Crohns, Greyhound, Blood Compact",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -43392,11 +43701,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-plex-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-plex-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19332"
@@ -43444,14 +43753,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-red-tail-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-red-tail-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38669"
+          }
+        ]
+      }
+    },
+    "the-refuge-san-mateo": {
+      "id": "the-refuge-san-mateo",
+      "name": "The Refuge (San Mateo)",
+      "displayName": "The Refuge (San Mateo)",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "San Mateo",
+      "region": "",
+      "address": "66 31st Ave San Mateo CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=57839",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Refuge%20(San%20Mateo)%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.888Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-the-refuge-san-mateo-trivia-6-00pm",
+            "date": "2026-06-08",
+            "title": "Trivia Night",
+            "details": "Trivia night at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=57839"
           }
         ]
       }
@@ -43569,18 +43930,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-ritz-openmic-8-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=18372"
-          },
-          {
-            "eventId": "2026-06-02-the-ritz-poetry-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-ritz-poetry-8-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18372"
@@ -43628,11 +43982,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-rumpus-room-karaoke-9-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-rumpus-room-karaoke-9-00pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46530"
@@ -43680,11 +44034,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.998Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-sage-and-drifter-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-sage-and-drifter-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38674"
@@ -43732,11 +44086,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-san-francisco-mint-karaoke-9-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-san-francisco-mint-karaoke-9-00pm",
+            "date": "2026-06-11",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46419"
@@ -43784,25 +44138,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.982Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-sea-star-trivia-7-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-sea-star-trivia-7-30pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=16434"
           },
           {
-            "eventId": "2026-06-03-the-sea-star-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=19433"
-          },
-          {
-            "eventId": "2026-06-03-the-sea-star-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-sea-star-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19433"
@@ -43850,63 +44197,108 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-06-06T20:52:47.991Z",
+        "lastImportedAt": "2026-06-09T00:28:16.012Z",
         "appearances": [
           {
-            "eventId": "2026-05-27-the-sound-room-storyslam-oakland",
-            "date": "2026-05-27",
-            "title": "StorySlam Oakland",
-            "details": "StorySlam Oakland",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-the-sound-room-nathan-nakadegawa-lee-kaz-george-group",
+            "date": "2026-06-11",
+            "title": "Kaz George Group / Nathan Nakadegawa-Lee",
+            "details": "Nathan Nakadegawa-Lee, Kaz George Group",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-the-sound-room-jules-leyhe-and-the-family-jules-adam-levy",
-            "date": "2026-05-28",
-            "title": "Jules Leyhe & The Family Jules / Adam Levy",
-            "details": "Jules Leyhe & The Family Jules, Adam Levy",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-the-sound-room-the-jazz-mafia-celebrate-the-music-of-prince",
+            "date": "2026-06-12",
+            "title": "The Jazz Mafia Celebrate the Music of Prince",
+            "details": "The Jazz Mafia Celebrate the Music of Prince",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-the-sound-room-mads-tolling-and-sam-reider-django-to-tango",
-            "date": "2026-05-29",
-            "title": "Mads Tolling & Sam Reider: Django to Tango",
-            "details": "Mads Tolling & Sam Reider: Django to Tango",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-the-sound-room-mark-hummel-band",
+            "date": "2026-06-13",
+            "title": "Mark Hummel Band",
+            "details": "Mark Hummel Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-30-the-sound-room-kenny-washington-quartet",
-            "date": "2026-05-30",
-            "title": "Kenny Washington Quartet",
-            "details": "Kenny Washington Quartet",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-the-sound-room-the-gabriel-schillinger-hyman-trio-with-tawanda-suessbrich-joaquim",
-            "date": "2026-06-04",
-            "title": "The Gabriel Schillinger-Hyman Trio with Tawanda Suessbrich-Joaquim",
-            "details": "The Gabriel Schillinger-Hyman Trio with Tawanda Suessbrich-Joaquim",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-the-sound-room-the-isaac-schwartztet-plays-the-music-of-wayne-shorter",
-            "date": "2026-06-05",
-            "title": "The Isaac Schwartztet plays the Music of Wayne Shorter",
-            "details": "The Isaac Schwartztet plays the Music of Wayne Shorter",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-the-sound-room-marina-crouse-my-favorite-things",
-            "date": "2026-06-06",
-            "title": "Marina Crouse: My Favorite Things",
-            "details": "Marina Crouse: My Favorite Things",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-the-sound-room-poetry-7-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-the-sound-room-poetry-7-00pm",
+            "date": "2026-06-14",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18676"
+          }
+        ]
+      }
+    },
+    "the-starry-plough": {
+      "id": "the-starry-plough",
+      "name": "The Starry Plough",
+      "displayName": "The Starry Plough",
+      "aliases": [],
+      "confidence": "rejected",
+      "mergedInto": "starry-plough",
+      "status": "inactive",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "Merged into The Starry Plough.",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Starry%20Plough%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.888Z",
+        "lastImportedAt": "2026-06-09T00:28:16.013Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-the-starry-plough-irish-c-ili-dance-with-live-band",
+            "date": "2026-06-08",
+            "title": "",
+            "details": "Irish Céili Dance with live band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-09-the-starry-plough-open-mic",
+            "date": "2026-06-09",
+            "title": "Open Mic",
+            "details": "Open Mic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-10-the-starry-plough-berkeley-poetry-slam",
+            "date": "2026-06-10",
+            "title": "Berkeley Poetry Slam",
+            "details": "Berkeley Poetry Slam",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-11-the-starry-plough-free-funk-glory-jams",
+            "date": "2026-06-11",
+            "title": "Free Funk Glory Jams",
+            "details": "Free Funk Glory Jams",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-14-the-starry-plough-irish-session",
+            "date": "2026-06-14",
+            "title": "",
+            "details": "Irish Session",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -43916,9 +44308,9 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "The Starry Plough Pub",
       "displayName": "The Starry Plough Pub",
       "aliases": [],
-      "confidence": "review",
-      "mergedInto": "",
-      "status": "unknown",
+      "confidence": "rejected",
+      "mergedInto": "starry-plough",
+      "status": "inactive",
       "venueType": "unknown",
       "city": "Berkeley",
       "region": "",
@@ -43931,7 +44323,7 @@ window.SHOW_EXPLORER_VENUES = {
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
-      "reviewNotes": "",
+      "reviewNotes": "Merged into The Starry Plough.",
       "links": [
         {
           "type": "badSlava",
@@ -43951,18 +44343,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-starry-plough-pub-openmic-8-00pm",
-            "date": "2026-06-02",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=2026"
-          },
-          {
-            "eventId": "2026-06-02-the-starry-plough-pub-poetry-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-starry-plough-pub-poetry-8-00pm",
+            "date": "2026-06-09",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=2026"
@@ -44010,18 +44395,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-station-public-house-openmic-8-00pm",
-            "date": "2026-06-03",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=31813"
-          },
-          {
-            "eventId": "2026-06-03-the-station-public-house-poetry-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-station-public-house-poetry-8-00pm",
+            "date": "2026-06-10",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31813"
@@ -44069,18 +44447,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-the-stork-club-openmic-8-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 8:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=27986"
-          },
-          {
-            "eventId": "2026-06-04-the-stork-club-poetry-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-stork-club-poetry-8-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=27986"
@@ -44128,11 +44499,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.048Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-the-sycamore-trivia-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-the-sycamore-trivia-7-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14363"
@@ -44180,11 +44551,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-table-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-table-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31269"
@@ -44232,11 +44603,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-the-temple-bar-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-the-temple-bar-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32264"
@@ -44284,11 +44655,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-terrace-room-events-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-terrace-room-events-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=39421"
@@ -44336,11 +44707,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.734Z",
-        "lastImportedAt": "2026-06-06T20:52:47.991Z",
+        "lastImportedAt": "2026-06-09T00:28:16.013Z",
         "appearances": [
           {
-            "eventId": "2026-06-07-the-uptown-karaoke-8-00pm",
-            "date": "2026-06-07",
+            "eventId": "2026-06-14-the-uptown-karaoke-8-00pm",
+            "date": "2026-06-14",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46420"
@@ -44388,18 +44759,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-vesper-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-vesper-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31145"
           },
           {
-            "eventId": "2026-06-04-the-vesper-karaoke-8-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-the-vesper-karaoke-8-00pm",
+            "date": "2026-06-11",
             "title": "Karaoke",
             "details": "Karaoke at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=31749"
@@ -44447,11 +44818,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-the-willows-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-the-willows-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14366"
@@ -44558,84 +44929,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-06T20:52:48.032Z",
+        "lastImportedAt": "2026-06-09T00:28:16.054Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-thee-stork-club-telehealth-street-eaters-squiggle",
-            "date": "2026-05-26",
-            "title": "Telehealth / Street Eaters / Squiggle",
-            "details": "Telehealth, Street Eaters, Squiggle",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-28-thee-stork-club-ms-smith-dj-sets-by-ms-smith-tom-marsi-finishher",
-            "date": "2026-05-28",
-            "title": "MS.SMITH / sets by MS. SMITH / Tom Marsi / FinishHer",
-            "details": "MS.SMITH, DJ sets by MS. SMITH, Tom Marsi, FinishHer",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-29-thee-stork-club-late-to-the-party",
-            "date": "2026-05-29",
-            "title": "Late to the Party",
-            "details": "Late to the Party",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-thee-stork-club-the-darts-service-pretty-frankenstein",
-            "date": "2026-05-30",
-            "title": "The Darts / Service / Pretty Frankenstein",
-            "details": "The Darts, Service, Pretty Frankenstein",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-thee-stork-club-freakyoke-karaoke",
-            "date": "2026-06-01",
-            "title": "Freakyoke Karaoke",
-            "details": "Freakyoke Karaoke",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-thee-stork-club-marble-eye-record-release",
-            "date": "2026-06-04",
-            "title": "Marble Eye (record release) / Sympathy Flowers / Animal Planet / dj Slyida B",
-            "details": "21+ $12/$15 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-04-thee-stork-club-marbled-eye-sympathy-flowers-animal-planet-dj-sly-ida",
-            "date": "2026-06-04",
-            "title": "Marbled Eye / Sympathy Flowers / Animal Planet / Sly Ida",
-            "details": "Marbled Eye, Sympathy Flowers, Animal Planet, DJ Sly Ida",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-thee-stork-club-hunx-and-his-punx-slippers",
-            "date": "2026-06-06",
-            "title": "Hunx and His Punx / Slippers",
-            "details": "Hunx and His Punx, Slippers / 21+ $28/$30 8pm (sold out)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-thee-stork-club-zoe-fitzgerald-carter",
-            "date": "2026-06-07",
-            "title": "Zoe Fitzgerald Carter / Deborah Crooks / Tori Roze And The Hot Mess",
-            "details": "21+ $18/$20 6pm/7pm / Zoe Fitzgerald Carter, Deborah Crooks, Tori Roze & the Hot Mess",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-11-thee-stork-club-the-heeters-record-release",
             "date": "2026-06-11",
-            "title": "The Heeters (record release) / Wren & Juniper Ingber",
+            "title": "The Heeters / Wren & Juniper Ingber",
             "details": "21+ $15/$20 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
-            "eventId": "2026-06-12-thee-stork-club-valley-wolf",
+            "eventId": "2026-06-11-thee-stork-club-valley-wolf-philthy-dronez-el-pecado-de-juana",
             "date": "2026-06-12",
-            "title": "Valley Wolf / Philthy Dronez / Pecado De Juana / dj Lizzy al Toque",
-            "details": "21+ $18/$20 8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "title": "Valley Wolf / Philthy Dronez / El Pecado de Juana / dj Lizzy al Toque",
+            "details": "21+ $18/$20 8pm / Valley Wolf, Philthy Dronez, El Pecado de Juana",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          },
+          {
+            "eventId": "2026-06-13-thee-stork-club-the-juice-brother-dan-lifesize-caleb-the-grouch-dj",
+            "date": "2026-06-13",
+            "title": "The Juice / Brother Dan / Lifesize Caleb / The Grouch DJ",
+            "details": "The Juice, Brother Dan, Lifesize Caleb, The Grouch DJ",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-17-thee-stork-club-problems",
@@ -44705,6 +45020,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-17",
             "title": "Vivian Girls / Snooper / dj Mercaz Worldwide",
             "details": "21+ $29 10pm (Mosswood Meltdown afterparty)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-18-thee-stork-club-the-dirtbombs",
+            "date": "2026-07-18",
+            "title": "The Dirtbombs / The Husbands / dj Pete Slovenly",
+            "details": "21+ $31.96 10pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -44827,11 +45149,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-thirsty-bar-trivia-6-30pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-thirsty-bar-trivia-6-30pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 6:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=57489"
@@ -44867,19 +45189,26 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Thrillhouse%20Records%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
+          "confidence": "verified",
+          "source": "the list"
         }
       ],
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:47.962Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-thrillhouse-records-war-of-knives-all-to-the-grave-ratfuck-skolp-phatality-bbq-beard",
-            "date": "2026-05-25",
-            "title": "War Of Knives / All To The Grave / Ratfuck / Skolp / Phatality / BBQ Beard",
-            "details": "War Of Knives, All To The Grave, Ratfuck, Skolp, Phatality, BBQ Beard",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-08-09-thrillhouse-records-futile-demise",
+            "date": "2026-08-09",
+            "title": "Futile Demise / Braintooth / Obct / Ragweed / Sunshine",
+            "details": "a/a $10-$15 4:30pm/5pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -44924,13 +45253,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-06-06T20:52:47.995Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
             "eventId": "2026-06-13-thunder-valley-the-chicks",
             "date": "2026-06-13",
             "title": "The Chicks",
-            "details": "21+ (13-20 with adult) 8pm",
+            "details": "21+ (13-20 with adult) 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -44976,11 +45305,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-timeout-tavern-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-timeout-tavern-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38673"
@@ -45028,11 +45357,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-06T20:52:47.971Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-tipsy-putt-karaoke-7-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-tipsy-putt-karaoke-7-00pm",
+            "date": "2026-06-08",
             "title": "Karaoke",
             "details": "Karaoke at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=47969"
@@ -45080,11 +45409,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-06T20:52:47.972Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-trials-pub-trivia-8-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-trials-pub-trivia-8-00pm",
+            "date": "2026-06-08",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57506"
@@ -45132,11 +45461,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.723Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-tupelo-karaoke-9-30pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-tupelo-karaoke-9-30pm",
+            "date": "2026-06-09",
             "title": "Karaoke",
             "details": "Karaoke at 9:30pm",
             "sourceUrl": "https://badslava.com/details.php?id=14224"
@@ -45184,11 +45513,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-two-pitchers-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-two-pitchers-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=18677"
@@ -45419,7 +45748,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
           {
             "eventId": "2026-06-23-uc-theater-boa",
@@ -45447,6 +45776,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-07-11",
             "title": "Babyface Ray / 42 Dugg",
             "details": "a/a $53 ($214 vip) 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-07-25-uc-theater-brandee-younger",
+            "date": "2026-07-25",
+            "title": "Brandee Younger",
+            "details": "a/a $46 ($75/$63 seated) 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -45480,8 +45816,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-02-uc-theater-death-from-above",
             "date": "2026-10-02",
-            "title": "Death From Above / 1979",
+            "title": "Death From Above / 1979 / Death From Above 1979 / Rickshaw Billie's Burger Patrol",
             "details": "a/a $39.50 7pm/8pm til 11pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-03-uc-theater-castle-rat",
+            "date": "2026-10-03",
+            "title": "Castle Rat / Unto Others / Wraith Knight",
+            "details": "a/a $37 6:30pm/7:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -45524,6 +45867,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-23",
             "title": "Basement / High Vis / Big Boy / First Day Back",
             "details": "a/a $39.50 6pm/7pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-06-uc-theater-plini",
+            "date": "2026-11-06",
+            "title": "Plini / Portraits / Night Verses",
+            "details": "a/a $36 6pm/7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -45663,11 +46013,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.053Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-underdogs-tres-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-underdogs-tres-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38644"
@@ -45858,40 +46208,33 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-06T20:52:48.014Z",
+        "lastImportedAt": "2026-06-09T00:28:16.031Z",
         "appearances": [
-          {
-            "eventId": "2026-05-30-up-the-creek-records-tektonic-lost-marakas-blue-indeed",
-            "date": "2026-05-30",
-            "title": "Tektonic / Lost Marakas / Blue Indeed",
-            "details": "Tektonic, Lost Marakas, Blue Indeed",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-06-up-the-creek-records-the-bonstones",
-            "date": "2026-06-06",
-            "title": "The Bonstones / K-C & The Clamps / Pinoles",
-            "details": "a/a $15 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-12-up-the-creek-records-school-of-rock-walnut-creek-house-band",
             "date": "2026-06-12",
             "title": "School Of Rock Walnut Creek House Band",
-            "details": "a/a $15 sliding scale 6pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "details": "School Of Rock Walnut Creek House Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
             "eventId": "2026-06-13-up-the-creek-records-used-to-be-valentines",
             "date": "2026-06-13",
             "title": "Used To Be Valentines / Lazer Beam / East Bay Soup Kitchen",
-            "details": "a/a $15 sliding scale 6pm til 9pm",
+            "details": "a/a $15 sliding scale 6pm til 9pm / Used To Be Valentines, Lazer Beam, East Bay Soup Kitchen",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-06-19-up-the-creek-records-jaewalker",
             "date": "2026-06-19",
             "title": "Jaewalker / Tehmodhjin / Low Life Coach,",
+            "details": "a/a $15 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-06-27-up-the-creek-records-box-of-matches",
+            "date": "2026-06-27",
+            "title": "Box Of Matches / Wolfchild / Masked Jestures",
             "details": "a/a $15 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -45918,6 +46261,52 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       }
+    },
+    "upcoming-kalx-coannounce": {
+      "id": "upcoming-kalx-coannounce",
+      "name": "Upcoming KALX Coannounce",
+      "displayName": "Upcoming KALX Coannounce",
+      "aliases": [],
+      "confidence": "rejected",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Upcoming%20KALX%20Coannounce%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.906Z",
+        "lastImportedAt": "2026-06-08T23:30:36.289Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-14-upcoming-kalx-coannounce-sat-6-20-dengue-fever-the-chapel",
+            "date": "2026-06-14",
+            "title": "Sat 6/20: Dengue Fever @ The Chapel",
+            "details": "Sat 6/20: Dengue Fever @ The Chapel",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
+          }
+        ]
+      },
+      "updatedAt": "2026-06-08T23:42:22.952Z"
     },
     "uproar-brewing-company": {
       "id": "uproar-brewing-company",
@@ -45959,14 +46348,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-uproar-brewing-company-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-uproar-brewing-company-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=57470"
+          }
+        ]
+      }
+    },
+    "uptown-station": {
+      "id": "uptown-station",
+      "name": "Uptown Station",
+      "displayName": "Uptown Station",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "Oakland",
+      "region": "",
+      "address": "1955 Broadway Oakland CA",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "badSlava",
+          "label": "BadSlava",
+          "url": "https://badslava.com/details.php?id=15760",
+          "confidence": "verified",
+          "source": "badslava"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Uptown%20Station%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.888Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-08-uptown-station-poetry-6-00pm",
+            "date": "2026-06-08",
+            "title": "Poetry Open Mic",
+            "details": "Poetry open mic at 6:00pm",
+            "sourceUrl": "https://badslava.com/details.php?id=15760"
           }
         ]
       }
@@ -46097,7 +46538,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.031Z",
+        "lastImportedAt": "2026-06-09T00:28:16.052Z",
         "appearances": [
           {
             "eventId": "2026-06-09-uptown-theater-blackberry-smoke",
@@ -46285,11 +46726,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-valley-tavern-trivia-8-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-valley-tavern-trivia-8-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=4551"
@@ -46337,7 +46778,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.883Z",
-        "lastImportedAt": "2026-06-06T20:52:48.003Z",
+        "lastImportedAt": "2026-06-09T00:28:16.019Z",
         "appearances": [
           {
             "eventId": "2026-06-27-veterans-memorial-hyoerdrive-kittens",
@@ -46389,11 +46830,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.054Z",
-        "lastImportedAt": "2026-06-06T20:52:47.987Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
         "appearances": [
           {
-            "eventId": "2026-06-05-victory-hall-and-parlor-trivia-7-00pm",
-            "date": "2026-06-05",
+            "eventId": "2026-06-12-victory-hall-and-parlor-trivia-7-00pm",
+            "date": "2026-06-12",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=19093"
@@ -46441,11 +46882,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-06T20:52:47.972Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-victory-point-cafe-game-6-00pm",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-victory-point-cafe-game-6-00pm",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=47178"
@@ -46495,7 +46936,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-06-06T20:52:48.000Z",
+        "lastImportedAt": "2026-06-09T00:28:16.016Z",
         "appearances": [
           {
             "eventId": "2026-06-20-vinnie-s-rusty-chains-tribute",
@@ -46633,36 +47074,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-06T20:52:48.039Z",
+        "lastImportedAt": "2026-06-09T00:28:16.060Z",
         "appearances": [
-          {
-            "eventId": "2026-05-26-warfield-wale-and-smino",
-            "date": "2026-05-26",
-            "title": "Wale & Smino",
-            "details": "Wale & Smino",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-04-warfield-clara-la-san-sausha",
-            "date": "2026-06-04",
-            "title": "Clara La San / Sausha",
-            "details": "Clara La San, Sausha",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-warfield-clara-la-san",
-            "date": "2026-06-04",
-            "title": "Clara La San / Sausha",
-            "details": "6+ 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-06-05-warfield-the-human-league",
-            "date": "2026-06-05",
-            "title": "The Human League / Soft Cell / Alison Moyet",
-            "details": "6+ 7pm/8pm # / The Human League, Soft Cell, Alison Moyet / Hi, I'm Michael Baker. The Human League were an inspiration to Soft Cell in 1979 and at last are together on tour. Joining them will be the brilliant artist Alison Moyet to complete what will be a once in a lifetime tour.",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-06-24-warfield-the-kevin-langue-show",
             "date": "2026-06-24",
@@ -46724,6 +47137,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-10",
             "title": "Blood Orange",
             "details": "6+ 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-warfield-blood-orange",
+            "date": "2026-09-11",
+            "title": "Blood Orange",
+            "details": "a/a 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -46799,8 +47219,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-07-warfield-we-the-dresden-dolls",
             "date": "2026-10-07",
-            "title": "we The Dresden Dolls",
+            "title": "we The Dresden Dolls / The Dresden Dolls",
             "details": "6+ $61.47-$49.90 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-08-warfield-jo1",
+            "date": "2026-10-08",
+            "title": "Jo1",
+            "details": "6:30pm/7:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -46909,7 +47336,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-06-06T20:52:48.032Z",
+        "lastImportedAt": "2026-06-09T00:28:16.053Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -47068,7 +47495,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-06-06T20:52:48.037Z",
+        "lastImportedAt": "2026-06-09T00:28:16.059Z",
         "appearances": [
           {
             "eventId": "2026-06-20-warriors-stadium-diljit-dosanjh",
@@ -47218,7 +47645,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.895Z",
-        "lastImportedAt": "2026-06-06T20:52:48.017Z",
+        "lastImportedAt": "2026-06-09T00:28:16.033Z",
         "appearances": [
           {
             "eventId": "2026-08-08-warriros-stadium-neggab-trainor",
@@ -47270,11 +47697,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.720Z",
-        "lastImportedAt": "2026-06-06T20:52:47.972Z",
+        "lastImportedAt": "2026-06-09T00:28:15.995Z",
         "appearances": [
           {
-            "eventId": "2026-06-01-western-addition-branch-library-game-10-00am",
-            "date": "2026-06-01",
+            "eventId": "2026-06-08-western-addition-branch-library-game-10-00am",
+            "date": "2026-06-08",
             "title": "Game Night",
             "details": "Game night at 10:00am",
             "sourceUrl": "https://badslava.com/details.php?id=46492"
@@ -47322,11 +47749,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-westwood-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-westwood-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38656"
@@ -47374,11 +47801,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-wheelhouse-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-wheelhouse-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30086"
@@ -47492,25 +47919,18 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.727Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-whirlows-trivia-7-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-whirlows-trivia-7-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=35864"
           },
           {
-            "eventId": "2026-06-04-whirlows-openmic-7-00pm",
-            "date": "2026-06-04",
-            "title": "Open Mic",
-            "details": "Open mic at 7:00pm",
-            "sourceUrl": "https://badslava.com/details.php?id=32801"
-          },
-          {
-            "eventId": "2026-06-04-whirlows-poetry-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-whirlows-poetry-7-00pm",
+            "date": "2026-06-11",
             "title": "Poetry Open Mic",
             "details": "Poetry open mic at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=32801"
@@ -47662,11 +48082,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
-        "lastImportedAt": "2026-06-06T20:52:47.989Z",
+        "lastImportedAt": "2026-06-09T00:28:16.011Z",
         "appearances": [
           {
-            "eventId": "2026-06-06-willow-den-public-house-karaoke-9-00pm",
-            "date": "2026-06-06",
+            "eventId": "2026-06-13-willow-den-public-house-karaoke-9-00pm",
+            "date": "2026-06-13",
             "title": "Karaoke",
             "details": "Karaoke at 9:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=46525"
@@ -47722,6 +48142,51 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Black Gold Sun / Tits On A Bull / Three Reefs Deep / Polesmoker / Erik Core / Beatcuntz / Polthene Pam / TraumaCheeze",
             "details": "21+ noon (post Pacifica Pride Party)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "winter-s-tavern": {
+      "id": "winter-s-tavern",
+      "name": "Winter's Tavern",
+      "displayName": "Winter's Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Winter's%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.904Z",
+        "lastImportedAt": "2026-06-09T00:28:16.009Z",
+        "appearances": [
+          {
+            "eventId": "2026-06-12-winter-s-tavern-the-f-ckoffs-glowing-brain-vexxyl-yam",
+            "date": "2026-06-12",
+            "title": "The F*ckoffs / Glowing Brain / Vexxyl / YaM",
+            "details": "The F*ckoffs, Glowing Brain, Vexxyl, YaM",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -47802,7 +48267,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-06-06T20:52:48.019Z",
+        "lastImportedAt": "2026-06-09T00:28:16.035Z",
         "appearances": [
           {
             "eventId": "2026-06-27-winters-tavern-mfg-midnight",
@@ -47816,6 +48281,58 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-08-15",
             "title": "The Creepy Crawlies / The Hyperdrive Kittens / Mermaid & The Crashers / Fuzz Attack / Touch Me Hooker / Lost Puppy Forever / The Sin-O-Matics / Agony Ants / Durango Dogs Catherine DeNuvaring / Charm World",
             "details": "21+ 1pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "woodacre-improvement-club": {
+      "id": "woodacre-improvement-club",
+      "name": "Woodacre Improvement Club",
+      "displayName": "Woodacre Improvement Club",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#woodacre_improvement_club",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Woodacre%20Improvement%20Club%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-06-08T22:22:50.923Z",
+        "lastImportedAt": "2026-06-09T00:28:16.027Z",
+        "appearances": [
+          {
+            "eventId": "2026-07-18-woodacre-improvement-club-wreckless-stranger",
+            "date": "2026-07-18",
+            "title": "Wreckless Stranger",
+            "details": "a/a free 11am",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -47861,11 +48378,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.053Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-woodbury-trivia-7-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-woodbury-trivia-7-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=30964"
@@ -47913,11 +48430,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
-        "lastImportedAt": "2026-06-06T20:52:47.978Z",
+        "lastImportedAt": "2026-06-09T00:28:15.999Z",
         "appearances": [
           {
-            "eventId": "2026-06-02-would-you-believe-trivia-7-00pm",
-            "date": "2026-06-02",
+            "eventId": "2026-06-09-would-you-believe-trivia-7-00pm",
+            "date": "2026-06-09",
             "title": "Trivia Night",
             "details": "Trivia night at 7:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=38677"
@@ -48206,105 +48723,42 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-06-06T20:52:47.991Z",
+        "lastImportedAt": "2026-06-09T00:28:16.013Z",
         "appearances": [
           {
-            "eventId": "2026-05-25-yoshi-s-kevin-moore-carl-wheeler",
-            "date": "2026-05-25",
-            "title": "Kevin Moore / Carl Wheeler",
-            "details": "Kevin Moore, Carl Wheeler",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-10-yoshi-s-juju-s-burlesque",
+            "date": "2026-06-10",
+            "title": "Juju's Burlesque",
+            "details": "Juju's Burlesque",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-26-yoshi-s-jonathan-lyte",
-            "date": "2026-05-26",
-            "title": "Jonathan Lyte",
-            "details": "Jonathan Lyte",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-11-yoshi-s-kim-waters",
+            "date": "2026-06-11",
+            "title": "Kim Waters",
+            "details": "Kim Waters",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-27-yoshi-s-miguel-zen-n-quartet",
-            "date": "2026-05-27",
-            "title": "Miguel Zenón Quartet",
-            "details": "Miguel Zenón Quartet",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-12-yoshi-s-arturo-sandoval",
+            "date": "2026-06-12",
+            "title": "Arturo Sandoval",
+            "details": "Arturo Sandoval",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-28-yoshi-s-stella-cole",
-            "date": "2026-05-28",
-            "title": "Stella Cole",
-            "details": "Stella Cole",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
+            "eventId": "2026-06-13-yoshi-s-arturo-sandoval",
+            "date": "2026-06-13",
+            "title": "Arturo Sandoval",
+            "details": "Arturo Sandoval",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           },
           {
-            "eventId": "2026-05-29-yoshi-s-stella-cole",
-            "date": "2026-05-29",
-            "title": "Stella Cole",
-            "details": "Stella Cole",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-30-yoshi-s-eric-darius",
-            "date": "2026-05-30",
-            "title": "Eric Darius",
-            "details": "Eric Darius",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-05-31-yoshi-s-that-70-s-flow",
-            "date": "2026-05-31",
-            "title": "That 70's Flow",
-            "details": "That 70's Flow",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-may-25-31-2026/"
-          },
-          {
-            "eventId": "2026-06-01-yoshi-s-make-me-laugh-monday",
-            "date": "2026-06-01",
-            "title": "Make Me Laugh Monday",
-            "details": "Make Me Laugh Monday",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-02-yoshi-s-smooth-jazz-alley",
-            "date": "2026-06-02",
-            "title": "Smooth Jazz Alley",
-            "details": "Smooth Jazz Alley",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-03-yoshi-s-el-cerrito-high-school-jazz-bands",
-            "date": "2026-06-03",
-            "title": "El Cerrito High School Jazz Bands",
-            "details": "El Cerrito High School Jazz Bands",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-04-yoshi-s-lindsey-webster",
-            "date": "2026-06-04",
-            "title": "Lindsey Webster",
-            "details": "Lindsey Webster",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-05-yoshi-s-kevin-ross",
-            "date": "2026-06-05",
-            "title": "Kevin Ross",
-            "details": "Kevin Ross",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-06-yoshi-s-doug-e-fresh",
-            "date": "2026-06-06",
-            "title": "Doug E. Fresh",
-            "details": "Doug E. Fresh",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
-          },
-          {
-            "eventId": "2026-06-07-yoshi-s-doug-e-fresh",
-            "date": "2026-06-07",
-            "title": "Doug E. Fresh",
-            "details": "Doug E. Fresh",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-1-7-2026/"
+            "eventId": "2026-06-14-yoshi-s-mac-mall",
+            "date": "2026-06-14",
+            "title": "Mac Mall",
+            "details": "Mac Mall",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
           }
         ]
       }
@@ -48349,11 +48803,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-zachary-s-chicago-pizza-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-zachary-s-chicago-pizza-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=29732"
@@ -48401,11 +48855,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.051Z",
-        "lastImportedAt": "2026-06-06T20:52:47.983Z",
+        "lastImportedAt": "2026-06-09T00:28:16.002Z",
         "appearances": [
           {
-            "eventId": "2026-06-03-zeki-s-bar-trivia-8-00pm",
-            "date": "2026-06-03",
+            "eventId": "2026-06-10-zeki-s-bar-trivia-8-00pm",
+            "date": "2026-06-10",
             "title": "Trivia Night",
             "details": "Trivia night at 8:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=14360"
@@ -48453,11 +48907,11 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:55:53.729Z",
-        "lastImportedAt": "2026-06-06T20:52:47.985Z",
+        "lastImportedAt": "2026-06-09T00:28:16.006Z",
         "appearances": [
           {
-            "eventId": "2026-06-04-zinz-wine-bar-trivia-6-00pm",
-            "date": "2026-06-04",
+            "eventId": "2026-06-11-zinz-wine-bar-trivia-6-00pm",
+            "date": "2026-06-11",
             "title": "Trivia Night",
             "details": "Trivia night at 6:00pm",
             "sourceUrl": "https://badslava.com/details.php?id=54142"

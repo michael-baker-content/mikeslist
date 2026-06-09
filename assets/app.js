@@ -366,7 +366,7 @@ function renderArtist(artist) {
   const node = artistTemplate.content.firstElementChild.cloneNode(true);
   const artistName = node.querySelector(".artist-name");
   const artistLink = document.createElement("a");
-  artistLink.href = `artist.html?id=${encodeURIComponent(displayArtist.id || slugify(displayArtist.name))}&from=${encodeURIComponent("index.html")}`;
+  artistLink.href = `artist.html?id=${encodeURIComponent(displayArtist.id || slugify(displayArtist.name))}&from=${encodeURIComponent("show-explorer.html")}`;
   artistLink.textContent = displayNameForArtist(displayArtist);
   artistName.append(artistLink);
   const tags = (displayArtist.genres || displayArtist.tags || []).filter((tag) => tag && tag !== "unknown").join(" / ");
@@ -806,7 +806,7 @@ function createEventCard(event, options = {}) {
   const venuePlace = [venue.city, venue.region].filter(Boolean).join(", ");
   const venueName = venue.displayName || venue.name || event.venue;
   const venueLink = document.createElement("a");
-  venueLink.href = `venue.html?id=${encodeURIComponent(venue.id || event.venueId || venueIdFor(event))}&from=${encodeURIComponent("index.html")}`;
+  venueLink.href = `venue.html?id=${encodeURIComponent(venue.id || event.venueId || venueIdFor(event))}&from=${encodeURIComponent("show-explorer.html")}`;
   venueLink.textContent = venuePlace ? `${venueName}, ${venuePlace}` : venueName;
   node.querySelector(".event-venue").replaceChildren(venueLink);
   node.querySelector(".event-detail").textContent = event.details;
@@ -1090,7 +1090,7 @@ function googleVenueInfoContent(venue) {
   const title = escapeHtml(displayNameForVenue(venue));
   const meta = escapeHtml([venue.city, venue.region].filter(Boolean).join(" / "));
   const count = `${venue.showCount} show${venue.showCount === 1 ? "" : "s"}`;
-  const href = `venue.html?id=${encodeURIComponent(venue.id)}&from=${encodeURIComponent("index.html")}`;
+  const href = `venue.html?id=${encodeURIComponent(venue.id)}&from=${encodeURIComponent("show-explorer.html")}`;
   return `
     <div class="map-info-window">
       <strong>${title}</strong>
@@ -1275,7 +1275,7 @@ function openVenueModal(venueId) {
     anchor.textContent = link.label || labelForType(link.type);
     venueModalLinks.append(anchor);
   });
-  venueModalProfile.href = `venue.html?id=${encodeURIComponent(venue.id)}&from=${encodeURIComponent("index.html")}`;
+  venueModalProfile.href = `venue.html?id=${encodeURIComponent(venue.id)}&from=${encodeURIComponent("show-explorer.html")}`;
   if (typeof venueModal.showModal === "function") {
     venueModal.showModal();
   } else {

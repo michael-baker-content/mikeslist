@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Venue - Mike's List</title>
+    <title>Mike Says - Mike's List</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="kicker">Venue profile</p>
-        <h1 id="detailTitle" class="statement-type">Venue</h1>
+        <p class="kicker">A note from Mike</p>
+        <h1>Mike Says</h1>
       </div>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
         <span></span>
@@ -21,9 +21,8 @@
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Home</a>
         <a class="source-link" href="show-explorer.html">Show Explorer</a>
-        <a class="source-link" href="mike-says.html">Mike Says</a>
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
         <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="5"></circle>
@@ -37,23 +36,27 @@
       </nav>
     </header>
 
-    <main class="detail-layout" data-detail-kind="venue">
-      <section class="detail-nav" aria-label="Profile navigation">
-        <button id="backButton" class="source-link button-link detail-back" type="button">← Back</button>
-        <a class="source-link" href="show-explorer.html">Show Explorer</a>
-        <a class="source-link" href="mike-says.html">Mike Says</a>
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
-        <a class="source-link" href="sources.html">Sources</a>
-      </section>
-      <section id="detailPanel" class="detail-panel" aria-live="polite"></section>
+    <main class="essay-layout">
+      <article class="essay-card">
+        <p class="kicker">Current note</p>
+        <h2>Why this site exists</h2>
+        <p>
+          I am building Mike's List because local listings are useful, but they are also messy. A single calendar entry might contain an artist name, a venue, a theme, a ticket note, a recurring event title, and a clue about what kind of night it actually is.
+        </p>
+        <p>
+          My goal is to make that information easier to use without sanding off the local texture. Show Explorer is the first version of that idea: a place to browse music listings, featured picks, and nearby event life while keeping sources visible.
+        </p>
+        <p>
+          This page is where I can speak more directly about what I am working on, what I am noticing in the listings, and how the site is changing. I expect to update it as Mike's List grows.
+        </p>
+        <div class="home-actions">
+          <a class="source-link primary-action" href="show-explorer.html">Open Show Explorer</a>
+          <a class="source-link" href="sources.html">View Sources</a>
+        </div>
+      </article>
     </main>
 
-    <script src="data/sample-events.js"></script>
-    <script src="data/imported-events.js"></script>
-    <script src="data/public-artists.js"></script>
-    <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
-    <script src="assets/detail.js"></script>
   </body>
 </html>

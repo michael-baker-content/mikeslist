@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bay Area Show Explorer</title>
+    <title>Mike's List</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="kicker">SF Bay Area music</p>
-        <h1>Show Explorer</h1>
+        <p class="kicker">Bay Area listings with context</p>
+        <h1>Mike's List</h1>
       </div>
       <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
         <span></span>
@@ -19,8 +19,10 @@
         <span></span>
       </button>
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
-        <a class="source-link" data-admin-only href="admin.html">Admin</a>
+        <a class="source-link" href="show-explorer.html">Show Explorer</a>
+        <a class="source-link" href="mike-says.html">Mike Says</a>
         <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
             <circle cx="16" cy="16" r="5"></circle>
@@ -34,181 +36,58 @@
       </nav>
     </header>
 
-    <main>
-      <section class="explorer-search" aria-label="Show search">
-        <section id="showControls" class="controls" aria-label="Show filters">
-          <label class="search">
-            <span>Search</span>
-            <input id="searchInput" type="search" placeholder="Artist, venue, genre">
-          </label>
-
-          <div class="filter-group quick-filter-group" role="group" aria-label="Quick filters">
-            <button class="chip active" type="button" data-filter="music">Music</button>
-            <button class="chip" type="button" data-filter="custom">Custom</button>
-            <button class="chip" type="button" data-filter="picks">Mike's Picks</button>
-            <button class="chip" type="button" data-filter="all">All</button>
-          </div>
-
-          <details class="search-customization">
-            <summary>Customize search</summary>
-            <div class="search-customization-body">
-              <div class="date-range" aria-label="Date range">
-                <label>
-                  <span>From</span>
-                  <input id="fromDateInput" type="date">
-                </label>
-                <label>
-                  <span>To</span>
-                  <input id="toDateInput" type="date">
-                </label>
-              </div>
-
-              <details class="tag-filter-group">
-                <summary>Show tags</summary>
-                <div class="filter-group" role="group" aria-label="Show tag filters">
-                  <button class="chip" type="button" data-filter="tonight">Tonight</button>
-                  <button class="chip" type="button" data-filter="allAges">All ages</button>
-                  <button class="chip" type="button" data-filter="karaoke">Karaoke</button>
-                  <button class="chip" type="button" data-filter="trivia">Trivia</button>
-                  <button class="chip" type="button" data-filter="openMic">Open mic</button>
-                  <button class="chip" type="button" data-filter="poetry">Poetry</button>
-                  <button class="chip" type="button" data-filter="game">Games</button>
-                  <button class="chip" type="button" data-filter="local">Local-first</button>
-                </div>
-              </details>
-
-              <div class="source-filter" aria-label="Source filters">
-                <span>Source</span>
-                <div class="filter-group" role="group" aria-label="Source filters">
-                  <button class="chip active" type="button" data-source-filter="all">All</button>
-                  <button class="chip" type="button" data-source-filter="the-list">The List</button>
-                  <button class="chip" type="button" data-source-filter="kalx">KALX</button>
-                  <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
-                </div>
-              </div>
-
-              <details class="advanced-filters">
-                <summary>More filters</summary>
-                <div class="advanced-filter-grid">
-                  <label>
-                    <span>Venue</span>
-                    <select id="venueFilterInput"></select>
-                  </label>
-                  <label>
-                    <span>City</span>
-                    <select id="cityFilterInput"></select>
-                  </label>
-                  <label>
-                    <span>Sort</span>
-                    <select id="sortInput">
-                      <option value="date">Date</option>
-                      <option value="venue">Venue</option>
-                      <option value="city">City</option>
-                      <option value="source">Source</option>
-                      <option value="title">Show title</option>
-                    </select>
-                  </label>
-                </div>
-              </details>
-            </div>
-          </details>
-        </section>
-      </section>
-
-      <details id="venueMap" class="venue-map" aria-label="Mapped venues" hidden>
-        <summary class="section-heading">
-          <h3>Venue Map</h3>
-          <span id="venueMapCount"></span>
-        </summary>
-        <div id="venueGoogleMap" class="venue-google-map" aria-label="Google map of venues with visible shows" hidden></div>
-        <svg id="venueMapSvg" viewBox="0 0 1000 620" role="img" aria-label="Map of venues with visible shows"></svg>
-        <section class="summary venue-map-summary" aria-live="polite">
-          <div>
-            <strong id="eventCount">0</strong>
-            <span>shows</span>
-          </div>
-          <div>
-            <strong id="artistCount">0</strong>
-            <span>artists</span>
-          </div>
-        </section>
-      </details>
-
-      <section class="sticky-explorer-tools" aria-label="Sticky show tools">
-        <label class="sticky-search">
-          <span>Search listings</span>
-          <input id="stickySearchInput" type="search" placeholder="Search shows">
-        </label>
-        <div class="sticky-tools-menu">
-          <button id="stickyToolsMenuButton" class="menu-toggle sticky-tools-menu-button" type="button" aria-label="Open sticky tools menu" aria-expanded="false" aria-controls="stickyToolsPopover">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <div id="stickyToolsPopover" class="sticky-tools-popover" hidden>
-            <button id="stickyMenuFiltersButton" class="chip active" type="button">Filters</button>
-            <button id="stickyMenuMapButton" class="chip" type="button">Map</button>
+    <main class="home-layout">
+      <section class="home-hero" aria-labelledby="homeTitle">
+        <div class="home-hero-copy">
+          <p class="kicker">A local guide in progress</p>
+          <h2 id="homeTitle" class="statement-type">Shows, venues, artists, and the useful mess around them.</h2>
+          <p>
+            Mike's List turns imported Bay Area listings into a cleaner, more human guide. It starts with music, then makes room for karaoke, trivia, open mics, dance nights, games, poetry, and other venue-based events.
+          </p>
+          <div class="home-actions">
+            <a class="source-link primary-action" href="show-explorer.html">Open Show Explorer</a>
+            <a class="source-link" href="mike-says.html">Read Mike Says</a>
+            <a class="source-link" href="sources.html">View Sources</a>
           </div>
         </div>
       </section>
 
-      <section id="eventList" class="event-list" aria-label="Concert listings"></section>
+      <section class="home-section" aria-labelledby="offeringsTitle">
+        <div class="section-heading">
+          <h3 id="offeringsTitle">Current Offering</h3>
+        </div>
+        <div class="home-offering">
+          <article class="admin-card home-feature-card">
+            <span class="kicker">Live now</span>
+            <strong>Show Explorer</strong>
+            <span>Browse upcoming Bay Area listings by music, source, date, venue, city, and featured picks. The default view stays music-focused, while broader event types are available when you want them.</span>
+            <div class="admin-source-links">
+              <a href="show-explorer.html">Explore shows</a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-      <div class="listing-jump-actions" aria-label="Listing navigation shortcuts" hidden>
-        <button id="jumpToFiltersButton" class="chip active" type="button">Filters</button>
-        <button id="returnToListingsButton" class="chip" type="button" disabled>Back to listings</button>
-      </div>
+      <section class="home-section" aria-labelledby="philosophyTitle">
+        <div class="section-heading">
+          <h3 id="philosophyTitle">Site Philosophy</h3>
+        </div>
+        <div class="admin-grid">
+          <article class="admin-card">
+            <span class="kicker">Shows first</span>
+            <strong>Artists and events share the calendar.</strong>
+            <span>A show can be a music artist, a cover band, a karaoke night, a trivia night, or another recurring event. The review tools keep those meanings separate.</span>
+          </article>
+          <article class="admin-card">
+            <span class="kicker">Context matters</span>
+            <strong>Sources stay visible.</strong>
+            <span>The List, KALX, BadSlava, and future sources each add different signals. Mike's List keeps those source paths available instead of flattening everything into one anonymous feed.</span>
+          </article>
+        </div>
+      </section>
     </main>
 
-    <dialog id="venueModal" class="venue-modal">
-      <div class="modal-heading">
-        <div>
-          <p class="kicker">Mapped venue</p>
-          <h2 id="venueModalTitle" class="statement-type"></h2>
-        </div>
-        <button id="venueModalClose" class="icon-button" type="button" aria-label="Close venue details">×</button>
-      </div>
-      <p id="venueModalMeta" class="detail-summary"></p>
-      <div id="venueModalLinks" class="artist-links detail-links"></div>
-      <div class="modal-actions">
-        <a id="venueModalProfile" class="source-link" href="#">Venue Page</a>
-      </div>
-    </dialog>
-
-    <template id="eventTemplate">
-      <article class="event">
-        <div class="event-image-wrap">
-          <img class="event-image" alt="">
-        </div>
-        <div class="event-meta">
-          <time class="event-date"></time>
-          <span class="event-venue"></span>
-          <span class="event-detail"></span>
-          <div class="event-links artist-links"></div>
-        </div>
-        <div class="artist-list"></div>
-      </article>
-    </template>
-
-    <template id="artistTemplate">
-      <article class="artist-card">
-        <div class="artist-main">
-          <div>
-            <h2 class="artist-name"></h2>
-            <p class="artist-tags"></p>
-          </div>
-        </div>
-        <p class="artist-note"></p>
-        <div class="artist-links"></div>
-      </article>
-    </template>
-
-    <script src="data/sample-events.js"></script>
-    <script src="data/imported-events.js"></script>
-    <script src="data/public-artists.js"></script>
-    <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
-    <script src="assets/app.js?v=quick-filters-visible-20260606"></script>
   </body>
 </html>

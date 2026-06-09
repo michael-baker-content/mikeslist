@@ -3,62 +3,190 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bay Area Show Explorer</title>
+    <title>Show Explorer - Mike's List</title>
+    <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
-        <p class="kicker">SF Bay Area music</p>
+        <p class="kicker">Mike's List</p>
         <h1>Show Explorer</h1>
       </div>
-      <nav class="nav-actions" aria-label="Project pages">
-        <a class="source-link" data-admin-only href="review.html">Review</a>
-        <a class="source-link" data-admin-only href="venue-review.html">Venues</a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="siteNav" class="nav-actions" aria-label="Project pages">
+        <a class="source-link" href="index.html">Home</a>
+        <a class="source-link" href="mike-says.html">Mike Says</a>
         <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" data-admin-only href="admin.html">Admin</a>
+        <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+            <circle cx="16" cy="16" r="5"></circle>
+            <path d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6"></path>
+          </svg>
+          <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+            <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+            <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+          </svg>
+        </button>
       </nav>
     </header>
 
     <main>
-      <section class="controls" aria-label="Show filters">
-        <label class="search">
-          <span>Search</span>
-          <input id="searchInput" type="search" placeholder="Artist, venue, neighborhood, genre">
+      <section class="explorer-search" aria-label="Show search">
+        <section id="showControls" class="controls" aria-label="Show filters">
+          <label class="search">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Artist, venue, genre">
+          </label>
+
+          <div class="filter-group quick-filter-group" role="group" aria-label="Quick filters">
+            <button class="chip active" type="button" data-filter="music">Music</button>
+            <button class="chip" type="button" data-filter="custom">Custom</button>
+            <button class="chip" type="button" data-filter="picks">Mike's Picks</button>
+            <button class="chip" type="button" data-filter="all">All</button>
+          </div>
+
+          <details class="search-customization">
+            <summary>Customize search</summary>
+            <div class="search-customization-body">
+              <div class="date-range" aria-label="Date range">
+                <label>
+                  <span>From</span>
+                  <input id="fromDateInput" type="date">
+                </label>
+                <label>
+                  <span>To</span>
+                  <input id="toDateInput" type="date">
+                </label>
+              </div>
+
+              <details class="tag-filter-group">
+                <summary>Show tags</summary>
+                <div class="filter-group" role="group" aria-label="Show tag filters">
+                  <button class="chip" type="button" data-filter="tonight">Tonight</button>
+                  <button class="chip" type="button" data-filter="allAges">All ages</button>
+                  <button class="chip" type="button" data-filter="karaoke">Karaoke</button>
+                  <button class="chip" type="button" data-filter="trivia">Trivia</button>
+                  <button class="chip" type="button" data-filter="openMic">Open mic</button>
+                  <button class="chip" type="button" data-filter="poetry">Poetry</button>
+                  <button class="chip" type="button" data-filter="game">Games</button>
+                  <button class="chip" type="button" data-filter="local">Local-first</button>
+                </div>
+              </details>
+
+              <div class="source-filter" aria-label="Source filters">
+                <span>Source</span>
+                <div class="filter-group" role="group" aria-label="Source filters">
+                  <button class="chip active" type="button" data-source-filter="all">All</button>
+                  <button class="chip" type="button" data-source-filter="the-list">The List</button>
+                  <button class="chip" type="button" data-source-filter="kalx">KALX</button>
+                  <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
+                </div>
+              </div>
+
+              <details class="advanced-filters">
+                <summary>More filters</summary>
+                <div class="advanced-filter-grid">
+                  <label>
+                    <span>Venue</span>
+                    <select id="venueFilterInput"></select>
+                  </label>
+                  <label>
+                    <span>City</span>
+                    <select id="cityFilterInput"></select>
+                  </label>
+                  <label>
+                    <span>Sort</span>
+                    <select id="sortInput">
+                      <option value="date">Date</option>
+                      <option value="venue">Venue</option>
+                      <option value="city">City</option>
+                      <option value="source">Source</option>
+                      <option value="title">Show title</option>
+                    </select>
+                  </label>
+                </div>
+              </details>
+            </div>
+          </details>
+        </section>
+      </section>
+
+      <details id="venueMap" class="venue-map" aria-label="Mapped venues" hidden>
+        <summary class="section-heading">
+          <h3>Venue Map</h3>
+          <span id="venueMapCount"></span>
+        </summary>
+        <div id="venueGoogleMap" class="venue-google-map" aria-label="Google map of venues with visible shows" hidden></div>
+        <svg id="venueMapSvg" viewBox="0 0 1000 620" role="img" aria-label="Map of venues with visible shows"></svg>
+        <section class="summary venue-map-summary" aria-live="polite">
+          <div>
+            <strong id="eventCount">0</strong>
+            <span>shows</span>
+          </div>
+          <div>
+            <strong id="artistCount">0</strong>
+            <span>artists</span>
+          </div>
+        </section>
+      </details>
+
+      <section class="sticky-explorer-tools" aria-label="Sticky show tools">
+        <label class="sticky-search">
+          <span>Search listings</span>
+          <input id="stickySearchInput" type="search" placeholder="Search shows">
         </label>
-
-        <div class="filter-group" role="group" aria-label="Quick filters">
-          <button class="chip active" type="button" data-filter="all">All</button>
-          <button class="chip" type="button" data-filter="tonight">Tonight</button>
-          <button class="chip" type="button" data-filter="allAges">All ages</button>
-          <button class="chip" type="button" data-filter="local">Local-first</button>
-          <button class="chip" type="button" data-filter="needsReview">Needs review</button>
+        <div class="sticky-tools-menu">
+          <button id="stickyToolsMenuButton" class="menu-toggle sticky-tools-menu-button" type="button" aria-label="Open sticky tools menu" aria-expanded="false" aria-controls="stickyToolsPopover">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div id="stickyToolsPopover" class="sticky-tools-popover" hidden>
+            <button id="stickyMenuFiltersButton" class="chip active" type="button">Filters</button>
+            <button id="stickyMenuMapButton" class="chip" type="button">Map</button>
+          </div>
         </div>
       </section>
 
-      <section class="summary" aria-live="polite">
-        <div>
-          <strong id="eventCount">0</strong>
-          <span>shows</span>
-        </div>
-        <div>
-          <strong id="artistCount">0</strong>
-          <span>artists</span>
-        </div>
-        <div>
-          <strong id="reviewCount">0</strong>
-          <span>to verify</span>
-        </div>
-      </section>
+      <section id="eventList" class="event-list" aria-label="Show listings"></section>
 
-      <section id="eventList" class="event-list" aria-label="Concert listings"></section>
+      <div class="listing-jump-actions" aria-label="Listing navigation shortcuts" hidden>
+        <button id="jumpToFiltersButton" class="chip active" type="button">Filters</button>
+        <button id="returnToListingsButton" class="chip" type="button" disabled>Back to listings</button>
+      </div>
     </main>
+
+    <dialog id="venueModal" class="venue-modal">
+      <div class="modal-heading">
+        <div>
+          <p class="kicker">Mapped venue</p>
+          <h2 id="venueModalTitle" class="statement-type"></h2>
+        </div>
+        <button id="venueModalClose" class="icon-button" type="button" aria-label="Close venue details">×</button>
+      </div>
+      <p id="venueModalMeta" class="detail-summary"></p>
+      <div id="venueModalLinks" class="artist-links detail-links"></div>
+      <div class="modal-actions">
+        <a id="venueModalProfile" class="source-link" href="#">Venue Page</a>
+      </div>
+    </dialog>
 
     <template id="eventTemplate">
       <article class="event">
+        <div class="event-image-wrap">
+          <img class="event-image" alt="">
+        </div>
         <div class="event-meta">
           <time class="event-date"></time>
           <span class="event-venue"></span>
           <span class="event-detail"></span>
+          <div class="event-links artist-links"></div>
         </div>
         <div class="artist-list"></div>
       </article>
@@ -71,7 +199,6 @@
             <h2 class="artist-name"></h2>
             <p class="artist-tags"></p>
           </div>
-          <span class="confidence"></span>
         </div>
         <p class="artist-note"></p>
         <div class="artist-links"></div>
@@ -82,7 +209,8 @@
     <script src="data/imported-events.js"></script>
     <script src="data/public-artists.js"></script>
     <script src="data/venues.js"></script>
-    <script src="assets/app.js?v=event-description-split-20260606"></script>
+    <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
+    <script src="assets/app.js?v=mikeslist-home-20260606"></script>
   </body>
 </html>

@@ -29,7 +29,7 @@ function render() {
 
 function setupBackNavigation() {
   if (!backButton) return;
-  const fallback = detailKind === "venue" ? "index.html" : "index.html";
+  const fallback = "show-explorer.html";
   const from = new URLSearchParams(window.location.search).get("from");
   backButton.addEventListener("click", () => {
     if (from && isLocalPath(from)) {
@@ -49,7 +49,7 @@ function renderArtistPage(id) {
   if (!artist) return renderMissing("Artist not found.");
   const title = displayNameForArtist(artist);
   detailTitle.textContent = title;
-  document.title = `${title} - Bay Area Show Explorer`;
+  document.title = `${title} - Mike's List`;
 
   const shows = events.filter((event) => event.artists.some((item) => slugify(item.name) === artist.id));
   detailPanel.replaceChildren(
@@ -85,7 +85,7 @@ function renderVenuePage(id) {
   if (!venue) return renderMissing("Venue not found.");
   const title = displayNameFor(venue);
   detailTitle.textContent = title;
-  document.title = `${title} - Bay Area Show Explorer`;
+  document.title = `${title} - Mike's List`;
 
   const shows = events.filter((event) => {
     const eventVenue = resolveVenue(event);
@@ -118,7 +118,7 @@ function renderVenuePage(id) {
       date: event.date,
       title: displayNameForEvent(event),
       meta: event.details || "",
-      href: `index.html?show=${encodeURIComponent(event.id || "")}`
+      href: `show-explorer.html?show=${encodeURIComponent(event.id || "")}`
     })))
   );
 }

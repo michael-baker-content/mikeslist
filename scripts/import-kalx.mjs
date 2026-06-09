@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { classifyEventText, mergeClassifications } from "./event-classifier.mjs";
 
 const CALENDAR_URL = "https://www.kalx.berkeley.edu/events/weekly-entertainment-calendar/";
+const KALX_BASE_URL = "https://www.kalx.berkeley.edu/";
 const EVENTS_PATH = new URL("../data/imported-events.js", import.meta.url);
 const args = new Map(process.argv.slice(2).map((arg) => {
   const [key, ...valueParts] = arg.replace(/^--/, "").split("=");
@@ -27,16 +28,80 @@ await writeFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(mer
 console.log(`Merged ${kalxEvents.length} KALX events into ${EVENTS_PATH.pathname}`);
 
 async function importKalxEvents() {
-  const indexHtml = await fetchText(CALENDAR_URL);
-  const weekLinks = [...indexHtml.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>\s*Events:\s*([^<]+)<\/a>/gi)]
-    .map((match) => new URL(match[1], CALENDAR_URL).href)
+  const generatedLinks = kalxWeekUrls(fromDate || todayString(), weeks);
+  let indexHtml = "";
+  try {
+    indexHtml = await fetchText(CALENDAR_URL);
+  } catch (error) {
+    console.warn(`Could not fetch KALX calendar index: ${error.message}`);
+  }
+  const discoveredLinks = discoverKalxWeekLinks(indexHtml);
+  const weekLinks = uniqueUrls([...generatedLinks, ...discoveredLinks])
+    .filter((url) => !fromDate || (weekStartFromKalxUrl(url) || "9999-99-99") >= fromDate)
+    .sort((a, b) => (weekStartFromKalxUrl(a) || a).localeCompare(weekStartFromKalxUrl(b) || b))
     .slice(0, weeks);
 
   const events = [];
   for (const url of weekLinks) {
-    events.push(...parseWeek(await fetchText(url), url));
+    const html = await fetchText(url, { allowMissing: true });
+    if (!html) continue;
+    events.push(...parseWeek(html, url));
   }
   return events;
+}
+
+function discoverKalxWeekLinks(html) {
+  return [...html.matchAll(/<a\b[^>]*href=["']([^"']*\/event\/events-[a-z]+-\d{1,2}(?:-[a-z]+)?-\d{1,2}-20\d{2}\/?)["'][^>]*>/gi)]
+    .map((match) => new URL(match[1], CALENDAR_URL).href);
+}
+
+function kalxWeekUrls(startDate, count) {
+  const start = mondayFor(startDate);
+  return Array.from({ length: count }, (_, index) => {
+    const weekStart = addDays(start, index * 7);
+    const weekEnd = addDays(weekStart, 6);
+    return new URL(`event/${kalxWeekSlug(weekStart, weekEnd)}/`, KALX_BASE_URL).href;
+  });
+}
+
+function kalxWeekSlug(start, end) {
+  const startMonth = monthSlug(start);
+  const endMonth = monthSlug(end);
+  const startDay = start.getUTCDate();
+  const endDay = end.getUTCDate();
+  const year = end.getUTCFullYear();
+  if (startMonth === endMonth && start.getUTCFullYear() === year) {
+    return `events-${startMonth}-${startDay}-${endDay}-${year}`;
+  }
+  return `events-${startMonth}-${startDay}-${endMonth}-${endDay}-${year}`;
+}
+
+function weekStartFromKalxUrl(url) {
+  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-[a-z]+)?-\d{1,2}-(20\d{2})\/?$/i);
+  if (!match) return "";
+  const month = monthNames.get(match[1].toLowerCase());
+  return month ? `${match[3]}-${month}-${match[2].padStart(2, "0")}` : "";
+}
+
+function mondayFor(dateString) {
+  const date = new Date(`${dateString}T00:00:00Z`);
+  const day = date.getUTCDay();
+  const daysSinceMonday = (day + 6) % 7;
+  return addDays(date, -daysSinceMonday);
+}
+
+function addDays(date, days) {
+  const next = new Date(date);
+  next.setUTCDate(next.getUTCDate() + days);
+  return next;
+}
+
+function monthSlug(date) {
+  return [...monthNames.entries()].find(([, number]) => Number(number) === date.getUTCMonth() + 1)?.[0] || "";
+}
+
+function uniqueUrls(urls) {
+  return [...new Set(urls)];
 }
 
 function parseWeek(html, sourceUrl) {
@@ -191,11 +256,15 @@ function parseKalxDate(line) {
   return month ? `${match[4]}-${month}-${match[3].padStart(2, "0")}` : "";
 }
 
-async function fetchText(url) {
+async function fetchText(url, options = {}) {
   const response = await fetch(url, {
     headers: { "User-Agent": "BayAreaShowExplorer/0.1 (local non-commercial prototype)" }
   });
-  if (!response.ok) throw new Error(`Could not fetch KALX calendar: ${response.status} ${response.statusText}`);
+  if (options.allowMissing && response.status === 404) {
+    console.warn(`Skipping unpublished KALX page: ${url}`);
+    return "";
+  }
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText} for ${url}`);
   return response.text();
 }
 

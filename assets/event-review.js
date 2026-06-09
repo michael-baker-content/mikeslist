@@ -475,10 +475,9 @@ function duplicateCard(candidate, selectedEvent) {
     merge.type = "button";
     merge.className = "chip danger-chip";
     merge.textContent = "Merge into this";
-    merge.addEventListener("click", () => {
+    merge.addEventListener("click", async () => {
       fields.mergeEvent.value = candidate.id;
-      fields.mergeEvent.scrollIntoView({ block: "center", behavior: "smooth" });
-      fields.saveStatus.textContent = `Ready to merge into ${eventTitle(candidate)}`;
+      await mergeSelectedEvent();
     });
     actions.append(select, merge);
   }

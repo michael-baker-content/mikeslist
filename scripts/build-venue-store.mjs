@@ -1,4 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
+import { writeTextFile } from "./file-io.mjs";
 
 const EVENTS_PATH = new URL("../data/imported-events.js", import.meta.url);
 const VENUES_PATH = new URL("../data/venues.js", import.meta.url);
@@ -152,6 +153,6 @@ const payload = {
   }).sort(([a], [b]) => a.localeCompare(b)))
 };
 
-await writeFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+await writeTextFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
 
 console.log(`Built ${Object.keys(payload.venues).length} venue records at ${VENUES_PATH.pathname}`);

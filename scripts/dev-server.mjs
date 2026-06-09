@@ -1,9 +1,10 @@
 import { createServer } from "node:http";
 import { randomBytes, timingSafeEqual } from "node:crypto";
 import { spawn } from "node:child_process";
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
+import { writeTextFile } from "./file-io.mjs";
 
 const ROOT = normalize(fileURLToPath(new URL("../", import.meta.url)));
 const ARTISTS_PATH = join(ROOT, "data", "artists.js");
@@ -14,6 +15,7 @@ const SESSION_COOKIE = "show_explorer_session";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 12;
 const ADMIN_ACCESS_KEY = process.env.SHOW_EXPLORER_ADMIN_KEY || "";
 const sessions = new Map();
+let saveQueue = Promise.resolve();
 const protectedPages = new Set([
   "/admin.html",
   "/review.html",
@@ -202,6 +204,30 @@ function runScript(script, args = []) {
   });
 }
 
+async function runSaveTask(task) {
+  const previous = saveQueue;
+  let release;
+  saveQueue = new Promise((resolve) => {
+    release = resolve;
+  });
+
+  await previous.catch(() => null);
+  try {
+    return await task();
+  } finally {
+    release();
+  }
+}
+
+function logServerError(error) {
+  const message = error?.message || String(error);
+  if (message.includes("UNKNOWN: unknown error, open")) {
+    console.error(`Temporary file write failed: ${message.split("\n")[0]}`);
+    return;
+  }
+  console.error(error);
+}
+
 async function handleSaveArtists(request, response) {
   const body = await readBody(request);
   let payload;
@@ -218,7 +244,7 @@ async function handleSaveArtists(request, response) {
   }
 
   payload.generatedAt = new Date().toISOString();
-  await writeFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   await runScript("scripts/build-public-artist-store.mjs");
   send(response, 200, JSON.stringify({ ok: true, savedAt: payload.generatedAt }), "application/json; charset=utf-8");
 }
@@ -239,7 +265,7 @@ async function handleSaveVenues(request, response) {
   }
 
   payload.generatedAt = new Date().toISOString();
-  await writeFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await writeTextFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   send(response, 200, JSON.stringify({ ok: true, savedAt: payload.generatedAt }), "application/json; charset=utf-8");
 }
 
@@ -258,7 +284,7 @@ async function handleSaveEvents(request, response) {
     return;
   }
 
-  await writeFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await writeTextFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   await runScript("scripts/build-artist-store.mjs");
   await runScript("scripts/build-public-artist-store.mjs");
   await runScript("scripts/build-venue-store.mjs");
@@ -369,19 +395,19 @@ const server = createServer(async (request, response) => {
 
     if (request.method === "POST" && url.pathname === "/api/artists") {
       if (!requireAdmin(request, response)) return;
-      await handleSaveArtists(request, response);
+      await runSaveTask(() => handleSaveArtists(request, response));
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/venues") {
       if (!requireAdmin(request, response)) return;
-      await handleSaveVenues(request, response);
+      await runSaveTask(() => handleSaveVenues(request, response));
       return;
     }
 
     if (request.method === "POST" && url.pathname === "/api/events") {
       if (!requireAdmin(request, response)) return;
-      await handleSaveEvents(request, response);
+      await runSaveTask(() => handleSaveEvents(request, response));
       return;
     }
 
@@ -438,11 +464,11 @@ const server = createServer(async (request, response) => {
       send(response, 404, "Not found");
       return;
     }
-    console.error(error);
+    logServerError(error);
     send(response, 500, "Server error");
   }
 });
 
 server.listen(PORT, "127.0.0.1", () => {
-  console.log(`Bay Area Show Explorer dev server running at http://127.0.0.1:${PORT}/`);
+  console.log(`Mike's List dev server running at http://127.0.0.1:${PORT}/`);
 });

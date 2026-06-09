@@ -1,4 +1,5 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
+import { writeTextFile } from "./file-io.mjs";
 
 const ARTISTS_PATH = new URL("../data/artists.js", import.meta.url);
 const PUBLIC_ARTISTS_PATH = new URL("../data/public-artists.js", import.meta.url);
@@ -61,6 +62,6 @@ const payload = {
   artists: publicArtists
 };
 
-await writeFile(PUBLIC_ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload)};\n`, "utf8");
+await writeTextFile(PUBLIC_ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload)};\n`, "utf8");
 
 console.log(`Built ${Object.keys(publicArtists).length} public artist records at ${PUBLIC_ARTISTS_PATH.pathname}`);

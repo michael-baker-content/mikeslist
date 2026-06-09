@@ -2,7 +2,7 @@
 
 Mike's List is a local listings project for Bay Area shows, venues, artists, and neighborhood event life. It began as Bay Area Show Explorer, a music calendar built from imported concert listings, and is now widening into a more flexible guide for things worth leaving the house for.
 
-Show Explorer is the first offering inside Mike's List. It focuses on music listings, while also making room for karaoke, trivia, open mics, poetry, games, dance nights, cover bands, and other venue-based events without pretending those are all artists.
+Show Explorer is the first offering inside Mike's List. It focuses on music listings, while also making room for karaoke, trivia, open mics, poetry, games, dance nights, cover bands, and other venue-based events.
 
 The project is intentionally careful:
 
@@ -25,6 +25,15 @@ Then open:
 http://127.0.0.1:4173/
 ```
 
+Useful public pages:
+
+```text
+http://127.0.0.1:4173/
+http://127.0.0.1:4173/show-explorer.html
+http://127.0.0.1:4173/mike-says.html
+http://127.0.0.1:4173/sources.html
+```
+
 Admin pages require a local access key:
 
 ```powershell
@@ -40,6 +49,12 @@ Refresh imported listings:
 
 ```powershell
 .\update-shows
+```
+
+Refresh from today and include the next few KALX weekly event pages:
+
+```powershell
+.\update-shows --from=today --kalx-weeks=3
 ```
 
 Refine upcoming artists:
@@ -63,6 +78,8 @@ http://127.0.0.1:4173/admin.html
 Useful admin areas include artist review, venue review, show review, source checks, and suggestion review.
 
 The full `data/artists.js` file is the admin/review store. Public pages load `data/public-artists.js`, a generated bundle with review notes, evidence, appearances, and research-only search links stripped out.
+
+Local admin saves write back to the data files through `scripts/dev-server.mjs`. Show saves also rebuild the artist, public artist, and venue stores so reviewed event changes stay in sync with public bundles.
 
 ## Data Sources
 
