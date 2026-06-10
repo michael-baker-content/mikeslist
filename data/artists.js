@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_ARTISTS = {
-  "generatedAt": "2026-06-10T05:43:57.343Z",
+  "generatedAt": "2026-06-10T05:51:05.702Z",
   "artists": {
     "311": {
       "id": "311",
@@ -26430,8 +26430,8 @@ window.SHOW_EXPLORER_ARTISTS = {
         "unknown"
       ],
       "locality": "unknown",
-      "imageUrl": "https://kprofiles.com/wp-content/uploads/2026/01/ChRocktikal-1-scaled.jpeg",
-      "imageSource": "kprofiles.com",
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjlfJwYc0R_O14JTK0iSBUZA-Sfsl6Uk2xpT_p57CijJtpMt0OUvKzVb0OZD7kDlUBf5lTkKaMht5MVklE0CnrCEB5Hz94VsWDnF0cAIc-PAen7Yn3pXTt5oEVAVbZv_Ywx_ovm0jILFlpfPxWhE9odjv1q40YFy74s8YMMrJodIegPrJvLfZ5RGUpkx7I=w1061-h676-rw",
+      "imageSource": "kpopwise.com",
       "confidence": "review",
       "summary": "",
       "disambiguation": "",
@@ -63305,8 +63305,8 @@ window.SHOW_EXPLORER_ARTISTS = {
         "unknown"
       ],
       "locality": "unknown",
-      "imageUrl": "https://northbaylivemusic.com/static/1731633064595.6318873/d9de4/iko-ya-ya.webp",
-      "imageSource": "northbaylivemusic.com",
+      "imageUrl": "https://d10j3mvrs1suex.cloudfront.net/s:bzglfiles/u/665512/0668209fe28e8c298bdc0234250607aa5acd4cff/original/iko-yaya-16.jpg/!!/b:W1sicmVzaXplIiwxODAwXSxbIm1heCJdLFsid2UiXV0%3D/meta:eyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg",
+      "imageSource": "ikoyaya.com",
       "confidence": "review",
       "summary": "",
       "disambiguation": "",
@@ -78382,8 +78382,8 @@ window.SHOW_EXPLORER_ARTISTS = {
         "unknown"
       ],
       "locality": "unknown",
-      "imageUrl": "https://i0.wp.com/guitargirlmag.com/wp-content/uploads/2023/03/lauren-lakis.jpg?resize=1068%2C1335&ssl=1",
-      "imageSource": "guitargirlmag.com",
+      "imageUrl": "https://media2.houstonpress.com/hou/imager/lauren-lakis-sculpts-a-music-career/u/magnum/11601348/ll745.webp?cb=1739517558",
+      "imageSource": "houstonpress.com",
       "confidence": "review",
       "summary": "",
       "disambiguation": "",
