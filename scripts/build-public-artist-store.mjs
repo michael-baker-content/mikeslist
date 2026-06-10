@@ -24,6 +24,7 @@ function publicArtistRecord(artist) {
     genres: cleanList(artist.genres || artist.tags).filter((item) => item !== "unknown"),
     locality: artist.locality && artist.locality !== "unknown" ? artist.locality : "",
     imageUrl: artist.imageUrl || "",
+    imageSource: artist.imageSource || "",
     summary: artist.summary || "",
     links: publicLinks(artist.links || []),
     supportPriority: cleanList(artist.supportPriority)

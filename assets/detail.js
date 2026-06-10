@@ -58,6 +58,7 @@ function renderArtistPage(id) {
       title,
       imageUrl: artist.imageUrl || "",
       imageAlt: `${title} artist image`,
+      imageSource: artist.imageSource || "",
       summary: artist.summary || "No summary has been added yet.",
       meta: [
         artist.locality || "unknown locality",
@@ -97,6 +98,7 @@ function renderVenuePage(id) {
       title,
       imageUrl: venue.imageUrl || "",
       imageAlt: `${title} venue image`,
+      imageSource: venue.imageSource || "",
       summary: venue.summary || "No summary has been added yet.",
       meta: [
         [venue.city, venue.region].filter(Boolean).join(", "),
@@ -123,7 +125,7 @@ function renderVenuePage(id) {
   );
 }
 
-function heroSection({ kicker, title, imageUrl = "", imageAlt = "", summary, meta }) {
+function heroSection({ kicker, title, imageUrl = "", imageAlt = "", imageSource = "", summary, meta }) {
   const section = document.createElement("section");
   section.className = "detail-hero";
   section.innerHTML = `
@@ -145,13 +147,40 @@ function heroSection({ kicker, title, imageUrl = "", imageAlt = "", summary, met
   });
   if (imageUrl) {
     section.classList.add("has-image");
+    const media = document.createElement("div");
+    media.className = "detail-hero-media";
     const image = document.createElement("img");
     image.className = "detail-hero-image";
     image.src = imageUrl;
     image.alt = imageAlt || "";
-    section.prepend(image);
+    media.append(image);
+    const sourceText = imageSourceLabel(imageSource, imageUrl);
+    if (sourceText) {
+      const credit = document.createElement("span");
+      credit.className = "image-source-credit";
+      credit.textContent = sourceText;
+      media.append(credit);
+    }
+    section.prepend(media);
   }
   return section;
+}
+
+function imageSourceLabel(source = "", url = "") {
+  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim();
+  const fallback = domainForUrl(url);
+  const value = cleaned || fallback;
+  return value ? `Source: ${value}` : "";
+}
+
+function domainForUrl(url = "") {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./i, "");
+    if (host.endsWith("unsplash.com")) return "Unsplash";
+    return host;
+  } catch {
+    return "";
+  }
 }
 
 function infoGrid(items) {

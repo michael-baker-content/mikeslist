@@ -464,21 +464,18 @@ function renderEventListing(event) {
 
 function imageForEvent(event) {
   if (eventImageCache.has(event)) return eventImageCache.get(event);
-  if (event.imageUrl) {
-    eventImageCache.set(event, event.imageUrl);
-    return event.imageUrl;
+  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const venue = enrichVenue(event);
+  const selectedImage = preferredImageUrl([
+    { url: event.imageUrl, priority: 0 },
+    { url: isArtistShow(event) ? topArtist.imageUrl : "", priority: 1 },
+    { url: venue.imageUrl, priority: 2 }
+  ]);
+  if (selectedImage) {
+    eventImageCache.set(event, selectedImage);
+    return selectedImage;
   }
 
-  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
-  if (isArtistShow(event) && topArtist.imageUrl) {
-    eventImageCache.set(event, topArtist.imageUrl);
-    return topArtist.imageUrl;
-  }
-  const venue = enrichVenue(event);
-  if (venue.imageUrl) {
-    eventImageCache.set(event, venue.imageUrl);
-    return venue.imageUrl;
-  }
   const genericImage = genericImageForEvent(event);
   if (genericImage) {
     eventImageCache.set(event, genericImage.url);
@@ -521,6 +518,61 @@ function imageForEvent(event) {
   const image = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
   eventImageCache.set(event, image);
   return image;
+}
+
+function imageSourceForEvent(event) {
+  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const venue = enrichVenue(event);
+  const image = preferredImageCandidate([
+    { url: event.imageUrl, source: event.imageSource, priority: 0 },
+    { url: isArtistShow(event) ? topArtist.imageUrl : "", source: topArtist.imageSource, priority: 1 },
+    { url: venue.imageUrl, source: venue.imageSource, priority: 2 }
+  ]);
+  if (image) return imageSourceLabel(image.source, image.url);
+
+  const genericImage = genericImageForEvent(event);
+  if (genericImage?.url) return imageSourceLabel(genericImage.source, genericImage.url);
+
+  return "";
+}
+
+function preferredImageUrl(candidates) {
+  return preferredImageCandidate(candidates)?.url || "";
+}
+
+function preferredImageCandidate(candidates) {
+  return candidates
+    .filter((candidate) => candidate.url)
+    .sort((a, b) => imageUrlRank(a.url) - imageUrlRank(b.url) || a.priority - b.priority)[0] || null;
+}
+
+function imageUrlRank(url = "") {
+  return isUnsplashImageUrl(url) ? 1 : 0;
+}
+
+function isUnsplashImageUrl(url = "") {
+  try {
+    return new URL(url).hostname.replace(/^www\./i, "").endsWith("unsplash.com");
+  } catch {
+    return false;
+  }
+}
+
+function imageSourceLabel(source = "", url = "") {
+  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim();
+  const fallback = domainForUrl(url);
+  const value = cleaned || fallback;
+  return value ? `Source: ${value}` : "";
+}
+
+function domainForUrl(url = "") {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./i, "");
+    if (host.endsWith("unsplash.com")) return "Unsplash";
+    return host;
+  } catch {
+    return "";
+  }
 }
 
 function genericImageForEvent(event) {
@@ -793,6 +845,13 @@ function createEventCard(event, options = {}) {
   const eventImage = node.querySelector(".event-image");
   eventImage.src = imageForEvent(event);
   eventImage.alt = genericImage?.alt || `${displayNameForArtist(topArtist) || event.venue} event image`;
+  const imageSource = imageSourceForEvent(event);
+  if (imageSource) {
+    const credit = document.createElement("span");
+    credit.className = "image-source-credit";
+    credit.textContent = imageSource;
+    node.querySelector(".event-image-wrap").append(credit);
+  }
   if (isMikesPick(event)) {
     const badge = document.createElement("span");
     badge.className = "pick-badge";

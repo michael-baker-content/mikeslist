@@ -10038,24 +10038,6 @@ window.SHOW_EXPLORER_EVENTS = [
         "displayName": ""
       },
       {
-        "name": "Infirmities",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Infirmities%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
         "name": "The Hellflowers",
         "tags": [
           "unknown"
@@ -10091,7 +10073,8 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": "",
     "region": "San Francisco",
     "time": "",
-    "price": ""
+    "price": "",
+    "imageSource": ""
   },
   {
     "id": "2026-06-10-makai-island-kitchen-and-groggery-trivia-7-00pm",
@@ -12814,8 +12797,8 @@ window.SHOW_EXPLORER_EVENTS = [
   {
     "id": "2026-06-10-yoshi-s-juju-s-burlesque",
     "date": "2026-06-10",
-    "title": "",
-    "showType": "artist",
+    "title": "Juju's Burlesque",
+    "showType": "event",
     "venueId": "yoshi-s",
     "venue": "Yoshi's",
     "venueHref": "",
@@ -12829,33 +12812,14 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [
-      {
-        "name": "Juju's Burlesque",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Juju's%20Burlesque%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
+    "artists": [],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "Juju's Burlesque",
     "eventDescription": ""
   },
   {
@@ -13761,19 +13725,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Lila Iké",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
+          },
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Lila%20Ik%C3%A9%22%20band%20music",
@@ -13781,7 +13733,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ]
+        ],
+        "displayName": ""
       }
     ],
     "sources": [
@@ -16477,8 +16430,8 @@ window.SHOW_EXPLORER_EVENTS = [
   {
     "id": "2026-06-11-the-lost-church-you-re-going-to-die",
     "date": "2026-06-11",
-    "title": "",
-    "showType": "artist",
+    "title": "You’re Going to Die",
+    "showType": "event",
     "venueId": "the-lost-church",
     "venue": "The Lost Church",
     "venueHref": "",
@@ -16492,33 +16445,14 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [
-      {
-        "name": "You’re Going to Die",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22You%E2%80%99re%20Going%20to%20Die%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
+    "artists": [],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-june-8-14-2026/"
       }
     ],
-    "displayName": "",
+    "displayName": "You’re Going to Die",
     "eventDescription": ""
   },
   {

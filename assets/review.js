@@ -37,6 +37,7 @@ const fields = {
   locality: document.querySelector("#localityInput"),
   genres: document.querySelector("#genresInput"),
   imageUrl: document.querySelector("#imageUrlInput"),
+  imageSource: document.querySelector("#imageSourceInput"),
   priority: document.querySelector("#priorityInput"),
   summary: document.querySelector("#summaryInput"),
   links: document.querySelector("#linksEditor"),
@@ -114,6 +115,7 @@ function artistText(artist) {
     artist.displayName,
     artist.locality,
     artist.imageUrl,
+    artist.imageSource,
     artist.summary,
     artist.disambiguation,
     artist.reviewNotes,
@@ -257,6 +259,14 @@ function hostForUrl(url = "") {
   }
 }
 
+function cleanImageSource(value = "") {
+  return String(value || "").replace(/^source\s*:\s*/i, "").trim();
+}
+
+function displayImageSourceValue(value = "") {
+  return cleanImageSource(value);
+}
+
 function labelForType(type = "official") {
   const labels = {
     bandcamp: "Bandcamp",
@@ -303,6 +313,7 @@ function selectArtist(id) {
   fields.locality.value = artist.locality || "";
   fields.genres.value = (artist.genres || artist.tags || []).join(", ");
   fields.imageUrl.value = artist.imageUrl || "";
+  fields.imageSource.value = displayImageSourceValue(artist.imageSource || "");
   fields.priority.value = supportPriorityForArtist(artist).join(", ");
   fields.summary.value = artist.summary || "";
   renderLinkEditor(artist.links || []);
@@ -440,6 +451,7 @@ function mergeArtistData(target, source) {
   ].filter((value) => value && normalizeName(value) !== normalizeName(target.name) && normalizeName(value) !== normalizeName(target.displayName || "")));
   target.genres = uniqueList([...(target.genres || target.tags || []), ...(source.genres || source.tags || [])]);
   target.imageUrl ||= source.imageUrl || "";
+  target.imageSource ||= source.imageSource || "";
   target.locality = preferredText(target.locality, source.locality, "unknown");
   target.summary = preferredText(target.summary, source.summary);
   target.reviewNotes = uniqueParagraphs(target.reviewNotes, source.reviewNotes || source.note);
@@ -662,6 +674,7 @@ form.addEventListener("submit", async (event) => {
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
   artist.imageUrl = fields.imageUrl.value.trim();
+  artist.imageSource = cleanImageSource(fields.imageSource.value);
   delete artist.tags;
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.summary = fields.summary.value.trim();
@@ -983,6 +996,7 @@ async function saveCurrentArtist() {
   artist.locality = fields.locality.value.trim() || "unknown";
   artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
   artist.imageUrl = fields.imageUrl.value.trim();
+  artist.imageSource = cleanImageSource(fields.imageSource.value);
   delete artist.tags;
   artist.summary = fields.summary.value.trim();
   artist.links = readLinkEditor();

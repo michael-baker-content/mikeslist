@@ -44,6 +44,7 @@ const fields = {
   source: document.querySelector("#sourceInput"),
   infoUrl: document.querySelector("#infoUrlInput"),
   imageUrl: document.querySelector("#imageUrlInput"),
+  imageSource: document.querySelector("#imageSourceInput"),
   mergeEvent: document.querySelector("#mergeEventInput"),
   duplicateCount: document.querySelector("#duplicateCount"),
   duplicateSuggestions: document.querySelector("#duplicateSuggestions"),
@@ -140,6 +141,7 @@ function eventText(event) {
     event.sourceUrl,
     event.infoUrl,
     event.imageUrl,
+    event.imageSource,
     ...(event.eventTypes || []),
     ...(event.themes || []),
     ...(event.artists || []).flatMap((artist) => [artist.name, artist.displayName])
@@ -291,6 +293,7 @@ function renderForm() {
   fields.source.value = event.source?.url || event.sourceUrl || "";
   fields.infoUrl.value = event.infoUrl || "";
   fields.imageUrl.value = event.imageUrl || "";
+  fields.imageSource.value = displayImageSourceValue(event.imageSource || "");
   renderMergeEventOptions(event);
   renderDuplicateSuggestions(event);
 }
@@ -551,6 +554,7 @@ function updateSelectedEventFromForm() {
 
   event.infoUrl = fields.infoUrl.value.trim();
   event.imageUrl = fields.imageUrl.value.trim();
+  event.imageSource = cleanImageSource(fields.imageSource.value);
 
   if (!event.id) event.id = slugify(`${event.date}-${event.venue}-${eventTitle(event)}`);
   return event;
@@ -601,6 +605,14 @@ function sourceNameForUrl(url, fallback = "Source") {
   if (normalized.includes("badslava.com")) return "BadSlava";
   if (normalized.includes("jon.luini.com") || normalized.includes("thelist")) return "The List";
   return fallback && fallback !== "Source" ? fallback : "Source";
+}
+
+function cleanImageSource(value = "") {
+  return String(value || "").replace(/^source\s*:\s*/i, "").trim();
+}
+
+function displayImageSourceValue(value = "") {
+  return cleanImageSource(value);
 }
 
 function sourceNamesForEvent(event) {
@@ -658,6 +670,7 @@ function mergeEventData(target, source) {
   if (!target.sourceUrl && source.sourceUrl) target.sourceUrl = source.sourceUrl;
   target.infoUrl ||= source.infoUrl || "";
   target.imageUrl ||= source.imageUrl || "";
+  target.imageSource ||= source.imageSource || "";
   target.city ||= source.city || "";
   target.region ||= source.region || "";
   target.time ||= source.time || "";

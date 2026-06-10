@@ -171,6 +171,8 @@ for (const event of events) {
       aliases: previous.aliases || [],
       genres: previous.genres || previous.tags || artist.tags || [],
       locality: previous.locality || artist.locality || "unknown",
+      imageUrl: previous.imageUrl || artist.imageUrl || "",
+      imageSource: previous.imageSource || artist.imageSource || "",
       confidence: previous.confidence || artist.confidence || "review",
       summary: previous.summary || "",
       disambiguation: previous.disambiguation || "",

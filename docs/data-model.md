@@ -15,6 +15,8 @@ Recommended fields:
 - `locality`: origin or current base when known
 - `genres`: reviewed or source-derived genre tags
 - `summary`: short human-readable description
+- `imageUrl`: reviewed public image URL
+- `imageSource`: optional image credit text; public UI renders this as `Source: {imageSource}` and falls back to the image URL domain when blank
 - `links`: reviewed source links with type, label, URL, confidence, and source
 - `reviewNotes`: human notes for unresolved ambiguity
 - `evidence`: machine notes about how enrichment happened
@@ -37,6 +39,8 @@ Recommended fields:
 - `city`: city or neighborhood when known
 - `region`: Bay Area subregion, such as SF, East Bay, South Bay, Peninsula, North Bay, Santa Cruz/Monterey
 - `address`: street address when useful
+- `imageUrl`: reviewed public image URL
+- `imageSource`: optional image credit text; public UI renders this as `Source: {imageSource}` and falls back to the image URL domain when blank
 - `geo`: latitude/longitude when known
 - `agePolicy`: `all-ages`, `18+`, `21+`, `mixed`, or `unknown`
 - `capacity`: rough capacity if known
@@ -70,6 +74,8 @@ Recommended fields:
 - `ticketStatus`: `available`, `sold-out`, `canceled`, `postponed`, `unknown`
 - `status`: `scheduled`, `canceled`, `postponed`, `rescheduled`, `past`, or `unknown`
 - `sourceUrl`: The List source URL
+- `imageUrl`: reviewed public image URL for featured cards
+- `imageSource`: optional image credit text; public UI renders this as `Source: {imageSource}` and falls back to the image URL domain when blank
 - `sourceFingerprint`: hash of the source row content
 - `lastSeenAt`: most recent import where this event appeared
 - `firstSeenAt`: first import where this event appeared
