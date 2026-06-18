@@ -11,6 +11,7 @@ const args = new Map(process.argv.slice(2).map((arg) => {
 
 const weeks = Number(args.get("kalx-weeks") || args.get("weeks") || 2);
 const fromDate = importFromDate();
+const listUrlsOnly = args.has("list-urls");
 
 const monthNames = new Map([
   ["january", "01"], ["february", "02"], ["march", "03"], ["april", "04"],
@@ -19,6 +20,11 @@ const monthNames = new Map([
 ]);
 
 const existing = await readWindowData(EVENTS_PATH, "SHOW_EXPLORER_EVENTS", []);
+if (listUrlsOnly) {
+  const urls = await kalxImportUrls();
+  console.log(JSON.stringify({ fromDate, weeks, urls }, null, 2));
+  process.exit(0);
+}
 const kalxEvents = await importKalxEvents();
 const merged = mergeEvents(existing, kalxEvents)
   .filter((event) => !fromDate || event.date >= fromDate)
@@ -28,6 +34,17 @@ await writeFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(mer
 console.log(`Merged ${kalxEvents.length} KALX events into ${EVENTS_PATH.pathname}`);
 
 async function importKalxEvents() {
+  const weekLinks = await kalxImportUrls();
+  const events = [];
+  for (const url of weekLinks) {
+    const html = await fetchText(url, { allowMissing: true });
+    if (!html) continue;
+    events.push(...parseWeek(html, url));
+  }
+  return events;
+}
+
+async function kalxImportUrls() {
   const generatedLinks = kalxWeekUrls(fromDate || todayString(), weeks);
   let indexHtml = "";
   try {
@@ -37,17 +54,11 @@ async function importKalxEvents() {
   }
   const discoveredLinks = discoverKalxWeekLinks(indexHtml);
   const weekLinks = uniqueUrls([...generatedLinks, ...discoveredLinks])
-    .filter((url) => !fromDate || (weekStartFromKalxUrl(url) || "9999-99-99") >= fromDate)
+    .filter((url) => !fromDate || weekOverlapsImportRange(url, fromDate))
     .sort((a, b) => (weekStartFromKalxUrl(a) || a).localeCompare(weekStartFromKalxUrl(b) || b))
     .slice(0, weeks);
 
-  const events = [];
-  for (const url of weekLinks) {
-    const html = await fetchText(url, { allowMissing: true });
-    if (!html) continue;
-    events.push(...parseWeek(html, url));
-  }
-  return events;
+  return weekLinks;
 }
 
 function discoverKalxWeekLinks(html) {
@@ -81,6 +92,24 @@ function weekStartFromKalxUrl(url) {
   if (!match) return "";
   const month = monthNames.get(match[1].toLowerCase());
   return month ? `${match[3]}-${month}-${match[2].padStart(2, "0")}` : "";
+}
+
+function weekOverlapsImportRange(url, from) {
+  const range = weekRangeFromKalxUrl(url);
+  if (!range) return true;
+  return range.end >= from;
+}
+
+function weekRangeFromKalxUrl(url) {
+  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-([a-z]+))?-(\d{1,2})-(20\d{2})\/?$/i);
+  if (!match) return null;
+  const startMonth = monthNames.get(match[1].toLowerCase());
+  const endMonth = monthNames.get((match[3] || match[1]).toLowerCase());
+  if (!startMonth || !endMonth) return null;
+  const year = match[5];
+  const start = `${year}-${startMonth}-${match[2].padStart(2, "0")}`;
+  const end = `${year}-${endMonth}-${match[4].padStart(2, "0")}`;
+  return { start, end };
 }
 
 function mondayFor(dateString) {

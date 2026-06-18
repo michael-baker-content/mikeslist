@@ -1810,6 +1810,31 @@ body:not(.auth-admin) [data-admin-only] {
   text-decoration: none;
 }
 
+.field-hint {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
+.venue-status-hint.verified {
+  color: var(--accent);
+}
+
+.venue-status-hint.likely {
+  color: var(--blue);
+}
+
+.venue-status-hint.review {
+  color: var(--gold);
+}
+
+.venue-status-hint.rejected {
+  color: var(--badge-rejected);
+}
+
 #artistForm input,
 #artistForm select,
 #artistForm textarea,

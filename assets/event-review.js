@@ -1,6 +1,7 @@
 const STORE_KEY = "bay-area-show-explorer-events";
 const RECENT_STORE_KEY = "bay-area-show-explorer-recent-events";
 const baseEvents = [...(window.SHOW_EXPLORER_EVENTS || [])];
+const venueStore = window.SHOW_EXPLORER_VENUES || { venues: {} };
 const savedEvents = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
 const events = newerEvents(savedEvents, baseEvents);
 const recentEventIds = new Set(JSON.parse(localStorage.getItem(RECENT_STORE_KEY) || "[]"));
@@ -31,6 +32,7 @@ const fields = {
   selectedStatus: document.querySelector("#selectedStatus"),
   date: document.querySelector("#dateInput"),
   venue: document.querySelector("#venueInput"),
+  venueStatusHint: document.querySelector("#venueStatusHint"),
   showType: document.querySelector("#showTypeInput"),
   title: document.querySelector("#titleInput"),
   displayName: document.querySelector("#displayNameInput"),
@@ -272,7 +274,10 @@ function selectedEvent() {
 function renderForm() {
   const event = selectedEvent();
   form.hidden = !event;
-  if (!event) return;
+  if (!event) {
+    if (fields.venueStatusHint) fields.venueStatusHint.textContent = "";
+    return;
+  }
 
   const status = eventStatus(event);
   fields.selectedName.textContent = eventTitle(event);
@@ -280,6 +285,7 @@ function renderForm() {
   fields.selectedStatus.className = `confidence ${needsMetadata(event) ? "review" : isArtistShow(event) ? "likely" : "verified"}`;
   fields.date.value = event.date || "";
   fields.venue.value = event.venue || "";
+  renderVenueStatusHint(event);
   fields.showType.value = showTypeForEvent(event);
   fields.title.value = cleanJoinedText(event.title || "");
   fields.displayName.value = cleanJoinedText(event.displayName || "");
@@ -451,9 +457,11 @@ function duplicateCard(candidate, selectedEvent) {
   const heading = document.createElement("h4");
   heading.textContent = eventTitle(candidate);
   const meta = document.createElement("p");
+  const venueStatus = venueStatusText(candidate);
   meta.textContent = [
     candidate.date,
     candidate.venue,
+    venueStatus,
     showTypeLabel(showTypeForEvent(candidate)),
     sourceNamesForEvent(candidate).join(", ")
   ].filter(Boolean).join(" | ");
@@ -492,6 +500,81 @@ function duplicateCard(candidate, selectedEvent) {
   return card;
 }
 
+function renderVenueStatusHint(event) {
+  const match = resolvedVenueForEvent(event);
+  if (!fields.venueStatusHint) return;
+  fields.venueStatusHint.textContent = venueStatusText(event, match);
+  fields.venueStatusHint.className = `field-hint venue-status-hint ${match?.confidence || "review"}`;
+}
+
+function venueStatusText(event, match = resolvedVenueForEvent(event)) {
+  if (!match) return "Venue not found in review store";
+  const name = displayNameForVenue(match);
+  const confidence = confidenceLabel(match.confidence);
+  const status = match.status && match.status !== "unknown" ? match.status : "";
+  const type = match.venueType && match.venueType !== "unknown" ? match.venueType : "";
+  const canonical = name && normalizeText(name) !== normalizeText(event.venue || "") ? ` -> ${name}` : "";
+  return [`Venue ${confidence}${canonical}`, status, type].filter(Boolean).join(" / ");
+}
+
+function resolvedVenueForEvent(event) {
+  return bestVenueMatch([
+    venueByName(event.venue || ""),
+    venueById(slugify(event.venue || "")),
+    venueById(event.venueId)
+  ]);
+}
+
+function venueById(id = "") {
+  return id ? venueStore.venues?.[id] || null : null;
+}
+
+function venueByName(name = "") {
+  const key = normalizeText(name);
+  if (!key) return null;
+  return Object.values(venueStore.venues || {}).find((venue) => {
+    return [
+      venue.name,
+      venue.displayName,
+      ...(venue.aliases || [])
+    ].some((value) => normalizeText(value) === key);
+  }) || null;
+}
+
+function resolveMergedVenue(venue) {
+  if (!venue) return null;
+  return venue.mergedInto && venueStore.venues?.[venue.mergedInto]
+    ? venueStore.venues[venue.mergedInto]
+    : venue;
+}
+
+function bestVenueMatch(matches = []) {
+  return matches
+    .map(resolveMergedVenue)
+    .filter(Boolean)
+    .sort((a, b) => venueMatchRank(b) - venueMatchRank(a))[0] || null;
+}
+
+function venueMatchRank(venue) {
+  return confidenceRank(venue.confidence) * 10
+    + Number(venue.status === "active") * 3
+    + Number(Boolean(venue.displayName)) * 2
+    + Number(Boolean(venue.address || venue.geo)) * 2;
+}
+
+function displayNameForVenue(venue) {
+  return venue?.displayName || venue?.name || "";
+}
+
+function confidenceLabel(value = "review") {
+  return {
+    review: "needs review",
+    likely: "likely",
+    verified: "verified",
+    rejected: "rejected"
+  }[value] || value || "needs review";
+}
+
 function compareMergeTargets(a, b, selectedEvent) {
   return Number(!sameDateAndVenue(a, selectedEvent)) - Number(!sameDateAndVenue(b, selectedEvent))
     || a.date.localeCompare(b.date)
@@ -524,7 +607,7 @@ function updateSelectedEventFromForm() {
 
   event.date = fields.date.value;
   event.venue = fields.venue.value.trim();
-  event.venueId ||= slugify(event.venue);
+  event.venueId = resolvedVenueForEvent({ ...event, venue: event.venue })?.id || slugify(event.venue);
   event.showType = fields.showType.value === "event" ? "event" : "artist";
   event.title = cleanJoinedText(fields.title.value);
   event.displayName = cleanJoinedText(fields.displayName.value);
@@ -532,7 +615,7 @@ function updateSelectedEventFromForm() {
   event.eventDescription = cleanJoinedText(fields.eventDescription.value);
   event.mikesPick = fields.mikesPick.getAttribute("aria-pressed") === "true";
   event.eventTypes = splitList(fields.eventTypes.value);
-  event.themes = splitList(fields.themes.value);
+  event.themes = splitTaxonomyList(fields.themes.value);
   event.artists = event.showType === "event"
     ? []
     : fields.artists.value
@@ -586,6 +669,19 @@ function splitList(value) {
     .filter(Boolean);
 }
 
+function splitTaxonomyList(value = "") {
+  return value
+    .split(",")
+    .map((item) => normalizeTaxonomyItem(item))
+    .filter(Boolean);
+}
+
+function normalizeTaxonomyItem(value = "") {
+  const item = String(value || "").trim();
+  if (!item) return "";
+  return /[A-Z]/.test(item) ? item : item.toLowerCase();
+}
+
 function mergeSources(existing, incoming) {
   const sources = new Map();
   for (const source of [...existing, ...incoming].filter(Boolean)) {
@@ -608,7 +704,7 @@ function sourceNameForUrl(url, fallback = "Source") {
 }
 
 function cleanImageSource(value = "") {
-  return String(value || "").replace(/^source\s*:\s*/i, "").trim();
+  return String(value || "").replace(/^source\s*:\s*/i, "").trim().replace(/\/+$/g, "");
 }
 
 function displayImageSourceValue(value = "") {
@@ -641,6 +737,26 @@ async function mergeSelectedEvent() {
   state.selectedId = target.id;
   await saveEvents({ skipFormUpdate: true });
   fields.saveStatus.textContent = `Merged duplicate show into ${eventTitle(target)}`;
+}
+
+async function deleteSelectedEvent() {
+  const event = selectedEvent();
+  if (!event) return;
+  const index = events.findIndex((item) => item.id === event.id);
+  if (index < 0) return;
+
+  const confirmed = window.confirm(`Delete "${eventTitle(event)}" at "${event.venue || "unknown venue"}" on ${event.date || "unknown date"}? This removes the show record.`);
+  if (!confirmed) return;
+
+  const visibleBeforeDelete = visibleEvents();
+  const visibleIndex = visibleBeforeDelete.findIndex((item) => item.id === event.id);
+  events.splice(index, 1);
+  const visibleAfterDelete = visibleEvents();
+  const nextVisibleIndex = visibleIndex >= 0 ? Math.min(visibleIndex, visibleAfterDelete.length - 1) : 0;
+  const next = visibleAfterDelete[nextVisibleIndex] || events[Math.min(index, Math.max(events.length - 1, 0))] || events[0] || null;
+  state.selectedId = next?.id || "";
+  await saveEvents({ skipFormUpdate: true });
+  fields.saveStatus.textContent = "Deleted show record";
 }
 
 function markRecentlyChanged(...ids) {
@@ -857,6 +973,14 @@ search.addEventListener("input", (event) => {
   render();
 });
 
+fields.venue.addEventListener("input", () => {
+  renderVenueStatusHint({
+    ...selectedEvent(),
+    venue: fields.venue.value,
+    venueId: slugify(fields.venue.value)
+  });
+});
+
 fromDateInput.value = state.fromDate;
 toDateInput.value = state.toDate;
 sortInput.value = state.sort;
@@ -904,6 +1028,7 @@ document.querySelector("#clearArtistsButton").addEventListener("click", () => {
 });
 
 document.querySelector("#mergeEventButton").addEventListener("click", mergeSelectedEvent);
+document.querySelector("#deleteEventButton").addEventListener("click", deleteSelectedEvent);
 
 fields.showType.addEventListener("change", () => {
   syncShowTypeFields();

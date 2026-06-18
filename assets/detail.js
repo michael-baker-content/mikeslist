@@ -167,7 +167,7 @@ function heroSection({ kicker, title, imageUrl = "", imageAlt = "", imageSource 
 }
 
 function imageSourceLabel(source = "", url = "") {
-  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim();
+  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim().replace(/\/+$/g, "");
   const fallback = domainForUrl(url);
   const value = cleaned || fallback;
   return value ? `Source: ${value}` : "";

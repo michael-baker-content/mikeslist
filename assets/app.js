@@ -369,7 +369,7 @@ function renderArtist(artist) {
   artistLink.href = `artist.html?id=${encodeURIComponent(displayArtist.id || slugify(displayArtist.name))}&from=${encodeURIComponent("show-explorer.html")}`;
   artistLink.textContent = displayNameForArtist(displayArtist);
   artistName.append(artistLink);
-  const tags = (displayArtist.genres || displayArtist.tags || []).filter((tag) => tag && tag !== "unknown").join(" / ");
+  const tags = (displayArtist.genres || displayArtist.tags || []).filter((tag) => tag && tag !== "unknown").slice(0, 3).join(" / ");
   const tagNode = node.querySelector(".artist-tags");
   tagNode.textContent = tags;
   tagNode.hidden = !tags;
@@ -559,7 +559,7 @@ function isUnsplashImageUrl(url = "") {
 }
 
 function imageSourceLabel(source = "", url = "") {
-  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim();
+  const cleaned = String(source || "").replace(/^source\s*:\s*/i, "").trim().replace(/\/+$/g, "");
   const fallback = domainForUrl(url);
   const value = cleaned || fallback;
   return value ? `Source: ${value}` : "";

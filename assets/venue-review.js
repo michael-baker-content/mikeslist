@@ -271,7 +271,7 @@ function displayNameFor(venue) {
 }
 
 function cleanImageSource(value = "") {
-  return String(value || "").replace(/^source\s*:\s*/i, "").trim();
+  return String(value || "").replace(/^source\s*:\s*/i, "").trim().replace(/\/+$/g, "");
 }
 
 function displayImageSourceValue(value = "") {
@@ -339,13 +339,13 @@ function linkRow(venue, link, rejected = false) {
   displayLabel.className = "link-display-control";
   const display = document.createElement("input");
   display.type = "checkbox";
-  display.checked = link.display !== false;
+  display.checked = suggestedLinkDisplay(link);
   displayLabel.append(display, document.createTextNode("Show"));
 
   const priority = document.createElement("select");
   priority.add(new Option("Primary", "primary"));
   priority.add(new Option("Secondary", "secondary"));
-  priority.value = link.displayPriority === "primary" ? "primary" : "secondary";
+  priority.value = link.displayPriority || suggestedLinkPriority(link);
 
   const remove = document.createElement("button");
   remove.className = "icon-button";
@@ -370,6 +370,7 @@ function linkRow(venue, link, rejected = false) {
   });
   confidence.addEventListener("change", () => {
     link.confidence = confidence.value;
+    applyVerifiedDisplaySuggestion(link, display, priority);
     persistDraft();
     renderLinks(venue);
   });
@@ -391,6 +392,29 @@ function linkRow(venue, link, rejected = false) {
 
   row.append(type, label, url, confidence, displayLabel, priority, remove);
   return row;
+}
+
+function suggestedLinkDisplay(link = {}) {
+  if (link.display === false) return false;
+  return link.display !== undefined ? Boolean(link.display) : true;
+}
+
+function suggestedLinkPriority(link = {}) {
+  if (link.displayPriority) return link.displayPriority;
+  if (link.confidence !== "verified" || link.type === "search") return "secondary";
+  return ["official", "theList", "badSlava", "maps", "yelp"].includes(link.type) ? "primary" : "secondary";
+}
+
+function applyVerifiedDisplaySuggestion(link, display, priority) {
+  if (link.confidence !== "verified" || link.type === "search") return;
+  if (link.display === undefined) {
+    link.display = true;
+    display.checked = true;
+  }
+  if (!link.displayPriority) {
+    link.displayPriority = suggestedLinkPriority(link);
+    priority.value = link.displayPriority;
+  }
 }
 
 function renderAppearances(venue) {
@@ -479,6 +503,50 @@ async function mergeSelectedVenue() {
   state.selectedId = target.id;
   fields.saveStatus.textContent = `Merged into ${displayNameFor(target)}`;
   render();
+}
+
+async function deleteSelectedVenue() {
+  const venue = selectedVenue();
+  if (!venue) return;
+
+  const displayName = displayNameFor(venue) || venue.id;
+  const redirectCount = venues().filter((item) => item.mergedInto === venue.id).length;
+  const redirectWarning = redirectCount
+    ? ` ${redirectCount} merged venue record${redirectCount === 1 ? "" : "s"} point to this record.`
+    : "";
+  const confirmed = window.confirm(`Delete "${displayName}"? This permanently removes the venue record.${redirectWarning}`);
+  if (!confirmed) return;
+
+  const visibleBefore = filteredVenues();
+  const currentIndex = Math.max(0, visibleBefore.findIndex((item) => item.id === venue.id));
+  removeMergedVenueAlias(venue);
+  delete venueStore.venues[venue.id];
+
+  const visibleAfter = filteredVenues();
+  const fallbackAfter = venues();
+  const next = visibleAfter[Math.min(currentIndex, visibleAfter.length - 1)] || visibleAfter[0] || fallbackAfter[0] || null;
+  state.selectedId = next?.id || "";
+
+  await saveStore();
+  fields.saveStatus.textContent = `Deleted ${displayName}`;
+  render();
+}
+
+function removeMergedVenueAlias(venue) {
+  const target = venue.mergedInto ? venueStore.venues?.[venue.mergedInto] : null;
+  if (!target?.aliases?.length) return;
+
+  const removedNames = new Set([
+    venue.name,
+    venue.displayName,
+    ...(venue.aliases || [])
+  ].filter(Boolean).map(normalizedAlias));
+
+  target.aliases = target.aliases.filter((alias) => !removedNames.has(normalizedAlias(alias)));
+}
+
+function normalizedAlias(value = "") {
+  return String(value || "").trim().toLowerCase();
 }
 
 function unique(values) {
@@ -748,6 +816,7 @@ document.querySelector("#clearLocalButton").addEventListener("click", () => {
 
 document.querySelector("#exportButton").addEventListener("click", exportStore);
 document.querySelector("#mergeVenueButton").addEventListener("click", mergeSelectedVenue);
+document.querySelector("#deleteVenueButton").addEventListener("click", deleteSelectedVenue);
 document.querySelector("#pruneArtistsButton").addEventListener("click", pruneRejectedVenueArtists);
 enrichButton.addEventListener("click", enrichVenue);
 enrichLikelyButton.addEventListener("click", enrichLikelyVenues);

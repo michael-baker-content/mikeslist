@@ -68,6 +68,14 @@
           <summary>Queue options</summary>
           <div class="advanced-filter-grid">
             <label>
+              <span>Show dates</span>
+              <select id="appearanceScopeInput">
+                <option value="range">Selected range</option>
+                <option value="past-only">Past only</option>
+                <option value="all">All dates</option>
+              </select>
+            </label>
+            <label>
               <span>Venue</span>
               <select id="venueFilterInput"></select>
             </label>
@@ -195,6 +203,7 @@
               <button class="chip active" type="submit">Save Artist</button>
               <button id="enrichButton" class="chip" type="button">Enrich Artist</button>
               <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="deleteArtistButton" class="chip danger-chip" type="button">Delete Artist</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
               <span id="saveStatus" class="save-status" aria-live="polite"></span>
             </div>

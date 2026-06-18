@@ -12,6 +12,7 @@ const state = {
   filter: "review",
   venue: "all",
   sort: "name",
+  appearanceScope: "range",
   fromDate: todayString(),
   toDate: dateStringFromOffset(6),
   selectedId: ""
@@ -22,6 +23,7 @@ const form = document.querySelector("#artistForm");
 const search = document.querySelector("#artistSearch");
 const fromDateInput = document.querySelector("#fromDateInput");
 const toDateInput = document.querySelector("#toDateInput");
+const appearanceScopeInput = document.querySelector("#appearanceScopeInput");
 const venueFilterInput = document.querySelector("#venueFilterInput");
 const artistSortInput = document.querySelector("#artistSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
@@ -132,19 +134,43 @@ function visibleArtists() {
   return artists().filter((artist) => {
     const filterMatch = state.filter === "all" || artist.confidence === state.filter;
     const queryMatch = !query || artistText(artist).includes(query);
-    const appearances = appearancesInRange(artist.source?.appearances || []);
-    const dateMatch = !state.fromDate && !state.toDate ? true : appearances.length > 0;
+    const appearances = scopedAppearancesForArtist(artist);
+    const dateMatch = state.appearanceScope === "all"
+      ? true
+      : state.appearanceScope === "past-only"
+        ? hasOnlyPastAppearances(artist)
+        : !state.fromDate && !state.toDate ? true : appearances.length > 0;
     const venueMatch = state.venue === "all" || appearances.some((appearance) => venueKey(appearance.venue) === state.venue);
     return filterMatch && queryMatch && dateMatch && venueMatch;
   }).sort(compareArtistsForQueue);
 }
 
+function scopedAppearancesForArtist(artist) {
+  const appearances = artist.source?.appearances || [];
+  if (state.appearanceScope === "all") return sortedAppearances(appearances);
+  if (state.appearanceScope === "past-only") return sortedAppearances(appearances.filter((appearance) => isPastAppearance(appearance)));
+  return appearancesInRange(appearances);
+}
+
 function appearancesInRange(appearances) {
-  return appearances.filter((appearance) => {
+  return sortedAppearances(appearances.filter((appearance) => {
     if (state.fromDate && appearance.date < state.fromDate) return false;
     if (state.toDate && appearance.date > state.toDate) return false;
     return true;
-  }).sort((a, b) => a.date.localeCompare(b.date) || (a.venue || "").localeCompare(b.venue || ""));
+  }));
+}
+
+function sortedAppearances(appearances) {
+  return [...appearances].sort((a, b) => (a.date || "").localeCompare(b.date || "") || (a.venue || "").localeCompare(b.venue || ""));
+}
+
+function hasOnlyPastAppearances(artist) {
+  const datedAppearances = (artist.source?.appearances || []).filter((appearance) => appearance.date);
+  return datedAppearances.length > 0 && datedAppearances.every((appearance) => isPastAppearance(appearance));
+}
+
+function isPastAppearance(appearance) {
+  return appearance.date && appearance.date < todayString();
 }
 
 function preferredFilter() {
@@ -174,11 +200,11 @@ function compareArtistsForQueue(a, b) {
 }
 
 function primaryVenueForArtist(artist) {
-  return appearancesInRange(artist.source?.appearances || [])[0]?.venue || "";
+  return scopedAppearancesForArtist(artist)[0]?.venue || "";
 }
 
 function nextDateForArtist(artist) {
-  return appearancesInRange(artist.source?.appearances || [])[0]?.date || "9999-12-31";
+  return scopedAppearancesForArtist(artist)[0]?.date || "9999-12-31";
 }
 
 function confidenceSortRank(confidence = "review") {
@@ -193,7 +219,7 @@ function renderVenueFilterOptions() {
   const current = state.venue;
   const venues = new Map();
   artists().forEach((artist) => {
-    appearancesInRange(artist.source?.appearances || []).forEach((appearance) => {
+    scopedAppearancesForArtist(artist).forEach((appearance) => {
       if (!appearance.venue) return;
       venues.set(venueKey(appearance.venue), appearance.venue);
     });
@@ -260,11 +286,24 @@ function hostForUrl(url = "") {
 }
 
 function cleanImageSource(value = "") {
-  return String(value || "").replace(/^source\s*:\s*/i, "").trim();
+  return String(value || "").replace(/^source\s*:\s*/i, "").trim().replace(/\/+$/g, "");
 }
 
 function displayImageSourceValue(value = "") {
   return cleanImageSource(value);
+}
+
+function splitTaxonomyList(value = "") {
+  return value
+    .split(",")
+    .map((item) => normalizeTaxonomyItem(item))
+    .filter(Boolean);
+}
+
+function normalizeTaxonomyItem(value = "") {
+  const item = String(value || "").trim();
+  if (!item) return "";
+  return /[A-Z]/.test(item) ? item : item.toLowerCase();
 }
 
 function labelForType(type = "official") {
@@ -321,8 +360,8 @@ function selectArtist(id) {
   renderMergeArtistOptions(artist);
 
   fields.appearances.replaceChildren();
-  const appearances = appearancesInRange(artist.source?.appearances || []);
-  fields.appearanceHeading.textContent = state.fromDate || state.toDate ? "Shows in Range" : "Shows";
+  const appearances = scopedAppearancesForArtist(artist);
+  fields.appearanceHeading.textContent = appearanceHeadingText();
   if (!appearances.length) {
     const empty = document.createElement("p");
     empty.className = "appearance";
@@ -588,14 +627,26 @@ function renderQueue() {
     const name = document.createElement("strong");
     name.textContent = artist.name;
     const meta = document.createElement("span");
-    const count = appearancesInRange(artist.source?.appearances || []).length;
-    meta.textContent = `${artist.confidence || "review"} / ${count} in range`;
+    const count = scopedAppearancesForArtist(artist).length;
+    meta.textContent = `${artist.confidence || "review"} / ${count} ${appearanceScopeLabel()}`;
 
     button.append(name, meta);
     button.addEventListener("click", () => selectArtist(artist.id));
     queue.append(button);
   });
   keepSelectedQueueItemVisible();
+}
+
+function appearanceHeadingText() {
+  if (state.appearanceScope === "past-only") return "Past Shows";
+  if (state.appearanceScope === "all") return "All Shows";
+  return state.fromDate || state.toDate ? "Shows in Range" : "Shows";
+}
+
+function appearanceScopeLabel() {
+  if (state.appearanceScope === "past-only") return "past";
+  if (state.appearanceScope === "all") return "total";
+  return "in range";
 }
 
 function updateRecordNavigation(list = visibleArtists()) {
@@ -664,6 +715,45 @@ async function persistEvents() {
   }
 }
 
+async function deleteSelectedArtist() {
+  const artist = artistStore.artists[state.selectedId];
+  if (!artist) return;
+
+  const displayName = artist.displayName || artist.name || artist.id;
+  const confirmed = window.confirm(`Delete "${displayName}"? This permanently removes the artist record.`);
+  if (!confirmed) return;
+
+  const visibleBefore = visibleArtists();
+  const currentIndex = Math.max(0, visibleBefore.findIndex((item) => item.id === artist.id));
+  removeDeletedArtistAliases(artist);
+  delete artistStore.artists[artist.id];
+
+  const visibleAfter = visibleArtists();
+  const fallbackAfter = artists();
+  const next = visibleAfter[Math.min(currentIndex, visibleAfter.length - 1)] || visibleAfter[0] || fallbackAfter[0] || null;
+  state.selectedId = next?.id || "";
+
+  await persist();
+  updateSummary();
+  fields.saveStatus.textContent = `Deleted ${displayName}`;
+
+  if (next) selectArtist(next.id);
+  else syncArtistSelection();
+}
+
+function removeDeletedArtistAliases(artist) {
+  const removedNames = new Set([
+    artist.name,
+    artist.displayName,
+    ...(artist.aliases || [])
+  ].filter(Boolean).map(normalizeName));
+
+  artists().forEach((item) => {
+    if (item.id === artist.id || !item.aliases?.length) return;
+    item.aliases = item.aliases.filter((alias) => !removedNames.has(normalizeName(alias)));
+  });
+}
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const artist = artistStore.artists[state.selectedId];
@@ -672,7 +762,7 @@ form.addEventListener("submit", async (event) => {
   artist.confidence = fields.confidence.value;
   artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
-  artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+  artist.genres = splitTaxonomyList(fields.genres.value);
   artist.imageUrl = fields.imageUrl.value.trim();
   artist.imageSource = cleanImageSource(fields.imageSource.value);
   delete artist.tags;
@@ -681,6 +771,7 @@ form.addEventListener("submit", async (event) => {
   artist.links = readLinkEditor();
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.reviewNotes = fields.note.value.trim();
+  markManuallyReviewed(artist);
   delete artist.note;
 
   await persist();
@@ -753,14 +844,14 @@ function createLinkRow(link = {}) {
   const display = document.createElement("input");
   display.className = "link-display";
   display.type = "checkbox";
-  display.checked = link.display !== false;
+  display.checked = suggestedLinkDisplay(link);
   displayLabel.append(display, document.createTextNode("Show"));
 
   const priority = document.createElement("select");
   priority.className = "link-priority";
   priority.add(new Option("Primary", "primary"));
   priority.add(new Option("Secondary", "secondary"));
-  priority.value = link.displayPriority === "primary" ? "primary" : "secondary";
+  priority.value = link.displayPriority || suggestedLinkPriority(link);
 
   const remove = document.createElement("button");
   remove.className = "icon-button";
@@ -777,7 +868,14 @@ function createLinkRow(link = {}) {
   });
   confidence.addEventListener("change", () => {
     row.classList.toggle("rejected", confidence.value === "rejected");
+    applyVerifiedDisplaySuggestion(row);
     moveLinkRowToCorrectSection(row);
+  });
+  display.addEventListener("change", () => {
+    row.dataset.displayOverride = "true";
+  });
+  priority.addEventListener("change", () => {
+    row.dataset.priorityOverride = "true";
   });
   remove.addEventListener("click", () => row.remove());
 
@@ -807,6 +905,27 @@ function readLinkEditor() {
 
 function supportPriorityForArtist(artist) {
   return supportPriorityForLinks(artist.links || []);
+}
+
+function suggestedLinkDisplay(link = {}) {
+  if (link.display === false) return false;
+  return link.display !== undefined ? Boolean(link.display) : true;
+}
+
+function suggestedLinkPriority(link = {}) {
+  if (link.displayPriority) return link.displayPriority;
+  if (link.confidence !== "verified" || link.type === "search") return "secondary";
+  return ["official", "linktree", "bandcamp"].includes(link.type) ? "primary" : "secondary";
+}
+
+function applyVerifiedDisplaySuggestion(row) {
+  const confidence = row.querySelector(".link-confidence").value;
+  const type = row.querySelector(".link-type").value;
+  const display = row.querySelector(".link-display");
+  const priority = row.querySelector(".link-priority");
+  if (confidence !== "verified" || type === "search") return;
+  if (row.dataset.displayOverride !== "true") display.checked = true;
+  if (row.dataset.priorityOverride !== "true") priority.value = suggestedLinkPriority({ confidence, type });
 }
 
 function supportPriorityForLinks(links) {
@@ -861,6 +980,13 @@ toDateInput.addEventListener("input", (event) => {
   syncArtistSelection();
 });
 
+appearanceScopeInput.value = state.appearanceScope;
+appearanceScopeInput.addEventListener("change", (event) => {
+  state.appearanceScope = event.target.value;
+  renderVenueFilterOptions();
+  syncArtistSelection();
+});
+
 venueFilterInput.addEventListener("change", (event) => {
   state.venue = event.target.value;
   syncArtistSelection();
@@ -904,6 +1030,7 @@ previousArtistButton.addEventListener("click", () => selectRelativeArtist(-1));
 nextArtistButton.addEventListener("click", () => selectRelativeArtist(1));
 
 document.querySelector("#mergeArtistButton").addEventListener("click", mergeSelectedArtist);
+document.querySelector("#deleteArtistButton").addEventListener("click", deleteSelectedArtist);
 
 enrichButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
@@ -994,7 +1121,7 @@ async function saveCurrentArtist() {
   artist.confidence = fields.confidence.value;
   artist.displayName = fields.displayName.value.trim();
   artist.locality = fields.locality.value.trim() || "unknown";
-  artist.genres = fields.genres.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+  artist.genres = splitTaxonomyList(fields.genres.value);
   artist.imageUrl = fields.imageUrl.value.trim();
   artist.imageSource = cleanImageSource(fields.imageSource.value);
   delete artist.tags;
@@ -1002,7 +1129,13 @@ async function saveCurrentArtist() {
   artist.links = readLinkEditor();
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.reviewNotes = fields.note.value.trim();
+  markManuallyReviewed(artist);
   delete artist.note;
 
   await persist();
+}
+
+function markManuallyReviewed(artist) {
+  artist.manuallyReviewed = true;
+  artist.manuallyReviewedAt = new Date().toISOString();
 }

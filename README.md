@@ -57,6 +57,24 @@ Refresh from today and include the next few KALX weekly event pages:
 .\update-shows --from=today --kalx-weeks=3
 ```
 
+Check which KALX weekly pages the importer will read:
+
+```powershell
+node scripts\import-kalx.mjs --from=today --kalx-weeks=3 --list-urls
+```
+
+Merge likely duplicate show records after imports:
+
+```powershell
+npm run dedupe:events
+```
+
+Preview duplicate merges first:
+
+```powershell
+npm run dedupe:events -- --dry-run
+```
+
 Refine upcoming artists:
 
 ```powershell
@@ -69,6 +87,18 @@ Rebuild the smaller public artist bundle after standalone artist enrichment or c
 npm run build:public-artists
 ```
 
+Remove past events and untouched artists that are no longer attached to current/future listings:
+
+```powershell
+npm run prune:past -- --before=today
+```
+
+Preview the cleanup first:
+
+```powershell
+npm run prune:past -- --before=today --dry-run
+```
+
 Review the project locally:
 
 ```text
@@ -76,6 +106,8 @@ http://127.0.0.1:4173/admin.html
 ```
 
 Useful admin areas include artist review, venue review, show review, source checks, and suggestion review.
+
+Artist and venue review pages can merge records when a wrong name is still a useful redirect pattern. They can also fully delete the selected artist or venue when the record is only a typo or junk entry.
 
 The full `data/artists.js` file is the admin/review store. Public pages load `data/public-artists.js`, a generated bundle with review notes, evidence, appearances, and research-only search links stripped out.
 

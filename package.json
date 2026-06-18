@@ -15,7 +15,9 @@
     "suggest": "node scripts/suggest-review-edits.mjs",
     "suggest:artists": "node scripts/create-suggested-artists.mjs",
     "normalize:events": "node scripts/normalize-event-store.mjs",
+    "dedupe:events": "node scripts/normalize-event-store.mjs --merge-duplicates",
     "build:public-artists": "node scripts/build-public-artist-store.mjs",
+    "prune:past": "node scripts/prune-past-unreviewed.mjs",
     "enrich:badslava-venues": "node scripts/enrich-venues-badslava.mjs"
   }
 }

@@ -160,6 +160,7 @@
               <label>
                 <span>Venue</span>
                 <input id="venueInput" type="text">
+                <span id="venueStatusHint" class="field-hint venue-status-hint"></span>
               </label>
             </div>
 
@@ -241,6 +242,7 @@
               <button class="chip active" type="submit">Save Event</button>
               <button id="clearArtistsButton" class="chip" type="button">Clear Artists</button>
               <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="deleteEventButton" class="chip danger-chip" type="button">Delete Show</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
               <span id="saveStatus" class="save-status" aria-live="polite"></span>
             </div>
@@ -250,6 +252,7 @@
     </main>
 
     <script src="data/imported-events.js"></script>
+    <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
     <script src="assets/event-review.js"></script>
