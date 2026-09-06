@@ -43,6 +43,15 @@ $env:SHOW_EXPLORER_ADMIN_KEY="your-local-admin-key"
 
 The local server provides login, protected admin pages, and save endpoints for review work. A static host alone will not run that backend.
 
+Artist Review can also look up Spotify artist matches and fallback images through the Spotify Web API. Add these values to `.env` or set them in your terminal before starting the local server:
+
+```powershell
+$env:SPOTIFY_CLIENT_ID="your-spotify-client-id"
+$env:SPOTIFY_CLIENT_SECRET="your-spotify-client-secret"
+```
+
+The Spotify lookup uses server-side credentials, so the client secret is never shipped to the public browser code. The public artist bundle includes only the display-safe Spotify link and fallback image fields.
+
 ## Common Tasks
 
 Refresh imported listings:
@@ -126,9 +135,17 @@ These sources have different strengths. The List is especially useful for music 
 
 ## Deployment Notes
 
-The public pages can be served as static files, but the admin workflow currently depends on the local Node server in `scripts/dev-server.mjs`.
+The public pages can be served as static files. Netlify Functions provide live login/session endpoints and Spotify artist lookup for Artist Review, but normal data-file saves still depend on the local Node server in `scripts/dev-server.mjs`.
 
-The included `netlify.toml` treats Netlify as a public-only static deploy for now and redirects admin pages back to the public calendar. Before launching a live admin area, the project needs a production backend such as Netlify Functions, Clerk, or a hosted Node server. Do not commit real API keys or admin access keys.
+Set these Netlify environment variables with Functions scope before deploying live admin Spotify lookup:
+
+```text
+SHOW_EXPLORER_ADMIN_KEY
+SPOTIFY_CLIENT_ID
+SPOTIFY_CLIENT_SECRET
+```
+
+Live Artist Review can use Spotify lookup and save the result in the current browser. To make those changes part of the public site, save/rebuild locally, commit the generated data files, and deploy. Before launching full live admin editing, the project still needs persistent production saves such as Netlify Functions writing through GitHub, a database, Clerk, or a hosted Node server. Do not commit real API keys or admin access keys.
 
 ## Project Notes
 

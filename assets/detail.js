@@ -48,6 +48,9 @@ function renderArtistPage(id) {
   const artist = artistStore.artists?.[id];
   if (!artist) return renderMissing("Artist not found.");
   const title = displayNameForArtist(artist);
+  const artistImageUrl = artist.imageUrl || artist.spotifyImageUrl || "";
+  const artistImageSource = artist.imageUrl ? artist.imageSource : artist.spotifyImageUrl ? "Spotify" : "";
+  const spotifySection = spotifyEmbedSection(artist);
   detailTitle.textContent = title;
   document.title = `${title} - Mike's List`;
 
@@ -56,15 +59,16 @@ function renderArtistPage(id) {
     heroSection({
       kicker: "Artist",
       title,
-      imageUrl: artist.imageUrl || "",
+      imageUrl: artistImageUrl,
       imageAlt: `${title} artist image`,
-      imageSource: artist.imageSource || "",
+      imageSource: artistImageSource,
       summary: artist.summary || "No summary has been added yet.",
       meta: [
         artist.locality || "unknown locality",
         ...(artist.genres || artist.tags || []).slice(0, 4)
       ]
     }),
+    ...(spotifySection ? [spotifySection] : []),
     infoGrid([
       ["Locality", artist.locality || "unknown"],
       ["Genres", (artist.genres || artist.tags || []).join(", ") || "unknown"],
@@ -78,6 +82,43 @@ function renderArtistPage(id) {
       href: `venue.html?id=${encodeURIComponent(resolveVenue(event).id || venueIdFor(event))}`
     })))
   );
+}
+
+function spotifyEmbedSection(artist) {
+  const link = spotifyArtistLink(artist.links || []);
+  const embedUrl = spotifyArtistEmbedUrl(link?.url || "");
+  if (!embedUrl) return null;
+
+  const section = document.createElement("section");
+  section.className = "detail-section spotify-embed";
+  section.innerHTML = "<h3>Spotify</h3>";
+  const iframe = document.createElement("iframe");
+  iframe.title = `Spotify artist: ${displayNameForArtist(artist)}`;
+  iframe.src = embedUrl;
+  iframe.loading = "lazy";
+  iframe.allowFullscreen = true;
+  iframe.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+  section.append(iframe);
+  return section;
+}
+
+function spotifyArtistLink(links = []) {
+  return activeLinks(links).find((link) => {
+    const url = link.url || "";
+    return link.type === "spotify" || /open\.spotify\.com\/artist\//i.test(url);
+  }) || null;
+}
+
+function spotifyArtistEmbedUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    if (!parsed.hostname.replace(/^www\./i, "").endsWith("spotify.com")) return "";
+    const match = parsed.pathname.match(/\/artist\/([^/?#]+)/i);
+    if (!match) return "";
+    return `https://open.spotify.com/embed/artist/${encodeURIComponent(match[1])}?utm_source=generator`;
+  } catch {
+    return "";
+  }
 }
 
 function renderVenuePage(id) {

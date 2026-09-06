@@ -1,32 +1,31 @@
 [build]
   publish = "."
 
-[[redirects]]
-  from = "/admin.html"
-  to = "/index.html"
-  status = 302
+[functions]
+  directory = "netlify/functions"
 
 [[redirects]]
-  from = "/review.html"
-  to = "/index.html"
-  status = 302
+  from = "/api/session"
+  to = "/.netlify/functions/session"
+  status = 200
 
 [[redirects]]
-  from = "/venue-review.html"
-  to = "/index.html"
-  status = 302
+  from = "/api/login"
+  to = "/.netlify/functions/login"
+  status = 200
 
 [[redirects]]
-  from = "/event-review.html"
-  to = "/index.html"
-  status = 302
+  from = "/api/logout"
+  to = "/.netlify/functions/logout"
+  status = 200
 
 [[redirects]]
-  from = "/suggestions.html"
-  to = "/index.html"
-  status = 302
+  from = "/api/enrich-spotify-artist"
+  to = "/.netlify/functions/enrich-spotify-artist"
+  status = 200
 
 [[redirects]]
-  from = "/login.html"
+  from = "/netlify/*"
   to = "/index.html"
   status = 302
+  force = true

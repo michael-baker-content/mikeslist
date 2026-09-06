@@ -10,12 +10,15 @@ const ROOT = normalize(fileURLToPath(new URL("../", import.meta.url)));
 const ARTISTS_PATH = join(ROOT, "data", "artists.js");
 const VENUES_PATH = join(ROOT, "data", "venues.js");
 const EVENTS_PATH = join(ROOT, "data", "imported-events.js");
+const ENV_PATH = join(ROOT, ".env");
 const PORT = Number(process.env.PORT || 4173);
 const SESSION_COOKIE = "show_explorer_session";
 const SESSION_TTL_MS = 1000 * 60 * 60 * 12;
 const ADMIN_ACCESS_KEY = process.env.SHOW_EXPLORER_ADMIN_KEY || "";
 const sessions = new Map();
 let saveQueue = Promise.resolve();
+let envFileCache;
+let spotifyTokenCache = null;
 const protectedPages = new Set([
   "/admin.html",
   "/review.html",
@@ -182,6 +185,149 @@ async function readEventStore() {
   return match ? JSON.parse(match[1]) : [];
 }
 
+async function readEnvFile() {
+  if (envFileCache) return envFileCache;
+  try {
+    const text = await readFile(ENV_PATH, "utf8");
+    envFileCache = Object.fromEntries(text
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter((line) => line && !line.startsWith("#") && line.includes("="))
+      .map((line) => {
+        const index = line.indexOf("=");
+        const key = line.slice(0, index).trim();
+        const value = line.slice(index + 1).trim().replace(/^["']|["']$/g, "");
+        return [key, value];
+      }));
+    return envFileCache;
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      envFileCache = {};
+      return envFileCache;
+    }
+    throw error;
+  }
+}
+
+async function envValue(name) {
+  return process.env[name] || (await readEnvFile())[name] || "";
+}
+
+async function spotifyAccessToken() {
+  if (spotifyTokenCache?.token && spotifyTokenCache.expiresAt > Date.now() + 60_000) {
+    return spotifyTokenCache.token;
+  }
+
+  const clientId = await envValue("SPOTIFY_CLIENT_ID");
+  const clientSecret = await envValue("SPOTIFY_CLIENT_SECRET");
+  if (!clientId || !clientSecret) {
+    throw new Error("Spotify credentials are not configured");
+  }
+
+  const response = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: {
+      Authorization: `Basic ${Buffer.from(`${clientId}:${clientSecret}`).toString("base64")}`,
+      "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: new URLSearchParams({ grant_type: "client_credentials" })
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(payload.error_description || payload.error || `Spotify token request failed: ${response.status}`);
+  }
+
+  spotifyTokenCache = {
+    token: payload.access_token,
+    expiresAt: Date.now() + Math.max(0, Number(payload.expires_in || 3600) - 60) * 1000
+  };
+  return spotifyTokenCache.token;
+}
+
+async function searchSpotifyArtist(name) {
+  const token = await spotifyAccessToken();
+  const params = new URLSearchParams({
+    q: name,
+    type: "artist",
+    limit: "1"
+  });
+  const response = await fetch(`https://api.spotify.com/v1/search?${params}`, {
+    headers: { Authorization: `Bearer ${token}` }
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(payload.error?.message || `Spotify search failed: ${response.status}`);
+  }
+  return payload.artists?.items?.[0] || null;
+}
+
+async function getSpotifyArtist(id) {
+  const token = await spotifyAccessToken();
+  const response = await fetch(`https://api.spotify.com/v1/artists/${encodeURIComponent(id)}`, {
+    headers: { Authorization: `Bearer ${token}` }
+  });
+  const payload = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(payload.error?.message || `Spotify artist lookup failed: ${response.status}`);
+  }
+  return payload;
+}
+
+function spotifyArtistIdFromUrl(url = "") {
+  try {
+    const parsed = new URL(url);
+    if (!parsed.hostname.replace(/^www\./i, "").endsWith("spotify.com")) return "";
+    return parsed.pathname.match(/\/artist\/([^/?#]+)/i)?.[1] || "";
+  } catch {
+    return "";
+  }
+}
+
+function spotifyLinkForArtist(artist) {
+  return (artist.links || []).find((link) => {
+    if (link.confidence === "rejected" || link.display === false) return false;
+    return Boolean(spotifyArtistIdFromUrl(link.url || ""));
+  }) || null;
+}
+
+function spotifyCandidatePayload(candidate) {
+  if (!candidate) return null;
+  return {
+    id: candidate.id || "",
+    name: candidate.name || "",
+    url: candidate.external_urls?.spotify || "",
+    imageUrl: candidate.images?.[0]?.url || "",
+    genres: candidate.genres || [],
+    popularity: candidate.popularity ?? null
+  };
+}
+
+function applySpotifyMatch(artist, match, source) {
+  artist.links ||= [];
+  if (!spotifyLinkForArtist(artist) && match.url) {
+    artist.links.push({
+      type: "spotify",
+      label: "Spotify",
+      url: match.url,
+      confidence: "candidate",
+      display: true,
+      displayPriority: "secondary",
+      source: "spotify-api"
+    });
+  }
+  if (match.imageUrl) artist.spotifyImageUrl = match.imageUrl;
+  artist.spotifyMatch = {
+    id: match.id || "",
+    name: match.name || "",
+    url: match.url || "",
+    imageUrl: match.imageUrl || "",
+    genres: match.genres || [],
+    popularity: match.popularity ?? null,
+    matchedAt: new Date().toISOString(),
+    source
+  };
+}
+
 function runScript(script, args = []) {
   return new Promise((resolve, reject) => {
     const child = spawn(process.execPath, [script, ...args], {
@@ -319,6 +465,67 @@ async function handleEnrichArtist(request, response) {
     return;
   }
 
+  if (!artist.spotifyLookupDisabled && !spotifyLinkForArtist(artist)) {
+    try {
+      const match = spotifyCandidatePayload(await searchSpotifyArtist(artist.displayName || artist.name || payload.name));
+      if (match?.url) {
+        applySpotifyMatch(artist, match, "spotify-api");
+        store.generatedAt = new Date().toISOString();
+        await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(store, null, 2)};\n`, "utf8");
+        await runScript("scripts/build-public-artist-store.mjs");
+      }
+    } catch {
+      // Spotify matching is optional enrichment; keep the existing artist enrichment result.
+    }
+  }
+
+  send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
+}
+
+async function handleEnrichSpotifyArtist(request, response) {
+  const body = await readBody(request);
+  let payload;
+  try {
+    payload = JSON.parse(body);
+  } catch {
+    send(response, 400, JSON.stringify({ ok: false, error: "Invalid JSON" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  if (!payload?.id || !payload?.name) {
+    send(response, 400, JSON.stringify({ ok: false, error: "Expected artist id and name" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  const store = await readArtistStore();
+  const artist = store.artists?.[payload.id];
+  if (!artist) {
+    send(response, 404, JSON.stringify({ ok: false, error: "Artist not found" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  if (artist.spotifyLookupDisabled) {
+    send(response, 409, JSON.stringify({ ok: false, error: "Spotify auto match is disabled for this artist" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  const existingSpotifyLink = spotifyLinkForArtist(artist);
+  const existingSpotifyArtistId = spotifyArtistIdFromUrl(existingSpotifyLink?.url || "");
+  const candidate = existingSpotifyArtistId
+    ? await getSpotifyArtist(existingSpotifyArtistId)
+    : await searchSpotifyArtist(payload.name);
+  const match = spotifyCandidatePayload(candidate);
+  if (!match?.url) {
+    send(response, 404, JSON.stringify({ ok: false, error: "No Spotify artist result found" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  applySpotifyMatch(artist, match, existingSpotifyArtistId ? "manual-link" : "spotify-api");
+  store.generatedAt = new Date().toISOString();
+
+  await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(store, null, 2)};\n`, "utf8");
+  await runScript("scripts/build-public-artist-store.mjs");
+
   send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
 }
 
@@ -414,6 +621,12 @@ const server = createServer(async (request, response) => {
     if (request.method === "POST" && url.pathname === "/api/enrich-artist") {
       if (!requireAdmin(request, response)) return;
       await handleEnrichArtist(request, response);
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/enrich-spotify-artist") {
+      if (!requireAdmin(request, response)) return;
+      await handleEnrichSpotifyArtist(request, response);
       return;
     }
 

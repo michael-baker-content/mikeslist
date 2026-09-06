@@ -395,7 +395,8 @@ function imageForEvent(event) {
   const selectedImage = preferredImageUrl([
     { url: event.imageUrl, priority: 0 },
     { url: topArtist.imageUrl, priority: 1 },
-    { url: venue.imageUrl, priority: 2 }
+    { url: topArtist.spotifyImageUrl, priority: 2 },
+    { url: venue.imageUrl, priority: 3 }
   ]);
   if (selectedImage) {
     eventImageCache.set(event, selectedImage);
@@ -447,7 +448,8 @@ function imageSourceForEvent(event) {
   const image = preferredImageCandidate([
     { url: event.imageUrl, source: event.imageSource, priority: 0 },
     { url: topArtist.imageUrl, source: topArtist.imageSource, priority: 1 },
-    { url: venue.imageUrl, source: venue.imageSource, priority: 2 }
+    { url: topArtist.spotifyImageUrl, source: "Spotify", priority: 2 },
+    { url: venue.imageUrl, source: venue.imageSource, priority: 3 }
   ]);
   if (image) return imageSourceLabel(image.source, image.url);
 

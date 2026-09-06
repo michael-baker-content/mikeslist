@@ -173,6 +173,20 @@
               <input id="imageSourceInput" type="text" placeholder="Wikipedia, artist website, photographer">
             </label>
 
+            <p class="form-field-label">Spotify</p>
+            <section class="merge-panel spotify-match-panel" aria-label="Spotify artist match">
+              <div>
+                <p id="spotifyMatchStatus">No Spotify match has been checked yet.</p>
+              </div>
+              <div class="spotify-match-actions">
+                <label class="link-display-control">
+                  <input id="spotifyLookupDisabledInput" type="checkbox">
+                  <span>Disable automatic Spotify match</span>
+                </label>
+                <button id="spotifyLookupButton" class="chip" type="button">Find Spotify</button>
+              </div>
+            </section>
+
             <label>
               <span>Support Priority</span>
               <input id="priorityInput" type="text" readonly placeholder="Verified link types appear here">

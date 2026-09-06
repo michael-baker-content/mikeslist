@@ -25,6 +25,7 @@ function publicArtistRecord(artist) {
     locality: artist.locality && artist.locality !== "unknown" ? artist.locality : "",
     imageUrl: artist.imageUrl || "",
     imageSource: artist.imageSource || "",
+    spotifyImageUrl: artist.spotifyLookupDisabled ? "" : artist.spotifyImageUrl || "",
     summary: artist.summary || "",
     links: publicLinks(artist.links || []),
     supportPriority: cleanList(artist.supportPriority)

@@ -28,6 +28,7 @@ const venueFilterInput = document.querySelector("#venueFilterInput");
 const artistSortInput = document.querySelector("#artistSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
+const spotifyLookupButton = document.querySelector("#spotifyLookupButton");
 const previousArtistButton = document.querySelector("#previousArtistButton");
 const nextArtistButton = document.querySelector("#nextArtistButton");
 
@@ -40,6 +41,8 @@ const fields = {
   genres: document.querySelector("#genresInput"),
   imageUrl: document.querySelector("#imageUrlInput"),
   imageSource: document.querySelector("#imageSourceInput"),
+  spotifyLookupDisabled: document.querySelector("#spotifyLookupDisabledInput"),
+  spotifyMatchStatus: document.querySelector("#spotifyMatchStatus"),
   priority: document.querySelector("#priorityInput"),
   summary: document.querySelector("#summaryInput"),
   links: document.querySelector("#linksEditor"),
@@ -118,6 +121,9 @@ function artistText(artist) {
     artist.locality,
     artist.imageUrl,
     artist.imageSource,
+    artist.spotifyImageUrl,
+    artist.spotifyMatch?.name,
+    artist.spotifyMatch?.url,
     artist.summary,
     artist.disambiguation,
     artist.reviewNotes,
@@ -394,6 +400,9 @@ function selectArtist(id) {
   fields.genres.value = (artist.genres || artist.tags || []).join(", ");
   fields.imageUrl.value = artist.imageUrl || "";
   fields.imageSource.value = displayImageSourceValue(artist.imageSource || "");
+  fields.spotifyLookupDisabled.checked = Boolean(artist.spotifyLookupDisabled);
+  renderSpotifyMatchStatus(artist);
+  syncSpotifyLookupButton(artist);
   fields.priority.value = supportPriorityForArtist(artist).join(", ");
   fields.summary.value = artist.summary || "";
   renderLinkEditor(artist.links || []);
@@ -412,6 +421,39 @@ function selectArtist(id) {
   appearances.forEach((show) => fields.appearances.append(createAppearanceRow(artist, show)));
 
   renderQueue();
+}
+
+function renderSpotifyMatchStatus(artist) {
+  const link = spotifyLinkForArtist(artist);
+  const match = artist.spotifyMatch;
+  const imageLabel = artist.spotifyImageUrl ? "image ready" : "no Spotify image saved";
+  if (artist.spotifyLookupDisabled) {
+    fields.spotifyMatchStatus.textContent = "Automatic Spotify matching is disabled for this artist.";
+    return;
+  }
+  if (match?.url) {
+    fields.spotifyMatchStatus.textContent = `Matched to ${match.name || "Spotify artist"} (${imageLabel}).`;
+    return;
+  }
+  if (link?.url) {
+    fields.spotifyMatchStatus.textContent = "Spotify link is saved; use Find Spotify to fetch its artist image.";
+    return;
+  }
+  fields.spotifyMatchStatus.textContent = "No Spotify match has been checked yet.";
+}
+
+function spotifyLinkForArtist(artist) {
+  return (artist.links || []).find((link) => {
+    if (link.confidence === "rejected" || link.display === false) return false;
+    return /open\.spotify\.com\/artist\//i.test(link.url || "");
+  }) || null;
+}
+
+function syncSpotifyLookupButton(artist) {
+  spotifyLookupButton.disabled = !artist || Boolean(artist.spotifyLookupDisabled);
+  spotifyLookupButton.title = artist?.spotifyLookupDisabled
+    ? "Automatic Spotify matching is disabled for this artist"
+    : "Find a Spotify match for the selected artist";
 }
 
 function renderMergeArtistOptions(selectedArtist) {
@@ -820,10 +862,16 @@ form.addEventListener("submit", async (event) => {
   artist.genres = splitTaxonomyList(fields.genres.value);
   artist.imageUrl = fields.imageUrl.value.trim();
   artist.imageSource = cleanImageSource(fields.imageSource.value);
+  artist.spotifyLookupDisabled = fields.spotifyLookupDisabled.checked;
   delete artist.tags;
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.summary = fields.summary.value.trim();
   artist.links = readLinkEditor();
+  if (artist.spotifyLookupDisabled) {
+    artist.links = artist.links.filter((link) => link.source !== "spotify-api");
+    delete artist.spotifyImageUrl;
+    delete artist.spotifyMatch;
+  }
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.reviewNotes = fields.note.value.trim();
   markManuallyReviewed(artist);
@@ -861,6 +909,7 @@ function linkDisplayRank(link) {
 function createLinkRow(link = {}) {
   const row = document.createElement("div");
   row.className = `link-row ${link.confidence === "rejected" ? "rejected" : ""}`;
+  row.dataset.linkSource = link.source || "";
 
   const type = document.createElement("select");
   type.className = "link-type";
@@ -953,7 +1002,7 @@ function readLinkEditor() {
       confidence,
       display,
       displayPriority,
-      source: "manual"
+      source: row.dataset.linkSource || "manual"
     };
   }).filter((link) => link.url);
 }
@@ -1066,6 +1115,9 @@ filterButtons.forEach((button) => {
       fields.selectedConfidence.className = "confidence review";
       form.reset();
       fields.links.replaceChildren();
+      fields.rejectedLinks.replaceChildren();
+      fields.spotifyMatchStatus.textContent = "No Spotify match has been checked yet.";
+      syncSpotifyLookupButton(null);
       fields.appearances.replaceChildren();
       renderQueue();
     }
@@ -1086,6 +1138,52 @@ nextArtistButton.addEventListener("click", () => selectRelativeArtist(1));
 
 document.querySelector("#mergeArtistButton").addEventListener("click", mergeSelectedArtist);
 document.querySelector("#deleteArtistButton").addEventListener("click", deleteSelectedArtist);
+
+fields.spotifyLookupDisabled.addEventListener("change", () => {
+  if (state.selectedId) {
+    const artist = artistStore.artists[state.selectedId];
+    if (artist) {
+      artist.spotifyLookupDisabled = fields.spotifyLookupDisabled.checked;
+      if (artist.spotifyLookupDisabled) {
+        delete artist.spotifyImageUrl;
+        delete artist.spotifyMatch;
+      }
+      renderSpotifyMatchStatus(artist);
+      syncSpotifyLookupButton(artist);
+    }
+  }
+});
+
+spotifyLookupButton.addEventListener("click", async () => {
+  const artist = artistStore.artists[state.selectedId];
+  if (!artist) return;
+
+  fields.saveStatus.textContent = "Saving before Spotify lookup...";
+  await saveCurrentArtist();
+
+  spotifyLookupButton.disabled = true;
+  const enrichmentName = artist.displayName || artist.name;
+  fields.saveStatus.textContent = `Finding Spotify match for ${enrichmentName}...`;
+
+  try {
+    const response = await fetch("/api/enrich-spotify-artist", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id: artist.id, name: enrichmentName, artist })
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(result.error || `Spotify lookup failed: ${response.status}`);
+    artistStore.artists[result.artist.id] = result.artist;
+    artistStore.generatedAt = result.generatedAt;
+    localStorage.removeItem(STORE_KEY);
+    fields.saveStatus.textContent = `Matched Spotify artist: ${result.artist.spotifyMatch?.name || result.artist.name}`;
+    updateSummary();
+    selectArtist(result.artist.id);
+  } catch (error) {
+    fields.saveStatus.textContent = error.message || "Spotify lookup needs the local dev server";
+    syncSpotifyLookupButton(artist);
+  }
+});
 
 enrichButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
@@ -1165,6 +1263,8 @@ function syncArtistSelection() {
   form.reset();
   fields.links.replaceChildren();
   fields.rejectedLinks.replaceChildren();
+  fields.spotifyMatchStatus.textContent = "No Spotify match has been checked yet.";
+  syncSpotifyLookupButton(null);
   fields.appearances.replaceChildren();
   renderQueue();
 }
@@ -1179,9 +1279,15 @@ async function saveCurrentArtist() {
   artist.genres = splitTaxonomyList(fields.genres.value);
   artist.imageUrl = fields.imageUrl.value.trim();
   artist.imageSource = cleanImageSource(fields.imageSource.value);
+  artist.spotifyLookupDisabled = fields.spotifyLookupDisabled.checked;
   delete artist.tags;
   artist.summary = fields.summary.value.trim();
   artist.links = readLinkEditor();
+  if (artist.spotifyLookupDisabled) {
+    artist.links = artist.links.filter((link) => link.source !== "spotify-api");
+    delete artist.spotifyImageUrl;
+    delete artist.spotifyMatch;
+  }
   artist.supportPriority = supportPriorityForLinks(artist.links);
   artist.reviewNotes = fields.note.value.trim();
   markManuallyReviewed(artist);

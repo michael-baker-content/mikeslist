@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_ARTISTS = {
-  "generatedAt": "2026-09-06T06:15:26.129Z",
+  "generatedAt": "2026-09-06T19:47:35.253Z",
   "artists": {
     "112": {
       "id": "112",
@@ -4144,26 +4144,126 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "rock"
       ],
-      "locality": "unknown",
+      "locality": "Los Angeles",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "likely",
+      "summary": "American singer",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.alicebag.com",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0LK0Nj6UFKDtcCju1cD1sm",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alice_Bag",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Alice Bag",
+          "url": "https://www.discogs.com/artist/629400",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/AliceBag/",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/alice_bag/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "verified-page"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ddd2d0bf-4fa7-4fa1-995b-46ed4d689c0b",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Alice%20Bag%22%20band%20music",
           "confidence": "research",
+          "display": true,
+          "displayPriority": "secondary",
           "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q2836527",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2836527",
+          "note": "Wikidata entity Q2836527 matched an existing spotify artist identifier for \"Alice Bag\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/ddd2d0bf-4fa7-4fa1-995b-46ed4d689c0b",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/ddd2d0bf-4fa7-4fa1-995b-46ed4d689c0b",
+          "note": "MusicBrainz returned a high-score artist match for \"Alice Bag\"."
+        },
+        {
+          "url": "http://www.alicebag.com",
+          "note": "Added 2 outbound link candidates from a verified page."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0LK0Nj6UFKDtcCju1cD1sm",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.841Z",
         "lastImportedAt": "2026-09-06T06:15:26.101Z",
@@ -4176,6 +4276,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-06T19:47:35.178Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebc4513149e467b062545d63ad",
+      "spotifyMatch": {
+        "id": "0LK0Nj6UFKDtcCju1cD1sm",
+        "name": "Alice Bag",
+        "url": "https://open.spotify.com/artist/0LK0Nj6UFKDtcCju1cD1sm",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebc4513149e467b062545d63ad",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-06T19:44:59.384Z",
+        "source": "spotify-api"
       }
     },
     "alice-cooper": {
@@ -11664,26 +11778,154 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "american",
+        "female vocals",
+        "punk",
+        "punk rock",
+        "riot grrrl",
+        "rock"
       ],
-      "locality": "unknown",
+      "locality": "Olympia, Washington",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "likely",
+      "summary": "American punk rock band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
       "supportPriority": [],
       "links": [
         {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/2013",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Bikini Kill",
+          "url": "https://www.discogs.com/artist/267489",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BikiniKillRecords",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/bikinikillrecords/",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/1397d045-1603-41fc-80b9-712c18360145",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://bikinikill.com",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/bikini-kill-records",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0gvHPdYxlU94W7V5MSIlFe",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "tidal",
+          "label": "Tidal",
+          "url": "https://tidal.com/artist/3932111",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q860153",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bikini_Kill",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/theebikinikill",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Bikini%20Kill%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q860153",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q860153",
+          "note": "Wikidata entity Q860153 matched an existing spotify artist identifier for \"Bikini Kill\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/1397d045-1603-41fc-80b9-712c18360145",
+          "note": "MusicBrainz returned a high-score artist match for \"Bikini Kill\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.978Z",
         "lastImportedAt": "2026-09-06T06:15:26.101Z",
@@ -11696,6 +11938,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-06T19:44:11.643Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebfc226caae7dd29541e337a18",
+      "spotifyMatch": {
+        "id": "0gvHPdYxlU94W7V5MSIlFe",
+        "name": "Bikini Kill",
+        "url": "https://open.spotify.com/artist/0gvHPdYxlU94W7V5MSIlFe",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebfc226caae7dd29541e337a18",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-06T19:38:38.733Z",
+        "source": "spotify-api"
       }
     },
     "bilal": {
@@ -100431,26 +100687,96 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "country",
+        "rock"
       ],
       "locality": "unknown",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "likely",
+      "summary": "American musician",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.stephenmalkmus.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0WISkx0PwT6lYWdPqKUJY8?si=2wd0fWHWQ1616zjnqKnbBQ",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Stephen_Malkmus",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Stephen Malkmus",
+          "url": "https://www.discogs.com/artist/81763",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/eaefd603-84c1-4db4-a72b-0cb718a0cc07",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Stephen%20Malkmus%22%20band%20music",
           "confidence": "research",
-          "source": "the-list"
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q282877",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q282877",
+          "note": "Wikidata entity Q282877 exactly matched the artist name \"Stephen Malkmus\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0WISkx0PwT6lYWdPqKUJY8?si=2wd0fWHWQ1616zjnqKnbBQ",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.839Z",
         "lastImportedAt": "2026-09-06T06:15:26.101Z",
@@ -100470,6 +100796,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-06T19:25:36.515Z",
+      "spotifyLookupDisabled": false,
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb8f2e7d73904e3d63c391cc3f",
+      "spotifyMatch": {
+        "id": "0WISkx0PwT6lYWdPqKUJY8",
+        "name": "Stephen Malkmus",
+        "url": "https://open.spotify.com/artist/0WISkx0PwT6lYWdPqKUJY8",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb8f2e7d73904e3d63c391cc3f",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-06T19:19:07.000Z",
+        "source": "manual-link"
       }
     },
     "stephen-wilson-jr": {
