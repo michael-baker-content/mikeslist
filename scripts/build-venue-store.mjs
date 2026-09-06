@@ -43,7 +43,7 @@ function importedLinks(event) {
   if (event.venueHref) {
     const sourceName = sourceNameForEvent(event);
     links.push({
-      type: sourceName === "BadSlava" ? "badSlava" : sourceName === "KALX" ? "kalx" : "theList",
+      type: sourceName === "KALX" ? "kalx" : "theList",
       label: sourceName,
       url: event.venueHref,
       confidence: "verified",

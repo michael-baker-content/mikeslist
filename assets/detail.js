@@ -387,7 +387,6 @@ function labelForType(type = "") {
     liveNation: "Live Nation",
     localwiki: "LocalWiki",
     maps: "Maps",
-    badSlava: "BadSlava",
     musicbrainz: "MusicBrainz",
     official: "Official",
     other: "Other",

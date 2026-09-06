@@ -64,6 +64,14 @@
           <button class="chip" type="button" data-review-filter="rejected">Rejected</button>
           <button class="chip" type="button" data-review-filter="all">All</button>
         </div>
+
+        <div class="source-filter" aria-label="Venue view">
+          <span>View</span>
+          <div class="filter-group" role="group" aria-label="Venue view options">
+            <button class="chip active" type="button" data-venue-view="records">Source Records</button>
+            <button class="chip" type="button" data-venue-view="merged">Merged Groups</button>
+          </div>
+        </div>
       </section>
 
       <section class="summary" aria-live="polite">
@@ -81,7 +89,7 @@
         </div>
       </section>
 
-      <section class="review-grid">
+      <section id="venueReviewGrid" class="review-grid">
         <aside id="venueQueue" class="queue-list" aria-label="Venues"></aside>
 
         <section class="review-panel" aria-label="Selected venue">
@@ -232,6 +240,7 @@
               <button id="enrichLikelyButton" class="chip" type="button">Enrich Likely Venues</button>
               <button id="resetButton" class="chip" type="button">Revert Form</button>
               <button id="deleteVenueButton" class="chip danger-chip" type="button">Delete Venue</button>
+              <button id="deleteOrphanVenueShowsButton" class="chip danger-chip" type="button">Delete Shows Without Venues</button>
               <button id="pruneArtistsButton" class="chip danger-chip" type="button">Prune Rejected-Venue Artists</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
               <span id="saveStatus" class="save-status" aria-live="polite"></span>
@@ -239,13 +248,24 @@
           </form>
 
           <div class="appearances">
-            <h3 id="appearanceHeading">Events in Range</h3>
+            <div class="section-heading appearances-heading">
+              <div>
+                <h3 id="appearanceHeading">Events in Range</h3>
+                <p id="appearanceGroupSummary" class="field-hint"></p>
+              </div>
+              <div class="filter-group appearance-mode-toggle" role="group" aria-label="Appearance view">
+                <button class="chip active" type="button" data-appearance-mode="group">Merged Group</button>
+                <button class="chip" type="button" data-appearance-mode="selected">Selected Record</button>
+              </div>
+            </div>
+            <div id="mergedVenueList" class="merged-venue-list"></div>
             <div id="appearanceList"></div>
           </div>
         </section>
       </section>
     </main>
 
+    <script src="data/imported-events.js"></script>
     <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>

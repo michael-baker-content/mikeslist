@@ -2,13 +2,13 @@
 
 Mike's List is a local listings project for Bay Area shows, venues, artists, and neighborhood event life. It began as Bay Area Show Explorer, a music calendar built from imported concert listings, and is now widening into a more flexible guide for things worth leaving the house for.
 
-Show Explorer is the first offering inside Mike's List. It focuses on music listings, while also making room for karaoke, trivia, open mics, poetry, games, dance nights, cover bands, and other venue-based events.
+Show Explorer is the first offering inside Mike's List. It focuses on artist-backed music listings while keeping broader event classification available in the local review tools.
 
 The project is intentionally careful:
 
 - Original sources stay credited and linked.
 - Artists, venues, and shows can be reviewed before they become trusted.
-- Music and non-music listings share a show model, but keep their own review paths.
+- The local data model can classify event-style records, but public pages display artist shows.
 - Public pages avoid exposing internal review status.
 
 ## Local Preview
@@ -113,15 +113,16 @@ The full `data/artists.js` file is the admin/review store. Public pages load `da
 
 Local admin saves write back to the data files through `scripts/dev-server.mjs`. Show saves also rebuild the artist, public artist, and venue stores so reviewed event changes stay in sync with public bundles.
 
+The public Show Explorer map uses the locally vendored MapLibre GL files in `assets/vendor/maplibre/` with CARTO basemap styles loaded from `basemaps.cartocdn.com`. The map will render only when the browser can reach CARTO's style and tile endpoints.
+
 ## Data Sources
 
 Mike's List currently works with listings from:
 
 - [The List](https://jon.luini.com/thelist/date.html)
 - [KALX 90.7 FM](https://www.kalx.berkeley.edu/events/)
-- [BadSlava](https://badslava.com/open-mics.php?state=CA)
 
-These sources have different strengths. The List is especially useful for music listings, KALX adds curated weekly calendar coverage, and BadSlava helps identify non-music community events and venue details.
+These sources have different strengths. The List is especially useful for music listings, and KALX adds curated weekly calendar coverage.
 
 ## Deployment Notes
 

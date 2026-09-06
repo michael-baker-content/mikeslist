@@ -1,11 +1,17 @@
 const STORE_KEY = "bay-area-show-explorer-venues";
+const EVENT_STORE_KEY = "bay-area-show-explorer-events";
 const baseStore = window.SHOW_EXPLORER_VENUES || { venues: {} };
 const savedStore = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
 const venueStore = newerStore(savedStore, baseStore);
+const baseEvents = [...(window.SHOW_EXPLORER_EVENTS || [])];
+const savedEvents = JSON.parse(localStorage.getItem(EVENT_STORE_KEY) || "null");
+const events = newerEvents(savedEvents, baseEvents);
 
 const state = {
   query: "",
   filter: "review",
+  venueView: "records",
+  appearanceMode: "group",
   fromDate: todayString(),
   toDate: dateStringFromOffset(6),
   selectedId: ""
@@ -13,12 +19,17 @@ const state = {
 
 const queue = document.querySelector("#venueQueue");
 const form = document.querySelector("#venueForm");
+const reviewGrid = document.querySelector("#venueReviewGrid");
+const reviewPanel = form?.closest(".review-panel");
 const search = document.querySelector("#venueSearch");
 const fromDateInput = document.querySelector("#fromDateInput");
 const toDateInput = document.querySelector("#toDateInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const enrichButton = document.querySelector("#enrichButton");
 const enrichLikelyButton = document.querySelector("#enrichLikelyButton");
+const deleteOrphanVenueShowsButton = document.querySelector("#deleteOrphanVenueShowsButton");
+const venueViewButtons = [...document.querySelectorAll("[data-venue-view]")];
+const appearanceModeButtons = [...document.querySelectorAll("[data-appearance-mode]")];
 
 const fields = {
   selectedName: document.querySelector("#selectedName"),
@@ -48,6 +59,8 @@ const fields = {
   rejectedCount: document.querySelector("#rejectedLinkCount"),
   note: document.querySelector("#noteInput"),
   appearanceHeading: document.querySelector("#appearanceHeading"),
+  appearanceGroupSummary: document.querySelector("#appearanceGroupSummary"),
+  mergedVenueList: document.querySelector("#mergedVenueList"),
   appearances: document.querySelector("#appearanceList"),
   saveStatus: document.querySelector("#saveStatus")
 };
@@ -79,6 +92,11 @@ function newerStore(saved, base) {
     return JSON.parse(JSON.stringify(savedTime > baseTime ? saved : base));
   }
   return JSON.parse(JSON.stringify(saved));
+}
+
+function newerEvents(saved, base) {
+  const source = Array.isArray(saved) ? saved : base;
+  return JSON.parse(JSON.stringify(source));
 }
 
 function venues() {
@@ -142,12 +160,40 @@ function venueText(venue) {
 
 function filteredVenues() {
   const query = state.query.trim().toLowerCase();
-  return venues().filter((venue) => {
-    const matchesQuery = !query || venueText(venue).includes(query);
-    const matchesFilter = state.filter === "all" || venue.confidence === state.filter;
-    const matchesDate = !state.fromDate && !state.toDate ? true : appearancesInRange(venue.source?.appearances || []).length > 0;
-    return matchesQuery && matchesFilter && matchesDate;
+  return venuesForFilter(state.filter).filter((venue) => !query || venueText(venue).includes(query));
+}
+
+function filteredVenueEntries() {
+  return state.venueView === "merged" ? filteredMergedVenueEntries() : filteredVenues().map((venue) => ({
+    id: venue.id,
+    venue,
+    group: [venue]
+  }));
+}
+
+function filteredMergedVenueEntries() {
+  const query = state.query.trim().toLowerCase();
+  const groups = new Map();
+  venuesForFilter(state.filter).forEach((venue) => {
+    const group = mergedVenueGroupFor(venue);
+    const canonical = canonicalVenueFor(venue);
+    const key = canonical.id || venue.id;
+    if (!groups.has(key)) groups.set(key, { id: key, venue: canonical, group });
   });
+  return [...groups.values()]
+    .filter((entry) => !query || entry.group.some((venue) => venueText(venue).includes(query)))
+    .sort((a, b) => sortNameFor(a.venue).localeCompare(sortNameFor(b.venue)));
+}
+
+function venuesForFilter(filter) {
+  return venues().filter((venue) => {
+    const matchesFilter = filter === "all" || venue.confidence === filter;
+    return matchesFilter && matchesDateRange(venue);
+  });
+}
+
+function matchesDateRange(venue) {
+  return !state.fromDate && !state.toDate ? true : appearancesInRange(venue.source?.appearances || []).length > 0;
 }
 
 function appearancesInRange(appearances) {
@@ -159,15 +205,27 @@ function appearancesInRange(appearances) {
 }
 
 function preferredFilter() {
-  for (const filter of ["review", "likely", "verified"]) {
-    if (venues().some((venue) => venue.confidence === filter)) return filter;
-  }
-  return "all";
+  if (venuesForFilter("review").length) return "review";
+  if (venuesForFilter("likely").length) return "likely";
+  return "verified";
+}
+
+function promoteEmptyDefaultFilter() {
+  if (!["review", "likely"].includes(state.filter)) return;
+  if (venuesForFilter(state.filter).length) return;
+  state.filter = preferredFilter();
+  state.selectedId = "";
 }
 
 function syncFilterButtons() {
   filterButtons.forEach((button) => {
     setPressed(button, button.dataset.reviewFilter === state.filter);
+  });
+  venueViewButtons.forEach((button) => {
+    setPressed(button, button.dataset.venueView === state.venueView);
+  });
+  appearanceModeButtons.forEach((button) => {
+    setPressed(button, button.dataset.appearanceMode === state.appearanceMode);
   });
 }
 
@@ -184,21 +242,34 @@ function updateTotals() {
 }
 
 function renderQueue() {
-  const list = filteredVenues();
+  const list = filteredVenueEntries();
   queue.replaceChildren();
+  if (reviewGrid) reviewGrid.hidden = list.length === 0;
 
-  if (!list.some((venue) => venue.id === state.selectedId)) {
-    state.selectedId = list[0]?.id || "";
+  if (!list.some((entry) => entry.venue.id === state.selectedId)) {
+    state.selectedId = list[0]?.venue.id || "";
   }
 
-  for (const venue of list) {
+  if (!list.length) {
+    renderForm();
+    return;
+  }
+
+  for (const entry of list) {
+    const venue = entry.venue;
+    const isGroup = state.venueView === "merged" && entry.group.length > 1;
     const button = document.createElement("button");
     button.className = `queue-item${venue.id === state.selectedId ? " active" : ""}`;
     button.type = "button";
     button.innerHTML = `<strong></strong><span></span>`;
     button.querySelector("strong").textContent = displayNameFor(venue);
-    const count = appearancesInRange(venue.source?.appearances || []).length;
-    button.querySelector("span").textContent = [venue.name !== displayNameFor(venue) ? venue.name : "", venue.city || "unknown city", venue.confidence, `${count} in range`].filter(Boolean).join(" | ");
+    const count = isGroup ? appearancesInRangeWithSources(entry.group).length : appearancesInRange(venue.source?.appearances || []).length;
+    button.querySelector("span").textContent = [
+      isGroup ? `${entry.group.length} merged records` : venue.name !== displayNameFor(venue) ? venue.name : "",
+      venue.city || "unknown city",
+      venue.confidence,
+      `${count} in range`
+    ].filter(Boolean).join(" | ");
     button.addEventListener("click", () => {
       state.selectedId = venue.id;
       render();
@@ -216,6 +287,7 @@ function selectedVenue() {
 function renderForm() {
   const venue = selectedVenue();
   form.hidden = !venue;
+  if (reviewPanel) reviewPanel.hidden = !venue;
   if (!venue) return;
 
   fields.selectedName.textContent = venue.name;
@@ -418,8 +490,14 @@ function applyVerifiedDisplaySuggestion(link, display, priority) {
 }
 
 function renderAppearances(venue) {
-  const appearances = appearancesInRange(venue.source?.appearances || []);
-  fields.appearanceHeading.textContent = state.fromDate || state.toDate ? "Events in Range" : "Events";
+  const group = mergedVenueGroupFor(venue);
+  const useGroup = state.appearanceMode === "group" && group.length > 1;
+  const appearanceSources = useGroup ? group : [venue];
+  const appearances = appearancesInRangeWithSources(appearanceSources);
+  fields.appearanceHeading.textContent = useGroup
+    ? (state.fromDate || state.toDate ? "Merged Group Events in Range" : "Merged Group Events")
+    : (state.fromDate || state.toDate ? "Events in Range" : "Events");
+  renderMergedVenueSummary(venue, group);
   fields.appearances.replaceChildren();
   if (!appearances.length) {
     const empty = document.createElement("p");
@@ -432,8 +510,69 @@ function renderAppearances(venue) {
   appearances.forEach((appearance) => {
     const item = document.createElement("p");
     item.className = "appearance";
-    item.textContent = `${appearance.date} - ${appearance.title || "Untitled event"} - ${appearance.details || ""}`;
+    const sourceLabel = useGroup ? ` (${appearance.sourceVenueName})` : "";
+    item.textContent = `${appearance.date} - ${appearance.title || "Untitled event"}${sourceLabel} - ${appearance.details || ""}`;
     fields.appearances.append(item);
+  });
+}
+
+function mergedVenueGroupFor(venue) {
+  const canonical = canonicalVenueFor(venue);
+  const canonicalId = canonical?.id || venue.id;
+  return venues()
+    .filter((candidate) => candidate.id === canonicalId || candidate.mergedInto === canonicalId)
+    .sort((a, b) => Number(a.id === canonicalId) - Number(b.id === canonicalId) || displayNameFor(a).localeCompare(displayNameFor(b)));
+}
+
+function canonicalVenueFor(venue) {
+  return venue.mergedInto && venueStore.venues?.[venue.mergedInto]
+    ? venueStore.venues[venue.mergedInto]
+    : venue;
+}
+
+function appearancesInRangeWithSources(appearanceSources) {
+  const appearances = appearanceSources.flatMap((venue) => {
+    return appearancesInRange(venue.source?.appearances || []).map((appearance) => ({
+      ...appearance,
+      sourceVenueId: venue.id,
+      sourceVenueName: displayNameFor(venue) || venue.name || venue.id,
+      sourceVenueConfidence: venue.confidence || "review"
+    }));
+  });
+  return uniqueAppearances(appearances)
+    .sort((a, b) => a.date.localeCompare(b.date) || (a.title || "").localeCompare(b.title || "") || a.sourceVenueName.localeCompare(b.sourceVenueName));
+}
+
+function renderMergedVenueSummary(selected, group) {
+  const hasGroup = group.length > 1;
+  fields.appearanceGroupSummary.hidden = !hasGroup;
+  fields.mergedVenueList.hidden = !hasGroup;
+  appearanceModeButtons.forEach((button) => {
+    button.hidden = !hasGroup;
+  });
+
+  if (!hasGroup) {
+    fields.appearanceGroupSummary.textContent = "";
+    fields.mergedVenueList.replaceChildren();
+    return;
+  }
+
+  const canonical = canonicalVenueFor(selected);
+  const summaryGroup = [...group].sort((a, b) => Number(b.id === canonical.id) - Number(a.id === canonical.id) || displayNameFor(a).localeCompare(displayNameFor(b)));
+  const selectedIsCanonical = selected.id === canonical.id;
+  fields.appearanceGroupSummary.textContent = selectedIsCanonical
+    ? `Showing ${group.length} merged venue records for ${displayNameFor(canonical)}.`
+    : `Showing merged group for ${displayNameFor(canonical)}. Selected source record: ${displayNameFor(selected)}.`;
+
+  fields.mergedVenueList.replaceChildren();
+  summaryGroup.forEach((venue) => {
+    const item = document.createElement("span");
+    item.className = `merged-venue-chip ${venue.confidence || "review"}`;
+    item.textContent = [
+      displayNameFor(venue),
+      venue.id === canonical.id ? "canonical" : venue.confidence || "review"
+    ].filter(Boolean).join(" / ");
+    fields.mergedVenueList.append(item);
   });
 }
 
@@ -517,19 +656,80 @@ async function deleteSelectedVenue() {
   const confirmed = window.confirm(`Delete "${displayName}"? This permanently removes the venue record.${redirectWarning}`);
   if (!confirmed) return;
 
-  const visibleBefore = filteredVenues();
-  const currentIndex = Math.max(0, visibleBefore.findIndex((item) => item.id === venue.id));
+  const visibleBefore = filteredVenueEntries();
+  const currentIndex = Math.max(0, visibleBefore.findIndex((item) => item.venue.id === venue.id));
   removeMergedVenueAlias(venue);
   delete venueStore.venues[venue.id];
 
-  const visibleAfter = filteredVenues();
+  const visibleAfter = filteredVenueEntries();
   const fallbackAfter = venues();
-  const next = visibleAfter[Math.min(currentIndex, visibleAfter.length - 1)] || visibleAfter[0] || fallbackAfter[0] || null;
-  state.selectedId = next?.id || "";
+  const next = visibleAfter[Math.min(currentIndex, visibleAfter.length - 1)] || visibleAfter[0] || null;
+  state.selectedId = next?.venue?.id || fallbackAfter[0]?.id || "";
 
   await saveStore();
   fields.saveStatus.textContent = `Deleted ${displayName}`;
   render();
+}
+
+async function deleteOrphanVenueShows() {
+  const orphanEvents = events.filter(isOrphanVenueShow);
+  if (!orphanEvents.length) {
+    fields.saveStatus.textContent = "No shows are missing venue records";
+    return;
+  }
+
+  const confirmed = window.confirm(`Delete ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without a matching venue? This checks all shows, not just the current venue filter.`);
+  if (!confirmed) return;
+
+  const orphanIds = new Set(orphanEvents.map((event) => event.id));
+  for (let index = events.length - 1; index >= 0; index -= 1) {
+    if (orphanIds.has(events[index].id)) events.splice(index, 1);
+  }
+
+  const savedToFile = await saveEvents();
+  fields.saveStatus.textContent = `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues${savedToFile ? "" : " in browser only"}`;
+}
+
+function isOrphanVenueShow(event) {
+  return !resolvedVenueForEvent(event);
+}
+
+function resolvedVenueForEvent(event) {
+  return bestVenueMatch([
+    venueByName(event.venue || ""),
+    venueById(slugify(event.venue || "")),
+    venueById(event.venueId)
+  ]);
+}
+
+function venueById(id = "") {
+  return id ? venueStore.venues?.[id] || null : null;
+}
+
+function venueByName(name = "") {
+  const key = normalizeText(name);
+  if (!key) return null;
+  return venues().find((venue) => {
+    return [
+      venue.name,
+      venue.displayName,
+      ...(venue.aliases || [])
+    ].some((value) => normalizeText(value) === key);
+  }) || null;
+}
+
+function resolveMergedVenue(venue) {
+  if (!venue) return null;
+  return venue.mergedInto && venueStore.venues?.[venue.mergedInto]
+    ? venueStore.venues[venue.mergedInto]
+    : venue;
+}
+
+function bestVenueMatch(matches = []) {
+  return matches
+    .map(resolveMergedVenue)
+    .filter(Boolean)
+    .sort((a, b) => confidenceRank(b.confidence) - confidenceRank(a.confidence))[0] || null;
 }
 
 function removeMergedVenueAlias(venue) {
@@ -547,6 +747,22 @@ function removeMergedVenueAlias(venue) {
 
 function normalizedAlias(value = "") {
   return String(value || "").trim().toLowerCase();
+}
+
+function normalizeText(value = "") {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function slugify(text) {
+  return String(text || "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
 }
 
 function unique(values) {
@@ -664,6 +880,31 @@ async function saveStore() {
   }
 }
 
+function persistEventDraft() {
+  localStorage.setItem(EVENT_STORE_KEY, JSON.stringify(events));
+}
+
+async function saveEvents() {
+  persistEventDraft();
+  fields.saveStatus.textContent = "Show changes saved in browser";
+
+  try {
+    const response = await fetch("/api/events", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(events)
+    });
+    if (!response.ok) throw new Error(`Save failed: ${response.status}`);
+    const result = await response.json();
+    localStorage.removeItem(EVENT_STORE_KEY);
+    fields.saveStatus.textContent = `Saved ${result.count} shows at ${new Date(result.savedAt).toLocaleTimeString()}`;
+    return true;
+  } catch {
+    fields.saveStatus.textContent = "Show changes saved in browser only";
+    return false;
+  }
+}
+
 async function enrichVenue() {
   const venue = updateSelectedVenueFromForm();
   if (!venue) return;
@@ -746,7 +987,6 @@ function labelForType(type = "") {
     instagram: "Instagram",
     liveNation: "Live Nation",
     maps: "Maps",
-    badSlava: "BadSlava",
     official: "Official",
     search: "Search",
     theList: "The List",
@@ -762,6 +1002,8 @@ function labelForType(type = "") {
 }
 
 function render() {
+  promoteEmptyDefaultFilter();
+  syncFilterButtons();
   renderVenueTypeOptions();
   renderRegionOptions();
   updateTotals();
@@ -817,6 +1059,7 @@ document.querySelector("#clearLocalButton").addEventListener("click", () => {
 document.querySelector("#exportButton").addEventListener("click", exportStore);
 document.querySelector("#mergeVenueButton").addEventListener("click", mergeSelectedVenue);
 document.querySelector("#deleteVenueButton").addEventListener("click", deleteSelectedVenue);
+deleteOrphanVenueShowsButton?.addEventListener("click", deleteOrphanVenueShows);
 document.querySelector("#pruneArtistsButton").addEventListener("click", pruneRejectedVenueArtists);
 enrichButton.addEventListener("click", enrichVenue);
 enrichLikelyButton.addEventListener("click", enrichLikelyVenues);
@@ -847,6 +1090,24 @@ filterButtons.forEach((button) => {
     syncFilterButtons();
     state.selectedId = "";
     render();
+  });
+});
+
+venueViewButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.venueView = button.dataset.venueView;
+    syncFilterButtons();
+    state.selectedId = "";
+    render();
+  });
+});
+
+appearanceModeButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    state.appearanceMode = button.dataset.appearanceMode;
+    syncFilterButtons();
+    const venue = selectedVenue();
+    if (venue) renderAppearances(venue);
   });
 });
 

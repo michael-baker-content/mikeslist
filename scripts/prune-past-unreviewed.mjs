@@ -144,8 +144,7 @@ function isGeneratedLink(link) {
     || host === "deezer.com"
     || host === "tidal.com"
     || host === "jon.luini.com"
-    || host === "kalx.berkeley.edu"
-    || host === "badslava.com";
+    || host === "kalx.berkeley.edu";
 }
 
 function hostFor(url) {

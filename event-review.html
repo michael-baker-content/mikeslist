@@ -64,6 +64,7 @@
           <button class="chip" type="button" data-review-filter="recent">Recently changed</button>
           <button class="chip" type="button" data-review-filter="nonArtist">Event shows</button>
           <button class="chip" type="button" data-review-filter="artistBacked">Artist shows</button>
+          <button class="chip" type="button" data-review-filter="mikesPick">Mike's Picks</button>
           <button class="chip" type="button" data-review-filter="all">All</button>
         </div>
 
@@ -73,7 +74,6 @@
             <button class="chip active" type="button" data-source-filter="all">All sources</button>
             <button class="chip" type="button" data-source-filter="the-list">The List</button>
             <button class="chip" type="button" data-source-filter="kalx">KALX</button>
-            <button class="chip" type="button" data-source-filter="badslava">BadSlava</button>
           </div>
         </div>
 
@@ -105,7 +105,7 @@
         </div>
         <div>
           <strong id="sourceSummary">0 / 0 / 0</strong>
-          <span>List / KALX / BadSlava</span>
+          <span>List / KALX / Other</span>
         </div>
       </section>
 
@@ -243,6 +243,7 @@
               <button id="clearArtistsButton" class="chip" type="button">Clear Artists</button>
               <button id="resetButton" class="chip" type="button">Revert Form</button>
               <button id="deleteEventButton" class="chip danger-chip" type="button">Delete Show</button>
+              <button id="deleteOrphanVenueShowsButton" class="chip danger-chip" type="button">Delete Shows Without Venues</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
               <span id="saveStatus" class="save-status" aria-live="polite"></span>
             </div>

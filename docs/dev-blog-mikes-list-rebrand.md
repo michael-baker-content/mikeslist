@@ -12,7 +12,7 @@ That model has already changed the way the app works. Show Review can now separa
 
 The public side is changing as well. The default Show Explorer feed can stay focused on music, while other event types remain available through filters. That lets the site be useful to someone looking for concerts tonight without closing the door on someone looking for karaoke, trivia, or a low-key open mic.
 
-The source strategy is also broadening. The List is still a strong music source. KALX adds curated weekly coverage. BadSlava helps identify non-music events and venue details. None of these sources are perfect, but together they create a more textured picture of what is happening around the Bay Area.
+The source strategy is also broadening. The List is still a strong music source, and KALX adds curated weekly coverage. Neither source is perfect, but together they create a more textured picture of what is happening around the Bay Area.
 
 This rebrand also gives the project a better future shape. Mike's List can contain Show Explorer, source pages, venue pages, artist pages, featured picks, admin tools, and later maybe other local guides that are not strictly show calendars. The name is personal enough to admit that judgment is part of the product. This is not a neutral machine pretending to know everything. It is a tool for making messy local information more useful.
 

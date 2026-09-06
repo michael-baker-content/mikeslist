@@ -10,7 +10,7 @@ Artist and venue review have also become more practical. Records can be filtered
 
 The public Show Explorer has improved too. The default feed now focuses on music listings, while non-music event types are still available through filters. Mike's Picks gives me a way to feature particular shows. The mobile layout has been getting special attention: filters are easier to reach, the sticky search controls are less jumpy, and narrow viewports now make better use of scarce horizontal space.
 
-Another major success is source coverage. The project started with The List, but now also pulls in KALX calendar listings and uses BadSlava for non-music events and venue enrichment. Those sources are not interchangeable, and the site now treats them as distinct signals instead of flattening everything into one anonymous feed. That makes it easier to inspect where a listing came from and decide how much confidence to put in it.
+Another major success is source coverage. The project started with The List, and now also pulls in KALX calendar listings. Those sources are not interchangeable, and the site now treats them as distinct signals instead of flattening everything into one anonymous feed. That makes it easier to inspect where a listing came from and decide how much confidence to put in it.
 
 There is also a basic admin login flow now. Locally, the admin area is protected by an access key and session cookie. That is a good step for development, but it is not the same as production auth. Before the admin area goes live, the project still needs a real deployed backend, likely through Netlify Functions, Clerk, or a small hosted Node service.
 
@@ -21,7 +21,7 @@ Recent wins:
 - Shows can now be classified as artist shows or event shows.
 - Event types and themes are first-class data points.
 - The public feed defaults to music while still supporting broader event discovery.
-- KALX and BadSlava have joined The List as useful source material.
+- KALX has joined The List as useful source material.
 - Show Review can merge duplicates and preserve source context.
 - Mike's Picks can feature selected shows in Show Explorer.
 - The admin interface is becoming cleaner, denser, and easier to work through.

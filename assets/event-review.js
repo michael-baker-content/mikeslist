@@ -26,6 +26,7 @@ const toDateInput = document.querySelector("#toDateInput");
 const sortInput = document.querySelector("#eventSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
 const sourceFilterButtons = [...document.querySelectorAll("[data-source-filter]")];
+const deleteOrphanVenueShowsButton = document.querySelector("#deleteOrphanVenueShowsButton");
 
 const fields = {
   selectedName: document.querySelector("#selectedName"),
@@ -181,6 +182,7 @@ function matchesFilter(event) {
   if (state.filter === "recent") return recentEventIds.has(event.id);
   if (state.filter === "nonArtist") return isEventShow(event);
   if (state.filter === "artistBacked") return isArtistShow(event);
+  if (state.filter === "mikesPick") return Boolean(event.mikesPick);
   if (state.filter === "needsMetadata") return needsMetadata(event);
   return true;
 }
@@ -200,6 +202,7 @@ function needsMetadata(event) {
 }
 
 function eventStatus(event) {
+  if (isOrphanVenueShow(event)) return "missing venue";
   if (needsMetadata(event)) return "needs metadata";
   return isArtistShow(event) ? "artist show" : "event show";
 }
@@ -215,13 +218,14 @@ function updateTotals() {
 }
 
 function sourceSummaryText(list) {
-  const counts = { "The List": 0, KALX: 0, BadSlava: 0 };
+  const counts = { "The List": 0, KALX: 0, Other: 0 };
   list.forEach((event) => {
-    sourceNamesForEvent(event).forEach((name) => {
-      if (Object.hasOwn(counts, name)) counts[name] += 1;
-    });
+    const names = sourceNamesForEvent(event);
+    if (names.includes("The List")) counts["The List"] += 1;
+    if (names.includes("KALX")) counts.KALX += 1;
+    if (!names.includes("The List") && !names.includes("KALX")) counts.Other += 1;
   });
-  return `${counts["The List"]} / ${counts.KALX} / ${counts.BadSlava}`;
+  return `${counts["The List"]} / ${counts.KALX} / ${counts.Other}`;
 }
 
 function renderEventTypeOptions() {
@@ -525,6 +529,10 @@ function resolvedVenueForEvent(event) {
   ]);
 }
 
+function isOrphanVenueShow(event) {
+  return !resolvedVenueForEvent(event);
+}
+
 function venueById(id = "") {
   return id ? venueStore.venues?.[id] || null : null;
 }
@@ -698,7 +706,6 @@ function mergeSources(existing, incoming) {
 function sourceNameForUrl(url, fallback = "Source") {
   const normalized = String(url || "").toLowerCase();
   if (normalized.includes("kalx.berkeley.edu")) return "KALX";
-  if (normalized.includes("badslava.com")) return "BadSlava";
   if (normalized.includes("jon.luini.com") || normalized.includes("thelist")) return "The List";
   return fallback && fallback !== "Source" ? fallback : "Source";
 }
@@ -757,6 +764,28 @@ async function deleteSelectedEvent() {
   state.selectedId = next?.id || "";
   await saveEvents({ skipFormUpdate: true });
   fields.saveStatus.textContent = "Deleted show record";
+}
+
+async function deleteOrphanVenueShows() {
+  const orphanEvents = events.filter(isOrphanVenueShow);
+  if (!orphanEvents.length) {
+    fields.saveStatus.textContent = "No shows are missing venue records";
+    return;
+  }
+
+  const confirmed = window.confirm(`Delete ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without a matching venue? This checks all shows, not just the current filter.`);
+  if (!confirmed) return;
+
+  const orphanIds = new Set(orphanEvents.map((event) => event.id));
+  for (let index = events.length - 1; index >= 0; index -= 1) {
+    if (orphanIds.has(events[index].id)) events.splice(index, 1);
+  }
+
+  if (orphanIds.has(state.selectedId)) {
+    state.selectedId = visibleEvents()[0]?.id || events[0]?.id || "";
+  }
+  await saveEvents({ skipFormUpdate: true });
+  fields.saveStatus.textContent = `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues`;
 }
 
 function markRecentlyChanged(...ids) {
@@ -1029,6 +1058,7 @@ document.querySelector("#clearArtistsButton").addEventListener("click", () => {
 
 document.querySelector("#mergeEventButton").addEventListener("click", mergeSelectedEvent);
 document.querySelector("#deleteEventButton").addEventListener("click", deleteSelectedEvent);
+deleteOrphanVenueShowsButton?.addEventListener("click", deleteOrphanVenueShows);
 
 fields.showType.addEventListener("change", () => {
   syncShowTypeFields();

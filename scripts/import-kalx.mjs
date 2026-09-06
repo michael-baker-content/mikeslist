@@ -36,10 +36,13 @@ console.log(`Merged ${kalxEvents.length} KALX events into ${EVENTS_PATH.pathname
 async function importKalxEvents() {
   const weekLinks = await kalxImportUrls();
   const events = [];
-  for (const url of weekLinks) {
-    const html = await fetchText(url, { allowMissing: true });
-    if (!html) continue;
-    events.push(...parseWeek(html, url));
+  for (const urls of groupWeekLinks(weekLinks)) {
+    for (const [index, url] of urls.entries()) {
+      const html = await fetchText(url, { allowMissing: true, quietMissing: index < urls.length - 1 });
+      if (!html) continue;
+      events.push(...parseWeek(html, url));
+      break;
+    }
   }
   return events;
 }
@@ -53,16 +56,15 @@ async function kalxImportUrls() {
     console.warn(`Could not fetch KALX calendar index: ${error.message}`);
   }
   const discoveredLinks = discoverKalxWeekLinks(indexHtml);
-  const weekLinks = uniqueUrls([...generatedLinks, ...discoveredLinks])
+  const weekLinks = limitWeekLinks(uniqueUrls([...generatedLinks, ...discoveredLinks])
     .filter((url) => !fromDate || weekOverlapsImportRange(url, fromDate))
-    .sort((a, b) => (weekStartFromKalxUrl(a) || a).localeCompare(weekStartFromKalxUrl(b) || b))
-    .slice(0, weeks);
+    .sort((a, b) => (weekStartFromKalxUrl(a) || a).localeCompare(weekStartFromKalxUrl(b) || b)), weeks);
 
   return weekLinks;
 }
 
 function discoverKalxWeekLinks(html) {
-  return [...html.matchAll(/<a\b[^>]*href=["']([^"']*\/event\/events-[a-z]+-\d{1,2}(?:-[a-z]+)?-\d{1,2}-20\d{2}\/?)["'][^>]*>/gi)]
+  return [...html.matchAll(/<a\b[^>]*href=["']([^"']*\/event\/events-[a-z]+-\d{1,2}(?:-[a-z]+-?\d{1,2}|-\d{1,2})-20\d{2}\/?)["'][^>]*>/gi)]
     .map((match) => new URL(match[1], CALENDAR_URL).href);
 }
 
@@ -71,8 +73,23 @@ function kalxWeekUrls(startDate, count) {
   return Array.from({ length: count }, (_, index) => {
     const weekStart = addDays(start, index * 7);
     const weekEnd = addDays(weekStart, 6);
-    return new URL(`event/${kalxWeekSlug(weekStart, weekEnd)}/`, KALX_BASE_URL).href;
-  });
+    return kalxWeekSlugCandidates(weekStart, weekEnd)
+      .map((slug) => new URL(`event/${slug}/`, KALX_BASE_URL).href);
+  }).flat();
+}
+
+function kalxWeekSlugCandidates(start, end) {
+  const primary = kalxWeekSlug(start, end);
+  const startMonth = monthSlug(start);
+  const endMonth = monthSlug(end);
+  const startDay = start.getUTCDate();
+  const endDay = end.getUTCDate();
+  const year = end.getUTCFullYear();
+  if (startMonth === endMonth && start.getUTCFullYear() === year) return [primary];
+  return uniqueUrls([
+    primary,
+    `events-${startMonth}-${startDay}-${endMonth}${endDay}-${year}`
+  ]);
 }
 
 function kalxWeekSlug(start, end) {
@@ -88,10 +105,10 @@ function kalxWeekSlug(start, end) {
 }
 
 function weekStartFromKalxUrl(url) {
-  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-[a-z]+)?-\d{1,2}-(20\d{2})\/?$/i);
+  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-([a-z]+)-?(\d{1,2})|-(\d{1,2}))-(20\d{2})\/?$/i);
   if (!match) return "";
   const month = monthNames.get(match[1].toLowerCase());
-  return month ? `${match[3]}-${month}-${match[2].padStart(2, "0")}` : "";
+  return month ? `${match[6]}-${month}-${match[2].padStart(2, "0")}` : "";
 }
 
 function weekOverlapsImportRange(url, from) {
@@ -101,14 +118,15 @@ function weekOverlapsImportRange(url, from) {
 }
 
 function weekRangeFromKalxUrl(url) {
-  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-([a-z]+))?-(\d{1,2})-(20\d{2})\/?$/i);
+  const match = url.match(/\/event\/events-([a-z]+)-(\d{1,2})(?:-([a-z]+)-?(\d{1,2})|-(\d{1,2}))-(20\d{2})\/?$/i);
   if (!match) return null;
   const startMonth = monthNames.get(match[1].toLowerCase());
   const endMonth = monthNames.get((match[3] || match[1]).toLowerCase());
   if (!startMonth || !endMonth) return null;
-  const year = match[5];
+  const year = match[6];
   const start = `${year}-${startMonth}-${match[2].padStart(2, "0")}`;
-  const end = `${year}-${endMonth}-${match[4].padStart(2, "0")}`;
+  const endDay = match[4] || match[5];
+  const end = `${year}-${endMonth}-${endDay.padStart(2, "0")}`;
   return { start, end };
 }
 
@@ -131,6 +149,26 @@ function monthSlug(date) {
 
 function uniqueUrls(urls) {
   return [...new Set(urls)];
+}
+
+function limitWeekLinks(urls, count) {
+  const weekStarts = new Set();
+  return urls.filter((url) => {
+    const key = weekStartFromKalxUrl(url) || url;
+    if (!weekStarts.has(key) && weekStarts.size >= count) return false;
+    weekStarts.add(key);
+    return true;
+  });
+}
+
+function groupWeekLinks(urls) {
+  const groups = new Map();
+  for (const url of urls) {
+    const key = weekStartFromKalxUrl(url) || url;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(url);
+  }
+  return [...groups.values()];
 }
 
 function parseWeek(html, sourceUrl) {
@@ -290,6 +328,7 @@ async function fetchText(url, options = {}) {
     headers: { "User-Agent": "BayAreaShowExplorer/0.1 (local non-commercial prototype)" }
   });
   if (options.allowMissing && response.status === 404) {
+    if (options.quietMissing) return "";
     console.warn(`Skipping unpublished KALX page: ${url}`);
     return "";
   }

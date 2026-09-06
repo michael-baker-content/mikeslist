@@ -102,6 +102,10 @@ body {
   font-family: var(--sans);
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body.theme-transition,
 body.theme-transition *,
 body.theme-transition *::before,
@@ -420,6 +424,10 @@ main {
   padding: 24px 0 56px;
 }
 
+.show-explorer-page main {
+  width: min(1400px, calc(100% - 32px));
+}
+
 .home-layout {
   display: grid;
   gap: 22px;
@@ -508,6 +516,22 @@ main {
   line-height: 1.62;
 }
 
+.playlist-embed {
+  display: grid;
+  gap: 10px;
+  margin: 28px 0;
+  max-width: 720px;
+}
+
+.playlist-embed iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  border-radius: 8px;
+  background: var(--ink);
+}
+
 .explorer-search {
   margin-bottom: 16px;
 }
@@ -546,7 +570,9 @@ main {
 
 .search-customization-body {
   display: grid;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(300px, 1.1fr) minmax(260px, 0.8fr);
   gap: 14px;
+  align-items: start;
   padding: 0 12px 12px;
 }
 
@@ -665,6 +691,8 @@ body.listing-tools-active .sticky-explorer-tools {
 
 .search span,
 .date-range span,
+.filter-block > span,
+.source-filter > span,
 .advanced-filter-grid span {
   display: block;
   margin-bottom: 7px;
@@ -693,6 +721,7 @@ body.listing-tools-active .sticky-explorer-tools {
 }
 
 .date-range label {
+  flex: 1 1 145px;
   min-width: 145px;
 }
 
@@ -702,27 +731,9 @@ body.listing-tools-active .sticky-explorer-tools {
   gap: 8px;
 }
 
-.quick-filter-group {
-  align-items: center;
-}
-
-.tag-filter-group {
-  grid-column: 1 / -1;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
-}
-
-.tag-filter-group summary {
-  cursor: pointer;
-  padding: 10px 12px;
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 850;
-}
-
-.tag-filter-group .filter-group {
-  padding: 0 12px 12px;
+.filter-block {
+  display: grid;
+  gap: 8px;
 }
 
 .source-filter {
@@ -756,10 +767,9 @@ body.listing-tools-active .advanced-filters:not([open]) {
   padding: 0 14px 14px;
 }
 
-.source-filter > span {
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 800;
+.search-customization-body > .advanced-filter-grid {
+  grid-column: 1 / -1;
+  padding: 0;
 }
 
 .chip {
@@ -900,8 +910,7 @@ body.listing-tools-active .advanced-filters:not([open]) {
   font-weight: 800;
 }
 
-.venue-map svg,
-.venue-google-map {
+.venue-map-canvas {
   display: block;
   width: 100%;
   height: clamp(260px, 40vw, 440px);
@@ -909,22 +918,69 @@ body.listing-tools-active .advanced-filters:not([open]) {
   border-radius: 8px;
 }
 
-.venue-map svg,
-.venue-google-map {
+.venue-map-canvas {
   height: clamp(300px, 28vw, 420px);
 }
 
-.venue-map svg {
-  background: linear-gradient(145deg, var(--map-gradient-start), var(--map-gradient-end));
-}
-
-.venue-google-map {
+.venue-map-canvas {
   overflow: hidden;
   background: var(--map-land);
 }
 
-.venue-google-map[hidden] {
+.venue-map-canvas[hidden] {
   display: none;
+}
+
+.venue-map-status {
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--card);
+  color: var(--muted);
+  font-weight: 750;
+}
+
+.venue-map-status[hidden] {
+  display: none;
+}
+
+.map-style-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.map-style-filter > span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.venue-map-marker {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--paper);
+  border-radius: 999px;
+  background: var(--accent-2);
+  color: white;
+  box-shadow: 0 3px 10px rgba(24, 23, 22, 0.28);
+  cursor: pointer;
+  font: 850 0.72rem var(--sans);
+}
+
+.venue-map-marker:empty {
+  width: 16px;
+  height: 16px;
+}
+
+.venue-map-marker:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--accent), transparent 35%);
+  outline-offset: 3px;
 }
 
 .map-info-window {
@@ -948,64 +1004,6 @@ body.listing-tools-active .advanced-filters:not([open]) {
   color: #1a73e8;
   font-weight: 850;
   text-decoration: none;
-}
-
-.venue-map-tint {
-  width: 100%;
-  height: 100%;
-  fill: color-mix(in srgb, var(--paper), transparent 88%);
-}
-
-.venue-map-gradient {
-  width: 100%;
-  height: 100%;
-  fill: url("#venue-map-terrain-gradient");
-}
-
-.venue-map-grid {
-  vector-effect: non-scaling-stroke;
-  stroke-width: 1.2;
-  stroke-dasharray: 7 10;
-  opacity: 0.34;
-}
-
-.venue-map-latitude {
-  stroke: var(--map-latitude);
-}
-
-.venue-map-longitude {
-  stroke: var(--map-longitude);
-}
-
-.venue-map-coordinate {
-  fill: color-mix(in srgb, var(--ink), transparent 34%);
-  font: 750 13px var(--sans);
-  letter-spacing: 0;
-  opacity: 0.72;
-  pointer-events: none;
-}
-
-.venue-map-point {
-  fill: var(--accent-2);
-  stroke: var(--paper);
-  stroke-width: 3;
-  cursor: pointer;
-  filter: drop-shadow(0 5px 8px rgba(0, 0, 0, 0.22));
-  transition:
-    fill 180ms ease,
-    r 180ms ease,
-    transform 180ms ease;
-}
-
-.venue-map-point:hover {
-  fill: var(--accent);
-  r: 12;
-}
-
-.venue-map-point:focus-visible {
-  outline: none;
-  stroke: var(--accent);
-  stroke-width: 6;
 }
 
 .venue-modal {
@@ -1604,6 +1602,10 @@ body.listing-tools-active .advanced-filters:not([open]) {
 }
 
 @media (max-width: 940px) {
+  .search-customization-body {
+    grid-template-columns: 1fr;
+  }
+
   .event {
     grid-template-columns: minmax(150px, 180px) minmax(0, 1fr);
   }
@@ -2049,6 +2051,49 @@ body:not(.auth-admin) [data-admin-only] {
   padding-top: 18px;
 }
 
+.appearances-heading {
+  align-items: start;
+}
+
+.appearances-heading .field-hint {
+  margin: 5px 0 0;
+}
+
+.appearance-mode-toggle {
+  justify-content: flex-end;
+}
+
+.merged-venue-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 12px;
+}
+
+.merged-venue-chip {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 5px 8px;
+  background: var(--card);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.merged-venue-chip.verified {
+  border-color: color-mix(in srgb, var(--accent), var(--line) 42%);
+  color: var(--accent);
+}
+
+.merged-venue-chip.likely {
+  border-color: color-mix(in srgb, var(--blue), var(--line) 42%);
+  color: var(--blue);
+}
+
+.merged-venue-chip.rejected {
+  color: var(--badge-rejected);
+}
+
 .section-heading {
   display: flex;
   align-items: center;
@@ -2196,8 +2241,7 @@ body:not(.auth-admin) [data-admin-only] {
     padding: 14px;
   }
 
-  .venue-map svg,
-  .venue-google-map {
+  .venue-map-canvas {
     height: clamp(220px, 58vw, 360px);
   }
 

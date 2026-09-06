@@ -408,7 +408,6 @@ function sourceNamesForEvent(event) {
 function sourceNameForUrl(url, fallback = "Source") {
   const normalized = String(url || "").toLowerCase();
   if (normalized.includes("kalx.berkeley.edu")) return "KALX";
-  if (normalized.includes("badslava.com")) return "BadSlava";
   if (normalized.includes("jon.luini.com") || normalized.includes("thelist")) return "The List";
   return fallback && fallback !== "Source" ? fallback : "Source";
 }

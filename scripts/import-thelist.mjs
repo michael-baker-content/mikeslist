@@ -336,6 +336,5 @@ function sourceNameForUrl(url, fallback = "Source") {
   const normalized = String(url || "").toLowerCase();
   if (normalized.includes("jon.luini.com") || normalized.includes("thelist")) return "The List";
   if (normalized.includes("kalx.berkeley.edu")) return "KALX";
-  if (normalized.includes("badslava.com")) return "BadSlava";
   return fallback && fallback !== "Source" ? fallback : "Source";
 }

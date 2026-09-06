@@ -8,8 +8,8 @@
     "dev": "node scripts/dev-server.mjs",
     "import": "node scripts/import-thelist.mjs",
     "import:kalx": "node scripts/import-kalx.mjs",
-    "import:badslava": "node scripts/import-badslava.mjs",
     "classify": "node scripts/classify-event-metadata.mjs",
+    "prune:nonmusic-events": "node scripts/prune-nonmusic-events.mjs",
     "refresh": "node scripts/refresh-thelist.mjs",
     "refine-upcoming": "node scripts/refine-upcoming.mjs",
     "suggest": "node scripts/suggest-review-edits.mjs",
@@ -17,7 +17,9 @@
     "normalize:events": "node scripts/normalize-event-store.mjs",
     "dedupe:events": "node scripts/normalize-event-store.mjs --merge-duplicates",
     "build:public-artists": "node scripts/build-public-artist-store.mjs",
-    "prune:past": "node scripts/prune-past-unreviewed.mjs",
-    "enrich:badslava-venues": "node scripts/enrich-venues-badslava.mjs"
+    "prune:past": "node scripts/prune-past-unreviewed.mjs"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.12.0"
   }
 }

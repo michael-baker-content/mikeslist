@@ -9,20 +9,20 @@ const eventImageCache = new WeakMap();
 
 const state = {
   query: "",
-  filter: "music",
-  customFilters: [],
+  filters: [],
   source: "all",
   venue: "all",
   city: "all",
   sort: "date",
+  mapStyle: "light",
   fromDate: todayString(),
   toDate: ""
 };
 
 const eventList = document.querySelector("#eventList");
 const venueMap = document.querySelector("#venueMap");
-const venueGoogleMap = document.querySelector("#venueGoogleMap");
-const venueMapSvg = document.querySelector("#venueMapSvg");
+const venueMapCanvas = document.querySelector("#venueMapCanvas");
+const venueMapStatus = document.querySelector("#venueMapStatus");
 const venueMapCount = document.querySelector("#venueMapCount");
 const venueModal = document.querySelector("#venueModal");
 const venueModalTitle = document.querySelector("#venueModalTitle");
@@ -41,7 +41,6 @@ const venueFilterInput = document.querySelector("#venueFilterInput");
 const cityFilterInput = document.querySelector("#cityFilterInput");
 const sortInput = document.querySelector("#sortInput");
 const searchCustomization = document.querySelector(".search-customization");
-const advancedFilters = document.querySelector(".advanced-filters");
 const stickyToolsMenu = document.querySelector(".sticky-tools-menu");
 const stickyToolsMenuButton = document.querySelector("#stickyToolsMenuButton");
 const stickyToolsPopover = document.querySelector("#stickyToolsPopover");
@@ -51,12 +50,12 @@ const jumpToFiltersButton = document.querySelector("#jumpToFiltersButton");
 const returnToListingsButton = document.querySelector("#returnToListingsButton");
 const filterButtons = [...document.querySelectorAll("[data-filter]")];
 const sourceFilterButtons = [...document.querySelectorAll("[data-source-filter]")];
+const mapStyleButtons = [...document.querySelectorAll("[data-map-style]")];
 const mobileMapQuery = window.matchMedia("(max-width: 820px)");
 
-let googleMapsPromise;
-let googleVenueMap;
-let googleVenueInfoWindow;
-let googleVenueMarkers = [];
+let mapLibreMap;
+let mapLibrePopup;
+let mapLibreMarkers = [];
 let venueMapRenderToken = 0;
 let eventRenderToken = 0;
 let lastListingScrollY = 0;
@@ -64,59 +63,19 @@ let keepFiltersOpenUntil = 0;
 let keepMapOpenUntil = 0;
 let venueMapRequested = false;
 
-const venueMapPlot = {
-  left: 36,
-  right: 964,
-  top: 36,
-  bottom: 584
+const filterKeys = new Set(["picks", "allAges", "local"]);
+const cartoMapStyles = {
+  light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
+  detailed: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+  dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 };
-
-const customFilterKeys = new Set(["picks", "music", "tonight", "allAges", "karaoke", "trivia", "openMic", "poetry", "game", "local"]);
-const typeFilterKeys = new Set(["music", "karaoke", "trivia", "openMic", "poetry", "game", "local"]);
-const modifierFilterKeys = new Set(["picks", "tonight", "allAges"]);
+const cartoMapStyleCache = new Map();
 
 const eventTypeLabels = {
-  comedy: "Comedy",
   coverBand: "Cover band",
-  book: "Book event",
-  chess: "Chess",
   dance: "Dance",
-  film: "Film",
-  game: "Games",
   jam: "Jam",
-  karaoke: "Karaoke",
-  openMic: "Open mic",
-  poetry: "Poetry",
-  storytelling: "Storytelling",
-  themeNight: "Theme night",
-  trivia: "Trivia"
-};
-
-const genericEventImages = {
-  karaoke: {
-    url: "https://images.unsplash.com/photo-1741594412133-ffd6530482ad?auto=format&fit=crop&w=960&q=72",
-    alt: "People singing karaoke together"
-  },
-  openMic: {
-    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
-    alt: "Microphone on a live stage"
-  },
-  jam: {
-    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
-    alt: "Microphone on a live stage"
-  },
-  coverBand: {
-    url: "https://images.unsplash.com/photo-1561264819-ec6538dc260e?auto=format&fit=crop&w=960&q=72",
-    alt: "Microphone on a live stage"
-  },
-  trivia: {
-    url: "https://images.unsplash.com/photo-1558210598-89ba75b1724e?auto=format&fit=crop&w=960&q=72",
-    alt: "People gathered in a pub"
-  },
-  game: {
-    url: "https://images.unsplash.com/photo-1558210598-89ba75b1724e?auto=format&fit=crop&w=960&q=72",
-    alt: "People gathered in a pub"
-  }
+  themeNight: "Theme night"
 };
 
 function todayString() {
@@ -162,31 +121,12 @@ function textForEvent(event) {
 }
 
 function matchesFilter(event) {
-  if (state.filter === "custom") return matchesCustomFilters(event);
-  if (state.filter === "all") return true;
-  return matchesNamedFilter(event, state.filter);
-}
-
-function matchesCustomFilters(event) {
-  const filters = state.customFilters.filter((filter) => customFilterKeys.has(filter));
-  if (!filters.length) return true;
-  const typeFilters = filters.filter((filter) => typeFilterKeys.has(filter));
-  const modifierFilters = filters.filter((filter) => modifierFilterKeys.has(filter));
-  const matchesType = !typeFilters.length || typeFilters.some((filter) => matchesNamedFilter(event, filter));
-  const matchesModifiers = modifierFilters.every((filter) => matchesNamedFilter(event, filter));
-  return matchesType && matchesModifiers;
+  return state.filters.every((filter) => matchesNamedFilter(event, filter));
 }
 
 function matchesNamedFilter(event, filter) {
   if (filter === "picks") return isMikesPick(event);
-  if (filter === "music") return isDefaultShow(event);
-  if (filter === "tonight") return event.date === todayString();
   if (filter === "allAges") return /\ba\/a\b|all ages/i.test(event.details);
-  if (filter === "karaoke") return hasEventType(event, "karaoke");
-  if (filter === "trivia") return hasEventType(event, "trivia");
-  if (filter === "openMic") return hasEventType(event, "openMic");
-  if (filter === "poetry") return hasEventType(event, "poetry");
-  if (filter === "game") return hasEventType(event, "game") || hasEventType(event, "chess");
   if (filter === "local") return isArtistShow(event) && event.artists.map(enrichArtist).some((artist) => /bay area|local|california/i.test(artist.locality));
   return true;
 }
@@ -218,13 +158,8 @@ function sourceNameForSource(source) {
   if (name && name.toLowerCase() !== "source") return name;
   const url = String(source?.url || "").toLowerCase();
   if (url.includes("kalx.berkeley.edu")) return "KALX";
-  if (url.includes("badslava.com")) return "BadSlava";
   if (url.includes("jon.luini.com") || url.includes("thelist")) return "The List";
   return name || "Source";
-}
-
-function hasEventType(event, type) {
-  return (event.eventTypes || []).includes(type);
 }
 
 function showTypeForEvent(event) {
@@ -236,20 +171,11 @@ function isArtistShow(event) {
   return showTypeForEvent(event) === "artist";
 }
 
-function isDefaultShow(event) {
-  const eventTypes = event.eventTypes || [];
-  const excludedNonMusicTypes = new Set(["book", "chess", "comedy", "film", "game", "karaoke", "openMic", "poetry", "storytelling", "themeNight", "trivia"]);
-  const allowedMusicTypes = new Set(["coverBand", "jam"]);
-  if (eventTypes.some((type) => excludedNonMusicTypes.has(type))) return false;
-  if (isArtistShow(event)) return true;
-  return eventTypes.some((type) => allowedMusicTypes.has(type));
-}
-
 function baseVisibleEvents() {
   const query = state.query.trim().toLowerCase();
   return events.filter((event) => {
     const queryMatch = !query || textForEvent(event).includes(query);
-    return queryMatch && matchesDateRange(event) && matchesFilter(event) && matchesSource(event);
+    return isArtistShow(event) && queryMatch && matchesDateRange(event) && matchesFilter(event) && matchesSource(event);
   });
 }
 
@@ -464,11 +390,11 @@ function renderEventListing(event) {
 
 function imageForEvent(event) {
   if (eventImageCache.has(event)) return eventImageCache.get(event);
-  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
   const venue = enrichVenue(event);
   const selectedImage = preferredImageUrl([
     { url: event.imageUrl, priority: 0 },
-    { url: isArtistShow(event) ? topArtist.imageUrl : "", priority: 1 },
+    { url: topArtist.imageUrl, priority: 1 },
     { url: venue.imageUrl, priority: 2 }
   ]);
   if (selectedImage) {
@@ -476,11 +402,6 @@ function imageForEvent(event) {
     return selectedImage;
   }
 
-  const genericImage = genericImageForEvent(event);
-  if (genericImage) {
-    eventImageCache.set(event, genericImage.url);
-    return genericImage.url;
-  }
   const palette = paletteForArtist(topArtist);
   const title = displayNameForArtist(topArtist) || event.venue || "Bay Area Show";
   const subtitleParts = [
@@ -521,17 +442,14 @@ function imageForEvent(event) {
 }
 
 function imageSourceForEvent(event) {
-  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
   const venue = enrichVenue(event);
   const image = preferredImageCandidate([
     { url: event.imageUrl, source: event.imageSource, priority: 0 },
-    { url: isArtistShow(event) ? topArtist.imageUrl : "", source: topArtist.imageSource, priority: 1 },
+    { url: topArtist.imageUrl, source: topArtist.imageSource, priority: 1 },
     { url: venue.imageUrl, source: venue.imageSource, priority: 2 }
   ]);
   if (image) return imageSourceLabel(image.source, image.url);
-
-  const genericImage = genericImageForEvent(event);
-  if (genericImage?.url) return imageSourceLabel(genericImage.source, genericImage.url);
 
   return "";
 }
@@ -573,13 +491,6 @@ function domainForUrl(url = "") {
   } catch {
     return "";
   }
-}
-
-function genericImageForEvent(event) {
-  if (isArtistShow(event)) return null;
-  const eventTypes = event.eventTypes || [];
-  const preferredType = eventTypes.find((type) => genericEventImages[type]);
-  return preferredType ? genericEventImages[preferredType] : null;
 }
 
 function wrapPosterText(text, maxLineLength, maxLines) {
@@ -629,7 +540,6 @@ function paletteForArtist(artist) {
   ].join(" ").toLowerCase();
   if (/metal|punk|hardcore|doom|goth|industrial/.test(text)) return ["#231f20", "#9a3324", "#f4c95d"];
   if (/jazz|soul|blues|funk|r&b/.test(text)) return ["#13293d", "#8f5a2a", "#e7c27d"];
-  if (/karaoke|trivia|open mic|comedy/.test(text)) return ["#385d87", "#168b83", "#f4d35e"];
   if (/electronic|dj|dance|house|techno|edm|club/.test(text)) return ["#102542", "#7b2cbf", "#00c2a8"];
   if (/folk|country|bluegrass|americana|singer/.test(text)) return ["#204b3a", "#a95d34", "#f0d58c"];
   if (/hip hop|rap|trap/.test(text)) return ["#151515", "#0f6b5f", "#f4a261"];
@@ -840,11 +750,10 @@ function createDateGroupHeader(dateText) {
 function createEventCard(event, options = {}) {
   const venue = enrichVenue(event);
   const node = eventTemplate.content.firstElementChild.cloneNode(true);
-  const topArtist = enrichArtist(isArtistShow(event) ? event.artists[0] : { name: event.venue });
-  const genericImage = genericImageForEvent(event);
+  const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
   const eventImage = node.querySelector(".event-image");
   eventImage.src = imageForEvent(event);
-  eventImage.alt = genericImage?.alt || `${displayNameForArtist(topArtist) || event.venue} event image`;
+  eventImage.alt = `${displayNameForArtist(topArtist) || event.venue} event image`;
   const imageSource = imageSourceForEvent(event);
   if (imageSource) {
     const credit = document.createElement("span");
@@ -884,13 +793,13 @@ function createEventCard(event, options = {}) {
 function updateFilterButtons() {
   filterButtons.forEach((button) => {
     const filter = button.dataset.filter;
-    const active = state.filter === "custom"
-      ? filter === "custom" || state.customFilters.includes(filter)
-      : filter === state.filter;
-    setPressed(button, active);
+    setPressed(button, state.filters.includes(filter));
   });
   sourceFilterButtons.forEach((button) => {
     setPressed(button, button.dataset.sourceFilter === state.source);
+  });
+  mapStyleButtons.forEach((button) => {
+    setPressed(button, button.dataset.mapStyle === state.mapStyle);
   });
 }
 
@@ -903,6 +812,11 @@ function setupVenueMapDisclosure() {
   if (!venueMap) return;
   venueMap.hidden = true;
   venueMap.removeAttribute("open");
+  venueMap.addEventListener("toggle", () => {
+    if (venueMap.open) return;
+    venueMapRequested = false;
+    venueMap.hidden = true;
+  });
 }
 
 function setupStickyListingTools() {
@@ -916,7 +830,6 @@ function setupStickyListingTools() {
     if (active) {
       if (now > keepFiltersOpenUntil) {
         searchCustomization?.removeAttribute("open");
-        advancedFilters?.removeAttribute("open");
       }
       if (mobileMapQuery.matches && now > keepMapOpenUntil) venueMap?.removeAttribute("open");
     }
@@ -924,7 +837,10 @@ function setupStickyListingTools() {
 
   const sync = () => {
     const listTop = eventList.getBoundingClientRect().top;
-    if (!isActive && listTop < window.innerHeight * 0.62) setActive(true);
+    const controlsRect = showControls?.getBoundingClientRect();
+    const controlsVisible = controlsRect && controlsRect.bottom > 0 && controlsRect.top < window.innerHeight;
+    if (controlsVisible) setActive(false);
+    else if (!isActive && listTop < window.innerHeight * 0.62) setActive(true);
     else if (isActive && listTop > window.innerHeight * 0.78) setActive(false);
   };
 
@@ -938,10 +854,8 @@ function jumpToFilters() {
   keepFiltersOpenUntil = Date.now() + 1600;
   returnToListingsButton.disabled = false;
   searchCustomization?.setAttribute("open", "");
-  advancedFilters?.setAttribute("open", "");
   showControls?.scrollIntoView({ behavior: "smooth", block: "start" });
   window.setTimeout(() => searchCustomization?.setAttribute("open", ""), 320);
-  window.setTimeout(() => advancedFilters?.setAttribute("open", ""), 320);
   window.setTimeout(() => searchInput?.focus({ preventScroll: true }), 260);
 }
 
@@ -972,88 +886,87 @@ function jumpToMap() {
 }
 
 function renderVenueMap(list) {
-  if (!venueMap || !venueMapSvg) return;
+  if (!venueMap) return;
   const renderToken = ++venueMapRenderToken;
   const venues = uniqueVenuesWithGeo(list);
   venueMap.hidden = !venueMapRequested || venues.length === 0;
   if (venueMapCount) venueMapCount.textContent = `${venues.length} mapped venue${venues.length === 1 ? "" : "s"}`;
   if (!venues.length) {
-    venueMapSvg.replaceChildren();
-    clearGoogleVenueMarkers();
+    if (venueMapCanvas) venueMapCanvas.hidden = true;
+    if (venueMapStatus) venueMapStatus.hidden = true;
+    clearMapLibreMarkers();
     return;
   }
 
-  const googleMapsApiKey = getGoogleMapsApiKey();
-  if (googleMapsApiKey && venueGoogleMap) {
-    venueMapSvg.hidden = true;
-    venueGoogleMap.hidden = false;
-    renderGoogleVenueMap(venues, googleMapsApiKey, renderToken);
+  if (venueMapCanvas && window.maplibregl?.Map) {
+    if (venueMapStatus) venueMapStatus.hidden = true;
+    venueMapCanvas.hidden = false;
+    renderMapLibreVenueMap(venues, renderToken);
     return;
   }
 
-  venueMapSvg.hidden = false;
-  if (venueGoogleMap) venueGoogleMap.hidden = true;
-  clearGoogleVenueMarkers();
-  renderSvgVenueMap(venues);
+  if (venueMapCanvas) venueMapCanvas.hidden = true;
+  clearMapLibreMarkers();
+  showVenueMapStatus("Street map unavailable. MapLibre did not load.");
 }
 
-function getGoogleMapsApiKey() {
-  const params = new URLSearchParams(window.location.search);
-  try {
-    return window.SHOW_EXPLORER_GOOGLE_MAPS_API_KEY
-      || window.localStorage?.getItem("SHOW_EXPLORER_GOOGLE_MAPS_API_KEY")
-      || params.get("googleMapsKey")
-      || "";
-  } catch {
-    return window.SHOW_EXPLORER_GOOGLE_MAPS_API_KEY || params.get("googleMapsKey") || "";
-  }
+function showVenueMapStatus(message) {
+  if (!venueMapStatus) return;
+  venueMapStatus.textContent = message;
+  venueMapStatus.hidden = false;
 }
 
-async function renderGoogleVenueMap(venues, apiKey, renderToken) {
-  try {
-    await loadGoogleMaps(apiKey);
-  } catch {
-    if (venueGoogleMap) venueGoogleMap.hidden = true;
-    venueMapSvg.hidden = false;
-    renderSvgVenueMap(venues);
-    return;
-  }
-  if (renderToken !== venueMapRenderToken || !venueGoogleMap || !window.google?.maps) return;
-
-  const { Map, LatLngBounds, InfoWindow, Marker } = window.google.maps;
-  await waitForMapLayout(venueGoogleMap);
+async function renderMapLibreVenueMap(venues, renderToken) {
+  await waitForMapLayout(venueMapCanvas);
   if (renderToken !== venueMapRenderToken) return;
 
-  if (!googleVenueMap) {
-    googleVenueMap = new Map(venueGoogleMap, {
-      center: { lat: 37.7749, lng: -122.4194 },
-      zoom: 10,
-      mapTypeControl: false,
-      streetViewControl: false,
-      fullscreenControl: true
+  if (!mapLibreMap) {
+    const style = await loadCartoMapStyle();
+    if (renderToken !== venueMapRenderToken) return;
+    if (!style) return;
+    try {
+      mapLibreMap = new maplibregl.Map({
+        container: venueMapCanvas,
+        style,
+        center: [-122.4194, 37.7749],
+        zoom: 10,
+        attributionControl: true
+      });
+    } catch (error) {
+      venueMapCanvas.hidden = true;
+      showVenueMapStatus(`Street map unavailable. ${mapLibreErrorMessage(error)}`);
+      return;
+    }
+    mapLibreMap.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
+    mapLibrePopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "260px" });
+    mapLibreMap.on("error", () => {
+      if (mapLibreMap.loaded()) return;
+      venueMapCanvas.hidden = true;
+      showVenueMapStatus("Street map tiles could not load.");
     });
-    googleVenueInfoWindow = new InfoWindow();
   }
 
-  clearGoogleVenueMarkers();
-  const bounds = new LatLngBounds();
+  mapLibreMap.resize();
+  clearMapLibreMarkers();
   venues.forEach((venue) => {
-    const position = { lat: venue.geo.latitude, lng: venue.geo.longitude };
-    bounds.extend(position);
-    const marker = new Marker({
-      map: googleVenueMap,
-      position,
-      title: displayNameForVenue(venue),
-      label: venue.showCount > 1 ? String(Math.min(venue.showCount, 9)) : undefined
+    const markerElement = document.createElement("button");
+    markerElement.className = "venue-map-marker";
+    markerElement.type = "button";
+    markerElement.textContent = venue.showCount > 1 ? String(Math.min(venue.showCount, 9)) : "";
+    markerElement.setAttribute("aria-label", `Show ${displayNameForVenue(venue)} details`);
+    markerElement.addEventListener("click", () => {
+      mapLibrePopup
+        .setLngLat([venue.geo.longitude, venue.geo.latitude])
+        .setHTML(venueMapPopupContent(venue))
+        .addTo(mapLibreMap);
     });
-    marker.addListener("click", () => {
-      googleVenueInfoWindow.setContent(googleVenueInfoContent(venue));
-      googleVenueInfoWindow.open({ anchor: marker, map: googleVenueMap });
-    });
-    googleVenueMarkers.push(marker);
+    const marker = new maplibregl.Marker({ element: markerElement, anchor: "center" })
+      .setLngLat([venue.geo.longitude, venue.geo.latitude])
+      .addTo(mapLibreMap);
+    mapLibreMarkers.push(marker);
   });
 
-  await fitGoogleVenueBounds(bounds, venues.length);
+  fitMapLibreVenueBounds(venues);
 }
 
 function waitForMapLayout(mapElement) {
@@ -1075,77 +988,90 @@ function waitForMapLayout(mapElement) {
   });
 }
 
-async function fitGoogleVenueBounds(bounds, venueCount) {
-  window.google.maps.event.trigger(googleVenueMap, "resize");
-  googleVenueMap.fitBounds(bounds, 24);
-  await new Promise((resolve) => window.google.maps.event.addListenerOnce(googleVenueMap, "idle", resolve));
-  googleVenueMap.fitBounds(bounds, 24);
-  setTimeout(() => {
-    window.google.maps.event.trigger(googleVenueMap, "resize");
-    googleVenueMap.fitBounds(bounds, 24);
-  }, 250);
-  if (venueCount === 1) {
-    googleVenueMap.setZoom(Math.min(googleVenueMap.getZoom() || 14, 14));
+function fitMapLibreVenueBounds(venues) {
+  if (!mapLibreMap || !venues.length) return;
+  if (venues.length === 1) {
+    mapLibreMap.jumpTo({
+      center: [venues[0].geo.longitude, venues[0].geo.latitude],
+      zoom: 13.5
+    });
+    return;
+  }
+  const bounds = venues.reduce((mapBounds, venue) => {
+    return mapBounds.extend([venue.geo.longitude, venue.geo.latitude]);
+  }, new maplibregl.LngLatBounds(
+    [venues[0].geo.longitude, venues[0].geo.latitude],
+    [venues[0].geo.longitude, venues[0].geo.latitude]
+  ));
+  mapLibreMap.fitBounds(bounds, { padding: 42, maxZoom: 14, duration: 0 });
+}
+
+function mapLibreErrorMessage(error) {
+  const message = String(error?.message || error || "").trim();
+  if (!message) return "Chrome could not initialize the map.";
+  try {
+    const parsed = JSON.parse(message);
+    return parsed.message || parsed.statusMessage || message;
+  } catch {
+    return message;
   }
 }
 
-function renderSvgVenueMap(venues) {
-  venueMapSvg.replaceChildren();
-  const bounds = boundsForVenues(venues);
-  venueMapSvg.append(mapBackground(bounds));
-  venues.forEach((venue) => {
-    const point = projectGeo(venue.geo, bounds);
-    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    circle.setAttribute("class", "venue-map-point");
-    circle.setAttribute("cx", point.x);
-    circle.setAttribute("cy", point.y);
-    circle.setAttribute("r", Math.max(5, Math.min(12, 4 + venue.showCount)));
-    circle.setAttribute("tabindex", "0");
-    circle.setAttribute("role", "button");
-    circle.setAttribute("aria-label", `Show ${displayNameForVenue(venue)} details`);
-    circle.dataset.venueId = venue.id;
-    const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-    title.textContent = `${displayNameForVenue(venue)} (${venue.showCount} show${venue.showCount === 1 ? "" : "s"})`;
-    circle.append(title);
-    venueMapSvg.append(circle);
-  });
+function cartoMapStyleUrl() {
+  return cartoMapStyles[state.mapStyle] || cartoMapStyles.light;
 }
 
-function loadGoogleMaps(apiKey) {
-  if (window.google?.maps) return Promise.resolve();
-  if (googleMapsPromise) return googleMapsPromise;
+async function loadCartoMapStyle() {
+  const styleKey = state.mapStyle;
+  if (cartoMapStyleCache.has(styleKey)) return cloneMapStyle(cartoMapStyleCache.get(styleKey));
 
-  googleMapsPromise = new Promise((resolve, reject) => {
-    const callbackName = `showExplorerGoogleMapsReady${Date.now()}`;
-    window[callbackName] = () => {
-      delete window[callbackName];
-      resolve();
-    };
-    const script = document.createElement("script");
-    const params = new URLSearchParams({
-      key: apiKey,
-      v: "weekly",
-      loading: "async",
-      callback: callbackName
-    });
-    script.src = `https://maps.googleapis.com/maps/api/js?${params.toString()}`;
-    script.async = true;
-    script.onerror = () => {
-      delete window[callbackName];
-      googleMapsPromise = undefined;
-      reject(new Error("Google Maps failed to load"));
-    };
-    document.head.append(script);
-  });
-  return googleMapsPromise;
+  try {
+    const response = await fetch(cartoMapStyleUrl());
+    if (!response.ok) throw new Error(`CARTO style request failed (${response.status})`);
+    const style = customizeCartoMapStyle(await response.json(), styleKey);
+    cartoMapStyleCache.set(styleKey, style);
+    return cloneMapStyle(style);
+  } catch (error) {
+    if (venueMapCanvas) venueMapCanvas.hidden = true;
+    clearMapLibreMarkers();
+    showVenueMapStatus(`Street map unavailable. ${mapLibreErrorMessage(error)}`);
+    return null;
+  }
 }
 
-function clearGoogleVenueMarkers() {
-  googleVenueMarkers.forEach((marker) => marker.setMap(null));
-  googleVenueMarkers = [];
+function cloneMapStyle(style) {
+  return JSON.parse(JSON.stringify(style));
 }
 
-function googleVenueInfoContent(venue) {
+function customizeCartoMapStyle(style, styleKey) {
+  if (styleKey === "detailed") return style;
+  return {
+    ...style,
+    layers: (style.layers || []).map((layer) => {
+      if (!shouldHideNaturalMapLayer(layer)) return layer;
+      return {
+        ...layer,
+        layout: {
+          ...(layer.layout || {}),
+          visibility: "none"
+        }
+      };
+    })
+  };
+}
+
+function shouldHideNaturalMapLayer(layer) {
+  const layerId = String(layer?.id || "");
+  return /^(landcover|park|wood|grass|cemetery|stadium|zoo|glacier)/i.test(layerId);
+}
+
+function clearMapLibreMarkers() {
+  mapLibreMarkers.forEach((marker) => marker.remove());
+  mapLibreMarkers = [];
+  mapLibrePopup?.remove();
+}
+
+function venueMapPopupContent(venue) {
   const title = escapeHtml(displayNameForVenue(venue));
   const meta = escapeHtml([venue.city, venue.region].filter(Boolean).join(" / "));
   const count = `${venue.showCount} show${venue.showCount === 1 ? "" : "s"}`;
@@ -1183,131 +1109,6 @@ function uniqueVenuesWithGeo(list) {
 
 function validGeo(geo) {
   return Number.isFinite(geo?.latitude) && Number.isFinite(geo?.longitude);
-}
-
-function boundsForVenues(venues) {
-  const lats = venues.map((venue) => venue.geo.latitude);
-  const lngs = venues.map((venue) => venue.geo.longitude);
-  const rawMinLat = Math.min(...lats);
-  const rawMaxLat = Math.max(...lats);
-  const rawMinLng = Math.min(...lngs);
-  const rawMaxLng = Math.max(...lngs);
-  const rawLatRange = rawMaxLat - rawMinLat;
-  const rawLngRange = rawMaxLng - rawMinLng;
-  const singlePoint = rawLatRange === 0 && rawLngRange === 0;
-  const latPad = singlePoint ? 0.01 : 0;
-  const lngPad = singlePoint ? 0.01 : 0;
-  return {
-    minLat: rawMinLat - latPad,
-    maxLat: rawMaxLat + latPad,
-    minLng: rawMinLng - lngPad,
-    maxLng: rawMaxLng + lngPad
-  };
-}
-
-function projectGeo(geo, bounds) {
-  const lngRange = bounds.maxLng - bounds.minLng || 1;
-  const latRange = bounds.maxLat - bounds.minLat || 1;
-  const x = venueMapPlot.left + ((geo.longitude - bounds.minLng) / lngRange) * (venueMapPlot.right - venueMapPlot.left);
-  const y = venueMapPlot.bottom - ((geo.latitude - bounds.minLat) / latRange) * (venueMapPlot.bottom - venueMapPlot.top);
-  return { x, y };
-}
-
-function mapBackground(bounds) {
-  const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
-  group.setAttribute("class", "venue-map-bg");
-  const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
-  const gradient = document.createElementNS("http://www.w3.org/2000/svg", "linearGradient");
-  gradient.setAttribute("id", "venue-map-terrain-gradient");
-  gradient.setAttribute("gradientUnits", "userSpaceOnUse");
-  gradient.setAttribute("x1", "282");
-  gradient.setAttribute("y1", "620");
-  gradient.setAttribute("x2", "718");
-  gradient.setAttribute("y2", "0");
-  [
-    ["0%", "var(--map-gradient-start)"],
-    ["100%", "var(--map-gradient-end)"]
-  ].forEach(([offset, color]) => {
-    const stop = document.createElementNS("http://www.w3.org/2000/svg", "stop");
-    stop.setAttribute("offset", offset);
-    stop.setAttribute("stop-color", color);
-    gradient.append(stop);
-  });
-  defs.append(gradient);
-  group.append(defs);
-
-  const gradientRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-  gradientRect.setAttribute("class", "venue-map-gradient");
-  gradientRect.setAttribute("x", "0");
-  gradientRect.setAttribute("y", "0");
-  gradientRect.setAttribute("width", "1000");
-  gradientRect.setAttribute("height", "620");
-  group.append(gradientRect);
-
-  const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
-  rect.setAttribute("class", "venue-map-tint");
-  rect.setAttribute("x", "0");
-  rect.setAttribute("y", "0");
-  rect.setAttribute("width", "1000");
-  rect.setAttribute("height", "620");
-  group.append(rect);
-
-  latitudeTicks(bounds).forEach((lat) => {
-    const point = projectGeo({ latitude: lat, longitude: bounds.minLng }, bounds);
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    line.setAttribute("class", "venue-map-grid venue-map-latitude");
-    line.setAttribute("x1", venueMapPlot.left);
-    line.setAttribute("x2", venueMapPlot.right);
-    line.setAttribute("y1", point.y);
-    line.setAttribute("y2", point.y);
-    group.append(line);
-
-    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    label.setAttribute("class", "venue-map-coordinate");
-    label.setAttribute("x", "62");
-    label.setAttribute("y", point.y - 7);
-    label.textContent = `${lat.toFixed(2)}°N`;
-    group.append(label);
-  });
-
-  longitudeTicks(bounds).forEach((lng) => {
-    const point = projectGeo({ latitude: bounds.minLat, longitude: lng }, bounds);
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    line.setAttribute("class", "venue-map-grid venue-map-longitude");
-    line.setAttribute("x1", point.x);
-    line.setAttribute("x2", point.x);
-    line.setAttribute("y1", venueMapPlot.top);
-    line.setAttribute("y2", venueMapPlot.bottom);
-    group.append(line);
-
-    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
-    label.setAttribute("class", "venue-map-coordinate");
-    label.setAttribute("x", point.x + 7);
-    label.setAttribute("y", venueMapPlot.bottom - 14);
-    label.textContent = `${Math.abs(lng).toFixed(2)}°W`;
-    group.append(label);
-  });
-
-  return group;
-}
-
-function latitudeTicks(bounds) {
-  return coordinateTicks(bounds.minLat, bounds.maxLat, 0.25);
-}
-
-function longitudeTicks(bounds) {
-  return coordinateTicks(bounds.minLng, bounds.maxLng, 0.25);
-}
-
-function coordinateTicks(min, max, step) {
-  const ticks = [Number(min.toFixed(4))];
-  const start = Math.ceil(min / step) * step;
-  for (let value = start; value <= max; value += step) {
-    const tick = Number(value.toFixed(2));
-    if (tick > min && tick < max) ticks.push(tick);
-  }
-  ticks.push(Number(max.toFixed(4)));
-  return ticks;
 }
 
 function displayNameForVenue(venue) {
@@ -1348,19 +1149,6 @@ function closeVenueModal() {
   else venueModal.removeAttribute("open");
 }
 
-venueMapSvg?.addEventListener("click", (event) => {
-  const point = event.target.closest?.(".venue-map-point");
-  if (point?.dataset.venueId) openVenueModal(point.dataset.venueId);
-});
-
-venueMapSvg?.addEventListener("keydown", (event) => {
-  if (event.key !== "Enter" && event.key !== " ") return;
-  const point = event.target.closest?.(".venue-map-point");
-  if (!point?.dataset.venueId) return;
-  event.preventDefault();
-  openVenueModal(point.dataset.venueId);
-});
-
 venueModalClose?.addEventListener("click", closeVenueModal);
 venueModal?.addEventListener("click", (event) => {
   if (event.target === venueModal) closeVenueModal();
@@ -1391,20 +1179,17 @@ toDateInput.addEventListener("input", (event) => {
 
 venueFilterInput.addEventListener("change", (event) => {
   state.venue = event.target.value;
-  activateCustomForControlChange();
   render();
 });
 
 cityFilterInput.addEventListener("change", (event) => {
   state.city = event.target.value;
-  activateCustomForControlChange();
   render();
 });
 
 sortInput.value = state.sort;
 sortInput.addEventListener("change", (event) => {
   state.sort = event.target.value;
-  activateCustomForControlChange();
   render();
 });
 
@@ -1416,50 +1201,35 @@ filterButtons.forEach((button) => {
 });
 
 function applyFilterSelection(filter) {
-  if (filter === "all") {
-    state.filter = filter;
-    state.customFilters = [];
-    return;
-  }
-
-  if (filter === "custom") {
-    const previousFilter = state.filter;
-    state.filter = "custom";
-    if (!state.customFilters.length && customFilterKeys.has(previousFilter)) {
-      state.customFilters = [previousFilter];
-    }
-    return;
-  }
-
-  if (state.filter !== "custom") {
-    state.filter = filter;
-    state.customFilters = [];
-    return;
-  }
-
-  if (!customFilterKeys.has(filter)) return;
-  if (state.customFilters.includes(filter)) {
-    state.customFilters = state.customFilters.filter((item) => item !== filter);
+  if (!filterKeys.has(filter)) return;
+  if (state.filters.includes(filter)) {
+    state.filters = state.filters.filter((item) => item !== filter);
   } else {
-    state.customFilters = [...state.customFilters, filter];
+    state.filters = [...state.filters, filter];
   }
-}
-
-function activateCustomForControlChange() {
-  if (state.filter === "custom") {
-    if (!state.customFilters.length) state.customFilters = ["music"];
-    return;
-  }
-  const previousFilter = state.filter;
-  state.filter = "custom";
-  state.customFilters = customFilterKeys.has(previousFilter) ? [previousFilter] : ["music"];
 }
 
 sourceFilterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.source = button.dataset.sourceFilter;
-    activateCustomForControlChange();
     render();
+  });
+});
+
+mapStyleButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const nextStyle = button.dataset.mapStyle;
+    if (!cartoMapStyles[nextStyle] || state.mapStyle === nextStyle) return;
+    state.mapStyle = nextStyle;
+    updateFilterButtons();
+    if (!mapLibreMap) return;
+    loadCartoMapStyle().then((style) => {
+      if (!style || !mapLibreMap) return;
+      mapLibreMap.setStyle(style);
+      if (venueMapCanvas) venueMapCanvas.hidden = false;
+      if (venueMapStatus) venueMapStatus.hidden = true;
+      window.setTimeout(() => fitMapLibreVenueBounds(uniqueVenuesWithGeo(baseVisibleEvents())), 120);
+    });
   });
 });
 

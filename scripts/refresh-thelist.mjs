@@ -6,8 +6,8 @@ const ROOT = fileURLToPath(new URL("../", import.meta.url));
 const steps = [
   ["Import The List", "scripts/import-thelist.mjs", ...process.argv.slice(2)],
   ["Import KALX", "scripts/import-kalx.mjs", ...process.argv.slice(2)],
-  ["Import BadSlava trivia", "scripts/import-badslava.mjs", ...process.argv.slice(2)],
   ["Classify event metadata", "scripts/classify-event-metadata.mjs"],
+  ["Prune out-of-scope event listings", "scripts/prune-nonmusic-events.mjs"],
   ["Rebuild artist store", "scripts/build-artist-store.mjs"],
   ["Rebuild public artist store", "scripts/build-public-artist-store.mjs"],
   ["Rebuild venue store", "scripts/build-venue-store.mjs"]

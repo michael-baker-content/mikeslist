@@ -207,21 +207,43 @@ await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringi
 console.log(`Built ${Object.keys(payload.artists).length} artist records at ${ARTISTS_PATH.pathname}`);
 
 function staleExistingArtists(existingArtists, currentArtists) {
-  return Object.fromEntries(Object.entries(existingArtists).map(([id, artist]) => {
-    if (currentArtists[id]) return [id, artist];
-    if (isExtractedArtistRecord(artist)) return [id, artist];
-    return [id, {
+  return Object.fromEntries(Object.entries(existingArtists).flatMap(([id, artist]) => {
+    if (currentArtists[id]) return [[id, artist]];
+    if (isUntouchedGeneratedArtist(artist)) return [];
+    if (isExtractedArtistRecord(artist)) return [[id, artist]];
+    return [[id, {
       ...artist,
       source: {
         ...(artist.source || {}),
         appearances: []
       }
-    }];
+    }]];
   }));
 }
 
 function isExtractedArtistRecord(artist) {
   return /^Extracted from event-style artist listing\b/.test(artist.reviewNotes || "");
+}
+
+function isUntouchedGeneratedArtist(artist) {
+  if (artist.manuallyReviewed || artist.manuallyReviewedAt) return false;
+  if (!["", "review", "research", "likely"].includes(artist.confidence || "")) return false;
+  if (artist.displayName || artist.imageUrl || artist.imageSource || artist.summary || artist.disambiguation) return false;
+  if ((artist.aliases || []).length || (artist.evidence || []).length) return false;
+  if ((artist.genres || artist.tags || []).some((genre) => genre && genre !== "unknown")) return false;
+  if ((artist.links || []).some((link) => !isBoilerplateSearchLink(link))) return false;
+  return isBoilerplateReviewNote(artist.reviewNotes || artist.note || "");
+}
+
+function isBoilerplateSearchLink(link) {
+  return ["", "search"].includes(link.type || "") && ["", "research", "candidate"].includes(link.confidence || "");
+}
+
+function isBoilerplateReviewNote(note = "") {
+  const value = note.trim();
+  return !value
+    || /^Imported from\b/i.test(value)
+    || /^Enrichment has not been reviewed yet\./i.test(value);
 }
 
 function showTypeForEvent(event) {

@@ -132,11 +132,12 @@ function artistText(artist) {
 function visibleArtists() {
   const query = state.query.trim().toLowerCase();
   return artists().filter((artist) => {
-    const filterMatch = state.filter === "all" || artist.confidence === state.filter;
     const queryMatch = !query || artistText(artist).includes(query);
     const appearances = scopedAppearancesForArtist(artist);
+    const currentAppearances = currentAppearancesForArtist(artist);
+    const filterMatch = matchesArtistFilter(artist, appearances);
     const dateMatch = state.appearanceScope === "all"
-      ? true
+      ? currentAppearances.length > 0 || hasMaintainedArtistData(artist)
       : state.appearanceScope === "past-only"
         ? hasOnlyPastAppearances(artist)
         : !state.fromDate && !state.toDate ? true : appearances.length > 0;
@@ -145,11 +146,29 @@ function visibleArtists() {
   }).sort(compareArtistsForQueue);
 }
 
+function matchesArtistFilter(artist, appearances) {
+  if (state.filter === "all") return true;
+  if (state.filter === "mikesPick") return appearances.some((appearance) => eventForAppearance(appearance)?.mikesPick);
+  return artist.confidence === state.filter;
+}
+
 function scopedAppearancesForArtist(artist) {
-  const appearances = artist.source?.appearances || [];
+  const appearances = currentAppearancesForArtist(artist);
   if (state.appearanceScope === "all") return sortedAppearances(appearances);
   if (state.appearanceScope === "past-only") return sortedAppearances(appearances.filter((appearance) => isPastAppearance(appearance)));
   return appearancesInRange(appearances);
+}
+
+function currentAppearancesForArtist(artist) {
+  return (artist.source?.appearances || []).filter((appearance) => appearanceStillListsArtist(artist, appearance));
+}
+
+function appearanceStillListsArtist(artist, appearance) {
+  const event = eventForAppearance(appearance);
+  if (!event || showTypeForEvent(event) !== "artist") return false;
+  return (event.artists || []).some((eventArtist) => {
+    return sameArtistName(eventArtist.name, artist) || sameArtistName(eventArtist.displayName, artist);
+  });
 }
 
 function appearancesInRange(appearances) {
@@ -165,12 +184,20 @@ function sortedAppearances(appearances) {
 }
 
 function hasOnlyPastAppearances(artist) {
-  const datedAppearances = (artist.source?.appearances || []).filter((appearance) => appearance.date);
+  const datedAppearances = currentAppearancesForArtist(artist).filter((appearance) => appearance.date);
   return datedAppearances.length > 0 && datedAppearances.every((appearance) => isPastAppearance(appearance));
 }
 
 function isPastAppearance(appearance) {
   return appearance.date && appearance.date < todayString();
+}
+
+function hasMaintainedArtistData(artist) {
+  if (artist.manuallyReviewed || artist.manuallyReviewedAt) return true;
+  if (artist.displayName || artist.imageUrl || artist.imageSource || artist.summary || artist.disambiguation) return true;
+  if ((artist.aliases || []).length || (artist.evidence || []).length) return true;
+  if ((artist.links || []).some((link) => link.type !== "search" || link.confidence === "verified")) return true;
+  return false;
 }
 
 function preferredFilter() {
@@ -184,19 +211,33 @@ function compareArtistsForQueue(a, b) {
   if (state.sort === "venue") {
     return primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
       || nextDateForArtist(a).localeCompare(nextDateForArtist(b))
-      || a.name.localeCompare(b.name);
+      || compareArtistNames(a, b);
   }
   if (state.sort === "date") {
     return nextDateForArtist(a).localeCompare(nextDateForArtist(b))
       || primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
-      || a.name.localeCompare(b.name);
+      || compareArtistNames(a, b);
   }
   if (state.sort === "status") {
     return confidenceSortRank(a.confidence) - confidenceSortRank(b.confidence)
       || primaryVenueForArtist(a).localeCompare(primaryVenueForArtist(b))
-      || a.name.localeCompare(b.name);
+      || compareArtistNames(a, b);
   }
-  return a.name.localeCompare(b.name);
+  return compareArtistNames(a, b);
+}
+
+function compareArtistNames(a, b) {
+  return artistSortName(a).localeCompare(artistSortName(b), undefined, { sensitivity: "base" })
+    || artistDisplayName(a).localeCompare(artistDisplayName(b), undefined, { sensitivity: "base" })
+    || (a.name || "").localeCompare(b.name || "", undefined, { sensitivity: "base" });
+}
+
+function artistSortName(artist) {
+  return artistDisplayName(artist).replace(/^(?:a|an|the)\s+/i, "").trim();
+}
+
+function artistDisplayName(artist) {
+  return artist.displayName || artist.name || "";
 }
 
 function primaryVenueForArtist(artist) {
@@ -423,15 +464,28 @@ function createAppearanceRow(artist, show) {
     if (nextType === "event") {
       event.title ||= event.displayName || artist.displayName || artist.name;
       event.artists = [];
+      removeAppearanceFromArtist(artist, show);
+      await persist();
     } else if (!(event.artists || []).length) {
       event.artists = [artistPlaceholderFromReview(artist)];
     }
     await persistEvents();
+    syncArtistSelection();
   });
 
   controls.append(type, displayName, save);
   item.append(controls);
   return item;
+}
+
+function removeAppearanceFromArtist(artist, show) {
+  if (!artist.source?.appearances?.length) return;
+  artist.source.appearances = artist.source.appearances.filter((appearance) => {
+    if (show.eventId && appearance.eventId) return appearance.eventId !== show.eventId;
+    return appearance.date !== show.date
+      || appearance.venue !== show.venue
+      || (appearance.details || "") !== (show.details || "");
+  });
 }
 
 function eventForAppearance(show) {
@@ -625,10 +679,11 @@ function renderQueue() {
     button.dataset.artistId = artist.id;
 
     const name = document.createElement("strong");
-    name.textContent = artist.name;
+    name.textContent = artistDisplayName(artist);
     const meta = document.createElement("span");
     const count = scopedAppearancesForArtist(artist).length;
-    meta.textContent = `${artist.confidence || "review"} / ${count} ${appearanceScopeLabel()}`;
+    const recordName = normalizeName(artist.name) !== normalizeName(artistDisplayName(artist)) ? artist.name : "";
+    meta.textContent = [recordName, artist.confidence || "review", `${count} ${appearanceScopeLabel()}`].filter(Boolean).join(" / ");
 
     button.append(name, meta);
     button.addEventListener("click", () => selectArtist(artist.id));

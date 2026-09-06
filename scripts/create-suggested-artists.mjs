@@ -57,7 +57,6 @@ function sourceTagForArtist(artist) {
   if (linkSource) return linkSource;
   const sourceUrl = artist.source?.appearances?.find((appearance) => appearance.sourceUrl)?.sourceUrl || "";
   if (sourceUrl.includes("kalx.berkeley.edu")) return "kalx";
-  if (sourceUrl.includes("badslava.com")) return "badslava";
   if (sourceUrl.includes("jon.luini.com")) return "the-list";
   return "suggestion";
 }
