@@ -52,6 +52,8 @@ $env:SPOTIFY_CLIENT_SECRET="your-spotify-client-secret"
 
 The Spotify lookup uses server-side credentials, so the client secret is never shipped to the public browser code. The public artist bundle includes only the display-safe Spotify link and fallback image fields.
 
+See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-limit handling, and suggested next refinements.
+
 ## Common Tasks
 
 Refresh imported listings:

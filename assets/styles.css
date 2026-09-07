@@ -1116,6 +1116,38 @@ body.listing-tools-active .advanced-filters:not([open]) {
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
 }
 
+.image-record-label {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  max-width: calc(100% - 16px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: rgba(5, 5, 7, 0.62);
+  color: rgba(255, 253, 250, 0.9);
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1.1;
+  opacity: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: translateY(3px);
+  transition: opacity 160ms ease, transform 160ms ease;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.event-image-wrap:hover .image-record-label,
+.event:focus-within .image-record-label {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.event-image-wrap:has(.image-source-credit) .image-record-label {
+  bottom: 30px;
+}
+
 .pick-badge {
   position: absolute;
   left: 10px;
@@ -1419,6 +1451,32 @@ body.listing-tools-active .advanced-filters:not([open]) {
 #artistForm .spotify-match-actions .chip {
   flex: 0 0 auto;
   min-height: 38px;
+}
+
+#artistForm .spotify-error-details {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+#artistForm .spotify-error-details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 850;
+}
+
+#artistForm .spotify-error-details pre {
+  max-height: 180px;
+  margin: 8px 0 0;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  padding: 10px;
+  background: var(--field);
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  white-space: pre-wrap;
 }
 
 .spotify-embed {

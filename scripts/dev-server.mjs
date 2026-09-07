@@ -19,6 +19,10 @@ const sessions = new Map();
 let saveQueue = Promise.resolve();
 let envFileCache;
 let spotifyTokenCache = null;
+let spotifyCooldownUntil = 0;
+// Intentionally per-process; see docs/spotify-enrichment-notes.md before making this persistent.
+const spotifySearchCache = new Map();
+const spotifyArtistCache = new Map();
 const protectedPages = new Set([
   "/admin.html",
   "/review.html",
@@ -214,6 +218,7 @@ async function envValue(name) {
 }
 
 async function spotifyAccessToken() {
+  assertSpotifyCooldown();
   if (spotifyTokenCache?.token && spotifyTokenCache.expiresAt > Date.now() + 60_000) {
     return spotifyTokenCache.token;
   }
@@ -221,20 +226,37 @@ async function spotifyAccessToken() {
   const clientId = await envValue("SPOTIFY_CLIENT_ID");
   const clientSecret = await envValue("SPOTIFY_CLIENT_SECRET");
   if (!clientId || !clientSecret) {
-    throw new Error("Spotify credentials are not configured");
+    const error = new Error("Spotify credentials are not configured");
+    error.status = 503;
+    error.source = ".env";
+    throw error;
   }
 
-  const response = await fetch("https://accounts.spotify.com/api/token", {
-    method: "POST",
-    headers: {
-      Authorization: `Basic ${Buffer.from(`${clientId}:${clientSecret}`).toString("base64")}`,
-      "Content-Type": "application/x-www-form-urlencoded"
-    },
-    body: new URLSearchParams({ grant_type: "client_credentials" })
-  });
+  let response;
+  try {
+    response = await fetch("https://accounts.spotify.com/api/token", {
+      method: "POST",
+      headers: {
+        Authorization: `Basic ${Buffer.from(`${clientId}:${clientSecret}`).toString("base64")}`,
+        "Content-Type": "application/x-www-form-urlencoded"
+      },
+      body: new URLSearchParams({ grant_type: "client_credentials" })
+    });
+  } catch (error) {
+    error.status = 502;
+    error.source = "spotify-token";
+    noteSpotifyCooldown(error);
+    throw error;
+  }
   const payload = await response.json().catch(() => ({}));
   if (!response.ok) {
-    throw new Error(payload.error_description || payload.error || `Spotify token request failed: ${response.status}`);
+    const error = new Error(spotifyErrorMessage(payload, `Spotify token request failed: ${response.status}`));
+    error.status = response.status;
+    error.spotifyReason = spotifyErrorReason(payload);
+    error.retryAfter = response.headers.get("retry-after") || "";
+    error.source = "spotify-token";
+    noteSpotifyCooldown(error);
+    throw error;
   }
 
   spotifyTokenCache = {
@@ -245,32 +267,55 @@ async function spotifyAccessToken() {
 }
 
 async function searchSpotifyArtist(name) {
+  const key = spotifySearchKey(name);
+  if (spotifySearchCache.has(key)) return spotifySearchCache.get(key);
   const token = await spotifyAccessToken();
   const params = new URLSearchParams({
     q: name,
     type: "artist",
     limit: "1"
   });
-  const response = await fetch(`https://api.spotify.com/v1/search?${params}`, {
+  const payload = await spotifyFetchJson(`https://api.spotify.com/v1/search?${params}`, {
     headers: { Authorization: `Bearer ${token}` }
-  });
-  const payload = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(payload.error?.message || `Spotify search failed: ${response.status}`);
-  }
-  return payload.artists?.items?.[0] || null;
+  }, "spotify-search");
+  const artist = payload.artists?.items?.[0] || null;
+  spotifySearchCache.set(key, artist);
+  return artist;
 }
 
 async function getSpotifyArtist(id) {
+  const key = String(id || "").trim();
+  if (spotifyArtistCache.has(key)) return spotifyArtistCache.get(key);
   const token = await spotifyAccessToken();
-  const response = await fetch(`https://api.spotify.com/v1/artists/${encodeURIComponent(id)}`, {
+  const artist = await spotifyFetchJson(`https://api.spotify.com/v1/artists/${encodeURIComponent(id)}`, {
     headers: { Authorization: `Bearer ${token}` }
-  });
-  const payload = await response.json().catch(() => ({}));
-  if (!response.ok) {
-    throw new Error(payload.error?.message || `Spotify artist lookup failed: ${response.status}`);
+  }, "spotify-artist");
+  spotifyArtistCache.set(key, artist);
+  return artist;
+}
+
+async function spotifyFetchJson(url, options, source) {
+  assertSpotifyCooldown();
+  let response;
+  try {
+    response = await fetch(url, options);
+  } catch (error) {
+    error.status = 502;
+    error.source = source;
+    noteSpotifyCooldown(error);
+    throw error;
   }
-  return payload;
+
+  const payload = await response.json().catch(() => ({}));
+  if (response.ok) return payload;
+
+  const error = new Error(spotifyErrorMessage(payload, `Spotify request failed: ${response.status}`));
+  error.status = response.status;
+  error.spotifyReason = spotifyErrorReason(payload);
+  error.retryAfter = response.headers.get("retry-after") || "";
+  error.source = source;
+  noteSpotifyCooldown(error);
+  throw error;
 }
 
 function spotifyArtistIdFromUrl(url = "") {
@@ -281,6 +326,60 @@ function spotifyArtistIdFromUrl(url = "") {
   } catch {
     return "";
   }
+}
+
+function spotifySearchKey(name = "") {
+  return String(name || "").trim().toLowerCase();
+}
+
+function spotifyErrorMessage(payload, fallback) {
+  return payload.error_description
+    || payload.error?.message
+    || (typeof payload.error === "string" ? payload.error : "")
+    || fallback;
+}
+
+function spotifyErrorReason(payload) {
+  return payload.error?.reason || payload.reason || "";
+}
+
+function spotifyErrorPayload(error) {
+  const status = Number(error.status || 502);
+  const reason = error.spotifyReason || "";
+  const retryAfter = error.retryAfter || "";
+  const prefix = status === 429
+    ? reason === "QUOTA_EXCEEDED" ? "Spotify quota exceeded" : "Spotify rate limit"
+    : status === 401 || status === 403 ? "Spotify credentials rejected"
+    : status >= 500 ? "Spotify service error"
+    : "Spotify lookup failed";
+  return {
+    ok: false,
+    error: retryAfter ? `${prefix}. Try again in ${retryAfter}s.` : `${prefix}.`,
+    details: {
+      status,
+      message: error.message || String(error),
+      reason,
+      retryAfter,
+      source: error.source || "local"
+    }
+  };
+}
+
+function assertSpotifyCooldown() {
+  const remainingSeconds = Math.ceil((spotifyCooldownUntil - Date.now()) / 1000);
+  if (remainingSeconds <= 0) return;
+  const error = new Error(`Spotify lookup is cooling down for ${remainingSeconds}s`);
+  error.status = 429;
+  error.retryAfter = String(remainingSeconds);
+  error.source = "local-cooldown";
+  throw error;
+}
+
+function noteSpotifyCooldown(error) {
+  const status = Number(error.status || 0);
+  if (status !== 429 && status < 500) return;
+  const seconds = Number(error.retryAfter || 0) || (status === 429 ? 60 : 15);
+  spotifyCooldownUntil = Math.max(spotifyCooldownUntil, Date.now() + seconds * 1000);
 }
 
 function spotifyLinkForArtist(artist) {
@@ -509,24 +608,29 @@ async function handleEnrichSpotifyArtist(request, response) {
     return;
   }
 
-  const existingSpotifyLink = spotifyLinkForArtist(artist);
-  const existingSpotifyArtistId = spotifyArtistIdFromUrl(existingSpotifyLink?.url || "");
-  const candidate = existingSpotifyArtistId
-    ? await getSpotifyArtist(existingSpotifyArtistId)
-    : await searchSpotifyArtist(payload.name);
-  const match = spotifyCandidatePayload(candidate);
-  if (!match?.url) {
-    send(response, 404, JSON.stringify({ ok: false, error: "No Spotify artist result found" }), "application/json; charset=utf-8");
-    return;
+  try {
+    const existingSpotifyLink = spotifyLinkForArtist(artist);
+    const existingSpotifyArtistId = spotifyArtistIdFromUrl(existingSpotifyLink?.url || "");
+    const candidate = existingSpotifyArtistId
+      ? await getSpotifyArtist(existingSpotifyArtistId)
+      : await searchSpotifyArtist(payload.name);
+    const match = spotifyCandidatePayload(candidate);
+    if (!match?.url) {
+      send(response, 404, JSON.stringify({ ok: false, error: "No Spotify artist result found" }), "application/json; charset=utf-8");
+      return;
+    }
+
+    applySpotifyMatch(artist, match, existingSpotifyArtistId ? "manual-link" : "spotify-api");
+    store.generatedAt = new Date().toISOString();
+
+    await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(store, null, 2)};\n`, "utf8");
+    await runScript("scripts/build-public-artist-store.mjs");
+
+    send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
+  } catch (error) {
+    const payload = spotifyErrorPayload(error);
+    send(response, payload.details.status, JSON.stringify(payload), "application/json; charset=utf-8");
   }
-
-  applySpotifyMatch(artist, match, existingSpotifyArtistId ? "manual-link" : "spotify-api");
-  store.generatedAt = new Date().toISOString();
-
-  await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(store, null, 2)};\n`, "utf8");
-  await runScript("scripts/build-public-artist-store.mjs");
-
-  send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
 }
 
 async function handleEnrichVenue(request, response) {

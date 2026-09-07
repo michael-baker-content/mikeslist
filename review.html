@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <title>Artist Review - Mike's List</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
@@ -61,8 +62,8 @@
           <button class="chip active" type="button" data-review-filter="review">Needs review</button>
           <button class="chip" type="button" data-review-filter="likely">Likely</button>
           <button class="chip" type="button" data-review-filter="verified">Verified</button>
-          <button class="chip" type="button" data-review-filter="mikesPick">Mike's Picks</button>
           <button class="chip" type="button" data-review-filter="all">All</button>
+          <button class="chip" type="button" data-pick-filter="mikesPick" aria-pressed="false">Mike's Picks</button>
         </div>
 
         <details class="advanced-filters">
@@ -185,6 +186,10 @@
                 </label>
                 <button id="spotifyLookupButton" class="chip" type="button">Find Spotify</button>
               </div>
+              <details id="spotifyErrorDetails" class="spotify-error-details" hidden>
+                <summary>Spotify error details</summary>
+                <pre id="spotifyErrorText"></pre>
+              </details>
             </section>
 
             <label>

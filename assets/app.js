@@ -389,17 +389,22 @@ function renderEventListing(event) {
 }
 
 function imageForEvent(event) {
-  if (eventImageCache.has(event)) return eventImageCache.get(event);
+  if (eventImageCache.has(event)) return eventImageCache.get(event).url;
+  const image = imageSelectionForEvent(event);
+  eventImageCache.set(event, image);
+  return image.url;
+}
+
+function imageSelectionForEvent(event) {
   const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
   const venue = enrichVenue(event);
-  const selectedImage = preferredImageUrl([
-    { url: event.imageUrl, priority: 0 },
-    { url: topArtist.imageUrl, priority: 1 },
-    { url: topArtist.spotifyImageUrl, priority: 2 },
-    { url: venue.imageUrl, priority: 3 }
+  const selectedImage = preferredImageCandidate([
+    { url: event.imageUrl, priority: 0, kind: "show", label: "" },
+    { url: topArtist.imageUrl, priority: 1, kind: "artist", label: displayNameForArtist(topArtist) },
+    { url: topArtist.spotifyImageUrl, priority: 2, kind: "artist", label: displayNameForArtist(topArtist) },
+    { url: venue.imageUrl, priority: 3, kind: "venue", label: displayNameForVenue(venue) || event.venue }
   ]);
   if (selectedImage) {
-    eventImageCache.set(event, selectedImage);
     return selectedImage;
   }
 
@@ -438,8 +443,7 @@ function imageForEvent(event) {
       <text x="388" y="320" text-anchor="middle" fill="#fffdfa" opacity=".28" font-family="Inter, Arial, sans-serif" font-size="90" font-weight="900">${initials}</text>
     </svg>`;
   const image = `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
-  eventImageCache.set(event, image);
-  return image;
+  return { url: image, kind: "generated", label: "" };
 }
 
 function imageSourceForEvent(event) {
@@ -754,8 +758,16 @@ function createEventCard(event, options = {}) {
   const node = eventTemplate.content.firstElementChild.cloneNode(true);
   const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
   const eventImage = node.querySelector(".event-image");
-  eventImage.src = imageForEvent(event);
+  const imageSelection = imageSelectionForEvent(event);
+  eventImageCache.set(event, imageSelection);
+  eventImage.src = imageSelection.url;
   eventImage.alt = `${displayNameForArtist(topArtist) || event.venue} event image`;
+  if (["artist", "venue"].includes(imageSelection.kind) && imageSelection.label) {
+    const label = document.createElement("span");
+    label.className = "image-record-label";
+    label.textContent = imageSelection.label;
+    node.querySelector(".event-image-wrap").append(label);
+  }
   const imageSource = imageSourceForEvent(event);
   if (imageSource) {
     const credit = document.createElement("span");

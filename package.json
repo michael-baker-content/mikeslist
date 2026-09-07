@@ -17,9 +17,14 @@
     "normalize:events": "node scripts/normalize-event-store.mjs",
     "dedupe:events": "node scripts/normalize-event-store.mjs --merge-duplicates",
     "build:public-artists": "node scripts/build-public-artist-store.mjs",
-    "prune:past": "node scripts/prune-past-unreviewed.mjs"
+    "prune:past": "node scripts/prune-past-unreviewed.mjs",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
   },
   "dependencies": {
     "maplibre-gl": "^5.12.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
   }
 }

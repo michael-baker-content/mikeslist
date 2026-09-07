@@ -7,6 +7,8 @@ const events = newerEvents(savedEvents, baseEvents);
 const recentEventIds = new Set(JSON.parse(localStorage.getItem(RECENT_STORE_KEY) || "[]"));
 let duplicateGroups = [];
 let duplicateEventIds = new Set();
+let serverSaveQueue = Promise.resolve();
+let latestSaveRequestId = 0;
 
 const state = {
   query: "",
@@ -107,6 +109,18 @@ function eventTitle(event) {
     || cleanJoinedText((event.artists || []).map(artistDisplayName).join(", "))
     || cleanJoinedText(event.details)
     || "Untitled event";
+}
+
+function reviewTitle(event) {
+  const artistNames = cleanJoinedText((event.artists || []).map(artistDisplayName).join(", "));
+  if (isArtistShow(event)) return cleanJoinedText(event.displayName) || artistNames || cleanJoinedText(event.title) || cleanJoinedText(event.details) || "Untitled event";
+  return eventTitle(event);
+}
+
+function reviewArtistLine(event) {
+  if (!isArtistShow(event)) return "";
+  const artistNames = cleanJoinedText((event.artists || []).map(artistDisplayName).join(", "));
+  return normalizeText(artistNames) === normalizeText(reviewTitle(event)) ? "" : artistNames;
 }
 
 function artistDisplayName(artist) {
@@ -246,6 +260,7 @@ function renderQueue() {
     empty.className = "empty-state";
     empty.textContent = "No shows match these filters.";
     queue.append(empty);
+    renderQueueSaveStatus();
     renderForm();
     return;
   }
@@ -256,9 +271,9 @@ function renderQueue() {
     button.type = "button";
 
     const name = document.createElement("strong");
-    name.textContent = eventTitle(event);
+    name.textContent = reviewTitle(event);
     const meta = document.createElement("span");
-    meta.textContent = [event.date, event.venue, eventStatus(event), (event.eventTypes || []).join(", ")].filter(Boolean).join(" | ");
+    meta.textContent = [event.date, event.venue, eventStatus(event), reviewArtistLine(event), (event.eventTypes || []).join(", ")].filter(Boolean).join(" | ");
 
     button.append(name, meta);
     button.addEventListener("click", () => {
@@ -269,6 +284,15 @@ function renderQueue() {
   });
 
   renderForm();
+}
+
+function renderQueueSaveStatus() {
+  const message = fields.saveStatus?.textContent?.trim();
+  if (!message) return;
+  const status = document.createElement("p");
+  status.className = "save-status";
+  status.textContent = message;
+  queue.append(status);
 }
 
 function selectedEvent() {
@@ -284,7 +308,7 @@ function renderForm() {
   }
 
   const status = eventStatus(event);
-  fields.selectedName.textContent = eventTitle(event);
+  fields.selectedName.textContent = reviewTitle(event);
   fields.selectedStatus.textContent = status;
   fields.selectedStatus.className = `confidence ${needsMetadata(event) ? "review" : isArtistShow(event) ? "likely" : "verified"}`;
   fields.date.value = event.date || "";
@@ -742,8 +766,13 @@ async function mergeSelectedEvent() {
   const sourceIndex = events.findIndex((event) => event.id === source.id);
   if (sourceIndex >= 0) events.splice(sourceIndex, 1);
   state.selectedId = target.id;
-  await saveEvents({ skipFormUpdate: true });
-  fields.saveStatus.textContent = `Merged duplicate show into ${eventTitle(target)}`;
+  fields.saveStatus.textContent = `Merged duplicate show into ${eventTitle(target)}. Saving...`;
+  refreshReviewUi();
+  const result = await saveEvents({ skipFormUpdate: true });
+  fields.saveStatus.textContent = result.ok
+    ? `Merged duplicate show into ${eventTitle(target)} and saved to file.`
+    : `Merged duplicate show into ${eventTitle(target)} in browser only. File save failed: ${result.error}`;
+  refreshReviewUi();
 }
 
 async function deleteSelectedEvent() {
@@ -762,8 +791,13 @@ async function deleteSelectedEvent() {
   const nextVisibleIndex = visibleIndex >= 0 ? Math.min(visibleIndex, visibleAfterDelete.length - 1) : 0;
   const next = visibleAfterDelete[nextVisibleIndex] || events[Math.min(index, Math.max(events.length - 1, 0))] || events[0] || null;
   state.selectedId = next?.id || "";
-  await saveEvents({ skipFormUpdate: true });
-  fields.saveStatus.textContent = "Deleted show record";
+  fields.saveStatus.textContent = "Deleted show record. Saving...";
+  refreshReviewUi();
+  const result = await saveEvents({ skipFormUpdate: true });
+  fields.saveStatus.textContent = result.ok
+    ? "Deleted show record and saved to file."
+    : `Deleted show record in browser only. File save failed: ${result.error}`;
+  refreshReviewUi();
 }
 
 async function deleteOrphanVenueShows() {
@@ -784,8 +818,13 @@ async function deleteOrphanVenueShows() {
   if (orphanIds.has(state.selectedId)) {
     state.selectedId = visibleEvents()[0]?.id || events[0]?.id || "";
   }
-  await saveEvents({ skipFormUpdate: true });
-  fields.saveStatus.textContent = `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues`;
+  fields.saveStatus.textContent = `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues. Saving...`;
+  refreshReviewUi();
+  const result = await saveEvents({ skipFormUpdate: true });
+  fields.saveStatus.textContent = result.ok
+    ? `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues and saved to file.`
+    : `Deleted ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without venues in browser only. File save failed: ${result.error}`;
+  refreshReviewUi();
 }
 
 function markRecentlyChanged(...ids) {
@@ -793,7 +832,11 @@ function markRecentlyChanged(...ids) {
   const trimmed = [...recentEventIds].slice(-250);
   recentEventIds.clear();
   trimmed.forEach((id) => recentEventIds.add(id));
-  localStorage.setItem(RECENT_STORE_KEY, JSON.stringify(trimmed));
+  try {
+    localStorage.setItem(RECENT_STORE_KEY, JSON.stringify(trimmed));
+  } catch {
+    // Recent-change markers are helpful UI state, but should never block saving real edits.
+  }
 }
 
 function mergeEventData(target, source) {
@@ -924,8 +967,18 @@ function uniqueByNormalizedText(value, index, list) {
   return key && list.findIndex((item) => normalizeText(item) === key) === index;
 }
 
-function persistDraft() {
-  localStorage.setItem(STORE_KEY, JSON.stringify(events));
+function persistDraft(payload = JSON.stringify(events)) {
+  try {
+    localStorage.setItem(STORE_KEY, payload);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function refreshReviewUi() {
+  render();
+  window.setTimeout(render, 0);
 }
 
 async function saveEvents(options = {}) {
@@ -933,24 +986,64 @@ async function saveEvents(options = {}) {
     const event = updateSelectedEventFromForm();
     if (event?.id) markRecentlyChanged(event.id);
   }
-  persistDraft();
-  fields.saveStatus.textContent = "Saved in browser";
+  const payload = JSON.stringify(events);
+  const payloadCount = events.length;
+  const draftSaved = persistDraft(payload);
+  fields.saveStatus.textContent = draftSaved
+    ? "Saved in browser"
+    : "Saving to file. Browser backup is full.";
+  refreshReviewUi();
 
+  const requestId = ++latestSaveRequestId;
+  serverSaveQueue = serverSaveQueue.catch(() => null).then(() => saveEventsToServer(payload, payloadCount, requestId));
+  return serverSaveQueue;
+}
+
+async function saveEventsToServer(payload, payloadCount, requestId) {
   try {
     const response = await fetch("/api/events", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(events)
+      body: payload
     });
-    if (!response.ok) throw new Error(`Save failed: ${response.status}`);
+    if (!response.ok) throw new Error(await saveErrorMessage(response));
     const result = await response.json();
+    if (requestId !== latestSaveRequestId) return { ok: false, stale: true, error: "A newer save was started." };
+    if (result.count !== payloadCount) throw new Error("Saved show count did not match the current browser copy.");
+    await verifySavedEvents(payload);
     fields.saveStatus.textContent = `Saved ${result.count} shows at ${new Date(result.savedAt).toLocaleTimeString()}`;
     localStorage.removeItem(STORE_KEY);
-  } catch {
-    fields.saveStatus.textContent = "Saved in browser only";
+    refreshReviewUi();
+    return { ok: true, result };
+  } catch (error) {
+    if (requestId !== latestSaveRequestId) return { ok: false, stale: true, error: "A newer save was started." };
+    persistDraft(payload);
+    const message = error?.message || "Unknown error";
+    fields.saveStatus.textContent = `Saved in browser only. File save failed: ${message}`;
+    refreshReviewUi();
+    return { ok: false, error: message };
   }
+}
 
-  render();
+async function saveErrorMessage(response) {
+  const text = await response.text().catch(() => "");
+  return text ? `Save failed: ${response.status} ${text}` : `Save failed: ${response.status}`;
+}
+
+async function verifySavedEvents(payload) {
+  const expected = JSON.parse(payload);
+  const response = await fetch(`/data/imported-events.js?verify=${Date.now()}`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`Could not verify saved show file: ${response.status}`);
+  const saved = parseEventStore(await response.text());
+  const expectedIds = expected.map((event) => event.id).join("\n");
+  const savedIds = saved.map((event) => event.id).join("\n");
+  if (expectedIds !== savedIds) throw new Error("Saved show file did not match the current browser copy.");
+}
+
+function parseEventStore(text) {
+  const match = text.match(/window\.SHOW_EXPLORER_EVENTS\s*=\s*([\s\S]*);\s*$/);
+  if (!match) throw new Error("Saved show file could not be read.");
+  return JSON.parse(match[1]);
 }
 
 function exportEvents() {

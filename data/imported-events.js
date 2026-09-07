@@ -1,10504 +1,5 @@
 window.SHOW_EXPLORER_EVENTS = [
   {
-    "id": "2026-09-02-ashkenaz-stu-allen-and-mars-hotel",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ashkenaz",
-    "venue": "Ashkenaz",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Stu Allen & Mars Hotel",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Stu Allen & Mars Hotel",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Stu%20Allen%20%26%20Mars%20Hotel%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-biscuits-and-blues-gamperdrums-funkjazz",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "biscuits-and-blues",
-    "venue": "Biscuits and Blues",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "GamperDrums FunkJazz",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "GamperDrums FunkJazz",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22GamperDrums%20FunkJazz%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-black-cat-victor-little",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "black-cat",
-    "venue": "Black Cat",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Victor Little",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Victor Little",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Victor%20Little%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-bottom-of-the-hill-jeff-rosenstock",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bottom-of-the-hill",
-    "venue": "Bottom of the Hill",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
-    "city": "",
-    "details": "a/a $30 7pm/7:45pm / Asian Man Records 30 Anniversary: Jeff Rosenstock, Bruce Lee Band, Teens In Trouble, Kitty Kat Fan Club (sold out)",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jeff Rosenstock",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jeff%20Rosenstock%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Bruce Lee Band",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bruce%20Lee%20Band%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Teens In Trouble",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Teens%20In%20Trouble%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Kitty Kat Fan Club",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kitty%20Kat%20Fan%20Club%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-02-bric-a-brac-fowl-figures",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bric-a-brac",
-    "venue": "Bric-A-Brac",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bric-a-brac",
-    "city": "",
-    "details": "a/a $10 7:30pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Fowl Figures",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fowl%20Figures%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Shitomato",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Shitomato%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Peopling",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Peopling%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Wax Cloud",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Wax%20Cloud%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Stallions",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Stallions%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-cafe-du-nord-zoh-amba-poor-image",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "cafe-du-nord",
-    "venue": "Cafe Du Nord",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Zoh Amba, Poor Image",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Zoh Amba",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Zoh%20Amba%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Poor Image",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Poor%20Image%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-castro-theater-lp",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "castro-theater",
-    "venue": "Castro Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "LP / a/a $64.75 7pm/8pm #",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "LP",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22LP%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-02-el-rio-los-train-wreck-s-all-star-jam",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "el-rio",
-    "venue": "El Rio",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Los Train Wreck's All Star Jam",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "jam"
-    ],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Los Train Wreck's All Star Jam",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Los%20Train%20Wreck's%20All%20Star%20Jam%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-ivy-room-durango-dogs-eclipsing-eden-peaceful-dudes-elegant-trash-scott-quay-syd-and-i-mc-patty",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ivy-room",
-    "venue": "Ivy Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Durango Dogs, Eclipsing Eden, Peaceful Dudes, Elegant Trash, Scott Quay, Syd & I, MC Patty",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Durango Dogs",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Durango%20Dogs%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Eclipsing Eden",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eclipsing%20Eden%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Peaceful Dudes",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Peaceful%20Dudes%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Elegant Trash",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Elegant%20Trash%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Scott Quay",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Scott%20Quay%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Syd & I",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Syd%20%26%20I%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "MC Patty",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22MC%20Patty%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-02-jupiter-jazzschool-jam-wednesdays",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "event",
-    "venueId": "jupiter",
-    "venue": "Jupiter",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Jazzschool Jam Wednesdays",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "jam"
-    ],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-02-keys-jazz-bistro-dahveed-behroozi-trio",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "keys-jazz-bistro",
-    "venue": "Keys Jazz Bistro",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Dahveed Behroozi Trio",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Dahveed Behroozi Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dahveed%20Behroozi%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-kilowatt-burn-journal-maya-bennett-dan-lupo",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "kilowatt",
-    "venue": "Kilowatt",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Burn Journal, Maya Bennett, Dan Lupo",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Burn Journal",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Burn%20Journal%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Maya Bennett",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Maya%20Bennett%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Dan Lupo",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dan%20Lupo%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-knockout-the-losers",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "knockout",
-    "venue": "Knockout",
-    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
-    "city": "",
-    "details": "21+ $10 7pm/8pm @ / The Losers, The Circulators, Mr. Radical, Eliminators",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Losers",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Losers%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Circulators",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Circulators%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Mr. Radical",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mr.%20Radical%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Eliminators",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eliminators%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-02-mabuhay-gardens-cat-s-corner",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mabuhay-gardens",
-    "venue": "Mabuhay Gardens",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Cat’s Corner",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Cat's Corner",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cat's%20Corner%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-02-mountain-winery-roger-daltrey",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mountain-winery",
-    "venue": "Mountain Winery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
-    "city": "",
-    "details": "a/a 5:30pm/7:30pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Roger Daltrey",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Roger%20Daltrey%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-02-mr-tipples-kai-lyons-trio",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mr-tipples",
-    "venue": "Mr. Tipples",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Kai Lyons Trio",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Kai Lyons Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kai%20Lyons%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-regency-ballroom-noname",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "regency-ballroom",
-    "venue": "Regency Ballroom",
-    "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
-    "city": "",
-    "details": "a/a 7pm/8pm # / Noname",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Noname",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Noname%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-02-spats-spectre-record-release",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "spats",
-    "venue": "Spats",
-    "venueHref": "https://jon.luini.com/thelist/club.html#spats",
-    "city": "",
-    "details": "a/a $10 8pm/9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Spectre",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Spectre%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Derapage",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Derapage%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Niteshades",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Niteshades%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-02-swedish-american-hall-lenka-brian-dublin",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "swedish-american-hall",
-    "venue": "Swedish American Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Lenka, Brian Dublin",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Lenka",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Lenka%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Brian Dublin",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Brian%20Dublin%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-the-deluxe-gaucho",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-deluxe",
-    "venue": "The DeLuxe",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Gaucho!",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Gaucho!",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Gaucho!%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-the-marsh-cabaret-randy-craig-and-friends",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-marsh-cabaret",
-    "venue": "The Marsh Cabaret",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Randy Craig And Friends",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Randy Craig And Friends",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Randy%20Craig%20And%20Friends%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-02-thee-stork-club-twisted-teens",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "thee-stork-club",
-    "venue": "thee Stork Club",
-    "venueHref": "https://jon.luini.com/thelist/club.html#thee_stork_club",
-    "city": "",
-    "details": "21+ $17/$18 8pm (sold out) / Twisted Teens, Forty Drop Few",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Twisted Teens",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Twisted%20Teens%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Forty Drop Few",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Forty%20Drop%20Few%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-02-warriors-stadium-zayn",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "warriors-stadium",
-    "venue": "Warriors Stadium",
-    "venueHref": "https://jon.luini.com/thelist/club.html#warriors_stadium",
-    "city": "",
-    "details": "a/a 8pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Zayn",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Zayn%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-02-yoshi-s-avery-wilson",
-    "date": "2026-09-02",
-    "title": "",
-    "showType": "artist",
-    "venueId": "yoshi-s",
-    "venue": "Yoshi's",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Avery Wilson",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Avery Wilson",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Avery%20Wilson%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-4-star-theater-ray-barbee-and-thomas-campbell",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "4-star-theater",
-    "venue": "4 Star Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Ray Barbee and Thomas Campbell",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Ray Barbee and Thomas Campbell",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ray%20Barbee%20and%20Thomas%20Campbell%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-03-ashkenaz-bachata-nightz-featuring-dj-ron",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "event",
-    "venueId": "ashkenaz",
-    "venue": "Ashkenaz",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Bachata Nightz, featuring DJ Ron",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-03-black-cat-daniel-harris-iii",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "black-cat",
-    "venue": "Black Cat",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Daniel Harris III",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Daniel Harris III",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Daniel%20Harris%20III%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-bottom-of-the-hill-ajj",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bottom-of-the-hill",
-    "venue": "Bottom of the Hill",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
-    "city": "",
-    "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: AJJ, MU330, Small Crush, Pacing (sold out)",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "AJJ",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22AJJ%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "MU330",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22MU330%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Small Crush",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Small%20Crush%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Pacing",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pacing%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-cornerstone-tab-benoit",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "cornerstone",
-    "venue": "Cornerstone",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Tab Benoit",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tab Benoit",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tab%20Benoit%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-gilman-western-addiction",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "gilman",
-    "venue": "Gilman",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
-    "city": "",
-    "details": "a/a $12/$15 8pm/8:30pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Western Addiction",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Western%20Addiction%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Sterile Eyes",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sterile%20Eyes%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Calaveras",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Calaveras%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Cava",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cava%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-ivy-room-alien-boy",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ivy-room",
-    "venue": "Ivy Room",
-    "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
-    "city": "",
-    "details": "21+ 7pm/7:30pm / Alien Boy, Bory, Rotten Charms",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Alien Boy",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Alien%20Boy%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Bory",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bory%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Rotten Charms",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Rotten%20Charms%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-keys-jazz-bistro-jules-broussard",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "keys-jazz-bistro",
-    "venue": "Keys Jazz Bistro",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Jules Broussard",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jules Broussard",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jules%20Broussard%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-kilowatt-d-rapage-the-boars-beatnik-noobs",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "kilowatt",
-    "venue": "Kilowatt",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Dérapage, The Boars, Beatnik Noobs / 21+",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Dérapage",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22D%C3%A9rapage%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "The Boars",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Boars%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Beatnik Noobs",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Beatnik%20Noobs%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-knockout-dum1",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "knockout",
-    "venue": "Knockout",
-    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
-    "city": "",
-    "details": "21+ $10 8pm / Dum1, Otoliths, Nanocar",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Dum1",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dum1%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Otoliths",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Otoliths%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Nanocar",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Nanocar%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-mountain-winery-tajmo",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mountain-winery",
-    "venue": "Mountain Winery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
-    "city": "",
-    "details": "a/a 5:30pm/7:30pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tajmo",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tajmo%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-03-public-works-function-500-w-jaag-and-broke-leg",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "public-works",
-    "venue": "Public Works",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Function 500 W/ Jaag & Broke Leg",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Function 500",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Function%20500%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Jaag & Broke Leg",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jaag%20%26%20Broke%20Leg%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-redwood-grove-fantastic-negrito",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "redwood-grove",
-    "venue": "Redwood Grove",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Fantastic Negrito",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Fantastic Negrito",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fantastic%20Negrito%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-regency-ballroom-hayla",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "regency-ballroom",
-    "venue": "Regency Ballroom",
-    "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
-    "city": "",
-    "details": "18+ 7pm/8pm # / Hayla, Ella Rosa",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Hayla",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Hayla%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Ella Rosa",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ella%20Rosa%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-temescal-arts-center-missed-connections",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "event",
-    "venueId": "temescal-arts-center",
-    "venue": "Temescal Arts Center",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Missed Connections",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-03-the-back-room-daniela-soledade-and-nate-najar",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-back-room",
-    "venue": "The Back Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Daniela Soledade and Nate Najar",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Daniela Soledade and Nate Najar",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Daniela%20Soledade%20and%20Nate%20Najar%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-the-chapel-pink-breath-of-heaven-chime-school-r-image",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "chapel",
-    "venue": "The Chapel",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Pink Breath of Heaven, Chime School, r.image / a/a $22/$26 7pm/8pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Pink Breath of Heaven",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pink%20Breath%20of%20Heaven%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pink%20Breath%20Of%20Heaven%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Chime School",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Chime%20School%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "r.image",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22r.image%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22R.Image%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-03-the-deluxe-jesse-levit",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-deluxe",
-    "venue": "The DeLuxe",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Jesse Levit",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jesse Levit",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jesse%20Levit%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-the-freight-linda-tillery-and-the-east-bay-allstars",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-freight",
-    "venue": "The Freight",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Linda Tillery & The East Bay Allstars",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Linda Tillery & The East Bay Allstars",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Linda%20Tillery%20%26%20The%20East%20Bay%20Allstars%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-the-sound-room-john-brothers-piano-company",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-sound-room",
-    "venue": "The Sound Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "John Brothers Piano Company",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "John Brothers Piano Company",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22John%20Brothers%20Piano%20Company%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-the-starry-plough-free-funk-glory-jams",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "event",
-    "venueId": "starry-plough",
-    "venue": "The Starry Plough",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Free Funk Glory Jams",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-03-thee-stork-club-jotegr-dia-w-djs-finishher-dj-croptop-boyprincess",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "thee-stork-club",
-    "venue": "Thee Stork Club",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Jotegrídia w/ DJs Finishher, DJ Croptop, Boyprincess,",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jotegrídia",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jotegr%C3%ADdia%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Finishher",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Finishher%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Croptop",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Croptop%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Boyprincess",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Boyprincess%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-03-yoshi-s-sheena-easton",
-    "date": "2026-09-03",
-    "title": "",
-    "showType": "artist",
-    "venueId": "yoshi-s",
-    "venue": "Yoshi's",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Sheena Easton",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Sheena Easton",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sheena%20Easton%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-4-star-theater-dr-cliff-kapono",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "4-star-theater",
-    "venue": "4 Star Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Dr. Cliff Kapono",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Dr. Cliff Kapono",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dr.%20Cliff%20Kapono%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-ashkenaz-aux-cajunals",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ashkenaz",
-    "venue": "Ashkenaz",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Aux Cajunals",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Aux Cajunals",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Aux%20Cajunals%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-biscuits-and-blues-big-daddy-cade-s-tribute-to-b-b-king",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "biscuits-and-blues",
-    "venue": "Biscuits and Blues",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Big Daddy Cade's Tribute to B.B. King",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "coverBand"
-    ],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Big Daddy Cade",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Big%20Daddy%20Cade%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-black-cat-max-haymer-power-trio",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "black-cat",
-    "venue": "Black Cat",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Max Haymer Power Trio",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Max Haymer Power Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Max%20Haymer%20Power%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-bottom-of-the-hill-joyce-manor",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bottom-of-the-hill",
-    "venue": "Bottom of the Hill",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
-    "city": "",
-    "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: Joyce Manor, Slow Gherkin, Grumpster, Friendship Games (sold out)",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [
-      "game"
-    ],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Joyce Manor",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Joyce%20Manor%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Slow Gherkin",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Slow%20Gherkin%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Grumpster",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Grumpster%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Friendship Games",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Friendship%20Games%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-brick-and-mortar-music-hall-connor-morrison-honey-disposition-ben-thuesen-libba",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "brick-and-mortar-music-hall",
-    "venue": "Brick & Mortar Music Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Connor Morrison",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Connor%20Morrison%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Honey Disposition",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Honey%20Disposition%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Ben Thuesen",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ben%20Thuesen%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Libba",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Libba%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-cafe-du-nord-chxrry",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "cafe-du-nord",
-    "venue": "Cafe Du Nord",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Chxrry",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Chxrry",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Chxrry%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-chapel-sister-nancy-and-the-steady-rock-band",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "chapel",
-    "venue": "Chapel",
-    "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
-    "city": "",
-    "details": "a/a $58.14 8pm/9pm / Sister Nancy & The Steady Rock Band",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Sister Nancy & The Steady Rock Band",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sister%20Nancy%20%26%20The%20Steady%20Rock%20Band%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-eli-s-mile-high-club-punk-band-karaoke",
-    "date": "2026-09-04",
-    "title": "Punk Band Karaoke",
-    "showType": "event",
-    "venueId": "eli-s-mile-high-club",
-    "venue": "Eli's Mile High Club",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Punk Band Karaoke",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "karaoke"
-    ],
-    "themes": [
-      "punk"
-    ],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-everyday-skateshop-kwiknconvenient",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "everyday-skateshop",
-    "venue": "Everyday Skateshop",
-    "venueHref": "https://jon.luini.com/thelist/club.html#everyday_skateshop",
-    "city": "",
-    "details": "a/a 6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Kwiknconvenient",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kwiknconvenient%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Even In The Spring",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Even%20In%20The%20Spring%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Id And The Egos",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Id%20And%20The%20Egos%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Pinnacle Of Chrysalis",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pinnacle%20Of%20Chrysalis%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-gilman-punk-yoga",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "event",
-    "venueId": "gilman",
-    "venue": "Gilman",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
-    "city": "",
-    "details": "a/a $5-$10 noon til 1:15pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [
-      "punk"
-    ],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-great-american-music-hall-gothicumbia",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "great-american-music-hall",
-    "venue": "Great American Music Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Gothicumbia",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Gothicumbia",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Gothicumbia%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-gundlach-bundschu-winery-stephen-malkmus",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "gundlach-bundschu-winery",
-    "venue": "Gundlach Bundschu Winery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gundlach_bundschu_winery",
-    "city": "",
-    "details": "a/a $86.85 ($17+ parking) 5pm/6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Stephen Malkmus",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Stephen%20Malkmus%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-hotel-utah-bo-ak-the-blue-wings",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "hotel-utah",
-    "venue": "Hotel Utah",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "BO-AK, The Blue Wings",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "BO-AK",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22BO-AK%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "The Blue Wings",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Blue%20Wings%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-hub-darkness-everywhere",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "hub",
-    "venue": "Hub",
-    "venueHref": "https://jon.luini.com/thelist/club.html#hub",
-    "city": "",
-    "details": "21+ $10 8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Darkness Everywhere",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Darkness%20Everywhere%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Barbarous Activities",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Barbarous%20Activities%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-independent-tonic-walter",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "independent",
-    "venue": "Independent",
-    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
-    "city": "",
-    "details": "18+ $31.55 8:30pm/9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tonic Walter",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tonic%20Walter%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-ivy-room-brigata-vendetta",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ivy-room",
-    "venue": "Ivy Room",
-    "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
-    "city": "",
-    "details": "21+ $15/$20 7pm/8pm @ / Brigata Vendetta, OBCT, Raw Force, Blood Compact, Direct Generation",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Brigata Vendetta",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Brigata%20Vendetta%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "OBCT",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22OBCT%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Raw Force",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Raw%20Force%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Blood Compact",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Blood%20Compact%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Direct Generation",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Direct%20Generation%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-jupiter-east-bay-brass-band",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "jupiter",
-    "venue": "Jupiter",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "East Bay Brass Band",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "East Bay Brass Band",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22East%20Bay%20Brass%20Band%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-keys-jazz-bistro-jazz-mafia-cannonball-show",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "keys-jazz-bistro",
-    "venue": "Keys Jazz Bistro",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Jazz Mafia: Cannonball Show",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [
-      "jazz"
-    ],
-    "artists": [
-      {
-        "name": "Jazz Mafia: Cannonball Show",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jazz%20Mafia%3A%20Cannonball%20Show%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-kilowatt-chalk-teeth-nail-polish-voxtail-dj-starr-noir",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "kilowatt",
-    "venue": "Kilowatt",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Chalk Teeth, Nail Polish, Voxtail, DJ Starr Noir",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Chalk Teeth",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Chalk%20Teeth%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Nail Polish",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Nail%20Polish%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Voxtail",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Voxtail%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Starr Noir",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Starr%20Noir%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-luther-burbank-center-roger-daltrey",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "luther-burbank-center",
-    "venue": "Luther Burbank Center",
-    "venueHref": "https://jon.luini.com/thelist/club.html#luther_burbank_center",
-    "city": "",
-    "details": "a/a 7:30pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Roger Daltrey",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Roger%20Daltrey%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-mr-tipples-daniel-herrera-s-verve-quintet-the-muse-jazz-collective",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mr-tipples",
-    "venue": "Mr. Tipples",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Daniel Herrera’s Verve Quintet, The Muse Jazz Collective",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [
-      "jazz"
-    ],
-    "artists": [
-      {
-        "name": "Daniel Herrera’s Verve Quintet",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Daniel%20Herrera%E2%80%99s%20Verve%20Quintet%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "The Muse Jazz Collective",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Muse%20Jazz%20Collective%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-neck-of-the-woods-ashes-at-last",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "neck-of-the-woods",
-    "venue": "Neck of the Woods",
-    "venueHref": "https://jon.luini.com/thelist/club.html#neck_of_the_woods",
-    "city": "",
-    "details": "a/a $15/$20 7pm @ / Ashes At Last, I Kidnapped The Princess, A Thousand Pardons, Sovereign Suicide",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Ashes At Last",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ashes%20At%20Last%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "I Kidnapped The Princess",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22I%20Kidnapped%20The%20Princess%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "A Thousand Pardons",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22A%20Thousand%20Pardons%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Sovereign Suicide",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sovereign%20Suicide%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-pavilion-styx",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "pavilion",
-    "venue": "Pavilion",
-    "venueHref": "https://jon.luini.com/thelist/club.html#pavilion",
-    "city": "",
-    "details": "a/a $54+ 7pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Styx",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Styx%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Chicago",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Chicago%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-phoenix-theater-jeshie",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "phoenix-theater",
-    "venue": "Phoenix Theater",
-    "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
-    "city": "",
-    "details": "a/a $15.49 7:30pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jeshie",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jeshie%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Colin & Gio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Colin%20%26%20Gio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Firstman",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Firstman%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-public-works-entra-a",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "public-works",
-    "venue": "Public Works",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Entraña",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Entraña",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Entra%C3%B1a%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-regency-ballroom-nitzer-ebb",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "regency-ballroom",
-    "venue": "Regency Ballroom",
-    "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
-    "city": "",
-    "details": "a/a 7pm/8pm # / Nitzer Ebb, Lead Into Gold",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Nitzer Ebb",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Nitzer%20Ebb%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Lead Into Gold",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Lead%20Into%20Gold%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-rickshaw-stop-alan-vuong-elias-last-known-species",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "rickshaw-stop",
-    "venue": "Rickshaw Stop",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Alan Vuong, Elias, Last Known Species / a/a 8pm/8pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Alan Vuong",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Alan%20Vuong%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Elias",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Elias%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Last Known Species",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Last%20Known%20Species%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-ritz-devildriver",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ritz",
-    "venue": "Ritz",
-    "venueHref": "https://jon.luini.com/thelist/club.html#ritz",
-    "city": "",
-    "details": "a/a $40/$45 6pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Devildriver",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Devildriver%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Upon A Burning Body",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Upon%20A%20Burning%20Body%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Ov Sulfur",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ov%20Sulfur%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Cultus Black",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cultus%20Black%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-spats-velvet-grave",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "spats",
-    "venue": "Spats",
-    "venueHref": "https://jon.luini.com/thelist/club.html#spats",
-    "city": "",
-    "details": "a/a $15 7pm/8pm / Velvet Grave, Rosewood, Side Eye",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Velvet Grave",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Velvet%20Grave%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Rosewood",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Rosewood%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Side Eye",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Side%20Eye%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-stay-gold-deli-throat-rip",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "stay-gold-deli",
-    "venue": "Stay Gold Deli",
-    "venueHref": "https://jon.luini.com/thelist/club.html#stay_gold_deli",
-    "city": "",
-    "details": "a/a $10 8:30pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Throat Rip",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Throat%20Rip%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Se Vende",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Se%20Vende%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Arvspex",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Arvspex%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Mugslug",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mugslug%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-sweetwater-music-hall-the-edge",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "sweetwater-music-hall",
-    "venue": "Sweetwater Music Hall",
-    "venueHref": "https://jon.luini.com/thelist/club.html#sweetwater_music_hall",
-    "city": "",
-    "details": "a/a 7pm/8pm / The Edge featuring Jimmy Dillon & Lorin Rowan",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Edge",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Edge%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Jimmy Dillon & Lorin Rowan",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jimmy%20Dillon%20%26%20Lorin%20Rowan%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-04-tequila-mockingbird-syndika-zero",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "tequila-mockingbird",
-    "venue": "Tequila Mockingbird",
-    "venueHref": "https://jon.luini.com/thelist/club.html#tequila_mockingbird",
-    "city": "",
-    "details": "21+ free 5pm/6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Syndika:Zero",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Syndika%3AZero%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Lust 4 Blood",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Lust%204%20Blood%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Moth Morgue Circle Of Ruin",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Moth%20Morgue%20Circle%20Of%20Ruin%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Devoured Soul",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Devoured%20Soul%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "dj Goblyn",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22dj%20Goblyn%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-the-back-room-vincent-ding",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-back-room",
-    "venue": "The Back Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Vincent Ding",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Vincent Ding",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Vincent%20Ding%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-the-deluxe-aki-kumar",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-deluxe",
-    "venue": "The DeLuxe",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Aki Kumar",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Aki Kumar",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Aki%20Kumar%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-the-freight-bettye-lavette-accompanied-by-etienne-stadwijk-on-keyboards",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-freight",
-    "venue": "The Freight",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Bettye LaVette accompanied by Etienne Stadwijk on keyboards",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Bettye LaVette",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bettye%20LaVette%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Etienne Stadwijk",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Etienne%20Stadwijk%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-the-independent-tonic-walter-tvli",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-independent",
-    "venue": "The Independent",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Tonic Walter, TVLI",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tonic Walter",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tonic%20Walter%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "TVLI",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22TVLI%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-the-lost-church-elisha-tan",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-lost-church",
-    "venue": "The Lost Church",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Elisha Tan",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Elisha Tan",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Elisha%20Tan%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-the-sound-room-mitch-polzak-and-the-royal-deuces",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-sound-room",
-    "venue": "The Sound Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Mitch Polzak & The Royal Deuces",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Mitch Polzak & The Royal Deuces",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mitch%20Polzak%20%26%20The%20Royal%20Deuces%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-thee-stork-club-queer-club-classics-w-louie-el-ser-wockie-digital-kit-kat",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "thee-stork-club",
-    "venue": "Thee Stork Club",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Queer Club Classics w/ Louie El Ser, Wockie, Digital Kit-Kat",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [
-      "queer"
-    ],
-    "artists": [
-      {
-        "name": "Louie El Ser",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Louie%20El%20Ser%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Wockie",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Wockie%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Digital Kit-Kat",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Digital%20Kit-Kat%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-04-toot-s-tavern-outpatient-x",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "toot",
-    "venue": "Toot's Tavern",
-    "venueHref": "https://jon.luini.com/thelist/club.html#toot",
-    "city": "",
-    "details": "21+ $10 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Outpatient X",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Outpatient%20X%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "The Bonstones",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Bonstones%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Pinfall",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pinfall%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Agony Aunts",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Agony%20Aunts%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-town-hall-plaza-jon-chi-and-the-pacific-syndicate",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "town-hall-plaza",
-    "venue": "Town Hall Plaza",
-    "venueHref": "https://jon.luini.com/thelist/club.html#town_hall_plaza",
-    "city": "",
-    "details": "a/a free 6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jon Chi & The Pacific Syndicate",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jon%20Chi%20%26%20The%20Pacific%20Syndicate%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-winters-tavern-derapage",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "winters-tavern",
-    "venue": "Winters Tavern",
-    "venueHref": "https://jon.luini.com/thelist/club.html#winters_tavern",
-    "city": "",
-    "details": "21+",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Derapage",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Derapage%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-winters-tavern-tell-me-tell-me-food-for-the-wyrm",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "winters-tavern",
-    "venue": "Winters Tavern",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Tell Me Tell Me, Food for the Wyrm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tell Me Tell Me",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tell%20Me%20Tell%20Me%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Food for the Wyrm",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Food%20for%20the%20Wyrm%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-04-yoshi-s-kirk-whalum",
-    "date": "2026-09-04",
-    "title": "",
-    "showType": "artist",
-    "venueId": "yoshi-s",
-    "venue": "Yoshi's",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Kirk Whalum",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Kirk Whalum",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kirk%20Whalum%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-4-star-theater-excerpts-from-thicker-than-water-180-south-earth-to-meekus-with-live-music",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "4-star-theater",
-    "venue": "4 Star Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Excerpts from Thicker Than Water, 180 South, Earth to Meekus with LIVE MUSIC",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-9-lives-warehouse-godstomper",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "9-lives-warehouse",
-    "venue": "9 Lives Warehouse",
-    "venueHref": "https://jon.luini.com/thelist/club.html#9_lives_warehouse",
-    "city": "",
-    "details": "a/a $15 5pm/5:30pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Godstomper",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Godstomper%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "GNT",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22GNT%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Mental Health Crisis",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mental%20Health%20Crisis%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Grunkle",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Grunkle%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Straggler",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Straggler%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Dissociation",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dissociation%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Product Of Society",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Product%20Of%20Society%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Other Yippies",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Other%20Yippies%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Alien Blunt",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Alien%20Blunt%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "The Face",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Face%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Fence Punch",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fence%20Punch%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-august-hall-valerie-a-tribute-to-amy-winehouse",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "august-hall",
-    "venue": "August Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Valerie – A Tribute to Amy Winehouse",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "coverBand"
-    ],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-bimbo-s-365-club-mystery-skulls",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bimbo",
-    "venue": "Bimbo's 365 Club",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bimbo",
-    "city": "",
-    "details": "21+ 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Mystery Skulls",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mystery%20Skulls%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Fox Stevenson",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fox%20Stevenson%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-black-cat-max-haymer-power-trio",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "black-cat",
-    "venue": "Black Cat",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Max Haymer Power Trio",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Max Haymer Power Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Max%20Haymer%20Power%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-blue-lagoon-gore-whore",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "blue-lagoon",
-    "venue": "Blue Lagoon",
-    "venueHref": "https://jon.luini.com/thelist/club.html#blue_lagoon",
-    "city": "",
-    "details": "21+ free 9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Gore Whore",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Gore%20Whore%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Blood Of Chinnamastika",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Blood%20Of%20Chinnamastika%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Dean Fraser",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dean%20Fraser%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-bottom-of-the-hill-the-lawrence-arms",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "bottom-of-the-hill",
-    "venue": "Bottom of the Hill",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
-    "city": "",
-    "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: The Lawrence Arms, Honor System, Get Married, Dog Party (sold out)",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Lawrence Arms",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Lawrence%20Arms%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Honor System",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Honor%20System%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Get Married",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Get%20Married%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Dog Party",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dog%20Party%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-brick-and-mortar-music-hall-raininglol-and-2facedlon-w-jay-armani",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "brick-and-mortar-music-hall",
-    "venue": "Brick & Mortar Music Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Raininglol & 2FacedLon w/ Jay Armani",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Raininglol & 2FacedLon",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Raininglol%20%26%202FacedLon%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Jay Armani",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jay%20Armani%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-church-of-clown-out-with-it-by-claire-saxe",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "church-of-clown",
-    "venue": "Church of Clown",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Out With It by Claire Saxe",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-cornerstone-internet-kid",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "cornerstone",
-    "venue": "Cornerstone",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Internet Kid",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Internet Kid",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Internet%20Kid%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-el-rio-al-akhbar",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "el-rio",
-    "venue": "El Rio",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Al Akhbar",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Al Akhbar",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Al%20Akhbar%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-fillmore-kamelot",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "fillmore",
-    "venue": "Fillmore",
-    "venueHref": "https://jon.luini.com/thelist/club.html#fillmore",
-    "city": "",
-    "details": "a/a $52+ 6pm/7pm # / Kamelot",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Kamelot",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kamelot%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Visions Of Atlantis",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Visions%20Of%20Atlantis%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Frozen Crown",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Frozen%20Crown%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-fml-studios-ingrata",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "fml-studios",
-    "venue": "FML Studios",
-    "venueHref": "https://jon.luini.com/thelist/club.html#fml_studios",
-    "city": "",
-    "details": "a/a $15 6:30pm/7pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Ingrata",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ingrata%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Ursula",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ursula%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Kind",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kind%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Rob The Dead",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Rob%20The%20Dead%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Streetsweeper",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Streetsweeper%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-fox-theater-brandon-flowers",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "fox-theater",
-    "venue": "Fox Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Brandon Flowers",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Brandon Flowers",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Brandon%20Flowers%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-gilman-membership-meeting",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "gilman",
-    "venue": "Gilman",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
-    "city": "",
-    "details": "a/a 4pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-gilman-quinkana",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "gilman",
-    "venue": "Gilman",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
-    "city": "",
-    "details": "a/a $12/$15 7pm / MyBloodyShoegaze Fest: Quinkana, Luna Ivy, Dilute_Calico98, Solstice",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Quinkana",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Quinkana%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Luna Ivy",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Luna%20Ivy%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Dilute_Calico98",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dilute_Calico98%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Solstice",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Solstice%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Everyn Playground",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Everyn%20Playground%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-great-american-music-hall-pallbearer-ordh-chrome-ghost",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "great-american-music-hall",
-    "venue": "Great American Music Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Pallbearer, Ordh, Chrome Ghost / a/a $25/$30 7pm/8pm @",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Pallbearer",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pallbearer%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Ordh",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ordh%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Chrome Ghost",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Chrome%20Ghost%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-great-northern-doc-martin",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "great-northern",
-    "venue": "Great Northern",
-    "venueHref": "https://jon.luini.com/thelist/club.html#great_northern",
-    "city": "",
-    "details": "21+ $11.28 6pm/9:30pm til 3am",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Doc Martin",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Doc%20Martin%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Miguel Migs",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Miguel%20Migs%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "David Harness",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22David%20Harness%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "dj M3",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22dj%20M3%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-hotel-utah-olive-pants",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "hotel-utah",
-    "venue": "Hotel Utah",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Olive Pants",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Olive Pants",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Olive%20Pants%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-hub-redwood-city-vesseles",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "hub",
-    "venue": "Hub",
-    "venueHref": "https://jon.luini.com/thelist/club.html#hub",
-    "city": "",
-    "details": "21+",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Redwood City Vesseles",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Redwood%20City%20Vesseles%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Post Heaven",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Post%20Heaven%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Eaten By Insects",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eaten%20By%20Insects%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Darandaz",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Darandaz%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-ivy-room-ryan-macneill-and-the-big-deal",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "ivy-room",
-    "venue": "Ivy Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Ryan MacNeill and The Big Deal",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Ryan MacNeill and The Big Deal",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ryan%20MacNeill%20and%20The%20Big%20Deal%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-jupiter-the-green-shirt-project",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "jupiter",
-    "venue": "Jupiter",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "The Green Shirt Project",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Green Shirt Project",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Green%20Shirt%20Project%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-jury-room-reptilian-arms",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "jury-room",
-    "venue": "Jury Room",
-    "venueHref": "https://jon.luini.com/thelist/club.html#jury_room",
-    "city": "",
-    "details": "21+ $15 4pm/5pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Reptilian Arms",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Reptilian%20Arms%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Batsurat",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Batsurat%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Party Force",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Party%20Force%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Polemic",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Polemic%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Braintooth",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Braintooth%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Three Towers",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Three%20Towers%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-keys-jazz-bistro-simon-rowe-organ-trio-fred-ross-larry-vuckovich-hector-lugo-jazz-latin-trio",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "keys-jazz-bistro",
-    "venue": "Keys Jazz Bistro",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Simon Rowe Organ Trio, Fred Ross, Larry Vuckovich, Hector Lugo Jazz/Latin Trio",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [
-      "jazz"
-    ],
-    "artists": [
-      {
-        "name": "Simon Rowe Organ Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Simon%20Rowe%20Organ%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Fred Ross",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fred%20Ross%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Larry Vuckovich",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Larry%20Vuckovich%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Hector Lugo Jazz/Latin Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Hector%20Lugo%20Jazz%2FLatin%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-kilowatt-the-spiral-electric-high-tatras-rowdy-boys-dj-pan-dulce",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "kilowatt",
-    "venue": "Kilowatt",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "The Spiral Electric, High Tatras, Rowdy Boys, DJ Pan Dulce",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Spiral Electric",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Spiral%20Electric%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "High Tatras",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22High%20Tatras%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Rowdy Boys",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Rowdy%20Boys%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Pan Dulce",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pan%20Dulce%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-knockout-mitch-rocket-hippie-sheikh-gabriel-lindo-5pm",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "knockout",
-    "venue": "Knockout",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Mitch Rocket, Hippie Sheikh, Gabriel Lindo (5Pm)",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Mitch Rocket",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mitch%20Rocket%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Hippie Sheikh",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Hippie%20Sheikh%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Gabriel Lindo",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Gabriel%20Lindo%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-lane-splitter-pizza-durango-dogs",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "lane-splitter-pizza",
-    "venue": "Lane Splitter Pizza",
-    "venueHref": "https://jon.luini.com/thelist/club.html#lane_splitter_pizza",
-    "city": "",
-    "details": "a/a $5 8pm til midnight",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Durango Dogs",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Durango%20Dogs%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Charm World",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Charm%20World%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "FilthMilk",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22FilthMilk%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Auca",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Auca%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Davey Zalhalla",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Davey%20Zalhalla%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-make-out-room-mega-x-neutrals-added-dimensions-sad-eyes-kill",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "make-out-room",
-    "venue": "Make Out Room",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Mega X, Neutrals, Added Dimensions, Sad Eyes Kill",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Mega X",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mega%20X%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Neutrals",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Neutrals%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Added Dimensions",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Added%20Dimensions%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Sad Eyes Kill",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sad%20Eyes%20Kill%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-meritage-resort-con-funk-shun",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "meritage-resort",
-    "venue": "Meritage Resort",
-    "venueHref": "https://jon.luini.com/thelist/club.html#meritage_resort",
-    "city": "",
-    "details": "5:30pm/7pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Con Funk Shun",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Con%20Funk%20Shun%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Lenny Williams",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Lenny%20Williams%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-05-mountain-winery-oingo-boingo-former-members",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mountain-winery",
-    "venue": "Mountain Winery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
-    "city": "",
-    "details": "a/a 4pm/6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Oingo Boingo Former Members",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Oingo%20Boingo%20Former%20Members%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Big Country",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Big%20Country%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Vapors",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Vapors%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Icicle Works",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Icicle%20Works%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Dramarama",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Dramarama%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "China Crisis",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22China%20Crisis%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Musical Youth",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Musical%20Youth%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Katrina",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Katrina%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-05-mr-tipples-shawn-myers-quintet-dmn",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "mr-tipples",
-    "venue": "Mr. Tipples",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Shawn Myers Quintet, DMN",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Shawn Myers Quintet",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Shawn%20Myers%20Quintet%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "DMN",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22DMN%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-neck-of-the-woods-rav-cavalier-teller-bank",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "neck-of-the-woods",
-    "venue": "Neck of the Woods",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Rav, Cavalier, Teller Bank$ / a/a $22/$27 ($65 vip) 7:30pm/8pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Rav",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Rav%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Cavalier",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cavalier%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Teller Bank$",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Teller%20Bank%24%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-open-gallery-field-of-flames",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "open-gallery",
-    "venue": "Open Gallery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#open_gallery",
-    "city": "",
-    "details": "a/a $10 6pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Field Of Flames",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Field%20Of%20Flames%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Extinguish",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Extinguish%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Eightfold Pain",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eightfold%20Pain%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "No Right",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22No%20Right%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Devoid",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Devoid%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-public-works-partiboi69-harrison-bdp",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "public-works",
-    "venue": "Public Works",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Partiboi69, Harrison BDP",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Partiboi69",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Partiboi69%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Harrison BDP",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Harrison%20BDP%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-rickshaw-stop-yuma-abe",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "rickshaw-stop",
-    "venue": "Rickshaw Stop",
-    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
-    "city": "",
-    "details": "a/a $20/$24 8pm/9pm / Yuma Abe, Jared Mattson x Chili Corder, Adam Spry",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Yuma Abe",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Yuma%20Abe%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Jared Mattson x Chili Corder",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jared%20Mattson%20x%20Chili%20Corder%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Adam Spry",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Adam%20Spry%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-rio-theater-public-image-ltd",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "rio-theater",
-    "venue": "Rio Theater",
-    "venueHref": "https://jon.luini.com/thelist/club.html#rio_theater",
-    "city": "",
-    "details": "a/a $77.06/$82.63 7pm/8pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Public Image LTD.",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Public%20Image%20LTD.%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Plague Vendor",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Plague%20Vendor%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-05-shoreline-amphitheatre-deep-purple",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "shoreline-amphitheatre",
-    "venue": "Shoreline Amphitheatre",
-    "venueHref": "https://jon.luini.com/thelist/club.html#shoreline_amphitheatre",
-    "city": "",
-    "details": "a/a $89-$40.50 5pm/6pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Deep Purple",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "likely",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Website",
-            "url": "http://www.tecc.co.uk/public/purple/Purple.html"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Deep%20Purple%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Kansas",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "likely",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Website",
-            "url": "http://www.nuance.com/~rew/kansas.html"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kansas%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Jefferson Starship",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jefferson%20Starship%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-stay-gold-deli-east-bay-underground-las-ratas-raw-force-blood-compact-todo-kontra",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "stay-gold-deli",
-    "venue": "Stay Gold Deli",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "East Bay Underground, Las Ratas, Raw Force, Blood Compact, Todo Kontra / a/a $10 6pm til 10pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "East Bay Underground",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22East%20Bay%20Underground%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Las Ratas",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Las%20Ratas%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Raw Force",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Raw%20Force%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Blood Compact",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Blood%20Compact%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Todo Kontra",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Todo%20Kontra%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Madapaka",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Madapaka%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Curb4188",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Curb4188%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-subrosa-community-space-eliminators",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "subrosa-community-space",
-    "venue": "Subrosa Community Space",
-    "venueHref": "https://jon.luini.com/thelist/club.html#subrosa_community_space",
-    "city": "",
-    "details": "a/a $15 6pm/7pm @",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Eliminators",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Eliminators%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Different Method",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Different%20Method%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Forest Ave",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Forest%20Ave%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
-        "name": "Cross Checked",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cross%20Checked%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-sweetwater-music-hall-the-reverend-peyton-s-big-damn-band-hames",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "sweetwater-music-hall",
-    "venue": "Sweetwater Music Hall",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "The Reverend Peyton's Big Damn Band, Hames / a/a 7pm/8pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Reverend Peyton's Big Damn Band",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Reverend%20Peyton's%20Big%20Damn%20Band%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Hames",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Hames%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-the-back-room-michael-manring-tony-kaltenberg-jarrod-kaplan",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-back-room",
-    "venue": "The Back Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Michael Manring, Tony Kaltenberg, Jarrod Kaplan",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Michael Manring",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Michael%20Manring%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Tony Kaltenberg",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tony%20Kaltenberg%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Jarrod Kaplan",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jarrod%20Kaplan%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-the-chapel-drink-the-sea-peter-buck-barrett-martin-alain-johannes-duke-garwood",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "chapel",
-    "venue": "The Chapel",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Drink The Sea (Peter Buck/Barrett Martin/Alain Johannes/Duke Garwood) / a/a $45 8pm/9pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Drink The Sea",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Drink%20The%20Sea%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-the-deluxe-quinn-deveaux",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-deluxe",
-    "venue": "The DeLuxe",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "Quinn DeVeaux",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Quinn DeVeaux",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Quinn%20DeVeaux%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-the-freight-bettye-lavette-accompanied-by-etienne-stadwijk-on-keyboards",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-freight",
-    "venue": "The Freight",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Bettye LaVette Etienne Stadwijk",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Bettye LaVette",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bettye%20LaVette%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Etienne Stadwijk",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Etienne%20Stadwijk%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-the-independent-the-emo-night-tour",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "independent",
-    "venue": "The Independent",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "The Emo Night Tour",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [
-      "themeNight"
-    ],
-    "themes": [
-      "emo"
-    ],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-the-lost-church-the-setup",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "event",
-    "venueId": "lost-church",
-    "venue": "The Lost Church",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "The Setup",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-the-planetarium-false-figure-odor-eater-nasty-world-wysteria-veil",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-planetarium",
-    "venue": "The Planetarium",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "False Figure, Odor Eater, Nasty World, Wysteria Veil",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "False Figure",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22False%20Figure%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Odor Eater",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Odor%20Eater%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Nasty World",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Nasty%20World%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Wysteria Veil",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Wysteria%20Veil%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-the-sound-room-jazz-mafia-play-cannonball-adderley",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "the-sound-room",
-    "venue": "The Sound Room",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Jazz Mafia play Cannonball Adderley",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [
-      "jazz"
-    ],
-    "artists": [
-      {
-        "name": "Jazz Mafia",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jazz%20Mafia%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-thee-stork-club-the-legendary-stardust-cowboy-durty-whyte-boots-girls-with-guns",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "thee-stork-club",
-    "venue": "Thee Stork Club",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "The Legendary Stardust Cowboy, Durty Whyte Boots, Girls With Guns / 21+ $10/$12 7pm",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Legendary Stardust Cowboy",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Legendary%20Stardust%20Cowboy%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Durty Whyte Boots",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Durty%20Whyte%20Boots%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      },
-      {
-        "name": "Girls With Guns",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Girls%20With%20Guns%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
-  },
-  {
-    "id": "2026-09-05-town-hall-plaza-jinx-jones-and-the-king-tones",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "town-hall-plaza",
-    "venue": "Town Hall Plaza",
-    "venueHref": "https://jon.luini.com/thelist/club.html#town_hall_plaza",
-    "city": "",
-    "details": "a/a free 6pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Jinx Jones & The King Tones",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jinx%20Jones%20%26%20The%20King%20Tones%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-05-up-the-creek-records-demiere-and-tj-mccarty-album-release",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "up-the-creek-records",
-    "venue": "Up the Creek Records",
-    "venueHref": "https://jon.luini.com/thelist/club.html#up_the_creek_records",
-    "city": "",
-    "details": "a/a $15 6pm til 9pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Demiere & TJ McCarty",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Demiere%20%26%20TJ%20McCarty%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Triimurtii",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Triimurtii%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-05-uptown-theater-tab-benoit",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "uptown-theater",
-    "venue": "Uptown Theater",
-    "venueHref": "https://jon.luini.com/thelist/club.html#uptown_theater",
-    "city": "",
-    "details": "16 with adult) 7pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Tab Benoit",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tab%20Benoit%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "Tommy Castro",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tommy%20Castro%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Zac Schulze Gang",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Zac%20Schulze%20Gang%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      }
-    ],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
-  },
-  {
-    "id": "2026-09-05-yoshi-s-kirk-whalum",
-    "date": "2026-09-05",
-    "title": "",
-    "showType": "artist",
-    "venueId": "yoshi-s",
-    "venue": "Yoshi's",
-    "venueHref": "",
-    "city": "",
-    "region": "East Bay",
-    "details": "Kirk Whalum",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "Kirk Whalum",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kirk%20Whalum%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
     "id": "2026-09-06-black-cat-max-haymer-power-trio",
     "date": "2026-09-06",
     "title": "",
@@ -10546,6 +47,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-06-bottom-of-the-hill-helms-alee",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "city": "",
+    "details": "21+ $20/$25 3pm/4pm (Michael Madfes Memorial)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Helms Alee",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Helms%20Alee%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Diasastroid",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Diasastroid%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Thornpusher",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Thornpusher%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-06-bottom-of-the-hill-helms-alee-disastroid-thornpusher",
     "date": "2026-09-06",
     "title": "",
@@ -10555,7 +138,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Helms Alee, Disastroid, Thornpusher / 21+ $20/$25 3pm/4pm (Michael Madfes Memorial)",
+    "details": "Helms Alee, Disastroid, Thornpusher",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
     "source": {
       "name": "KALX",
@@ -10571,7 +154,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -10580,8 +163,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Disastroid",
@@ -10608,7 +190,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -10617,28 +199,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-brick-and-mortar-music-hall-fervence-captive-state-beauty-is-betrayal-the-beauty-in-death-swept-to-sea",
@@ -10768,7 +339,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "DNA Lounge",
     "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
     "city": "",
-    "details": "a/a $25/$36 7pm / Venjent, Oktae",
+    "details": "a/a $25/$36 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -10784,7 +355,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -10793,8 +364,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Oktae",
@@ -10803,7 +373,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -10812,35 +382,224 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-dna-lounge-venjent-oktae",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dna-lounge",
+    "venue": "DNA Lounge",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Venjent, Oktae",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Venjent",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Venjent%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Oktae",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Oktae%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-gilman-mugslug",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a 6pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Mugslug",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mugslug%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Euthanized",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Euthanized%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "A French Project",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22A%20French%20Project%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Big Tractor",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Big%20Tractor%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Chrysalis",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Chrysalis%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "MooseTrout",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22MooseTrout%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-hibernia-sf-zine-fest",
     "date": "2026-09-06",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "hibernia",
     "venue": "Hibernia",
     "venueHref": "https://jon.luini.com/thelist/club.html#hibernia",
@@ -10853,7 +612,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "SF Zine Fest",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22SF%20Zine%20Fest%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -11093,6 +871,42 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Durango Dogs (9:40)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Durango%20Dogs%20(9%3A40)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Peacful Dudes",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Peacful%20Dudes%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -11118,7 +932,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Mr Cindy & the Secret Emchy Society, Asheigh Flynn & the Riveters, Corner Ponies / 21+ $18 2pm/3pm",
+    "details": "Mr Cindy & the Secret Emchy Society, Asheigh Flynn & the Riveters, Corner Ponies",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
     "source": {
       "name": "KALX",
@@ -11134,7 +948,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -11142,16 +956,26 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
+          }
+        ]
+      },
+      {
+        "name": "Asheigh Flynn & the Riveters",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Mr%20Cindy%20%26%20The%20Secret%20Emchy%20Society%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Asheigh%20Flynn%20%26%20the%20Riveters%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Corner Ponies",
@@ -11160,7 +984,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -11169,8 +993,53 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-ivy-room-mr-cindy-and-the-secret-emchy-society",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ivy-room",
+    "venue": "Ivy Room",
+    "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
+    "city": "",
+    "details": "21+ $18 2pm/3pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Mr Cindy & The Secret Emchy Society",
+        "tags": [
+          "unknown"
         ],
-        "displayName": ""
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mr%20Cindy%20%26%20The%20Secret%20Emchy%20Society%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
       {
         "name": "Ashleigh Flynn & The Riveters",
@@ -11189,26 +1058,34 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Corner Ponies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Corner%20Ponies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-keys-jazz-bistro-the-brad-leali-jazz-quartet-ft-carla-helmbrecht",
@@ -11232,38 +1109,20 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "artists": [
       {
-        "name": "The Brad Leali Jazz Quartet",
+        "name": "The Brad Leali Jazz Quartet ft. Carla Helmbrecht",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Brad%20Leali%20Jazz%20Quartet%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22The%20Brad%20Leali%20Jazz%20Quartet%20ft.%20Carla%20Helmbrecht%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Carla Helmbrecht",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Carla%20Helmbrecht%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -11290,7 +1149,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Kilowatt",
     "venueHref": "https://jon.luini.com/thelist/club.html#kilowatt",
     "city": "",
-    "details": "21+ free 7pm / Casino Youth, Anime Titties, Mommy Mommy, Pro-Pain",
+    "details": "21+ free 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -11306,7 +1165,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -11315,8 +1174,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Anime Titties",
@@ -11325,7 +1183,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -11334,8 +1192,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Mommy Mommy",
@@ -11344,7 +1201,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -11353,8 +1210,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Pro-Pain",
@@ -11363,7 +1219,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -11372,29 +1228,218 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-kilowatt-casino-youth-anime-titties-mommy-mommy-pro-pain",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "kilowatt",
+    "venue": "Kilowatt",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Casino Youth, Anime Titties, Mommy Mommy, Pro-Pain",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Casino Youth",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Casino%20Youth%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Anime Titties",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Anime%20Titties%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Mommy Mommy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mommy%20Mommy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Pro-Pain",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pro-Pain%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-knockout-half-calf",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ 5pm/6pm $10",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Half Calf",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Half%20Calf%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Manta",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Manta%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Black Velvet Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Black%20Velvet%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Cowboy Beauty Queen",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cowboy%20Beauty%20Queen%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-knockout-half-calf-manta-the-black-velvet-band-cowboy-beauty-queen-5pm",
@@ -11470,20 +1515,20 @@ window.SHOW_EXPLORER_EVENTS = [
         ]
       },
       {
-        "name": "Cowboy Beauty Queen",
+        "name": "Cowboy Beauty Queen (5Pm)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Cowboy%20Beauty%20Queen%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Cowboy%20Beauty%20Queen%20(5Pm)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -11602,7 +1647,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-06-mr-tipples-mose-def-the-music-of-mose-allison",
     "date": "2026-09-06",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "mr-tipples",
     "venue": "Mr. Tipples",
     "venueHref": "",
@@ -11616,7 +1661,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Mose Def : The Music of Mose Allison",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mose%20Def%20%3A%20The%20Music%20of%20Mose%20Allison%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -11631,19 +1695,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
-    "id": "2026-09-06-natural-batting-cage-bloodstains",
+    "id": "2026-09-06-natural-batting-cage-bloodstains-screaming-fist-government",
     "date": "2026-09-06",
     "title": "",
     "showType": "artist",
     "venueId": "natural-batting-cage",
     "venue": "Natural Batting Cage",
-    "venueHref": "https://jon.luini.com/thelist/club.html#natural_batting_cage",
+    "venueHref": "",
     "city": "",
-    "details": "a/a 7pm / Bloodstains, Screaming Fist, Government",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "region": "San Francisco",
+    "details": "Bloodstains, Screaming Fist, Government",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
     "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
     },
     "eventTypes": [],
     "themes": [],
@@ -11655,17 +1720,16 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Bloodstains%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Screaming Fist",
@@ -11674,33 +1738,14 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Screaming%20Fist%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Government",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Government%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
         ]
       },
@@ -11725,23 +1770,94 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "sources": [
       {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-natural-batting-cage-bloodstains",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "natural-batting-cage",
+    "venue": "Natural Batting Cage",
+    "venueHref": "https://jon.luini.com/thelist/club.html#natural_batting_cage",
+    "city": "",
+    "details": "a/a 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bloodstains",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bloodstains%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Screaming Fist",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Screaming%20Fist%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Government",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Government%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-neck-of-the-woods-polkadot-myveronica-buddy-junior",
@@ -11983,7 +2099,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Baby On A Rampage, Post Human, Decadesin, aBlack, Hive Tyrant, Your Own Destroyer, Deadringer, Snallygaster, Arson Choir, Black White And Red All Over / a/a $15/$20 12pm/1:23pm @",
+    "details": "Baby On A Rampage, Post Human, Decadesin, aBlack, Hive Tyrant, Your Own Destroyer, Deadringer, Snallygaster, Arson Choir, Black White And Red All Over",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
     "source": {
       "name": "KALX",
@@ -11999,7 +2115,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12008,8 +2124,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Post Human",
@@ -12018,7 +2133,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12027,8 +2142,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Decadesin",
@@ -12037,7 +2151,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12046,8 +2160,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "aBlack",
@@ -12056,7 +2169,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12065,8 +2178,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Hive Tyrant",
@@ -12075,7 +2187,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12084,8 +2196,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Your Own Destroyer",
@@ -12094,7 +2205,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12103,8 +2214,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Deadringer",
@@ -12113,7 +2223,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12122,8 +2232,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Snallygaster",
@@ -12132,7 +2241,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12141,8 +2250,25 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
+        ]
+      },
+      {
+        "name": "Arson Choir",
+        "tags": [
+          "unknown"
         ],
-        "displayName": ""
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Arson%20Choir%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
       {
         "name": "Black White And Red All Over",
@@ -12151,7 +2277,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -12160,27 +2286,36 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Arson Choir",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Arson%20Choir%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
         ]
-      },
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-revolution-cafe-reminitions",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "revolution-cafe",
+    "venue": "Revolution Cafe",
+    "venueHref": "https://jon.luini.com/thelist/club.html#revolution_cafe",
+    "city": "",
+    "details": "a/a $15/$20 12pm/1:23pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
       {
         "name": "Reminitions",
         "tags": [
@@ -12198,26 +2333,142 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Baby On A Rampage",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Baby%20On%20A%20Rampage%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Post Human",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Post%20Human%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Decadesin",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Decadesin%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "aBlack",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22aBlack%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Your Own Destroyer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Your%20Own%20Destroyer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Deadringer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Deadringer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Black White And Red All Over",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Black%20White%20And%20Red%20All%20Over%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-rio-theater-stephen-malkmus",
@@ -12360,7 +2611,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Siesta Valley Bowl",
     "venueHref": "https://jon.luini.com/thelist/club.html#siesta_valley_bowl",
     "city": "",
-    "details": "a/a $60.85-40.25 5:30pm/7:30pm # / Talib Kweli, Ovrkast",
+    "details": "a/a $60.85-40.25 5:30pm/7:30pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -12376,7 +2627,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12385,8 +2636,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Ovrkast",
@@ -12395,7 +2645,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12404,29 +2654,82 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-siesta-valley-bowl-talib-kweli-ovrkast",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "siesta-valley-bowl",
+    "venue": "Siesta Valley Bowl",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Talib Kweli, Ovrkast",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Talib Kweli",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Talib%20Kweli%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Ovrkast",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ovrkast%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-stay-gold-deli-fatale",
@@ -12437,7 +2740,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Stay Gold Deli",
     "venueHref": "https://jon.luini.com/thelist/club.html#stay_gold_deli",
     "city": "",
-    "details": "a/a $10 6pm/7pm @ / Fatale, Product Of Society, Forest Ave, Wink, Hillbomb",
+    "details": "a/a $10 6pm/7pm @",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -12453,7 +2756,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12462,8 +2765,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Product Of Society",
@@ -12472,7 +2774,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12481,8 +2783,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Forest Ave",
@@ -12491,7 +2792,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12500,8 +2801,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Wink",
@@ -12510,7 +2810,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12519,8 +2819,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Hillbomb",
@@ -12529,7 +2828,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -12538,29 +2837,136 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-stay-gold-deli-fatale-product-of-society-forest-ave-wink-hillbomb",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "stay-gold-deli",
+    "venue": "Stay Gold Deli",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Fatale, Product Of Society, Forest Ave, Wink, Hillbomb",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Fatale",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fatale%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Product Of Society",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Product%20Of%20Society%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Forest Ave",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Forest%20Ave%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Wink",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Wink%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Hillbomb",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hillbomb%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-sweetwater-music-hall-clinton-fearon-iriefuse",
@@ -12831,7 +3237,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-06-the-back-room-sam-s-corner-boogie-blues-and-jazz",
     "date": "2026-09-06",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "the-back-room",
     "venue": "The Back Room",
     "venueHref": "",
@@ -12848,7 +3254,62 @@ window.SHOW_EXPLORER_EVENTS = [
       "jazz",
       "blues"
     ],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Sam's Corner: Boogie",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sam's%20Corner%3A%20Boogie%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Blues",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Blues%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "and Jazz",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22and%20Jazz%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -12913,7 +3374,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-06-the-freight-a-tribute-to-gram-parsons-and-emmylou-harris",
     "date": "2026-09-06",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "the-freight",
     "venue": "The Freight",
     "venueHref": "",
@@ -12929,7 +3390,26 @@ window.SHOW_EXPLORER_EVENTS = [
       "coverBand"
     ],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "A Tribute to Gram Parsons & Emmylou Harris",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22A%20Tribute%20to%20Gram%20Parsons%20%26%20Emmylou%20Harris%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -13084,7 +3564,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-06-the-starry-plough-irish-session",
     "date": "2026-09-06",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "starry-plough",
     "venue": "The Starry Plough",
     "venueHref": "",
@@ -13098,7 +3578,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Irish Session",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Irish%20Session%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -13168,7 +3667,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Thrillhouse Records",
     "venueHref": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
     "city": "",
-    "details": "a/a $10 3pm/4pm @ / Circuit, Salo, Odor Eater, Drugs",
+    "details": "a/a $10 3pm/4pm @",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -13184,7 +3683,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13193,8 +3692,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Salo",
@@ -13203,7 +3701,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13212,8 +3710,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Odor Eater",
@@ -13222,7 +3719,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13231,8 +3728,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Drugs",
@@ -13241,7 +3737,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13250,29 +3746,118 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-06-thrillhouse-records-circuit-salo-odor-eater-drugs",
+    "date": "2026-09-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thrillhouse-records",
+    "venue": "Thrillhouse Records",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Circuit, Salo, Odor Eater, Drugs",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Circuit",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Circuit%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Salo",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Salo%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Odor Eater",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Odor%20Eater%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Drugs",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Drugs%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-06-yoshi-s-sons-of-champlin-w-bill-champlin",
@@ -13396,7 +3981,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Mad Caddies, Diesel Boy, Stay Out / a/a $27/$30 7:30pm/8pm @",
+    "details": "Mad Caddies, Diesel Boy, Stay Out / a/a $27/$30 7:30pm/8pm",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -13487,11 +4072,11 @@ window.SHOW_EXPLORER_EVENTS = [
     "date": "2026-09-07",
     "title": "",
     "showType": "artist",
-    "venueId": "castro-theater",
+    "venueId": "castro",
     "venue": "Castro",
     "venueHref": "https://jon.luini.com/thelist/club.html#castro",
     "city": "",
-    "details": "a/a $60.10 7pm/8pm # / The Charlatans UK, Frankie Rose",
+    "details": "a/a $60.10 7pm/8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -13507,7 +4092,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13516,8 +4101,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Frankie Rose",
@@ -13526,7 +4110,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -13535,29 +4119,82 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-07-castro-theater-the-charlatans-uk-frankie-rose",
+    "date": "2026-09-07",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro-theater",
+    "venue": "Castro Theater",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "The Charlatans UK, Frankie Rose",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Charlatans UK",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Charlatans%20UK%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Frankie Rose",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Frankie%20Rose%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-07-derby-skatepark-bloodstains",
@@ -13670,6 +4307,142 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-07-dolan-s-den-saint",
+    "date": "2026-09-07",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dolan",
+    "venue": "Dolan's Den",
+    "venueHref": "https://jon.luini.com/thelist/club.html#dolan",
+    "city": "",
+    "details": "?/?",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Saint",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Saint%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Nugget King",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Nugget%20King%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Maniac7ioh7",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Maniac7ioh7%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Dillon O' Bannon",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dillon%20O'%20Bannon%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "McWicked",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22McWicked%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Unconventional Loui",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Unconventional%20Loui%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-07-el-rio-23rd-annual-rhinestone-rodeo-velvetta-liz-lewis-and-fringe-cindy-emch-mya-byrne",
     "date": "2026-09-07",
     "title": "",
@@ -13689,20 +4462,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Velvetta",
+        "name": "23rd Annual Rhinestone Rodeo: Velvetta",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Velvetta%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%2223rd%20Annual%20Rhinestone%20Rodeo%3A%20Velvetta%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
@@ -13861,7 +4634,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-07-mabuhay-gardens-zinggflower-monday",
     "date": "2026-09-07",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "mabuhay-gardens",
     "venue": "Mabuhay Gardens",
     "venueHref": "",
@@ -13875,7 +4648,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Zinggflower Monday",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Zinggflower%20Monday%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -13974,13 +4766,13 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-07-the-starry-plough-irish-c-ili-and-8220-kay-lee-and-8221-dance-with-live-band",
     "date": "2026-09-07",
     "title": "",
-    "showType": "event",
-    "venueId": "starry-plough",
+    "showType": "artist",
+    "venueId": "the-starry-plough",
     "venue": "The Starry Plough",
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Irish Céili (& KAY-LEE) Dance with live band",
+    "details": "Irish Céili (&#8220;KAY-LEE&#8221;) Dance with live band",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -13988,7 +4780,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Irish Céili (&#8220;KAY-LEE&#8221;) Dance with live band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Irish%20C%C3%A9ili%20(%26%238220%3BKAY-LEE%26%238221%3B)%20Dance%20with%20live%20band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -13996,11 +4807,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-07-yoshi-s-aimee-nolte",
@@ -14165,38 +4972,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Samara Joy",
+        "name": "Samara Joy with the SF Symphony",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Samara%20Joy%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Samara%20Joy%20with%20the%20SF%20Symphony%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "The San Francisco Symphony",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20San%20Francisco%20Symphony%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -14208,11 +4997,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-08-hotel-utah-open-bluegrass-jam",
@@ -14239,6 +5024,70 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-08-independent-pawpaw-rod",
+    "date": "2026-09-08",
+    "title": "",
+    "showType": "artist",
+    "venueId": "independent",
+    "venue": "Independent",
+    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
+    "city": "",
+    "details": "a/a $31.55 ($113 vip) 7:30pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Pawpaw Rod",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pawpaw%20Rod%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Femdot",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Femdot%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
@@ -14300,7 +5149,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Regency Ballroom",
     "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
     "city": "",
-    "details": "a/a $39 ($66 balcony) 7pm/8pm # (sold out) / Slayyyter, Pearly Drops",
+    "details": "a/a $39 ($66 balcony) 7pm/8pm # (sold out)",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -14316,7 +5165,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -14325,8 +5174,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Pearly Drops",
@@ -14335,7 +5183,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -14344,29 +5192,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-08-rickshaw-stop-the-bug-club-lunchbox-preschool",
@@ -14378,7 +5214,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "The Bug Club, Lunchbox, Preschool / a/a $20/$25 7pm/8pm",
+    "details": "The Bug Club, Lunchbox, Preschool",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -14394,7 +5230,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -14403,8 +5239,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Lunchbox",
@@ -14431,7 +5266,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -14440,28 +5275,147 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-08-rickshaw-stop-the-bug-club",
+    "date": "2026-09-08",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a $20/$25 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Bug Club",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Bug%20Club%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Lunchbox",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lunchbox%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Preschool",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Preschool%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-08-sonoma-plaza-jazz-mafia",
+    "date": "2026-09-08",
+    "title": "",
+    "showType": "artist",
+    "venueId": "sonoma-plaza",
+    "venue": "Sonoma Plaza",
+    "venueHref": "https://jon.luini.com/thelist/club.html#sonoma_plaza",
+    "city": "",
+    "details": "a/a free 6pm til 8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [
+      "jazz"
+    ],
+    "artists": [
+      {
+        "name": "Jazz Mafia",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jazz%20Mafia%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-08-the-deluxe-fault-line-trio",
@@ -14520,7 +5474,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "PawPaw Rod, femdot. / a/a $31.55 ($113 vip) 7:30pm/8pm",
+    "details": "PawPaw Rod, femdot.",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -14536,7 +5490,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -14544,16 +5498,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pawpaw%20Rod%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "femdot.",
@@ -14578,20 +5524,10 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-08-the-lost-church-j-camden-zach-bailey",
@@ -14659,6 +5595,71 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-08-the-regency-slayyyter-pearly-drops",
+    "date": "2026-09-08",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-regency",
+    "venue": "The Regency",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Slayyyter, Pearly Drops",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Slayyyter",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Slayyyter%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Pearly Drops",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pearly%20Drops%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-08-the-rite-spot-kitten-on-the-keys",
     "date": "2026-09-08",
     "title": "",
@@ -14706,6 +5707,71 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-08-the-warfield-bikini-kill-alice-bag",
+    "date": "2026-09-08",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-warfield",
+    "venue": "The Warfield",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Bikini Kill, Alice Bag",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bikini Kill",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bikini%20Kill%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Alice Bag",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Alice%20Bag%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-08-warfield-bikini-kill",
     "date": "2026-09-08",
     "title": "",
@@ -14714,7 +5780,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Warfield",
     "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
     "city": "",
-    "details": "a/a 7pm/8pm # @ / Bikini Kill, Alice Bag",
+    "details": "a/a 7pm/8pm # @",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -14730,7 +5796,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -14739,8 +5805,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Alice Bag",
@@ -14749,7 +5814,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -14758,29 +5823,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-08-yoshi-s-matt-schofield-trio",
@@ -14833,7 +5886,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-09-ashkenaz-balkan-folk-dance",
     "date": "2026-09-09",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "ashkenaz",
     "venue": "Ashkenaz",
     "venueHref": "",
@@ -14847,7 +5900,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Balkan Folk Dance",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Balkan%20Folk%20Dance%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -14975,20 +6047,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Jeff Cotton's Gin Joint",
+        "name": "Jeff Cotton’S Gin Joint",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jeff%20Cotton's%20Gin%20Joint%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Jeff%20Cotton%E2%80%99S%20Gin%20Joint%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -15016,7 +6088,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "The Kofy Brown Band, Skip The Needle, Black Gold Sun / 21+ $15 8pm/8:30pm",
+    "details": "The Kofy Brown Band, Skip The Needle, Black Gold Sun",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -15032,7 +6104,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15041,8 +6113,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Skip The Needle",
@@ -15051,7 +6122,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15059,16 +6130,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22SKip%20The%20Needle%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Black Gold Sun",
@@ -15077,7 +6140,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15086,34 +6149,105 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "city": "",
+    "details": "21+ $15 8pm/8:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Kofy Brown Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Kofy%20Brown%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Skip The Needle",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Skip%20The%20Needle%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Black Gold Sun",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Black%20Gold%20Sun%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-castro-theater-legend-w-live-performance-by-trixxie-carr",
     "date": "2026-09-09",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "castro-theater",
     "venue": "Castro Theater",
     "venueHref": "",
@@ -15127,7 +6261,44 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Legend",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Legend%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "live performance by Trixxie Carr",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22live%20performance%20by%20Trixxie%20Carr%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -15201,7 +6372,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Weezer, The Shins, Silversun Pickups / a/a $84+ 7pm #",
+    "details": "Weezer, The Shins, Silversun Pickups",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -15217,7 +6388,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15226,8 +6397,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Shins",
@@ -15236,7 +6406,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15245,8 +6415,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Silversun Pickups",
@@ -15255,7 +6424,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15264,28 +6433,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-dna-lounge-16-volt-acumen-nation-everything-goes-cold",
@@ -15297,7 +6455,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "16 Volt, Acumen Nation, Everything Goes Cold / a/a $22/$31 7pm",
+    "details": "16 Volt, Acumen Nation, Everything Goes Cold",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -15313,7 +6471,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15322,8 +6480,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Acumen Nation",
@@ -15332,7 +6489,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15341,8 +6498,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Everything Goes Cold",
@@ -15351,7 +6507,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15360,28 +6516,99 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-dna-lounge-16-volt",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dna-lounge",
+    "venue": "DNA Lounge",
+    "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
+    "city": "",
+    "details": "a/a $22/$31 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "16 Volt",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%2216%20Volt%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Acumen Nation",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Acumen%20Nation%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Everything Goes Cold",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Everything%20Goes%20Cold%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-fox-theater-slayyyter",
@@ -15557,7 +6784,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Eihwar, Frayle / a/a $35/$40/$45 7pm/8pm",
+    "details": "Eihwar, Frayle",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -15573,7 +6800,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15582,8 +6809,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Frayle",
@@ -15608,32 +6834,86 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-great-american-music-hall-eihwar",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $35/$40/$45 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Eihwar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Eihwar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Frayle",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Frayle%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-greek-theater-liz-phair-sleater-kinney-soccer-mommy-solo",
     "date": "2026-09-09",
     "title": "",
     "showType": "artist",
-    "venueId": "greek-theatre",
+    "venueId": "greek-theater",
     "venue": "Greek Theater",
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Liz Phair, Sleater-Kinney, Soccer Mommy (Solo) / a/a $78.15 6:30pm #",
+    "details": "Liz Phair, Sleater-Kinney, Soccer Mommy (Solo)",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -15649,7 +6929,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15658,8 +6938,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Sleater-Kinney",
@@ -15668,7 +6947,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -15677,24 +6956,23 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
-        "name": "Soccer Mommy",
+        "name": "Soccer Mommy (Solo)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Soccer%20Mommy%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Soccer%20Mommy%20(Solo)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -15703,20 +6981,92 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-greek-theatre-liz-phair",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "greek-theatre",
+    "venue": "Greek Theatre",
+    "venueHref": "https://jon.luini.com/thelist/club.html#greek_theatre",
+    "city": "",
+    "details": "a/a $78.15 6:30pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Liz Phair",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Liz%20Phair%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Sleater-Kinney",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sleater-Kinney%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Soccer Mommy (solo)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Soccer%20Mommy%20(solo)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-hotel-utah-davy-williamson",
@@ -15760,6 +7110,70 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-independent-kevin-atwater",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "independent",
+    "venue": "Independent",
+    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
+    "city": "",
+    "details": "a/a $31.55 7:30pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Kevin Atwater",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kevin%20Atwater%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Ruby Plume",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ruby%20Plume%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
@@ -15816,7 +7230,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-09-jupiter-jazzschool-jam-wednesdays",
     "date": "2026-09-09",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "jupiter",
     "venue": "Jupiter",
     "venueHref": "",
@@ -15832,7 +7246,26 @@ window.SHOW_EXPLORER_EVENTS = [
       "jam"
     ],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Jazzschool Jam Wednesdays",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jazzschool%20Jam%20Wednesdays%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -16060,6 +7493,142 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-09-mabuhay-gardens-bong-father-9-40pm",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "mabuhay-gardens",
+    "venue": "Mabuhay Gardens",
+    "venueHref": "https://jon.luini.com/thelist/club.html#mabuhay_gardens",
+    "city": "",
+    "details": "21+ $15 ($25 vip) 6pm/6:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bong Father (9:40pm)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bong%20Father%20(9%3A40pm)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Sonus",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sonus%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Half Rotten Goddess",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Half%20Rotten%20Goddess%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Elegant Trash",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Elegant%20Trash%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Cretins",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Cretins%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Life Span",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Life%20Span%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-09-mabuhay-gardens-bong-father-sonus-half-rotten-goddess-elegant-trash-cretins-life-span",
     "date": "2026-09-09",
     "title": "",
@@ -16069,7 +7638,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Bong Father, Sonus, Half Rotten Goddess, Elegant Trash, Cretins, Life Span / 21+ $15 ($25 vip) 6pm/6:30pm",
+    "details": "Bong Father, Sonus, Half Rotten Goddess, Elegant Trash, Cretins, Life Span",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -16094,8 +7663,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Sonus",
@@ -16104,7 +7672,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16113,8 +7681,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Half Rotten Goddess",
@@ -16123,7 +7690,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16132,8 +7699,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Elegant Trash",
@@ -16142,7 +7708,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16151,8 +7717,25 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
+        ]
+      },
+      {
+        "name": "Cretins",
+        "tags": [
+          "unknown"
         ],
-        "displayName": ""
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cretins%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
       {
         "name": "Life Span",
@@ -16161,7 +7744,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16170,25 +7753,6 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Cretins",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Cretins%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
         ]
       }
     ],
@@ -16196,20 +7760,10 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-mr-tipple-s-naama",
@@ -16268,7 +7822,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Kels, Ella Maddux / a/a $26/$30 7pm/8pm",
+    "details": "Kels, Ella Maddux",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -16284,7 +7838,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16293,8 +7847,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Ella Maddux",
@@ -16319,20 +7872,74 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-rickshaw-stop-kels",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a $26/$30 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Kels",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kels%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Ella Maddux",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ella%20Maddux%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-ritz-hail-the-sun",
@@ -16343,7 +7950,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ritz",
     "venueHref": "https://jon.luini.com/thelist/club.html#ritz",
     "city": "",
-    "details": "a/a $39.32 6pm",
+    "details": "a/a $32.50/$35 6pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -16603,7 +8210,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Kevin Atwater, Ruby Plume / a/a $31.55 7:30pm/8pm",
+    "details": "Kevin Atwater, Ruby Plume",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -16619,7 +8226,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16628,8 +8235,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Ruby Plume",
@@ -16638,7 +8244,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16647,28 +8253,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-the-marsh-cabaret-randy-craig-and-friends",
@@ -16774,7 +8369,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Blood Orange / 6+ 7pm/8pm #",
+    "details": "Blood Orange",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -16790,7 +8385,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -16799,28 +8394,145 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-warfield-blood-orange",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "warfield",
+    "venue": "Warfield",
+    "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
+    "city": "",
+    "details": "6+ 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Blood Orange",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Blood%20Orange%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-09-warriors-stadium-weezer",
+    "date": "2026-09-09",
+    "title": "",
+    "showType": "artist",
+    "venueId": "warriors-stadium",
+    "venue": "Warriors Stadium",
+    "venueHref": "https://jon.luini.com/thelist/club.html#warriors_stadium",
+    "city": "",
+    "details": "a/a $84+ 7pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Weezer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Weezer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Shins",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Shins%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Silversun Pickups",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Silversun%20Pickups%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-09-yoshi-s-lisa-fischer-and-orrin-evans-trio",
@@ -16864,6 +8576,124 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-9-lives-warehouse-holokaust",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "9-lives-warehouse",
+    "venue": "9 Lives Warehouse",
+    "venueHref": "https://jon.luini.com/thelist/club.html#9_lives_warehouse",
+    "city": "",
+    "details": "a/a $15 7pm/8pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Holokaust",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Holokaust%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Ritter",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ritter%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Cult Mind",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cult%20Mind%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Aphid",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Aphid%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Skolp",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Skolp%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
@@ -17066,7 +8896,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Bottom of the Hill",
     "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
     "city": "",
-    "details": "a/a $15/$20 8pm/8:30pm / Fartbarf, Diesel Dudes, Edgar",
+    "details": "a/a $15/$20 8pm/8:30pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -17082,7 +8912,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17091,8 +8921,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Diesel Dudes",
@@ -17101,7 +8930,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17110,8 +8939,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Edgar",
@@ -17120,7 +8948,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17129,29 +8957,100 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-bottom-of-the-hill-fartbarf-diesel-dudes-edgar",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Fartbarf, Diesel Dudes, Edgar",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Fartbarf",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fartbarf%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Diesel Dudes",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Diesel%20Dudes%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Edgar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Edgar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-castro-theater-naomi-sharon",
@@ -17200,10 +9099,139 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-10-chapel-pink-breath-of-heaven",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "chapel",
+    "venue": "Chapel",
+    "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
+    "city": "",
+    "details": "a/a $22/$26 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Pink Breath Of Heaven",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pink%20Breath%20Of%20Heaven%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Topographies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Topographies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Christina's Trip",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Christina's%20Trip%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-cloverfield-organic-farm-powerhouse-ladies",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "cloverfield-organic-farm",
+    "venue": "Cloverfield Organic Farm",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Powerhouse Ladies",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Powerhouse Ladies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Powerhouse%20Ladies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-10-davies-symphony-hall-star-wars-return-of-the-jedi-with-the-sf-symphony",
     "date": "2026-09-10",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "davies-symphony-hall",
     "venue": "Davies Symphony Hall",
     "venueHref": "",
@@ -17217,7 +9245,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Star Wars: Return of the Jedi with the SF Symphony",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Star%20Wars%3A%20Return%20of%20the%20Jedi%20with%20the%20SF%20Symphony%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -17240,7 +9287,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "DNA Lounge",
     "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
     "city": "",
-    "details": "a/a $26/$36 7pm / Pig, Cyanotic",
+    "details": "a/a $26/$36 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -17256,7 +9303,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17265,8 +9312,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Cyanotic",
@@ -17275,7 +9321,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17284,29 +9330,183 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-dna-lounge-pig-cyanotic",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dna-lounge",
+    "venue": "DNA Lounge",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Pig, Cyanotic",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Pig",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pig%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Cyanotic",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cyanotic%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-eagle-hellcatraz-agon-aunt-calaveras-sharps-removed",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "eagle",
+    "venue": "Eagle",
+    "venueHref": "",
+    "city": "",
     "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "details": "Hellcatraz, Agon Aunt, Calaveras, Sharps Removed",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Hellcatraz",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hellcatraz%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Agon Aunt",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Agon%20Aunt%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Calaveras",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Calaveras%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Sharps Removed",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sharps%20Removed%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-eagle-hellcatraz",
@@ -17317,7 +9517,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Eagle",
     "venueHref": "https://jon.luini.com/thelist/club.html#eagle",
     "city": "",
-    "details": "21+ $10 8:30pm / Hellcatraz, Agon Aunt, Calaveras, Sharps Removed",
+    "details": "21+ $10 8:30pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -17333,7 +9533,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17342,8 +9542,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Agon Aunt",
@@ -17352,7 +9551,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17361,8 +9560,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Calaveras",
@@ -17371,7 +9569,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17380,8 +9578,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Sharps Removed",
@@ -17406,21 +9603,10 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-el-rio-mint-glaze-joint-souls-amity-st",
@@ -17553,6 +9739,124 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-10-great-american-music-hall-your-arms-are-my-coccon",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $15/$17 6:30pm/7:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Your Arms Are My Coccon",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Your%20Arms%20Are%20My%20Coccon%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "?September Is The Only Time",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22%3FSeptember%20Is%20The%20Only%20Time%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Don't Thin Of You",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Don't%20Thin%20Of%20You%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Imagine We Had Antlers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Imagine%20We%20Had%20Antlers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Awakebutsillinbed",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Awakebutsillinbed%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-10-great-american-music-hall-your-arms-are-my-cocoon-imagine-we-had-antlers-awakebutstillinbed",
     "date": "2026-09-10",
     "title": "",
@@ -17562,7 +9866,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Your Arms Are My Cocoon, Imagine We Had Antlers, awakebutstillinbed / a/a $15/$17 6:30pm/7:30pm",
+    "details": "Your Arms Are My Cocoon, Imagine We Had Antlers, awakebutstillinbed",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -17596,7 +9900,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -17605,8 +9909,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "awakebutstillinbed",
@@ -17615,7 +9918,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -17623,36 +9926,64 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Awakebutstillinbed%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-independent-rules",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "independent",
+    "venue": "Independent",
+    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
+    "city": "",
+    "details": "18+ $32.47 8:30pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Rules",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rules%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-ivy-room-classic-hat",
@@ -17663,7 +9994,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ivy Room",
     "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
     "city": "",
-    "details": "21+ $12/$15 6:30pm/7pm / Classic Hat, Hvnter Colt, Scam Likely, Get Close",
+    "details": "21+ $12/$15 6:30pm/7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -17679,7 +10010,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17688,8 +10019,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Hvnter Colt",
@@ -17698,7 +10028,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17707,8 +10037,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Scam Likely",
@@ -17717,7 +10046,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17726,8 +10055,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Get Close",
@@ -17736,7 +10064,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -17745,29 +10073,118 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-ivy-room-classic-hat-hvnter-colt-scam-likely-get-close",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ivy-room",
+    "venue": "Ivy Room",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Classic Hat, Hvnter Colt, Scam Likely, Get Close",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Classic Hat",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Classic%20Hat%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Hvnter Colt",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hvnter%20Colt%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Scam Likely",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Scam%20Likely%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Get Close",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Get%20Close%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-keys-jazz-bistro-sherri-roberts-feat-harvie-s",
@@ -17789,38 +10206,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Sherri Roberts",
+        "name": "Sherri Roberts feat. Harvie S",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Sherri%20Roberts%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Sherri%20Roberts%20feat.%20Harvie%20S%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "Harvie S",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Harvie%20S%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -17925,7 +10324,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-10-knockout-analog-africa-and-rasta-pasta-records-on-tour",
     "date": "2026-09-10",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "knockout",
     "venue": "Knockout",
     "venueHref": "",
@@ -17939,7 +10338,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Analog Africa & Rasta Pasta Records On Tour",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Analog%20Africa%20%26%20Rasta%20Pasta%20Records%20On%20Tour%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -17957,7 +10375,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-10-mabuhay-gardens-kalimba-september-to-remember",
     "date": "2026-09-10",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "mabuhay-gardens",
     "venue": "Mabuhay Gardens",
     "venueHref": "",
@@ -17971,7 +10389,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Kalimba: September To Remember",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kalimba%3A%20September%20To%20Remember%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -18142,7 +10579,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Peacock Lounge",
     "venueHref": "https://jon.luini.com/thelist/club.html#peacock_lounge",
     "city": "",
-    "details": "a/a $5-$15 8pm til 11pm / We Micromanage Infinity, DJ Female Convict Scorpion, Shatter Pattern, Ron Heglin & Lorin Benedict",
+    "details": "a/a $5-$15 8pm til 11pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -18158,7 +10595,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -18167,8 +10604,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "dj Female Convict Scorpion",
@@ -18195,7 +10631,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -18204,8 +10640,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Ron Heglin & Lorin Benedict",
@@ -18214,7 +10649,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -18223,29 +10658,118 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-peacock-lounge-we-micromanage-infinity-dj-female-convict-scorpion-shatter-pattern-ron-heglin-and-lorin-benedict",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "peacock-lounge",
+    "venue": "Peacock Lounge",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "We Micromanage Infinity, DJ Female Convict Scorpion, Shatter Pattern, Ron Heglin & Lorin Benedict",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "We Micromanage Infinity",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22We%20Micromanage%20Infinity%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Female Convict Scorpion",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Female%20Convict%20Scorpion%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Shatter Pattern",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Shatter%20Pattern%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Ron Heglin & Lorin Benedict",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ron%20Heglin%20%26%20Lorin%20Benedict%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-piedmont-piano-company-jack-west-james-nash",
@@ -18640,7 +11164,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Pink Breath of Heaven, Topographies, Christina's Trip / a/a $22/$26 7pm/8pm",
+    "details": "Pink Breath of Heaven, Topographies, Christina's Trip",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -18656,7 +11180,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -18664,16 +11188,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Pink%20Breath%20Of%20Heaven%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Topographies",
@@ -18682,7 +11198,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -18691,8 +11207,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Christina's Trip",
@@ -18701,7 +11216,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -18710,28 +11225,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-the-deluxe-the-good-bad",
@@ -19073,7 +11577,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-10-the-starry-plough-free-funk-glory-jams",
     "date": "2026-09-10",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "starry-plough",
     "venue": "The Starry Plough",
     "venueHref": "",
@@ -19087,7 +11591,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Free Funk Glory Jams",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Free%20Funk%20Glory%20Jams%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -19102,6 +11625,135 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
+    "id": "2026-09-10-the-warfield-blood-orange",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-warfield",
+    "venue": "The Warfield",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Blood Orange",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Blood Orange",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Blood%20Orange%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-10-thee-stork-club-grez-album-release",
+    "date": "2026-09-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thee-stork-club",
+    "venue": "thee Stork Club",
+    "venueHref": "https://jon.luini.com/thelist/club.html#thee_stork_club",
+    "city": "",
+    "details": "21+ $12/$15 8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Grez (album release)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Grez%20(album%20release)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Naytronix",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Naytronix%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "FeeFawFum",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22FeeFawFum%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-10-thee-stork-club-grex-naytronix-feefawfum",
     "date": "2026-09-10",
     "title": "",
@@ -19111,7 +11763,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Grex, Naytronix, Feefawfum / 21+ $12/$15 8pm",
+    "details": "Grex, Naytronix, Feefawfum",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -19145,7 +11797,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -19154,8 +11806,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Feefawfum",
@@ -19164,7 +11815,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -19172,36 +11823,18 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22FeeFawFum%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-warfield-blood-orange",
@@ -19212,7 +11845,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Warfield",
     "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
     "city": "",
-    "details": "6+ 7pm/8pm # / Blood Orange",
+    "details": "6+ 7pm/8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -19228,7 +11861,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -19237,29 +11870,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-10-yoshi-s-dominique-fils-aim",
@@ -19368,6 +11989,52 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-4th-corner-speakeasy-westerly",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "4th-corner-speakeasy",
+    "venue": "4th Corner Speakeasy",
+    "venueHref": "https://jon.luini.com/thelist/club.html#4th_corner_speakeasy",
+    "city": "",
+    "details": "21+",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Westerly",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Westerly%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
@@ -19613,7 +12280,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Bimbo's 365 Club",
     "venueHref": "https://jon.luini.com/thelist/club.html#bimbo",
     "city": "",
-    "details": "21+ $36 7pm/8pm / Super Diamond, Starman SF",
+    "details": "21+ $36 7pm/8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -19629,7 +12296,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -19638,8 +12305,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Starman SF",
@@ -19648,7 +12314,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -19657,29 +12323,82 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-bimbos-365-club-super-diamond-starman-sf",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bimbos-365-club",
+    "venue": "Bimbos 365 Club",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Super Diamond, Starman SF",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Super Diamond",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Super%20Diamond%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Starman SF",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Starman%20SF%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-biscuits-and-blues-rick-estrin-and-the-nightcats",
@@ -19748,38 +12467,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Richard Cortez",
+        "name": "Richard Cortez with the Sam Hirsh Trio",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%20with%20the%20Sam%20Hirsh%20Trio%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "The Sam Hirsh Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Sam%20Hirsh%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -19791,27 +12492,22 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
-    "id": "2026-09-11-bottom-of-the-hill-bratmobile-the-okmoniks",
+    "id": "2026-09-11-bottom-of-the-hill-bratmobile",
     "date": "2026-09-11",
     "title": "",
     "showType": "artist",
     "venueId": "bottom-of-the-hill",
     "venue": "Bottom of the Hill",
-    "venueHref": "",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
     "city": "",
-    "region": "San Francisco",
-    "details": "Bratmobile, The Okmoniks / a/a $35 8pm/9pm @",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "details": "a/a $35 8pm/9pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
     },
     "eventTypes": [],
     "themes": [],
@@ -19823,33 +12519,14 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Bratmobile%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "kalx"
-          }
-        ],
-        "displayName": ""
-      },
-      {
-        "name": "The Okmoniks",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Okmoniks%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
+            "source": "the-list"
           }
         ]
       },
@@ -19869,40 +12546,94 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-bottom-of-the-hill-bratmobile-the-okmoniks",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Bratmobile, The Okmoniks",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bratmobile",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bratmobile%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "The Okmoniks",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Okmoniks%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-brick-and-mortar-music-hall-cuva-bim-the-lighting-section-soft-circuit",
     "date": "2026-09-11",
     "title": "",
     "showType": "artist",
-    "venueId": "brick-and-mortar",
+    "venueId": "brick-and-mortar-music-hall",
     "venue": "Brick & Mortar Music Hall",
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "CuVa Bimö, The Lighting Section, Soft Circuit / a/a $20 (under 21 plus $5) 8pm/8:30pm ^",
+    "details": "CuVa Bimö, The Lighting Section, Soft Circuit",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -19936,7 +12667,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -19945,8 +12676,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Soft Circuit",
@@ -19955,7 +12685,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -19964,28 +12694,99 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-brick-and-mortar-cuva-bimo-album-release",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "brick-and-mortar",
+    "venue": "Brick and Mortar",
+    "venueHref": "https://jon.luini.com/thelist/club.html#brick_and_mortar",
+    "city": "",
+    "details": "a/a $20 (under 21 plus $5) 8pm/8:30pm ^",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Cuva Bimo (album release)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cuva%20Bimo%20(album%20release)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "The Lighting Section",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Lighting%20Section%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Soft Circuit",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Soft%20Circuit%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-center-for-new-music-alex-heigl-nora-free-chris-trinidad-ian-mackenzie",
@@ -20097,7 +12898,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Chapel",
     "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
     "city": "",
-    "details": "8pm/9pm / Acid Tongue, Los Dug Dug's",
+    "details": "8pm/9pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -20113,7 +12914,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -20122,8 +12923,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Los Dug Dug's",
@@ -20132,7 +12932,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -20141,29 +12941,63 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-creek-park-moonalice",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "creek-park",
+    "venue": "Creek Park",
+    "venueHref": "https://jon.luini.com/thelist/club.html#creek_park",
+    "city": "",
+    "details": "a/a free 6pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Moonalice",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Moonalice%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-crybaby-lil-kayla",
@@ -20323,7 +13157,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-11-dna-lounge-mortified",
     "date": "2026-09-11",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "dna-lounge",
     "venue": "DNA Lounge",
     "venueHref": "",
@@ -20337,7 +13171,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Mortified",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mortified%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -20668,7 +13521,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-11-fox-theater-michael-blaustein",
     "date": "2026-09-11",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "fox-theater",
     "venue": "Fox Theater",
     "venueHref": "",
@@ -20682,7 +13535,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Michael Blaustein",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Michael%20Blaustein%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -20697,6 +13569,142 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
+    "id": "2026-09-11-gilman-worst",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a $15 5:30pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Worst",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Worst%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Decades In",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Decades%20In%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Midori",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Midori%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Dolores",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dolores%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The American Dream",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20American%20Dream%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Deadringer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Deadringer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-11-great-american-music-hall-necrot-iron-lung-death-grave-street-tombs",
     "date": "2026-09-11",
     "title": "",
@@ -20706,7 +13714,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Necrot, Iron Lung, Death Grave, Street Tombs / a/a $25/$30 7pm/8pm @",
+    "details": "Necrot, Iron Lung, Death Grave, Street Tombs",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -20722,7 +13730,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -20731,8 +13739,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Iron Lung",
@@ -20741,7 +13748,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -20750,8 +13757,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Death Grave",
@@ -20760,7 +13766,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -20769,8 +13775,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Street Tombs",
@@ -20795,20 +13800,110 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-great-american-music-hall-necrot",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $25/$30 7pm/8pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Necrot",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Necrot%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Iron Lung",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Iron%20Lung%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Death Grave",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Death%20Grave%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Street Tombs",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Street%20Tombs%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-greek-theatre-foster-the-people",
@@ -20819,7 +13914,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Greek Theatre",
     "venueHref": "https://jon.luini.com/thelist/club.html#greek_theatre",
     "city": "",
-    "details": "a/a 6:30pm/8pm # / Foster The People, Goth Babe",
+    "details": "a/a 6:30pm/8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -20837,7 +13932,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -20846,8 +13941,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Goth Babe",
@@ -20856,7 +13950,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -20865,29 +13959,84 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-greek-theatre-foster-the-people-goth-babe",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "greek-theatre",
+    "venue": "Greek Theatre",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Foster The People, Goth Babe",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [
+      "goth"
+    ],
+    "artists": [
+      {
+        "name": "Foster The People",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Foster%20The%20People%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Goth Babe",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Goth%20Babe%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-guild-theater-marcus-rezak-s-shread-is-dead",
@@ -21052,6 +14201,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-11-independent-arlo",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "independent",
+    "venue": "Independent",
+    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
+    "city": "",
+    "details": "18+ $34.5 8:30pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Arlo",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Arlo%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Fromclay",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fromclay%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-11-ivy-room-the-snares",
     "date": "2026-09-11",
     "title": "",
@@ -21060,7 +14273,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ivy Room",
     "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
     "city": "",
-    "details": "21+ $20 7:30pm/8pm / The Snares, The Strange Ones, Slow Coast",
+    "details": "21+ $20 7:30pm/8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -21076,7 +14289,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21085,8 +14298,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Strange Ones",
@@ -21095,7 +14307,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21104,8 +14316,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Slow Coast",
@@ -21114,7 +14325,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21123,29 +14334,100 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-ivy-room-the-snares-the-strange-ones-slow-coast",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ivy-room",
+    "venue": "Ivy Room",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "The Snares, The Strange Ones, Slow Coast",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Snares",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Snares%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "The Strange Ones",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Strange%20Ones%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Slow Coast",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Slow%20Coast%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-jupiter-david-byrd-and-byrds-of-a-feather",
@@ -21198,7 +14480,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-11-keys-jazz-bistro-ritmo-y-voz-afro-cuban-jazz-ignited",
     "date": "2026-09-11",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "keys-jazz-bistro",
     "venue": "Keys Jazz Bistro",
     "venueHref": "",
@@ -21214,7 +14496,26 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [
       "jazz"
     ],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Ritmo y Voz: Afro-Cuban Jazz Ignited",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ritmo%20y%20Voz%3A%20Afro-Cuban%20Jazz%20Ignited%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -21539,6 +14840,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-11-regency-ballroom-altin-gun",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "regency-ballroom",
+    "venue": "Regency Ballroom",
+    "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
+    "city": "",
+    "details": "a/a 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Altin Gun",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Altin%20Gun%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Alex Maas",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Alex%20Maas%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-11-ritz-powerman-5000",
     "date": "2026-09-11",
     "title": "",
@@ -21547,7 +14912,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ritz",
     "venueHref": "https://jon.luini.com/thelist/club.html#ritz",
     "city": "",
-    "details": "a/a $31.34 7pm",
+    "details": "a/a $25/$30 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -21572,8 +14937,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Makes My Blood Dance",
@@ -21591,8 +14955,25 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
+        ]
+      },
+      {
+        "name": "Ikki Crane",
+        "tags": [
+          "unknown"
         ],
-        "displayName": ""
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ikki%20Crane%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -21602,10 +14983,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-sf-jazz-center-christian-mcbride",
@@ -21664,11 +15042,111 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Dandy Fest: Joel Cusumano, The Goods, Motorcycle, Smile Too Much / a/a $10 8pm",
+    "details": "Dandy Fest: Joel Cusumano, The Goods, Motorcycle, Smile Too Much",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
       "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dandy Fest: Joel Cusumano",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dandy%20Fest%3A%20Joel%20Cusumano%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "The Goods",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Goods%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Motorcycle",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Motorcycle%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Smile Too Much",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Smile%20Too%20Much%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-spats-joel-cusumano",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "spats",
+    "venue": "Spats",
+    "venueHref": "https://jon.luini.com/thelist/club.html#spats",
+    "city": "",
+    "details": "a/a $10 8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
     },
     "eventTypes": [],
     "themes": [],
@@ -21687,10 +15165,9 @@ window.SHOW_EXPLORER_EVENTS = [
             "url": "https://duckduckgo.com/?q=%22Joel%20Cusumano%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Goods",
@@ -21699,17 +15176,16 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22The%20Goods%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "kalx"
+            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Motorcycle",
@@ -21718,17 +15194,16 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Motorcycle%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "kalx"
+            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Smile Too Much",
@@ -21737,37 +15212,74 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Smile%20Too%20Much%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "kalx"
+            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-starry-plough-margie-turner-and-the-outback-blues-band",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "starry-plough",
+    "venue": "Starry Plough",
+    "venueHref": "https://jon.luini.com/thelist/club.html#starry_plough",
+    "city": "",
+    "details": "21+ $12/$10 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [
+      "blues"
+    ],
+    "artists": [
+      {
+        "name": "Margie Turner And The Outback Blues Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Margie%20Turner%20And%20The%20Outback%20Blues%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-stay-gold-deli-press-on",
@@ -21778,7 +15290,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Stay Gold Deli",
     "venueHref": "https://jon.luini.com/thelist/club.html#stay_gold_deli",
     "city": "",
-    "details": "a/a $10 6pm/7pm / Press On, Xtranos, Must Be Nice, East Brothers Band",
+    "details": "a/a $10 6pm/7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -21794,7 +15306,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21803,8 +15315,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Xtranos",
@@ -21813,7 +15324,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21822,8 +15333,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Must Be Nice",
@@ -21832,7 +15342,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21841,8 +15351,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "East Brothers Band",
@@ -21851,7 +15360,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -21860,29 +15369,164 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-stay-gold-deli-press-on-xtranos-must-be-nice-east-brothers-band",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "stay-gold-deli",
+    "venue": "Stay Gold Deli",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Press On, Xtranos, Must Be Nice, East Brothers Band",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Press On",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Press%20On%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Xtranos",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Xtranos%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Must Be Nice",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Must%20Be%20Nice%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "East Brothers Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22East%20Brothers%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-swedish-american-hall-anaiis",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "swedish-american-hall",
+    "venue": "Swedish American Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#swedish_american_hall",
+    "city": "",
+    "details": "21+ $33.45 8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Anaiis",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Anaiis%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-swedish-american-hall-anaiis-elliott-skinner",
@@ -21894,7 +15538,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "anaiis, Elliott Skinner / 21+ $33.45 8pm",
+    "details": "anaiis, Elliott Skinner",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -21910,7 +15554,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -21918,16 +15562,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Anaiis%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Elliott Skinner",
@@ -21952,26 +15588,16 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-sweetwater-music-hall-you-should-be-dancing-a-tribute-to-the-bee-gees",
     "date": "2026-09-11",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "sweetwater-music-hall",
     "venue": "Sweetwater Music Hall",
     "venueHref": "",
@@ -21987,7 +15613,26 @@ window.SHOW_EXPLORER_EVENTS = [
       "coverBand"
     ],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "You Should Be Dancing: A Tribute to the Bee Gees",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22You%20Should%20Be%20Dancing%3A%20A%20Tribute%20to%20the%20Bee%20Gees%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -22032,6 +15677,71 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Yolandra%20Rhodes%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-the-chapel-acid-tongue-los-dug-dug-s",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-chapel",
+    "venue": "The Chapel",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Acid Tongue, Los Dug Dug's",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Acid Tongue",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Acid%20Tongue%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Los Dug Dug's",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Los%20Dug%20Dug's%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "kalx"
@@ -22154,7 +15864,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Arlo, fromclay / 18+ $34.5 8:30pm/9pm",
+    "details": "Arlo, fromclay",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -22170,7 +15880,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22179,8 +15889,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "fromclay",
@@ -22189,7 +15898,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22197,36 +15906,18 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Fromclay%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-the-lab-heart-trio-william-parker-hamid-drake-cooper-moore",
@@ -22248,20 +15939,56 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Heart Trio",
+        "name": "Heart Trio (William Parker",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Heart%20Trio%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Heart%20Trio%20(William%20Parker%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Hamid Drake",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hamid%20Drake%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Cooper-Moore)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cooper-Moore)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
           }
         ]
       }
@@ -22283,7 +16010,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-11-the-lost-church-am-i-the-a-hole",
     "date": "2026-09-11",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "lost-church",
     "venue": "The Lost Church",
     "venueHref": "",
@@ -22297,7 +16024,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Am I the A*hole?",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Am%20I%20the%20A*hole%3F%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -22404,7 +16150,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Altın Gün, Alex Maas / a/a 7pm/8pm #",
+    "details": "Altın Gün, Alex Maas",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -22438,7 +16184,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22447,28 +16193,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-the-rite-spot-angela-laflamme",
@@ -22574,7 +16309,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Blood Orange / 6+ 7pm/8pm #",
+    "details": "Blood Orange",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -22590,7 +16325,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22599,28 +16334,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-thee-stork-club-combo-tezeta",
@@ -22631,7 +16355,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "thee Stork Club",
     "venueHref": "https://jon.luini.com/thelist/club.html#thee_stork_club",
     "city": "",
-    "details": "21+ $18/$20 8pm / Combo Tezeta, Discomovil Salazar",
+    "details": "21+ $18/$20 8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -22647,7 +16371,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -22656,8 +16380,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Discomovil Salazar",
@@ -22666,7 +16389,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -22675,29 +16398,82 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-thee-stork-club-combo-tezeta-discomovil-salazar",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thee-stork-club",
+    "venue": "Thee Stork Club",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Combo Tezeta, Discomovil Salazar",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Combo Tezeta",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Combo%20Tezeta%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Discomovil Salazar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Discomovil%20Salazar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-11-town-hall-plaza-talley-up",
@@ -22729,6 +16505,134 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Talley%20Up%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-warfield-blood-orange",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "warfield",
+    "venue": "Warfield",
+    "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
+    "city": "",
+    "details": "6+ 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Blood Orange",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Blood%20Orange%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-11-wintrs-tavern-dusted-angel",
+    "date": "2026-09-11",
+    "title": "",
+    "showType": "artist",
+    "venueId": "wintrs-tavern",
+    "venue": "Wintrs Tavern",
+    "venueHref": "https://jon.luini.com/thelist/club.html#wintrs_tavern",
+    "city": "",
+    "details": "21+ free 8pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dusted Angel",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dusted%20Angel%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Ragweed",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ragweed%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Curb Creeps",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Curb%20Creeps%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -22867,7 +16771,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Iron Lung, Grand Invincible, Planet on a Chain, Totalna Tama, Surprise Privilege / a/a $15 7pm @",
+    "details": "Iron Lung, Grand Invincible, Planet on a Chain, Totalna Tama, Surprise Privilege",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -22883,7 +16787,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22892,8 +16796,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Grand Invincible",
@@ -22902,7 +16805,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22911,8 +16814,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Planet on a Chain",
@@ -22921,7 +16823,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22929,16 +16831,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Planet%20On%20A%20Chain%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Totalna Tama",
@@ -22947,7 +16841,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22956,8 +16850,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Surprise Privilege",
@@ -22966,7 +16859,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -22975,34 +16868,23 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-almanac-adventureland-puppet-wars",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "almanac-adventureland",
     "venue": "Almanac Adventureland",
     "venueHref": "",
@@ -23016,7 +16898,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Puppet Wars",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Puppet%20Wars%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -23034,7 +16935,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-12-ashkenaz-mortified",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "ashkenaz",
     "venue": "Ashkenaz",
     "venueHref": "",
@@ -23048,7 +16949,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Mortified",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mortified%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -23066,7 +16986,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-12-august-hall-colors-presents-r-and-b-only",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "august-hall",
     "venue": "August Hall",
     "venueHref": "",
@@ -23080,7 +17000,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Colors Presents: R&B Only",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Colors%20Presents%3A%20R%26B%20Only%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -23103,7 +17042,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Benders",
     "venueHref": "https://jon.luini.com/thelist/club.html#benders",
     "city": "",
-    "details": "21+ free 9pm / Party Force$, Magic Eye",
+    "details": "21+ free 9pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -23119,7 +17058,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -23128,8 +17067,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Magic Eye",
@@ -23138,7 +17076,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -23147,29 +17085,82 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-benders-party-force-magic-eye",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "benders",
+    "venue": "Benders",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Party Force$, Magic Eye",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Party Force$",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Party%20Force%24%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "Magic Eye",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Magic%20Eye%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-biscuits-and-blues-guy-davis",
@@ -23238,38 +17229,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Richard Cortez",
+        "name": "Richard Cortez with the Sam Hirsh Trio",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%20with%20the%20Sam%20Hirsh%20Trio%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "The Sam Hirsh Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Sam%20Hirsh%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -23281,11 +17254,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-bottom-of-the-hill-bratmobile-a-la-tata",
@@ -23297,7 +17266,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Bratmobile, A La Tata / a/a $35 8pm/9pm @ (sold out)",
+    "details": "Bratmobile, A La Tata",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -23313,7 +17282,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23322,8 +17291,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "A La Tata",
@@ -23332,7 +17300,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23341,28 +17309,81 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-bottom-of-the-hill-bratmobile",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "city": "",
+    "details": "a/a $35 8pm/9pm @ (sold out)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bratmobile",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bratmobile%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "A La Tata",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22A%20La%20Tata%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-brick-and-mortar-music-hall-konstancy-sammy-shiblaq-hakvm-katana",
@@ -23475,7 +17496,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Dent May, Healing Potpourri / 21+ $28.30 8pm/9pm",
+    "details": "Dent May, Healing Potpourri",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -23491,7 +17512,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23500,8 +17521,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Healing Potpourri",
@@ -23510,7 +17530,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23519,28 +17539,127 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-cafe-du-nord-dent-may",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "cafe-du-nord",
+    "venue": "Cafe Du Nord",
+    "venueHref": "https://jon.luini.com/thelist/club.html#cafe_du_nord",
+    "city": "",
+    "details": "21+ $28.30 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dent May",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dent%20May%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Healing Potpourri",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Healing%20Potpourri%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-castro-orville-peck",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a 8pm # (sold out)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Orville Peck",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Orville%20Peck%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-castro-theater-orville-peck",
@@ -23552,7 +17671,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Orville Peck / a/a 8pm # (sold out)",
+    "details": "Orville Peck",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -23568,7 +17687,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23577,28 +17696,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-center-for-new-music-2-2-kevin-corcoran-james-fei-jacob-felix-heule-bill-hsu",
@@ -23620,20 +17728,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Kevin Corcoran",
+        "name": "2×2: Kevin Corcoran",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Kevin%20Corcoran%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%222%C3%972%3A%20Kevin%20Corcoran%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
@@ -23709,7 +17817,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-12-church-of-clown-clown-burlesque-extravaganza-cabaret",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "church-of-clown",
     "venue": "Church of Clown",
     "venueHref": "",
@@ -23723,7 +17831,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Clown Burlesque Extravaganza Cabaret",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Clown%20Burlesque%20Extravaganza%20Cabaret%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -23736,6 +17863,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
+  },
+  {
+    "id": "2026-09-12-creek-park-el-cajon-le-minivans",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "creek-park",
+    "venue": "Creek Park",
+    "venueHref": "https://jon.luini.com/thelist/club.html#creek_park",
+    "city": "",
+    "details": "a/a free 6pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "El Cajon/Le Minivans",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22El%20Cajon%2FLe%20Minivans%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-danny-murry-s-12-steps-to-nothing",
@@ -23805,7 +17978,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-12-davies-symphony-hall-star-wars-return-of-the-jedi-with-the-sf-symphony",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "davies-symphony-hall",
     "venue": "Davies Symphony Hall",
     "venueHref": "",
@@ -23819,7 +17992,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Star Wars: Return of the Jedi with the SF Symphony",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Star%20Wars%3A%20Return%20of%20the%20Jedi%20with%20the%20SF%20Symphony%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -23834,6 +18026,71 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
+    "id": "2026-09-12-dna-lounge-prescott-niles-the-knack-the-bpms",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dna-lounge",
+    "venue": "DNA Lounge",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Prescott Niles' The Knack, The BPMs",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Prescott Niles' The Knack",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Prescott%20Niles'%20The%20Knack%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "The BPMs",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20BPMs%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-12-dna-lounge-the-knack",
     "date": "2026-09-12",
     "title": "",
@@ -23842,7 +18099,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "DNA Lounge",
     "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
     "city": "",
-    "details": "a/a $39/$56 7pm / Prescott Niles' The Knack, The BPMs",
+    "details": "a/a $39/$56 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -23868,45 +18125,16 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
-      },
-      {
-        "name": "The BPMs",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20BPMs%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-eli-s-mile-high-club-abracanasty",
@@ -23956,6 +18184,98 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-12-fillmore-public-image-ltd",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "fillmore",
+    "venue": "Fillmore",
+    "venueHref": "https://jon.luini.com/thelist/club.html#fillmore",
+    "city": "",
+    "details": "a/a 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Public Image Ltd.",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Public%20Image%20Ltd.%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-fox-theater-thievery-corporation",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "fox-theater",
+    "venue": "Fox Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#fox_theater",
+    "city": "",
+    "details": "a/a $73.25 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Thievery Corporation",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Thievery%20Corporation%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-12-fox-theater-thievery-corporation-captain-planet-fox-theater",
     "date": "2026-09-12",
     "title": "",
@@ -23965,7 +18285,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Thievery Corporation, Captain Planet, Fox Theater / a/a $73.25 7pm/8pm #",
+    "details": "Thievery Corporation, Captain Planet, Fox Theater",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -23981,7 +18301,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -23990,8 +18310,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Captain Planet",
@@ -24010,32 +18329,158 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "kalx"
           }
         ]
+      },
+      {
+        "name": "Fox Theater",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fox%20Theater%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-gilman-iron-lung",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a $15 7pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Iron Lung",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Iron%20Lung%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Grand Invincible",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Grand%20Invincible%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Planet On A Chain",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Planet%20On%20A%20Chain%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Totalna Tama",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Totalna%20Tama%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Surprise Privilege",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Surprise%20Privilege%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-great-american-music-hall-30th-annual-sf-drag-king-contest",
     "date": "2026-09-12",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "great-american-music-hall",
     "venue": "Great American Music Hall",
     "venueHref": "",
@@ -24049,7 +18494,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "30th Annual SF Drag King Contest",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%2230th%20Annual%20SF%20Drag%20King%20Contest%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -24253,7 +18717,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Super Ape, TaylorGryft&TheHovvlers, Couldn't Deal, Easy Tigers, The Redakted, Elegant Trash, Sparkle Plenty, Reflector Pool, Titli Thind, Noah Lux, MC PATTY / 21+ $15 ($25 vip) 6pm/6:30pm @",
+    "details": "Super Ape, TaylorGryft&TheHovvlers, Couldn't Deal, Easy Tigers, The Redakted, Elegant Trash, Sparkle Plenty, Reflector Pool, Titli Thind, Noah Lux, MC PATTY",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -24263,38 +18727,38 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Super Apes",
+        "name": "Super Ape",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Super%20Apes%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Super%20Ape%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
       {
-        "name": "Taylor Gryft & The Hovvlers",
+        "name": "TaylorGryft&TheHovvlers",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Taylor%20Gryft%20%26%20The%20Hovvlers%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22TaylorGryft%26TheHovvlers%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
@@ -24305,7 +18769,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24314,8 +18778,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Easy Tigers",
@@ -24324,7 +18787,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24333,8 +18796,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Redakted",
@@ -24361,7 +18823,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24370,8 +18832,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Sparkle Plenty",
@@ -24380,7 +18841,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24389,8 +18850,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Reflector Pool",
@@ -24399,7 +18859,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24408,8 +18868,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Titli Thind",
@@ -24427,8 +18886,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Noah Lux",
@@ -24446,8 +18904,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "MC PATTY",
@@ -24456,7 +18913,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24464,7 +18921,226 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-ivy-room-super-apes-11-10pm",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ivy-room",
+    "venue": "Ivy Room",
+    "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
+    "city": "",
+    "details": "21+ $15 ($25 vip) 6pm/6:30pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Super Apes (11:10pm)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Super%20Apes%20(11%3A10pm)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Taylor Gryft And The Hovviers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Taylor%20Gryft%20And%20The%20Hovviers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Couldn't Deal",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Couldn't%20Deal%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Easy Tigers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Easy%20Tigers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Redakted",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Redakted%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Elegant Trash",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Elegant%20Trash%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Sparkle Plenty",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sparkle%20Plenty%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Reflector Pool",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Reflector%20Pool%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Titli Thind (acoustic)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Titli%20Thind%20(acoustic)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Noah Lux (acoustic)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Noah%20Lux%20(acoustic)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "mc Patty",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22mc%20Patty%22%20band%20music",
@@ -24472,28 +19148,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-jade-cathey-resturant-indigo-elephant",
@@ -24514,24 +19179,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Indigo Elephant",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Indigo%20Elephant%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
         "name": "Special Thanks",
         "tags": [
           "unknown"
@@ -24543,6 +19190,25 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Special%20Thanks%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
+      },
+      {
+        "name": "Indigo Elephant",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Indigo%20Elephant%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -24874,16 +19540,116 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-12-knockout-the-throw-ups",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ 5pm/6pm $10",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Throw-Ups",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Throw-Ups%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Treasures",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Treasures%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Jackie Clementine",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jackie%20Clementine%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Lawnmower",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lawnmower%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-12-levi-s-plaza-plaza-palooza-ruby-ibarra-and-the-balikbayans-red-lotus-afterthought-and-the-top-chefs",
     "date": "2026-09-12",
     "title": "",
     "showType": "artist",
-    "venueId": "levi",
+    "venueId": "levi-s-plaza",
     "venue": "Levi's Plaza",
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Plaza Palooza: Ruby Ibarra & The Balikbayans, Red Lotus, Afterthought & The Top Chefs / a/a free 11am",
+    "details": "Plaza Palooza: Ruby Ibarra & The Balikbayans, Red Lotus, Afterthought & The Top Chefs",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -24893,20 +19659,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Ruby Ibarra & The Balikbayans",
+        "name": "Plaza Palooza: Ruby Ibarra & The Balikbayans",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Ruby%20Ibarra%20%26%20The%20Balikbayans%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Plaza%20Palooza%3A%20Ruby%20Ibarra%20%26%20The%20Balikbayans%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
@@ -24917,7 +19683,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -24926,8 +19692,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Afterthought & The Top Chefs",
@@ -24945,28 +19710,99 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-levi-s-plaza-ruby-ibarra-and-the-balikbayans-3pm",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "levi",
+    "venue": "Levi's Plaza",
+    "venueHref": "https://jon.luini.com/thelist/club.html#levi",
+    "city": "",
+    "details": "a/a free 11am",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Ruby Ibarra & The Balikbayans (3pm)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ruby%20Ibarra%20%26%20The%20Balikbayans%20(3pm)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Red Lotus",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Red%20Lotus%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Afterthought & The Top Chefs (noon)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Afterthought%20%26%20The%20Top%20Chefs%20(noon)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-mabuhay-gardens-ain-t-no-joke",
@@ -25222,16 +20058,198 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
-    "id": "2026-09-12-mountain-theater-mt-tam-sound-summit-father-john-misty-guster-jerry-harrison-s-50-years-of-talking-heads-la-luz-angeline-saris-and-the-snack-machine",
+    "id": "2026-09-12-moe-s-alley-black-uhuru",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "moe",
+    "venue": "Moe's Alley",
+    "venueHref": "https://jon.luini.com/thelist/club.html#moe",
+    "city": "",
+    "details": "21+ $45.76 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Black Uhuru",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Black%20Uhuru%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Jethro Jeremiah Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Jethro%20Jeremiah%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-mountain-theater-father-john-mist",
     "date": "2026-09-12",
     "title": "",
     "showType": "artist",
     "venueId": "mountain-theater",
+    "venue": "Mountain Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#mountain_theater",
+    "city": "",
+    "details": "a/a $149.50 (12 and under $74.75/2 and under free) 10:30am/11:30am #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Father John Mist",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Father%20John%20Mist%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Guster",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Guster%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Jerry Harrison",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jerry%20Harrison%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "La Luz",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22La%20Luz%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Angeline And The Snack Machine",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Angeline%20And%20The%20Snack%20Machine%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-mountain-theater-mt-tam-sound-summit-father-john-misty-guster-jerry-harrison-s-50-years-of-talking-heads-la-luz-angeline-saris-and-the-snack-machine",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "mountain-theater-mt-tam",
     "venue": "Mountain Theater, Mt. Tam",
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Sound Summit: Father John Misty, Guster, Jerry Harrison’s 50 Years of Talking Heads, La Luz, Angeline Saris & The Snack Machine / a/a $149.50 (12 and under $74.75/2 and under free) 10:30am/11:30am #",
+    "details": "Sound Summit: Father John Misty, Guster, Jerry Harrison’s 50 Years of Talking Heads, La Luz, Angeline Saris & The Snack Machine",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -25241,23 +20259,22 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Father John Misty",
+        "name": "Sound Summit: Father John Misty",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Father%20John%20Misty%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Sound%20Summit%3A%20Father%20John%20Misty%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Guster",
@@ -25266,7 +20283,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -25275,8 +20292,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Jerry Harrison’s 50 Years of Talking Heads",
@@ -25303,7 +20319,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -25312,47 +20328,35 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
-        "name": "Angeline And The Snack Machine",
+        "name": "Angeline Saris & The Snack Machine",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Angeline%20And%20The%20Snack%20Machine%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Angeline%20Saris%20%26%20The%20Snack%20Machine%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-mr-tipple-s-el-howell-quartet",
@@ -25493,7 +20497,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "O'Reilly's",
     "venueHref": "https://jon.luini.com/thelist/club.html#o",
     "city": "",
-    "details": "21+ $10/$15 / Prior To Last Season, Alias (first show), Saving Disaster, Follies",
+    "details": "21+ $10/$15",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -25509,7 +20513,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -25518,8 +20522,108 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
+        ]
+      },
+      {
+        "name": "Alias (1st show)",
+        "tags": [
+          "unknown"
         ],
-        "displayName": ""
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Alias%20(1st%20show)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Saving Disaster",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Saving%20Disaster%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Follies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Follies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-o-reilly-s-prior-to-last-season-alias-saving-disaster-follies",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "o-reilly-s",
+    "venue": "O'Reilly's",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Prior To Last Season, Alias, Saving Disaster, Follies",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Prior To Last Season",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Prior%20To%20Last%20Season%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
       {
         "name": "Alias",
@@ -25546,17 +20650,16 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Saving%20Disaster%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Follies",
@@ -25565,50 +20668,156 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Follies%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      },
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-phoenix-theater-punked-out-pretty",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "phoenix-theater",
+    "venue": "Phoenix Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
+    "city": "",
+    "details": "a/a $15.49 6:30pm/7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Punked Out Pretty",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Punked%20Out%20Pretty%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Polaris",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Polaris%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Red40",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Red40%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Sacramental",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sacramental%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Voltage",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Voltage%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-allman-brothers-tribute-bolero-spirit-hustler",
     "date": "2026-09-12",
     "title": "",
     "showType": "artist",
-    "venueId": "downtown-point-richmond",
+    "venueId": "point-san-pablo-harbor",
     "venue": "Point San Pablo Harbor",
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "The Allmond Brothers (Allman Brothers Tribute), Bolero!, Spirit Hustler / a/a $39.19 5pm/6pm",
+    "details": "The Allmond Brothers (Allman Brothers Tribute), Bolero!, Spirit Hustler",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -25620,20 +20829,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "The Allmond Brothers",
+        "name": "The Allmond Brothers (Allman Brothers Tribute)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Allmond%20Brothers%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22The%20Allmond%20Brothers%20(Allman%20Brothers%20Tribute)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
@@ -25644,7 +20853,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -25652,16 +20861,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bolero%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Spirit Hustler",
@@ -25670,7 +20871,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -25679,28 +20880,101 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-tribute",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "point-san-pablo-harbor",
+    "venue": "Point San Pablo Harbor",
+    "venueHref": "https://jon.luini.com/thelist/club.html#point_san_pablo_harbor",
+    "city": "",
+    "details": "a/a $39.19 5pm/6pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [
+      "coverBand"
+    ],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Allmond Brothers (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Allmond%20Brothers%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Bolero",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bolero%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Hustler",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Spirit%20Hustler%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-public-works-boombox-cartel",
@@ -25758,7 +21032,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Regency Ballroom",
     "venueHref": "https://jon.luini.com/thelist/club.html#regency_ballroom",
     "city": "",
-    "details": "21+ 7pm (mom dance party) / Moms Feelin' Themselves",
+    "details": "21+ 7pm # (mom dance party)",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -25776,7 +21050,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -25785,29 +21059,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-sf-jazz-center-christian-mcbride-s-ursa-major",
@@ -25866,7 +21128,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Beats Antique, Roni Kapsi / a/a $89.70-55.70 6:30pm/8pm #",
+    "details": "Beats Antique, Roni Kapsi",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -25882,7 +21144,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -25891,8 +21153,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Roni Kapsi",
@@ -25917,20 +21178,157 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-siesta-valley-bowl-beats-antique",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "siesta-valley-bowl",
+    "venue": "Siesta Valley Bowl",
+    "venueHref": "https://jon.luini.com/thelist/club.html#siesta_valley_bowl",
+    "city": "",
+    "details": "a/a $89.70-55.70 6:30pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Beats Antique",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Beats%20Antique%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Roni Kaspi",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Roni%20Kaspi%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-spats-dandy-fest-yea-ming-and-the-rumors-whitney-s-playland-twin-bloom",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "spats",
+    "venue": "Spats",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Dandy Fest: Yea-Ming & The Rumors, Whitney's Playland, Twin Bloom",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dandy Fest: Yea-Ming & The Rumors",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dandy%20Fest%3A%20Yea-Ming%20%26%20The%20Rumors%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Whitney's Playland",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Whitney's%20Playland%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Twin Bloom",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Twin%20Bloom%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-spats-yea-ming-and-the-rumours",
@@ -25941,7 +21339,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Spats",
     "venueHref": "https://jon.luini.com/thelist/club.html#spats",
     "city": "",
-    "details": "a/a $10 8pm / Dandy Fest: Yea-Ming & The Rumors, Whitney's Playland, Twin Bloom",
+    "details": "a/a $10 8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -25975,7 +21373,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -25984,8 +21382,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Twin Bloom",
@@ -25994,7 +21391,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -26003,29 +21400,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-stay-gold-deli-phantoms-forever",
@@ -26469,7 +21854,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Public Image Ltd / a/a 7pm/8pm #",
+    "details": "Public Image Ltd",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -26485,7 +21870,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -26493,36 +21878,18 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Public%20Image%20Ltd.%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-the-freight-ballak-sissoko-piers-faccini",
@@ -26693,7 +22060,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Michelle Lou and Stefan Maier + 100,000,000 Unread Messages",
+    "details": "Michelle Lou / Stefan Maier + 100,000,000 Unread Messages",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -26703,38 +22070,56 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Michelle Lou",
+        "name": "Michelle Lou / Stefan Maier + 100",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Michelle%20Lou%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Michelle%20Lou%20%2F%20Stefan%20Maier%20%2B%20100%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       },
       {
-        "name": "Stefan Maier",
+        "name": "000",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Stefan%20Maier%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22000%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "000 Unread Messages",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22000%20Unread%20Messages%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
           }
         ]
       }
@@ -26746,11 +22131,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-the-masonic-ryan-beatty",
@@ -26783,6 +22164,53 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Ryan%20Beatty%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-the-regency-moms-feelin-themselves",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-regency",
+    "venue": "The Regency",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Moms Feelin' Themselves",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Moms Feelin' Themselves",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Moms%20Feelin'%20Themselves%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "kalx"
@@ -26903,7 +22331,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "San Holo, Saka / 18+ 7pm/8pm #",
+    "details": "San Holo, Saka",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -26919,7 +22347,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -26928,8 +22356,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Saka",
@@ -26954,20 +22381,92 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-thrillhouse-records-animal-style",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thrillhouse-records",
+    "venue": "Thrillhouse Records",
+    "venueHref": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
+    "city": "",
+    "details": "a/a $10 4pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Animal Style",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Animal%20Style%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Rattfuck",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rattfuck%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Fixxer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fixxer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-town-hall-plaza-f-a-t-betty",
@@ -27025,7 +22524,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Kuma Sagar / a/a 8pm/9pm #",
+    "details": "Kuma Sagar",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -27041,7 +22540,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27050,28 +22549,146 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-uc-thteater-kuma-sagar",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "uc-thteater",
+    "venue": "UC Thteater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#uc_thteater",
+    "city": "",
+    "details": "a/a 8pm/9pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Kuma Sagar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kuma%20Sagar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-up-the-creek-records-hummingbirds-kalonn-thomas-and-sip-club-lurang",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "up-the-creek-records",
+    "venue": "Up the Creek Records",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Hummingbirds, Kalonn Thomas & Sip Club, Lurang",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Hummingbirds",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hummingbirds%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Kalonn Thomas & Sip Club",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kalonn%20Thomas%20%26%20Sip%20Club%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Lurang",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lurang%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-up-the-creek-records-the-hummingbirds",
@@ -27082,7 +22699,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Up the Creek Records",
     "venueHref": "https://jon.luini.com/thelist/club.html#up_the_creek_records",
     "city": "",
-    "details": "a/a $15 6pm til 9pm / Hummingbirds, Kalonn Thomas & Sip Club, Lurang",
+    "details": "a/a $15 6pm til 9pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -27116,7 +22733,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -27125,8 +22742,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Lurang",
@@ -27135,7 +22751,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -27144,29 +22760,63 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-12-warfield-san-holo",
+    "date": "2026-09-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "warfield",
+    "venue": "Warfield",
+    "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
+    "city": "",
+    "details": "18+ 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "San Holo",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22San%20Holo%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-12-yoshi-s-rose-royce",
@@ -27225,7 +22875,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Just Nick, CJ Lawrence, Brian Ward, Imparcial / a/a $12/$15 6pm/6:30pm (acoustic sunday)",
+    "details": "Just Nick, CJ Lawrence, Brian Ward, Imparcial",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -27241,7 +22891,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27250,8 +22900,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "CJ Lawrence",
@@ -27260,7 +22909,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27269,8 +22918,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Brian Ward",
@@ -27279,7 +22927,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27288,8 +22936,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Imparcial",
@@ -27298,7 +22945,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27307,28 +22954,99 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-above-dna-lounge-jonhhy-manchild",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "above-dna-lounge",
+    "venue": "Above DNA Lounge",
+    "venueHref": "https://jon.luini.com/thelist/club.html#above_dna_lounge",
+    "city": "",
+    "details": "a/a $15/$21 7pm/7:30pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Jonhhy Manchild",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jonhhy%20Manchild%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Friend Of A Friend",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Friend%20Of%20A%20Friend%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Karma And The Killjoys",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Karma%20And%20The%20Killjoys%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-bimbo-s-365-club-haute-and-freddy",
@@ -27447,38 +23165,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Richard Cortez",
+        "name": "Richard Cortez with the Sam Hirsh Trio",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Richard%20Cortez%20with%20the%20Sam%20Hirsh%20Trio%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
-          }
-        ]
-      },
-      {
-        "name": "The Sam Hirsh Trio",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Sam%20Hirsh%20Trio%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "manual"
+            "source": "kalx"
           }
         ]
       }
@@ -27490,11 +23190,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-bottom-of-the-hill-hex-pest",
@@ -27505,7 +23201,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Bottom of the Hill",
     "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
     "city": "",
-    "details": "a/a $15 7pm/7:30pm / Hex Pest, The Queen & I, The Pleasure Routine",
+    "details": "a/a $15 7pm/7:30pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -27521,7 +23217,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -27530,8 +23226,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Queen & I",
@@ -27540,7 +23235,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -27549,8 +23244,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Pleasure Routine",
@@ -27559,7 +23253,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -27568,29 +23262,146 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-bottom-of-the-hill-hex-pest-the-queen-and-i-the-pleasure-routine",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Hex Pest, The Queen & I, The Pleasure Routine",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Hex Pest",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hex%20Pest%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
       },
+      {
+        "name": "The Queen & I",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Queen%20%26%20I%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "The Pleasure Routine",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Pleasure%20Routine%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-cafe-du-nord-sub-urban",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "cafe-du-nord",
+    "venue": "Cafe Du Nord",
+    "venueHref": "https://jon.luini.com/thelist/club.html#cafe_du_nord",
+    "city": "",
+    "details": "a/a 8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Sub Urban",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sub%20Urban%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-cafe-du-nord-sub-urban-golden-cats",
@@ -27602,7 +23413,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Sub Urban, Golden Cats / a/a 8pm",
+    "details": "Sub Urban, Golden Cats",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -27618,7 +23429,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27627,8 +23438,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Golden Cats",
@@ -27653,20 +23463,56 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-castro-orville-peck",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a 8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Orville Peck",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Orville%20Peck%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-castro-theater-orville-peck",
@@ -27678,7 +23524,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Orville Peck / a/a 8pm #",
+    "details": "Orville Peck",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -27694,7 +23540,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27703,28 +23549,81 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-chapel-carla-dal-forno",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "chapel",
+    "venue": "Chapel",
+    "venueHref": "https://jon.luini.com/thelist/club.html#chapel",
+    "city": "",
+    "details": "a/a $29.69 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Carla Dal Forno",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Carla%20Dal%20Forno%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Cindy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cindy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-dna-lounge-johnny-manchild",
@@ -27735,7 +23634,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "DNA Lounge",
     "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
     "city": "",
-    "details": "a/a $15/$21 7pm/7:30pm @",
+    "details": "a/a $15/$21 7pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -27760,8 +23659,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Friend Of A Friend",
@@ -27779,8 +23677,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Karma And The Killjoys",
@@ -27798,8 +23695,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
@@ -27809,14 +23705,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-dna-lounge-zeromind-the-randome-devils-brodre",
@@ -27828,7 +23717,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Zeromind, The Randome Devils, Brodre / a/a $15/$22 7pm",
+    "details": "Zeromind, The Randome Devils, Brodre",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -27844,7 +23733,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27853,8 +23742,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "The Randome Devils",
@@ -27863,7 +23751,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27872,8 +23760,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Brodre",
@@ -27882,7 +23769,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -27891,28 +23778,99 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-dna-lounge-zeromind",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "dna-lounge",
+    "venue": "DNA Lounge",
+    "venueHref": "https://jon.luini.com/thelist/club.html#dna_lounge",
+    "city": "",
+    "details": "a/a $15/$22 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Zeromind",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Zeromind%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "The Randome Devils",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Randome%20Devils%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Brodre",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Brodre%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-eli-s-mile-high-club-downy-quinine-praying",
@@ -28006,7 +23964,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Fillmore",
     "venueHref": "https://jon.luini.com/thelist/club.html#fillmore",
     "city": "",
-    "details": "a/a 8pm # / Manchester Orchestra",
+    "details": "a/a 8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -28022,7 +23980,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -28031,8 +23989,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Brother Bird",
@@ -28057,21 +24014,56 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "San Francisco",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-fox-theater-masego",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "fox-theater",
+    "venue": "Fox Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#fox_theater",
+    "city": "",
+    "details": "a/a $66.75 6:30pm/7:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Masego",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Masego%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-fox-theater-masego-lekan",
@@ -28083,7 +24075,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "East Bay",
-    "details": "Masego, Lekan / a/a $66.75 6:30pm/7:30pm",
+    "details": "Masego, Lekan",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -28099,7 +24091,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -28108,8 +24100,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Lekan",
@@ -28134,20 +24125,110 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-gilman-just-nick",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a $12/$15 6pm/6:30pm (acoustic sunday)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Just Nick",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Just%20Nick%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "CJ Lawrence",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22CJ%20Lawrence%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Brian Ward",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Brian%20Ward%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Imparcial",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Imparcial%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-golden-gate-park-flower-piano-in-the-garden",
@@ -28206,7 +24287,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Bear McCreary, Angels on the Battlefield / a/a $40/$45/$50 7pm/8pm",
+    "details": "Bear McCreary, Angels on the Battlefield",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -28222,7 +24303,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -28231,8 +24312,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Angels on the Battlefield",
@@ -28257,20 +24337,139 @@ window.SHOW_EXPLORER_EVENTS = [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-great-american-music-hall-bear-mccreary",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $40/$45/$50 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bear McCreary",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bear%20McCreary%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       },
+      {
+        "name": "Angels On The Battlefield",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Angels%20On%20The%20Battlefield%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-ivy-room-hank-williams-birthday-bash-matinee-slap-dragon-later",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ivy-room",
+    "venue": "Ivy Room",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Hank Williams Birthday Bash (Matinee), Slap Dragon (Later)",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Hank Williams Birthday Bash (Matinee)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hank%20Williams%20Birthday%20Bash%20(Matinee)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Slap Dragon (Later)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Slap%20Dragon%20(Later)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-ivy-room-slap-dragon",
@@ -28281,7 +24480,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ivy Room",
     "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
     "city": "",
-    "details": "21+ $23.48 7:30pm/8pm / Hank Williams Birthday Bash (Matinee), Slap Dragon (Later)",
+    "details": "21+ $23.48 7:30pm/8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -28306,29 +24505,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-keys-jazz-bistro-lara-louise",
@@ -28851,6 +25038,89 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-13-spats-dandy-fest-james-wavey-rhymies-above-me",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "spats",
+    "venue": "Spats",
+    "venueHref": "",
+    "city": "",
+    "region": "East Bay",
+    "details": "Dandy Fest: James Wavey, Rhymies, Above Me",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dandy Fest: James Wavey",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dandy%20Fest%3A%20James%20Wavey%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Rhymies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rhymies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      },
+      {
+        "name": "Above Me",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Above%20Me%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-13-spats-james-wavey",
     "date": "2026-09-13",
     "title": "",
@@ -28859,7 +25129,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Spats",
     "venueHref": "https://jon.luini.com/thelist/club.html#spats",
     "city": "",
-    "details": "a/a $10 8pm / Dandy Fest: James Wavey, Rhymies, Above Me",
+    "details": "a/a $10 8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -28893,7 +25163,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -28902,8 +25172,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Above Me",
@@ -28912,7 +25181,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List. / Imported from KALX.",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
@@ -28921,29 +25190,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      },
-      {
-        "name": "KALX",
-        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "region": "East Bay",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-sweetwater-music-hall-black-uhuru",
@@ -29049,7 +25306,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "",
     "city": "",
     "region": "San Francisco",
-    "details": "Carla dal Forno, Cindy / a/a $29.69 7pm/8pm",
+    "details": "Carla dal Forno, Cindy",
     "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
     "source": {
       "name": "KALX",
@@ -29065,7 +25322,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -29073,16 +25330,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "type": "search",
             "confidence": "research",
             "source": "kalx"
-          },
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Carla%20Dal%20Forno%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Cindy",
@@ -29091,7 +25340,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from KALX. / Imported from The List.",
+        "note": "Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -29100,28 +25349,17 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "kalx"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-      },
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": true,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": "",
-    "time": "",
-    "price": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-13-the-deluxe-el-howell",
@@ -29154,6 +25392,53 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22El%C3%A9%20Howell%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "KALX",
+        "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-13-the-fillmore-manchester-orchestra",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "the-fillmore",
+    "venue": "The Fillmore",
+    "venueHref": "",
+    "city": "",
+    "region": "San Francisco",
+    "details": "Manchester Orchestra",
+    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
+    "source": {
+      "name": "KALX",
+      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Manchester Orchestra",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Manchester%20Orchestra%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "kalx"
@@ -29380,7 +25665,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-13-the-starry-plough-irish-session",
     "date": "2026-09-13",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "starry-plough",
     "venue": "The Starry Plough",
     "venueHref": "",
@@ -29394,7 +25679,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Irish Session",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from KALX.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Irish%20Session%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "kalx"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "KALX",
@@ -29409,10 +25713,92 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
+    "id": "2026-09-13-thrillhouse-records-astral-flesh",
+    "date": "2026-09-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thrillhouse-records",
+    "venue": "Thrillhouse Records",
+    "venueHref": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
+    "city": "",
+    "details": "a/a $10 4pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Astral Flesh",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Astral%20Flesh%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Merked",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Merked%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Funcontrol",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Funcontrol%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-13-usf-s-mclaren-center-kusf-rock-n-swap-record-fair",
     "date": "2026-09-13",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "usf",
     "venue": "USF's McLaren Center",
     "venueHref": "https://jon.luini.com/thelist/club.html#usf",
@@ -29425,7 +25811,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "KUSF Rock N Swap Record Fair",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22KUSF%20Rock%20N%20Swap%20Record%20Fair%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -29751,7 +26156,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ivy Room",
     "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
     "city": "",
-    "details": "21+ 7pm/8pm Alphabet Soup (2 sets)",
+    "details": "21+ 7pm/8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -29761,20 +26166,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Alphabet Soup",
+        "name": "Alphabet Soup (2 sets)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Alphabet%20Soup%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Alphabet%20Soup%20(2%20sets)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
       }
@@ -29786,11 +26191,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-15-bottom-of-the-hill-the-spits",
@@ -30488,15 +26889,15 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
-    "id": "2026-09-16-bottom-of-the-hill-unity-record-release-m-quaaludes",
+    "id": "2026-09-16-black-cat-the-kuumba-experience",
     "date": "2026-09-16",
     "title": "",
     "showType": "artist",
-    "venueId": "bottom-of-the-hill",
-    "venue": "Bottom of the Hill",
-    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
     "city": "",
-    "details": "a/a $13/$15 8pm/8:30pm Unity (record release)",
+    "details": "21+ $30 7pm and 9:15pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -30506,38 +26907,66 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Unity",
+        "name": "The Kuumba Experience",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Unity%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22The%20Kuumba%20Experience%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
-      },
+      }
+    ],
+    "sources": [
       {
-        "name": "Quaaludes",
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-16-bottom-of-the-hill-unity-record-release-m-quaaludes",
+    "date": "2026-09-16",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "city": "",
+    "details": "a/a $13/$15 8pm/8:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Unity (record release),m Quaaludes",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Quaaludes%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Unity%20(record%20release)%2Cm%20Quaaludes%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
       },
@@ -30585,11 +27014,7 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
   },
   {
     "id": "2026-09-16-castro-jeff-bernat",
@@ -30674,24 +27099,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Magic Sword",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Magic%20Sword%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
         "name": "Skylmit",
         "tags": [
           "unknown"
@@ -30703,6 +27110,25 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Skylmit%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
+      },
+      {
+        "name": "Magic Sword",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Magic%20Sword%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -30976,6 +27402,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Lewd Jaw (9:50pm)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lewd%20Jaw%20(9%3A50pm)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -30990,6 +27434,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
+  },
+  {
+    "id": "2026-09-16-knockout-may-be-fern",
+    "date": "2026-09-16",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "May Be Fern",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22May%20Be%20Fern%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Electric Ex",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Electric%20Ex%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Baystar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Baystar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Academy Rejects",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Academy%20Rejects%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-16-rickshaw-stop-ali",
@@ -31148,6 +27692,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-09-17-black-cat-the-kuumba-experience",
+    "date": "2026-09-17",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm and 9:15pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Kuumba Experience",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Kuumba%20Experience%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-17-bottom-of-the-hill-unsane",
     "date": "2026-09-17",
     "title": "",
@@ -31234,6 +27824,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-09-17-cafe-du-nord-dutch-melrose",
+    "date": "2026-09-17",
+    "title": "",
+    "showType": "artist",
+    "venueId": "cafe-du-nord",
+    "venue": "Cafe Du Nord",
+    "venueHref": "https://jon.luini.com/thelist/club.html#cafe_du_nord",
+    "city": "",
+    "details": "a/a $33.24 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dutch Melrose",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dutch%20Melrose%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Benny Mayne",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Benny%20Mayne%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Pretty Havoc",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pretty%20Havoc%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-17-castro-josh-thomas",
@@ -32096,7 +28768,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Bimbo's 365 Club",
     "venueHref": "https://jon.luini.com/thelist/club.html#bimbo",
     "city": "",
-    "details": "21+ 7pm/8pm",
+    "details": "21+ $41.21 7pm/8pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -32121,8 +28793,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       },
       {
         "name": "Chacha Via Circuito",
@@ -32140,8 +28811,7 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
@@ -32151,10 +28821,53 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-18-black-cat-lady-stout-and-nurenssnce",
+    "date": "2026-09-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm and 9:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Lady Stout & Nurenssnce",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lady%20Stout%20%26%20Nurenssnce%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-18-bottom-of-the-hill-steel-pole-bath-tub",
@@ -32592,6 +29305,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-09-18-hopmonk-the-anton-collection",
+    "date": "2026-09-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "hopmonk",
+    "venue": "Hopmonk",
+    "venueHref": "https://jon.luini.com/thelist/club.html#hopmonk",
+    "city": "",
+    "details": "21+ $30.57 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Anton Collection",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Anton%20Collection%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Joe Marcinex Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Joe%20Marcinex%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-18-independent-daniel-avery",
     "date": "2026-09-18",
     "title": "",
@@ -32710,6 +29487,60 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "manual"
           }
         ]
+      },
+      {
+        "name": "Plan 9 (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Plan%209%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Highway Ghosts (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Highway%20Ghosts%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Suburban Robots (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Suburban%20Robots%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -32726,10 +29557,56 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
+    "id": "2026-09-18-papermill-creek-saloon-wreckless-strangers",
+    "date": "2026-09-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "papermill-creek-saloon",
+    "venue": "Papermill Creek Saloon",
+    "venueHref": "https://jon.luini.com/thelist/club.html#papermill_creek_saloon",
+    "city": "",
+    "details": "21+ $15 8:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Wreckless Strangers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Wreckless%20Strangers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-18-paramount-theater-mojo-brookzz",
     "date": "2026-09-18",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "paramount-theater",
     "venue": "Paramount Theater",
     "venueHref": "https://jon.luini.com/thelist/club.html#paramount_theater",
@@ -32742,7 +29619,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Mojo Brookzz",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mojo%20Brookzz%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -32760,7 +29656,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-18-phoenix-theater-phoenix-pro-wrestling",
     "date": "2026-09-18",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "phoenix-theater",
     "venue": "Phoenix Theater",
     "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
@@ -32773,7 +29669,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Phoenix Pro Wrestling",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Phoenix%20Pro%20Wrestling%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -33064,7 +29979,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ]
+        ],
+        "displayName": ""
       },
       {
         "name": "Vaxxines",
@@ -33435,7 +30351,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "9 Lives Warehouse",
     "venueHref": "https://jon.luini.com/thelist/club.html#9_lives_warehouse",
     "city": "",
-    "details": "a/a $15 7pm/7:30pm Vangozeer (last show)",
+    "details": "a/a $15 7pm/7:30pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -33445,20 +30361,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Vangozeer",
+        "name": "Vangozeer (last show)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Vangozeer%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Vangozeer%20(last%20show)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
       },
@@ -33524,11 +30440,53 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-19-black-cat-lady-stout-and-nurenssnce",
+    "date": "2026-09-19",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm and 9:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Lady Stout & Nurenssnce",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lady%20Stout%20%26%20Nurenssnce%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-19-bottom-of-the-hill-spiritual-cramp",
@@ -34603,6 +31561,24 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Papi Churro (drag king)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Papi%20Churro%20(drag%20king)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -34625,7 +31601,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-19-gilman-membership-meeting",
     "date": "2026-09-19",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "gilman",
     "venue": "Gilman",
     "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
@@ -34638,7 +31614,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Membership Meeting",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Membership%20Meeting%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -34893,7 +31888,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Ivy Room",
     "venueHref": "https://jon.luini.com/thelist/club.html#ivy_room",
     "city": "",
-    "details": "21+ $20 7pm/7:30pm Surplus 1980 (last show)",
+    "details": "21+ $20 7pm/7:30pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -34903,20 +31898,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Surplus 1980",
+        "name": "Surplus 1980 (last show)",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Surplus%201980%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Surplus%201980%20(last%20show)%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
       },
@@ -34982,11 +31977,89 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-19-knockout-the-disrespectors",
+    "date": "2026-09-19",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ free 4pm/5pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Disrespectors",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Disrespectors%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Who Asked For This?",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Who%20Asked%20For%20This%3F%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "The Dopplebangers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Dopplebangers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-19-mabuhay-gardens-cartilage",
@@ -35142,6 +32215,24 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Jak Harlow",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jak%20Harlow%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -35279,7 +32370,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-19-mountain-winery-jeff-dunham",
     "date": "2026-09-19",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "mountain-winery",
     "venue": "Mountain Winery",
     "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
@@ -35292,7 +32383,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Jeff Dunham",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jeff%20Dunham%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -35690,24 +32800,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Tina",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Tina%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
-      },
-      {
         "name": "She's",
         "tags": [
           "unknown"
@@ -35719,6 +32811,25 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22She's%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
+      },
+      {
+        "name": "Tina",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Tina%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -36794,6 +33905,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-20-black-cat-lady-stout-and-nurenssnce",
+    "date": "2026-09-20",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm and 9:15pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Lady Stout & Nurenssnce",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lady%20Stout%20%26%20Nurenssnce%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-20-bottom-of-the-hill-built-like-alaska",
     "date": "2026-09-20",
     "title": "",
@@ -37038,6 +34195,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "manual"
           }
         ]
+      },
+      {
+        "name": "Bella D. & Friends",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bella%20D.%20%26%20Friends%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -37183,6 +34358,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "host Otis Otes",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22host%20Otis%20Otes%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -37247,6 +34440,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-09-20-haight-ashbury-street-fair-knights-of-molino",
+    "date": "2026-09-20",
+    "title": "",
+    "showType": "artist",
+    "venueId": "haight-ashbury-street-fair",
+    "venue": "Haight Ashbury Street Fair",
+    "venueHref": "https://jon.luini.com/thelist/club.html#haight_ashbury_street_fair",
+    "city": "",
+    "details": "a/a",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Knights Of Molino",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Knights%20Of%20Molino%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "artists",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22artists%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "vendors",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22vendors%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-20-heshers-pizza-field-of-fear",
@@ -37594,7 +34869,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-20-meritage-resort-jeff-dunham",
     "date": "2026-09-20",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "meritage-resort",
     "venue": "Meritage Resort",
     "venueHref": "https://jon.luini.com/thelist/club.html#meritage_resort",
@@ -37607,7 +34882,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Jeff Dunham",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jeff%20Dunham%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -37777,6 +35071,108 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-09-20-phoenix-theater-poets-lorrie-chang",
+    "date": "2026-09-20",
+    "title": "",
+    "showType": "artist",
+    "venueId": "phoenix-theater",
+    "venue": "Phoenix Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
+    "city": "",
+    "details": "a/a free 1pm (Petaluma Poetry Walk)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [
+      "poetry"
+    ],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Poets: Lorrie Chang",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Poets%3A%20Lorrie%20Chang%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Mahrs Emerson Schoppman",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mahrs%20Emerson%20Schoppman%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "mOody bLaCk",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22mOody%20bLaCk%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Presenter: Original Giotis",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Presenter%3A%20Original%20Giotis%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-20-porchfest-knights-of-molino",
@@ -38158,6 +35554,42 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "manual"
           }
         ]
+      },
+      {
+        "name": "Chris Cain (5pm)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Chris%20Cain%20(5pm)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Aki Kumar Blues Jam with Friends",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Aki%20Kumar%20Blues%20Jam%20with%20Friends%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -38308,6 +35740,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "manual"
           }
         ]
+      },
+      {
+        "name": "NEW DATE: Jack Harlow",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22NEW%20DATE%3A%20Jack%20Harlow%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -38322,6 +35772,124 @@ window.SHOW_EXPLORER_EVENTS = [
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
+  },
+  {
+    "id": "2026-09-21-gilman-inconvenient-truth",
+    "date": "2026-09-21",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a $10/$15 6:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Inconvenient Truth",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Inconvenient%20Truth%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Mankind",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mankind%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Wroht",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Wroht%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Spawn",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Spawn%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "40 Oz Felony",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%2240%20Oz%20Felony%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-21-regency-ballroom-uncle-acid-and-the-deadbeats",
@@ -39297,6 +36865,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-23-black-cat-cody-steinmann",
+    "date": "2026-09-23",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Cody Steinmann",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cody%20Steinmann%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-23-bottom-of-the-hill-wd-cola",
     "date": "2026-09-23",
     "title": "",
@@ -40050,6 +37664,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-09-24-black-cat-stacy-dillard-and-josh-evans-5tet",
+    "date": "2026-09-24",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "a/a $30 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Stacy Dillard & Josh Evans 5tet",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Stacy%20Dillard%20%26%20Josh%20Evans%205tet%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-24-bottom-of-the-hill-the-sam-chase-and-the-untraditional",
     "date": "2026-09-24",
     "title": "",
@@ -40097,6 +37757,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Ginger%20Molasses%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-24-catalyst-atrium-justin-martin",
+    "date": "2026-09-24",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst-atrium",
+    "venue": "Catalyst Atrium",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst_atrium",
+    "city": "",
+    "details": "16+ 7pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Justin Martin",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Justin%20Martin%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -40245,7 +37951,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-24-gilman-new-band-night",
     "date": "2026-09-24",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "gilman",
     "venue": "Gilman",
     "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
@@ -40258,7 +37964,26 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "new band night",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22new%20band%20night%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -41168,6 +38893,142 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-25-catalyst-rosewood",
+    "date": "2026-09-25",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $24.60 6pm/7pm # (battle of the bands)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Rosewood",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rosewood%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Swept to Sea",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Swept%20to%20Sea%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Perch",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Perch%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Living In Silence",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Living%20In%20Silence%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Running With Scissors",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Running%20With%20Scissors%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Red 40",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Red%2040%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-25-chapel-rose-city-band",
     "date": "2026-09-25",
     "title": "",
@@ -41347,7 +39208,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ]
+        ],
+        "displayName": ""
       },
       {
         "name": "Trashday",
@@ -41796,7 +39658,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Knockout",
     "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
     "city": "",
-    "details": "21+ $15 8pm @",
+    "details": "21+ $15 8pm/9pm @",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -43121,6 +40983,25 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
+        "name": "San Francisco Symphony",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22San%20Francisco%20Symphony%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ],
+        "displayName": ""
+      },
+      {
         "name": "Fantastic Negrito",
         "tags": [
           "unknown"
@@ -43139,20 +41020,20 @@ window.SHOW_EXPLORER_EVENTS = [
         ]
       },
       {
-        "name": "San Francisco Symphony",
+        "name": "Fantastic Negrito with the SF Symphony",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "",
+        "note": "Imported from The List.",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22San%20Francisco%20Symphony%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Fantastic%20Negrito%20with%20the%20SF%20Symphony%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "manual"
+            "source": "the-list"
           }
         ]
       }
@@ -43266,7 +41147,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-26-fox-theater-insecure-issa-rae",
     "date": "2026-09-26",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "fox-theater",
     "venue": "Fox Theater",
     "venueHref": "https://jon.luini.com/thelist/club.html#fox_theater",
@@ -43279,7 +41160,62 @@ window.SHOW_EXPLORER_EVENTS = [
     },
     "eventTypes": [],
     "themes": [],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Insecure: Issa Rae",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Insecure%3A%20Issa%20Rae%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Prenitce Penny",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Prenitce%20Penny%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "and the Cast",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22and%20the%20Cast%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -43382,6 +41318,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Trap Girl",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Trap%20Girl%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -43449,6 +41403,24 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Rusty Chains (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rusty%20Chains%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -43765,6 +41737,188 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-26-knockout-grave-dodger",
+    "date": "2026-09-26",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ $10 4pm/5pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Grave Dodger",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Grave%20Dodger%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Street",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Street%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Bad Shit",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bad%20Shit%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-26-knockout-trap-girl",
+    "date": "2026-09-26",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ $12/$15 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Trap Girl",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Trap%20Girl%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "BNuzzed Lightbeer",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22BNuzzed%20Lightbeer%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Sym,pathy Flowers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sym%2Cpathy%20Flowers%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Dust",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dust%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-26-lab-moor-mother",
     "date": "2026-09-26",
     "title": "",
@@ -43933,6 +42087,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "manual"
           }
         ]
+      },
+      {
+        "name": "The Concert (tribute)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Concert%20(tribute)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -44034,6 +42206,25 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventTypes": [],
     "themes": [],
     "artists": [
+      {
+        "name": "Jyotty",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jyotty%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": ""
+      },
       {
         "name": "Robyn",
         "tags": [
@@ -44415,25 +42606,6 @@ window.SHOW_EXPLORER_EVENTS = [
         "displayName": ""
       },
       {
-        "name": "Jyotty",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Jyotty%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
         "name": "Ranger Trucco b2b Alisha",
         "tags": [
           "unknown"
@@ -44701,6 +42873,54 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-26-rickshaw-stop-emo-nite",
+    "date": "2026-09-26",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "21+ $20/$22 9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [
+      "emo"
+    ],
+    "artists": [
+      {
+        "name": "Emo Nite",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Emo%20Nite%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-26-rio-theater-laurie-anderson",
     "date": "2026-09-26",
     "title": "",
@@ -44786,7 +43006,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "id": "2026-09-26-ritz-emo-night",
     "date": "2026-09-26",
     "title": "",
-    "showType": "event",
+    "showType": "artist",
     "venueId": "ritz",
     "venue": "Ritz",
     "venueHref": "https://jon.luini.com/thelist/club.html#ritz",
@@ -44803,7 +43023,26 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [
       "emo"
     ],
-    "artists": [],
+    "artists": [
+      {
+        "name": "Emo Night",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Emo%20Night%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
     "sources": [
       {
         "name": "The List",
@@ -44847,6 +43086,188 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Al%20Di%20Meola%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-26-someplace-d-i",
+    "date": "2026-09-26",
+    "title": "",
+    "showType": "artist",
+    "venueId": "someplace",
+    "venue": "someplace",
+    "venueHref": "https://jon.luini.com/thelist/club.html#someplace",
+    "city": "",
+    "details": "a/a $20/$25 2pm @ (Derby Skatepark fundraiser)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "D.I.",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22D.I.%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Ragweed",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ragweed%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Enemy Of My Enemy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Enemy%20Of%20My%20Enemy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Buckshot",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Buckshot%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Clitflicker",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Clitflicker%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Bobby Liebling",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bobby%20Liebling%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-09-26-starry-plough-preston-barnes-and-the-jammers",
+    "date": "2026-09-26",
+    "title": "",
+    "showType": "artist",
+    "venueId": "starry-plough",
+    "venue": "Starry Plough",
+    "venueHref": "https://jon.luini.com/thelist/club.html#starry_plough",
+    "city": "",
+    "details": "21+ $15 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Preston Barnes And The Jammers",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Preston%20Barnes%20And%20The%20Jammers%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -45434,7 +43855,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Greek Theatre",
     "venueHref": "https://jon.luini.com/thelist/club.html#greek_theatre",
     "city": "",
-    "details": "a/a 7pm #",
+    "details": "a/a 7pm # (sold out",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -46573,6 +44994,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-09-27-thrillhouse-records-siniestro",
+    "date": "2026-09-27",
+    "title": "",
+    "showType": "artist",
+    "venueId": "thrillhouse-records",
+    "venue": "Thrillhouse Records",
+    "venueHref": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
+    "city": "",
+    "details": "a/a 4pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Siniestro",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Siniestro%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-27-warfield-lucki",
     "date": "2026-09-27",
     "title": "",
@@ -46762,6 +45229,24 @@ window.SHOW_EXPLORER_EVENTS = [
             "source": "the-list"
           }
         ]
+      },
+      {
+        "name": "Stephan Jenkins (solo acoustic)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Stephan%20Jenkins%20(solo%20acoustic)%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -46911,25 +45396,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Social Distortion",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Social%20Distortion%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
         "name": "Descendants",
         "tags": [
           "unknown"
@@ -46941,6 +45407,25 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Descendants%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": "Descendents"
+      },
+      {
+        "name": "Social Distortion",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Social%20Distortion%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -47365,25 +45850,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "themes": [],
     "artists": [
       {
-        "name": "Social Distortion",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Social%20Distortion%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ],
-        "displayName": ""
-      },
-      {
         "name": "Descendants",
         "tags": [
           "unknown"
@@ -47395,6 +45861,32 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Descendants%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          },
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Descendents%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ],
+        "displayName": "Descendents"
+      },
+      {
+        "name": "Social Distortion",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Social%20Distortion%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -47420,24 +45912,6 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
-      },
-      {
-        "name": "Descendents",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from The List.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Descendents%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "the-list"
-          }
-        ]
       }
     ],
     "sources": [
@@ -47860,6 +46334,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-09-29-uptown-theater-the-phil-collins-story",
+    "date": "2026-09-29",
+    "title": "",
+    "showType": "artist",
+    "venueId": "uptown-theater",
+    "venue": "Uptown Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#uptown_theater",
+    "city": "",
+    "details": "16 with adult) 6:30pm/7:30pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Phil Collins Story",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Phil%20Collins%20Story%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-09-29-warfield-badbadnotgood",
     "date": "2026-09-29",
     "title": "",
@@ -48126,6 +46646,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-09-30-black-cat-character-select",
+    "date": "2026-09-30",
+    "title": "",
+    "showType": "artist",
+    "venueId": "black-cat",
+    "venue": "Black Cat",
+    "venueHref": "https://jon.luini.com/thelist/club.html#black_cat",
+    "city": "",
+    "details": "21+ $30 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Character Select",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Character%20Select%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-30-bottom-of-the-hill-cult-strange",
@@ -48534,6 +47100,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-09-30-knockout-rip-florence",
+    "date": "2026-09-30",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knockout",
+    "venue": "Knockout",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knockout",
+    "city": "",
+    "details": "21+ $12 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Rip Florence",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rip%20Florence%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Michael Mouse",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Michael%20Mouse%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Croissant",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Croissant%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Trix From Peels",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Trix%20From%20Peels%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-09-30-mabuhay-gardens-marcelle-and-the-heartbreak-kids",
@@ -50626,7 +49292,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Catalyst",
     "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
     "city": "",
-    "details": "16+",
+    "details": "16+ $#40.02 8pm/9pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -51669,6 +50335,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-10-02-nikko-john-hill-at-feinstein-s",
+    "date": "2026-10-02",
+    "title": "",
+    "showType": "artist",
+    "venueId": "nikko",
+    "venue": "Nikko",
+    "venueHref": "https://jon.luini.com/thelist/club.html#nikko",
+    "city": "",
+    "details": "18+ $33.72+ 7pm/8pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "John Hill at Feinstein's",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22John%20Hill%20at%20Feinstein's%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-10-02-regency-ballroom-hamdi-fc-vs-san-francisco",
@@ -61509,6 +60221,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-10-10-new-farm-voice-of-the-soul",
+    "date": "2026-10-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "new-farm",
+    "venue": "New Farm",
+    "venueHref": "https://jon.luini.com/thelist/club.html#new_farm",
+    "city": "",
+    "details": "a/a $10 6pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Voice Of The Soul",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Voice%20Of%20The%20Soul%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Humma Kavula",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Humma%20Kavula%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Successor",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Successor%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "God's Outlaw",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22God's%20Outlaw%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-10-point-san-pablo-harbor-tune-yards",
     "date": "2026-10-10",
     "title": "",
@@ -61674,6 +60486,106 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Windhand%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-10-rickshaw-stop-kafana-balkan",
+    "date": "2026-10-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "21_ $27.72-$49.74 8:30pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Kafana Balkan",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kafana%20Balkan%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Inspector Gadje Balkan Brass Band",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Inspector%20Gadje%20Balkan%20Brass%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Jill Parker",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jill%20Parker%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "dj Zeljko",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22dj%20Zeljko%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -61938,6 +60850,106 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Blood%20Compact%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-10-up-the-creek-records-please-save-my-earth",
+    "date": "2026-10-10",
+    "title": "",
+    "showType": "artist",
+    "venueId": "up-the-creek-records",
+    "venue": "Up the Creek Records",
+    "venueHref": "https://jon.luini.com/thelist/club.html#up_the_creek_records",
+    "city": "",
+    "details": "a/a $15 6pm til 9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Please Save My Earth",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Please%20Save%20My%20Earth%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Mywtr",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mywtr%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Please Please",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Please%20Please%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Liris'",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Liris'%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -62925,6 +61937,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-10-12-bottom-of-the-hill-triclops",
+    "date": "2026-10-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "bottom-of-the-hill",
+    "venue": "Bottom of the Hill",
+    "venueHref": "https://jon.luini.com/thelist/club.html#bottom_of_the_hill",
+    "city": "",
+    "details": "a/a $19.81 7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Triclops",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Triclops%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Wife",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Wife%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Gumby's Junk",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Gumby's%20Junk%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-12-independent-king-mala",
     "date": "2026-10-12",
     "title": "",
@@ -63103,6 +62197,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-10-13-brick-and-mortar-dani-offline",
+    "date": "2026-10-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "brick-and-mortar",
+    "venue": "Brick and Mortar",
+    "venueHref": "https://jon.luini.com/thelist/club.html#brick_and_mortar",
+    "city": "",
+    "details": "a/a $25 (under 21 plus $5) 7pm/8pm ^",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dani Offline",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dani%20Offline%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Amanda Magana",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Amanda%20Magana%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-13-chapel-militarie-gun",
     "date": "2026-10-13",
     "title": "",
@@ -63239,6 +62397,88 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Audrey%20Hobert%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-13-great-american-music-hall-provoker",
+    "date": "2026-10-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $27.50/$30 6pm/7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Provoker",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Provoker%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Topographies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Topographies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Dalmatia",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dalmatia%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -64502,6 +63742,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-10-15-felton-music-hall-bumpin-uglies",
+    "date": "2026-10-15",
+    "title": "",
+    "showType": "artist",
+    "venueId": "felton-music-hall",
+    "venue": "Felton Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#felton_music_hall",
+    "city": "",
+    "details": "21+ $34.12 9pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Bumpin Uglies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bumpin%20Uglies%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Pacific Roots",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Pacific%20Roots%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Artikal Sound ?System",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Artikal%20Sound%20%3FSystem%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-10-15-fox-theater-boy-harsher",
@@ -66264,6 +65586,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-10-16-up-the-creek-records-modern-monsters",
+    "date": "2026-10-16",
+    "title": "",
+    "showType": "artist",
+    "venueId": "up-the-creek-records",
+    "venue": "Up the Creek Records",
+    "venueHref": "https://jon.luini.com/thelist/club.html#up_the_creek_records",
+    "city": "",
+    "details": "a/a $15 6pm til 9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Modern Monsters",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Modern%20Monsters%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Velvet Grace",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Velvet%20Grace%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Fester The SToic",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fester%20The%20SToic%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-16-warfield-jessie-ware",
     "date": "2026-10-16",
     "title": "",
@@ -66729,6 +66133,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Starcleaner%20Reunion%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-17-catalyst-the-floozies",
+    "date": "2026-10-17",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $34.12-$28.72 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Floozies",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Floozies%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -67275,6 +66725,24 @@ window.SHOW_EXPLORER_EVENTS = [
           }
         ],
         "displayName": ""
+      },
+      {
+        "name": "Stella Prince",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Stella%20Prince%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
       }
     ],
     "sources": [
@@ -68180,6 +67648,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-10-18-great-american-music-hall-peaches",
+    "date": "2026-10-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $69/$75 ($111 vip) 6pm/7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Peaches",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Peaches%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Soltera",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Soltera%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Sola Guinto",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Sola%20Guinto%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Shifters",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Shifters%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-18-greek-theatre-role-model",
     "date": "2026-10-18",
     "title": "",
@@ -68455,6 +68023,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Eggcorn%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-18-knot-club-rainbow-girls",
+    "date": "2026-10-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "knot-club",
+    "venue": "Knot Club",
+    "venueHref": "https://jon.luini.com/thelist/club.html#knot_club",
+    "city": "",
+    "details": "21+ $50 6pm/7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Rainbow Girls",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Rainbow%20Girls%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -69014,6 +68628,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Rec%20Hall%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-10-19-catalyst-last-dinosaurs",
+    "date": "2026-10-19",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $30.88-$28.72 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Last Dinosaurs",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Last%20Dinosaurs%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -75484,6 +75144,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-10-25-great-american-music-hall-ali-amran",
+    "date": "2026-10-25",
+    "title": "",
+    "showType": "artist",
+    "venueId": "great-american-music-hall",
+    "venue": "Great American Music Hall",
+    "venueHref": "https://jon.luini.com/thelist/club.html#great_american_music_hall",
+    "city": "",
+    "details": "a/a $60 5pm/6pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Ali Amran",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ali%20Amran%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-25-mountain-winery-everclear",
     "date": "2026-10-25",
     "title": "",
@@ -75960,6 +75666,42 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22dj%20DistorsionGay%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Buddy Wynkoop",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Buddy%20Wynkoop%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Hazy Portraits",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hazy%20Portraits%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -77299,6 +77041,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-10-28-shoreline-amphitheatre-g-eazy",
+    "date": "2026-10-28",
+    "title": "",
+    "showType": "artist",
+    "venueId": "shoreline-amphitheatre",
+    "venue": "Shoreline Amphitheatre",
+    "venueHref": "https://jon.luini.com/thelist/club.html#shoreline_amphitheatre",
+    "city": "",
+    "details": "a/a 5:30pm/7pm $75-$24.75 #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "G-Eazy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22G-Eazy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Logic",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Logic%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-28-uc-theater-mumly-troll",
     "date": "2026-10-28",
     "title": "",
@@ -77990,6 +77796,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-10-29-ritz-mdou-moctar",
+    "date": "2026-10-29",
+    "title": "",
+    "showType": "artist",
+    "venueId": "ritz",
+    "venue": "Ritz",
+    "venueHref": "https://jon.luini.com/thelist/club.html#ritz",
+    "city": "",
+    "details": "21+ $25 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Mdou Moctar",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Mdou%20Moctar%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-10-29-uc-theater-bridge-city-sinners",
     "date": "2026-10-29",
     "title": "",
@@ -78591,6 +78443,42 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Stella%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Soap Box Derby",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Soap%20Box%20Derby%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Slinger",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Slinger%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -82781,6 +82669,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-11-06-phoenix-theater-the-strange-ones",
+    "date": "2026-11-06",
+    "title": "",
+    "showType": "artist",
+    "venueId": "phoenix-theater",
+    "venue": "Phoenix Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
+    "city": "",
+    "details": "a/a $15.49 7:30pm/8pm @",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Strange Ones",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Strange%20Ones%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Randy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Randy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Dollwash",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dollwash%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "No Captains",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22No%20Captains%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-06-regency-ballroom-lucy-bedroque",
     "date": "2026-11-06",
     "title": "",
@@ -83338,6 +83326,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-11-07-gilman-membership-meeting",
+    "date": "2026-11-07",
+    "title": "",
+    "showType": "artist",
+    "venueId": "gilman",
+    "venue": "Gilman",
+    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
+    "city": "",
+    "details": "a/a 4pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Membership Meeting",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Membership%20Meeting%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-07-greek-theatre-hugel",
     "date": "2026-11-07",
     "title": "",
@@ -83481,6 +83515,88 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Pinponpanpan%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-11-07-shoreline-amptheater-dan-shay",
+    "date": "2026-11-07",
+    "title": "",
+    "showType": "artist",
+    "venueId": "shoreline-amptheater",
+    "venue": "Shoreline Amptheater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#shoreline_amptheater",
+    "city": "",
+    "details": "a/a $133.50-$24.75 5:30pm/7pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Dan + Shay",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dan%20%2B%20Shay%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Tyler Hubbard",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Tyler%20Hubbard%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Josh Ross",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Josh%20Ross%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -85699,6 +85815,88 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-11-12-eagle-fast-friends",
+    "date": "2026-11-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "eagle",
+    "venue": "Eagle",
+    "venueHref": "https://jon.luini.com/thelist/club.html#eagle",
+    "city": "",
+    "details": "21+ $10 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Fast Friends",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fast%20Friends%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Gen11",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Gen11%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Errevria",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Errevria%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-12-fillmore-gene",
     "date": "2026-11-12",
     "title": "",
@@ -86249,6 +86447,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22dj%20Mike%20Gabriel%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-11-13-catalyst-andre-nickatina",
+    "date": "2026-11-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $93.27-$82.47 7pm/8pm # (was june 27th)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Andre Nickatina",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Andre%20Nickatina%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -86892,6 +87136,70 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-11-13-rickshaw-stop-hails",
+    "date": "2026-11-13",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Hails",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hails%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Meldrop",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Meldrop%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-13-ritz-oso-oso",
     "date": "2026-11-13",
     "title": "",
@@ -86939,6 +87247,42 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Liquid%20Mike%20Bugsy%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Liquid Mike",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Liquid%20Mike%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Bugsy",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bugsy%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -90074,6 +90418,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-11-19-rickshaw-stop-cannelle",
+    "date": "2026-11-19",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a $18/$22 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Cannelle",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Cannelle%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-19-uc-theater-gwar",
     "date": "2026-11-19",
     "title": "",
@@ -90546,6 +90936,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-11-20-castro-danna",
+    "date": "2026-11-20",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a $48.60 8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Danna",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Danna%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
   },
   {
     "id": "2026-11-20-chapel-maddie-zahm",
@@ -91606,6 +92042,124 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-11-21-warfield-brutalismus-3000",
+    "date": "2026-11-21",
+    "title": "",
+    "showType": "artist",
+    "venueId": "warfield",
+    "venue": "Warfield",
+    "venueHref": "https://jon.luini.com/thelist/club.html#warfield",
+    "city": "",
+    "details": "16+ 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Brutalismus 3000",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Brutalismus%203000%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Eurohead",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Eurohead%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "ali rq",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22ali%20rq%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "deBasement",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22deBasement%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Techno Pagan'",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Techno%20Pagan'%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-21-warriors-stadium-jonas-brothers",
     "date": "2026-11-21",
     "title": "",
@@ -92044,6 +92598,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2026-11-24-castro-jim-lang-and-the-ps-118-allstars",
+    "date": "2026-11-24",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a $48.60 8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Jim Lang and The PS 118 AllStars",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jim%20Lang%20and%20The%20PS%20118%20AllStars%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-11-24-regency-ballroom-the-amity-affliction",
     "date": "2026-11-24",
     "title": "",
@@ -92273,6 +92873,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22dj%20Raphi%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-11-25-castro-jim-lang-and-the-ps-118-allstars",
+    "date": "2026-11-25",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a $48.60 8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Jim Lang and The PS 118 AllStars",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Jim%20Lang%20and%20The%20PS%20118%20AllStars%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -93013,6 +93659,124 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Dweezil%20Zappa%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-11-29-cornerstone-the-grouch",
+    "date": "2026-11-29",
+    "title": "",
+    "showType": "artist",
+    "venueId": "cornerstone",
+    "venue": "Cornerstone",
+    "venueHref": "https://jon.luini.com/thelist/club.html#cornerstone",
+    "city": "",
+    "details": "a/a",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Grouch",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Grouch%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Eligh",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Eligh%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Amp Live",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Amp%20Live%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Brother Ali",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Brother%20Ali%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Lyrics Born",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Lyrics%20Born%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -94054,6 +94818,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-12-05-catalyst-the-expendables",
+    "date": "2026-12-05",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $43.60 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Expendables",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Expendables%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-12-05-civic-auditorium-it-s-murph",
     "date": "2026-12-05",
     "title": "",
@@ -94357,6 +95167,88 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Frozen%20Soul%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-12-05-uc-theater-kamasi-washington",
+    "date": "2026-12-05",
+    "title": "",
+    "showType": "artist",
+    "venueId": "uc-theater",
+    "venue": "UC Theater",
+    "venueHref": "https://jon.luini.com/thelist/club.html#uc_theater",
+    "city": "",
+    "details": "a/a 7pm/8pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Kamasi Washington",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Kamasi%20Washington%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Bartees Strange",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Bartees%20Strange%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Hannah Lew",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Hannah%20Lew%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -96190,6 +97082,106 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-12-12-catalyst-the-grouch",
+    "date": "2026-12-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $51.85-$34.12 8pm/9pm #",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "The Grouch",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22The%20Grouch%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Eligh",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Eligh%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Amp Live",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Amp%20Live%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Brother Ali",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Brother%20Ali%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-12-12-ivy-room-basic",
     "date": "2026-12-12",
     "title": "",
@@ -96265,6 +97257,88 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Jonathan%20Richman%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-12-12-rickshaw-stop-tanukichan",
+    "date": "2026-12-12",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a $22/$25 8pm/8:45pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Tanukichan",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Tanukichan%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Badvril",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Badvril%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      },
+      {
+        "name": "Stargirl Mare",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Stargirl%20Mare%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -96936,6 +98010,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
+    "id": "2026-12-18-rickshaw-stop-milk-and-bone",
+    "date": "2026-12-18",
+    "title": "",
+    "showType": "artist",
+    "venueId": "rickshaw-stop",
+    "venue": "Rickshaw Stop",
+    "venueHref": "https://jon.luini.com/thelist/club.html#rickshaw_stop",
+    "city": "",
+    "details": "a/a $20 8pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Milk & Bone",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Milk%20%26%20Bone%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2026-12-19-bimbo-s-365-club-shaun-cassidy",
     "date": "2026-12-19",
     "title": "",
@@ -97377,6 +98497,52 @@ window.SHOW_EXPLORER_EVENTS = [
           {
             "label": "Search",
             "url": "https://duckduckgo.com/?q=%22Jenner%20Fox%20Band%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2026-12-24-castro-san-francisco-gay-men-s-chorus-3-shows",
+    "date": "2026-12-24",
+    "title": "",
+    "showType": "artist",
+    "venueId": "castro",
+    "venue": "Castro",
+    "venueHref": "https://jon.luini.com/thelist/club.html#castro",
+    "city": "",
+    "details": "a/a $48 3pm, 5:30pm and 8pm shows",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "San Francisco Gay Men's Chorus (3 shows)",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22San%20Francisco%20Gay%20Men's%20Chorus%20(3%20shows)%22%20band%20music",
             "type": "search",
             "confidence": "research",
             "source": "the-list"
@@ -97870,7 +99036,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Castro",
     "venueHref": "https://jon.luini.com/thelist/club.html#castro",
     "city": "",
-    "details": "18+ 8pm #",
+    "details": "18+ $64.75 ($118.40 2 day pass) 8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -97985,7 +99151,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Castro",
     "venueHref": "https://jon.luini.com/thelist/club.html#castro",
     "city": "",
-    "details": "18+ 8pm #",
+    "details": "18+ $64.75 ($118.40 2 day pass) 8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -98898,6 +100064,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageUrl": ""
   },
   {
+    "id": "2027-02-19-independent-fink",
+    "date": "2027-02-19",
+    "title": "",
+    "showType": "artist",
+    "venueId": "independent",
+    "venue": "Independent",
+    "venueHref": "https://jon.luini.com/thelist/club.html#independent",
+    "city": "",
+    "details": "a/a $38.13 8:30pm/9pm",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Fink",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Fink%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
     "id": "2027-02-19-moe-s-alley-buck-meek",
     "date": "2027-02-19",
     "title": "",
@@ -99086,6 +100298,52 @@ window.SHOW_EXPLORER_EVENTS = [
     "venueHref": "https://jon.luini.com/thelist/club.html#fox_theater",
     "city": "",
     "details": "a/a $78-$43 8pm # (seated)",
+    "sourceUrl": "https://jon.luini.com/thelist/date.html",
+    "source": {
+      "name": "The List",
+      "url": "https://jon.luini.com/thelist/date.html"
+    },
+    "eventTypes": [],
+    "themes": [],
+    "artists": [
+      {
+        "name": "Alok",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "Imported from The List.",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Alok%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "the-list"
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "The List",
+        "url": "https://jon.luini.com/thelist/date.html"
+      }
+    ],
+    "displayName": "",
+    "eventDescription": ""
+  },
+  {
+    "id": "2027-03-14-catalyst-alok",
+    "date": "2027-03-14",
+    "title": "",
+    "showType": "artist",
+    "venueId": "catalyst",
+    "venue": "Catalyst",
+    "venueHref": "https://jon.luini.com/thelist/club.html#catalyst",
+    "city": "",
+    "details": "16+ $65.24-$34.12 7pm/8pm #",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",

@@ -10,6 +10,7 @@ const events = Array.isArray(savedEvents) ? JSON.parse(JSON.stringify(savedEvent
 const state = {
   query: "",
   filter: "review",
+  mikesPicksOnly: false,
   venue: "all",
   sort: "name",
   appearanceScope: "range",
@@ -27,10 +28,12 @@ const appearanceScopeInput = document.querySelector("#appearanceScopeInput");
 const venueFilterInput = document.querySelector("#venueFilterInput");
 const artistSortInput = document.querySelector("#artistSortInput");
 const filterButtons = [...document.querySelectorAll("[data-review-filter]")];
+const pickFilterButton = document.querySelector("[data-pick-filter]");
 const enrichButton = document.querySelector("#enrichButton");
 const spotifyLookupButton = document.querySelector("#spotifyLookupButton");
 const previousArtistButton = document.querySelector("#previousArtistButton");
 const nextArtistButton = document.querySelector("#nextArtistButton");
+let spotifyRetryTimeout = 0;
 
 const fields = {
   selectedName: document.querySelector("#selectedName"),
@@ -43,6 +46,8 @@ const fields = {
   imageSource: document.querySelector("#imageSourceInput"),
   spotifyLookupDisabled: document.querySelector("#spotifyLookupDisabledInput"),
   spotifyMatchStatus: document.querySelector("#spotifyMatchStatus"),
+  spotifyErrorDetails: document.querySelector("#spotifyErrorDetails"),
+  spotifyErrorText: document.querySelector("#spotifyErrorText"),
   priority: document.querySelector("#priorityInput"),
   summary: document.querySelector("#summaryInput"),
   links: document.querySelector("#linksEditor"),
@@ -153,9 +158,21 @@ function visibleArtists() {
 }
 
 function matchesArtistFilter(artist, appearances) {
-  if (state.filter === "all") return true;
-  if (state.filter === "mikesPick") return appearances.some((appearance) => eventForAppearance(appearance)?.mikesPick);
-  return artist.confidence === state.filter;
+  const statusMatch = state.filter === "all" || artist.confidence === state.filter;
+  const pickMatch = !state.mikesPicksOnly || appearances.some((appearance) => isMikesPick(eventForAppearance(appearance)));
+  return statusMatch && pickMatch;
+}
+
+function isMikesPick(event) {
+  return Boolean(
+    event?.featured
+    || event?.mikesPick
+    || event?.mikePick
+    || event?.mikesPicks
+    || event?.settings?.featured
+    || event?.settings?.mikesPick
+    || event?.review?.featured
+  );
 }
 
 function scopedAppearancesForArtist(artist) {
@@ -283,6 +300,7 @@ function syncFilterButtons() {
   filterButtons.forEach((button) => {
     setPressed(button, button.dataset.reviewFilter === state.filter);
   });
+  if (pickFilterButton) setPressed(pickFilterButton, state.mikesPicksOnly);
 }
 
 function setPressed(button, active) {
@@ -424,6 +442,7 @@ function selectArtist(id) {
 }
 
 function renderSpotifyMatchStatus(artist) {
+  clearSpotifyErrorDetails();
   const link = spotifyLinkForArtist(artist);
   const match = artist.spotifyMatch;
   const imageLabel = artist.spotifyImageUrl ? "image ready" : "no Spotify image saved";
@@ -442,6 +461,19 @@ function renderSpotifyMatchStatus(artist) {
   fields.spotifyMatchStatus.textContent = "No Spotify match has been checked yet.";
 }
 
+function clearSpotifyErrorDetails() {
+  fields.spotifyErrorDetails.hidden = true;
+  fields.spotifyErrorDetails.open = false;
+  fields.spotifyErrorText.textContent = "";
+}
+
+function showSpotifyErrorDetails(error) {
+  const details = error?.details || error;
+  if (!details) return;
+  fields.spotifyErrorDetails.hidden = false;
+  fields.spotifyErrorText.textContent = typeof details === "string" ? details : JSON.stringify(details, null, 2);
+}
+
 function spotifyLinkForArtist(artist) {
   return (artist.links || []).find((link) => {
     if (link.confidence === "rejected" || link.display === false) return false;
@@ -454,6 +486,17 @@ function syncSpotifyLookupButton(artist) {
   spotifyLookupButton.title = artist?.spotifyLookupDisabled
     ? "Automatic Spotify matching is disabled for this artist"
     : "Find a Spotify match for the selected artist";
+}
+
+function scheduleSpotifyRetry(error) {
+  const retryAfter = Number(error?.details?.retryAfter || 0);
+  if (!Number.isFinite(retryAfter) || retryAfter <= 0) return;
+  window.clearTimeout(spotifyRetryTimeout);
+  spotifyLookupButton.disabled = true;
+  spotifyLookupButton.title = `Spotify asked us to wait ${retryAfter}s`;
+  spotifyRetryTimeout = window.setTimeout(() => {
+    syncSpotifyLookupButton(artistStore.artists[state.selectedId]);
+  }, retryAfter * 1000);
 }
 
 function renderMergeArtistOptions(selectedArtist) {
@@ -1106,22 +1149,14 @@ filterButtons.forEach((button) => {
   button.addEventListener("click", () => {
     state.filter = button.dataset.reviewFilter;
     syncFilterButtons();
-    const first = visibleArtists()[0];
-    if (first) selectArtist(first.id);
-    else {
-      state.selectedId = "";
-      fields.selectedName.textContent = "Choose an artist";
-      fields.selectedConfidence.textContent = "review";
-      fields.selectedConfidence.className = "confidence review";
-      form.reset();
-      fields.links.replaceChildren();
-      fields.rejectedLinks.replaceChildren();
-      fields.spotifyMatchStatus.textContent = "No Spotify match has been checked yet.";
-      syncSpotifyLookupButton(null);
-      fields.appearances.replaceChildren();
-      renderQueue();
-    }
+    selectFirstVisibleArtistOrClear();
   });
+});
+
+pickFilterButton?.addEventListener("click", () => {
+  state.mikesPicksOnly = !state.mikesPicksOnly;
+  syncFilterButtons();
+  selectFirstVisibleArtistOrClear();
 });
 
 document.querySelector("#resetButton").addEventListener("click", () => {
@@ -1158,6 +1193,7 @@ spotifyLookupButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
 
+  clearSpotifyErrorDetails();
   fields.saveStatus.textContent = "Saving before Spotify lookup...";
   await saveCurrentArtist();
 
@@ -1172,7 +1208,11 @@ spotifyLookupButton.addEventListener("click", async () => {
       body: JSON.stringify({ id: artist.id, name: enrichmentName, artist })
     });
     const result = await response.json().catch(() => ({}));
-    if (!response.ok) throw new Error(result.error || `Spotify lookup failed: ${response.status}`);
+    if (!response.ok) {
+      const error = new Error(result.error || `Spotify lookup failed: ${response.status}`);
+      error.details = result.details || result;
+      throw error;
+    }
     artistStore.artists[result.artist.id] = result.artist;
     artistStore.generatedAt = result.generatedAt;
     localStorage.removeItem(STORE_KEY);
@@ -1181,7 +1221,9 @@ spotifyLookupButton.addEventListener("click", async () => {
     selectArtist(result.artist.id);
   } catch (error) {
     fields.saveStatus.textContent = error.message || "Spotify lookup needs the local dev server";
-    syncSpotifyLookupButton(artist);
+    showSpotifyErrorDetails(error);
+    scheduleSpotifyRetry(error);
+    if (!error?.details?.retryAfter) syncSpotifyLookupButton(artist);
   }
 });
 
@@ -1255,7 +1297,19 @@ function syncArtistSelection() {
     selectArtist(first.id);
     return;
   }
+  clearArtistSelection();
+}
 
+function selectFirstVisibleArtistOrClear() {
+  const first = visibleArtists()[0];
+  if (first) {
+    selectArtist(first.id);
+    return;
+  }
+  clearArtistSelection();
+}
+
+function clearArtistSelection() {
   state.selectedId = "";
   fields.selectedName.textContent = "Choose an artist";
   fields.selectedConfidence.textContent = "review";

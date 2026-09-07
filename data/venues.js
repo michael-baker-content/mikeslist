@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-09-06T06:18:02.694Z",
+  "generatedAt": "2026-09-07T08:15:31.210Z",
   "venues": {
     "49": {
       "id": "49",
@@ -53,7 +53,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-06T06:15:26.430Z",
+        "lastImportedAt": "2026-09-07T08:15:31.185Z",
         "appearances": [
           {
             "eventId": "2026-10-10-49-er-stadium-bruno-mars",
@@ -720,7 +720,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.270Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-2708-channing-way-playground",
@@ -1048,29 +1048,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.449Z",
+        "lastImportedAt": "2026-09-07T08:15:31.206Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-4-star-theater-ray-barbee-and-thomas-campbell",
-            "date": "2026-09-03",
-            "title": "Ray Barbee and Thomas Campbell",
-            "details": "Ray Barbee and Thomas Campbell",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-4-star-theater-dr-cliff-kapono",
-            "date": "2026-09-04",
-            "title": "Dr. Cliff Kapono",
-            "details": "Dr. Cliff Kapono",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-4-star-theater-excerpts-from-thicker-than-water-180-south-earth-to-meekus-with-live-music",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "Excerpts from Thicker Than Water, 180 South, Earth to Meekus with LIVE MUSIC",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-07-4-star-theater-dead-set-805",
             "date": "2026-09-07",
@@ -1199,6 +1178,59 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-08-05",
             "title": "AC/DC / The Pretty Reckless",
             "details": "a/a 7pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "4th-corner-speakeasy": {
+      "id": "4th-corner-speakeasy",
+      "name": "4th Corner Speakeasy",
+      "displayName": "4th Corner Speakeasy",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#4th_corner_speakeasy",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%224th%20Corner%20Speakeasy%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.993Z",
+        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-11-4th-corner-speakeasy-westerly",
+            "date": "2026-09-11",
+            "title": "Westerly",
+            "details": "21+",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -1556,20 +1588,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.430Z",
+        "lastImportedAt": "2026-09-07T08:15:31.185Z",
         "appearances": [
           {
-            "eventId": "2026-09-05-9-lives-warehouse-godstomper",
-            "date": "2026-09-05",
-            "title": "Godstomper / GNT / Mental Health Crisis / Grunkle / Straggler / Dissociation / Product Of Society / Other Yippies / Alien Blunt / The Face / Fence Punch",
-            "details": "a/a $15 5pm/5:30pm @",
+            "eventId": "2026-09-10-9-lives-warehouse-holokaust",
+            "date": "2026-09-10",
+            "title": "Holokaust / Ritter / Cult Mind / Aphid / Skolp",
+            "details": "a/a $15 7pm/8pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-19-9-lives-warehouse-vangozeer-last-show",
             "date": "2026-09-19",
-            "title": "Vangozeer / Burnout / M.W.B / Little Critter",
-            "details": "a/a $15 7pm/7:30pm Vangozeer (last show)",
+            "title": "Vangozeer (last show) / Burnout / M.W.B / Little Critter",
+            "details": "a/a $15 7pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -1623,7 +1655,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-11-924-gilman-worst-decades-in-midori-dolores-the-american-dream-deadringer",
@@ -1636,14 +1668,14 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-12-924-gilman-iron-lung-grand-invincible-planet-on-a-chain-totalna-tama-surprise-privilege",
             "date": "2026-09-12",
             "title": "Iron Lung / Grand Invincible / Planet on a Chain / Totalna Tama / Surprise Privilege",
-            "details": "Iron Lung, Grand Invincible, Planet on a Chain, Totalna Tama, Surprise Privilege / a/a $15 7pm @",
+            "details": "Iron Lung, Grand Invincible, Planet on a Chain, Totalna Tama, Surprise Privilege",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-924-gilman-just-nick-cj-lawrence-brian-ward-imparcial",
             "date": "2026-09-13",
             "title": "Just Nick / CJ Lawrence / Brian Ward / Imparcial",
-            "details": "Just Nick, CJ Lawrence, Brian Ward, Imparcial / a/a $12/$15 6pm/6:30pm (acoustic sunday)",
+            "details": "Just Nick, CJ Lawrence, Brian Ward, Imparcial",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -1690,7 +1722,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.292Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.193Z",
         "appearances": [
           {
             "eventId": "2026-10-25-924-gilman-and-gilman-brewing-cross-checked",
@@ -1796,8 +1828,15 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.910Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.192Z",
         "appearances": [
+          {
+            "eventId": "2026-09-13-above-dna-lounge-jonhhy-manchild",
+            "date": "2026-09-13",
+            "title": "Jonhhy Manchild / Friend Of A Friend / Karma And The Killjoys",
+            "details": "a/a $15/$21 7pm/7:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-10-24-above-dna-lounge-warumono",
             "date": "2026-10-24",
@@ -2227,12 +2266,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
           {
             "eventId": "2026-09-12-almanac-adventureland-puppet-wars",
             "date": "2026-09-12",
-            "title": "",
+            "title": "Puppet Wars",
             "details": "Puppet Wars",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -2548,7 +2587,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.288Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.189Z",
         "appearances": [
           {
             "eventId": "2026-10-17-apple-jacks-bar-bernal-equinox",
@@ -2779,7 +2818,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.206Z",
         "appearances": [
           {
             "eventId": "2026-09-26-arena-shreya-ghoshal",
@@ -3057,33 +3096,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-ashkenaz-stu-allen-and-mars-hotel",
-            "date": "2026-09-02",
-            "title": "Stu Allen & Mars Hotel",
-            "details": "Stu Allen & Mars Hotel",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-ashkenaz-bachata-nightz-featuring-dj-ron",
-            "date": "2026-09-03",
-            "title": "",
-            "details": "Bachata Nightz, featuring DJ Ron",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-ashkenaz-aux-cajunals",
-            "date": "2026-09-04",
-            "title": "Aux Cajunals",
-            "details": "Aux Cajunals",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-09-ashkenaz-balkan-folk-dance",
             "date": "2026-09-09",
-            "title": "",
+            "title": "Balkan Folk Dance",
             "details": "Balkan Folk Dance",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -3104,7 +3122,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-12-ashkenaz-mortified",
             "date": "2026-09-12",
-            "title": "",
+            "title": "Mortified",
             "details": "Mortified",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -3375,15 +3393,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-august-hall-valerie-a-tribute-to-amy-winehouse",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "Valerie – A Tribute to Amy Winehouse",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-11-august-hall-asal",
             "date": "2026-09-11",
@@ -3394,7 +3405,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-12-august-hall-colors-presents-r-and-b-only",
             "date": "2026-09-12",
-            "title": "",
+            "title": "Colors Presents: R&B Only",
             "details": "Colors Presents: R&B Only",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -3919,7 +3930,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.169Z",
         "appearances": [
           {
             "eventId": "2026-09-16-band-shell-indestructible",
@@ -4172,7 +4183,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-06T06:15:26.429Z",
+        "lastImportedAt": "2026-09-07T08:15:31.184Z",
         "appearances": [
           {
             "eventId": "2026-10-09-barrel-proof-lounge-menstrual-cramps",
@@ -4781,14 +4792,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
           {
             "eventId": "2026-09-12-benders-party-force",
             "date": "2026-09-12",
             "title": "Party Force$ / Magic Eye",
-            "details": "21+ free 9pm / Party Force$, Magic Eye",
+            "details": "21+ free 9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-benders-party-force-magic-eye",
+            "date": "2026-09-12",
+            "title": "Party Force$ / Magic Eye",
+            "details": "Party Force$, Magic Eye",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
       }
@@ -5026,7 +5044,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.406Z",
+        "lastImportedAt": "2026-09-07T08:15:31.157Z",
         "appearances": [
           {
             "eventId": "2026-09-08-bill-graham-civic-auditorium-wave-to-earth",
@@ -5322,20 +5340,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-bimbo-s-365-club-mystery-skulls",
-            "date": "2026-09-05",
-            "title": "Mystery Skulls / Fox Stevenson",
-            "details": "21+ 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-11-bimbo-s-365-club-super-diamond",
             "date": "2026-09-11",
             "title": "Super Diamond / Starman SF",
-            "details": "21+ $36 7pm/8pm / Super Diamond, Starman SF",
+            "details": "21+ $36 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -5349,7 +5360,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-18-bimbo-s-365-club-lido-pimienta",
             "date": "2026-09-18",
             "title": "Lido Pimienta / Chacha Via Circuito",
-            "details": "21+ 7pm/8pm",
+            "details": "21+ $41.21 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -5550,7 +5561,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-03T00:30:30.495Z",
+        "lastImportedAt": "2026-09-07T08:15:31.161Z",
         "appearances": [
           {
             "eventId": "2026-09-11-bimbos-365-club-super-diamond-starman-sf",
@@ -5673,22 +5684,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-09-06T06:15:26.443Z",
+        "lastImportedAt": "2026-09-07T08:15:31.199Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-biscuits-and-blues-gamperdrums-funkjazz",
-            "date": "2026-09-02",
-            "title": "GamperDrums FunkJazz",
-            "details": "GamperDrums FunkJazz",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-biscuits-and-blues-big-daddy-cade-s-tribute-to-b-b-king",
-            "date": "2026-09-04",
-            "title": "Big Daddy Cade",
-            "details": "Big Daddy Cade's Tribute to B.B. King",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-08-biscuits-and-blues-the-west-coast-blues-revue",
             "date": "2026-09-08",
@@ -5793,7 +5790,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.169Z",
         "appearances": [
           {
             "eventId": "2026-09-16-bistro-cloud-collector",
@@ -5974,36 +5971,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-black-cat-victor-little",
-            "date": "2026-09-02",
-            "title": "Victor Little",
-            "details": "Victor Little",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-black-cat-daniel-harris-iii",
-            "date": "2026-09-03",
-            "title": "Daniel Harris III",
-            "details": "Daniel Harris III",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-black-cat-max-haymer-power-trio",
-            "date": "2026-09-04",
-            "title": "Max Haymer Power Trio",
-            "details": "Max Haymer Power Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-black-cat-max-haymer-power-trio",
-            "date": "2026-09-05",
-            "title": "Max Haymer Power Trio",
-            "details": "Max Haymer Power Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-black-cat-max-haymer-power-trio",
             "date": "2026-09-06",
@@ -6028,23 +5997,79 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-11-black-cat-richard-cortez-with-the-sam-hirsh-trio",
             "date": "2026-09-11",
-            "title": "Richard Cortez / The Sam Hirsh Trio",
+            "title": "Richard Cortez with the Sam Hirsh Trio",
             "details": "Richard Cortez with the Sam Hirsh Trio",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-black-cat-richard-cortez-with-the-sam-hirsh-trio",
             "date": "2026-09-12",
-            "title": "Richard Cortez / The Sam Hirsh Trio",
+            "title": "Richard Cortez with the Sam Hirsh Trio",
             "details": "Richard Cortez with the Sam Hirsh Trio",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-black-cat-richard-cortez-with-the-sam-hirsh-trio",
             "date": "2026-09-13",
-            "title": "Richard Cortez / The Sam Hirsh Trio",
+            "title": "Richard Cortez with the Sam Hirsh Trio",
             "details": "Richard Cortez with the Sam Hirsh Trio",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-16-black-cat-the-kuumba-experience",
+            "date": "2026-09-16",
+            "title": "The Kuumba Experience",
+            "details": "21+ $30 7pm and 9:15pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-17-black-cat-the-kuumba-experience",
+            "date": "2026-09-17",
+            "title": "The Kuumba Experience",
+            "details": "21+ $30 7pm and 9:15pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-18-black-cat-lady-stout-and-nurenssnce",
+            "date": "2026-09-18",
+            "title": "Lady Stout & Nurenssnce",
+            "details": "21+ $30 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-19-black-cat-lady-stout-and-nurenssnce",
+            "date": "2026-09-19",
+            "title": "Lady Stout & Nurenssnce",
+            "details": "21+ $30 7pm and 9:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-20-black-cat-lady-stout-and-nurenssnce",
+            "date": "2026-09-20",
+            "title": "Lady Stout & Nurenssnce",
+            "details": "21+ $30 7pm and 9:15pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-23-black-cat-cody-steinmann",
+            "date": "2026-09-23",
+            "title": "Cody Steinmann",
+            "details": "21+ $30 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-24-black-cat-stacy-dillard-and-josh-evans-5tet",
+            "date": "2026-09-24",
+            "title": "Stacy Dillard & Josh Evans 5tet",
+            "details": "a/a $30 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-30-black-cat-character-select",
+            "date": "2026-09-30",
+            "title": "Character Select",
+            "details": "21+ $30 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-12-12-black-cat-dragonforce",
@@ -6249,7 +6274,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-09-06T06:15:26.451Z",
+        "lastImportedAt": "2026-09-07T08:15:31.208Z",
         "appearances": [
           {
             "eventId": "2027-01-04-blue-laggon-apricot-court",
@@ -6389,15 +6414,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.175Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-blue-lagoon-gore-whore",
-            "date": "2026-09-05",
-            "title": "Gore Whore / Blood Of Chinnamastika / Dean Fraser",
-            "details": "21+ free 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-26-blue-lagoon-culo-a-boca",
             "date": "2026-09-26",
@@ -6839,12 +6857,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.407Z",
+        "lastImportedAt": "2026-09-07T08:15:31.159Z",
         "appearances": [
           {
             "eventId": "2026-09-09-boom-boom-room-jeff-cotton-s-gin-joint",
             "date": "2026-09-09",
-            "title": "Jeff Cotton's Gin Joint",
+            "title": "Jeff Cotton’S Gin Joint",
             "details": "Jeff Cotton's Gin Joint",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -7045,84 +7063,98 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
           {
-            "eventId": "2026-09-02-bottom-of-the-hill-jeff-rosenstock",
-            "date": "2026-09-02",
-            "title": "Jeff Rosenstock / Bruce Lee Band / Teens In Trouble / Kitty Kat Fan Club",
-            "details": "a/a $30 7pm/7:45pm / Asian Man Records 30 Anniversary: Jeff Rosenstock, Bruce Lee Band, Teens In Trouble, Kitty Kat Fan Club (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-03-bottom-of-the-hill-ajj",
-            "date": "2026-09-03",
-            "title": "AJJ / MU330 / Small Crush / Pacing",
-            "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: AJJ, MU330, Small Crush, Pacing (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-04-bottom-of-the-hill-joyce-manor",
-            "date": "2026-09-04",
-            "title": "Joyce Manor / Slow Gherkin / Grumpster / Friendship Games",
-            "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: Joyce Manor, Slow Gherkin, Grumpster, Friendship Games (sold out)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-bottom-of-the-hill-the-lawrence-arms",
-            "date": "2026-09-05",
-            "title": "The Lawrence Arms / Honor System / Get Married / Dog Party",
-            "details": "a/a $30 7pm/7:45pm Asian Man Records 30 Anniversary: The Lawrence Arms, Honor System, Get Married, Dog Party (sold out)",
+            "eventId": "2026-09-06-bottom-of-the-hill-helms-alee",
+            "date": "2026-09-06",
+            "title": "Helms Alee / Diasastroid / Thornpusher",
+            "details": "21+ $20/$25 3pm/4pm (Michael Madfes Memorial)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-06-bottom-of-the-hill-helms-alee-disastroid-thornpusher",
             "date": "2026-09-06",
             "title": "Helms Alee / Disastroid / Thornpusher",
-            "details": "Helms Alee, Disastroid, Thornpusher / 21+ $20/$25 3pm/4pm (Michael Madfes Memorial)",
+            "details": "Helms Alee, Disastroid, Thornpusher",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-07-bottom-of-the-hill-mad-caddies-diesel-boy-stay-out",
             "date": "2026-09-07",
             "title": "Mad Caddies / Diesel Boy / Stay Out",
-            "details": "Mad Caddies, Diesel Boy, Stay Out / a/a $27/$30 7:30pm/8pm @",
+            "details": "Mad Caddies, Diesel Boy, Stay Out / a/a $27/$30 7:30pm/8pm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band-skip-the-needle-black-gold-sun",
             "date": "2026-09-09",
             "title": "The Kofy Brown Band / Skip The Needle / Black Gold Sun",
-            "details": "The Kofy Brown Band, Skip The Needle, Black Gold Sun / 21+ $15 8pm/8:30pm",
+            "details": "The Kofy Brown Band, Skip The Needle, Black Gold Sun",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band",
+            "date": "2026-09-09",
+            "title": "The Kofy Brown Band / Skip The Needle / Black Gold Sun",
+            "details": "21+ $15 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-10-bottom-of-the-hill-fartbarf",
             "date": "2026-09-10",
             "title": "Fartbarf / Diesel Dudes / Edgar",
-            "details": "a/a $15/$20 8pm/8:30pm / Fartbarf, Diesel Dudes, Edgar",
+            "details": "a/a $15/$20 8pm/8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-bottom-of-the-hill-fartbarf-diesel-dudes-edgar",
+            "date": "2026-09-10",
+            "title": "Fartbarf / Diesel Dudes / Edgar",
+            "details": "Fartbarf, Diesel Dudes, Edgar",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-11-bottom-of-the-hill-bratmobile",
+            "date": "2026-09-11",
+            "title": "Bratmobile / The Okmonics",
+            "details": "a/a $35 8pm/9pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-11-bottom-of-the-hill-bratmobile-the-okmoniks",
             "date": "2026-09-11",
-            "title": "Bratmobile / The Okmoniks / The Okmonics",
-            "details": "Bratmobile, The Okmoniks / a/a $35 8pm/9pm @",
+            "title": "Bratmobile / The Okmoniks",
+            "details": "Bratmobile, The Okmoniks",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-bottom-of-the-hill-bratmobile-a-la-tata",
             "date": "2026-09-12",
             "title": "Bratmobile / A La Tata",
-            "details": "Bratmobile, A La Tata / a/a $35 8pm/9pm @ (sold out)",
+            "details": "Bratmobile, A La Tata",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-bottom-of-the-hill-bratmobile",
+            "date": "2026-09-12",
+            "title": "Bratmobile / A La Tata",
+            "details": "a/a $35 8pm/9pm @ (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-bottom-of-the-hill-hex-pest",
             "date": "2026-09-13",
             "title": "Hex Pest / The Queen & I / The Pleasure Routine",
-            "details": "a/a $15 7pm/7:30pm / Hex Pest, The Queen & I, The Pleasure Routine",
+            "details": "a/a $15 7pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-bottom-of-the-hill-hex-pest-the-queen-and-i-the-pleasure-routine",
+            "date": "2026-09-13",
+            "title": "Hex Pest / The Queen & I / The Pleasure Routine",
+            "details": "Hex Pest, The Queen & I, The Pleasure Routine",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-14-bottom-of-the-hill-the-spits",
@@ -7141,8 +7173,8 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-16-bottom-of-the-hill-unity-record-release-m-quaaludes",
             "date": "2026-09-16",
-            "title": "Unity / Quaaludes / Yeoubi / dj Moonhuti",
-            "details": "a/a $13/$15 8pm/8:30pm Unity (record release)",
+            "title": "Unity (record release),m Quaaludes / Yeoubi / dj Moonhuti",
+            "details": "a/a $13/$15 8pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -7211,7 +7243,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-28-bottom-of-the-hill-stephan-jenkins-solo-acoustic",
             "date": "2026-09-28",
-            "title": "Stephan Jenkins / Emily Afton",
+            "title": "Stephan Jenkins / Emily Afton / Stephan Jenkins (solo acoustic)",
             "details": "a/a $20 7pm/8pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -7304,6 +7336,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-11",
             "title": "Let's Go Bowling / Reducers SF / The Odd Numbers / dj Soulciter",
             "details": "21+ $25/$30 3pm/4pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-12-bottom-of-the-hill-triclops",
+            "date": "2026-10-12",
+            "title": "Triclops / Wife / Gumby's Junk",
+            "details": "a/a $19.81 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -7654,15 +7693,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.175Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-bric-a-brac-fowl-figures",
-            "date": "2026-09-02",
-            "title": "Fowl Figures / Shitomato / Peopling / Wax Cloud / Stallions",
-            "details": "a/a $10 7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-18-bric-a-brac-bat-noise",
             "date": "2026-09-18",
@@ -7884,8 +7916,15 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.447Z",
+        "lastImportedAt": "2026-09-07T08:15:31.203Z",
         "appearances": [
+          {
+            "eventId": "2026-09-11-brick-and-mortar-cuva-bimo-album-release",
+            "date": "2026-09-11",
+            "title": "Cuva Bimo (album release) / The Lighting Section / Soft Circuit",
+            "details": "a/a $20 (under 21 plus $5) 8pm/8:30pm ^",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-09-20-brick-and-mortar-bird",
             "date": "2026-09-20",
@@ -7926,6 +7965,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-07",
             "title": "The Animeros",
             "details": "a/a $27.58 (under 21 plus $5) 8pm/9pm ^",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-13-brick-and-mortar-dani-offline",
+            "date": "2026-10-13",
+            "title": "Dani Offline / Amanda Magana",
+            "details": "a/a $25 (under 21 plus $5) 7pm/8pm ^",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -8007,22 +8053,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-brick-and-mortar-music-hall-connor-morrison-honey-disposition-ben-thuesen-libba",
-            "date": "2026-09-04",
-            "title": "Connor Morrison / Honey Disposition / Ben Thuesen / Libba",
-            "details": "Connor Morrison, Honey Disposition, Ben Thuesen, Libba",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-brick-and-mortar-music-hall-raininglol-and-2facedlon-w-jay-armani",
-            "date": "2026-09-05",
-            "title": "Raininglol & 2FacedLon / Jay Armani",
-            "details": "Raininglol & 2FacedLon w/ Jay Armani",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-brick-and-mortar-music-hall-fervence-captive-state-beauty-is-betrayal-the-beauty-in-death-swept-to-sea",
             "date": "2026-09-06",
@@ -8034,7 +8066,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-11-brick-and-mortar-music-hall-cuva-bim-the-lighting-section-soft-circuit",
             "date": "2026-09-11",
             "title": "CuVa Bimö / The Lighting Section / Soft Circuit",
-            "details": "CuVa Bimö, The Lighting Section, Soft Circuit / a/a $20 (under 21 plus $5) 8pm/8:30pm ^",
+            "details": "CuVa Bimö, The Lighting Section, Soft Circuit",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -8548,35 +8580,42 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.439Z",
+        "lastImportedAt": "2026-09-07T08:15:31.195Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-cafe-du-nord-zoh-amba-poor-image",
-            "date": "2026-09-02",
-            "title": "Zoh Amba / Poor Image",
-            "details": "Zoh Amba, Poor Image",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-cafe-du-nord-chxrry",
-            "date": "2026-09-04",
-            "title": "Chxrry",
-            "details": "Chxrry",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-12-cafe-du-nord-dent-may-healing-potpourri",
             "date": "2026-09-12",
             "title": "Dent May / Healing Potpourri",
-            "details": "Dent May, Healing Potpourri / 21+ $28.30 8pm/9pm",
+            "details": "Dent May, Healing Potpourri",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-cafe-du-nord-dent-may",
+            "date": "2026-09-12",
+            "title": "Dent May / Healing Potpourri",
+            "details": "21+ $28.30 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-cafe-du-nord-sub-urban",
+            "date": "2026-09-13",
+            "title": "Sub Urban",
+            "details": "a/a 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-cafe-du-nord-sub-urban-golden-cats",
             "date": "2026-09-13",
             "title": "Sub Urban / Golden Cats",
-            "details": "Sub Urban, Golden Cats / a/a 8pm",
+            "details": "Sub Urban, Golden Cats",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-17-cafe-du-nord-dutch-melrose",
+            "date": "2026-09-17",
+            "title": "Dutch Melrose / Benny Mayne / Pretty Havoc",
+            "details": "a/a $33.24 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-10-30-cafe-du-nord-lime-garden",
@@ -9065,7 +9104,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-caravan-lounge-facekicker",
@@ -9138,7 +9177,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.149Z",
-        "lastImportedAt": "2026-09-06T06:15:26.416Z",
+        "lastImportedAt": "2026-09-07T08:15:31.170Z",
         "appearances": [
           {
             "eventId": "2026-09-18-carnalitos-customs-hemmed-up",
@@ -9231,13 +9270,27 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
           {
             "eventId": "2026-09-07-castro-the-charlatans-uk",
             "date": "2026-09-07",
             "title": "The Charlatans UK / Frankie Rose",
-            "details": "a/a $60.10 7pm/8pm # / The Charlatans UK, Frankie Rose",
+            "details": "a/a $60.10 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-castro-orville-peck",
+            "date": "2026-09-12",
+            "title": "Orville Peck",
+            "details": "a/a 8pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-castro-orville-peck",
+            "date": "2026-09-13",
+            "title": "Orville Peck",
+            "details": "a/a 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9493,6 +9546,27 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-11-20-castro-danna",
+            "date": "2026-11-20",
+            "title": "Danna",
+            "details": "a/a $48.60 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-24-castro-jim-lang-and-the-ps-118-allstars",
+            "date": "2026-11-24",
+            "title": "Jim Lang and The PS 118 AllStars",
+            "details": "a/a $48.60 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-25-castro-jim-lang-and-the-ps-118-allstars",
+            "date": "2026-11-25",
+            "title": "Jim Lang and The PS 118 AllStars",
+            "details": "a/a $48.60 8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-11-29-castro-dweezil-zappa",
             "date": "2026-11-29",
             "title": "Dweezil Zappa",
@@ -9556,17 +9630,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-12-24-castro-san-francisco-gay-men-s-chorus-3-shows",
+            "date": "2026-12-24",
+            "title": "San Francisco Gay Men's Chorus (3 shows)",
+            "details": "a/a $48 3pm, 5:30pm and 8pm shows",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2027-01-15-castro-sts9",
             "date": "2027-01-15",
             "title": "STS9",
-            "details": "18+ 8pm #",
+            "details": "18+ $64.75 ($118.40 2 day pass) 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2027-01-16-castro-sts9",
             "date": "2027-01-16",
             "title": "STS9",
-            "details": "18+ 8pm #",
+            "details": "18+ $64.75 ($118.40 2 day pass) 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9753,19 +9834,19 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.446Z",
+        "lastImportedAt": "2026-09-07T08:15:31.202Z",
         "appearances": [
           {
-            "eventId": "2026-09-02-castro-theater-lp",
-            "date": "2026-09-02",
-            "title": "LP",
-            "details": "LP / a/a $64.75 7pm/8pm #",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+            "eventId": "2026-09-07-castro-theater-the-charlatans-uk-frankie-rose",
+            "date": "2026-09-07",
+            "title": "The Charlatans UK / Frankie Rose",
+            "details": "The Charlatans UK, Frankie Rose",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-09-castro-theater-legend-w-live-performance-by-trixxie-carr",
             "date": "2026-09-09",
-            "title": "",
+            "title": "Legend / live performance by Trixxie Carr",
             "details": "Legend w/ live performance by Trixxie Carr",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -9780,14 +9861,14 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-12-castro-theater-orville-peck",
             "date": "2026-09-12",
             "title": "Orville Peck",
-            "details": "Orville Peck / a/a 8pm # (sold out)",
+            "details": "Orville Peck",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-castro-theater-orville-peck",
             "date": "2026-09-13",
             "title": "Orville Peck",
-            "details": "Orville Peck / a/a 8pm #",
+            "details": "Orville Peck",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -10014,7 +10095,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.446Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
           {
             "eventId": "2026-09-17-catalyst-the-growlers",
@@ -10028,6 +10109,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-25",
             "title": "Mike D 5D",
             "details": "16+ $64.70 9pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-25-catalyst-rosewood",
+            "date": "2026-09-25",
+            "title": "Rosewood / Swept to Sea / Perch / Living In Silence / Running With Scissors / Red 40",
+            "details": "16+ $24.60 6pm/7pm # (battle of the bands)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10048,7 +10136,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-10-02-catalyst-twin-temple",
             "date": "2026-10-02",
             "title": "Twin Temple",
-            "details": "16+",
+            "details": "16+ $#40.02 8pm/9pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10073,6 +10161,27 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-17-catalyst-the-floozies",
+            "date": "2026-10-17",
+            "title": "The Floozies",
+            "details": "16+ $34.12-$28.72 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-19-catalyst-last-dinosaurs",
+            "date": "2026-10-19",
+            "title": "Last Dinosaurs",
+            "details": "16+ $30.88-$28.72 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-13-catalyst-andre-nickatina",
+            "date": "2026-11-13",
+            "title": "Andre Nickatina",
+            "details": "16+ $93.27-$82.47 7pm/8pm # (was june 27th)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-11-15-catalyst-the-california-honeydrops",
             "date": "2026-11-15",
             "title": "The California Honeydrops",
@@ -10084,6 +10193,27 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-18",
             "title": "As I Lay Dying",
             "details": "16+ $45.41 8pm/9pm # @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-12-05-catalyst-the-expendables",
+            "date": "2026-12-05",
+            "title": "The Expendables",
+            "details": "16+ $43.60 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-12-12-catalyst-the-grouch",
+            "date": "2026-12-12",
+            "title": "The Grouch / Eligh / Amp Live / Brother Ali",
+            "details": "16+ $51.85-$34.12 8pm/9pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2027-03-14-catalyst-alok",
+            "date": "2027-03-14",
+            "title": "Alok",
+            "details": "16+ $65.24-$34.12 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -10132,13 +10262,20 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.406Z",
+        "lastImportedAt": "2026-09-07T08:15:31.174Z",
         "appearances": [
           {
             "eventId": "2026-09-09-catalyst-atrium-pawpaw-rod",
             "date": "2026-09-09",
             "title": "Pawpaw Rod",
             "details": "16+ $34.12 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-24-catalyst-atrium-justin-martin",
+            "date": "2026-09-24",
+            "title": "Justin Martin",
+            "details": "16+ 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -10360,7 +10497,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
           {
             "eventId": "2026-09-11-center-for-new-music-alex-heigl-nora-free-chris-trinidad-ian-mackenzie",
@@ -10372,7 +10509,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-12-center-for-new-music-2-2-kevin-corcoran-james-fei-jacob-felix-heule-bill-hsu",
             "date": "2026-09-12",
-            "title": "Kevin Corcoran / James Fei / Jacob Felix Heule / Bill Hsu",
+            "title": "2×2: Kevin Corcoran / James Fei / Jacob Felix Heule / Bill Hsu",
             "details": "2×2: Kevin Corcoran, James Fei, Jacob Felix Heule, Bill Hsu",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -10565,20 +10702,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-06T06:15:26.453Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
           {
-            "eventId": "2026-09-04-chapel-sister-nancy-and-the-steady-rock-band",
-            "date": "2026-09-04",
-            "title": "Sister Nancy & The Steady Rock Band",
-            "details": "a/a $58.14 8pm/9pm / Sister Nancy & The Steady Rock Band",
+            "eventId": "2026-09-10-chapel-pink-breath-of-heaven",
+            "date": "2026-09-10",
+            "title": "Pink Breath Of Heaven / Topographies / Christina's Trip",
+            "details": "a/a $22/$26 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-11-chapel-acid-tongue",
             "date": "2026-09-11",
             "title": "Acid Tongue / Los Dug Dug's",
-            "details": "8pm/9pm / Acid Tongue, Los Dug Dug's",
+            "details": "8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-chapel-carla-dal-forno",
+            "date": "2026-09-13",
+            "title": "Carla Dal Forno / Cindy",
+            "details": "a/a $29.69 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -10591,7 +10735,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-16-chapel-magic-sword",
             "date": "2026-09-16",
-            "title": "Magic Sword / Skylmit",
+            "title": "Skylmit / Magic Sword",
             "details": "a/a $22/$25 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -11042,12 +11186,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.190Z",
         "appearances": [
           {
             "eventId": "2026-09-20-chapel-outdoor-state-travie-bobbito",
             "date": "2026-09-20",
-            "title": "Travie Bobbito / King Most / Bella D.",
+            "title": "Travie Bobbito / King Most / Bella D. / Bella D. & Friends",
             "details": "21+ $14.84+ 2pm/2pm til 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -11095,13 +11239,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.104Z",
-        "lastImportedAt": "2026-09-06T06:15:26.407Z",
+        "lastImportedAt": "2026-09-07T08:15:31.158Z",
         "appearances": [
           {
             "eventId": "2026-09-09-chase-center-weezer-the-shins-silversun-pickups",
             "date": "2026-09-09",
             "title": "Weezer / The Shins / Silversun Pickups",
-            "details": "Weezer, The Shins, Silversun Pickups / a/a $84+ 7pm #",
+            "details": "Weezer, The Shins, Silversun Pickups",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -11490,19 +11634,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-church-of-clown-out-with-it-by-claire-saxe",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "Out With It by Claire Saxe",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-12-church-of-clown-clown-burlesque-extravaganza-cabaret",
             "date": "2026-09-12",
-            "title": "",
+            "title": "Clown Burlesque Extravaganza Cabaret",
             "details": "Clown Burlesque Extravaganza Cabaret",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -11603,7 +11740,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-06T06:15:26.430Z",
+        "lastImportedAt": "2026-09-07T08:15:31.185Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -11779,7 +11916,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.449Z",
+        "lastImportedAt": "2026-09-07T08:15:31.206Z",
         "appearances": [
           {
             "eventId": "2026-09-19-civic-auditorium-steve-aoki",
@@ -11916,7 +12053,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.445Z",
+        "lastImportedAt": "2026-09-07T08:15:31.202Z",
         "appearances": [
           {
             "eventId": "2026-11-14-civic-center-rodrigo-y-gabriela",
@@ -12149,6 +12286,52 @@ window.SHOW_EXPLORER_VENUES = {
         "firstSeenAt": "2026-06-01T22:55:53.733Z",
         "lastImportedAt": "2026-09-03T00:36:41.721Z",
         "appearances": []
+      }
+    },
+    "cloverfield-organic-farm": {
+      "id": "cloverfield-organic-farm",
+      "name": "Cloverfield Organic Farm",
+      "displayName": "Cloverfield Organic Farm",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Cloverfield%20Organic%20Farm%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.991Z",
+        "lastImportedAt": "2026-09-07T08:15:31.159Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-10-cloverfield-organic-farm-powerhouse-ladies",
+            "date": "2026-09-10",
+            "title": "Powerhouse Ladies",
+            "details": "Powerhouse Ladies",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          }
+        ]
       }
     },
     "coach-s-lounge-sports-bar-and-grill": {
@@ -12930,22 +13113,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.446Z",
+        "lastImportedAt": "2026-09-07T08:15:31.205Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-cornerstone-tab-benoit",
-            "date": "2026-09-03",
-            "title": "Tab Benoit",
-            "details": "Tab Benoit",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-cornerstone-internet-kid",
-            "date": "2026-09-05",
-            "title": "Internet Kid",
-            "details": "Internet Kid",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-10-02-cornerstone-jesse-barrera",
             "date": "2026-10-02",
@@ -12979,6 +13148,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-15",
             "title": "Static Dress / I Promised The World / Car Underwater / Sherane",
             "details": "a/a $26/$31 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-29-cornerstone-the-grouch",
+            "date": "2026-11-29",
+            "title": "The Grouch / Eligh / Amp Live / Brother Ali / Lyrics Born",
+            "details": "a/a",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -13319,7 +13495,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-06T06:15:26.445Z",
+        "lastImportedAt": "2026-09-07T08:15:31.201Z",
         "appearances": [
           {
             "eventId": "2026-10-16-cow-palace-dom-dolla",
@@ -13347,6 +13523,66 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-13",
             "title": "Sammy Virji / Sam Gellaitry / Saint Ludo",
             "details": "a/a 18+ 7pm/8pm # (ga floor wristbands first come first served)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "creek-park": {
+      "id": "creek-park",
+      "name": "Creek Park",
+      "displayName": "Creek Park",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#creek_park",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Creek%20Park%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.993Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-11-creek-park-moonalice",
+            "date": "2026-09-11",
+            "title": "Moonalice",
+            "details": "a/a free 6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-creek-park-el-cajon-le-minivans",
+            "date": "2026-09-12",
+            "title": "El Cajon/Le Minivans",
+            "details": "a/a free 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -13554,7 +13790,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-06T06:15:26.449Z",
+        "lastImportedAt": "2026-09-07T08:15:31.205Z",
         "appearances": [
           {
             "eventId": "2026-10-01-crepe-place-color-green",
@@ -13810,7 +14046,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-11-crybaby-lil-kayla",
@@ -13888,7 +14124,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.175Z",
         "appearances": [
           {
             "eventId": "2026-09-25-curran-theater-laurie-anderson",
@@ -14000,7 +14236,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.442Z",
+        "lastImportedAt": "2026-09-07T08:15:31.198Z",
         "appearances": [
           {
             "eventId": "2026-09-12-danny-murry-s-12-steps-to-nothing",
@@ -14389,33 +14625,33 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-08-davies-symphony-hall-samara-joy-with-the-sf-symphony",
             "date": "2026-09-08",
-            "title": "Samara Joy / The San Francisco Symphony",
+            "title": "Samara Joy with the SF Symphony",
             "details": "Samara Joy with the SF Symphony",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-10-davies-symphony-hall-star-wars-return-of-the-jedi-with-the-sf-symphony",
             "date": "2026-09-10",
-            "title": "",
+            "title": "Star Wars: Return of the Jedi with the SF Symphony",
             "details": "Star Wars: Return of the Jedi with the SF Symphony",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-davies-symphony-hall-star-wars-return-of-the-jedi-with-the-sf-symphony",
             "date": "2026-09-12",
-            "title": "",
+            "title": "Star Wars: Return of the Jedi with the SF Symphony",
             "details": "Star Wars: Return of the Jedi with the SF Symphony",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-26-davies-symphony-hall-fantastic-negrito-with-the-sf-symphony",
             "date": "2026-09-26",
-            "title": "Fantastic Negrito / San Francisco Symphony",
+            "title": "San Francisco Symphony / Fantastic Negrito / Fantastic Negrito with the SF Symphony",
             "details": "a/a 7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -14905,7 +15141,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-06T06:15:26.406Z",
+        "lastImportedAt": "2026-09-07T08:15:31.156Z",
         "appearances": [
           {
             "eventId": "2026-09-07-derby-skatepark-bloodstains",
@@ -14960,7 +15196,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-discovery-meadow-keyshia-cole",
@@ -15013,12 +15249,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
             "date": "2026-09-20",
-            "title": "Rebelution / Waka Flocka Flame / Collie Buddz / The Expendables / Cydeways / dj Quik",
+            "title": "Rebelution / Waka Flocka Flame / Collie Buddz / The Expendables / Cydeways / dj Quik / host Otis Otes",
             "details": "a/a $95+ ($194+ vip) 3pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -15196,14 +15432,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.423Z",
+        "lastImportedAt": "2026-09-07T08:15:31.177Z",
         "appearances": [
           {
             "eventId": "2026-09-06-dna-lounge-venjent",
             "date": "2026-09-06",
             "title": "Venjent / Oktae",
-            "details": "a/a $25/$36 7pm / Venjent, Oktae",
+            "details": "a/a $25/$36 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-06-dna-lounge-venjent-oktae",
+            "date": "2026-09-06",
+            "title": "Venjent / Oktae",
+            "details": "Venjent, Oktae",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-07-dna-lounge-monday-night-hubba-star-trek-burlesque",
@@ -15216,15 +15459,29 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-09-dna-lounge-16-volt-acumen-nation-everything-goes-cold",
             "date": "2026-09-09",
             "title": "16 Volt / Acumen Nation / Everything Goes Cold",
-            "details": "16 Volt, Acumen Nation, Everything Goes Cold / a/a $22/$31 7pm",
+            "details": "16 Volt, Acumen Nation, Everything Goes Cold",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-09-dna-lounge-16-volt",
+            "date": "2026-09-09",
+            "title": "16 Volt / Acumen Nation / Everything Goes Cold",
+            "details": "a/a $22/$31 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-10-dna-lounge-pig",
             "date": "2026-09-10",
             "title": "Pig / Cyanotic",
-            "details": "a/a $26/$36 7pm / Pig, Cyanotic",
+            "details": "a/a $26/$36 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-dna-lounge-pig-cyanotic",
+            "date": "2026-09-10",
+            "title": "Pig / Cyanotic",
+            "details": "Pig, Cyanotic",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-dna-lounge-apollyon",
@@ -15236,30 +15493,44 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-11-dna-lounge-mortified",
             "date": "2026-09-11",
-            "title": "",
+            "title": "Mortified",
             "details": "Mortified",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-dna-lounge-prescott-niles-the-knack-the-bpms",
+            "date": "2026-09-12",
+            "title": "Prescott Niles' The Knack / The BPMs",
+            "details": "Prescott Niles' The Knack, The BPMs",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-dna-lounge-the-knack",
             "date": "2026-09-12",
-            "title": "The Knack / The BPMs",
-            "details": "a/a $39/$56 7pm / Prescott Niles' The Knack, The BPMs",
+            "title": "The Knack",
+            "details": "a/a $39/$56 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-dna-lounge-johnny-manchild",
             "date": "2026-09-13",
             "title": "Johnny Manchild / Friend Of A Friend / Karma And The Killjoys",
-            "details": "a/a $15/$21 7pm/7:30pm @",
+            "details": "a/a $15/$21 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-dna-lounge-zeromind-the-randome-devils-brodre",
             "date": "2026-09-13",
             "title": "Zeromind / The Randome Devils / Brodre",
-            "details": "Zeromind, The Randome Devils, Brodre / a/a $15/$22 7pm",
+            "details": "Zeromind, The Randome Devils, Brodre",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-13-dna-lounge-zeromind",
+            "date": "2026-09-13",
+            "title": "Zeromind / The Randome Devils / Brodre",
+            "details": "a/a $15/$22 7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-29-dna-lounge-kal-el",
@@ -15345,6 +15616,59 @@ window.SHOW_EXPLORER_VENUES = {
         "firstSeenAt": "2026-06-01T22:25:44.050Z",
         "lastImportedAt": "2026-09-03T00:36:41.710Z",
         "appearances": []
+      }
+    },
+    "dolan": {
+      "id": "dolan",
+      "name": "Dolan's Den",
+      "displayName": "Dolan's Den",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#dolan",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dolan's%20Den%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.988Z",
+        "lastImportedAt": "2026-09-07T08:15:31.156Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-07-dolan-s-den-saint",
+            "date": "2026-09-07",
+            "title": "Saint / The Nugget King / Maniac7ioh7 / Dillon O' Bannon / McWicked / Unconventional Loui",
+            "details": "?/?",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
       }
     },
     "down-home-music": {
@@ -15580,7 +15904,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.902Z",
-        "lastImportedAt": "2026-09-06T06:15:26.409Z",
+        "lastImportedAt": "2026-09-07T08:15:31.161Z",
         "appearances": [
           {
             "eventId": "2026-09-11-downtown-point-richmond-the-anthony-paule-soul-orchestra-feat-willy-jordan-los-nadies",
@@ -15972,13 +16296,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-06T06:15:26.428Z",
+        "lastImportedAt": "2026-09-07T08:15:31.201Z",
         "appearances": [
+          {
+            "eventId": "2026-09-10-eagle-hellcatraz-agon-aunt-calaveras-sharps-removed",
+            "date": "2026-09-10",
+            "title": "Hellcatraz / Agon Aunt / Calaveras / Sharps Removed",
+            "details": "Hellcatraz, Agon Aunt, Calaveras, Sharps Removed",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
           {
             "eventId": "2026-09-10-eagle-hellcatraz",
             "date": "2026-09-10",
             "title": "Hellcatraz / Agon Aunt / Calaveras / The Sharps Removed",
-            "details": "21+ $10 8:30pm / Hellcatraz, Agon Aunt, Calaveras, Sharps Removed",
+            "details": "21+ $10 8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -15986,6 +16317,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-08",
             "title": "Blunt Force Karma / Run Your Pockets / Man The Gallows / Televised Corruption",
             "details": "21+ $10 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-12-eagle-fast-friends",
+            "date": "2026-11-12",
+            "title": "Fast Friends / Gen11 / Errevria",
+            "details": "21+ $10 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -16310,26 +16648,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-06T06:15:26.416Z",
+        "lastImportedAt": "2026-09-07T08:15:31.169Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-el-rio-los-train-wreck-s-all-star-jam",
-            "date": "2026-09-02",
-            "title": "Los Train Wreck's All Star Jam",
-            "details": "Los Train Wreck's All Star Jam",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-el-rio-al-akhbar",
-            "date": "2026-09-05",
-            "title": "Al Akhbar",
-            "details": "Al Akhbar",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-07-el-rio-23rd-annual-rhinestone-rodeo-velvetta-liz-lewis-and-fringe-cindy-emch-mya-byrne",
             "date": "2026-09-07",
-            "title": "Velvetta / Liz Lewis & Fringe / Cindy Emch / Mya Byrne",
+            "title": "23rd Annual Rhinestone Rodeo: Velvetta / Liz Lewis & Fringe / Cindy Emch / Mya Byrne",
             "details": "23rd Annual Rhinestone Rodeo: Velvetta, Liz Lewis & Fringe, Cindy Emch, Mya Byrne",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -16803,15 +17127,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-eli-s-mile-high-club-punk-band-karaoke",
-            "date": "2026-09-04",
-            "title": "Punk Band Karaoke",
-            "details": "Punk Band Karaoke",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-11-eli-s-mile-high-club-stay-out-bloodsugar-tess-and-the-details-fatale",
             "date": "2026-09-11",
@@ -17307,7 +17624,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.261Z",
-        "lastImportedAt": "2026-09-06T06:15:26.401Z",
+        "lastImportedAt": "2026-09-06T23:08:20.521Z",
         "appearances": [
           {
             "eventId": "2026-09-04-everyday-skateshop-kwiknconvenient",
@@ -17398,7 +17715,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.192Z",
         "appearances": [
           {
             "eventId": "2026-10-24-faction-brewing-slacktone",
@@ -17460,7 +17777,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.175Z",
         "appearances": [
           {
             "eventId": "2026-09-25-faight-moondrops",
@@ -17566,8 +17883,15 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-06T06:15:26.436Z",
+        "lastImportedAt": "2026-09-07T08:15:31.192Z",
         "appearances": [
+          {
+            "eventId": "2026-10-15-felton-music-hall-bumpin-uglies",
+            "date": "2026-10-15",
+            "title": "Bumpin Uglies / Pacific Roots / Artikal Sound ?System",
+            "details": "21+ $34.12 9pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-10-23-felton-music-hall-black-flag-greg-ginn",
             "date": "2026-10-23",
@@ -17823,7 +18147,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-fifty-s-liquor-choke",
@@ -18019,20 +18343,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
           {
-            "eventId": "2026-09-05-fillmore-kamelot",
-            "date": "2026-09-05",
-            "title": "Kamelot / Visions Of Atlantis / Frozen Crown",
-            "details": "a/a $52+ 6pm/7pm # / Kamelot",
+            "eventId": "2026-09-12-fillmore-public-image-ltd",
+            "date": "2026-09-12",
+            "title": "Public Image Ltd.",
+            "details": "a/a 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-fillmore-manchester-orchestra",
             "date": "2026-09-13",
             "title": "Manchester Orchestra / Brother Bird",
-            "details": "a/a 8pm # / Manchester Orchestra",
+            "details": "a/a 8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -18548,7 +18872,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-06T06:15:26.409Z",
+        "lastImportedAt": "2026-09-07T08:15:31.161Z",
         "appearances": [
           {
             "eventId": "2026-09-10-fireside-lounge-don-balistreri",
@@ -18610,7 +18934,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-09-06T06:15:26.445Z",
+        "lastImportedAt": "2026-09-07T08:15:31.201Z",
         "appearances": [
           {
             "eventId": "2026-09-26-first-church-of-the-buzzard-silent-cities",
@@ -18989,7 +19313,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-06T06:15:26.427Z",
+        "lastImportedAt": "2026-09-07T08:15:31.182Z",
         "appearances": [
           {
             "eventId": "2026-10-05-fml-studio-ingrata",
@@ -19043,7 +19367,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.404Z",
+        "lastImportedAt": "2026-09-06T23:08:20.523Z",
         "appearances": [
           {
             "eventId": "2026-09-05-fml-studios-ingrata",
@@ -19154,7 +19478,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.107Z",
-        "lastImportedAt": "2026-09-06T06:15:26.409Z",
+        "lastImportedAt": "2026-09-07T08:15:31.161Z",
         "appearances": [
           {
             "eventId": "2026-09-11-fold-adrian-west-band",
@@ -19498,15 +19822,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-fox-theater-brandon-flowers",
-            "date": "2026-09-05",
-            "title": "Brandon Flowers",
-            "details": "Brandon Flowers",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-09-fox-theater-slayyyter",
             "date": "2026-09-09",
@@ -19517,22 +19834,36 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-11-fox-theater-michael-blaustein",
             "date": "2026-09-11",
-            "title": "",
+            "title": "Michael Blaustein",
             "details": "Michael Blaustein",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
+            "eventId": "2026-09-12-fox-theater-thievery-corporation",
+            "date": "2026-09-12",
+            "title": "Thievery Corporation",
+            "details": "a/a $73.25 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-12-fox-theater-thievery-corporation-captain-planet-fox-theater",
             "date": "2026-09-12",
-            "title": "Thievery Corporation / Captain Planet",
-            "details": "Thievery Corporation, Captain Planet, Fox Theater / a/a $73.25 7pm/8pm #",
+            "title": "Thievery Corporation / Captain Planet / Fox Theater",
+            "details": "Thievery Corporation, Captain Planet, Fox Theater",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-13-fox-theater-masego",
+            "date": "2026-09-13",
+            "title": "Masego",
+            "details": "a/a $66.75 6:30pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-13-fox-theater-masego-lekan",
             "date": "2026-09-13",
             "title": "Masego / Lekan",
-            "details": "Masego, Lekan / a/a $66.75 6:30pm/7:30pm",
+            "details": "Masego, Lekan",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -19552,7 +19883,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-21-fox-theater-new-date-jack-harlow",
             "date": "2026-09-21",
-            "title": "Jack Harlow",
+            "title": "Jack Harlow / NEW DATE: Jack Harlow",
             "details": "18th)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -19566,14 +19897,14 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-26-fox-theater-insecure-issa-rae",
             "date": "2026-09-26",
-            "title": "",
+            "title": "Insecure: Issa Rae / Prenitce Penny / and the Cast",
             "details": "18+ $56.25 8pm # (sold out - seated show)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-29-fox-theater-social-distortion",
             "date": "2026-09-29",
-            "title": "Social Distortion / Descendants / The Chats / Descendents",
+            "title": "Descendants / Social Distortion / The Chats",
             "details": "a/a $78.60 6pm/7pm # @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -19905,7 +20236,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-09-06T06:15:26.435Z",
+        "lastImportedAt": "2026-09-07T08:15:31.191Z",
         "appearances": [
           {
             "eventId": "2026-09-19-freight-t-sisters",
@@ -20010,7 +20341,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.190Z",
         "appearances": [
           {
             "eventId": "2026-09-19-frost-amphitheater-brandi-carlile",
@@ -20814,34 +21145,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.447Z",
+        "lastImportedAt": "2026-09-07T08:15:31.203Z",
         "appearances": [
           {
-            "eventId": "2026-09-03-gilman-western-addiction",
-            "date": "2026-09-03",
-            "title": "Western Addiction / Sterile Eyes / Calaveras / Cava",
-            "details": "a/a $12/$15 8pm/8:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-04-gilman-punk-yoga",
-            "date": "2026-09-04",
-            "title": "",
-            "details": "a/a $5-$10 noon til 1:15pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-gilman-membership-meeting",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "a/a 4pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-gilman-quinkana",
-            "date": "2026-09-05",
-            "title": "Quinkana / Luna Ivy / Dilute_Calico98 / Solstice / Everyn Playground",
-            "details": "a/a $12/$15 7pm / MyBloodyShoegaze Fest: Quinkana, Luna Ivy, Dilute_Calico98, Solstice",
+            "eventId": "2026-09-06-gilman-mugslug",
+            "date": "2026-09-06",
+            "title": "Mugslug / Euthanized / A French Project / Big Tractor / Chrysalis / MooseTrout",
+            "details": "a/a 6pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -20849,6 +21159,27 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-09",
             "title": "Yearn / Junebug / Joseon / Rosegate",
             "details": "a/a $18/$22 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-gilman-worst",
+            "date": "2026-09-11",
+            "title": "Worst / Decades In / Midori / Dolores / The American Dream / Deadringer",
+            "details": "a/a $15 5:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-gilman-iron-lung",
+            "date": "2026-09-12",
+            "title": "Iron Lung / Grand Invincible / Planet On A Chain / Totalna Tama / Surprise Privilege",
+            "details": "a/a $15 7pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-gilman-just-nick",
+            "date": "2026-09-13",
+            "title": "Just Nick / CJ Lawrence / Brian Ward / Imparcial",
+            "details": "a/a $12/$15 6pm/6:30pm (acoustic sunday)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -20861,21 +21192,28 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-19-gilman-kochina-rude",
             "date": "2026-09-19",
-            "title": "Kochina Rude / Papi Churro / Middle-Aged Queers / The Homobiles / Heartless Folk / Penny Poundcake / AngelTortured / The Sisters Of Perpetual Indulgence",
+            "title": "Kochina Rude / Papi Churro / Middle-Aged Queers / The Homobiles / Heartless Folk / Penny Poundcake / AngelTortured / The Sisters Of Perpetual Indulgence / Papi Churro (drag king)",
             "details": "a/a $15 7pm/8pm (Oakland Pride/Gilman Benefit)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-19-gilman-membership-meeting",
             "date": "2026-09-19",
-            "title": "",
+            "title": "Membership Meeting",
             "details": "a/a 4pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-21-gilman-inconvenient-truth",
+            "date": "2026-09-21",
+            "title": "Inconvenient Truth / Mankind / Wroht / Spawn / 40 Oz Felony",
+            "details": "a/a $10/$15 6:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-24-gilman-new-band-night",
             "date": "2026-09-24",
-            "title": "",
+            "title": "new band night",
             "details": "a/a $20/$25 6pm (Gilman Benefit)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -20889,7 +21227,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-26-gilman-the-enemies",
             "date": "2026-09-26",
-            "title": "The Enemies / Street Eaters / Hex Pest / Attack Dog",
+            "title": "The Enemies / Street Eaters / Hex Pest / Attack Dog / Trap Girl",
             "details": "a/a $20/$25 7pm @ (Gilman Benefit)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -20931,7 +21269,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-30-gilman-feburary",
             "date": "2026-10-30",
-            "title": "Feburary / Love Letter / Stella",
+            "title": "Feburary / Love Letter / Stella / Soap Box Derby / Slinger",
             "details": "a/a $23 7pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -20947,6 +21285,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-11-01",
             "title": "Worst Party Ever / Equipment / Ogbert The Nerd / Flight Patterns",
             "details": "a/a $20/$25 6:30pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-07-gilman-membership-meeting",
+            "date": "2026-11-07",
+            "title": "Membership Meeting",
+            "details": "a/a 4pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -21014,7 +21359,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-06T06:15:26.431Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -21219,7 +21564,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.280Z",
-        "lastImportedAt": "2026-09-06T06:15:26.426Z",
+        "lastImportedAt": "2026-09-07T08:15:31.181Z",
         "appearances": [
           {
             "eventId": "2026-09-13-golden-gate-park-flower-piano-in-the-garden",
@@ -21766,7 +22111,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-06T06:15:26.428Z",
+        "lastImportedAt": "2026-09-07T08:15:31.184Z",
         "appearances": [
           {
             "eventId": "2026-10-08-gray-area-eraserhead-xiu-xiu",
@@ -21960,47 +22305,54 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-great-american-music-hall-gothicumbia",
-            "date": "2026-09-04",
-            "title": "Gothicumbia",
-            "details": "Gothicumbia",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-great-american-music-hall-pallbearer-ordh-chrome-ghost",
-            "date": "2026-09-05",
-            "title": "Pallbearer / Ordh / Chrome Ghost",
-            "details": "Pallbearer, Ordh, Chrome Ghost / a/a $25/$30 7pm/8pm @",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-09-great-american-music-hall-eihwar-frayle",
             "date": "2026-09-09",
             "title": "Eihwar / Frayle",
-            "details": "Eihwar, Frayle / a/a $35/$40/$45 7pm/8pm",
+            "details": "Eihwar, Frayle",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-09-great-american-music-hall-eihwar",
+            "date": "2026-09-09",
+            "title": "Eihwar / Frayle",
+            "details": "a/a $35/$40/$45 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-great-american-music-hall-your-arms-are-my-coccon",
+            "date": "2026-09-10",
+            "title": "Your Arms Are My Coccon / ?September Is The Only Time / Don't Thin Of You / Imagine We Had Antlers / Awakebutsillinbed",
+            "details": "a/a $15/$17 6:30pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-10-great-american-music-hall-your-arms-are-my-cocoon-imagine-we-had-antlers-awakebutstillinbed",
             "date": "2026-09-10",
             "title": "Your Arms Are My Cocoon / Imagine We Had Antlers / awakebutstillinbed",
-            "details": "Your Arms Are My Cocoon, Imagine We Had Antlers, awakebutstillinbed / a/a $15/$17 6:30pm/7:30pm",
+            "details": "Your Arms Are My Cocoon, Imagine We Had Antlers, awakebutstillinbed",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-great-american-music-hall-necrot-iron-lung-death-grave-street-tombs",
             "date": "2026-09-11",
             "title": "Necrot / Iron Lung / Death Grave / Street Tombs",
-            "details": "Necrot, Iron Lung, Death Grave, Street Tombs / a/a $25/$30 7pm/8pm @",
+            "details": "Necrot, Iron Lung, Death Grave, Street Tombs",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-11-great-american-music-hall-necrot",
+            "date": "2026-09-11",
+            "title": "Necrot / Iron Lung / Death Grave / Street Tombs",
+            "details": "a/a $25/$30 7pm/8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-12-great-american-music-hall-30th-annual-sf-drag-king-contest",
             "date": "2026-09-12",
-            "title": "",
+            "title": "30th Annual SF Drag King Contest",
             "details": "30th Annual SF Drag King Contest",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -22008,8 +22360,15 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-13-great-american-music-hall-bear-mccreary-angels-on-the-battlefield",
             "date": "2026-09-13",
             "title": "Bear McCreary / Angels on the Battlefield",
-            "details": "Bear McCreary, Angels on the Battlefield / a/a $40/$45/$50 7pm/8pm",
+            "details": "Bear McCreary, Angels on the Battlefield",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-13-great-american-music-hall-bear-mccreary",
+            "date": "2026-09-13",
+            "title": "Bear McCreary / Angels On The Battlefield",
+            "details": "a/a $40/$45/$50 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-16-great-american-music-hall-when-chai-met-toast",
@@ -22042,7 +22401,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-26-great-american-music-hall-rusty-chains-tribute",
             "date": "2026-09-26",
-            "title": "Rusty Chains / Stardog Champions",
+            "title": "Rusty Chains / Stardog Champions / Rusty Chains (tribute)",
             "details": "a/a $25/$30 7:30pm/8:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -22124,6 +22483,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-13-great-american-music-hall-provoker",
+            "date": "2026-10-13",
+            "title": "Provoker / Topographies / Dalmatia",
+            "details": "a/a $27.50/$30 6pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-14-great-american-music-hall-mexican-institute-of-sound",
             "date": "2026-10-14",
             "title": "Mexican Institute Of Sound / Spaghetti Cumbia / Edgar / Kaefan",
@@ -22142,6 +22508,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-16",
             "title": "The Jungle Giants",
             "details": "a/a $29.50/$35 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-18-great-american-music-hall-peaches",
+            "date": "2026-10-18",
+            "title": "Peaches / Soltera / Sola Guinto / Shifters",
+            "details": "a/a $69/$75 ($111 vip) 6pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22191,6 +22564,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-24",
             "title": "Illuminati Hotties / Buzzed Lightbeer / Satana Satana / Swell Foop / dj Maya Hernandez / (Tsar Koshka (visuals)",
             "details": "a/a $27/$30 7pm/7:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-25-great-american-music-hall-ali-amran",
+            "date": "2026-10-25",
+            "title": "Ali Amran",
+            "details": "a/a $60 5pm/6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -22510,15 +22890,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-09-06T06:15:26.429Z",
+        "lastImportedAt": "2026-09-07T08:15:31.184Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-great-northern-doc-martin",
-            "date": "2026-09-05",
-            "title": "Doc Martin / Miguel Migs / David Harness / dj M3",
-            "details": "21+ $11.28 6pm/9:30pm til 3am",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-10-09-great-northern-woo-york",
             "date": "2026-10-09",
@@ -22616,13 +22989,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-06T06:15:26.407Z",
+        "lastImportedAt": "2026-09-07T08:15:31.158Z",
         "appearances": [
           {
             "eventId": "2026-09-09-greek-theater-liz-phair-sleater-kinney-soccer-mommy-solo",
             "date": "2026-09-09",
-            "title": "Liz Phair / Sleater-Kinney / Soccer Mommy",
-            "details": "Liz Phair, Sleater-Kinney, Soccer Mommy (Solo) / a/a $78.15 6:30pm #",
+            "title": "Liz Phair / Sleater-Kinney / Soccer Mommy (Solo)",
+            "details": "Liz Phair, Sleater-Kinney, Soccer Mommy (Solo)",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -22815,14 +23188,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.442Z",
+        "lastImportedAt": "2026-09-07T08:15:31.198Z",
         "appearances": [
+          {
+            "eventId": "2026-09-09-greek-theatre-liz-phair",
+            "date": "2026-09-09",
+            "title": "Liz Phair / Sleater-Kinney / Soccer Mommy (solo)",
+            "details": "a/a $78.15 6:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-09-11-greek-theatre-foster-the-people",
             "date": "2026-09-11",
             "title": "Foster The People / Goth Babe",
-            "details": "a/a 6:30pm/8pm # / Foster The People, Goth Babe",
+            "details": "a/a 6:30pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-greek-theatre-foster-the-people-goth-babe",
+            "date": "2026-09-11",
+            "title": "Foster The People / Goth Babe",
+            "details": "Foster The People, Goth Babe",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-15-greek-theatre-johnny-blue-skies-and-the-dark-clouds",
@@ -22842,7 +23229,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-27-greek-theatre-erykah-badu",
             "date": "2026-09-27",
             "title": "Erykah Badu / The Alchemist / Smino",
-            "details": "a/a 7pm #",
+            "details": "a/a 7pm # (sold out",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -23275,7 +23662,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-06T06:15:26.440Z",
+        "lastImportedAt": "2026-09-07T08:15:31.196Z",
         "appearances": [
           {
             "eventId": "2026-09-11-guild-theater-marcus-rezak-s-shread-is-dead",
@@ -23394,7 +23781,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-guitar-wars-dolores",
@@ -23447,7 +23834,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.897Z",
-        "lastImportedAt": "2026-09-06T06:15:26.402Z",
+        "lastImportedAt": "2026-09-06T23:08:20.521Z",
         "appearances": [
           {
             "eventId": "2026-09-04-gundlach-bundschu-winery-stephen-malkmus",
@@ -23500,7 +23887,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T04:39:03.293Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-haight-ashbury-street-fair-knights-of-molino",
@@ -23719,7 +24106,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-06T06:15:26.426Z",
+        "lastImportedAt": "2026-09-07T08:15:31.182Z",
         "appearances": [
           {
             "eventId": "2026-10-04-hardly-strictly-bluegrass-aj-lee-and-blue-summit",
@@ -24174,7 +24561,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.449Z",
+        "lastImportedAt": "2026-09-07T08:15:31.205Z",
         "appearances": [
           {
             "eventId": "2026-10-24-henry-j-kaiser-center-celtic-thunder",
@@ -24386,7 +24773,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-heshers-pizza-field-of-fear",
@@ -24544,12 +24931,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.154Z",
         "appearances": [
           {
             "eventId": "2026-09-06-hibernia-sf-zine-fest",
             "date": "2026-09-06",
-            "title": "",
+            "title": "SF Zine Fest",
             "details": "a/a free 11am til 5pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -24934,7 +25321,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-hopmon-magic-sword",
@@ -24998,8 +25385,15 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-06T06:15:26.451Z",
+        "lastImportedAt": "2026-09-07T08:15:31.208Z",
         "appearances": [
+          {
+            "eventId": "2026-09-18-hopmonk-the-anton-collection",
+            "date": "2026-09-18",
+            "title": "The Anton Collection / Joe Marcinex Band",
+            "details": "21+ $30.57 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-09-20-hopmonk-shawn-mullins",
             "date": "2026-09-20",
@@ -25277,7 +25671,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.451Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
           {
             "eventId": "2026-09-11-hopmonk-tavern-tainted-love",
@@ -25596,22 +25990,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.441Z",
+        "lastImportedAt": "2026-09-07T08:15:31.197Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-hotel-utah-bo-ak-the-blue-wings",
-            "date": "2026-09-04",
-            "title": "BO-AK / The Blue Wings",
-            "details": "BO-AK, The Blue Wings",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-hotel-utah-olive-pants",
-            "date": "2026-09-05",
-            "title": "Olive Pants",
-            "details": "Olive Pants",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-hotel-utah-blacklight-hotel-peacock-picasso-squid-saves-the-planet",
             "date": "2026-09-06",
@@ -25712,7 +26092,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.289Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.190Z",
         "appearances": [
           {
             "eventId": "2026-10-18-hotel-utah-saloon-scam-likely",
@@ -25776,7 +26156,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.262Z",
-        "lastImportedAt": "2026-09-06T06:15:26.404Z",
+        "lastImportedAt": "2026-09-06T23:08:20.523Z",
         "appearances": [
           {
             "eventId": "2026-09-04-hub-darkness-everywhere",
@@ -26051,13 +26431,34 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
           {
-            "eventId": "2026-09-04-independent-tonic-walter",
-            "date": "2026-09-04",
-            "title": "Tonic Walter",
-            "details": "18+ $31.55 8:30pm/9pm",
+            "eventId": "2026-09-08-independent-pawpaw-rod",
+            "date": "2026-09-08",
+            "title": "Pawpaw Rod / Femdot",
+            "details": "a/a $31.55 ($113 vip) 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-09-independent-kevin-atwater",
+            "date": "2026-09-09",
+            "title": "Kevin Atwater / Ruby Plume",
+            "details": "a/a $31.55 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-independent-rules",
+            "date": "2026-09-10",
+            "title": "Rules",
+            "details": "18+ $32.47 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-independent-arlo",
+            "date": "2026-09-11",
+            "title": "Arlo / Fromclay",
+            "details": "18+ $34.5 8:30pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -26390,6 +26791,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2027-02-19-independent-fink",
+            "date": "2027-02-19",
+            "title": "Fink",
+            "details": "a/a $38.13 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2027-05-05-independent-odezenne",
             "date": "2027-05-05",
             "title": "Odezenne",
@@ -26440,7 +26848,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.178Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.174Z",
         "appearances": [
           {
             "eventId": "2026-09-24-indpendent-wesghost",
@@ -26789,49 +27197,28 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.451Z",
+        "lastImportedAt": "2026-09-07T08:15:31.208Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-ivy-room-durango-dogs-eclipsing-eden-peaceful-dudes-elegant-trash-scott-quay-syd-and-i-mc-patty",
-            "date": "2026-09-02",
-            "title": "Durango Dogs / Eclipsing Eden / Peaceful Dudes / Elegant Trash / Scott Quay / Syd & I / MC Patty",
-            "details": "Durango Dogs, Eclipsing Eden, Peaceful Dudes, Elegant Trash, Scott Quay, Syd & I, MC Patty",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-ivy-room-alien-boy",
-            "date": "2026-09-03",
-            "title": "Alien Boy / Bory / Rotten Charms",
-            "details": "21+ 7pm/7:30pm / Alien Boy, Bory, Rotten Charms",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-04-ivy-room-brigata-vendetta",
-            "date": "2026-09-04",
-            "title": "Brigata Vendetta / OBCT / Raw Force / Blood Compact / Direct Generation",
-            "details": "21+ $15/$20 7pm/8pm @ / Brigata Vendetta, OBCT, Raw Force, Blood Compact, Direct Generation",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-ivy-room-ryan-macneill-and-the-big-deal",
-            "date": "2026-09-05",
-            "title": "Ryan MacNeill and The Big Deal",
-            "details": "Ryan MacNeill and The Big Deal",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-ivy-room-durango-dogs-9-40",
             "date": "2026-09-06",
-            "title": "Durango Dogs / Eclipsing Eden / The Peaceful Dudes / Elegant Trash / Scott Quay / Syd And I / mc Patty",
+            "title": "Durango Dogs / Eclipsing Eden / The Peaceful Dudes / Elegant Trash / Scott Quay / Syd And I / mc Patty / Durango Dogs (9:40) / The Peacful Dudes",
             "details": "21+ $15 ($25 vip) 6pm/6:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-06-ivy-room-mr-cindy-and-the-secret-emchy-society-asheigh-flynn-and-the-riveters-corner-ponies",
             "date": "2026-09-06",
-            "title": "Mr Cindy & the Secret Emchy Society / Corner Ponies / Ashleigh Flynn & The Riveters",
-            "details": "Mr Cindy & the Secret Emchy Society, Asheigh Flynn & the Riveters, Corner Ponies / 21+ $18 2pm/3pm",
+            "title": "Mr Cindy & the Secret Emchy Society / Asheigh Flynn & the Riveters / Corner Ponies",
+            "details": "Mr Cindy & the Secret Emchy Society, Asheigh Flynn & the Riveters, Corner Ponies",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+          },
+          {
+            "eventId": "2026-09-06-ivy-room-mr-cindy-and-the-secret-emchy-society",
+            "date": "2026-09-06",
+            "title": "Mr Cindy & The Secret Emchy Society / Ashleigh Flynn & The Riveters / Corner Ponies",
+            "details": "21+ $18 2pm/3pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-09-ivy-room-scott-amendola-s-floating-parade",
@@ -26844,35 +27231,63 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-10-ivy-room-classic-hat",
             "date": "2026-09-10",
             "title": "Classic Hat / Hvnter Colt / Scam Likely / Get Close",
-            "details": "21+ $12/$15 6:30pm/7pm / Classic Hat, Hvnter Colt, Scam Likely, Get Close",
+            "details": "21+ $12/$15 6:30pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-ivy-room-classic-hat-hvnter-colt-scam-likely-get-close",
+            "date": "2026-09-10",
+            "title": "Classic Hat / Hvnter Colt / Scam Likely / Get Close",
+            "details": "Classic Hat, Hvnter Colt, Scam Likely, Get Close",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-ivy-room-the-snares",
             "date": "2026-09-11",
             "title": "The Snares / The Strange Ones / Slow Coast",
-            "details": "21+ $20 7:30pm/8pm / The Snares, The Strange Ones, Slow Coast",
+            "details": "21+ $20 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-ivy-room-the-snares-the-strange-ones-slow-coast",
+            "date": "2026-09-11",
+            "title": "The Snares / The Strange Ones / Slow Coast",
+            "details": "The Snares, The Strange Ones, Slow Coast",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-ivy-room-super-ape-taylorgryft-and-thehovvlers-couldn-t-deal-easy-tigers-the-redakted-elegant-trash-sparkle-plenty-reflector-pool-titli-thind-noah-lux-mc-patty",
             "date": "2026-09-12",
-            "title": "Super Apes / Taylor Gryft & The Hovvlers / Couldn't Deal / Easy Tigers / The Redakted / Elegant Trash / Sparkle Plenty / Reflector Pool / Titli Thind / Noah Lux / MC PATTY",
-            "details": "Super Ape, TaylorGryft&TheHovvlers, Couldn't Deal, Easy Tigers, The Redakted, Elegant Trash, Sparkle Plenty, Reflector Pool, Titli Thind, Noah Lux, MC PATTY / 21+ $15 ($25 vip) 6pm/6:30pm @",
+            "title": "Super Ape / TaylorGryft&TheHovvlers / Couldn't Deal / Easy Tigers / The Redakted / Elegant Trash / Sparkle Plenty / Reflector Pool / Titli Thind / Noah Lux / MC PATTY",
+            "details": "Super Ape, TaylorGryft&TheHovvlers, Couldn't Deal, Easy Tigers, The Redakted, Elegant Trash, Sparkle Plenty, Reflector Pool, Titli Thind, Noah Lux, MC PATTY",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-ivy-room-super-apes-11-10pm",
+            "date": "2026-09-12",
+            "title": "Super Apes (11:10pm) / Taylor Gryft And The Hovviers / Couldn't Deal / Easy Tigers / Redakted / Elegant Trash / Sparkle Plenty / Reflector Pool / Titli Thind (acoustic) / Noah Lux (acoustic) / mc Patty",
+            "details": "21+ $15 ($25 vip) 6pm/6:30pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-ivy-room-hank-williams-birthday-bash-matinee-slap-dragon-later",
+            "date": "2026-09-13",
+            "title": "Hank Williams Birthday Bash (Matinee) / Slap Dragon (Later)",
+            "details": "Hank Williams Birthday Bash (Matinee), Slap Dragon (Later)",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-ivy-room-slap-dragon",
             "date": "2026-09-13",
             "title": "Slap Dragon",
-            "details": "21+ $23.48 7:30pm/8pm / Hank Williams Birthday Bash (Matinee), Slap Dragon (Later)",
+            "details": "21+ $23.48 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-14-ivy-room-alphabet-soup-2-sets",
             "date": "2026-09-14",
-            "title": "Alphabet Soup",
-            "details": "21+ 7pm/8pm Alphabet Soup (2 sets)",
+            "title": "Alphabet Soup (2 sets)",
+            "details": "21+ 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -26885,7 +27300,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-16-ivy-room-lewd-jaw-9-50pm",
             "date": "2026-09-16",
-            "title": "Lewd Jaw / Stay Out / Minor Sun / Elegant Trash / Spiterz / Atomic / mc Patty",
+            "title": "Lewd Jaw / Stay Out / Minor Sun / Elegant Trash / Spiterz / Atomic / mc Patty / Lewd Jaw (9:50pm)",
             "details": "21+ $15 ($25 vip) 6pm/6:30pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -26899,15 +27314,15 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-18-ivy-room-plan-9-tribute",
             "date": "2026-09-18",
-            "title": "Plan 9 / Highway Ghosts / Suburban Robots",
+            "title": "Plan 9 / Highway Ghosts / Suburban Robots / Plan 9 (tribute) / Highway Ghosts (tribute) / Suburban Robots (tribute)",
             "details": "21+ $15 8pm/8:30pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-19-ivy-room-surplus-1980-last-show",
             "date": "2026-09-19",
-            "title": "Surplus 1980 / Pateka / Murder Murder / Strawberry Panic",
-            "details": "21+ $20 7pm/7:30pm Surplus 1980 (last show)",
+            "title": "Surplus 1980 (last show) / Pateka / Murder Murder / Strawberry Panic",
+            "details": "21+ $20 7pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -27260,12 +27675,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-12-jade-cathey-resturant-indigo-elephant",
             "date": "2026-09-12",
-            "title": "Indigo Elephant / Special Thanks / Emergency Broadcast System / Willam Johnston",
+            "title": "Special Thanks / Indigo Elephant / Emergency Broadcast System / Willam Johnston",
             "details": "a/a $15 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -27593,33 +28008,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-jupiter-jazzschool-jam-wednesdays",
-            "date": "2026-09-02",
-            "title": "",
-            "details": "Jazzschool Jam Wednesdays",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-jupiter-east-bay-brass-band",
-            "date": "2026-09-04",
-            "title": "East Bay Brass Band",
-            "details": "East Bay Brass Band",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-jupiter-the-green-shirt-project",
-            "date": "2026-09-05",
-            "title": "The Green Shirt Project",
-            "details": "The Green Shirt Project",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-09-jupiter-jazzschool-jam-wednesdays",
             "date": "2026-09-09",
-            "title": "",
+            "title": "Jazzschool Jam Wednesdays",
             "details": "Jazzschool Jam Wednesdays",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -27738,15 +28132,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-06T06:15:26.433Z",
+        "lastImportedAt": "2026-09-07T08:15:31.189Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-jury-room-reptilian-arms",
-            "date": "2026-09-05",
-            "title": "Reptilian Arms / Batsurat / Party Force / Polemic / Braintooth / Three Towers",
-            "details": "21+ $15 4pm/5pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-10-02-jury-room-the-streetwalkin-cheetahs",
             "date": "2026-10-02",
@@ -27957,7 +28344,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.894Z",
-        "lastImportedAt": "2026-09-06T06:15:26.407Z",
+        "lastImportedAt": "2026-09-07T08:15:31.159Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kerouac-alley-the-losin-streaks-anna-hillburg-the-wind-ups",
@@ -28053,40 +28440,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.247Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-keys-jazz-bistro-dahveed-behroozi-trio",
-            "date": "2026-09-02",
-            "title": "Dahveed Behroozi Trio",
-            "details": "Dahveed Behroozi Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-keys-jazz-bistro-jules-broussard",
-            "date": "2026-09-03",
-            "title": "Jules Broussard",
-            "details": "Jules Broussard",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-keys-jazz-bistro-jazz-mafia-cannonball-show",
-            "date": "2026-09-04",
-            "title": "Jazz Mafia: Cannonball Show",
-            "details": "Jazz Mafia: Cannonball Show",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-keys-jazz-bistro-simon-rowe-organ-trio-fred-ross-larry-vuckovich-hector-lugo-jazz-latin-trio",
-            "date": "2026-09-05",
-            "title": "Simon Rowe Organ Trio / Fred Ross / Larry Vuckovich / Hector Lugo Jazz/Latin Trio",
-            "details": "Simon Rowe Organ Trio, Fred Ross, Larry Vuckovich, Hector Lugo Jazz/Latin Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-keys-jazz-bistro-the-brad-leali-jazz-quartet-ft-carla-helmbrecht",
             "date": "2026-09-06",
-            "title": "The Brad Leali Jazz Quartet / Carla Helmbrecht",
+            "title": "The Brad Leali Jazz Quartet ft. Carla Helmbrecht",
             "details": "The Brad Leali Jazz Quartet ft. Carla Helmbrecht",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
@@ -28100,14 +28459,14 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-10-keys-jazz-bistro-sherri-roberts-feat-harvie-s",
             "date": "2026-09-10",
-            "title": "Sherri Roberts / Harvie S",
+            "title": "Sherri Roberts feat. Harvie S",
             "details": "Sherri Roberts feat. Harvie S",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-keys-jazz-bistro-ritmo-y-voz-afro-cuban-jazz-ignited",
             "date": "2026-09-11",
-            "title": "",
+            "title": "Ritmo y Voz: Afro-Cuban Jazz Ignited",
             "details": "Ritmo y Voz: Afro-Cuban Jazz Ignited",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -28255,42 +28614,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-kilowatt-burn-journal-maya-bennett-dan-lupo",
-            "date": "2026-09-02",
-            "title": "Burn Journal / Maya Bennett / Dan Lupo",
-            "details": "Burn Journal, Maya Bennett, Dan Lupo",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-kilowatt-d-rapage-the-boars-beatnik-noobs",
-            "date": "2026-09-03",
-            "title": "Dérapage / The Boars / Beatnik Noobs",
-            "details": "Dérapage, The Boars, Beatnik Noobs / 21+",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-kilowatt-chalk-teeth-nail-polish-voxtail-dj-starr-noir",
-            "date": "2026-09-04",
-            "title": "Chalk Teeth / Nail Polish / Voxtail / Starr Noir",
-            "details": "Chalk Teeth, Nail Polish, Voxtail, DJ Starr Noir",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-kilowatt-the-spiral-electric-high-tatras-rowdy-boys-dj-pan-dulce",
-            "date": "2026-09-05",
-            "title": "The Spiral Electric / High Tatras / Rowdy Boys / Pan Dulce",
-            "details": "The Spiral Electric, High Tatras, Rowdy Boys, DJ Pan Dulce",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-kilowatt-casino-youth",
             "date": "2026-09-06",
             "title": "Casino Youth / Anime Titties / Mommy Mommy / Pro-Pain",
-            "details": "21+ free 7pm / Casino Youth, Anime Titties, Mommy Mommy, Pro-Pain",
+            "details": "21+ free 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-06-kilowatt-casino-youth-anime-titties-mommy-mommy-pro-pain",
+            "date": "2026-09-06",
+            "title": "Casino Youth / Anime Titties / Mommy Mommy / Pro-Pain",
+            "details": "Casino Youth, Anime Titties, Mommy Mommy, Pro-Pain",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-07-kilowatt-sunfish-box-cutter-kiori",
@@ -28604,40 +28942,26 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.178Z",
         "appearances": [
           {
-            "eventId": "2026-09-02-knockout-the-losers",
-            "date": "2026-09-02",
-            "title": "The Losers / Circulators / Mr. Radical / Eliminators",
-            "details": "21+ $10 7pm/8pm @ / The Losers, The Circulators, Mr. Radical, Eliminators",
+            "eventId": "2026-09-06-knockout-half-calf",
+            "date": "2026-09-06",
+            "title": "Half Calf / Manta / The Black Velvet Band / Cowboy Beauty Queen",
+            "details": "21+ 5pm/6pm $10",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-03-knockout-dum1",
-            "date": "2026-09-03",
-            "title": "Dum1 / Otoliths / Nanocar",
-            "details": "21+ $10 8pm / Dum1, Otoliths, Nanocar",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-knockout-mitch-rocket-hippie-sheikh-gabriel-lindo-5pm",
-            "date": "2026-09-05",
-            "title": "Mitch Rocket / Hippie Sheikh / Gabriel Lindo",
-            "details": "Mitch Rocket, Hippie Sheikh, Gabriel Lindo (5Pm)",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-06-knockout-half-calf-manta-the-black-velvet-band-cowboy-beauty-queen-5pm",
             "date": "2026-09-06",
-            "title": "Half Calf / Manta / The Black Velvet Band / Cowboy Beauty Queen",
+            "title": "Half Calf / Manta / The Black Velvet Band / Cowboy Beauty Queen (5Pm)",
             "details": "Half Calf, Manta, The Black Velvet Band, Cowboy Beauty Queen (5Pm)",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-10-knockout-analog-africa-and-rasta-pasta-records-on-tour",
             "date": "2026-09-10",
-            "title": "",
+            "title": "Analog Africa & Rasta Pasta Records On Tour",
             "details": "Analog Africa & Rasta Pasta Records On Tour",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -28649,10 +28973,52 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
+            "eventId": "2026-09-12-knockout-the-throw-ups",
+            "date": "2026-09-12",
+            "title": "The Throw-Ups / Treasures / Jackie Clementine / Lawnmower",
+            "details": "21+ 5pm/6pm $10",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-16-knockout-may-be-fern",
+            "date": "2026-09-16",
+            "title": "May Be Fern / Electric Ex / Baystar / Academy Rejects",
+            "details": "21+ 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-19-knockout-the-disrespectors",
+            "date": "2026-09-19",
+            "title": "The Disrespectors / Who Asked For This? / The Dopplebangers",
+            "details": "21+ free 4pm/5pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-25-knockout-toys-that-kill",
             "date": "2026-09-25",
             "title": "Toys That Kill / Middle-Aged Queers / Mugslug",
-            "details": "21+ $15 8pm @",
+            "details": "21+ $15 8pm/9pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-26-knockout-grave-dodger",
+            "date": "2026-09-26",
+            "title": "Grave Dodger / Street / Bad Shit",
+            "details": "21+ $10 4pm/5pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-26-knockout-trap-girl",
+            "date": "2026-09-26",
+            "title": "Trap Girl / BNuzzed Lightbeer / Sym,pathy Flowers / Dust",
+            "details": "21+ $12/$15 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-30-knockout-rip-florence",
+            "date": "2026-09-30",
+            "title": "Rip Florence / Michael Mouse / Croissant / Trix From Peels",
+            "details": "21+ $12 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -28699,13 +29065,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-06-21T18:03:02.080Z",
+        "lastImportedAt": "2026-09-07T08:15:31.190Z",
         "appearances": [
           {
-            "eventId": "2026-08-01-knot-club-marty-o-reilly",
-            "date": "2026-08-01",
-            "title": "Marty O'Reilly / Hannah Mayree / Sailing Solo",
-            "details": "a/a $35 6:30pm/7:30pm",
+            "eventId": "2026-10-18-knot-club-rainbow-girls",
+            "date": "2026-10-18",
+            "title": "Rainbow Girls",
+            "details": "21+ $50 6pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -28828,7 +29194,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.302Z",
-        "lastImportedAt": "2026-09-06T06:15:26.446Z",
+        "lastImportedAt": "2026-09-07T08:15:31.203Z",
         "appearances": [
           {
             "eventId": "2026-11-17-kuumbwa-jazz-center-john-caroll-kirby",
@@ -29046,7 +29412,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-06T06:15:26.421Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-24-lab-rrose",
@@ -29185,7 +29551,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.404Z",
+        "lastImportedAt": "2026-09-06T23:08:20.524Z",
         "appearances": [
           {
             "eventId": "2026-09-05-lane-splitter-pizza-durango-dogs",
@@ -29419,18 +29785,17 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T04:55:52.416Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-ruby-ibarra-and-the-balikbayans-3pm",
             "date": "2026-09-12",
-            "title": "Ruby Ibarra & The Balikbayans / Red Lotus / Afterthought & The Top Chefs / Ruby Ibarra & The Balikbayans (3pm) / Afterthought & The Top Chefs (noon)",
+            "title": "Ruby Ibarra & The Balikbayans (3pm) / Red Lotus / Afterthought & The Top Chefs (noon)",
             "details": "a/a free 11am",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-06T05:56:52.393Z"
+      }
     },
     "levi-s-plaza": {
       "id": "levi-s-plaza",
@@ -29466,13 +29831,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-06T04:27:10.789Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-plaza-palooza-ruby-ibarra-and-the-balikbayans-red-lotus-afterthought-and-the-top-chefs",
             "date": "2026-09-12",
-            "title": "Ruby Ibarra & The Balikbayans / Red Lotus / Afterthought & The Top Chefs",
-            "details": "Plaza Palooza: Ruby Ibarra & The Balikbayans, Red Lotus, Afterthought & The Top Chefs / a/a free 11am",
+            "title": "Plaza Palooza: Ruby Ibarra & The Balikbayans / Red Lotus / Afterthought & The Top Chefs",
+            "details": "Plaza Palooza: Ruby Ibarra & The Balikbayans, Red Lotus, Afterthought & The Top Chefs",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -30270,7 +30635,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.853Z",
-        "lastImportedAt": "2026-09-06T06:15:26.402Z",
+        "lastImportedAt": "2026-09-06T23:08:20.522Z",
         "appearances": [
           {
             "eventId": "2026-09-04-luther-burbank-center-roger-daltrey",
@@ -30400,33 +30765,33 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.189Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-mabuhay-gardens-cat-s-corner",
-            "date": "2026-09-02",
-            "title": "Cat's Corner",
-            "details": "Cat’s Corner",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-07-mabuhay-gardens-zinggflower-monday",
             "date": "2026-09-07",
-            "title": "",
+            "title": "Zinggflower Monday",
             "details": "Zinggflower Monday",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
+            "eventId": "2026-09-09-mabuhay-gardens-bong-father-9-40pm",
+            "date": "2026-09-09",
+            "title": "Bong Father (9:40pm) / Sonus / Half Rotten Goddess / Elegant Trash / The Cretins / Life Span",
+            "details": "21+ $15 ($25 vip) 6pm/6:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-09-mabuhay-gardens-bong-father-sonus-half-rotten-goddess-elegant-trash-cretins-life-span",
             "date": "2026-09-09",
-            "title": "Bong Father / Sonus / Half Rotten Goddess / Elegant Trash / Life Span / The Cretins",
-            "details": "Bong Father, Sonus, Half Rotten Goddess, Elegant Trash, Cretins, Life Span / 21+ $15 ($25 vip) 6pm/6:30pm",
+            "title": "Bong Father / Sonus / Half Rotten Goddess / Elegant Trash / Cretins / Life Span",
+            "details": "Bong Father, Sonus, Half Rotten Goddess, Elegant Trash, Cretins, Life Span",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-10-mabuhay-gardens-kalimba-september-to-remember",
             "date": "2026-09-10",
-            "title": "",
+            "title": "Kalimba: September To Remember",
             "details": "Kalimba: September To Remember",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -30871,15 +31236,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.155Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-make-out-room-mega-x-neutrals-added-dimensions-sad-eyes-kill",
-            "date": "2026-09-05",
-            "title": "Mega X / Neutrals / Added Dimensions / Sad Eyes Kill",
-            "details": "Mega X, Neutrals, Added Dimensions, Sad Eyes Kill",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-make-out-room-clutch-the-pearls",
             "date": "2026-09-06",
@@ -31225,7 +31583,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.449Z",
+        "lastImportedAt": "2026-09-07T08:15:31.206Z",
         "appearances": [
           {
             "eventId": "2026-09-13-masonic-polyphia",
@@ -31237,7 +31595,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-19-masonic-jak-harlow",
             "date": "2026-09-19",
-            "title": "Jack Harlow / James Savage",
+            "title": "Jack Harlow / James Savage / Jak Harlow",
             "details": "a/a 7:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -31286,7 +31644,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-28-masonic-social-distortion",
             "date": "2026-09-28",
-            "title": "Social Distortion / Descendants / The Chats",
+            "title": "Descendants / Social Distortion / The Chats",
             "details": "a/a 7:30pm $75.75 # @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -31515,7 +31873,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-memorial-park-blind-illusion",
@@ -31707,15 +32065,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.193Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-meritage-resort-con-funk-shun",
-            "date": "2026-09-05",
-            "title": "Con Funk Shun / Lenny Williams",
-            "details": "5:30pm/7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-06-meritage-resort-babyface",
             "date": "2026-09-06",
@@ -31740,7 +32091,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-20-meritage-resort-jeff-dunham",
             "date": "2026-09-20",
-            "title": "",
+            "title": "Jeff Dunham",
             "details": "5:30pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -31979,7 +32330,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-06T06:15:26.431Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -32373,8 +32724,15 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-06T06:15:26.453Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
+          {
+            "eventId": "2026-09-12-moe-s-alley-black-uhuru",
+            "date": "2026-09-12",
+            "title": "Black Uhuru / The Jethro Jeremiah Band",
+            "details": "21+ $45.76 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
           {
             "eventId": "2026-09-13-moe-s-alley-magic-sword",
             "date": "2026-09-13",
@@ -32854,18 +33212,17 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.175Z",
-        "lastImportedAt": "2026-09-06T05:00:48.797Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-father-john-mist",
             "date": "2026-09-12",
-            "title": "Father John Misty / Guster / Jerry Harrison / La Luz / Angeline And The Snack Machine",
+            "title": "Father John Mist / Guster / Jerry Harrison / La Luz / Angeline And The Snack Machine",
             "details": "a/a $149.50 (12 and under $74.75/2 and under free) 10:30am/11:30am #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-06T05:54:28.209Z"
+      }
     },
     "mountain-theater-mt-tam": {
       "id": "mountain-theater-mt-tam",
@@ -32901,13 +33258,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-mt-tam-sound-summit-father-john-misty-guster-jerry-harrison-s-50-years-of-talking-heads-la-luz-angeline-saris-and-the-snack-machine",
             "date": "2026-09-12",
-            "title": "Father John Misty / Guster / Jerry Harrison’s 50 Years of Talking Heads / La Luz / Angeline And The Snack Machine",
-            "details": "Sound Summit: Father John Misty, Guster, Jerry Harrison’s 50 Years of Talking Heads, La Luz, Angeline Saris & The Snack Machine / a/a $149.50 (12 and under $74.75/2 and under free) 10:30am/11:30am #",
+            "title": "Sound Summit: Father John Misty / Guster / Jerry Harrison’s 50 Years of Talking Heads / La Luz / Angeline Saris & The Snack Machine",
+            "details": "Sound Summit: Father John Misty, Guster, Jerry Harrison’s 50 Years of Talking Heads, La Luz, Angeline Saris & The Snack Machine",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -33047,29 +33404,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.439Z",
+        "lastImportedAt": "2026-09-07T08:15:31.194Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-mountain-winery-roger-daltrey",
-            "date": "2026-09-02",
-            "title": "Roger Daltrey",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-03-mountain-winery-tajmo",
-            "date": "2026-09-03",
-            "title": "Tajmo",
-            "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-mountain-winery-oingo-boingo-former-members",
-            "date": "2026-09-05",
-            "title": "Oingo Boingo Former Members / Big Country / The Vapors / The Icicle Works / Dramarama / China Crisis / Musical Youth / Katrina",
-            "details": "a/a 4pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-11-mountain-winery-jesse-mccartney",
             "date": "2026-09-11",
@@ -33094,7 +33430,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-19-mountain-winery-jeff-dunham",
             "date": "2026-09-19",
-            "title": "",
+            "title": "Jeff Dunham",
             "details": "a/a 6pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -33136,7 +33472,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-26-mountain-winery-the-concert-tribute",
             "date": "2026-09-26",
-            "title": "The Concert",
+            "title": "The Concert / The Concert (tribute)",
             "details": "a/a 5:30pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -33401,7 +33737,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.248Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mr-tipple-s-naama",
@@ -33475,33 +33811,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:51:08.069Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.155Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-mr-tipples-kai-lyons-trio",
-            "date": "2026-09-02",
-            "title": "Kai Lyons Trio",
-            "details": "Kai Lyons Trio",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-mr-tipples-daniel-herrera-s-verve-quintet-the-muse-jazz-collective",
-            "date": "2026-09-04",
-            "title": "Daniel Herrera’s Verve Quintet / The Muse Jazz Collective",
-            "details": "Daniel Herrera’s Verve Quintet, The Muse Jazz Collective",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-mr-tipples-shawn-myers-quintet-dmn",
-            "date": "2026-09-05",
-            "title": "Shawn Myers Quintet / DMN",
-            "details": "Shawn Myers Quintet, DMN",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-mr-tipples-mose-def-the-music-of-mose-allison",
             "date": "2026-09-06",
-            "title": "",
+            "title": "Mose Def : The Music of Mose Allison",
             "details": "Mose Def : The Music of Mose Allison",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           }
@@ -33602,7 +33917,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.193Z",
         "appearances": [
           {
             "eventId": "2026-09-30-music-hall-bella-white",
@@ -33708,7 +34023,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.290Z",
-        "lastImportedAt": "2026-09-06T06:15:26.435Z",
+        "lastImportedAt": "2026-09-07T08:15:31.191Z",
         "appearances": [
           {
             "eventId": "2026-10-20-mystic-theater-david-nail",
@@ -33939,13 +34254,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.252Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.155Z",
         "appearances": [
+          {
+            "eventId": "2026-09-06-natural-batting-cage-bloodstains-screaming-fist-government",
+            "date": "2026-09-06",
+            "title": "Bloodstains / Screaming Fist / Government",
+            "details": "Bloodstains, Screaming Fist, Government",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+          },
           {
             "eventId": "2026-09-06-natural-batting-cage-bloodstains",
             "date": "2026-09-06",
-            "title": "Bloodstains / Screaming Fist / The Government / Government",
-            "details": "a/a 7pm / Bloodstains, Screaming Fist, Government",
+            "title": "Bloodstains / Screaming Fist / The Government",
+            "details": "a/a 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -34076,22 +34398,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-neck-of-the-woods-ashes-at-last",
-            "date": "2026-09-04",
-            "title": "Ashes At Last / I Kidnapped The Princess / A Thousand Pardons / Sovereign Suicide",
-            "details": "a/a $15/$20 7pm @ / Ashes At Last, I Kidnapped The Princess, A Thousand Pardons, Sovereign Suicide",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-neck-of-the-woods-rav-cavalier-teller-bank",
-            "date": "2026-09-05",
-            "title": "Rav / Cavalier / Teller Bank$",
-            "details": "Rav, Cavalier, Teller Bank$ / a/a $22/$27 ($65 vip) 7:30pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-neck-of-the-woods-polkadot-myveronica-buddy-junior",
             "date": "2026-09-06",
@@ -34206,13 +34514,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-06-21T18:03:02.044Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
-            "eventId": "2026-06-21-new-farm-anne",
-            "date": "2026-06-21",
-            "title": "Anne / Big Green / Bad Angle / Niblits / Freshman Cannibals / Pepper Vines",
-            "details": "a/a $5 1pm til 7pm",
+            "eventId": "2026-10-10-new-farm-voice-of-the-soul",
+            "date": "2026-10-10",
+            "title": "Voice Of The Soul / Humma Kavula / Successor / God's Outlaw",
+            "details": "a/a $10 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -34344,6 +34652,10 @@ window.SHOW_EXPLORER_VENUES = {
       "city": "",
       "region": "",
       "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
@@ -34371,25 +34683,17 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-05-28T02:07:23.592Z",
+        "lastImportedAt": "2026-09-07T08:15:31.180Z",
         "appearances": [
           {
-            "eventId": "2026-05-29-nikko-lea-delaria-comedian-at-feinstein-s",
-            "date": "2026-05-29",
-            "title": "Lea DeLaria (comedian) at Feinstein's",
-            "details": "a/a $49/$83 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-05-30-nikko-lea-delaria-comedian-at-feinstein-s",
-            "date": "2026-05-30",
-            "title": "Lea DeLaria (comedian) at Feinstein's",
-            "details": "a/a $49/$83 7pm/8pm",
+            "eventId": "2026-10-02-nikko-john-hill-at-feinstein-s",
+            "date": "2026-10-02",
+            "title": "John Hill at Feinstein's",
+            "details": "18+ $33.72+ 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-05-28T05:37:50.847Z"
+      }
     },
     "nirvana-soul-cafe": {
       "id": "nirvana-soul-cafe",
@@ -34690,13 +34994,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season",
             "date": "2026-09-12",
-            "title": "Prior To Last Season / Alias / Saving Disaster / Follies",
-            "details": "21+ $10/$15 / Prior To Last Season, Alias (first show), Saving Disaster, Follies",
+            "title": "Prior To Last Season / Alias (1st show) / Saving Disaster / Follies",
+            "details": "21+ $10/$15",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -34812,7 +35116,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-06T04:55:06.328Z",
+        "lastImportedAt": "2026-09-07T08:15:31.164Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season-alias-saving-disaster-follies",
@@ -34822,8 +35126,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
-      },
-      "updatedAt": "2026-09-06T06:03:32.648Z"
+      }
     },
     "o-reilly-s-pub": {
       "id": "o-reilly-s-pub",
@@ -35583,15 +35886,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-open-gallery-field-of-flames",
-            "date": "2026-09-05",
-            "title": "Field Of Flames / Extinguish / Eightfold Pain / No Right / Devoid",
-            "details": "a/a $10 6pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-13-open-gallery-division-of-mind",
             "date": "2026-09-13",
@@ -36059,7 +36355,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-06T06:15:26.422Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -36216,7 +36512,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-06T06:15:26.448Z",
+        "lastImportedAt": "2026-09-07T08:15:31.204Z",
         "appearances": [
           {
             "eventId": "2026-10-04-palace-of-fine-arts-yasmin-levy",
@@ -36318,6 +36614,59 @@ window.SHOW_EXPLORER_VENUES = {
         "appearances": []
       }
     },
+    "papermill-creek-saloon": {
+      "id": "papermill-creek-saloon",
+      "name": "Papermill Creek Saloon",
+      "displayName": "Papermill Creek Saloon",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#papermill_creek_saloon",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Papermill%20Creek%20Saloon%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:40.002Z",
+        "lastImportedAt": "2026-09-07T08:15:31.170Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-18-papermill-creek-saloon-wreckless-strangers",
+            "date": "2026-09-18",
+            "title": "Wreckless Strangers",
+            "details": "21+ $15 8:30pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "paramount-theater": {
       "id": "paramount-theater",
       "name": "Paramount Theater",
@@ -36359,12 +36708,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-06T06:15:26.416Z",
+        "lastImportedAt": "2026-09-07T08:15:31.170Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
             "date": "2026-09-18",
-            "title": "",
+            "title": "Mojo Brookzz",
             "details": "6:30pm/7:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -36845,15 +37194,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-06T06:15:26.438Z",
+        "lastImportedAt": "2026-09-07T08:15:31.194Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-pavilion-styx",
-            "date": "2026-09-04",
-            "title": "Styx / Chicago",
-            "details": "a/a $54+ 7pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-20-pavilion-rob-zombie",
             "date": "2026-09-20",
@@ -36995,14 +37337,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-06T06:15:26.408Z",
+        "lastImportedAt": "2026-09-07T08:15:31.160Z",
         "appearances": [
           {
             "eventId": "2026-09-10-peacock-lounge-we-micromanage-infinity",
             "date": "2026-09-10",
             "title": "We Micromanage Infinity / dj Female Convict Scorpion / Shatter Pattern / Ron Heglin & Lorin Benedict",
-            "details": "a/a $5-$15 8pm til 11pm / We Micromanage Infinity, DJ Female Convict Scorpion, Shatter Pattern, Ron Heglin & Lorin Benedict",
+            "details": "a/a $5-$15 8pm til 11pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-10-peacock-lounge-we-micromanage-infinity-dj-female-convict-scorpion-shatter-pattern-ron-heglin-and-lorin-benedict",
+            "date": "2026-09-10",
+            "title": "We Micromanage Infinity / Female Convict Scorpion / Shatter Pattern / Ron Heglin & Lorin Benedict",
+            "details": "We Micromanage Infinity, DJ Female Convict Scorpion, Shatter Pattern, Ron Heglin & Lorin Benedict",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
       }
@@ -37333,15 +37682,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-phoenix-theater-jeshie",
-            "date": "2026-09-04",
-            "title": "Jeshie / Colin & Gio / Firstman",
-            "details": "a/a $15.49 7:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-06-phoenix-theater-lost-cosmos",
             "date": "2026-09-06",
@@ -37350,10 +37692,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-09-12-phoenix-theater-punked-out-pretty",
+            "date": "2026-09-12",
+            "title": "Punked Out Pretty / Polaris / Red40 / Sacramental / Voltage",
+            "details": "a/a $15.49 6:30pm/7pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-18-phoenix-theater-phoenix-pro-wrestling",
             "date": "2026-09-18",
-            "title": "",
+            "title": "Phoenix Pro Wrestling",
             "details": "a/a $13.43 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-20-phoenix-theater-poets-lorrie-chang",
+            "date": "2026-09-20",
+            "title": "Poets: Lorrie Chang / Mahrs Emerson Schoppman / mOody bLaCk / Presenter: Original Giotis",
+            "details": "a/a free 1pm (Petaluma Poetry Walk)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -37382,6 +37738,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-24",
             "title": "Halloween Covers Show",
             "details": "a/a 7:30pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-06-phoenix-theater-the-strange-ones",
+            "date": "2026-11-06",
+            "title": "The Strange Ones / Randy / Dollwash / No Captains",
+            "details": "a/a $15.49 7:30pm/8pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -37452,7 +37815,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.102Z",
-        "lastImportedAt": "2026-09-06T06:15:26.408Z",
+        "lastImportedAt": "2026-09-07T08:15:31.160Z",
         "appearances": [
           {
             "eventId": "2026-09-08-piedmont-piano-company-cosmo-alleycats",
@@ -37512,12 +37875,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-06T06:15:26.422Z",
+        "lastImportedAt": "2026-09-07T08:15:31.177Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
             "date": "2026-09-26",
-            "title": "Robyn / Dog Blood / Soulwax / Prospa / Kettama / Fatboy Slim / Tove Lo / Max Styler / Beltrain b2b Ben Sterling / Fcukers / Mike D 5D / Groove Armada / dj Shadow / Bassvictim / Nimino / dj Melanie C / Oskar Med K / Jigitz / Tricky / Chloe Caillet / Jyotty / Ranger Trucco b2b Alisha / Mind Enterprises / Six Sex / Nate Sib / Mgna Crrrta / Sam Alfred / Gelli Haha / Airwolf Paradise / Erika b2b SFCowboy / Felly Fell",
+            "title": "Jyotty / Robyn / Dog Blood / Soulwax / Prospa / Kettama / Fatboy Slim / Tove Lo / Max Styler / Beltrain b2b Ben Sterling / Fcukers / Mike D 5D / Groove Armada / dj Shadow / Bassvictim / Nimino / dj Melanie C / Oskar Med K / Jigitz / Tricky / Chloe Caillet / Ranger Trucco b2b Alisha / Mind Enterprises / Six Sex / Nate Sib / Mgna Crrrta / Sam Alfred / Gelli Haha / Airwolf Paradise / Erika b2b SFCowboy / Felly Fell",
             "details": "21+ 1pm # (Portola Music Destival)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -37698,7 +38061,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.908Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.190Z",
         "appearances": [
           {
             "eventId": "2026-10-08-planetarium-knights-of-molino",
@@ -37870,7 +38233,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-06T06:15:26.417Z",
+        "lastImportedAt": "2026-09-07T08:15:31.171Z",
         "appearances": [
           {
             "eventId": "2026-09-19-plaza-ice-t",
@@ -37976,7 +38339,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.281Z",
-        "lastImportedAt": "2026-09-06T06:15:26.426Z",
+        "lastImportedAt": "2026-09-07T08:15:31.181Z",
         "appearances": [
           {
             "eventId": "2026-10-03-point-emery-knights-of-molino",
@@ -38031,14 +38394,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-06T06:15:26.431Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-allman-brothers-tribute-bolero-spirit-hustler",
             "date": "2026-09-12",
-            "title": "The Allmond Brothers / Bolero! / Spirit Hustler",
-            "details": "The Allmond Brothers (Allman Brothers Tribute), Bolero!, Spirit Hustler / a/a $39.19 5pm/6pm",
+            "title": "The Allmond Brothers (Allman Brothers Tribute) / Bolero! / Spirit Hustler",
+            "details": "The Allmond Brothers (Allman Brothers Tribute), Bolero!, Spirit Hustler",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-tribute",
+            "date": "2026-09-12",
+            "title": "The Allmond Brothers (tribute) / Bolero / Spirit Hustler",
+            "details": "a/a $39.19 5pm/6pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-10-10-point-san-pablo-harbor-tune-yards",
@@ -38129,7 +38499,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-porchfest-knights-of-molino",
@@ -38537,29 +38907,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.165Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-public-works-function-500-w-jaag-and-broke-leg",
-            "date": "2026-09-03",
-            "title": "Function 500 / Jaag & Broke Leg",
-            "details": "Function 500 W/ Jaag & Broke Leg",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-public-works-entra-a",
-            "date": "2026-09-04",
-            "title": "Entraña",
-            "details": "Entraña",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-public-works-partiboi69-harrison-bdp",
-            "date": "2026-09-05",
-            "title": "Partiboi69 / Harrison BDP",
-            "details": "Partiboi69, Harrison BDP",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-public-works-hardware",
             "date": "2026-09-06",
@@ -38776,7 +39125,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-09-06T06:15:26.431Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-10-10-quarry-amphitheater-acid-bath",
@@ -38995,7 +39344,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-railroad-square-railroad-square-music-festival",
@@ -39101,7 +39450,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.174Z",
         "appearances": [
           {
             "eventId": "2026-09-24-rain-dog-records-silent-cities",
@@ -39328,15 +39677,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.900Z",
-        "lastImportedAt": "2026-09-06T06:15:26.408Z",
+        "lastImportedAt": "2026-09-07T08:15:31.160Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-redwood-grove-fantastic-negrito",
-            "date": "2026-09-03",
-            "title": "Fantastic Negrito",
-            "details": "Fantastic Negrito",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-10-redwood-grove-mirah",
             "date": "2026-09-10",
@@ -39477,41 +39819,27 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.453Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-regency-ballroom-noname",
-            "date": "2026-09-02",
-            "title": "Noname",
-            "details": "a/a 7pm/8pm # / Noname",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-03-regency-ballroom-hayla",
-            "date": "2026-09-03",
-            "title": "Hayla / Ella Rosa",
-            "details": "18+ 7pm/8pm # / Hayla, Ella Rosa",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-04-regency-ballroom-nitzer-ebb",
-            "date": "2026-09-04",
-            "title": "Nitzer Ebb / Lead Into Gold",
-            "details": "a/a 7pm/8pm # / Nitzer Ebb, Lead Into Gold",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-08-regency-ballroom-slayyyter",
             "date": "2026-09-08",
             "title": "Slayyyter / Pearly Drops",
-            "details": "a/a $39 ($66 balcony) 7pm/8pm # (sold out) / Slayyyter, Pearly Drops",
+            "details": "a/a $39 ($66 balcony) 7pm/8pm # (sold out)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-regency-ballroom-altin-gun",
+            "date": "2026-09-11",
+            "title": "Altin Gun / Alex Maas",
+            "details": "a/a 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-12-regency-ballroom-moms-feelin-themselves",
             "date": "2026-09-12",
             "title": "Moms Feelin' Themselves",
-            "details": "21+ 7pm (mom dance party) / Moms Feelin' Themselves",
+            "details": "21+ 7pm # (mom dance party)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -39929,14 +40257,21 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-09-06T06:15:26.440Z",
+        "lastImportedAt": "2026-09-07T08:15:31.196Z",
         "appearances": [
           {
             "eventId": "2026-09-06-revolution-cafe-baby-on-a-rampage-post-human-decadesin-ablack-hive-tyrant-your-own-destroyer-deadringer-snallygaster-arson-choir-black-white-and-red-all-over",
             "date": "2026-09-06",
-            "title": "Baby On A Rampage / Post Human / Decadesin / aBlack / Hive Tyrant / Your Own Destroyer / Deadringer / Snallygaster / Black White And Red All Over / The Arson Choir / Reminitions",
-            "details": "Baby On A Rampage, Post Human, Decadesin, aBlack, Hive Tyrant, Your Own Destroyer, Deadringer, Snallygaster, Arson Choir, Black White And Red All Over / a/a $15/$20 12pm/1:23pm @",
+            "title": "Baby On A Rampage / Post Human / Decadesin / aBlack / Hive Tyrant / Your Own Destroyer / Deadringer / Snallygaster / Arson Choir / Black White And Red All Over",
+            "details": "Baby On A Rampage, Post Human, Decadesin, aBlack, Hive Tyrant, Your Own Destroyer, Deadringer, Snallygaster, Arson Choir, Black White And Red All Over",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+          },
+          {
+            "eventId": "2026-09-06-revolution-cafe-reminitions",
+            "date": "2026-09-06",
+            "title": "Reminitions / Baby On A Rampage / Post Human / Decadesin / aBlack / Your Own Destroyer / Deadringer / Black White And Red All Over",
+            "details": "a/a $15/$20 12pm/1:23pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-10-30-revolution-cafe-creepy-crawlies",
@@ -40168,35 +40503,35 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-rickshaw-stop-alan-vuong-elias-last-known-species",
-            "date": "2026-09-04",
-            "title": "Alan Vuong / Elias / Last Known Species",
-            "details": "Alan Vuong, Elias, Last Known Species / a/a 8pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-rickshaw-stop-yuma-abe",
-            "date": "2026-09-05",
-            "title": "Yuma Abe / Jared Mattson x Chili Corder / Adam Spry",
-            "details": "a/a $20/$24 8pm/9pm / Yuma Abe, Jared Mattson x Chili Corder, Adam Spry",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-08-rickshaw-stop-the-bug-club-lunchbox-preschool",
             "date": "2026-09-08",
             "title": "The Bug Club / Lunchbox / Preschool",
-            "details": "The Bug Club, Lunchbox, Preschool / a/a $20/$25 7pm/8pm",
+            "details": "The Bug Club, Lunchbox, Preschool",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-08-rickshaw-stop-the-bug-club",
+            "date": "2026-09-08",
+            "title": "The Bug Club / Lunchbox / Preschool",
+            "details": "a/a $20/$25 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-09-rickshaw-stop-kels-ella-maddux",
             "date": "2026-09-09",
             "title": "Kels / Ella Maddux",
-            "details": "Kels, Ella Maddux / a/a $26/$30 7pm/8pm",
+            "details": "Kels, Ella Maddux",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-09-rickshaw-stop-kels",
+            "date": "2026-09-09",
+            "title": "Kels / Ella Maddux",
+            "details": "a/a $26/$30 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-10-rickshaw-stop-chanpan",
@@ -40259,6 +40594,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-25",
             "title": "Cain Culto",
             "details": "a/a $25/$30 ($55 vip) 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-26-rickshaw-stop-emo-nite",
+            "date": "2026-09-26",
+            "title": "Emo Nite",
+            "details": "21+ $20/$22 9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -40339,6 +40681,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-10-rickshaw-stop-kafana-balkan",
+            "date": "2026-10-10",
+            "title": "Kafana Balkan / Inspector Gadje Balkan Brass Band / Jill Parker / dj Zeljko",
+            "details": "21_ $27.72-$49.74 8:30pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-10-11-rickshaw-stop-edgar-alejandro",
             "date": "2026-10-11",
             "title": "Edgar Alejandro",
@@ -40362,7 +40711,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-17-rickshaw-stop-flower-face",
             "date": "2026-10-17",
-            "title": "Flower Face",
+            "title": "Flower Face / Stella Prince",
             "details": "a/a $20/$25 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -40397,7 +40746,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-10-26-rickshaw-stop-wine-lips",
             "date": "2026-10-26",
-            "title": "Wine Lips / dj DistorsionGay",
+            "title": "Wine Lips / dj DistorsionGay / Buddy Wynkoop / Hazy Portraits",
             "details": "a/a $20/$25 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -40465,10 +40814,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-11-13-rickshaw-stop-hails",
+            "date": "2026-11-13",
+            "title": "Hails / Meldrop",
+            "details": "a/a",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-11-15-rickshaw-stop-francisca-valenzuela",
             "date": "2026-11-15",
             "title": "Francisca Valenzuela",
             "details": "a/a $35+ 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-11-19-rickshaw-stop-cannelle",
+            "date": "2026-11-19",
+            "title": "Cannelle",
+            "details": "a/a $18/$22 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -40521,10 +40884,24 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-12-12-rickshaw-stop-tanukichan",
+            "date": "2026-12-12",
+            "title": "Tanukichan / Badvril / Stargirl Mare",
+            "details": "a/a $22/$25 8pm/8:45pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-12-15-rickshaw-stop-ruby-haunt",
             "date": "2026-12-15",
             "title": "Ruby Haunt",
             "details": "a/a $20/$25 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-12-18-rickshaw-stop-milk-and-bone",
+            "date": "2026-12-18",
+            "title": "Milk & Bone",
+            "details": "a/a $20 8pm/9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -40695,15 +41072,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-06T06:15:26.450Z",
+        "lastImportedAt": "2026-09-07T08:15:31.207Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-rio-theater-public-image-ltd",
-            "date": "2026-09-05",
-            "title": "Public Image LTD. / Plague Vendor",
-            "details": "a/a $77.06/$82.63 7pm/8pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-06-rio-theater-stephen-malkmus",
             "date": "2026-09-06",
@@ -40927,15 +41297,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-06T06:15:26.451Z",
+        "lastImportedAt": "2026-09-07T08:15:31.208Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-ritz-devildriver",
-            "date": "2026-09-04",
-            "title": "Devildriver / Upon A Burning Body / Ov Sulfur / Cultus Black",
-            "details": "a/a $40/$45 6pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-06-ritz-pallbearer",
             "date": "2026-09-06",
@@ -40947,14 +41310,14 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-09-ritz-hail-the-sun",
             "date": "2026-09-09",
             "title": "Hail The Sun / A Lot Like Birds / Blight Town / Murals",
-            "details": "a/a $39.32 6pm",
+            "details": "a/a $32.50/$35 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-11-ritz-powerman-5000",
             "date": "2026-09-11",
-            "title": "Powerman 5000 / Makes My Blood Dance",
-            "details": "a/a $31.34 7pm",
+            "title": "Powerman 5000 / Makes My Blood Dance / Ikki Crane",
+            "details": "a/a $25/$30 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -40988,7 +41351,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-26-ritz-emo-night",
             "date": "2026-09-26",
-            "title": "",
+            "title": "Emo Night",
             "details": "21+ $25.68 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -41070,6 +41433,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-10-29-ritz-mdou-moctar",
+            "date": "2026-10-29",
+            "title": "Mdou Moctar",
+            "details": "21+ $25 8pm/9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-11-03-ritz-prince-daddy-and-the-hyena",
             "date": "2026-11-03",
             "title": "Prince Daddy And The Hyena / Combat / Walter Etc.",
@@ -41086,7 +41456,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-11-13-ritz-oso-oso",
             "date": "2026-11-13",
-            "title": "Oso Oso / Liquid Mike Bugsy",
+            "title": "Oso Oso / Liquid Mike Bugsy / Liquid Mike / Bugsy",
             "details": "a/a $31.34 7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -42211,7 +42581,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.447Z",
+        "lastImportedAt": "2026-09-07T08:15:31.203Z",
         "appearances": [
           {
             "eventId": "2026-10-08-san-jose-civic-center-the-living-tombstone",
@@ -42634,7 +43004,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.285Z",
-        "lastImportedAt": "2026-09-06T06:15:26.431Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-10-10-sf-building-resources-bite",
@@ -42680,7 +43050,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-10-sf-jazz-center-christian-mcbride",
@@ -42807,7 +43177,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-06T06:15:26.443Z",
+        "lastImportedAt": "2026-09-07T08:15:31.199Z",
         "appearances": [
           {
             "eventId": "2026-09-18-shark-tank-carin-leon",
@@ -42845,8 +43215,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-06T06:16:24.032Z"
+      }
     },
     "sheldons-hobbies": {
       "id": "sheldons-hobbies",
@@ -43017,7 +43386,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.169Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -43159,15 +43528,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.429Z",
+        "lastImportedAt": "2026-09-07T08:15:31.194Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-shoreline-amphitheatre-deep-purple",
-            "date": "2026-09-05",
-            "title": "Deep Purple / Kansas / Jefferson Starship",
-            "details": "a/a $89-$40.50 5pm/6pm #",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-10-02-shoreline-amphitheatre-hayley-williams",
             "date": "2026-10-02",
@@ -43194,6 +43556,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-10-08",
             "title": "Mumford & Sons / Sierra Ferrell",
             "details": "a/a 7:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-28-shoreline-amphitheatre-g-eazy",
+            "date": "2026-10-28",
+            "title": "G-Eazy / Logic",
+            "details": "a/a 5:30pm/7pm $75-$24.75 #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -43240,13 +43609,66 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-09-06T06:15:26.420Z",
+        "lastImportedAt": "2026-09-07T08:15:31.174Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
             "date": "2026-09-24",
             "title": "Motley Crue / Tesla / Extreme",
             "details": "a/a $30-$50+ 5:30pm/6:30pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "shoreline-amptheater": {
+      "id": "shoreline-amptheater",
+      "name": "Shoreline Amptheater",
+      "displayName": "Shoreline Amptheater",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#shoreline_amptheater",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Shoreline%20Amptheater%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:40.031Z",
+        "lastImportedAt": "2026-09-07T08:15:31.199Z",
+        "appearances": [
+          {
+            "eventId": "2026-11-07-shoreline-amptheater-dan-shay",
+            "date": "2026-11-07",
+            "title": "Dan + Shay / Tyler Hubbard / Josh Ross",
+            "details": "a/a $133.50-$24.75 5:30pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -43293,7 +43715,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-09-06T06:15:26.424Z",
+        "lastImportedAt": "2026-09-07T08:15:31.179Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -43500,21 +43922,35 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-06T06:15:26.437Z",
+        "lastImportedAt": "2026-09-07T08:15:31.193Z",
         "appearances": [
           {
             "eventId": "2026-09-06-siesta-valley-bowl-talib-kweli",
             "date": "2026-09-06",
             "title": "Talib Kweli / Ovrkast",
-            "details": "a/a $60.85-40.25 5:30pm/7:30pm # / Talib Kweli, Ovrkast",
+            "details": "a/a $60.85-40.25 5:30pm/7:30pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-06-siesta-valley-bowl-talib-kweli-ovrkast",
+            "date": "2026-09-06",
+            "title": "Talib Kweli / Ovrkast",
+            "details": "Talib Kweli, Ovrkast",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-12-siesta-valley-bowl-beats-antique-roni-kapsi",
             "date": "2026-09-12",
             "title": "Beats Antique / Roni Kapsi",
-            "details": "Beats Antique, Roni Kapsi / a/a $89.70-55.70 6:30pm/8pm #",
+            "details": "Beats Antique, Roni Kapsi",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-siesta-valley-bowl-beats-antique",
+            "date": "2026-09-12",
+            "title": "Beats Antique / Roni Kaspi",
+            "details": "a/a $89.70-55.70 6:30pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-19-siesta-valley-bowl-jerry-s-middle-finger",
@@ -43857,6 +44293,112 @@ window.SHOW_EXPLORER_VENUES = {
         ]
       }
     },
+    "someplace": {
+      "id": "someplace",
+      "name": "someplace",
+      "displayName": "someplace",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#someplace",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22someplace%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:40.008Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-26-someplace-d-i",
+            "date": "2026-09-26",
+            "title": "D.I. / Ragweed / Enemy Of My Enemy / Buckshot / Clitflicker / Bobby Liebling",
+            "details": "a/a $20/$25 2pm @ (Derby Skatepark fundraiser)",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
+    "sonoma-plaza": {
+      "id": "sonoma-plaza",
+      "name": "Sonoma Plaza",
+      "displayName": "Sonoma Plaza",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#sonoma_plaza",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Sonoma%20Plaza%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.989Z",
+        "lastImportedAt": "2026-09-07T08:15:31.157Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-08-sonoma-plaza-jazz-mafia",
+            "date": "2026-09-08",
+            "title": "Jazz Mafia",
+            "details": "a/a free 6pm til 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          }
+        ]
+      }
+    },
     "soundtrack": {
       "id": "soundtrack",
       "name": "Soundtrack",
@@ -44116,47 +44658,54 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-06T06:15:26.425Z",
+        "lastImportedAt": "2026-09-07T08:15:31.180Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-spats-spectre-record-release",
-            "date": "2026-09-02",
-            "title": "Spectre / Derapage / Niteshades",
-            "details": "a/a $10 8pm/9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-04-spats-velvet-grave",
-            "date": "2026-09-04",
-            "title": "Velvet Grave / Rosewood / Side Eye",
-            "details": "a/a $15 7pm/8pm / Velvet Grave, Rosewood, Side Eye",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-11-spats-dandy-fest-joel-cusumano-the-goods-motorcycle-smile-too-much",
             "date": "2026-09-11",
+            "title": "Dandy Fest: Joel Cusumano / The Goods / Motorcycle / Smile Too Much",
+            "details": "Dandy Fest: Joel Cusumano, The Goods, Motorcycle, Smile Too Much",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-11-spats-joel-cusumano",
+            "date": "2026-09-11",
             "title": "Joel Cusumano / The Goods / Motorcycle / Smile Too Much",
-            "details": "Dandy Fest: Joel Cusumano, The Goods, Motorcycle, Smile Too Much / a/a $10 8pm",
+            "details": "a/a $10 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-spats-dandy-fest-yea-ming-and-the-rumors-whitney-s-playland-twin-bloom",
+            "date": "2026-09-12",
+            "title": "Dandy Fest: Yea-Ming & The Rumors / Whitney's Playland / Twin Bloom",
+            "details": "Dandy Fest: Yea-Ming & The Rumors, Whitney's Playland, Twin Bloom",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-spats-yea-ming-and-the-rumours",
             "date": "2026-09-12",
             "title": "Yea-Ming And The Rumours / Whitney's Playland / Twin Bloom",
-            "details": "a/a $10 8pm / Dandy Fest: Yea-Ming & The Rumors, Whitney's Playland, Twin Bloom",
+            "details": "a/a $10 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-spats-dandy-fest-james-wavey-rhymies-above-me",
+            "date": "2026-09-13",
+            "title": "Dandy Fest: James Wavey / Rhymies / Above Me",
+            "details": "Dandy Fest: James Wavey, Rhymies, Above Me",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-spats-james-wavey",
             "date": "2026-09-13",
             "title": "James Wavey / Rhymies / Above Me",
-            "details": "a/a $10 8pm / Dandy Fest: James Wavey, Rhymies, Above Me",
+            "details": "a/a $10 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-19-spats-tina",
             "date": "2026-09-19",
-            "title": "Tina / She's / The Boars / Rock n Roll Adventure Kids / Lou Lou And The Spizy Boyz / Squisher / Thee S'Lobsters / Sweethearts",
+            "title": "She's / Tina / The Boars / Rock n Roll Adventure Kids / Lou Lou And The Spizy Boyz / Squisher / Thee S'Lobsters / Sweethearts",
             "details": "a/a $20 3pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -44357,7 +44906,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-19-spire-katie-cash",
@@ -44773,13 +45322,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-06-18T19:15:49.081Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
-            "eventId": "2026-06-19-starry-plough-bruised-banana",
-            "date": "2026-06-19",
-            "title": "Bruised Banana / Hazy Portraits / Dog House / Kiori",
-            "details": "a/a $10/$15 7pm/8pm",
+            "eventId": "2026-09-11-starry-plough-margie-turner-and-the-outback-blues-band",
+            "date": "2026-09-11",
+            "title": "Margie Turner And The Outback Blues Band",
+            "details": "21+ $12/$10 7pm/8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-26-starry-plough-preston-barnes-and-the-jammers",
+            "date": "2026-09-26",
+            "title": "Preston Barnes And The Jammers",
+            "details": "21+ $15 7pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -44846,35 +45402,35 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.189Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-stay-gold-deli-throat-rip",
-            "date": "2026-09-04",
-            "title": "Throat Rip / Se Vende / Arvspex / Mugslug",
-            "details": "a/a $10 8:30pm @",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-stay-gold-deli-east-bay-underground-las-ratas-raw-force-blood-compact-todo-kontra",
-            "date": "2026-09-05",
-            "title": "East Bay Underground / Las Ratas / Raw Force / Blood Compact / Todo Kontra / Madapaka / Curb4188",
-            "details": "East Bay Underground, Las Ratas, Raw Force, Blood Compact, Todo Kontra / a/a $10 6pm til 10pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-stay-gold-deli-fatale",
             "date": "2026-09-06",
             "title": "Fatale / Product Of Society / Forest Ave / Wink / Hillbomb",
-            "details": "a/a $10 6pm/7pm @ / Fatale, Product Of Society, Forest Ave, Wink, Hillbomb",
+            "details": "a/a $10 6pm/7pm @",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-06-stay-gold-deli-fatale-product-of-society-forest-ave-wink-hillbomb",
+            "date": "2026-09-06",
+            "title": "Fatale / Product Of Society / Forest Ave / Wink / Hillbomb",
+            "details": "Fatale, Product Of Society, Forest Ave, Wink, Hillbomb",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-11-stay-gold-deli-press-on",
             "date": "2026-09-11",
             "title": "Press On / Xtranos / Must Be Nice / East Brothers Band",
-            "details": "a/a $10 6pm/7pm / Press On, Xtranos, Must Be Nice, East Brothers Band",
+            "details": "a/a $10 6pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-stay-gold-deli-press-on-xtranos-must-be-nice-east-brothers-band",
+            "date": "2026-09-11",
+            "title": "Press On / Xtranos / Must Be Nice / East Brothers Band",
+            "details": "Press On, Xtranos, Must Be Nice, East Brothers Band",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-stay-gold-deli-phantoms-forever",
@@ -45300,7 +45856,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-12-storefront-space-feet-fatigue-casey-adams-jordan-blankenship-hen-house-cruel-work-divine-feminine-parking-structure-dead-fern",
@@ -45801,7 +46357,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-06T06:15:26.404Z",
+        "lastImportedAt": "2026-09-06T23:08:20.524Z",
         "appearances": [
           {
             "eventId": "2026-09-05-subrosa-community-space-eliminators",
@@ -46019,20 +46575,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-06T06:15:26.428Z",
+        "lastImportedAt": "2026-09-07T08:15:31.183Z",
         "appearances": [
           {
-            "eventId": "2026-09-02-swedish-american-hall-lenka-brian-dublin",
-            "date": "2026-09-02",
-            "title": "Lenka / Brian Dublin",
-            "details": "Lenka, Brian Dublin",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+            "eventId": "2026-09-11-swedish-american-hall-anaiis",
+            "date": "2026-09-11",
+            "title": "Anaiis",
+            "details": "21+ $33.45 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-11-swedish-american-hall-anaiis-elliott-skinner",
             "date": "2026-09-11",
             "title": "anaiis / Elliott Skinner",
-            "details": "anaiis, Elliott Skinner / 21+ $33.45 8pm",
+            "details": "anaiis, Elliott Skinner",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -46175,22 +46731,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.442Z",
+        "lastImportedAt": "2026-09-07T08:15:31.198Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-sweetwater-music-hall-the-edge",
-            "date": "2026-09-04",
-            "title": "The Edge / Jimmy Dillon & Lorin Rowan",
-            "details": "a/a 7pm/8pm / The Edge featuring Jimmy Dillon & Lorin Rowan",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-sweetwater-music-hall-the-reverend-peyton-s-big-damn-band-hames",
-            "date": "2026-09-05",
-            "title": "The Reverend Peyton's Big Damn Band / Hames",
-            "details": "The Reverend Peyton's Big Damn Band, Hames / a/a 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-sweetwater-music-hall-clinton-fearon-iriefuse",
             "date": "2026-09-06",
@@ -46215,7 +46757,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-11-sweetwater-music-hall-you-should-be-dancing-a-tribute-to-the-bee-gees",
             "date": "2026-09-11",
-            "title": "",
+            "title": "You Should Be Dancing: A Tribute to the Bee Gees",
             "details": "You Should Be Dancing: A Tribute to the Bee Gees",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
@@ -46339,7 +46881,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.156Z",
         "appearances": [
           {
             "eventId": "2026-09-06-tamper-room-thelves",
@@ -46669,15 +47211,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.106Z",
-        "lastImportedAt": "2026-09-06T06:15:26.408Z",
+        "lastImportedAt": "2026-09-07T08:15:31.160Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-temescal-arts-center-missed-connections",
-            "date": "2026-09-03",
-            "title": "",
-            "details": "Missed Connections",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-10-temescal-arts-center-henna-chou-matt-robidoux-aine-nakimura",
             "date": "2026-09-10",
@@ -46815,15 +47350,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-06T06:15:26.405Z",
+        "lastImportedAt": "2026-09-07T08:15:31.156Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-tequila-mockingbird-syndika-zero",
-            "date": "2026-09-04",
-            "title": "Syndika:Zero / Lust 4 Blood / Moth Morgue Circle Of Ruin / Devoured Soul / dj Goblyn",
-            "details": "21+ free 5pm/6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-06-tequila-mockingbird-eulogy",
             "date": "2026-09-06",
@@ -47418,33 +47946,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-the-back-room-daniela-soledade-and-nate-najar",
-            "date": "2026-09-03",
-            "title": "Daniela Soledade and Nate Najar",
-            "details": "Daniela Soledade and Nate Najar",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-the-back-room-vincent-ding",
-            "date": "2026-09-04",
-            "title": "Vincent Ding",
-            "details": "Vincent Ding",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-back-room-michael-manring-tony-kaltenberg-jarrod-kaplan",
-            "date": "2026-09-05",
-            "title": "Michael Manring / Tony Kaltenberg / Jarrod Kaplan",
-            "details": "Michael Manring, Tony Kaltenberg, Jarrod Kaplan",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-the-back-room-sam-s-corner-boogie-blues-and-jazz",
             "date": "2026-09-06",
-            "title": "",
+            "title": "Sam's Corner: Boogie / Blues / and Jazz",
             "details": "Sam's Corner: Boogie, Blues, and Jazz",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
@@ -47893,34 +48400,27 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-the-chapel-pink-breath-of-heaven-chime-school-r-image",
-            "date": "2026-09-03",
-            "title": "Pink Breath of Heaven / Chime School / r.image",
-            "details": "Pink Breath of Heaven, Chime School, r.image / a/a $22/$26 7pm/8pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-chapel-drink-the-sea-peter-buck-barrett-martin-alain-johannes-duke-garwood",
-            "date": "2026-09-05",
-            "title": "Drink The Sea",
-            "details": "Drink The Sea (Peter Buck/Barrett Martin/Alain Johannes/Duke Garwood) / a/a $45 8pm/9pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-10-the-chapel-pink-breath-of-heaven-topographies-christina-s-trip",
             "date": "2026-09-10",
             "title": "Pink Breath of Heaven / Topographies / Christina's Trip",
-            "details": "Pink Breath of Heaven, Topographies, Christina's Trip / a/a $22/$26 7pm/8pm",
+            "details": "Pink Breath of Heaven, Topographies, Christina's Trip",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-11-the-chapel-acid-tongue-los-dug-dug-s",
+            "date": "2026-09-11",
+            "title": "Acid Tongue / Los Dug Dug's",
+            "details": "Acid Tongue, Los Dug Dug's",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-the-chapel-carla-dal-forno-cindy",
             "date": "2026-09-13",
             "title": "Carla dal Forno / Cindy",
-            "details": "Carla dal Forno, Cindy / a/a $29.69 7pm/8pm",
+            "details": "Carla dal Forno, Cindy",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -48074,36 +48574,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.100Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-the-deluxe-gaucho",
-            "date": "2026-09-02",
-            "title": "Gaucho!",
-            "details": "Gaucho!",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-the-deluxe-jesse-levit",
-            "date": "2026-09-03",
-            "title": "Jesse Levit",
-            "details": "Jesse Levit",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-the-deluxe-aki-kumar",
-            "date": "2026-09-04",
-            "title": "Aki Kumar",
-            "details": "Aki Kumar",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-deluxe-quinn-deveaux",
-            "date": "2026-09-05",
-            "title": "Quinn DeVeaux",
-            "details": "Quinn DeVeaux",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-the-deluxe-night-school",
             "date": "2026-09-06",
@@ -48425,13 +48897,20 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.413Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-fillmore-public-image-ltd",
             "date": "2026-09-12",
             "title": "Public Image Ltd",
-            "details": "Public Image Ltd / a/a 7pm/8pm #",
+            "details": "Public Image Ltd",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-13-the-fillmore-manchester-orchestra",
+            "date": "2026-09-13",
+            "title": "Manchester Orchestra",
+            "details": "Manchester Orchestra",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -48636,33 +49115,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-the-freight-linda-tillery-and-the-east-bay-allstars",
-            "date": "2026-09-03",
-            "title": "Linda Tillery & The East Bay Allstars",
-            "details": "Linda Tillery & The East Bay Allstars",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-the-freight-bettye-lavette-accompanied-by-etienne-stadwijk-on-keyboards",
-            "date": "2026-09-04",
-            "title": "Bettye LaVette / Etienne Stadwijk",
-            "details": "Bettye LaVette accompanied by Etienne Stadwijk on keyboards",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-freight-bettye-lavette-accompanied-by-etienne-stadwijk-on-keyboards",
-            "date": "2026-09-05",
-            "title": "Bettye LaVette / Etienne Stadwijk",
-            "details": "Bettye LaVette Etienne Stadwijk",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-the-freight-a-tribute-to-gram-parsons-and-emmylou-harris",
             "date": "2026-09-06",
-            "title": "",
+            "title": "A Tribute to Gram Parsons & Emmylou Harris",
             "details": "A Tribute to Gram Parsons & Emmylou Harris",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
@@ -49211,34 +49669,20 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-the-independent-tonic-walter-tvli",
-            "date": "2026-09-04",
-            "title": "Tonic Walter / TVLI",
-            "details": "Tonic Walter, TVLI",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-independent-the-emo-night-tour",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "The Emo Night Tour",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-08-the-independent-pawpaw-rod-femdot",
             "date": "2026-09-08",
             "title": "PawPaw Rod / femdot.",
-            "details": "PawPaw Rod, femdot. / a/a $31.55 ($113 vip) 7:30pm/8pm",
+            "details": "PawPaw Rod, femdot.",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-09-the-independent-kevin-atwater-ruby-plume",
             "date": "2026-09-09",
             "title": "Kevin Atwater / Ruby Plume",
-            "details": "Kevin Atwater, Ruby Plume / a/a $31.55 7:30pm/8pm",
+            "details": "Kevin Atwater, Ruby Plume",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -49252,7 +49696,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-11-the-independent-arlo-fromclay",
             "date": "2026-09-11",
             "title": "Arlo / fromclay",
-            "details": "Arlo, fromclay / 18+ $34.5 8:30pm/9pm",
+            "details": "Arlo, fromclay",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
@@ -49376,7 +49820,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-jazz-school-bob-kenmotsu-and-james-mahone-quartets",
@@ -49499,20 +49943,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-lab-heart-trio-william-parker-hamid-drake-cooper-moore",
             "date": "2026-09-11",
-            "title": "Heart Trio",
+            "title": "Heart Trio (William Parker / Hamid Drake / Cooper-Moore)",
             "details": "Heart Trio (William Parker, Hamid Drake, Cooper-Moore)",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-the-lab-michelle-lou-stefan-maier-100-000-000-unread-messages",
             "date": "2026-09-12",
-            "title": "Michelle Lou / Stefan Maier",
-            "details": "Michelle Lou and Stefan Maier + 100,000,000 Unread Messages",
+            "title": "Michelle Lou / Stefan Maier + 100 / 000 / 000 Unread Messages",
+            "details": "Michelle Lou / Stefan Maier + 100,000,000 Unread Messages",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -49704,22 +50148,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-the-lost-church-elisha-tan",
-            "date": "2026-09-04",
-            "title": "Elisha Tan",
-            "details": "Elisha Tan",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-lost-church-the-setup",
-            "date": "2026-09-05",
-            "title": "",
-            "details": "The Setup",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-the-lost-church-aleta-simone-polimana-gas-money-sunny-mitchell-addie-finch-anita-alur",
             "date": "2026-09-06",
@@ -49744,7 +50174,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-11-the-lost-church-am-i-the-a-hole",
             "date": "2026-09-11",
-            "title": "",
+            "title": "Am I the A*hole?",
             "details": "Am I the A*hole?",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -49850,15 +50280,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-06T06:15:26.407Z",
+        "lastImportedAt": "2026-09-07T08:15:31.159Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-the-marsh-cabaret-randy-craig-and-friends",
-            "date": "2026-09-02",
-            "title": "Randy Craig And Friends",
-            "details": "Randy Craig And Friends",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-09-the-marsh-cabaret-randy-craig-and-friends",
             "date": "2026-09-09",
@@ -49903,7 +50326,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.898Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-masonic-ryan-beatty",
@@ -50398,15 +50821,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-the-planetarium-false-figure-odor-eater-nasty-world-wysteria-veil",
-            "date": "2026-09-05",
-            "title": "False Figure / Odor Eater / Nasty World / Wysteria Veil",
-            "details": "False Figure, Odor Eater, Nasty World, Wysteria Veil",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-11-the-planetarium-specialthanks-the-cyber-bullies-neverlyn",
             "date": "2026-09-11",
@@ -50641,13 +51057,27 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:42:49.557Z",
-        "lastImportedAt": "2026-09-06T06:15:26.412Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
+          {
+            "eventId": "2026-09-08-the-regency-slayyyter-pearly-drops",
+            "date": "2026-09-08",
+            "title": "Slayyyter / Pearly Drops",
+            "details": "Slayyyter, Pearly Drops",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
           {
             "eventId": "2026-09-11-the-regency-alt-n-g-n-alex-maas",
             "date": "2026-09-11",
             "title": "Altın Gün / Alex Maas",
-            "details": "Altın Gün, Alex Maas / a/a 7pm/8pm #",
+            "details": "Altın Gün, Alex Maas",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-12-the-regency-moms-feelin-themselves",
+            "date": "2026-09-12",
+            "title": "Moms Feelin' Themselves",
+            "details": "Moms Feelin' Themselves",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -50773,7 +51203,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.103Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-rite-spot-kitten-on-the-keys",
@@ -51166,29 +51596,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-the-sound-room-john-brothers-piano-company",
-            "date": "2026-09-03",
-            "title": "John Brothers Piano Company",
-            "details": "John Brothers Piano Company",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-the-sound-room-mitch-polzak-and-the-royal-deuces",
-            "date": "2026-09-04",
-            "title": "Mitch Polzak & The Royal Deuces",
-            "details": "Mitch Polzak & The Royal Deuces",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-the-sound-room-jazz-mafia-play-cannonball-adderley",
-            "date": "2026-09-05",
-            "title": "Jazz Mafia",
-            "details": "Jazz Mafia play Cannonball Adderley",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-10-the-sound-room-hot-club-sf-stella-heath",
             "date": "2026-09-10",
@@ -51247,40 +51656,33 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-03-the-starry-plough-free-funk-glory-jams",
-            "date": "2026-09-03",
-            "title": "",
-            "details": "Free Funk Glory Jams",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-the-starry-plough-irish-session",
             "date": "2026-09-06",
-            "title": "",
+            "title": "Irish Session",
             "details": "Irish Session",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
             "eventId": "2026-09-07-the-starry-plough-irish-c-ili-and-8220-kay-lee-and-8221-dance-with-live-band",
             "date": "2026-09-07",
-            "title": "",
-            "details": "Irish Céili (& KAY-LEE) Dance with live band",
+            "title": "Irish Céili (&#8220;KAY-LEE&#8221;) Dance with live band",
+            "details": "Irish Céili (&#8220;KAY-LEE&#8221;) Dance with live band",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-10-the-starry-plough-free-funk-glory-jams",
             "date": "2026-09-10",
-            "title": "",
+            "title": "Free Funk Glory Jams",
             "details": "Free Funk Glory Jams",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-13-the-starry-plough-irish-session",
             "date": "2026-09-13",
-            "title": "",
+            "title": "Irish Session",
             "details": "Irish Session",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
@@ -51728,27 +52130,41 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
+          {
+            "eventId": "2026-09-08-the-warfield-bikini-kill-alice-bag",
+            "date": "2026-09-08",
+            "title": "Bikini Kill / Alice Bag",
+            "details": "Bikini Kill, Alice Bag",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
           {
             "eventId": "2026-09-09-the-warfield-blood-orange",
             "date": "2026-09-09",
             "title": "Blood Orange",
-            "details": "Blood Orange / 6+ 7pm/8pm #",
+            "details": "Blood Orange",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
+          },
+          {
+            "eventId": "2026-09-10-the-warfield-blood-orange",
+            "date": "2026-09-10",
+            "title": "Blood Orange",
+            "details": "Blood Orange",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-the-warfield-blood-orange",
             "date": "2026-09-11",
             "title": "Blood Orange",
-            "details": "Blood Orange / 6+ 7pm/8pm #",
+            "details": "Blood Orange",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-the-warfield-san-holo-saka",
             "date": "2026-09-12",
             "title": "San Holo / Saka",
-            "details": "San Holo, Saka / 18+ 7pm/8pm #",
+            "details": "San Holo, Saka",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -51886,36 +52302,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-06T06:15:26.438Z",
+        "lastImportedAt": "2026-09-07T08:15:31.193Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-thee-stork-club-twisted-teens",
-            "date": "2026-09-02",
-            "title": "Twisted Teens / Forty Drop Few",
-            "details": "21+ $17/$18 8pm (sold out) / Twisted Teens, Forty Drop Few",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-03-thee-stork-club-jotegr-dia-w-djs-finishher-dj-croptop-boyprincess",
-            "date": "2026-09-03",
-            "title": "Jotegrídia / Finishher / Croptop / Boyprincess",
-            "details": "Jotegrídia w/ DJs Finishher, DJ Croptop, Boyprincess,",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-thee-stork-club-queer-club-classics-w-louie-el-ser-wockie-digital-kit-kat",
-            "date": "2026-09-04",
-            "title": "Louie El Ser / Wockie / Digital Kit-Kat",
-            "details": "Queer Club Classics w/ Louie El Ser, Wockie, Digital Kit-Kat",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-thee-stork-club-the-legendary-stardust-cowboy-durty-whyte-boots-girls-with-guns",
-            "date": "2026-09-05",
-            "title": "The Legendary Stardust Cowboy / Durty Whyte Boots / Girls With Guns",
-            "details": "The Legendary Stardust Cowboy, Durty Whyte Boots, Girls With Guns / 21+ $10/$12 7pm",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-thee-stork-club-late-to-the-party",
             "date": "2026-09-06",
@@ -51924,18 +52312,32 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
           },
           {
+            "eventId": "2026-09-10-thee-stork-club-grez-album-release",
+            "date": "2026-09-10",
+            "title": "Grez (album release) / Naytronix / FeeFawFum",
+            "details": "21+ $12/$15 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-09-10-thee-stork-club-grex-naytronix-feefawfum",
             "date": "2026-09-10",
             "title": "Grex / Naytronix / Feefawfum",
-            "details": "Grex, Naytronix, Feefawfum / 21+ $12/$15 8pm",
+            "details": "Grex, Naytronix, Feefawfum",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-11-thee-stork-club-combo-tezeta",
             "date": "2026-09-11",
             "title": "Combo Tezeta / Discomovil Salazar",
-            "details": "21+ $18/$20 8pm / Combo Tezeta, Discomovil Salazar",
+            "details": "21+ $18/$20 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-thee-stork-club-combo-tezeta-discomovil-salazar",
+            "date": "2026-09-11",
+            "title": "Combo Tezeta / Discomovil Salazar",
+            "details": "Combo Tezeta, Discomovil Salazar",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-18-thee-stork-club-she-s",
@@ -52138,13 +52540,41 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-06T06:15:26.406Z",
+        "lastImportedAt": "2026-09-07T08:15:31.177Z",
         "appearances": [
           {
             "eventId": "2026-09-06-thrillhouse-records-circuit",
             "date": "2026-09-06",
             "title": "Circuit / Salo / Odor Eater / Drugs",
-            "details": "a/a $10 3pm/4pm @ / Circuit, Salo, Odor Eater, Drugs",
+            "details": "a/a $10 3pm/4pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-06-thrillhouse-records-circuit-salo-odor-eater-drugs",
+            "date": "2026-09-06",
+            "title": "Circuit / Salo / Odor Eater / Drugs",
+            "details": "Circuit, Salo, Odor Eater, Drugs",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+          },
+          {
+            "eventId": "2026-09-12-thrillhouse-records-animal-style",
+            "date": "2026-09-12",
+            "title": "Animal Style / Rattfuck / Fixxer",
+            "details": "a/a $10 4pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-13-thrillhouse-records-astral-flesh",
+            "date": "2026-09-13",
+            "title": "Astral Flesh / Merked / Funcontrol",
+            "details": "a/a $10 4pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-27-thrillhouse-records-siniestro",
+            "date": "2026-09-27",
+            "title": "Siniestro",
+            "details": "a/a 4pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
@@ -52320,15 +52750,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.416Z",
+        "lastImportedAt": "2026-09-07T08:15:31.170Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-toot-s-tavern-outpatient-x",
-            "date": "2026-09-04",
-            "title": "Outpatient X / The Bonstones / Pinfall / Agony Aunts",
-            "details": "21+ $10 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-18-toot-s-tavern-the-sharps-removed",
             "date": "2026-09-18",
@@ -52337,8 +52760,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-06T06:18:02.649Z"
+      }
     },
     "town-hall-plaza": {
       "id": "town-hall-plaza",
@@ -52401,22 +52823,8 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
-          {
-            "eventId": "2026-09-04-town-hall-plaza-jon-chi-and-the-pacific-syndicate",
-            "date": "2026-09-04",
-            "title": "Jon Chi & The Pacific Syndicate",
-            "details": "a/a free 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-05-town-hall-plaza-jinx-jones-and-the-king-tones",
-            "date": "2026-09-05",
-            "title": "Jinx Jones & The King Tones",
-            "details": "a/a free 6pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-11-town-hall-plaza-talley-up",
             "date": "2026-09-11",
@@ -52475,7 +52883,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-19-towne-cycles-backyard-string-skin-and-breath",
@@ -52975,7 +53383,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-06T06:15:26.453Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
           {
             "eventId": "2026-09-18-uc-theater-cortex",
@@ -53146,6 +53554,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-12-05-uc-theater-kamasi-washington",
+            "date": "2026-12-05",
+            "title": "Kamasi Washington / Bartees Strange / Hannah Lew",
+            "details": "a/a 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2026-12-10-uc-theater-the-wooten-brothers",
             "date": "2026-12-10",
             "title": "The Wooten Brothers",
@@ -53217,13 +53632,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-06T06:15:26.414Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-theatre-kuma-sagar",
             "date": "2026-09-12",
             "title": "Kuma Sagar",
-            "details": "Kuma Sagar / a/a 8pm/9pm #",
+            "details": "Kuma Sagar",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
@@ -53270,7 +53685,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-06T04:54:14.854Z",
+        "lastImportedAt": "2026-09-07T08:15:31.167Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-thteater-kuma-sagar",
@@ -53323,7 +53738,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-19-ugra-deva-loka-blevin-blectum",
@@ -53687,20 +54102,20 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-06T06:15:26.434Z",
+        "lastImportedAt": "2026-09-07T08:15:31.189Z",
         "appearances": [
           {
-            "eventId": "2026-09-05-up-the-creek-records-demiere-and-tj-mccarty-album-release",
-            "date": "2026-09-05",
-            "title": "Demiere & TJ McCarty / Triimurtii",
-            "details": "a/a $15 6pm til 9pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "2026-09-12-up-the-creek-records-hummingbirds-kalonn-thomas-and-sip-club-lurang",
+            "date": "2026-09-12",
+            "title": "Hummingbirds / Kalonn Thomas & Sip Club / Lurang",
+            "details": "Hummingbirds, Kalonn Thomas & Sip Club, Lurang",
+            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           },
           {
             "eventId": "2026-09-12-up-the-creek-records-the-hummingbirds",
             "date": "2026-09-12",
             "title": "The Hummingbirds / Kalonn Thomas & Sip Club / Lurang",
-            "details": "a/a $15 6pm til 9pm / Hummingbirds, Kalonn Thomas & Sip Club, Lurang",
+            "details": "a/a $15 6pm til 9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -53728,6 +54143,20 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-10-03-up-the-creek-records-used-to-be-valentines",
             "date": "2026-10-03",
             "title": "Used To Be Valentines / Arcade 9",
+            "details": "a/a $15 6pm til 9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-10-up-the-creek-records-please-save-my-earth",
+            "date": "2026-10-10",
+            "title": "Please Save My Earth / Mywtr / Please Please / Liris'",
+            "details": "a/a $15 6pm til 9pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-10-16-up-the-creek-records-modern-monsters",
+            "date": "2026-10-16",
+            "title": "Modern Monsters / Velvet Grace / Fester The SToic",
             "details": "a/a $15 6pm til 9pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -53998,15 +54427,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.452Z",
+        "lastImportedAt": "2026-09-07T08:15:31.209Z",
         "appearances": [
-          {
-            "eventId": "2026-09-05-uptown-theater-tab-benoit",
-            "date": "2026-09-05",
-            "title": "Tab Benoit / Tommy Castro / The Zac Schulze Gang",
-            "details": "16 with adult) 7pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
           {
             "eventId": "2026-09-19-uptown-theater-a-flock-of-seagulls",
             "date": "2026-09-19",
@@ -54033,6 +54455,13 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-25",
             "title": "Jose Gonzalez",
             "details": "16 with adult) 8pm",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-29-uptown-theater-the-phil-collins-story",
+            "date": "2026-09-29",
+            "title": "The Phil Collins Story",
+            "details": "16 with adult) 6:30pm/7:30pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -54243,12 +54672,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.268Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
           {
             "eventId": "2026-09-13-usf-s-mclaren-center-kusf-rock-n-swap-record-fair",
             "date": "2026-09-13",
-            "title": "",
+            "title": "KUSF Rock N Swap Record Fair",
             "details": "a/a $20-$3 7am til 3pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -54387,7 +54816,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.440Z",
+        "lastImportedAt": "2026-09-07T08:15:31.196Z",
         "appearances": [
           {
             "eventId": "2026-09-19-vets-hall-ancient-rage",
@@ -54704,20 +55133,41 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-06T06:15:26.453Z",
+        "lastImportedAt": "2026-09-07T08:15:31.210Z",
         "appearances": [
           {
             "eventId": "2026-09-08-warfield-bikini-kill",
             "date": "2026-09-08",
             "title": "Bikini Kill / Alice Bag",
-            "details": "a/a 7pm/8pm # @ / Bikini Kill, Alice Bag",
+            "details": "a/a 7pm/8pm # @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-09-warfield-blood-orange",
+            "date": "2026-09-09",
+            "title": "Blood Orange",
+            "details": "6+ 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
             "eventId": "2026-09-10-warfield-blood-orange",
             "date": "2026-09-10",
             "title": "Blood Orange",
-            "details": "6+ 7pm/8pm # / Blood Orange",
+            "details": "6+ 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-11-warfield-blood-orange",
+            "date": "2026-09-11",
+            "title": "Blood Orange",
+            "details": "6+ 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "2026-09-12-warfield-san-holo",
+            "date": "2026-09-12",
+            "title": "San Holo",
+            "details": "18+ 7pm/8pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -54903,6 +55353,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
+            "eventId": "2026-11-21-warfield-brutalismus-3000",
+            "date": "2026-11-21",
+            "title": "Brutalismus 3000 / Eurohead / ali rq / deBasement / Techno Pagan'",
+            "details": "16+ 7pm/8pm #",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
             "eventId": "2027-05-16-warfield-valery-meladze",
             "date": "2027-05-16",
             "title": "Valery Meladze",
@@ -54953,7 +55410,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.276Z",
-        "lastImportedAt": "2026-09-06T06:15:26.422Z",
+        "lastImportedAt": "2026-09-07T08:15:31.176Z",
         "appearances": [
           {
             "eventId": "2026-09-26-warrior-s-stadium-lionel-richie",
@@ -55006,7 +55463,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-09-06T06:15:26.432Z",
+        "lastImportedAt": "2026-09-07T08:15:31.186Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -55169,13 +55626,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-06T06:15:26.448Z",
+        "lastImportedAt": "2026-09-07T08:15:31.205Z",
         "appearances": [
           {
-            "eventId": "2026-09-02-warriors-stadium-zayn",
-            "date": "2026-09-02",
-            "title": "Zayn",
-            "details": "a/a 8pm #",
+            "eventId": "2026-09-09-warriors-stadium-weezer",
+            "date": "2026-09-09",
+            "title": "Weezer / The Shins / Silversun Pickups",
+            "details": "a/a $84+ 7pm #",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -55317,12 +55774,12 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-06T06:15:26.418Z",
+        "lastImportedAt": "2026-09-07T08:15:31.172Z",
         "appearances": [
           {
             "eventId": "2026-09-20-washington-park-chris-cain-5pm",
             "date": "2026-09-20",
-            "title": "Chris Cain / Terrie Odabi / Aki Kumar",
+            "title": "Chris Cain / Terrie Odabi / Aki Kumar / Chris Cain (5pm) / Aki Kumar Blues Jam with Friends",
             "details": "a/a free noon til 6pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
@@ -55908,7 +56365,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-06T06:15:26.403Z",
+        "lastImportedAt": "2026-09-06T23:08:20.523Z",
         "appearances": [
           {
             "eventId": "2026-09-04-winters-tavern-derapage",
@@ -55923,6 +56380,59 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Tell Me Tell Me / Food for the Wyrm",
             "details": "Tell Me Tell Me, Food for the Wyrm",
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
+          }
+        ]
+      }
+    },
+    "wintrs-tavern": {
+      "id": "wintrs-tavern",
+      "name": "Wintrs Tavern",
+      "displayName": "Wintrs Tavern",
+      "aliases": [],
+      "confidence": "review",
+      "mergedInto": "",
+      "status": "unknown",
+      "venueType": "unknown",
+      "city": "",
+      "region": "",
+      "address": "",
+      "imageUrl": "",
+      "imageSource": "",
+      "phone": "",
+      "recurringEvents": [],
+      "geo": null,
+      "agePolicy": "unknown",
+      "capacity": "",
+      "summary": "",
+      "accessibilityNotes": "",
+      "reviewNotes": "",
+      "links": [
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#wintrs_tavern",
+          "confidence": "verified",
+          "source": "the list"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Wintrs%20Tavern%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported"
+        }
+      ],
+      "evidence": [],
+      "source": {
+        "firstSeenAt": "2026-09-07T03:09:39.995Z",
+        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "appearances": [
+          {
+            "eventId": "2026-09-11-wintrs-tavern-dusted-angel",
+            "date": "2026-09-11",
+            "title": "Dusted Angel / Ragweed / Curb Creeps",
+            "details": "21+ free 8pm @",
+            "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
       }
@@ -56339,36 +56849,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-06T06:15:26.415Z",
+        "lastImportedAt": "2026-09-07T08:15:31.168Z",
         "appearances": [
-          {
-            "eventId": "2026-09-02-yoshi-s-avery-wilson",
-            "date": "2026-09-02",
-            "title": "Avery Wilson",
-            "details": "Avery Wilson",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-03-yoshi-s-sheena-easton",
-            "date": "2026-09-03",
-            "title": "Sheena Easton",
-            "details": "Sheena Easton",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-04-yoshi-s-kirk-whalum",
-            "date": "2026-09-04",
-            "title": "Kirk Whalum",
-            "details": "Kirk Whalum",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
-          {
-            "eventId": "2026-09-05-yoshi-s-kirk-whalum",
-            "date": "2026-09-05",
-            "title": "Kirk Whalum",
-            "details": "Kirk Whalum",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-august-31-september6-2026/"
-          },
           {
             "eventId": "2026-09-06-yoshi-s-sons-of-champlin-w-bill-champlin",
             "date": "2026-09-06",
