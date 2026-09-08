@@ -56,6 +56,44 @@ See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-li
 
 ## Common Tasks
 
+Back up the current data files before risky cleanup or import work:
+
+```powershell
+npm run data:backup
+```
+
+Backups are written under `data/backups/`, which is ignored by Git.
+
+Create or refresh the local SQLite working database from the current JavaScript data files:
+
+```powershell
+npm run db:init -- --reset
+```
+
+Preview exporting the existing public/admin JavaScript data bundles from SQLite:
+
+```powershell
+npm run db:export -- --dry-run
+```
+
+The SQLite database is the planned safer local source of truth for review work. For now, the live site still reads the generated JavaScript files in `data/`. See `docs/data-model.md` for the migration plan.
+
+Replay saved merge/delete decisions and saved show overrides against the current event data:
+
+```powershell
+node --no-warnings=ExperimentalWarning scripts/apply-sqlite-decisions.mjs
+```
+
+The normal `.\update-shows` flow now syncs an import ledger and then replays saved decisions after imports and pruning. That means source listings get a first-seen/last-seen/fingerprint record in SQLite, show records deleted or merged in Show Review can be suppressed again if the same source listing appears in a later scrape, and saved Show Review fields can be reapplied to matching shows.
+
+Mirror the current reviewed JavaScript data into SQLite without scraping:
+
+```powershell
+node --no-warnings=ExperimentalWarning scripts/sync-sqlite-canonical.mjs
+```
+
+Local admin saves and `.\update-shows` now run this sync so SQLite keeps a current copy of the reviewed artist, venue, and show state while the UI still reads the JavaScript bundles.
+
 Refresh imported listings:
 
 ```powershell

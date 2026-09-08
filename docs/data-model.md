@@ -1,5 +1,52 @@
 # Data Model Notes
 
+## Direction
+
+Mike's List is moving toward a SQLite-backed local admin workflow with static
+public exports. The database should become the local source of truth for
+reviewed data, imported snapshots, merge/delete decisions, and manual
+overrides. The existing `data/*.js` files should eventually become generated
+public/admin bundles, not the place where important review work primarily
+lives.
+
+The guiding rule: imports may add evidence, but they should not erase Mike's
+decisions. Manual choices such as merges, deletions, Mike's Picks, verified
+links, reviewed images, and review notes need to be durable and replayable
+after future imports.
+
+During the transition, local admin saves and `.\update-shows` create timestamped
+backups of the JavaScript data files under `data/backups/` before rewriting
+them. Those backups are ignored by Git and are meant as local recovery points.
+
+The initial schema lives in `data/sqlite/schema.sql`.
+
+Useful setup commands:
+
+```powershell
+npm run db:init -- --reset
+npm run db:export -- --dry-run
+```
+
+`db:init` imports the current JavaScript stores into `data/mikeslist.sqlite`.
+`db:export` can regenerate the existing JavaScript data files from SQLite once
+we are ready to make the database-backed workflow primary. The SQLite file is
+local-only and ignored by Git.
+
+The existing update flow now includes `scripts/sync-sqlite-imports.mjs` and
+`scripts/apply-sqlite-decisions.mjs`. The import sync step records the current
+imported source rows with first-seen/last-seen timestamps and content
+fingerprints. The decision step replays saved show merge/delete suppressions
+after source imports.
+
+The flow also includes `scripts/sync-sqlite-canonical.mjs`, which mirrors the
+current reviewed JavaScript stores into canonical SQLite tables. This is still
+an intermediate safety step: the app writes and reads JavaScript bundles, but
+imported evidence, resolved duplicate/deleted show rows, and the latest reviewed
+show/artist/venue state have durable SQLite records that can be inspected and
+reapplied when a scrape covers the same source period again. Saved Show Review
+fields are also mirrored into `show_overrides` so manually reviewed show data
+can be restored after imports.
+
 This project has three primary entity types: artists, venues, and events. Artist data is already treated as a reviewable enrichment store; venues and events should follow the same principle, but with different trust rules.
 
 ## Artist
@@ -58,6 +105,10 @@ Rejected venues are for listings that should not drive artist discovery, such as
 
 Events are time-bound listings. They can be canceled, rescheduled, renamed, merged, split, or have lineup changes. The model should preserve imported snapshots instead of pretending the newest import is the only truth.
 
+In the SQLite model, current reviewed shows live separately from raw imported
+source rows. Raw imports are kept as snapshots. Shows represent the local
+canonical version the app should display or review.
+
 Recommended fields:
 
 - `id`: stable local event id
@@ -103,11 +154,24 @@ A better event matching key should combine:
 
 The stored `id` should remain stable once created. If a later import changes artist names or details, the importer should update the same event when the match is strong and append to `changeLog` when the row content changed.
 
+Resolved decisions should live outside the raw import itself:
+
+- `decisions` records merge, delete, verify, reject, and enrichment actions.
+- `suppressed_imports` records source listings or fuzzy event identities that
+  should not reappear after a later scrape.
+- Raw import rows keep `firstSeenAt`, `lastSeenAt`, and a content fingerprint so
+  source changes can be reviewed without overwriting canonical fields.
+
 ## Suggested Build Order
 
-1. Create `data/venues.js` from current imported events, keyed by normalized venue id.
-2. Update imported events to reference `venueId` while preserving `venueNameSnapshot`.
-3. Parse event `detailsRaw` into structured fields for age policy, price, doors/show times, seating, and flags.
-4. Add event snapshot tracking: `firstSeenAt`, `lastSeenAt`, `sourceFingerprint`, and `changeLog`.
-5. Build a venue review page similar to the artist review page, but simpler.
-6. Add event status/change detection after repeated imports establish history.
+1. Create the SQLite schema and migration scripts while the existing app still
+   reads `data/*.js`.
+2. Import current artists, venues, shows, source listings, lineups, links, and
+   aliases into SQLite.
+3. Add database-backed snapshots/backups and decision logging for local admin
+   saves.
+4. Change import scripts to write raw import rows, then apply durable decisions
+   before generating display records.
+5. Change admin review pages to save through SQLite instead of rewriting the
+   JavaScript files directly.
+6. Export static `data/*.js` bundles from SQLite for Netlify/public display.

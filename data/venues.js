@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-09-07T08:15:31.210Z",
+  "generatedAt": "2026-09-08T00:05:53.654Z",
   "venues": {
     "49": {
       "id": "49",
@@ -53,7 +53,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-07T08:15:31.185Z",
+        "lastImportedAt": "2026-09-08T00:05:53.628Z",
         "appearances": [
           {
             "eventId": "2026-10-10-49-er-stadium-bruno-mars",
@@ -720,7 +720,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.270Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-19-2708-channing-way-playground",
@@ -1048,7 +1048,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.206Z",
+        "lastImportedAt": "2026-09-08T00:05:53.649Z",
         "appearances": [
           {
             "eventId": "2026-09-07-4-star-theater-dead-set-805",
@@ -1224,7 +1224,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-4th-corner-speakeasy-westerly",
@@ -1588,7 +1588,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-07T08:15:31.185Z",
+        "lastImportedAt": "2026-09-08T00:05:53.628Z",
         "appearances": [
           {
             "eventId": "2026-09-10-9-lives-warehouse-holokaust",
@@ -1655,7 +1655,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.611Z",
         "appearances": [
           {
             "eventId": "2026-09-11-924-gilman-worst-decades-in-midori-dolores-the-american-dream-deadringer",
@@ -1722,7 +1722,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.292Z",
-        "lastImportedAt": "2026-09-07T08:15:31.193Z",
+        "lastImportedAt": "2026-09-08T00:05:53.637Z",
         "appearances": [
           {
             "eventId": "2026-10-25-924-gilman-and-gilman-brewing-cross-checked",
@@ -1828,7 +1828,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.910Z",
-        "lastImportedAt": "2026-09-07T08:15:31.192Z",
+        "lastImportedAt": "2026-09-08T00:05:53.636Z",
         "appearances": [
           {
             "eventId": "2026-09-13-above-dna-lounge-jonhhy-manchild",
@@ -2266,7 +2266,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.606Z",
         "appearances": [
           {
             "eventId": "2026-09-12-almanac-adventureland-puppet-wars",
@@ -2587,7 +2587,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.288Z",
-        "lastImportedAt": "2026-09-07T08:15:31.189Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-10-17-apple-jacks-bar-bernal-equinox",
@@ -2818,7 +2818,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.206Z",
+        "lastImportedAt": "2026-09-08T00:05:53.650Z",
         "appearances": [
           {
             "eventId": "2026-09-26-arena-shreya-ghoshal",
@@ -3096,7 +3096,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.606Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ashkenaz-balkan-folk-dance",
@@ -3393,7 +3393,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-11-august-hall-asal",
@@ -3930,7 +3930,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-09-07T08:15:31.169Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-16-band-shell-indestructible",
@@ -4183,7 +4183,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-07T08:15:31.184Z",
+        "lastImportedAt": "2026-09-08T00:05:53.628Z",
         "appearances": [
           {
             "eventId": "2026-10-09-barrel-proof-lounge-menstrual-cramps",
@@ -4792,7 +4792,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-12-benders-party-force",
@@ -5044,7 +5044,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.157Z",
+        "lastImportedAt": "2026-09-08T00:05:53.600Z",
         "appearances": [
           {
             "eventId": "2026-09-08-bill-graham-civic-auditorium-wave-to-earth",
@@ -5340,7 +5340,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.652Z",
         "appearances": [
           {
             "eventId": "2026-09-11-bimbo-s-365-club-super-diamond",
@@ -5561,7 +5561,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-bimbos-365-club-super-diamond-starman-sf",
@@ -5684,7 +5684,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-09-07T08:15:31.199Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-09-08-biscuits-and-blues-the-west-coast-blues-revue",
@@ -5790,7 +5790,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-09-07T08:15:31.169Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-16-bistro-cloud-collector",
@@ -5971,7 +5971,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.650Z",
         "appearances": [
           {
             "eventId": "2026-09-06-black-cat-max-haymer-power-trio",
@@ -6274,7 +6274,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-09-07T08:15:31.208Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2027-01-04-blue-laggon-apricot-court",
@@ -6414,7 +6414,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.175Z",
+        "lastImportedAt": "2026-09-08T00:05:53.619Z",
         "appearances": [
           {
             "eventId": "2026-09-26-blue-lagoon-culo-a-boca",
@@ -6857,7 +6857,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.159Z",
+        "lastImportedAt": "2026-09-08T00:05:53.603Z",
         "appearances": [
           {
             "eventId": "2026-09-09-boom-boom-room-jeff-cotton-s-gin-joint",
@@ -7063,7 +7063,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.650Z",
         "appearances": [
           {
             "eventId": "2026-09-06-bottom-of-the-hill-helms-alee",
@@ -7693,7 +7693,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-07T08:15:31.175Z",
+        "lastImportedAt": "2026-09-08T00:05:53.619Z",
         "appearances": [
           {
             "eventId": "2026-09-18-bric-a-brac-bat-noise",
@@ -7916,7 +7916,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.203Z",
+        "lastImportedAt": "2026-09-08T00:05:53.647Z",
         "appearances": [
           {
             "eventId": "2026-09-11-brick-and-mortar-cuva-bimo-album-release",
@@ -8053,7 +8053,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-06-brick-and-mortar-music-hall-fervence-captive-state-beauty-is-betrayal-the-beauty-in-death-swept-to-sea",
@@ -8580,7 +8580,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.195Z",
+        "lastImportedAt": "2026-09-08T00:05:53.639Z",
         "appearances": [
           {
             "eventId": "2026-09-12-cafe-du-nord-dent-may-healing-potpourri",
@@ -9104,7 +9104,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-19-caravan-lounge-facekicker",
@@ -9177,7 +9177,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.149Z",
-        "lastImportedAt": "2026-09-07T08:15:31.170Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-18-carnalitos-customs-hemmed-up",
@@ -9270,13 +9270,13 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.652Z",
         "appearances": [
           {
             "eventId": "2026-09-07-castro-the-charlatans-uk",
             "date": "2026-09-07",
             "title": "The Charlatans UK / Frankie Rose",
-            "details": "a/a $60.10 7pm/8pm #",
+            "details": "a/a $60.10 7pm/8pm # / The Charlatans UK, Frankie Rose",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -9834,15 +9834,8 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.202Z",
+        "lastImportedAt": "2026-09-08T00:05:53.645Z",
         "appearances": [
-          {
-            "eventId": "2026-09-07-castro-theater-the-charlatans-uk-frankie-rose",
-            "date": "2026-09-07",
-            "title": "The Charlatans UK / Frankie Rose",
-            "details": "The Charlatans UK, Frankie Rose",
-            "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-          },
           {
             "eventId": "2026-09-09-castro-theater-legend-w-live-performance-by-trixxie-carr",
             "date": "2026-09-09",
@@ -10095,7 +10088,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.652Z",
         "appearances": [
           {
             "eventId": "2026-09-17-catalyst-the-growlers",
@@ -10262,7 +10255,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.174Z",
+        "lastImportedAt": "2026-09-08T00:05:53.617Z",
         "appearances": [
           {
             "eventId": "2026-09-09-catalyst-atrium-pawpaw-rod",
@@ -10497,7 +10490,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-11-center-for-new-music-alex-heigl-nora-free-chris-trinidad-ian-mackenzie",
@@ -10702,7 +10695,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-10-chapel-pink-breath-of-heaven",
@@ -11186,7 +11179,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.190Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-09-20-chapel-outdoor-state-travie-bobbito",
@@ -11239,7 +11232,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.104Z",
-        "lastImportedAt": "2026-09-07T08:15:31.158Z",
+        "lastImportedAt": "2026-09-08T00:05:53.601Z",
         "appearances": [
           {
             "eventId": "2026-09-09-chase-center-weezer-the-shins-silversun-pickups",
@@ -11634,7 +11627,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-12-church-of-clown-clown-burlesque-extravaganza-cabaret",
@@ -11740,7 +11733,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-07T08:15:31.185Z",
+        "lastImportedAt": "2026-09-08T00:05:53.629Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -11916,7 +11909,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.206Z",
+        "lastImportedAt": "2026-09-08T00:05:53.649Z",
         "appearances": [
           {
             "eventId": "2026-09-19-civic-auditorium-steve-aoki",
@@ -12053,7 +12046,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.202Z",
+        "lastImportedAt": "2026-09-08T00:05:53.645Z",
         "appearances": [
           {
             "eventId": "2026-11-14-civic-center-rodrigo-y-gabriela",
@@ -12322,7 +12315,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.991Z",
-        "lastImportedAt": "2026-09-07T08:15:31.159Z",
+        "lastImportedAt": "2026-09-08T00:05:53.603Z",
         "appearances": [
           {
             "eventId": "2026-09-10-cloverfield-organic-farm-powerhouse-ladies",
@@ -13113,7 +13106,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.205Z",
+        "lastImportedAt": "2026-09-08T00:05:53.648Z",
         "appearances": [
           {
             "eventId": "2026-10-02-cornerstone-jesse-barrera",
@@ -13495,7 +13488,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-07T08:15:31.201Z",
+        "lastImportedAt": "2026-09-08T00:05:53.644Z",
         "appearances": [
           {
             "eventId": "2026-10-16-cow-palace-dom-dolla",
@@ -13569,7 +13562,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-11-creek-park-moonalice",
@@ -13790,7 +13783,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-07T08:15:31.205Z",
+        "lastImportedAt": "2026-09-08T00:05:53.649Z",
         "appearances": [
           {
             "eventId": "2026-10-01-crepe-place-color-green",
@@ -14046,7 +14039,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.619Z",
         "appearances": [
           {
             "eventId": "2026-09-11-crybaby-lil-kayla",
@@ -14124,7 +14117,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-07T08:15:31.175Z",
+        "lastImportedAt": "2026-09-08T00:05:53.618Z",
         "appearances": [
           {
             "eventId": "2026-09-25-curran-theater-laurie-anderson",
@@ -14236,7 +14229,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.198Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-09-12-danny-murry-s-12-steps-to-nothing",
@@ -14625,7 +14618,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.619Z",
         "appearances": [
           {
             "eventId": "2026-09-08-davies-symphony-hall-samara-joy-with-the-sf-symphony",
@@ -15141,7 +15134,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-07T08:15:31.156Z",
+        "lastImportedAt": "2026-09-08T00:05:53.600Z",
         "appearances": [
           {
             "eventId": "2026-09-07-derby-skatepark-bloodstains",
@@ -15196,7 +15189,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-19-discovery-meadow-keyshia-cole",
@@ -15249,7 +15242,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
@@ -15432,7 +15425,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.177Z",
+        "lastImportedAt": "2026-09-08T00:05:53.621Z",
         "appearances": [
           {
             "eventId": "2026-09-06-dna-lounge-venjent",
@@ -15659,7 +15652,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.988Z",
-        "lastImportedAt": "2026-09-07T08:15:31.156Z",
+        "lastImportedAt": "2026-09-08T00:05:53.600Z",
         "appearances": [
           {
             "eventId": "2026-09-07-dolan-s-den-saint",
@@ -15904,7 +15897,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.902Z",
-        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "lastImportedAt": "2026-09-08T00:05:53.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-downtown-point-richmond-the-anthony-paule-soul-orchestra-feat-willy-jordan-los-nadies",
@@ -16296,7 +16289,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-07T08:15:31.201Z",
+        "lastImportedAt": "2026-09-08T00:05:53.644Z",
         "appearances": [
           {
             "eventId": "2026-09-10-eagle-hellcatraz-agon-aunt-calaveras-sharps-removed",
@@ -16648,7 +16641,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-07T08:15:31.169Z",
+        "lastImportedAt": "2026-09-08T00:05:53.613Z",
         "appearances": [
           {
             "eventId": "2026-09-07-el-rio-23rd-annual-rhinestone-rodeo-velvetta-liz-lewis-and-fringe-cindy-emch-mya-byrne",
@@ -17127,7 +17120,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.611Z",
         "appearances": [
           {
             "eventId": "2026-09-11-eli-s-mile-high-club-stay-out-bloodsugar-tess-and-the-details-fatale",
@@ -17715,7 +17708,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-07T08:15:31.192Z",
+        "lastImportedAt": "2026-09-08T00:05:53.636Z",
         "appearances": [
           {
             "eventId": "2026-10-24-faction-brewing-slacktone",
@@ -17777,7 +17770,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-07T08:15:31.175Z",
+        "lastImportedAt": "2026-09-08T00:05:53.618Z",
         "appearances": [
           {
             "eventId": "2026-09-25-faight-moondrops",
@@ -17883,7 +17876,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-07T08:15:31.192Z",
+        "lastImportedAt": "2026-09-08T00:05:53.635Z",
         "appearances": [
           {
             "eventId": "2026-10-15-felton-music-hall-bumpin-uglies",
@@ -18147,7 +18140,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-19-fifty-s-liquor-choke",
@@ -18343,7 +18336,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-12-fillmore-public-image-ltd",
@@ -18872,7 +18865,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "lastImportedAt": "2026-09-08T00:05:53.605Z",
         "appearances": [
           {
             "eventId": "2026-09-10-fireside-lounge-don-balistreri",
@@ -18934,7 +18927,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-09-07T08:15:31.201Z",
+        "lastImportedAt": "2026-09-08T00:05:53.645Z",
         "appearances": [
           {
             "eventId": "2026-09-26-first-church-of-the-buzzard-silent-cities",
@@ -19313,7 +19306,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-07T08:15:31.182Z",
+        "lastImportedAt": "2026-09-08T00:05:53.626Z",
         "appearances": [
           {
             "eventId": "2026-10-05-fml-studio-ingrata",
@@ -19478,7 +19471,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.107Z",
-        "lastImportedAt": "2026-09-07T08:15:31.161Z",
+        "lastImportedAt": "2026-09-08T00:05:53.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-fold-adrian-west-band",
@@ -19822,7 +19815,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-09-fox-theater-slayyyter",
@@ -20236,7 +20229,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-09-07T08:15:31.191Z",
+        "lastImportedAt": "2026-09-08T00:05:53.634Z",
         "appearances": [
           {
             "eventId": "2026-09-19-freight-t-sisters",
@@ -20341,7 +20334,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-09-07T08:15:31.190Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-09-19-frost-amphitheater-brandi-carlile",
@@ -21145,7 +21138,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.203Z",
+        "lastImportedAt": "2026-09-08T00:05:53.647Z",
         "appearances": [
           {
             "eventId": "2026-09-06-gilman-mugslug",
@@ -21359,7 +21352,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -21564,7 +21557,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.280Z",
-        "lastImportedAt": "2026-09-07T08:15:31.181Z",
+        "lastImportedAt": "2026-09-08T00:05:53.624Z",
         "appearances": [
           {
             "eventId": "2026-09-13-golden-gate-park-flower-piano-in-the-garden",
@@ -22111,7 +22104,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-07T08:15:31.184Z",
+        "lastImportedAt": "2026-09-08T00:05:53.627Z",
         "appearances": [
           {
             "eventId": "2026-10-08-gray-area-eraserhead-xiu-xiu",
@@ -22305,7 +22298,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-09-great-american-music-hall-eihwar-frayle",
@@ -22890,7 +22883,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-09-07T08:15:31.184Z",
+        "lastImportedAt": "2026-09-08T00:05:53.628Z",
         "appearances": [
           {
             "eventId": "2026-10-09-great-northern-woo-york",
@@ -22989,7 +22982,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-07T08:15:31.158Z",
+        "lastImportedAt": "2026-09-08T00:05:53.602Z",
         "appearances": [
           {
             "eventId": "2026-09-09-greek-theater-liz-phair-sleater-kinney-soccer-mommy-solo",
@@ -23188,7 +23181,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.198Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-09-09-greek-theatre-liz-phair",
@@ -23662,7 +23655,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-07T08:15:31.196Z",
+        "lastImportedAt": "2026-09-08T00:05:53.640Z",
         "appearances": [
           {
             "eventId": "2026-09-11-guild-theater-marcus-rezak-s-shread-is-dead",
@@ -23781,7 +23774,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.615Z",
         "appearances": [
           {
             "eventId": "2026-09-19-guitar-wars-dolores",
@@ -23887,7 +23880,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-haight-ashbury-street-fair-knights-of-molino",
@@ -24106,7 +24099,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-07T08:15:31.182Z",
+        "lastImportedAt": "2026-09-08T00:05:53.625Z",
         "appearances": [
           {
             "eventId": "2026-10-04-hardly-strictly-bluegrass-aj-lee-and-blue-summit",
@@ -24561,7 +24554,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.205Z",
+        "lastImportedAt": "2026-09-08T00:05:53.648Z",
         "appearances": [
           {
             "eventId": "2026-10-24-henry-j-kaiser-center-celtic-thunder",
@@ -24773,7 +24766,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-heshers-pizza-field-of-fear",
@@ -24931,7 +24924,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-07T08:15:31.154Z",
+        "lastImportedAt": "2026-09-08T00:05:53.598Z",
         "appearances": [
           {
             "eventId": "2026-09-06-hibernia-sf-zine-fest",
@@ -25321,7 +25314,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.607Z",
         "appearances": [
           {
             "eventId": "2026-09-12-hopmon-magic-sword",
@@ -25385,7 +25378,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-07T08:15:31.208Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2026-09-18-hopmonk-the-anton-collection",
@@ -25671,7 +25664,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2026-09-11-hopmonk-tavern-tainted-love",
@@ -25990,7 +25983,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.197Z",
+        "lastImportedAt": "2026-09-08T00:05:53.640Z",
         "appearances": [
           {
             "eventId": "2026-09-06-hotel-utah-blacklight-hotel-peacock-picasso-squid-saves-the-planet",
@@ -26092,7 +26085,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.289Z",
-        "lastImportedAt": "2026-09-07T08:15:31.190Z",
+        "lastImportedAt": "2026-09-08T00:05:53.634Z",
         "appearances": [
           {
             "eventId": "2026-10-18-hotel-utah-saloon-scam-likely",
@@ -26431,7 +26424,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-08-independent-pawpaw-rod",
@@ -26848,7 +26841,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.178Z",
-        "lastImportedAt": "2026-09-07T08:15:31.174Z",
+        "lastImportedAt": "2026-09-08T00:05:53.618Z",
         "appearances": [
           {
             "eventId": "2026-09-24-indpendent-wesghost",
@@ -27197,7 +27190,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.208Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2026-09-06-ivy-room-durango-dogs-9-40",
@@ -27675,7 +27668,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-12-jade-cathey-resturant-indigo-elephant",
@@ -28008,7 +28001,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-09-jupiter-jazzschool-jam-wednesdays",
@@ -28132,7 +28125,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-07T08:15:31.189Z",
+        "lastImportedAt": "2026-09-08T00:05:53.632Z",
         "appearances": [
           {
             "eventId": "2026-10-02-jury-room-the-streetwalkin-cheetahs",
@@ -28344,7 +28337,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.894Z",
-        "lastImportedAt": "2026-09-07T08:15:31.159Z",
+        "lastImportedAt": "2026-09-08T00:05:53.602Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kerouac-alley-the-losin-streaks-anna-hillburg-the-wind-ups",
@@ -28440,7 +28433,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.247Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.611Z",
         "appearances": [
           {
             "eventId": "2026-09-06-keys-jazz-bistro-the-brad-leali-jazz-quartet-ft-carla-helmbrecht",
@@ -28614,7 +28607,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.650Z",
         "appearances": [
           {
             "eventId": "2026-09-06-kilowatt-casino-youth",
@@ -28942,7 +28935,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.178Z",
+        "lastImportedAt": "2026-09-08T00:05:53.622Z",
         "appearances": [
           {
             "eventId": "2026-09-06-knockout-half-calf",
@@ -29065,7 +29058,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-07T08:15:31.190Z",
+        "lastImportedAt": "2026-09-08T00:05:53.634Z",
         "appearances": [
           {
             "eventId": "2026-10-18-knot-club-rainbow-girls",
@@ -29194,7 +29187,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.302Z",
-        "lastImportedAt": "2026-09-07T08:15:31.203Z",
+        "lastImportedAt": "2026-09-08T00:05:53.646Z",
         "appearances": [
           {
             "eventId": "2026-11-17-kuumbwa-jazz-center-john-caroll-kirby",
@@ -29412,7 +29405,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-24-lab-rrose",
@@ -29785,7 +29778,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-ruby-ibarra-and-the-balikbayans-3pm",
@@ -29831,7 +29824,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-06T04:27:10.789Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-plaza-palooza-ruby-ibarra-and-the-balikbayans-red-lotus-afterthought-and-the-top-chefs",
@@ -30765,7 +30758,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.189Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-09-07-mabuhay-gardens-zinggflower-monday",
@@ -31236,7 +31229,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.155Z",
+        "lastImportedAt": "2026-09-08T00:05:53.598Z",
         "appearances": [
           {
             "eventId": "2026-09-06-make-out-room-clutch-the-pearls",
@@ -31583,7 +31576,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.206Z",
+        "lastImportedAt": "2026-09-08T00:05:53.649Z",
         "appearances": [
           {
             "eventId": "2026-09-13-masonic-polyphia",
@@ -31873,7 +31866,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-memorial-park-blind-illusion",
@@ -32065,7 +32058,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.193Z",
+        "lastImportedAt": "2026-09-08T00:05:53.636Z",
         "appearances": [
           {
             "eventId": "2026-09-06-meritage-resort-babyface",
@@ -32330,7 +32323,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -32724,7 +32717,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-12-moe-s-alley-black-uhuru",
@@ -33212,7 +33205,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.175Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-father-john-mist",
@@ -33258,7 +33251,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-mt-tam-sound-summit-father-john-misty-guster-jerry-harrison-s-50-years-of-talking-heads-la-luz-angeline-saris-and-the-snack-machine",
@@ -33404,7 +33397,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.194Z",
+        "lastImportedAt": "2026-09-08T00:05:53.638Z",
         "appearances": [
           {
             "eventId": "2026-09-11-mountain-winery-jesse-mccartney",
@@ -33737,7 +33730,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.248Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mr-tipple-s-naama",
@@ -33811,7 +33804,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:51:08.069Z",
-        "lastImportedAt": "2026-09-07T08:15:31.155Z",
+        "lastImportedAt": "2026-09-08T00:05:53.599Z",
         "appearances": [
           {
             "eventId": "2026-09-06-mr-tipples-mose-def-the-music-of-mose-allison",
@@ -33917,7 +33910,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-09-07T08:15:31.193Z",
+        "lastImportedAt": "2026-09-08T00:05:53.636Z",
         "appearances": [
           {
             "eventId": "2026-09-30-music-hall-bella-white",
@@ -34023,7 +34016,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.290Z",
-        "lastImportedAt": "2026-09-07T08:15:31.191Z",
+        "lastImportedAt": "2026-09-08T00:05:53.634Z",
         "appearances": [
           {
             "eventId": "2026-10-20-mystic-theater-david-nail",
@@ -34254,7 +34247,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.252Z",
-        "lastImportedAt": "2026-09-07T08:15:31.155Z",
+        "lastImportedAt": "2026-09-08T00:05:53.599Z",
         "appearances": [
           {
             "eventId": "2026-09-06-natural-batting-cage-bloodstains-screaming-fist-government",
@@ -34398,7 +34391,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-06-neck-of-the-woods-polkadot-myveronica-buddy-junior",
@@ -34514,7 +34507,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-10-new-farm-voice-of-the-soul",
@@ -34683,7 +34676,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.180Z",
+        "lastImportedAt": "2026-09-08T00:05:53.624Z",
         "appearances": [
           {
             "eventId": "2026-10-02-nikko-john-hill-at-feinstein-s",
@@ -34994,7 +34987,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season",
@@ -35116,7 +35109,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-07T08:15:31.164Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season-alias-saving-disaster-follies",
@@ -35886,7 +35879,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-13-open-gallery-division-of-mind",
@@ -36355,7 +36348,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -36512,7 +36505,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-07T08:15:31.204Z",
+        "lastImportedAt": "2026-09-08T00:05:53.647Z",
         "appearances": [
           {
             "eventId": "2026-10-04-palace-of-fine-arts-yasmin-levy",
@@ -36655,7 +36648,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.002Z",
-        "lastImportedAt": "2026-09-07T08:15:31.170Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-18-papermill-creek-saloon-wreckless-strangers",
@@ -36708,7 +36701,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-07T08:15:31.170Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
@@ -37194,7 +37187,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-07T08:15:31.194Z",
+        "lastImportedAt": "2026-09-08T00:05:53.638Z",
         "appearances": [
           {
             "eventId": "2026-09-20-pavilion-rob-zombie",
@@ -37337,7 +37330,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-07T08:15:31.160Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-10-peacock-lounge-we-micromanage-infinity",
@@ -37682,7 +37675,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2026-09-06-phoenix-theater-lost-cosmos",
@@ -37815,7 +37808,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.102Z",
-        "lastImportedAt": "2026-09-07T08:15:31.160Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-08-piedmont-piano-company-cosmo-alleycats",
@@ -37875,7 +37868,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-07T08:15:31.177Z",
+        "lastImportedAt": "2026-09-08T00:05:53.621Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
@@ -38061,7 +38054,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.908Z",
-        "lastImportedAt": "2026-09-07T08:15:31.190Z",
+        "lastImportedAt": "2026-09-08T00:05:53.634Z",
         "appearances": [
           {
             "eventId": "2026-10-08-planetarium-knights-of-molino",
@@ -38233,7 +38226,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-07T08:15:31.171Z",
+        "lastImportedAt": "2026-09-08T00:05:53.615Z",
         "appearances": [
           {
             "eventId": "2026-09-19-plaza-ice-t",
@@ -38339,7 +38332,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.281Z",
-        "lastImportedAt": "2026-09-07T08:15:31.181Z",
+        "lastImportedAt": "2026-09-08T00:05:53.624Z",
         "appearances": [
           {
             "eventId": "2026-10-03-point-emery-knights-of-molino",
@@ -38394,7 +38387,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-allman-brothers-tribute-bolero-spirit-hustler",
@@ -38499,7 +38492,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-porchfest-knights-of-molino",
@@ -38907,7 +38900,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.165Z",
+        "lastImportedAt": "2026-09-08T00:05:53.608Z",
         "appearances": [
           {
             "eventId": "2026-09-06-public-works-hardware",
@@ -39125,7 +39118,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-10-quarry-amphitheater-acid-bath",
@@ -39344,7 +39337,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-railroad-square-railroad-square-music-festival",
@@ -39450,7 +39443,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-07T08:15:31.174Z",
+        "lastImportedAt": "2026-09-08T00:05:53.618Z",
         "appearances": [
           {
             "eventId": "2026-09-24-rain-dog-records-silent-cities",
@@ -39677,7 +39670,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.900Z",
-        "lastImportedAt": "2026-09-07T08:15:31.160Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-10-redwood-grove-mirah",
@@ -39819,7 +39812,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-08-regency-ballroom-slayyyter",
@@ -40257,7 +40250,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-09-07T08:15:31.196Z",
+        "lastImportedAt": "2026-09-08T00:05:53.639Z",
         "appearances": [
           {
             "eventId": "2026-09-06-revolution-cafe-baby-on-a-rampage-post-human-decadesin-ablack-hive-tyrant-your-own-destroyer-deadringer-snallygaster-arson-choir-black-white-and-red-all-over",
@@ -40503,7 +40496,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.653Z",
         "appearances": [
           {
             "eventId": "2026-09-08-rickshaw-stop-the-bug-club-lunchbox-preschool",
@@ -41072,7 +41065,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.207Z",
+        "lastImportedAt": "2026-09-08T00:05:53.650Z",
         "appearances": [
           {
             "eventId": "2026-09-06-rio-theater-stephen-malkmus",
@@ -41297,7 +41290,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-07T08:15:31.208Z",
+        "lastImportedAt": "2026-09-08T00:05:53.651Z",
         "appearances": [
           {
             "eventId": "2026-09-06-ritz-pallbearer",
@@ -42581,7 +42574,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.203Z",
+        "lastImportedAt": "2026-09-08T00:05:53.646Z",
         "appearances": [
           {
             "eventId": "2026-10-08-san-jose-civic-center-the-living-tombstone",
@@ -43004,7 +42997,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.285Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-10-sf-building-resources-bite",
@@ -43050,7 +43043,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-10-sf-jazz-center-christian-mcbride",
@@ -43177,7 +43170,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-07T08:15:31.199Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-09-18-shark-tank-carin-leon",
@@ -43386,7 +43379,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-07T08:15:31.169Z",
+        "lastImportedAt": "2026-09-08T00:05:53.613Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -43528,7 +43521,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.194Z",
+        "lastImportedAt": "2026-09-08T00:05:53.638Z",
         "appearances": [
           {
             "eventId": "2026-10-02-shoreline-amphitheatre-hayley-williams",
@@ -43609,7 +43602,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-09-07T08:15:31.174Z",
+        "lastImportedAt": "2026-09-08T00:05:53.618Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
@@ -43662,7 +43655,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.031Z",
-        "lastImportedAt": "2026-09-07T08:15:31.199Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-11-07-shoreline-amptheater-dan-shay",
@@ -43715,7 +43708,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-09-07T08:15:31.179Z",
+        "lastImportedAt": "2026-09-08T00:05:53.623Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -43922,7 +43915,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-07T08:15:31.193Z",
+        "lastImportedAt": "2026-09-08T00:05:53.637Z",
         "appearances": [
           {
             "eventId": "2026-09-06-siesta-valley-bowl-talib-kweli",
@@ -44334,7 +44327,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.008Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-26-someplace-d-i",
@@ -44387,7 +44380,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.989Z",
-        "lastImportedAt": "2026-09-07T08:15:31.157Z",
+        "lastImportedAt": "2026-09-08T00:05:53.600Z",
         "appearances": [
           {
             "eventId": "2026-09-08-sonoma-plaza-jazz-mafia",
@@ -44658,7 +44651,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-07T08:15:31.180Z",
+        "lastImportedAt": "2026-09-08T00:05:53.624Z",
         "appearances": [
           {
             "eventId": "2026-09-11-spats-dandy-fest-joel-cusumano-the-goods-motorcycle-smile-too-much",
@@ -44906,7 +44899,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.615Z",
         "appearances": [
           {
             "eventId": "2026-09-19-spire-katie-cash",
@@ -45322,7 +45315,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-11-starry-plough-margie-turner-and-the-outback-blues-band",
@@ -45402,7 +45395,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-09-07T08:15:31.189Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-09-06-stay-gold-deli-fatale",
@@ -45856,7 +45849,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-12-storefront-space-feet-fatigue-casey-adams-jordan-blankenship-hen-house-cruel-work-divine-feminine-parking-structure-dead-fern",
@@ -46575,7 +46568,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-07T08:15:31.183Z",
+        "lastImportedAt": "2026-09-08T00:05:53.626Z",
         "appearances": [
           {
             "eventId": "2026-09-11-swedish-american-hall-anaiis",
@@ -46731,7 +46724,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.198Z",
+        "lastImportedAt": "2026-09-08T00:05:53.642Z",
         "appearances": [
           {
             "eventId": "2026-09-06-sweetwater-music-hall-clinton-fearon-iriefuse",
@@ -46881,7 +46874,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-07T08:15:31.156Z",
+        "lastImportedAt": "2026-09-08T00:05:53.599Z",
         "appearances": [
           {
             "eventId": "2026-09-06-tamper-room-thelves",
@@ -47211,7 +47204,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.106Z",
-        "lastImportedAt": "2026-09-07T08:15:31.160Z",
+        "lastImportedAt": "2026-09-08T00:05:53.604Z",
         "appearances": [
           {
             "eventId": "2026-09-10-temescal-arts-center-henna-chou-matt-robidoux-aine-nakimura",
@@ -47350,7 +47343,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.156Z",
+        "lastImportedAt": "2026-09-08T00:05:53.599Z",
         "appearances": [
           {
             "eventId": "2026-09-06-tequila-mockingbird-eulogy",
@@ -47946,7 +47939,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-06-the-back-room-sam-s-corner-boogie-blues-and-jazz",
@@ -48400,7 +48393,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-chapel-pink-breath-of-heaven-topographies-christina-s-trip",
@@ -48574,7 +48567,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.100Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-06-the-deluxe-night-school",
@@ -48897,7 +48890,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-fillmore-public-image-ltd",
@@ -49115,7 +49108,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-06-the-freight-a-tribute-to-gram-parsons-and-emmylou-harris",
@@ -49669,7 +49662,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-independent-pawpaw-rod-femdot",
@@ -49820,7 +49813,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-jazz-school-bob-kenmotsu-and-james-mahone-quartets",
@@ -49943,7 +49936,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-lab-heart-trio-william-parker-hamid-drake-cooper-moore",
@@ -50148,7 +50141,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.606Z",
         "appearances": [
           {
             "eventId": "2026-09-06-the-lost-church-aleta-simone-polimana-gas-money-sunny-mitchell-addie-finch-anita-alur",
@@ -50280,7 +50273,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-07T08:15:31.159Z",
+        "lastImportedAt": "2026-09-08T00:05:53.602Z",
         "appearances": [
           {
             "eventId": "2026-09-09-the-marsh-cabaret-randy-craig-and-friends",
@@ -50326,7 +50319,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.898Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-masonic-ryan-beatty",
@@ -50821,7 +50814,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.606Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-planetarium-specialthanks-the-cyber-bullies-neverlyn",
@@ -51057,7 +51050,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:42:49.557Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-regency-slayyyter-pearly-drops",
@@ -51203,7 +51196,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.103Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-rite-spot-kitten-on-the-keys",
@@ -51596,7 +51589,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-sound-room-hot-club-sf-stella-heath",
@@ -51656,7 +51649,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-06-the-starry-plough-irish-session",
@@ -52130,7 +52123,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-warfield-bikini-kill-alice-bag",
@@ -52302,7 +52295,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-07T08:15:31.193Z",
+        "lastImportedAt": "2026-09-08T00:05:53.637Z",
         "appearances": [
           {
             "eventId": "2026-09-06-thee-stork-club-late-to-the-party",
@@ -52540,7 +52533,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-07T08:15:31.177Z",
+        "lastImportedAt": "2026-09-08T00:05:53.621Z",
         "appearances": [
           {
             "eventId": "2026-09-06-thrillhouse-records-circuit",
@@ -52750,7 +52743,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-07T08:15:31.170Z",
+        "lastImportedAt": "2026-09-08T00:05:53.614Z",
         "appearances": [
           {
             "eventId": "2026-09-18-toot-s-tavern-the-sharps-removed",
@@ -52823,7 +52816,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-11-town-hall-plaza-talley-up",
@@ -52883,7 +52876,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.615Z",
         "appearances": [
           {
             "eventId": "2026-09-19-towne-cycles-backyard-string-skin-and-breath",
@@ -53383,7 +53376,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-18-uc-theater-cortex",
@@ -53632,7 +53625,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-theatre-kuma-sagar",
@@ -53685,7 +53678,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-07T08:15:31.167Z",
+        "lastImportedAt": "2026-09-08T00:05:53.610Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-thteater-kuma-sagar",
@@ -53738,7 +53731,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.615Z",
         "appearances": [
           {
             "eventId": "2026-09-19-ugra-deva-loka-blevin-blectum",
@@ -54102,7 +54095,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-07T08:15:31.189Z",
+        "lastImportedAt": "2026-09-08T00:05:53.633Z",
         "appearances": [
           {
             "eventId": "2026-09-12-up-the-creek-records-hummingbirds-kalonn-thomas-and-sip-club-lurang",
@@ -54427,7 +54420,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.209Z",
+        "lastImportedAt": "2026-09-08T00:05:53.652Z",
         "appearances": [
           {
             "eventId": "2026-09-19-uptown-theater-a-flock-of-seagulls",
@@ -54672,7 +54665,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.268Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-13-usf-s-mclaren-center-kusf-rock-n-swap-record-fair",
@@ -54816,7 +54809,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.196Z",
+        "lastImportedAt": "2026-09-08T00:05:53.639Z",
         "appearances": [
           {
             "eventId": "2026-09-19-vets-hall-ancient-rage",
@@ -55133,7 +55126,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-07T08:15:31.210Z",
+        "lastImportedAt": "2026-09-08T00:05:53.654Z",
         "appearances": [
           {
             "eventId": "2026-09-08-warfield-bikini-kill",
@@ -55410,7 +55403,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.276Z",
-        "lastImportedAt": "2026-09-07T08:15:31.176Z",
+        "lastImportedAt": "2026-09-08T00:05:53.620Z",
         "appearances": [
           {
             "eventId": "2026-09-26-warrior-s-stadium-lionel-richie",
@@ -55463,7 +55456,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-09-07T08:15:31.186Z",
+        "lastImportedAt": "2026-09-08T00:05:53.630Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -55626,7 +55619,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-07T08:15:31.205Z",
+        "lastImportedAt": "2026-09-08T00:05:53.648Z",
         "appearances": [
           {
             "eventId": "2026-09-09-warriors-stadium-weezer",
@@ -55774,7 +55767,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-07T08:15:31.172Z",
+        "lastImportedAt": "2026-09-08T00:05:53.616Z",
         "appearances": [
           {
             "eventId": "2026-09-20-washington-park-chris-cain-5pm",
@@ -56425,7 +56418,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.995Z",
-        "lastImportedAt": "2026-09-07T08:15:31.163Z",
+        "lastImportedAt": "2026-09-08T00:05:53.606Z",
         "appearances": [
           {
             "eventId": "2026-09-11-wintrs-tavern-dusted-angel",
@@ -56849,7 +56842,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-07T08:15:31.168Z",
+        "lastImportedAt": "2026-09-08T00:05:53.612Z",
         "appearances": [
           {
             "eventId": "2026-09-06-yoshi-s-sons-of-champlin-w-bill-champlin",

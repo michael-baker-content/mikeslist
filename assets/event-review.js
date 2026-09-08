@@ -761,6 +761,20 @@ async function mergeSelectedEvent() {
   const confirmed = window.confirm(`Merge "${eventTitle(source)}" into "${eventTitle(target)}"? This removes the duplicate show listing but keeps its source, artist, type, and theme data.`);
   if (!confirmed) return;
 
+  const decisions = [{
+    action: "merge",
+    entityId: source.id,
+    targetEntityId: target.id,
+    event: source,
+    note: `Merged into ${target.id}`
+  }];
+  fields.saveStatus.textContent = "Recording merge decision...";
+  const decisionResult = await recordEventDecisions(decisions);
+  if (!decisionResult.ok) {
+    fields.saveStatus.textContent = `Merge not saved. Could not record decision: ${decisionResult.error}`;
+    return;
+  }
+
   mergeEventData(target, source);
   markRecentlyChanged(target.id, source.id);
   const sourceIndex = events.findIndex((event) => event.id === source.id);
@@ -783,6 +797,19 @@ async function deleteSelectedEvent() {
 
   const confirmed = window.confirm(`Delete "${eventTitle(event)}" at "${event.venue || "unknown venue"}" on ${event.date || "unknown date"}? This removes the show record.`);
   if (!confirmed) return;
+
+  const decisions = [{
+    action: "delete",
+    entityId: event.id,
+    event,
+    note: "Deleted from Show Review"
+  }];
+  fields.saveStatus.textContent = "Recording delete decision...";
+  const decisionResult = await recordEventDecisions(decisions);
+  if (!decisionResult.ok) {
+    fields.saveStatus.textContent = `Delete not saved. Could not record decision: ${decisionResult.error}`;
+    return;
+  }
 
   const visibleBeforeDelete = visibleEvents();
   const visibleIndex = visibleBeforeDelete.findIndex((item) => item.id === event.id);
@@ -809,6 +836,19 @@ async function deleteOrphanVenueShows() {
 
   const confirmed = window.confirm(`Delete ${orphanEvents.length} show record${orphanEvents.length === 1 ? "" : "s"} without a matching venue? This checks all shows, not just the current filter.`);
   if (!confirmed) return;
+
+  const decisions = orphanEvents.map((event) => ({
+    action: "delete",
+    entityId: event.id,
+    event,
+    note: "Deleted as orphan venue show"
+  }));
+  fields.saveStatus.textContent = "Recording delete decisions...";
+  const decisionResult = await recordEventDecisions(decisions);
+  if (!decisionResult.ok) {
+    fields.saveStatus.textContent = `Delete not saved. Could not record decisions: ${decisionResult.error}`;
+    return;
+  }
 
   const orphanIds = new Set(orphanEvents.map((event) => event.id));
   for (let index = events.length - 1; index >= 0; index -= 1) {
@@ -982,9 +1022,18 @@ function refreshReviewUi() {
 }
 
 async function saveEvents(options = {}) {
+  const decisions = [...(options.decisions || [])];
   if (!options.skipFormUpdate) {
     const event = updateSelectedEventFromForm();
-    if (event?.id) markRecentlyChanged(event.id);
+    if (event?.id) {
+      markRecentlyChanged(event.id);
+      decisions.push({
+        action: "update",
+        entityId: event.id,
+        event,
+        note: "Saved from Show Review"
+      });
+    }
   }
   const payload = JSON.stringify(events);
   const payloadCount = events.length;
@@ -995,16 +1044,17 @@ async function saveEvents(options = {}) {
   refreshReviewUi();
 
   const requestId = ++latestSaveRequestId;
-  serverSaveQueue = serverSaveQueue.catch(() => null).then(() => saveEventsToServer(payload, payloadCount, requestId));
+  serverSaveQueue = serverSaveQueue.catch(() => null).then(() => saveEventsToServer(payload, payloadCount, requestId, decisions));
   return serverSaveQueue;
 }
 
-async function saveEventsToServer(payload, payloadCount, requestId) {
+async function saveEventsToServer(payload, payloadCount, requestId, decisions = []) {
   try {
+    const body = decisions.length ? JSON.stringify({ events: JSON.parse(payload), decisions }) : payload;
     const response = await fetch("/api/events", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: payload
+      body
     });
     if (!response.ok) throw new Error(await saveErrorMessage(response));
     const result = await response.json();
@@ -1022,6 +1072,21 @@ async function saveEventsToServer(payload, payloadCount, requestId) {
     fields.saveStatus.textContent = `Saved in browser only. File save failed: ${message}`;
     refreshReviewUi();
     return { ok: false, error: message };
+  }
+}
+
+async function recordEventDecisions(decisions = []) {
+  if (!decisions.length) return { ok: true };
+  try {
+    const response = await fetch("/api/events/decisions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ decisions })
+    });
+    if (!response.ok) throw new Error(await saveErrorMessage(response));
+    return { ok: true, result: await response.json() };
+  } catch (error) {
+    return { ok: false, error: error?.message || "Unknown error" };
   }
 }
 

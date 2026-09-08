@@ -4,12 +4,14 @@ import { spawn } from "node:child_process";
 import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
-import { writeTextFile } from "./file-io.mjs";
+import { backupFile, writeTextFile } from "./file-io.mjs";
+import { DEFAULT_DB_PATH, applySchema, nowIso, openDatabase, suppressionFieldsForEvent } from "./sqlite-store.mjs";
 
 const ROOT = normalize(fileURLToPath(new URL("../", import.meta.url)));
 const ARTISTS_PATH = join(ROOT, "data", "artists.js");
 const VENUES_PATH = join(ROOT, "data", "venues.js");
 const EVENTS_PATH = join(ROOT, "data", "imported-events.js");
+const DB_PATH = join(ROOT, DEFAULT_DB_PATH);
 const ENV_PATH = join(ROOT, ".env");
 const PORT = Number(process.env.PORT || 4173);
 const SESSION_COOKIE = "show_explorer_session";
@@ -489,8 +491,10 @@ async function handleSaveArtists(request, response) {
   }
 
   payload.generatedAt = new Date().toISOString();
+  await backupFile(ARTISTS_PATH);
   await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
   await runScript("scripts/build-public-artist-store.mjs");
+  await runScript("scripts/sync-sqlite-canonical.mjs", ["--artists"]);
   send(response, 200, JSON.stringify({ ok: true, savedAt: payload.generatedAt }), "application/json; charset=utf-8");
 }
 
@@ -510,11 +514,41 @@ async function handleSaveVenues(request, response) {
   }
 
   payload.generatedAt = new Date().toISOString();
+  await backupFile(VENUES_PATH);
   await writeTextFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await runScript("scripts/sync-sqlite-canonical.mjs", ["--venues"]);
   send(response, 200, JSON.stringify({ ok: true, savedAt: payload.generatedAt }), "application/json; charset=utf-8");
 }
 
 async function handleSaveEvents(request, response) {
+  const body = await readBody(request);
+  let bodyPayload;
+  try {
+    bodyPayload = JSON.parse(body);
+  } catch {
+    send(response, 400, JSON.stringify({ ok: false, error: "Invalid JSON" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  const payload = Array.isArray(bodyPayload) ? bodyPayload : bodyPayload?.events;
+  const decisions = Array.isArray(bodyPayload?.decisions) ? bodyPayload.decisions : [];
+
+  if (!Array.isArray(payload)) {
+    send(response, 400, JSON.stringify({ ok: false, error: "Expected event array payload" }), "application/json; charset=utf-8");
+    return;
+  }
+
+  await recordShowDecisions(decisions);
+  await backupFile(EVENTS_PATH);
+  await writeTextFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
+  await runScript("scripts/build-artist-store.mjs");
+  await runScript("scripts/build-public-artist-store.mjs");
+  await runScript("scripts/build-venue-store.mjs");
+  await runScript("scripts/sync-sqlite-canonical.mjs");
+  send(response, 200, JSON.stringify({ ok: true, savedAt: new Date().toISOString(), count: payload.length }), "application/json; charset=utf-8");
+}
+
+async function handleEventDecisions(request, response) {
   const body = await readBody(request);
   let payload;
   try {
@@ -524,16 +558,119 @@ async function handleSaveEvents(request, response) {
     return;
   }
 
-  if (!Array.isArray(payload)) {
-    send(response, 400, JSON.stringify({ ok: false, error: "Expected event array payload" }), "application/json; charset=utf-8");
+  const decisions = Array.isArray(payload) ? payload : payload?.decisions;
+  if (!Array.isArray(decisions)) {
+    send(response, 400, JSON.stringify({ ok: false, error: "Expected decisions array payload" }), "application/json; charset=utf-8");
     return;
   }
 
-  await writeTextFile(EVENTS_PATH, `window.SHOW_EXPLORER_EVENTS = ${JSON.stringify(payload, null, 2)};\n`, "utf8");
-  await runScript("scripts/build-artist-store.mjs");
-  await runScript("scripts/build-public-artist-store.mjs");
-  await runScript("scripts/build-venue-store.mjs");
-  send(response, 200, JSON.stringify({ ok: true, savedAt: new Date().toISOString(), count: payload.length }), "application/json; charset=utf-8");
+  const recorded = await recordShowDecisions(decisions);
+  send(response, 200, JSON.stringify({ ok: true, recorded, savedAt: new Date().toISOString() }), "application/json; charset=utf-8");
+}
+
+async function recordShowDecisions(decisions = []) {
+  const normalized = decisions
+    .map(normalizeShowDecision)
+    .filter(Boolean);
+  if (!normalized.length) return 0;
+
+  const db = openDatabase(DB_PATH);
+  await applySchema(db);
+  let recorded = 0;
+  db.exec("BEGIN");
+  try {
+    const insertDecision = db.prepare(`
+      INSERT INTO decisions (entity_type, entity_id, action, target_entity_id, note, data_json, created_at)
+      VALUES ('show', ?, ?, ?, ?, ?, ?)
+    `);
+    const insertSuppression = db.prepare(`
+      INSERT OR IGNORE INTO suppressed_imports (
+        entity_type, source_name, source_url, source_event_id, event_date, venue_key,
+        artist_key, reason, created_at
+      )
+      VALUES ('show', ?, ?, ?, ?, ?, ?, ?, ?)
+    `);
+    const upsertOverride = db.prepare(`
+      INSERT INTO show_overrides (
+        show_id, event_date, venue_key, artist_key, mikes_pick, data_json, updated_at
+      )
+      VALUES (?, ?, ?, ?, ?, ?, ?)
+      ON CONFLICT(show_id) DO UPDATE SET
+        event_date = excluded.event_date,
+        venue_key = excluded.venue_key,
+        artist_key = excluded.artist_key,
+        mikes_pick = excluded.mikes_pick,
+        data_json = excluded.data_json,
+        updated_at = excluded.updated_at
+    `);
+
+    for (const decision of normalized) {
+      insertDecision.run(
+        decision.entityId,
+        decision.action,
+        decision.targetEntityId || "",
+        decision.note || "",
+        JSON.stringify(decision.data || {}),
+        decision.createdAt
+      );
+      recorded += 1;
+
+      if (decision.action === "merge" || decision.action === "delete") {
+        insertSuppression.run(
+          decision.sourceName,
+          decision.sourceUrl,
+          decision.sourceEventId,
+          decision.eventDate,
+          decision.venueKey,
+          decision.artistKey,
+          decision.action,
+          decision.createdAt
+        );
+      }
+      if (decision.action === "update") {
+        upsertOverride.run(
+          decision.sourceEventId,
+          decision.eventDate,
+          decision.venueKey,
+          decision.artistKey,
+          decision.data?.mikesPick === true ? 1 : decision.data?.mikesPick === false ? 0 : null,
+          JSON.stringify(decision.data || {}),
+          decision.createdAt
+        );
+      }
+    }
+    db.exec("COMMIT");
+  } catch (error) {
+    db.exec("ROLLBACK");
+    throw error;
+  } finally {
+    db.close();
+  }
+  return recorded;
+}
+
+function normalizeShowDecision(decision) {
+  if (!decision || typeof decision !== "object") return null;
+  const action = String(decision.action || "").trim();
+  if (!["merge", "delete", "update"].includes(action)) return null;
+  const event = decision.event && typeof decision.event === "object" ? decision.event : null;
+  const fields = event ? suppressionFieldsForEvent(event) : {};
+  const entityId = String(decision.entityId || event?.id || fields.sourceEventId || "").trim();
+  if (!entityId) return null;
+  return {
+    action,
+    entityId,
+    targetEntityId: String(decision.targetEntityId || "").trim(),
+    note: String(decision.note || "").trim(),
+    data: decision.data || event || {},
+    createdAt: nowIso(),
+    sourceName: String(decision.sourceName || fields.sourceName || "").trim(),
+    sourceUrl: String(decision.sourceUrl || fields.sourceUrl || "").trim(),
+    sourceEventId: String(decision.sourceEventId || fields.sourceEventId || entityId).trim(),
+    eventDate: String(decision.eventDate || fields.eventDate || "").trim(),
+    venueKey: String(decision.venueKey || fields.venueKey || "").trim(),
+    artistKey: String(decision.artistKey || fields.artistKey || "").trim()
+  };
 }
 
 async function handleEnrichArtist(request, response) {
@@ -719,6 +856,12 @@ const server = createServer(async (request, response) => {
     if (request.method === "POST" && url.pathname === "/api/events") {
       if (!requireAdmin(request, response)) return;
       await runSaveTask(() => handleSaveEvents(request, response));
+      return;
+    }
+
+    if (request.method === "POST" && url.pathname === "/api/events/decisions") {
+      if (!requireAdmin(request, response)) return;
+      await runSaveTask(() => handleEventDecisions(request, response));
       return;
     }
 

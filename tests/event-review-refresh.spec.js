@@ -89,13 +89,21 @@ async function loadReviewPage(page, options = {}) {
     await route.fulfill({ contentType: "text/css", body: "" });
   });
   await page.route("http://mikeslist.test/api/events", async (route) => {
-    const payload = await route.request().postDataJSON();
-    if (options.onSave) await options.onSave(route.request());
+    const posted = await route.request().postDataJSON();
+    const payload = Array.isArray(posted) ? posted : posted.events;
+    if (options.onSave) await options.onSave(route.request(), payload, posted);
     if (options.delaySave) await options.delaySave();
     if (!options.keepStaleStore) serverEvents = payload;
     await route.fulfill({
       contentType: "application/json",
       body: JSON.stringify({ ok: true, count: payload.length, savedAt: new Date().toISOString() })
+    });
+  });
+  await page.route("http://mikeslist.test/api/events/decisions", async (route) => {
+    if (options.onDecision) await options.onDecision(await route.request().postDataJSON());
+    await route.fulfill({
+      contentType: "application/json",
+      body: JSON.stringify({ ok: true, recorded: 1, savedAt: new Date().toISOString() })
     });
   });
   await page.goto("http://mikeslist.test/event-review.html");
@@ -135,7 +143,8 @@ test("a stale in-flight save cannot overwrite a later merge", async ({ page }) =
   let saveCount = 0;
   await loadReviewPage(page, {
     onSave: async (request) => {
-      savedPayloads.push(await request.postDataJSON());
+      const posted = await request.postDataJSON();
+      savedPayloads.push(Array.isArray(posted) ? posted : posted.events);
       saveCount += 1;
     },
     delaySave: async () => {
@@ -176,7 +185,8 @@ test("browser storage quota failure does not block the file save", async ({ page
   const savedPayloads = [];
   await loadReviewPage(page, {
     onSave: async (request) => {
-      savedPayloads.push(await request.postDataJSON());
+      const posted = await request.postDataJSON();
+      savedPayloads.push(Array.isArray(posted) ? posted : posted.events);
     }
   });
   await page.evaluate(() => {

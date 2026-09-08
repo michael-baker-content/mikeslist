@@ -4076,7 +4076,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Castro",
     "venueHref": "https://jon.luini.com/thelist/club.html#castro",
     "city": "",
-    "details": "a/a $60.10 7pm/8pm #",
+    "details": "a/a $60.10 7pm/8pm # / The Charlatans UK, Frankie Rose",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -4092,7 +4092,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from The List. / Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -4101,7 +4101,8 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ]
+        ],
+        "displayName": ""
       },
       {
         "name": "Frankie Rose",
@@ -4110,7 +4111,7 @@ window.SHOW_EXPLORER_EVENTS = [
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "Imported from The List. / Imported from KALX.",
         "links": [
           {
             "label": "Search",
@@ -4119,82 +4120,29 @@ window.SHOW_EXPLORER_EVENTS = [
             "confidence": "research",
             "source": "the-list"
           }
-        ]
+        ],
+        "displayName": ""
       }
     ],
     "sources": [
       {
         "name": "The List",
         "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": ""
-  },
-  {
-    "id": "2026-09-07-castro-theater-the-charlatans-uk-frankie-rose",
-    "date": "2026-09-07",
-    "title": "",
-    "showType": "artist",
-    "venueId": "castro-theater",
-    "venue": "Castro Theater",
-    "venueHref": "",
-    "city": "",
-    "region": "San Francisco",
-    "details": "The Charlatans UK, Frankie Rose",
-    "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/",
-    "source": {
-      "name": "KALX",
-      "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
-    },
-    "eventTypes": [],
-    "themes": [],
-    "artists": [
-      {
-        "name": "The Charlatans UK",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22The%20Charlatans%20UK%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
       },
-      {
-        "name": "Frankie Rose",
-        "tags": [
-          "unknown"
-        ],
-        "locality": "unknown",
-        "confidence": "review",
-        "note": "Imported from KALX.",
-        "links": [
-          {
-            "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Frankie%20Rose%22%20band%20music",
-            "type": "search",
-            "confidence": "research",
-            "source": "kalx"
-          }
-        ]
-      }
-    ],
-    "sources": [
       {
         "name": "KALX",
         "url": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": "",
+    "region": "San Francisco",
+    "time": "",
+    "price": ""
   },
   {
     "id": "2026-09-07-derby-skatepark-bloodstains",
@@ -5285,7 +5233,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-08-rickshaw-stop-the-bug-club",
@@ -6443,7 +6392,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-09-dna-lounge-16-volt-acumen-nation-everything-goes-cold",
@@ -6984,7 +6934,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-09-greek-theatre-liz-phair",
@@ -8404,7 +8355,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-09-warfield-blood-orange",
@@ -11880,7 +11832,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-10-yoshi-s-dominique-fils-aim",
@@ -12621,7 +12574,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-brick-and-mortar-music-hall-cuva-bim-the-lighting-section-soft-circuit",
@@ -12951,7 +12905,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-creek-park-moonalice",
@@ -13969,7 +13924,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-greek-theatre-foster-the-people-goth-babe",
@@ -15591,7 +15547,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-sweetwater-music-hall-you-should-be-dancing-a-tribute-to-the-bee-gees",
@@ -16203,7 +16160,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-the-rite-spot-angela-laflamme",
@@ -16344,7 +16302,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-thee-stork-club-combo-tezeta",
@@ -16408,7 +16367,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-11-thee-stork-club-combo-tezeta-discomovil-salazar",
@@ -17319,7 +17279,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-12-bottom-of-the-hill-bratmobile",
@@ -17549,7 +17510,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-12-cafe-du-nord-dent-may",
@@ -18134,7 +18096,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-12-eli-s-mile-high-club-abracanasty",
@@ -25359,7 +25322,8 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true
   },
   {
     "id": "2026-09-13-the-deluxe-el-howell",

@@ -3,6 +3,9 @@ node_modules/
 playwright-report/
 test-results/
 data/*.before-*.js
+data/backups/
+data/*.sqlite
+data/*.sqlite-*
 .env
 .env.*
 !.env.example

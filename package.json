@@ -18,6 +18,12 @@
     "dedupe:events": "node scripts/normalize-event-store.mjs --merge-duplicates",
     "build:public-artists": "node scripts/build-public-artist-store.mjs",
     "prune:past": "node scripts/prune-past-unreviewed.mjs",
+    "data:backup": "node scripts/backup-data-files.mjs",
+    "db:init": "node --no-warnings=ExperimentalWarning scripts/init-sqlite-store.mjs",
+    "db:sync-imports": "node --no-warnings=ExperimentalWarning scripts/sync-sqlite-imports.mjs",
+    "db:sync-canonical": "node --no-warnings=ExperimentalWarning scripts/sync-sqlite-canonical.mjs",
+    "db:export": "node --no-warnings=ExperimentalWarning scripts/export-sqlite-store.mjs",
+    "db:apply-decisions": "node --no-warnings=ExperimentalWarning scripts/apply-sqlite-decisions.mjs",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui"
   },

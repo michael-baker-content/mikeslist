@@ -397,11 +397,12 @@ function imageForEvent(event) {
 
 function imageSelectionForEvent(event) {
   const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const imageArtist = imageArtistForEvent(event) || topArtist;
   const venue = enrichVenue(event);
   const selectedImage = preferredImageCandidate([
     { url: event.imageUrl, priority: 0, kind: "show", label: "" },
-    { url: topArtist.imageUrl, priority: 1, kind: "artist", label: displayNameForArtist(topArtist) },
-    { url: topArtist.spotifyImageUrl, priority: 2, kind: "artist", label: displayNameForArtist(topArtist) },
+    { url: imageArtist.imageUrl, priority: 1, kind: "artist", label: displayNameForArtist(imageArtist) },
+    { url: imageArtist.spotifyImageUrl, priority: 2, kind: "artist", label: displayNameForArtist(imageArtist) },
     { url: venue.imageUrl, priority: 3, kind: "venue", label: displayNameForVenue(venue) || event.venue }
   ]);
   if (selectedImage) {
@@ -448,16 +449,31 @@ function imageSelectionForEvent(event) {
 
 function imageSourceForEvent(event) {
   const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const imageArtist = imageArtistForEvent(event) || topArtist;
   const venue = enrichVenue(event);
   const image = preferredImageCandidate([
     { url: event.imageUrl, source: event.imageSource, priority: 0 },
-    { url: topArtist.imageUrl, source: topArtist.imageSource, priority: 1 },
-    { url: topArtist.spotifyImageUrl, source: "Spotify", priority: 2 },
+    { url: imageArtist.imageUrl, source: imageArtist.imageSource, priority: 1 },
+    { url: imageArtist.spotifyImageUrl, source: "Spotify", priority: 2 },
     { url: venue.imageUrl, source: venue.imageSource, priority: 3 }
   ]);
   if (image) return imageSourceLabel(image.source, image.url);
 
   return "";
+}
+
+function imageArtistForEvent(event) {
+  return (event.artists || [])
+    .map(enrichArtist)
+    .filter((artist) => artist.imageUrl || artist.spotifyImageUrl)
+    .sort((a, b) => artistImageRank(a) - artistImageRank(b))[0] || null;
+}
+
+function artistImageRank(artist) {
+  return preferredImageCandidate([
+    { url: artist.imageUrl, priority: 0 },
+    { url: artist.spotifyImageUrl, priority: 1 }
+  ])?.priority ?? 99;
 }
 
 function preferredImageUrl(candidates) {
