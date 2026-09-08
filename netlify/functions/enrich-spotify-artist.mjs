@@ -39,11 +39,13 @@ export async function handler(event) {
     return json(200, {
       ok: true,
       generatedAt: new Date().toISOString(),
+      persisted: false,
       artist
     });
   } catch (error) {
     const payload = spotifyErrorPayload(error);
-    return json(payload.details.status, payload);
+    const headers = payload.details.retryAfter ? { "Retry-After": payload.details.retryAfter } : {};
+    return json(payload.details.status, payload, headers);
   }
 }
 
@@ -221,7 +223,7 @@ function spotifyErrorReason(payload) {
 function spotifyErrorPayload(error) {
   const status = Number(error.status || 502);
   const reason = error.spotifyReason || "";
-  const retryAfter = error.retryAfter || "";
+  const retryAfter = error.retryAfter || retryAfterFromCooldown();
   const prefix = status === 429
     ? reason === "QUOTA_EXCEEDED" ? "Spotify quota exceeded" : "Spotify rate limit"
     : status === 401 || status === 403 ? "Spotify credentials rejected"
@@ -253,6 +255,13 @@ function assertSpotifyCooldown() {
 function noteSpotifyCooldown(error) {
   const status = Number(error.status || 0);
   if (status !== 429 && status < 500) return;
-  const seconds = Number(error.retryAfter || 0) || (status === 429 ? 60 : 15);
+  const seconds = error.spotifyReason === "QUOTA_EXCEEDED"
+    ? 24 * 60 * 60
+    : Number(error.retryAfter || 0) || (status === 429 ? 10 * 60 : 15);
   spotifyCooldownUntil = Math.max(spotifyCooldownUntil, Date.now() + seconds * 1000);
+}
+
+function retryAfterFromCooldown() {
+  const seconds = Math.ceil((spotifyCooldownUntil - Date.now()) / 1000);
+  return seconds > 0 ? String(seconds) : "";
 }

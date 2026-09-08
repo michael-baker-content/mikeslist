@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/styles.css?v=carto-map-20260903">
     <script src="assets/vendor/maplibre/maplibre-gl.js?v=carto-map-20260903"></script>
   </head>
-  <body class="show-explorer-page">
+  <body class="show-explorer-page show-explorer-shell">
     <header class="topbar">
       <div>
         <p class="kicker">Mike's List</p>
@@ -24,7 +24,7 @@
       <nav id="siteNav" class="nav-actions" aria-label="Project pages">
         <a class="source-link" href="index.html">Home</a>
         <a class="source-link" href="mike-says.html">Mike Says</a>
-        <a class="source-link" href="sources.html">Sources</a>
+        <a class="source-link" href="about.html">About</a>
         <a class="source-link" data-admin-only href="admin.html">Admin</a>
         <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
           <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
@@ -42,13 +42,16 @@
     <main>
       <section class="explorer-search" aria-label="Show search">
         <section id="showControls" class="controls" aria-label="Show filters">
-          <label class="search">
-            <span>Search</span>
-            <input id="searchInput" type="search" placeholder="Artist, venue, genre">
-          </label>
+          <div class="search-primary-row">
+            <label class="search">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Artist, venue, genre">
+            </label>
+            <button id="filterPanelButton" class="chip search-panel-button" type="button" aria-expanded="false" aria-controls="filterPanel">Map and Filters</button>
+          </div>
 
-          <details class="search-customization">
-            <summary>Filters</summary>
+          <details id="filterPanel" class="search-customization">
+            <summary>Map and Filters</summary>
             <div class="search-customization-body">
               <div class="date-range" aria-label="Date range">
                 <label>
@@ -67,15 +70,6 @@
                   <button class="chip" type="button" data-filter="picks">Mike's Picks</button>
                   <button class="chip" type="button" data-filter="allAges">All ages</button>
                   <button class="chip" type="button" data-filter="local">Local-first</button>
-                </div>
-              </div>
-
-              <div class="source-filter" aria-label="Source filters">
-                <span>Source</span>
-                <div class="filter-group" role="group" aria-label="Source filters">
-                  <button class="chip active" type="button" data-source-filter="all">Any source</button>
-                  <button class="chip" type="button" data-source-filter="the-list">The List</button>
-                  <button class="chip" type="button" data-source-filter="kalx">KALX</button>
                 </div>
               </div>
 
@@ -99,6 +93,11 @@
                   </select>
                 </label>
               </div>
+
+              <div class="map-filter-action" aria-label="Venue map">
+                <span>Map</span>
+                <button id="openMapButton" class="chip active" type="button" aria-controls="venueMap">Open Map</button>
+              </div>
             </div>
           </details>
         </section>
@@ -107,13 +106,11 @@
       <details id="venueMap" class="venue-map" aria-label="Mapped venues" hidden>
         <summary class="section-heading">
           <h3>Venue Map</h3>
-          <span id="venueMapCount"></span>
         </summary>
         <div class="map-style-filter" aria-label="Map style">
           <span>Map style</span>
           <div class="filter-group" role="group" aria-label="Map style options">
             <button class="chip active" type="button" data-map-style="light">Light</button>
-            <button class="chip" type="button" data-map-style="detailed">Detailed</button>
             <button class="chip" type="button" data-map-style="dark">Dark</button>
           </div>
         </div>
@@ -127,6 +124,10 @@
           <div>
             <strong id="artistCount">0</strong>
             <span>artists</span>
+          </div>
+          <div>
+            <strong id="venueMapCount">0</strong>
+            <span>venues</span>
           </div>
         </section>
       </details>

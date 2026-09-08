@@ -85,7 +85,8 @@
     });
 
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 720) {
+      const collapseWidth = document.body.classList.contains("show-explorer-page") ? 980 : 820;
+      if (window.innerWidth > collapseWidth) {
         document.querySelectorAll(".topbar.nav-open").forEach(closeMenu);
       }
     });

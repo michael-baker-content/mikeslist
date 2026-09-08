@@ -3,11 +3,11 @@
 ## Direction
 
 Mike's List is moving toward a SQLite-backed local admin workflow with static
-public exports. The database should become the local source of truth for
-reviewed data, imported snapshots, merge/delete decisions, and manual
-overrides. The existing `data/*.js` files should eventually become generated
-public/admin bundles, not the place where important review work primarily
-lives.
+public exports. The database is already used as a safety layer for imported
+snapshots, merge/delete decisions, and manual show overrides. It should
+eventually become the local source of truth for all reviewed data. The existing
+`data/*.js` files still power the current app, but they should become generated
+public/admin bundles rather than the primary place where review work lives.
 
 The guiding rule: imports may add evidence, but they should not erase Mike's
 decisions. Manual choices such as merges, deletions, Mike's Picks, verified

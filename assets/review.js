@@ -1,5 +1,6 @@
 const STORE_KEY = "bay-area-show-explorer-artists";
 const EVENTS_STORE_KEY = "bay-area-show-explorer-events";
+const SPOTIFY_COOLDOWN_KEY = "mikes-list-spotify-cooldown";
 const baseStore = window.SHOW_EXPLORER_ARTISTS || { artists: {} };
 const savedStore = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
 const artistStore = newerStore(savedStore, baseStore);
@@ -474,6 +475,45 @@ function showSpotifyErrorDetails(error) {
   fields.spotifyErrorText.textContent = typeof details === "string" ? details : JSON.stringify(details, null, 2);
 }
 
+function currentSpotifyCooldown() {
+  try {
+    const cooldown = JSON.parse(localStorage.getItem(SPOTIFY_COOLDOWN_KEY) || "null");
+    if (!cooldown?.until || Date.parse(cooldown.until) <= Date.now()) {
+      localStorage.removeItem(SPOTIFY_COOLDOWN_KEY);
+      return null;
+    }
+    return cooldown;
+  } catch {
+    localStorage.removeItem(SPOTIFY_COOLDOWN_KEY);
+    return null;
+  }
+}
+
+function setSpotifyCooldown(error) {
+  const details = error?.details || {};
+  const status = Number(details.status || 0);
+  const reason = details.reason || "";
+  if (status !== 429) return null;
+
+  const retryAfter = Number(details.retryAfter || 0);
+  const seconds = reason === "QUOTA_EXCEEDED"
+    ? 24 * 60 * 60
+    : Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter : 10 * 60;
+  const until = new Date(Date.now() + seconds * 1000).toISOString();
+  const cooldown = { until, reason, status };
+  localStorage.setItem(SPOTIFY_COOLDOWN_KEY, JSON.stringify(cooldown));
+  return cooldown;
+}
+
+function spotifyCooldownMessage(cooldown = currentSpotifyCooldown()) {
+  if (!cooldown) return "";
+  const until = new Date(cooldown.until);
+  const time = until.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+  return cooldown.reason === "QUOTA_EXCEEDED"
+    ? `Spotify quota reached. Lookups paused until ${time}.`
+    : `Spotify asked us to wait. Lookups paused until ${time}.`;
+}
+
 function spotifyLinkForArtist(artist) {
   return (artist.links || []).find((link) => {
     if (link.confidence === "rejected" || link.display === false) return false;
@@ -482,21 +522,28 @@ function spotifyLinkForArtist(artist) {
 }
 
 function syncSpotifyLookupButton(artist) {
-  spotifyLookupButton.disabled = !artist || Boolean(artist.spotifyLookupDisabled);
-  spotifyLookupButton.title = artist?.spotifyLookupDisabled
+  const cooldown = currentSpotifyCooldown();
+  spotifyLookupButton.disabled = !artist || Boolean(artist.spotifyLookupDisabled) || Boolean(cooldown);
+  spotifyLookupButton.title = cooldown
+    ? spotifyCooldownMessage(cooldown)
+    : artist?.spotifyLookupDisabled
     ? "Automatic Spotify matching is disabled for this artist"
     : "Find a Spotify match for the selected artist";
 }
 
 function scheduleSpotifyRetry(error) {
-  const retryAfter = Number(error?.details?.retryAfter || 0);
-  if (!Number.isFinite(retryAfter) || retryAfter <= 0) return;
+  const cooldown = setSpotifyCooldown(error);
+  if (!cooldown) return;
+  const retryAfter = Math.ceil((Date.parse(cooldown.until) - Date.now()) / 1000);
+  if (retryAfter <= 0) return;
   window.clearTimeout(spotifyRetryTimeout);
   spotifyLookupButton.disabled = true;
-  spotifyLookupButton.title = `Spotify asked us to wait ${retryAfter}s`;
+  spotifyLookupButton.title = spotifyCooldownMessage(cooldown);
+  fields.spotifyMatchStatus.textContent = spotifyCooldownMessage(cooldown);
   spotifyRetryTimeout = window.setTimeout(() => {
     syncSpotifyLookupButton(artistStore.artists[state.selectedId]);
-  }, retryAfter * 1000);
+    renderSpotifyMatchStatus(artistStore.artists[state.selectedId]);
+  }, Math.min(retryAfter * 1000, 2_147_483_647));
 }
 
 function renderMergeArtistOptions(selectedArtist) {
@@ -1193,6 +1240,15 @@ spotifyLookupButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
 
+  const cooldown = currentSpotifyCooldown();
+  if (cooldown) {
+    const message = spotifyCooldownMessage(cooldown);
+    fields.spotifyMatchStatus.textContent = message;
+    fields.saveStatus.textContent = message;
+    syncSpotifyLookupButton(artist);
+    return;
+  }
+
   clearSpotifyErrorDetails();
   fields.saveStatus.textContent = "Saving before Spotify lookup...";
   await saveCurrentArtist();
@@ -1215,7 +1271,11 @@ spotifyLookupButton.addEventListener("click", async () => {
     }
     artistStore.artists[result.artist.id] = result.artist;
     artistStore.generatedAt = result.generatedAt;
-    localStorage.removeItem(STORE_KEY);
+    if (result.persisted) {
+      localStorage.removeItem(STORE_KEY);
+    } else {
+      persistArtistStore();
+    }
     fields.saveStatus.textContent = `Matched Spotify artist: ${result.artist.spotifyMatch?.name || result.artist.name}`;
     updateSummary();
     selectArtist(result.artist.id);

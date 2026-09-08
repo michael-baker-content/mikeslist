@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <title>About - Mike's List</title>
+  <script src="assets/theme.js"></script>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <header class="topbar">
+    <div>
+      <p class="kicker">What's all this then?</p>
+      <h1>About</h1>
+    </div>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav id="siteNav" class="nav-actions" aria-label="Project pages">
+      <a class="source-link" href="index.html">Home</a>
+      <a class="source-link" href="show-explorer.html">Show Explorer</a>
+      <a class="source-link" href="mike-says.html">Mike Says</a>
+      <a class="source-link" data-admin-only href="admin.html">Admin</a>
+      <button class="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+        <svg class="theme-icon theme-icon-sun" aria-hidden="true" viewBox="0 0 32 32">
+          <circle cx="16" cy="16" r="5"></circle>
+          <path
+            d="M16 2.5v5M16 24.5v5M2.5 16h5M24.5 16h5M6.1 6.1l4.6 4.6M21.3 21.3l4.6 4.6M25.9 6.1l-4.6 4.6M10.7 21.3l-4.6 4.6">
+          </path>
+        </svg>
+        <svg class="theme-icon theme-icon-moon" aria-hidden="true" viewBox="0 0 32 32">
+          <path d="M24.6 21.4A10.6 10.6 0 0 1 10.6 7.4 10.8 10.8 0 1 0 24.6 21.4Z"></path>
+          <path class="theme-star" d="M22.8 5.5l.8 1.8 1.8.8-1.8.8-.8 1.8-.8-1.8-1.8-.8 1.8-.8.8-1.8Z"></path>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main class="essay-layout">
+    <article class="essay-card about-card">
+      <p class="kicker">Event listings with a point of view</p>
+      <h2>I'm Michael Baker, a music freak in Oakland.
+      </h2>
+      <p>
+        I've been attending concerts in the Bay area for the last 30 years or so.
+        While technology has changed somewhat,
+        I still learn about which musicians have upcoming shows the same way I did back then:
+        via The List and KALX.
+
+        Of course, a few things have changed since then:
+        Steve Koepke printed-out sheets of paper are now available in web formats,
+        and KALX's event calendar has found its way online as well.
+      </p>
+      <p>
+        But that's not to say that this method could not be improved —
+        or at the very least customized to my preferences!
+        This website is my attempt to build on what others have provided
+        while also including useful context
+        about the musicians and venues featured here.
+      </p>
+    </article>
+
+    <section class="home-section" aria-labelledby="philosophyTitle">
+      <div class="section-heading">
+        <h3 id="philosophyTitle">Site Philosophy</h3>
+      </div>
+      <div class="admin-grid">
+        <article class="admin-card">
+          <span class="kicker">Shows first</span>
+          <strong>The spotlight stays on the artists.</strong>
+          <span>The site keeps its public surface focused on artist-backed performances without a bunch of ads and
+            ticketing junk gumming up the works.</span>
+        </article>
+        <article class="admin-card">
+          <span class="kicker">Context matters</span>
+          <strong>Sources stay visible.</strong>
+          <span>I'm proud of what I've built here, but it would be nothing without the underlying data
+            provided by the site's sources.</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="sourcesTitle">
+      <div class="section-heading">
+        <h3 id="sourcesTitle">Sources</h3>
+      </div>
+      <div class="admin-grid source-grid" aria-label="Listing sources">
+        <article class="admin-card source-card">
+          <span class="kicker">An eye on the region</span>
+          <strong>The List</strong>
+          <span>The List is Steve Koepke's long-running Bay Area concert calendar with venue-based music
+            listings, helpfully organized by Jon Luini.</span>
+          <div class="admin-source-links">
+            <a href="https://jon.luini.com/thelist/date.html" target="_blank" rel="noreferrer">Open The List</a>
+          </div>
+        </article>
+
+        <article class="admin-card source-card">
+          <span class="kicker">Local flavor</span>
+          <strong>KALX 90.7 FM</strong>
+          <span>The UC Berkeley–adjacent college radio station KALX 90.7 FM is always worth a listen. Their calendar
+            digs deeper on what's up in the East Bay.</span>
+          <div class="admin-source-links">
+            <a href="https://www.kalx.berkeley.edu/events/" target="_blank" rel="noreferrer">Open KALX Events</a>
+          </div>
+        </article>
+
+        <article class="admin-card source-card">
+          <span class="kicker">A very helpful API</span>
+          <strong>Spotify</strong>
+          <span>I don't love everything about Spotify, but Mike's List would be significantly less colorful
+            and interactive without their data. I plan to add Bandcamp integration as well.</span>
+          <div class="admin-source-links">
+            <a href="https://theneedledrop.com/opinion/he-is-evil/" target="_blank" rel="noreferrer">About Spotify CEO
+              Daniel Ek</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="home-footer about-footer" aria-label="More Mike's List pages">
+      <a href="index.html">Home</a>
+      <a href="show-explorer.html">Show Explorer</a>
+      <a href="mike-says.html">Mike Says</a>
+    </footer>
+  </main>
+
+  <script src="assets/nav.js"></script>
+  <script src="assets/auth.js"></script>
+</body>
+
+</html>

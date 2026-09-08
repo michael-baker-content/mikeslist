@@ -50,7 +50,11 @@ The current local and Netlify code now includes groundwork for:
 - Caching artist searches by normalized artist name.
 - Caching direct artist lookups by Spotify artist ID.
 - Returning structured error details with `status`, `message`, `reason`, `retryAfter`, and `source`.
-- Cooling down briefly after `429` or upstream/server failures.
+- Cooling down after `429` or upstream/server failures.
+- Treating `429` with `reason: "QUOTA_EXCEEDED"` as a 24-hour stop signal.
+- Saving the active Spotify cooldown in Artist Review browser storage so the `Find Spotify` button stays disabled across refreshes.
+
+The explicit `Find Spotify` action should preserve Spotify's real status details instead of flattening them into a generic local `500`. If Spotify sends `Retry-After`, use it. If Spotify sends `QUOTA_EXCEEDED`, stop lookups for 24 hours to protect development-mode API access.
 
 ## Suggested Next Refinement
 

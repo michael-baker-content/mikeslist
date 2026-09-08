@@ -6,7 +6,7 @@
     "event-review.html",
     "suggestions.html"
   ]);
-  const publicHeaderPaths = new Set(["sources.html"]);
+  const publicHeaderPaths = new Set();
   const currentPath = window.location.pathname.replace(/^\//, "") || "index.html";
 
   async function fetchSession() {
@@ -56,13 +56,14 @@
     });
 
     document.querySelectorAll(".nav-actions").forEach((nav) => {
+      const utilityNav = ensureUtilityNavigation(nav);
       if (!session.authenticated && adminPaths.has(currentPath) && !nav.querySelector("[data-login-link]")) {
         const login = document.createElement("a");
         login.className = "source-link";
         login.href = `login.html?next=${encodeURIComponent(window.location.pathname || "/admin.html")}`;
         login.textContent = "Log In";
         login.dataset.loginLink = "true";
-        nav.insertBefore(login, nav.querySelector(".theme-toggle"));
+        nav.insertBefore(login, utilityNav);
       }
 
       nav.querySelectorAll("[data-login-link]").forEach((link) => {
@@ -76,8 +77,24 @@
       button.textContent = "Log Out";
       button.dataset.logoutButton = "true";
       button.addEventListener("click", logout);
-      nav.insertBefore(button, nav.querySelector(".theme-toggle"));
+      utilityNav.insertBefore(button, utilityNav.querySelector(".theme-toggle"));
     });
+  }
+
+  function ensureUtilityNavigation(nav) {
+    let group = nav.querySelector(".nav-utility-actions");
+    if (!group) {
+      group = document.createElement("div");
+      group.className = "nav-utility-actions";
+      group.setAttribute("aria-label", "Admin and display controls");
+      nav.append(group);
+    }
+
+    const theme = nav.querySelector(":scope > .theme-toggle");
+    const admin = nav.querySelector(':scope > a[data-admin-only][href="admin.html"]');
+    if (admin) group.insertBefore(admin, group.firstChild);
+    if (theme) group.append(theme);
+    return group;
   }
 
   async function logout() {
@@ -108,6 +125,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", async () => {
+    document.querySelectorAll(".nav-actions").forEach(ensureUtilityNavigation);
     const session = await fetchSession();
     syncAdminNavigation(session);
     initLoginForm();

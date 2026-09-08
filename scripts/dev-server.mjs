@@ -348,7 +348,7 @@ function spotifyErrorReason(payload) {
 function spotifyErrorPayload(error) {
   const status = Number(error.status || 502);
   const reason = error.spotifyReason || "";
-  const retryAfter = error.retryAfter || "";
+  const retryAfter = error.retryAfter || retryAfterFromCooldown();
   const prefix = status === 429
     ? reason === "QUOTA_EXCEEDED" ? "Spotify quota exceeded" : "Spotify rate limit"
     : status === 401 || status === 403 ? "Spotify credentials rejected"
@@ -380,8 +380,15 @@ function assertSpotifyCooldown() {
 function noteSpotifyCooldown(error) {
   const status = Number(error.status || 0);
   if (status !== 429 && status < 500) return;
-  const seconds = Number(error.retryAfter || 0) || (status === 429 ? 60 : 15);
+  const seconds = error.spotifyReason === "QUOTA_EXCEEDED"
+    ? 24 * 60 * 60
+    : Number(error.retryAfter || 0) || (status === 429 ? 10 * 60 : 15);
   spotifyCooldownUntil = Math.max(spotifyCooldownUntil, Date.now() + seconds * 1000);
+}
+
+function retryAfterFromCooldown() {
+  const seconds = Math.ceil((spotifyCooldownUntil - Date.now()) / 1000);
+  return seconds > 0 ? String(seconds) : "";
 }
 
 function spotifyLinkForArtist(artist) {
@@ -715,7 +722,7 @@ async function handleEnrichArtist(request, response) {
     }
   }
 
-  send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
+  send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, persisted: true, artist }), "application/json; charset=utf-8");
 }
 
 async function handleEnrichSpotifyArtist(request, response) {
@@ -763,10 +770,11 @@ async function handleEnrichSpotifyArtist(request, response) {
     await writeTextFile(ARTISTS_PATH, `window.SHOW_EXPLORER_ARTISTS = ${JSON.stringify(store, null, 2)};\n`, "utf8");
     await runScript("scripts/build-public-artist-store.mjs");
 
-    send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, artist }), "application/json; charset=utf-8");
+    send(response, 200, JSON.stringify({ ok: true, generatedAt: store.generatedAt, persisted: true, artist }), "application/json; charset=utf-8");
   } catch (error) {
     const payload = spotifyErrorPayload(error);
-    send(response, payload.details.status, JSON.stringify(payload), "application/json; charset=utf-8");
+    const headers = payload.details.retryAfter ? { "Retry-After": payload.details.retryAfter } : {};
+    sendJson(response, payload.details.status, payload, headers);
   }
 }
 

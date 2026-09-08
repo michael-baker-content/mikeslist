@@ -51,14 +51,15 @@ function renderArtistPage(id) {
   const artistImageUrl = artist.imageUrl || artist.spotifyImageUrl || "";
   const artistImageSource = artist.imageUrl ? artist.imageSource : artist.spotifyImageUrl ? "Spotify" : "";
   const spotifySection = spotifyEmbedSection(artist);
-  detailTitle.textContent = title;
   document.title = `${title} - Mike's List`;
 
   const shows = events.filter((event) => event.artists.some((item) => slugify(item.name) === artist.id));
+  const detailsSection = artistDetailsSection(artist);
   detailPanel.replaceChildren(
     heroSection({
-      kicker: "Artist",
-      title,
+      kicker: "",
+      title: "Artist Profile",
+      subjectTitle: title,
       imageUrl: artistImageUrl,
       imageAlt: `${title} artist image`,
       imageSource: artistImageSource,
@@ -68,20 +69,26 @@ function renderArtistPage(id) {
         ...(artist.genres || artist.tags || []).slice(0, 4)
       ]
     }),
-    ...(spotifySection ? [spotifySection] : []),
-    infoGrid([
-      ["Locality", artist.locality || "unknown"],
-      ["Genres", (artist.genres || artist.tags || []).join(", ") || "unknown"],
-      ["Aliases", (artist.aliases || []).join(", ") || "none"]
-    ]),
+    ...(detailsSection ? [detailsSection] : []),
     linkSection("Links", prioritizedArtistLinks(artist.links || [])),
     showsSection("Upcoming Shows", shows.map((event) => ({
       date: event.date,
       title: displayNameForEvent(event),
       meta: eventLineFor(event),
       href: `venue.html?id=${encodeURIComponent(resolveVenue(event).id || venueIdFor(event))}`
-    })))
+    }))),
+    ...(spotifySection ? [spotifySection] : [])
   );
+}
+
+function artistDetailsSection(artist) {
+  const genres = (artist.genres || artist.tags || []).filter((item) => item && item !== "unknown");
+  const aliases = (artist.aliases || []).filter(Boolean);
+  const rows = [
+    genres.length ? ["Genres", genres.join(", ")] : null,
+    aliases.length ? ["Aliases", aliases.join(", ")] : null
+  ].filter(Boolean);
+  return rows.length ? infoGrid(rows) : null;
 }
 
 function spotifyEmbedSection(artist) {
@@ -126,7 +133,6 @@ function renderVenuePage(id) {
   const venue = rawVenue?.mergedInto && venueStore.venues?.[rawVenue.mergedInto] ? venueStore.venues[rawVenue.mergedInto] : rawVenue;
   if (!venue) return renderMissing("Venue not found.");
   const title = displayNameFor(venue);
-  detailTitle.textContent = title;
   document.title = `${title} - Mike's List`;
 
   const shows = events.filter((event) => {
@@ -135,8 +141,9 @@ function renderVenuePage(id) {
   });
   detailPanel.replaceChildren(
     heroSection({
-      kicker: "Venue",
-      title,
+      kicker: "",
+      title: "Venue Profile",
+      subjectTitle: title,
       imageUrl: venue.imageUrl || "",
       imageAlt: `${title} venue image`,
       imageSource: venue.imageSource || "",
@@ -166,19 +173,25 @@ function renderVenuePage(id) {
   );
 }
 
-function heroSection({ kicker, title, imageUrl = "", imageAlt = "", imageSource = "", summary, meta }) {
+function heroSection({ kicker, title, subjectTitle = "", imageUrl = "", imageAlt = "", imageSource = "", summary, meta }) {
   const section = document.createElement("section");
   section.className = "detail-hero";
   section.innerHTML = `
     <div class="detail-hero-copy">
       <p class="kicker"></p>
       <h2 class="statement-type"></h2>
+      <h3 class="detail-subtitle"></h3>
       <p class="detail-summary"></p>
       <div class="detail-chips"></div>
     </div>
   `;
-  section.querySelector(".kicker").textContent = kicker;
+  const kickerNode = section.querySelector(".kicker");
+  kickerNode.textContent = kicker;
+  kickerNode.hidden = !kicker;
   section.querySelector("h2").textContent = title;
+  const subtitleNode = section.querySelector(".detail-subtitle");
+  subtitleNode.textContent = subjectTitle;
+  subtitleNode.hidden = !subjectTitle;
   section.querySelector(".detail-summary").textContent = summary;
   const chips = section.querySelector(".detail-chips");
   meta.filter(Boolean).forEach((item) => {

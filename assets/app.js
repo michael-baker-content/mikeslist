@@ -7,6 +7,10 @@ const venueStore = window.SHOW_EXPLORER_VENUES?.venues || {};
 const eventTextCache = new WeakMap();
 const eventImageCache = new WeakMap();
 
+function initialMapStyle() {
+  return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+}
+
 const state = {
   query: "",
   filters: [],
@@ -14,7 +18,7 @@ const state = {
   venue: "all",
   city: "all",
   sort: "date",
-  mapStyle: "light",
+  mapStyle: initialMapStyle(),
   fromDate: todayString(),
   toDate: ""
 };
@@ -41,6 +45,8 @@ const venueFilterInput = document.querySelector("#venueFilterInput");
 const cityFilterInput = document.querySelector("#cityFilterInput");
 const sortInput = document.querySelector("#sortInput");
 const searchCustomization = document.querySelector(".search-customization");
+const filterPanelButton = document.querySelector("#filterPanelButton");
+const openMapButton = document.querySelector("#openMapButton");
 const stickyToolsMenu = document.querySelector(".sticky-tools-menu");
 const stickyToolsMenuButton = document.querySelector("#stickyToolsMenuButton");
 const stickyToolsPopover = document.querySelector("#stickyToolsPopover");
@@ -49,24 +55,24 @@ const stickyMenuMapButton = document.querySelector("#stickyMenuMapButton");
 const jumpToFiltersButton = document.querySelector("#jumpToFiltersButton");
 const returnToListingsButton = document.querySelector("#returnToListingsButton");
 const filterButtons = [...document.querySelectorAll("[data-filter]")];
-const sourceFilterButtons = [...document.querySelectorAll("[data-source-filter]")];
 const mapStyleButtons = [...document.querySelectorAll("[data-map-style]")];
-const mobileMapQuery = window.matchMedia("(max-width: 820px)");
 
 let mapLibreMap;
 let mapLibrePopup;
 let mapLibreMarkers = [];
 let venueMapRenderToken = 0;
 let eventRenderToken = 0;
+let eventScrollObserver = null;
+let eventScrollFallbackHandler = null;
 let lastListingScrollY = 0;
 let keepFiltersOpenUntil = 0;
-let keepMapOpenUntil = 0;
 let venueMapRequested = false;
 
+const initialEventBatchSize = 18;
+const eventScrollBatchSize = 24;
 const filterKeys = new Set(["picks", "allAges", "local"]);
 const cartoMapStyles = {
-  light: "https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
-  detailed: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
+  light: "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json",
   dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 };
 const cartoMapStyleCache = new Map();
@@ -723,30 +729,78 @@ function render() {
     return;
   }
 
-  renderEventCardsInBatches(list, renderToken);
+  renderEventCardsOnDemand(list, renderToken);
 }
 
-function renderEventCardsInBatches(list, renderToken) {
-  const firstBatchSize = list.length > 250 ? 90 : list.length;
-  appendEventCardBatch(list, 0, firstBatchSize);
-  if (firstBatchSize >= list.length) return;
-
-  const appendMore = (start) => {
-    if (renderToken !== eventRenderToken) return;
-    const next = Math.min(start + 120, list.length);
-    appendEventCardBatch(list, start, next);
-    if (next >= list.length) return;
-    scheduleEventCardBatch(() => appendMore(next));
-  };
-  scheduleEventCardBatch(() => appendMore(firstBatchSize));
-}
-
-function scheduleEventCardBatch(callback) {
-  if (typeof window.requestIdleCallback === "function") {
-    window.requestIdleCallback(callback, { timeout: 120 });
+function focusLinkedEvent(attempt = 0) {
+  const eventId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  if (!eventId) return;
+  const target = document.getElementById(eventId);
+  if (!target && attempt < 10) {
+    window.setTimeout(() => focusLinkedEvent(attempt + 1), 160);
     return;
   }
-  window.setTimeout(callback, 16);
+  if (!target) return;
+  target.scrollIntoView({ block: "center" });
+  target.classList.add("linked-event");
+  window.setTimeout(() => target.classList.remove("linked-event"), 1800);
+}
+
+function renderEventCardsOnDemand(list, renderToken) {
+  disconnectEventScrollLoader();
+  const linkedIndex = linkedEventIndex(list);
+  const firstBatchSize = Math.min(list.length, Math.max(initialEventBatchSize, linkedIndex + 1));
+  const sentinel = document.createElement("div");
+  sentinel.className = "event-scroll-sentinel";
+  sentinel.setAttribute("aria-hidden", "true");
+  let rendered = 0;
+
+  const loadNext = () => {
+    if (renderToken !== eventRenderToken) return;
+    const size = rendered === 0 ? firstBatchSize : eventScrollBatchSize;
+    const next = Math.min(rendered + size, list.length);
+    appendEventCardBatch(list, rendered, next);
+    rendered = next;
+    focusLinkedEvent();
+    if (rendered >= list.length) {
+      disconnectEventScrollLoader();
+      sentinel.remove();
+      return;
+    }
+    if (!sentinel.isConnected) eventList.append(sentinel);
+  };
+
+  loadNext();
+  if (rendered >= list.length) return;
+
+  if ("IntersectionObserver" in window) {
+    eventScrollObserver = new IntersectionObserver((entries) => {
+      if (entries.some((entry) => entry.isIntersecting)) loadNext();
+    }, { rootMargin: "720px 0px" });
+    eventScrollObserver.observe(sentinel);
+    return;
+  }
+
+  eventScrollFallbackHandler = () => {
+    const rect = sentinel.getBoundingClientRect();
+    if (rect.top < window.innerHeight + 720) loadNext();
+  };
+  window.addEventListener("scroll", eventScrollFallbackHandler, { passive: true });
+}
+
+function disconnectEventScrollLoader() {
+  eventScrollObserver?.disconnect();
+  eventScrollObserver = null;
+  if (eventScrollFallbackHandler) {
+    window.removeEventListener("scroll", eventScrollFallbackHandler);
+    eventScrollFallbackHandler = null;
+  }
+}
+
+function linkedEventIndex(list) {
+  const eventId = decodeURIComponent(window.location.hash.replace(/^#/, ""));
+  if (!eventId) return -1;
+  return list.findIndex((event) => event.id === eventId);
 }
 
 function appendEventCardBatch(list, start, end) {
@@ -772,6 +826,8 @@ function createDateGroupHeader(dateText) {
 function createEventCard(event, options = {}) {
   const venue = enrichVenue(event);
   const node = eventTemplate.content.firstElementChild.cloneNode(true);
+  node.id = event.id;
+  node.dataset.eventId = event.id;
   const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
   const eventImage = node.querySelector(".event-image");
   const imageSelection = imageSelectionForEvent(event);
@@ -825,9 +881,6 @@ function updateFilterButtons() {
     const filter = button.dataset.filter;
     setPressed(button, state.filters.includes(filter));
   });
-  sourceFilterButtons.forEach((button) => {
-    setPressed(button, button.dataset.sourceFilter === state.source);
-  });
   mapStyleButtons.forEach((button) => {
     setPressed(button, button.dataset.mapStyle === state.mapStyle);
   });
@@ -859,9 +912,8 @@ function setupStickyListingTools() {
     document.body.classList.toggle("listing-tools-active", active);
     if (active) {
       if (now > keepFiltersOpenUntil) {
-        searchCustomization?.removeAttribute("open");
+        setFilterPanelOpen(false);
       }
-      if (mobileMapQuery.matches && now > keepMapOpenUntil) venueMap?.removeAttribute("open");
     }
   };
 
@@ -883,9 +935,9 @@ function jumpToFilters() {
   lastListingScrollY = window.scrollY;
   keepFiltersOpenUntil = Date.now() + 1600;
   returnToListingsButton.disabled = false;
-  searchCustomization?.setAttribute("open", "");
+  setFilterPanelOpen(true);
   showControls?.scrollIntoView({ behavior: "smooth", block: "start" });
-  window.setTimeout(() => searchCustomization?.setAttribute("open", ""), 320);
+  window.setTimeout(() => setFilterPanelOpen(true), 320);
   window.setTimeout(() => searchInput?.focus({ preventScroll: true }), 260);
 }
 
@@ -904,14 +956,29 @@ function setStickyToolsMenuOpen(isOpen) {
   stickyToolsPopover.hidden = !isOpen;
 }
 
+function syncFilterPanelButton() {
+  if (!filterPanelButton || !searchCustomization) return;
+  filterPanelButton.setAttribute("aria-expanded", searchCustomization.open ? "true" : "false");
+  filterPanelButton.classList.toggle("active", searchCustomization.open);
+}
+
+function setFilterPanelOpen(isOpen) {
+  if (!searchCustomization) return;
+  if (isOpen) searchCustomization.setAttribute("open", "");
+  else searchCustomization.removeAttribute("open");
+  syncFilterPanelButton();
+}
+
 function jumpToMap() {
   lastListingScrollY = window.scrollY;
-  keepMapOpenUntil = Date.now() + 1600;
   venueMapRequested = true;
   returnToListingsButton.disabled = false;
+  setFilterPanelOpen(false);
   if (venueMap) venueMap.hidden = false;
   venueMap?.setAttribute("open", "");
-  venueMap?.scrollIntoView({ behavior: "smooth", block: "start" });
+  window.requestAnimationFrame(() => {
+    venueMap?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
   window.setTimeout(() => venueMap?.setAttribute("open", ""), 320);
 }
 
@@ -920,7 +987,7 @@ function renderVenueMap(list) {
   const renderToken = ++venueMapRenderToken;
   const venues = uniqueVenuesWithGeo(list);
   venueMap.hidden = !venueMapRequested || venues.length === 0;
-  if (venueMapCount) venueMapCount.textContent = `${venues.length} mapped venue${venues.length === 1 ? "" : "s"}`;
+  if (venueMapCount) venueMapCount.textContent = venues.length;
   if (!venues.length) {
     if (venueMapCanvas) venueMapCanvas.hidden = true;
     if (venueMapStatus) venueMapStatus.hidden = true;
@@ -1074,7 +1141,7 @@ function cloneMapStyle(style) {
 }
 
 function customizeCartoMapStyle(style, styleKey) {
-  if (styleKey === "detailed") return style;
+  if (styleKey === "light") return style;
   return {
     ...style,
     layers: (style.layers || []).map((layer) => {
@@ -1239,13 +1306,6 @@ function applyFilterSelection(filter) {
   }
 }
 
-sourceFilterButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    state.source = button.dataset.sourceFilter;
-    render();
-  });
-});
-
 mapStyleButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const nextStyle = button.dataset.mapStyle;
@@ -1265,6 +1325,11 @@ mapStyleButtons.forEach((button) => {
 
 returnToListingsButton?.addEventListener("click", returnToListings);
 jumpToFiltersButton?.addEventListener("click", jumpToFilters);
+filterPanelButton?.addEventListener("click", () => {
+  setFilterPanelOpen(!searchCustomization?.open);
+});
+searchCustomization?.addEventListener("toggle", syncFilterPanelButton);
+openMapButton?.addEventListener("click", jumpToMap);
 stickyToolsMenuButton?.addEventListener("click", () => {
   setStickyToolsMenuOpen(stickyToolsMenuButton.getAttribute("aria-expanded") !== "true");
 });

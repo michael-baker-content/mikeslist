@@ -1,8 +1,8 @@
 # Mike's List
 
-Mike's List is a local listings project for Bay Area shows, venues, artists, and neighborhood event life. It began as Bay Area Show Explorer, a music calendar built from imported concert listings, and is now widening into a more flexible guide for things worth leaving the house for.
+Mike's List is a local listings project for SF Bay Area music shows, venues, and artists. It began as Bay Area Show Explorer and is now framed as a more personal, editorial guide to artist-backed listings.
 
-Show Explorer is the first offering inside Mike's List. It focuses on artist-backed music listings while keeping broader event classification available in the local review tools.
+Show Explorer is the core browsing experience inside Mike's List. It focuses on artist-backed music listings while keeping broader event classification available in the local review tools.
 
 The project is intentionally careful:
 
@@ -31,7 +31,7 @@ Useful public pages:
 http://127.0.0.1:4173/
 http://127.0.0.1:4173/show-explorer.html
 http://127.0.0.1:4173/mike-says.html
-http://127.0.0.1:4173/sources.html
+http://127.0.0.1:4173/about.html
 ```
 
 Admin pages require a local access key:
@@ -50,7 +50,7 @@ $env:SPOTIFY_CLIENT_ID="your-spotify-client-id"
 $env:SPOTIFY_CLIENT_SECRET="your-spotify-client-secret"
 ```
 
-The Spotify lookup uses server-side credentials, so the client secret is never shipped to the public browser code. The public artist bundle includes only the display-safe Spotify link and fallback image fields.
+The Spotify lookup uses server-side credentials, so the client secret is never shipped to the public browser code. The public artist bundle includes only the display-safe Spotify link and fallback image fields. On the live static site, Spotify lookup results are saved to that browser's local Artist Review storage until the reviewed data is saved locally, committed, and deployed.
 
 See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-limit handling, and suggested next refinements.
 
@@ -162,7 +162,7 @@ The full `data/artists.js` file is the admin/review store. Public pages load `da
 
 Local admin saves write back to the data files through `scripts/dev-server.mjs`. Show saves also rebuild the artist, public artist, and venue stores so reviewed event changes stay in sync with public bundles.
 
-The public Show Explorer map uses the locally vendored MapLibre GL files in `assets/vendor/maplibre/` with CARTO basemap styles loaded from `basemaps.cartocdn.com`. The map will render only when the browser can reach CARTO's style and tile endpoints.
+The public Show Explorer map uses the locally vendored MapLibre GL files in `assets/vendor/maplibre/` with CARTO basemap styles loaded from `basemaps.cartocdn.com`. Map access lives inside the Show Explorer `Map and Filters` panel so dates, options, venue, city, and sort can be refined before opening the map. The map offers Light and Dark styles, defaulting to the current site theme. The map will render only when the browser can reach CARTO's style and tile endpoints.
 
 ## Data Sources
 
