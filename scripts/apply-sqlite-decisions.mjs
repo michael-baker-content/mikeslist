@@ -89,7 +89,6 @@ function manualShowFields(event) {
     details: event.details,
     eventDescription: event.eventDescription,
     eventTypes: event.eventTypes,
-    themes: event.themes,
     artists: event.artists,
     infoUrl: event.infoUrl,
     imageUrl: event.imageUrl,
@@ -108,7 +107,6 @@ function applyManualShowFields(event, data) {
   copyStringField(event, data, "imageUrl");
   copyStringField(event, data, "imageSource");
   copyArrayField(event, data, "eventTypes");
-  copyArrayField(event, data, "themes");
   copyArrayField(event, data, "artists");
   if (typeof data.mikesPick === "boolean") event.mikesPick = data.mikesPick;
 }

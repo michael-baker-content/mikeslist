@@ -31,11 +31,11 @@ const classifiedEvents = events.map((event) => {
     title: event.title || titles.join(", "),
     showType: artists.length ? "artist" : "event",
     eventTypes: merged.eventTypes,
-    themes: merged.themes,
     artists
   };
+  delete next.themes;
 
-  if (event.showType !== next.showType || (event.artists || []).length !== artists.length || next.eventTypes.length !== (event.eventTypes || []).length || next.themes.length !== (event.themes || []).length) {
+  if (event.showType !== next.showType || (event.artists || []).length !== artists.length || next.eventTypes.length !== (event.eventTypes || []).length || (event.themes || []).length) {
     updatedEvents += 1;
   }
 

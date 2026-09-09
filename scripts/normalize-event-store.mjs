@@ -130,7 +130,7 @@ for (const event of events) {
   event.infoUrl = String(event.infoUrl || "").trim();
   event.imageUrl = String(event.imageUrl || "").trim();
   event.eventTypes = uniqueList(event.eventTypes || []);
-  event.themes = uniqueList(event.themes || []);
+  delete event.themes;
   event.artists = mergeArtists(event.artists || []);
   const resolvedVenue = resolvedVenueForEvent(event);
   if (resolvedVenue?.id && event.venueId !== resolvedVenue.id) event.venueId = resolvedVenue.id;
@@ -310,8 +310,7 @@ function eventTokens(event) {
     eventTitle(event),
     event.details,
     ...(event.artists || []).map(artistDisplayName),
-    ...(event.eventTypes || []),
-    ...(event.themes || [])
+    ...(event.eventTypes || [])
   ].join(" ")).split(/\s+/).filter((token) => token.length > 2));
 }
 
@@ -345,7 +344,6 @@ function canonicalScore(event) {
     + Number((event.sources || []).length > 1) * 6
     + Number((event.artists || []).length) * 4
     + Number((event.eventTypes || []).length) * 2
-    + Number((event.themes || []).length)
     + sourceNamesForEvent(event).length;
 }
 
@@ -369,7 +367,7 @@ function mergeEventData(target, source) {
   target.eventDescription = uniqueDetails(target.eventDescription, source.eventDescription);
   target.mikesPick = Boolean(target.mikesPick || source.mikesPick);
   target.eventTypes = uniqueList([...(target.eventTypes || []), ...(source.eventTypes || [])]);
-  target.themes = uniqueList([...(target.themes || []), ...(source.themes || [])]);
+  delete target.themes;
   target.artists = mergeArtists([...(target.artists || []), ...(source.artists || [])]);
   target.sources = mergeSources(target.sources || [], [
     ...(source.sources || []),

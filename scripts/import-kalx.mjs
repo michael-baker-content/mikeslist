@@ -233,7 +233,6 @@ function eventFromKalxListing(date, region, venue, listing, sourceUrl) {
       url: sourceUrl
     },
     eventTypes: eventMeta.eventTypes,
-    themes: eventMeta.themes,
     artists: artistNames.map((name) => placeholderArtist(name))
   };
 }
@@ -271,7 +270,7 @@ function mergeEvents(existing, incoming) {
       duplicate.source = duplicate.sources[0];
       duplicate.sourceUrl ||= event.sourceUrl;
       duplicate.eventTypes = isKalxOnly(duplicate) ? event.eventTypes : [...new Set([...(duplicate.eventTypes || []), ...(event.eventTypes || [])])];
-      duplicate.themes = isKalxOnly(duplicate) ? event.themes : [...new Set([...(duplicate.themes || []), ...(event.themes || [])])];
+      delete duplicate.themes;
       duplicate.artists = isKalxOnly(duplicate) ? event.artists : mergeArtists(duplicate.artists || [], event.artists || []);
     } else {
       byId.set(event.id, normalizeEventSources(event));

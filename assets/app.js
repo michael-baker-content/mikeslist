@@ -56,6 +56,7 @@ const jumpToFiltersButton = document.querySelector("#jumpToFiltersButton");
 const returnToListingsButton = document.querySelector("#returnToListingsButton");
 const filterButtons = [...document.querySelectorAll("[data-filter]")];
 const mapStyleButtons = [...document.querySelectorAll("[data-map-style]")];
+const narrowSearchPlaceholderQuery = window.matchMedia("(max-width: 410px)");
 
 let mapLibreMap;
 let mapLibrePopup;
@@ -76,6 +77,11 @@ const cartoMapStyles = {
   dark: "https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json"
 };
 const cartoMapStyleCache = new Map();
+
+function syncSearchPlaceholder() {
+  if (!searchInput) return;
+  searchInput.placeholder = narrowSearchPlaceholderQuery.matches ? "Artist, venue..." : "Artist, venue, genre";
+}
 
 const eventTypeLabels = {
   coverBand: "Cover band",
@@ -113,7 +119,6 @@ function textForEvent(event) {
     event.details,
     ...sourceNamesForEvent(event),
     ...(event.eventTypes || []).map(labelForEventType),
-    ...(event.themes || []),
     ...(event.sources || []).map((source) => source.name),
     ...(isArtistShow(event) ? event.artists : []).map(enrichArtist).flatMap((artist) => [
       artist.name,
@@ -323,7 +328,7 @@ function renderArtist(artist) {
 }
 
 function renderVenueLinks(venue, container) {
-  showExplorerLinks(venue.links || []).forEach((link) => {
+  showExplorerVenueLinks(venue.links || []).forEach((link) => {
     const anchor = document.createElement("a");
     anchor.href = link.url;
     anchor.target = "_blank";
@@ -336,8 +341,7 @@ function renderVenueLinks(venue, container) {
 function renderEventLinks(event, venue, container) {
   container.replaceChildren();
   const chips = [
-    ...(event.eventTypes || []).map((type) => ({ kind: "type", value: type, label: labelForEventType(type) })),
-    ...(event.themes || []).map((theme) => ({ kind: "theme", value: theme, label: theme }))
+    ...(event.eventTypes || []).map((type) => ({ kind: "type", value: type, label: labelForEventType(type) }))
   ];
   chips.forEach((chip) => {
     const button = document.createElement("button");
@@ -360,22 +364,6 @@ function renderEventLinks(event, venue, container) {
     anchor.textContent = "Show Info";
     container.append(anchor);
   }
-
-  const sources = [...(event.sources || []), event.source].filter(Boolean);
-  const seen = new Set();
-  sources.forEach((source) => {
-    if (!source?.url) return;
-    const name = sourceNameForSource(source);
-    const key = `${name}|${source.url}`;
-    if (seen.has(key)) return;
-    seen.add(key);
-    const anchor = document.createElement("a");
-    anchor.href = source.url;
-    anchor.target = "_blank";
-    anchor.rel = "noreferrer";
-    anchor.textContent = name;
-    container.append(anchor);
-  });
 
   renderVenueLinks(venue, container);
 }
@@ -402,7 +390,7 @@ function imageForEvent(event) {
 }
 
 function imageSelectionForEvent(event) {
-  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || [] });
   const imageArtist = imageArtistForEvent(event) || topArtist;
   const venue = enrichVenue(event);
   const selectedImage = preferredImageCandidate([
@@ -454,7 +442,7 @@ function imageSelectionForEvent(event) {
 }
 
 function imageSourceForEvent(event) {
-  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || event.themes || [] });
+  const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || [] });
   const imageArtist = imageArtistForEvent(event) || topArtist;
   const venue = enrichVenue(event);
   const image = preferredImageCandidate([
@@ -612,6 +600,11 @@ function prioritizedLinks(artist) {
 
 function showExplorerLinks(links) {
   return [...links].filter((link) => displayableLink(link) && link.displayPriority === "primary").slice(0, 6);
+}
+
+function showExplorerVenueLinks(links) {
+  const sourceLinkTypes = new Set(["theList", "the-list", "kalx"]);
+  return showExplorerLinks(links).filter((link) => !sourceLinkTypes.has(link.type));
 }
 
 function displayableLink(link) {
@@ -834,6 +827,7 @@ function createEventCard(event, options = {}) {
   eventImageCache.set(event, imageSelection);
   eventImage.src = imageSelection.url;
   eventImage.alt = `${displayNameForArtist(topArtist) || event.venue} event image`;
+  node.querySelector(".event-image-wrap").classList.toggle("generated-event-art", imageSelection.kind === "generated");
   if (["artist", "venue"].includes(imageSelection.kind) && imageSelection.label) {
     const label = document.createElement("span");
     label.className = "image-record-label";
@@ -850,7 +844,10 @@ function createEventCard(event, options = {}) {
   if (isMikesPick(event)) {
     const badge = document.createElement("span");
     badge.className = "pick-badge";
-    badge.textContent = "Mike's Pick";
+    badge.textContent = "✓";
+    badge.setAttribute("role", "img");
+    badge.setAttribute("aria-label", "Mike's Pick");
+    badge.title = "Mike's Pick";
     node.querySelector(".event-image-wrap").append(badge);
   }
   const dateNode = node.querySelector(".event-date");
@@ -1224,7 +1221,7 @@ function openVenueModal(venueId) {
     venue.summary
   ].filter(Boolean).join(" | ");
   venueModalLinks.replaceChildren();
-  showExplorerLinks(venue.links || []).forEach((link) => {
+  showExplorerVenueLinks(venue.links || []).forEach((link) => {
     const anchor = document.createElement("a");
     anchor.href = link.url;
     anchor.target = "_blank";
@@ -1346,6 +1343,8 @@ document.addEventListener("click", (event) => {
   setStickyToolsMenuOpen(false);
 });
 
+narrowSearchPlaceholderQuery.addEventListener("change", syncSearchPlaceholder);
+syncSearchPlaceholder();
 setupVenueMapDisclosure();
 setupStickyListingTools();
 render();

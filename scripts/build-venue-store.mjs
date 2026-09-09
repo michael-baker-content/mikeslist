@@ -124,7 +124,6 @@ for (const event of events) {
     imageUrl: previous.imageUrl || "",
     imageSource: previous.imageSource || "",
     phone: previous.phone || "",
-    recurringEvents: previous.recurringEvents || [],
     geo: previous.geo || null,
     agePolicy: previous.agePolicy || "unknown",
     capacity: previous.capacity || "",

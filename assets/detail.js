@@ -163,7 +163,6 @@ function renderVenuePage(id) {
       ["Status", venue.status || "unknown"]
     ]),
     linkSection("Links", activeLinks(venue.links || [])),
-    recurringSection("Recurring Events", venue.recurringEvents || []),
     showsSection("Upcoming Shows", shows.map((event) => ({
       date: event.date,
       title: displayNameForEvent(event),
@@ -272,36 +271,6 @@ function linkSection(title, links) {
     anchor.rel = "noreferrer";
     anchor.textContent = link.label || labelForType(link.type);
     container.append(anchor);
-  });
-  return section;
-}
-
-function recurringSection(title, items) {
-  const section = document.createElement("section");
-  section.className = "detail-section";
-  section.innerHTML = "<h3></h3><div class=\"detail-show-list\"></div>";
-  section.querySelector("h3").textContent = title;
-  const list = section.querySelector(".detail-show-list");
-  if (!items.length) {
-    const empty = document.createElement("p");
-    empty.className = "empty-state";
-    empty.textContent = "No recurring events yet.";
-    list.append(empty);
-    return section;
-  }
-  items.forEach((item) => {
-    const row = document.createElement(item.sourceUrl ? "a" : "div");
-    row.className = "detail-show";
-    if (item.sourceUrl) {
-      row.href = item.sourceUrl;
-      row.target = "_blank";
-      row.rel = "noreferrer";
-    }
-    row.innerHTML = "<time></time><strong></strong><span></span>";
-    row.querySelector("time").textContent = [item.day, item.time].filter(Boolean).join(" ");
-    row.querySelector("strong").textContent = item.type || "Recurring event";
-    row.querySelector("span").textContent = [item.frequency, item.cost, item.source || ""].filter(Boolean).join(" | ");
-    list.append(row);
   });
   return section;
 }
@@ -437,6 +406,7 @@ function labelForType(type = "") {
     discogsLegalName: "Discogs Legal Name",
     facebook: "Facebook",
     instagram: "Instagram",
+    kalx: "KALX",
     linktree: "Linktree",
     liveNation: "Live Nation",
     localwiki: "LocalWiki",

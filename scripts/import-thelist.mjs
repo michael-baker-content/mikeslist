@@ -225,7 +225,6 @@ function parseEvents(html) {
         url: SOURCE_URL
       },
       eventTypes: eventMeta.eventTypes,
-      themes: eventMeta.themes,
       artists: performerNames.map((name) => placeholderArtist(name, artistLinks))
     });
   }
@@ -282,7 +281,7 @@ function mergeEvents(existing, incoming) {
       duplicate.venueHref ||= event.venueHref;
       duplicate.city ||= event.city;
       duplicate.eventTypes = mergeList(duplicate.eventTypes, event.eventTypes);
-      duplicate.themes = mergeList(duplicate.themes, event.themes);
+      delete duplicate.themes;
       duplicate.artists = mergeArtists(duplicate.artists || [], event.artists || []);
       if (duplicate.showType !== "event" && event.showType === "artist") duplicate.showType = "artist";
     } else {

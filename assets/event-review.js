@@ -44,7 +44,6 @@ const fields = {
   mikesPick: document.querySelector("#mikesPickInput"),
   eventTypes: document.querySelector("#eventTypesInput"),
   eventTypeOptions: document.querySelector("#eventTypeOptions"),
-  themes: document.querySelector("#themesInput"),
   artists: document.querySelector("#artistsInput"),
   source: document.querySelector("#sourceInput"),
   infoUrl: document.querySelector("#infoUrlInput"),
@@ -85,7 +84,7 @@ function normalizeEventRecord(event) {
   event.details = cleanJoinedText(event.details || "");
   event.eventDescription = cleanJoinedText(event.eventDescription || "");
   event.eventTypes = uniqueList(event.eventTypes || []);
-  event.themes = uniqueList(event.themes || []);
+  delete event.themes;
   event.artists = mergeArtists(event.artists || []);
   return event;
 }
@@ -160,7 +159,6 @@ function eventText(event) {
     event.imageUrl,
     event.imageSource,
     ...(event.eventTypes || []),
-    ...(event.themes || []),
     ...(event.artists || []).flatMap((artist) => [artist.name, artist.displayName])
   ].join(" ").toLowerCase();
 }
@@ -174,6 +172,11 @@ function visibleEvents() {
 }
 
 function compareVisibleEvents(a, b) {
+  if (state.sort === "venue") {
+    return (a.venue || "").localeCompare(b.venue || "", undefined, { sensitivity: "base" })
+      || a.date.localeCompare(b.date)
+      || eventTitle(a).localeCompare(eventTitle(b));
+  }
   if (state.sort === "title") {
     return eventTitle(a).localeCompare(eventTitle(b))
       || a.date.localeCompare(b.date)
@@ -212,7 +215,7 @@ function hasArtists(event) {
 
 function needsMetadata(event) {
   return (isArtistShow(event) && !hasArtists(event))
-    || (isEventShow(event) && !(event.eventTypes || []).length && !(event.themes || []).length);
+    || (isEventShow(event) && !(event.eventTypes || []).length);
 }
 
 function eventStatus(event) {
@@ -321,7 +324,6 @@ function renderForm() {
   fields.eventDescription.value = cleanJoinedText(event.eventDescription || "");
   setMikesPickButton(Boolean(event.mikesPick));
   fields.eventTypes.value = (event.eventTypes || []).join(", ");
-  fields.themes.value = (event.themes || []).join(", ");
   fields.artists.value = uniqueList((event.artists || []).map((artist) => cleanJoinedText(artist.name))).join("\n");
   syncShowTypeFields();
   fields.source.value = event.source?.url || event.sourceUrl || "";
@@ -414,8 +416,7 @@ function eventTokens(event) {
     eventTitle(event),
     event.details,
     ...(event.artists || []).map(artistDisplayName),
-    ...(event.eventTypes || []),
-    ...(event.themes || [])
+    ...(event.eventTypes || [])
   ].join(" ")).split(/\s+/).filter((token) => token.length > 2));
 }
 
@@ -449,7 +450,6 @@ function canonicalScore(event) {
     + Number((event.sources || []).length > 1) * 6
     + Number((event.artists || []).length) * 4
     + Number((event.eventTypes || []).length) * 2
-    + Number((event.themes || []).length)
     + sourceNamesForEvent(event).length;
 }
 
@@ -647,7 +647,7 @@ function updateSelectedEventFromForm() {
   event.eventDescription = cleanJoinedText(fields.eventDescription.value);
   event.mikesPick = fields.mikesPick.getAttribute("aria-pressed") === "true";
   event.eventTypes = splitList(fields.eventTypes.value);
-  event.themes = splitTaxonomyList(fields.themes.value);
+  delete event.themes;
   event.artists = event.showType === "event"
     ? []
     : fields.artists.value
@@ -677,7 +677,7 @@ function updateSelectedEventFromForm() {
 
 function existingArtistOrPlaceholder(event, name) {
   const existing = (event.artists || []).find((artist) => artist.name.toLowerCase() === name.toLowerCase());
-  if (existing) return existing;
+  if (existing) return { ...existing, name };
   return {
     name,
     tags: ["unknown"],
@@ -699,19 +699,6 @@ function splitList(value) {
     .split(",")
     .map((item) => item.trim())
     .filter(Boolean);
-}
-
-function splitTaxonomyList(value = "") {
-  return value
-    .split(",")
-    .map((item) => normalizeTaxonomyItem(item))
-    .filter(Boolean);
-}
-
-function normalizeTaxonomyItem(value = "") {
-  const item = String(value || "").trim();
-  if (!item) return "";
-  return /[A-Z]/.test(item) ? item : item.toLowerCase();
 }
 
 function mergeSources(existing, incoming) {
@@ -758,7 +745,10 @@ async function mergeSelectedEvent() {
     return;
   }
 
-  const confirmed = window.confirm(`Merge "${eventTitle(source)}" into "${eventTitle(target)}"? This removes the duplicate show listing but keeps its source, artist, type, and theme data.`);
+  const dateWarning = source.date !== target.date
+    ? `WARNING: These shows take place on different days.\n\nSelected show: ${source.date || "unknown date"}\nCanonical show: ${target.date || "unknown date"}\n\nThe merged show will keep the canonical date (${target.date || "unknown date"}), and the selected show's separate listing will be removed.\n\n`
+    : "";
+  const confirmed = window.confirm(`${dateWarning}Merge "${eventTitle(source)}" into "${eventTitle(target)}"? This removes the duplicate show listing but keeps its source, artist, and type data.`);
   if (!confirmed) return;
 
   const decisions = [{
@@ -887,7 +877,7 @@ function mergeEventData(target, source) {
   target.eventDescription = uniqueDetails(target.eventDescription, source.eventDescription);
   target.mikesPick = Boolean(target.mikesPick || source.mikesPick);
   target.eventTypes = uniqueList([...(target.eventTypes || []), ...(source.eventTypes || [])]);
-  target.themes = uniqueList([...(target.themes || []), ...(source.themes || [])]);
+  delete target.themes;
   target.artists = mergeArtists(target.artists || [], source.artists || []);
   target.sources = mergeSources(target.sources || [], [
     ...(source.sources || []),

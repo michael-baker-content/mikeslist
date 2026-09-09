@@ -33,37 +33,17 @@ const NON_ARTIST_RULES = [
   /\bmonday night\b/i
 ];
 
-const THEME_RULES = [
-  ["60s", /\b60'?s\b|sixties/i],
-  ["70s", /\b70'?s\b|seventies/i],
-  ["80s", /\b80'?s\b|eighties/i],
-  ["90s", /\b90'?s\b|nineties/i],
-  ["2000s", /\b2000'?s\b|aughts/i],
-  ["punk", /\bpunk\b/i],
-  ["metal", /\bmetal\b/i],
-  ["goth", /\bgoth\b/i],
-  ["emo", /\bemo\b/i],
-  ["salsa", /\bsalsa\b/i],
-  ["cumbia", /\bcumbia\b/i],
-  ["jazz", /\bjazz\b/i],
-  ["blues", /\bblues\b/i],
-  ["americana", /\bamericana\b/i],
-  ["queer", /\bqueer\b/i]
-];
-
 export function classifyEventText(text) {
   const value = String(text || "");
   return {
     eventTypes: unique(EVENT_TYPE_RULES.filter(([, pattern]) => pattern.test(value)).map(([type]) => type)),
-    themes: unique(THEME_RULES.filter(([, pattern]) => pattern.test(value)).map(([theme]) => theme)),
     isNonArtistListing: NON_ARTIST_RULES.some((pattern) => pattern.test(value))
   };
 }
 
 export function mergeClassifications(...items) {
   return {
-    eventTypes: unique(items.flatMap((item) => item?.eventTypes || [])),
-    themes: unique(items.flatMap((item) => item?.themes || []))
+    eventTypes: unique(items.flatMap((item) => item?.eventTypes || []))
   };
 }
 

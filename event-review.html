@@ -83,6 +83,7 @@
           <select id="eventSortInput">
             <option value="default">Default</option>
             <option value="title">Alphabetical</option>
+            <option value="venue">Venue (A–Z)</option>
           </select>
         </label>
       </section>
@@ -199,16 +200,11 @@
               <textarea id="eventDescriptionInput" rows="3" placeholder="Optional text for the lower non-music event card"></textarea>
             </label>
 
-            <div class="field-grid two-column">
+            <div class="field-grid">
               <label>
                 <span>Event Types</span>
                 <input id="eventTypesInput" type="text" list="eventTypeOptions" placeholder="karaoke, openMic, trivia">
                 <datalist id="eventTypeOptions"></datalist>
-              </label>
-
-              <label>
-                <span>Themes</span>
-                <input id="themesInput" type="text" placeholder="80s, goth, salsa, pride">
               </label>
             </div>
 

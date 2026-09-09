@@ -47,7 +47,6 @@ const fields = {
   imageUrl: document.querySelector("#imageUrlInput"),
   imageSource: document.querySelector("#imageSourceInput"),
   phone: document.querySelector("#phoneInput"),
-  recurringEvents: document.querySelector("#recurringEventsInput"),
   capacity: document.querySelector("#capacityInput"),
   geo: document.querySelector("#geoInput"),
   mergeTarget: document.querySelector("#mergeTargetInput"),
@@ -152,7 +151,6 @@ function venueText(venue) {
     venue.phone,
     venue.summary,
     venue.reviewNotes,
-    ...(venue.recurringEvents || []).flatMap((item) => [item.type, item.day, item.time, item.frequency, item.cost, item.sourceUrl]),
     ...(venue.aliases || []),
     ...(venue.links || []).flatMap((link) => [link.type, link.label, link.url, link.confidence])
   ].join(" ").toLowerCase();
@@ -304,7 +302,6 @@ function renderForm() {
   fields.imageUrl.value = venue.imageUrl || "";
   fields.imageSource.value = displayImageSourceValue(venue.imageSource || "");
   fields.phone.value = venue.phone || "";
-  fields.recurringEvents.value = formatRecurringEvents(venue.recurringEvents || []);
   fields.capacity.value = venue.capacity || "";
   fields.geo.value = venue.geo ? `${venue.geo.latitude}, ${venue.geo.longitude}` : "";
   fields.summary.value = venue.summary || "";
@@ -590,7 +587,7 @@ function updateSelectedVenueFromForm() {
   venue.imageUrl = fields.imageUrl.value.trim();
   venue.imageSource = cleanImageSource(fields.imageSource.value);
   venue.phone = fields.phone.value.trim();
-  venue.recurringEvents = parseRecurringEvents(fields.recurringEvents.value);
+  delete venue.recurringEvents;
   venue.capacity = fields.capacity.value.trim();
   venue.geo = parseGeo(fields.geo.value);
   const previousSummary = venue.summary || "";
@@ -823,38 +820,6 @@ function parseGeo(value) {
   const match = value.match(/(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)/);
   if (!match) return null;
   return { latitude: Number(match[1]), longitude: Number(match[2]) };
-}
-
-function formatRecurringEvents(items) {
-  return items.map((item) => {
-    return [
-      item.frequency || "",
-      item.day || "",
-      item.time || "",
-      item.type || "",
-      item.cost || "",
-      item.sourceUrl || ""
-    ].join(" | ").replace(/\s+\|\s+$/g, "");
-  }).join("\n");
-}
-
-function parseRecurringEvents(value) {
-  return value
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter(Boolean)
-    .map((line) => {
-      const [frequency = "", day = "", time = "", type = "", cost = "", sourceUrl = ""] = line.split("|").map((part) => part.trim());
-      return {
-        frequency,
-        day,
-        time,
-        type,
-        cost,
-        sourceUrl,
-        source: sourceUrl ? "manual" : "manual"
-      };
-    });
 }
 
 function persistDraft() {

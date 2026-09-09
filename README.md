@@ -156,6 +156,14 @@ http://127.0.0.1:4173/admin.html
 
 Useful admin areas include artist review, venue review, show review, source checks, and suggestion review.
 
+Show Review's Sort menu includes Venue (A–Z), which groups shows alphabetically by venue name, then orders shows at the same venue by date and title. It applies within the current search and filters.
+
+Show Explorer marks Mike's Picks with a compact white checkmark in a blue circle over the show image. The badge retains a "Mike's Pick" tooltip and accessible label.
+
+Capitalization edits in Show Review's artist list are preserved when saving, while keeping the existing lineup artist's other details. These edits apply to that show's lineup; the shared artist profile is managed in Artist Review.
+
+When merging shows with different dates, Show Review's confirmation warns about the mismatch, displays both dates, and explains that the canonical show's date will be kept. Cancel leaves the shows unmerged.
+
 Artist and venue review pages can merge records when a wrong name is still a useful redirect pattern. They can also fully delete the selected artist or venue when the record is only a typo or junk entry.
 
 The full `data/artists.js` file is the admin/review store. Public pages load `data/public-artists.js`, a generated bundle with review notes, evidence, appearances, and research-only search links stripped out.
