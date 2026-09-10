@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_ARTISTS = {
-  "generatedAt": "2026-09-09T23:00:13.356Z",
+  "generatedAt": "2026-09-10T21:08:26.016Z",
   "artists": {
     "112": {
       "id": "112",
@@ -2363,37 +2363,128 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "alternative rock",
+        "new wave"
       ],
-      "locality": "unknown",
+      "locality": "Marylebone",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "English new wave rock musician",
+      "disambiguation": "English new wave singer and actor",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Adam%20Ant%22%20band%20music",
-          "confidence": "research",
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/69349615331",
+          "confidence": "verified",
           "display": true,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.adam-ant.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/3QP0XPDwbvGivqDAaJ5f5G",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adam_Ant",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Adam Ant",
+          "url": "https://www.discogs.com/artist/10380",
+          "confidence": "likely",
           "display": true,
           "displayPriority": "secondary",
-          "source": "spotify-api"
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/AdamAOfficial",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9jcwfXU7pjOuaOmPSag5fQ",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/e188a520-9cb7-4f73-a3d7-2f70c6538e92",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Adam%20Ant%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q348658",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q348658",
+          "note": "Wikidata entity Q348658 matched an existing spotify artist identifier for \"Adam Ant\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/e188a520-9cb7-4f73-a3d7-2f70c6538e92",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/e188a520-9cb7-4f73-a3d7-2f70c6538e92",
+          "note": "MusicBrainz returned a high-score artist match for \"Adam Ant\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -2409,7 +2500,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T03:15:33.803Z",
+      "manuallyReviewedAt": "2026-09-10T20:19:59.929Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6772690000c46ce1e9e6e0649bcc4d9b8e9f96",
       "spotifyMatch": {
         "id": "3QP0XPDwbvGivqDAaJ5f5G",
@@ -2669,37 +2760,137 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "east coast hip hop",
+        "electronic",
+        "jazz",
+        "jazz-funk",
+        "neo soul",
+        "psychedelic soul",
+        "r&b",
+        "soul"
       ],
-      "locality": "unknown",
+      "locality": "Los Angeles",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "American jazz composer",
+      "disambiguation": "US composer/producer",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "facebook",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Adrian%20Younge%22%20band%20music",
-          "confidence": "research",
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/adrian.younge",
+          "confidence": "verified",
           "display": true,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/4aMeIY7MkJoZg7O91cmDDd",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adrian_Younge",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Adrian Younge",
+          "url": "https://www.discogs.com/artist/1611895",
+          "confidence": "likely",
           "display": true,
           "displayPriority": "secondary",
-          "source": "spotify-api"
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/linearlabsmusic/",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/adrianyounge",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/69bb7a74-99ee-4da0-bc3d-84586676e4ea",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Adrian%20Younge%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q16218941",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/AdrianYounge",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q16218941",
+          "note": "Wikidata entity Q16218941 exactly matched the artist name \"Adrian Younge\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/69bb7a74-99ee-4da0-bc3d-84586676e4ea",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/69bb7a74-99ee-4da0-bc3d-84586676e4ea",
+          "note": "MusicBrainz returned a high-score artist match for \"Adrian Younge\"."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q16218941",
+          "note": "Wikidata entity Q16218941 matched an existing discogs artist identifier for \"Adrian Younge\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -2715,7 +2906,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T03:15:57.579Z",
+      "manuallyReviewedAt": "2026-09-10T20:35:25.761Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb892bfa72a0cd8e4907eded3c",
       "spotifyMatch": {
         "id": "4aMeIY7MkJoZg7O91cmDDd",
@@ -14338,37 +14529,139 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "alternative country",
+        "americana",
+        "rock",
+        "singer-songwriter"
       ],
-      "locality": "unknown",
+      "locality": "Nashville",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "American musician",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Bobby%20Bare%20Jr.%22%20band%20music",
-          "confidence": "research",
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/barejunior/",
+          "confidence": "verified",
           "display": true,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.bobbybarejr.com",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/6y0O6h1ZIJgJZ6IS1HQ5eV",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bobby_Bare_Jr.",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Bobby Bare Jr.",
+          "url": "https://www.discogs.com/artist/474241",
+          "confidence": "likely",
           "display": true,
           "displayPriority": "secondary",
-          "source": "spotify-api"
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/bobbybarejr",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/BOBBYBAREJR",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/692bcdfa-c1ce-4556-8506-2bf8d259eccd",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Bobby%20Bare%20Jr.%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q4934746",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q4934746",
+          "note": "Wikidata entity Q4934746 exactly matched the artist name \"Bobby Bare Jr.\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q4934746",
+          "note": "Wikidata entity Q4934746 matched an existing discogs artist identifier for \"Bobby Bare Jr.\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/692bcdfa-c1ce-4556-8506-2bf8d259eccd",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/692bcdfa-c1ce-4556-8506-2bf8d259eccd",
+          "note": "MusicBrainz returned a high-score artist match for \"Bobby Bare Jr.\"."
+        },
+        {
+          "url": "http://www.bobbybarejr.com",
+          "note": "Added 1 outbound link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.842Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -14384,7 +14677,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T03:16:45.394Z",
+      "manuallyReviewedAt": "2026-09-10T19:22:35.730Z",
       "spotifyImageUrl": "https://i.scdn.co/image/08edc4b4a84ad1f2221a32f9a3d9c35e2ac69b6f",
       "spotifyMatch": {
         "id": "6y0O6h1ZIJgJZ6IS1HQ5eV",
@@ -19173,26 +19466,151 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "electronic",
+        "world music",
+        "cumbia",
+        "digital cumbia",
+        "downbeat",
+        "electrocumbia",
+        "electronica",
+        "electrónica",
+        "international"
       ],
-      "locality": "unknown",
+      "locality": "Buenos Aires",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Argentinian cumbia artist",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "discogsAlias",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia",
+        "youtube"
+      ],
       "links": [
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chanchaviacircuito",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chancha_via_circuito/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/6E8vZ5lkpXbXlkgHhbVJSl",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chancha_V%C3%ADa_Circuito",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@chanchaviacircuito1232",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: Chancha Vía Circuito",
+          "url": "https://www.discogs.com/artist/1171609-Chancha-V%C3%ADa-Circuito",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Chacha%20Via%20Circuito%22%20band%20music",
           "confidence": "research",
+          "display": true,
+          "displayPriority": "secondary",
           "source": "the-list"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/chanchaviacircuito",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/22c82e36-c32c-4206-8a49-6d350cce992f",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18627374",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: Chancha Vía Circuito",
+          "url": "https://www.discogs.com/artist/1171609",
+          "confidence": "rejected",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCz069Aqyv2bnowsETRYygPg",
+          "confidence": "rejected",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q18627374",
+          "note": "Wikidata entity Q18627374 matched an existing discogs artist identifier for \"Chacha Via Circuito\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/22c82e36-c32c-4206-8a49-6d350cce992f",
+          "note": "MusicBrainz returned a high-score artist match for \"Chacha Via Circuito\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -19205,6 +19623,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:10:41.083Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb3052e110ebef3c0aaaaa7d5a",
+      "spotifyMatch": {
+        "id": "6E8vZ5lkpXbXlkgHhbVJSl",
+        "name": "Chancha Via Circuito",
+        "url": "https://open.spotify.com/artist/6E8vZ5lkpXbXlkgHhbVJSl",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb3052e110ebef3c0aaaaa7d5a",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T19:08:24.657Z",
+        "source": "manual-link"
       }
     },
     "chamber": {
@@ -21450,33 +21882,80 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "rock",
+        "rock n' roll",
+        "bargain rock",
+        "garage rock",
+        "greasy-spoon"
       ],
-      "locality": "unknown",
-      "imageUrl": "",
-      "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "locality": "Eureka, CA",
+      "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/654721608_1805388220833765_1926588729206955081_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1536&ctp=s1536x1536&_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=w0Zq_cgl4FMQ7kNvwFUj1sv&_nc_oc=Adr3eXD-fNRtu2MWXulPBWVpsgRk6pGzUUlVTs65hE9VTMAPz0CQXE-hv0fo9f5AkWE&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=iKT4EFNpORNilT8_txCPWw&_nc_ss=7b2a8&oh=00_AQLpQ-cW4sIPEG8CzsjrouZ_-F7EgaKheQBuvRSG_Mg6gQ&oe=6AA8EDED",
+      "imageSource": "Facebook",
+      "confidence": "verified",
+      "summary": "Garage rock duo",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "bandcamp",
+        "facebook",
+        "instagram"
+      ],
       "links": [
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://cleangirlandthedirtydishes.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/Clean-Girl-and-the-Dirty-Dishes-100040878134632/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cleangirlandthedirtydishes/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Clean%20Girl%20%26%20The%20Dirty%20Dishes%22%20band%20music",
           "confidence": "research",
-          "source": "the-list"
-        },
-        {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Clean%20Girl%20And%20The%20Dirty%20Dishes%22%20band%20music",
-          "confidence": "research",
+          "display": true,
+          "displayPriority": "secondary",
           "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://cleangirlandthedirtydishes.bandcamp.com/",
+          "note": "Added 1 outbound link candidate from a verified page."
+        },
+        {
+          "url": "https://www.facebook.com/p/Clean-Girl-and-the-Dirty-Dishes-100040878134632/",
+          "note": "Summary derived from verified page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/p/Clean-Girl-and-the-Dirty-Dishes-100040878134632/",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://www.facebook.com/p/Clean-Girl-and-the-Dirty-Dishes-100040878134632/",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.982Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -21489,7 +21968,10 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "spotifyLookupDisabled": true,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T20:59:38.080Z"
     },
     "clearcast": {
       "id": "clearcast",
@@ -22884,37 +23366,134 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "french rock",
+        "jazz-funk",
+        "psychedelic rock"
       ],
-      "locality": "unknown",
+      "locality": "France",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "French rock music group",
+      "disambiguation": "French jazz funk group",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Cortex%22%20band%20music",
-          "confidence": "research",
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cortex.officiel/",
+          "confidence": "verified",
           "display": true,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.cortexmusic.no/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/7EhUXju6pssa8o3CvFJTew",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cortex_(band)",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/56147",
+          "confidence": "likely",
           "display": true,
           "displayPriority": "secondary",
-          "source": "spotify-api"
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: Cortex (6)",
+          "url": "https://www.discogs.com/artist/291730",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/cortextheband/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/37e91401-0402-40cb-a5e9-b2a63746bd32",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Cortex%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q121461533",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q121461533",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q121461533",
+          "note": "Wikidata entity Q121461533 matched an existing spotify artist identifier for \"Cortex\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/37e91401-0402-40cb-a5e9-b2a63746bd32",
+          "note": "MusicBrainz returned a high-score artist match for \"Cortex\"."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Cortex_(band)",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -22930,7 +23509,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T03:23:22.362Z",
+      "manuallyReviewedAt": "2026-09-10T20:39:19.960Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb442921fca18cfc00575ce410",
       "spotifyMatch": {
         "id": "7EhUXju6pssa8o3CvFJTew",
@@ -23744,33 +24323,87 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "alternative",
+        "experimental",
+        "psychedelic pop"
       ],
-      "locality": "unknown",
+      "locality": "Baltimore",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "Dave Portner (Avey Tare) and Brian Weitz (Geologist)",
+      "disambiguation": "Avey Tare & Geologist",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "bandcamp",
+        "spotify"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Croz%20Boyce%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://aveytare.bandcamp.com/album/janis-still-staring-matthew-herberts-spring-remix",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://crozboyce.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/5lpU5YJ5sJEHDcA8Z7HXJ6",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/c9f39c88-a946-486c-8d88-baec8ce456d0",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Croz%20Boyce%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://aveytare.bandcamp.com/album/janis-still-staring-matthew-herberts-spring-remix",
+          "note": "Added 3 outbound link candidates from a verified page."
+        },
+        {
+          "url": "https://open.spotify.com/artist/5lpU5YJ5sJEHDcA8Z7HXJ6",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/5lpU5YJ5sJEHDcA8Z7HXJ6",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/c9f39c88-a946-486c-8d88-baec8ce456d0",
+          "note": "MusicBrainz returned a high-score artist match for \"Croz Boyce\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -23783,6 +24416,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:04:00.099Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe07d761545a353d52524119a",
+      "spotifyMatch": {
+        "id": "5lpU5YJ5sJEHDcA8Z7HXJ6",
+        "name": "Croz Boyce",
+        "url": "https://open.spotify.com/artist/5lpU5YJ5sJEHDcA8Z7HXJ6",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebe07d761545a353d52524119a",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:03:48.436Z",
+        "source": "manual-link"
       }
     },
     "crsb": {
@@ -33079,33 +33726,139 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "punk",
+        "rock",
+        "shock rock"
       ],
-      "locality": "unknown",
+      "locality": "Chicago, Illinois",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Punk/shock-rock band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Dwarves%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/339745519075",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thedwarves/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.thedwarves.com",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/4D9H6CaKzDTaN1EbAHypYg",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dwarves_(band)",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Dwarves",
+          "url": "https://www.discogs.com/artist/134920",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/thedwarvesband",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZPJIU4oCvbSJq-ElClZ8Bw",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/762e1e6d-ba12-4946-b8ee-dfa0cf9a2655",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Dwarves%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q969914",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q969914",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q969914",
+          "note": "Wikidata entity Q969914 exactly matched the artist name \"Dwarves\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/4D9H6CaKzDTaN1EbAHypYg",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -33118,6 +33871,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:00:36.083Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6772690000c46cc845a6af68d73c6ebe313153",
+      "spotifyMatch": {
+        "id": "4D9H6CaKzDTaN1EbAHypYg",
+        "name": "Dwarves",
+        "url": "https://open.spotify.com/artist/4D9H6CaKzDTaN1EbAHypYg",
+        "imageUrl": "https://i.scdn.co/image/ab6772690000c46cc845a6af68d73c6ebe313153",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:33:01.773Z",
+        "source": "manual-link"
       }
     },
     "dweezil-zappa": {
@@ -34325,33 +35092,109 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "r&b",
+        "hip-hop"
       ],
-      "locality": "unknown",
+      "locality": "Atlanta, Georgia",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "R&b singer/songwriter",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Elhae%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/elhaemusic",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/elhae",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/6TrQLQR8tUluPbmdPy6jqY",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/ELHAE",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/ca342d58-44ab-4fbc-b5d6-64b3af32b13a",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Elhae%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61917953",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q61917953",
+          "note": "Wikidata entity Q61917953 exactly matched the artist name \"Elhae\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/ca342d58-44ab-4fbc-b5d6-64b3af32b13a",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/ca342d58-44ab-4fbc-b5d6-64b3af32b13a",
+          "note": "MusicBrainz returned a high-score artist match for \"Elhae\"."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q61917953",
+          "note": "Wikidata entity Q61917953 matched an existing musicbrainz artist identifier for \"Elhae\"."
+        },
+        {
+          "url": "https://www.instagram.com/elhae",
+          "note": "Added 12 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -34364,6 +35207,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:31:52.003Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb78a84c4141d54bb263339261",
+      "spotifyMatch": {
+        "id": "6TrQLQR8tUluPbmdPy6jqY",
+        "name": "ELHAE",
+        "url": "https://open.spotify.com/artist/6TrQLQR8tUluPbmdPy6jqY",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb78a84c4141d54bb263339261",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:09:36.558Z",
+        "source": "manual-link"
       }
     },
     "eli-maliwan-s-saxreligous-quintet": {
@@ -35471,25 +36328,31 @@ window.SHOW_EXPLORER_ARTISTS = {
       "locality": "unknown",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "likely",
+      "summary": "Embarrassing parody rap bullshit",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "spotify"
+      ],
       "links": [
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0Rq2hV3S3O4JMWbL2B510w",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Epic%20Rap%20Battles%20Of%20History%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "the-list"
-        },
-        {
-          "type": "spotify",
-          "label": "Spotify",
-          "url": "https://open.spotify.com/artist/0Rq2hV3S3O4JMWbL2B510w",
-          "confidence": "candidate",
-          "source": "spotify-api"
         }
       ],
       "evidence": [],
@@ -35505,6 +36368,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:58:29.400Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb9be2cf54dcc0b0fade5dda4e",
+      "spotifyMatch": {
+        "id": "0Rq2hV3S3O4JMWbL2B510w",
+        "name": "Epic Rap Battles of History",
+        "url": "https://open.spotify.com/artist/0Rq2hV3S3O4JMWbL2B510w",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb9be2cf54dcc0b0fade5dda4e",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:58:36.383Z",
+        "source": "manual-link"
       }
     },
     "epik-high": {
@@ -45445,33 +46322,108 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "acoustic",
+        "americana",
+        "folk",
+        "acoustic",
+        "acoustic folk",
+        "alt-country",
+        "folk",
+        "singer-songwriter"
       ],
-      "locality": "unknown",
+      "locality": "Fayetteville",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Baker McKinney, Arkansas singer-songwriter",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Gravedancer%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gravedancerarkinsaw",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://gravedancermusic.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/4AjMygePSDZc6KDHCfgbQT",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Gravedancer",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/Gravedancer-100063697038084/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Gravedancer%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q5597806",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q5597806",
+          "note": "Wikidata entity Q5597806 exactly matched the artist name \"Gravedancer\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/4AjMygePSDZc6KDHCfgbQT",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/4AjMygePSDZc6KDHCfgbQT",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -45484,6 +46436,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:59:50.385Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebdcf6c523ec8cccf015d02aa2",
+      "spotifyMatch": {
+        "id": "4AjMygePSDZc6KDHCfgbQT",
+        "name": "Gravedancer",
+        "url": "https://open.spotify.com/artist/4AjMygePSDZc6KDHCfgbQT",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebdcf6c523ec8cccf015d02aa2",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T19:44:53.397Z",
+        "source": "manual-link"
       }
     },
     "greenway-north": {
@@ -46619,19 +47585,98 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "new wave",
+        "new pop",
+        "jazz-funk",
+        "brit funk"
       ],
-      "locality": "unknown",
+      "locality": "Beckenham",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "British new wave/jazz-funk group",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
       "supportPriority": [
-        "spotify"
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
       ],
       "links": [
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/haircutonehundred",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.haircutonehundred.net/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/6imyM8T1Xbe8v2iZe41dR7",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haircut_One_Hundred",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/72904",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: Haircut One Hundred",
+          "url": "https://www.discogs.com/artist/140554",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/haircutonehundredmusic",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/bbb94ad0-3bb7-42af-99cd-e92f5a42c4c5",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
@@ -46642,16 +47687,25 @@ window.SHOW_EXPLORER_ARTISTS = {
           "source": "the-list"
         },
         {
-          "type": "spotify",
-          "label": "Spotify",
-          "url": "https://open.spotify.com/artist/6imyM8T1Xbe8v2iZe41dR7",
-          "confidence": "verified",
-          "display": true,
-          "displayPriority": "primary",
-          "source": "spotify-api"
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q366679",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q366679",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q366679",
+          "note": "Wikidata entity Q366679 matched an existing spotify artist identifier for \"Haircut 100\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -46667,7 +47721,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T21:34:00.687Z",
+      "manuallyReviewedAt": "2026-09-10T20:30:20.873Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb1440a9aaafb26b6c3ed79f13",
       "spotifyMatch": {
         "id": "6imyM8T1Xbe8v2iZe41dR7",
@@ -47497,33 +48551,98 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "synth pop"
       ],
-      "locality": "unknown",
+      "locality": "Los Angeles",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "synth pop duo",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Haute%20%26%20Freddy%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.hauteandfreddy.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/66T34XqGkEWbzKWALSBDuR",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Haute_and_Freddy",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/44130072-d72e-4926-8cb7-6163189bc9b0",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://on.soundcloud.com/35cNftO8KrB1LWN9GA",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Haute%20%26%20Freddy%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://open.spotify.com/artist/66T34XqGkEWbzKWALSBDuR",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/44130072-d72e-4926-8cb7-6163189bc9b0",
+          "note": "MusicBrainz returned a high-score artist match for \"Haute & Freddy\"."
+        },
+        {
+          "url": "https://www.hauteandfreddy.com/",
+          "note": "Summary derived from verified page metadata."
+        },
+        {
+          "url": "https://www.hauteandfreddy.com/",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://www.hauteandfreddy.com/",
+          "note": "Added 1 outbound link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.981Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -47543,6 +48662,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:13:33.562Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb71b6baa0f6e3c69973eeacd7",
+      "spotifyMatch": {
+        "id": "66T34XqGkEWbzKWALSBDuR",
+        "name": "Haute & Freddy",
+        "url": "https://open.spotify.com/artist/66T34XqGkEWbzKWALSBDuR",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb71b6baa0f6e3c69973eeacd7",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:13:40.589Z",
+        "source": "manual-link"
       }
     },
     "hayley-williams": {
@@ -51972,33 +53105,124 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "hip-hop",
+        "r&b"
       ],
-      "locality": "unknown",
+      "locality": "Orlando",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Southern R&B singer",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "instagram",
+        "spotify",
+        "tiktok",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Isaiah%20Falls%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/isaiahfalls",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.isaiah-falls.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/0ocxWXtgr9tJW60xV5ZufT",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "tiktok",
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@isaiahfalls_",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Isaiah_Falls",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/IsaiahFalls",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com/channel/UCg5MUuA_txkz9HWKzA9Savg?feature=gws_kp_artist&feature=gws_kp_artist",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Isaiah%20Falls%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q136296097",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q136296097",
+          "note": "Wikidata entity Q136296097 exactly matched the artist name \"Isaiah Falls\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0ocxWXtgr9tJW60xV5ZufT",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://www.isaiah-falls.com/",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://www.isaiah-falls.com/",
+          "note": "Added 4 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.842Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -52011,6 +53235,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:50:29.483Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eba9c66ddbaf54c1cd8d95bad7",
+      "spotifyMatch": {
+        "id": "0ocxWXtgr9tJW60xV5ZufT",
+        "name": "Isaiah Falls",
+        "url": "https://open.spotify.com/artist/0ocxWXtgr9tJW60xV5ZufT",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eba9c66ddbaf54c1cd8d95bad7",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:37:53.111Z",
+        "source": "manual-link"
       }
     },
     "ismay": {
@@ -52537,37 +53775,175 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "rock",
+        "hip hop",
+        "turntablism"
       ],
-      "locality": "unknown",
+      "locality": "Portland",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "Turntablist of Beat Junkies fame",
+      "disambiguation": "turntablist of the Beat Junkies",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "bandcamp",
+        "discogsArtist",
+        "instagram",
+        "soundcloud",
+        "spotify",
+        "youtube"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22J%20Rocc%22%20band%20music",
-          "confidence": "research",
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://jrocc.bandcamp.com/music",
+          "confidence": "verified",
           "display": true,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "displayPriority": "primary",
+          "source": "verified-page"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jrocc210",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/76Bkn226zbX3IMiEiLC2h2",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "official",
+          "label": "Stones Throw",
+          "url": "https://www.stonesthrow.com/artist/jrocc/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "appleMusic",
+          "label": "Apple Music",
+          "url": "https://music.apple.com/us/artist/j-rocc/41655627",
           "confidence": "candidate",
           "display": true,
           "displayPriority": "secondary",
-          "source": "spotify-api"
+          "source": "verified-page"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: J Rocc",
+          "url": "https://www.discogs.com/artist/34224",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/jrocc/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com/@jroccwashere",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/75f94a97-f38e-4284-be50-960cd1a3c742",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22J%20Rocc%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q99617274",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/jrocc",
+          "confidence": "candidate",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com/channel/UC5aXJ2oQxzyb-Qm3ddKEMgg",
+          "confidence": "rejected",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q99617274",
+          "note": "Wikidata entity Q99617274 exactly matched the artist name \"J Rocc\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/76Bkn226zbX3IMiEiLC2h2",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/76Bkn226zbX3IMiEiLC2h2",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q99617274",
+          "note": "Wikidata entity Q99617274 matched an existing discogs artist identifier for \"J Rocc\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/75f94a97-f38e-4284-be50-960cd1a3c742",
+          "note": "MusicBrainz returned a high-score artist match for \"J Rocc\"."
+        },
+        {
+          "url": "https://www.instagram.com/jrocc210",
+          "note": "Summary derived from verified page metadata."
+        },
+        {
+          "url": "https://www.stonesthrow.com/artist/jrocc/",
+          "note": "Added 12 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -52583,7 +53959,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T03:30:49.250Z",
+      "manuallyReviewedAt": "2026-09-10T20:43:05.257Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6772690000c46c091898faaa0815d38b5bb55e",
       "spotifyMatch": {
         "id": "76Bkn226zbX3IMiEiLC2h2",
@@ -53960,33 +55336,132 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "funk",
+        "hip hop",
+        "jazz",
+        "r&b",
+        "r&b/soul",
+        "soul"
       ],
-      "locality": "unknown",
+      "locality": "Reno",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Filipinan-American soul singer",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Jeff%20Bernat%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/jeffbernat",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jeffbernat/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/2vVT4qoxWje0gVD2FiWZ4u",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Bernat",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Jeff Bernat",
+          "url": "https://www.discogs.com/artist/2983723",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/jeffbernat",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/jeffbernat",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/39b28824-2859-4ba9-80b9-e6004abc3568",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Jeff%20Bernat%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q18116676",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q18116676",
+          "note": "Wikidata entity Q18116676 matched an existing spotify artist identifier for \"Jeff Bernat\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/39b28824-2859-4ba9-80b9-e6004abc3568",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/39b28824-2859-4ba9-80b9-e6004abc3568",
+          "note": "MusicBrainz returned a high-score artist match for \"Jeff Bernat\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.446Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -53999,6 +55474,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:17:09.691Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebe4db87138234f4dd639f7337",
+      "spotifyMatch": {
+        "id": "2vVT4qoxWje0gVD2FiWZ4u",
+        "name": "Jeff Bernat",
+        "url": "https://open.spotify.com/artist/2vVT4qoxWje0gVD2FiWZ4u",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebe4db87138234f4dd639f7337",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:14:24.172Z",
+        "source": "manual-link"
       }
     },
     "jeff-cotton-s-gin-joint": {
@@ -63388,33 +64877,179 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "alter latina",
+        "alternative",
+        "electronic",
+        "experimental",
+        "devotional"
       ],
-      "locality": "unknown",
+      "locality": "Barranquilla",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Colombian-Canadian musician and singer-songwriter",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "bandcamp",
+        "facebook",
+        "instagram",
+        "spotify",
+        "tidal",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Lido%20Pimienta%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://lidopimienta.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/lidopimienta/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://lidopimienta.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lido_Pimienta",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Lido Pimienta",
+          "url": "https://www.discogs.com/artist/1589532",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Lido.Pimienta.Musica",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/lido-pimienta",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/1IdkKQ9CM1i0wygfxYV4Z3",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
           "source": "spotify-api"
+        },
+        {
+          "type": "tidal",
+          "label": "Tidal",
+          "url": "https://tidal.com/artist/4756576",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCPfz16ao-2v68HDN3weu9Jg",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/793439",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9fb537ca-9145-4855-8a18-17b20339f1fc",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Lido%20Pimienta%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q33026662",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/LidoPimienta",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q33026662",
+          "note": "Wikidata entity Q33026662 matched an existing spotify artist identifier for \"Lido Pimienta\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/9fb537ca-9145-4855-8a18-17b20339f1fc",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/9fb537ca-9145-4855-8a18-17b20339f1fc",
+          "note": "MusicBrainz returned a high-score artist match for \"Lido Pimienta\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -63427,6 +65062,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:17:24.187Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb41f41f4945df26fa86850735",
+      "spotifyMatch": {
+        "id": "1IdkKQ9CM1i0wygfxYV4Z3",
+        "name": "Lido Pimienta",
+        "url": "https://open.spotify.com/artist/1IdkKQ9CM1i0wygfxYV4Z3",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb41f41f4945df26fa86850735",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T19:11:33.801Z",
+        "source": "manual-link"
       }
     },
     "life-span": {
@@ -67324,19 +68973,115 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "electronic",
+        "fantasy",
+        "synthwave"
       ],
-      "locality": "unknown",
+      "locality": "Boise",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "synthwave band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
       "supportPriority": [
-        "spotify"
+        "official",
+        "bandcamp",
+        "instagram",
+        "spotify",
+        "wikipedia"
       ],
       "links": [
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://magic-sword.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/magicswordmusic",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.magicswordmusic.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/6PzFRXjgGHQw6K4WeERMK1",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Magic_Sword_(band)",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/6588061",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Magic Sword",
+          "url": "https://www.discogs.com/artist/3595142",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "https://soundcloud.com/magic-sword",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCYwPZB5OlQDrIlED4ZoSTJg",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/87c59ab5-5f5d-46f4-87e3-c604abb2bb67",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
@@ -67347,16 +69092,34 @@ window.SHOW_EXPLORER_ARTISTS = {
           "source": "the-list"
         },
         {
-          "type": "spotify",
-          "label": "Spotify",
-          "url": "https://open.spotify.com/artist/6PzFRXjgGHQw6K4WeERMK1",
-          "confidence": "verified",
-          "display": true,
-          "displayPriority": "primary",
-          "source": "spotify-api"
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q28457607",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/magicswordmusic",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q28457607",
+          "note": "Wikidata entity Q28457607 matched an existing spotify artist identifier for \"Magic Sword\"."
+        },
+        {
+          "url": "https://open.spotify.com/artist/6PzFRXjgGHQw6K4WeERMK1",
+          "note": "Locality inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.842Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -67386,7 +69149,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T21:27:29.855Z",
+      "manuallyReviewedAt": "2026-09-10T20:06:39.602Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb99aff0805c5262fd82a3aa0e",
       "spotifyMatch": {
         "id": "6PzFRXjgGHQw6K4WeERMK1",
@@ -88657,26 +90420,61 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "blues",
+        "jazz",
+        "swing",
+        "brass"
       ],
-      "locality": "unknown",
+      "locality": "Boston",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Circus musicians & vaudeville entertainers",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "bandcamp",
+        "spotify"
+      ],
       "links": [
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://rubinbrothers.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/22rcyF2X5nxPchJwm7q7wo",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Rubin%20Brothers%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://rubinbrothers.bandcamp.com/",
+          "note": "Summary derived from verified page metadata."
+        },
+        {
+          "url": "https://rubinbrothers.bandcamp.com/",
+          "note": "Added 1 outbound link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -88689,6 +90487,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:22:47.339Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb4b05a03f3d6f6b32f1d57827",
+      "spotifyMatch": {
+        "id": "22rcyF2X5nxPchJwm7q7wo",
+        "name": "Rubin Brothers",
+        "url": "https://open.spotify.com/artist/22rcyF2X5nxPchJwm7q7wo",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb4b05a03f3d6f6b32f1d57827",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:22:43.434Z",
+        "source": "manual-link"
       }
     },
     "ruby-haunt": {
@@ -92543,26 +94355,117 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "soul",
+        "americana"
       ],
-      "locality": "unknown",
+      "locality": "Chicago, Illinois",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "American musician, singer, and songwriter",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "appleMusic",
+        "facebook",
+        "instagram",
+        "spotify",
+        "tidal",
+        "youtube"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Shawn%20James%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/ShawnJamesSoul/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "verified-page"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/shawnjamesmusic/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "verified-page"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.shawnjamesmusic.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/2HPYUQ6GsPbZHvkyYe2jdm",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "appleMusic",
+          "label": "Apple Music",
+          "url": "https://music.apple.com/us/artist/shawn-james/540917346",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "tidal",
+          "label": "Tidal",
+          "url": "https://tidal.com/artist/5409123",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com/@ShawnJamesSoul/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://youtube.com/channel/UCfUgkEJoNhPAnJ7uyGMdpbg",
+          "confidence": "rejected",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q2021467",
+          "note": "Wikidata entity Q2021467 exactly matched the artist name \"Shawn James\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/f80bb56c-6271-41a3-bf4d-270cd0b0aa30",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/f80bb56c-6271-41a3-bf4d-270cd0b0aa30",
+          "note": "MusicBrainz returned a high-score artist match for \"Shawn James\"."
+        },
+        {
+          "url": "https://www.shawnjamesmusic.com/",
+          "note": "Added 6 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.843Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -92575,6 +94478,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:43:33.506Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb7068121a2b6b8b86bbcb95f0",
+      "spotifyMatch": {
+        "id": "2HPYUQ6GsPbZHvkyYe2jdm",
+        "name": "Shawn James",
+        "url": "https://open.spotify.com/artist/2HPYUQ6GsPbZHvkyYe2jdm",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb7068121a2b6b8b86bbcb95f0",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T19:38:13.349Z",
+        "source": "spotify-api"
       }
     },
     "shawn-mullins": {
@@ -92670,26 +94587,102 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "tribute",
+        "pop",
+        "dream pop"
       ],
-      "locality": "unknown",
+      "locality": "San Francisco",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Vivian Girls cover band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "bandcamp",
+        "facebook",
+        "instagram",
+        "spotify"
+      ],
       "links": [
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://theshes.bandcamp.com/music",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/theshesmusic/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theshesmusic",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0UrN0ieYMHTWtMGbW3OzyG",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "soundcloud",
+          "label": "SoundCloud",
+          "url": "http://soundcloud.com/theshesmusic",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/theshesmusic",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22She's%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://open.spotify.com/artist/0UrN0ieYMHTWtMGbW3OzyG",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0UrN0ieYMHTWtMGbW3OzyG",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://theshes.bandcamp.com/music",
+          "note": "Added 5 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.603Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -92709,6 +94702,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T20:48:13.632Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb09069c77797ecfa44e811679",
+      "spotifyMatch": {
+        "id": "0UrN0ieYMHTWtMGbW3OzyG",
+        "name": "The She's",
+        "url": "https://open.spotify.com/artist/0UrN0ieYMHTWtMGbW3OzyG",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb09069c77797ecfa44e811679",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T20:44:37.885Z",
+        "source": "manual-link"
       }
     },
     "she-wants-revenge": {
@@ -94347,27 +96354,51 @@ window.SHOW_EXPLORER_ARTISTS = {
         "Skylmit"
       ],
       "genres": [
-        "unknown"
+        "metal",
+        "metalcore",
+        "nu metal",
+        "post-hardcore",
+        "djent"
       ],
-      "locality": "unknown",
+      "locality": "Boise",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Metalcore band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
       "supportPriority": [
+        "bandcamp",
+        "instagram",
         "spotify"
       ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Skylimit%22%20band%20music",
-          "confidence": "research",
-          "display": false,
-          "displayPriority": "secondary",
-          "source": "the-list"
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://skylimitmusic.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://skylimitmusic.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/skylimitband",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         },
         {
           "type": "spotify",
@@ -94377,9 +96408,36 @@ window.SHOW_EXPLORER_ARTISTS = {
           "display": true,
           "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3aeb6b2f-4121-47ff-a944-fccffd267f41",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Skylimit%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://open.spotify.com/artist/0nVXrDRq7wclKSd7nOBiPt",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/3aeb6b2f-4121-47ff-a944-fccffd267f41",
+          "note": "MusicBrainz returned a high-score artist match for \"Skylimit\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:42.842Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -94409,7 +96467,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T21:13:55.855Z",
+      "manuallyReviewedAt": "2026-09-10T20:13:59.785Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb6898885bf9f386a30e6bf8fd",
       "spotifyMatch": {
         "id": "0nVXrDRq7wclKSd7nOBiPt",
@@ -98086,17 +100144,88 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "new wave",
+        "pop rock",
+        "post-punk",
+        "power pop"
       ],
-      "locality": "unknown",
+      "locality": "London",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "likely",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "British rock band",
+      "disambiguation": "UK new wave band",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/squeezeofficial",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.squeezeofficial.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Squeeze_(band)",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/4386",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: Squeeze (2)",
+          "url": "https://www.discogs.com/artist/256185",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/6Jrj26oAY96EEC2lqC6fua",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "spotify-api"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/0509a681-a362-4800-9075-656041dccdbd",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
@@ -98107,16 +100236,34 @@ window.SHOW_EXPLORER_ARTISTS = {
           "source": "the-list"
         },
         {
-          "type": "spotify",
-          "label": "Spotify",
-          "url": "https://open.spotify.com/artist/6Jrj26oAY96EEC2lqC6fua",
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q591279",
           "confidence": "likely",
-          "display": true,
-          "displayPriority": "primary",
-          "source": "spotify-api"
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/Squeezeofficial",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/0509a681-a362-4800-9075-656041dccdbd",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/0509a681-a362-4800-9075-656041dccdbd",
+          "note": "MusicBrainz returned a high-score artist match for \"Squeeze\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -98132,7 +100279,7 @@ window.SHOW_EXPLORER_ARTISTS = {
       },
       "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T21:12:50.455Z",
+      "manuallyReviewedAt": "2026-09-10T20:24:42.201Z",
       "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebcd4eb927451b24bef67728d1",
       "spotifyMatch": {
         "id": "6Jrj26oAY96EEC2lqC6fua",
@@ -101214,31 +103361,159 @@ window.SHOW_EXPLORER_ARTISTS = {
     "sunny-jain-s-wild-wild-east": {
       "id": "sunny-jain-s-wild-wild-east",
       "name": "Sunny Jain's Wild Wild East",
-      "displayName": "",
+      "displayName": "Sunny Jain",
       "aliases": [],
       "genres": [
-        "unknown"
+        "jazz",
+        "world",
+        "bhangra",
+        "drum and bass"
       ],
-      "locality": "unknown",
+      "locality": "Brooklyn",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Indian-American drummer, dhol player, and composer",
       "disambiguation": "",
       "reviewNotes": "Imported from KALX.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sunnydrums/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.sunnyjain.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/0suWEroaXyqEB8JgDnccZU?si=Wfeo6EcHQ3SxObtHY5HJig",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sunny_Jain",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "appleMusic",
+          "label": "Apple Music",
+          "url": "https://music.apple.com/us/artist/sunny-jain/278871441",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: Sunny Jain",
+          "url": "https://www.discogs.com/artist/3112740",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sunnydrums/",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "tiktok",
+          "label": "TikTok",
+          "url": "https://tiktok.com/@sunnydrums",
+          "confidence": "candidate",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4243a1ee-8150-4ff7-8b6c-9d5de12a2f0c",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Sunny%20Jain's%20Wild%20Wild%20East%22%20band%20music",
           "confidence": "research",
-          "display": true,
+          "display": false,
           "displayPriority": "secondary",
           "source": "kalx"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q7640704",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/sunnydrums",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q7640704",
+          "note": "Wikidata entity Q7640704 exactly matched the artist name \"Sunny Jain\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0suWEroaXyqEB8JgDnccZU?si=Wfeo6EcHQ3SxObtHY5HJig",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/0suWEroaXyqEB8JgDnccZU?si=Wfeo6EcHQ3SxObtHY5HJig",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q7640704",
+          "note": "Wikidata entity Q7640704 matched an existing discogs artist identifier for \"Sunny Jain's Wild Wild East\"."
+        },
+        {
+          "url": "http://www.sunnyjain.com/",
+          "note": "Added 6 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:16.719Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -101252,9 +103527,20 @@ window.SHOW_EXPLORER_ARTISTS = {
           }
         ]
       },
-      "spotifyLookupDisabled": true,
+      "spotifyLookupDisabled": false,
       "manuallyReviewed": true,
-      "manuallyReviewedAt": "2026-09-09T08:52:45.431Z"
+      "manuallyReviewedAt": "2026-09-10T21:08:25.945Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb5801edf9034a8a65e94ea8b6",
+      "spotifyMatch": {
+        "id": "0suWEroaXyqEB8JgDnccZU",
+        "name": "Sunny Jain",
+        "url": "https://open.spotify.com/artist/0suWEroaXyqEB8JgDnccZU",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb5801edf9034a8a65e94ea8b6",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T21:06:15.480Z",
+        "source": "manual-link"
+      }
     },
     "sunset-rollercoaster": {
       "id": "sunset-rollercoaster",
@@ -106697,33 +108983,125 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "rock",
+        "punk"
       ],
-      "locality": "unknown",
+      "locality": "Los Angeles",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "Scottish punk rock band",
       "disambiguation": "",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22The%20Exploited%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheExploited",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/the_exploited_official/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.the-exploited.net",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/6NB4b8lltHCjOhW7vQZkAy",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Exploited",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs: The Exploited",
+          "url": "https://www.discogs.com/artist/262795",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/exploitedband",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/9876cc18-e3c4-487a-b330-e67b08eee2b2",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Exploited%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q117684",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://open.spotify.com/artist/6NB4b8lltHCjOhW7vQZkAy",
+          "note": "Locality inferred from verified page text."
+        },
+        {
+          "url": "https://open.spotify.com/artist/6NB4b8lltHCjOhW7vQZkAy",
+          "note": "Genres inferred from verified page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -106736,6 +109114,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:37:03.091Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5ebce35855bc61d926ec514dfba",
+      "spotifyMatch": {
+        "id": "6NB4b8lltHCjOhW7vQZkAy",
+        "name": "The Exploited",
+        "url": "https://open.spotify.com/artist/6NB4b8lltHCjOhW7vQZkAy",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5ebce35855bc61d926ec514dfba",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:33:33.218Z",
+        "source": "manual-link"
       }
     },
     "the-fallback": {
@@ -107477,33 +109869,148 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "garage rock",
+        "psychedelic rock",
+        "surf rock"
       ],
-      "locality": "unknown",
+      "locality": "Costa Mesa, California",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "American musical group; indie rock band",
+      "disambiguation": "US rock band",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "facebook",
+        "instagram",
+        "spotify",
+        "wikipedia"
+      ],
       "links": [
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22The%20Growlers%22%20band%20music",
-          "confidence": "research",
-          "source": "the-list"
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/losgrowlers/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://thegrowlers.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
         },
         {
           "type": "spotify",
           "label": "Spotify",
           "url": "https://open.spotify.com/artist/2RhgnQNC74QoBlaUvT4MEe",
-          "confidence": "candidate",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
           "source": "spotify-api"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/The_Growlers",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "wikidata"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/losGrowlers",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/theGROWLERS",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "youtube",
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC0lY-vzJffCCllbw3G5FaCw",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "deezer",
+          "label": "Deezer",
+          "url": "https://www.deezer.com/us/artist/413509",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "discogsAlias",
+          "label": "Discogs Alias: The Growlers (2)",
+          "url": "https://www.discogs.com/artist/2141129",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/4a51d885-9445-4e6a-a171-36e2d51dcfa0",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22The%20Growlers%22%20band%20music",
+          "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "the-list"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q3521167",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q3521167",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q3521167",
+          "note": "Wikidata entity Q3521167 matched an existing spotify artist identifier for \"The Growlers\"."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/4a51d885-9445-4e6a-a171-36e2d51dcfa0",
+          "note": "MusicBrainz returned a high-score artist match for \"The Growlers\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.840Z",
@@ -107530,6 +110037,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T18:08:45.877Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eba5a2314afecf8af008298b80",
+      "spotifyMatch": {
+        "id": "2RhgnQNC74QoBlaUvT4MEe",
+        "name": "The Growlers",
+        "url": "https://open.spotify.com/artist/2RhgnQNC74QoBlaUvT4MEe",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eba5a2314afecf8af008298b80",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:07:16.056Z",
+        "source": "manual-link"
       }
     },
     "the-hazards": {
@@ -115104,26 +117625,152 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "punk",
+        "usa",
+        "hardcore punk",
+        "crossover thrash",
+        "street punk"
       ],
-      "locality": "unknown",
+      "locality": "Pomona, California",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
-      "disambiguation": "",
+      "confidence": "verified",
+      "summary": "hardcore punk band",
+      "disambiguation": "USA punk band",
       "reviewNotes": "Imported from The List.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "discogsArtist",
+        "instagram",
+        "wikipedia"
+      ],
       "links": [
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/totalchaos_official",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://open.spotify.com/artist/1KFz81eR4ZcTBqDQjwkgDP?si=HXDzAPCFRxGRW0TpLits1w",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "wikipedia",
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Total_Chaos",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/285015-Total-Chaos-2",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://www.facebook.com/totalchaospunx",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/63598b0b-2fe3-449e-bfa7-325792aee8e8",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "musicbrainz"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.totalchaospunx.com",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q135015728",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
+        {
+          "type": "wikidata",
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q1397727",
+          "confidence": "likely",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Total%20Chaos%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "the-list"
+        },
+        {
+          "type": "discogsArtist",
+          "label": "Discogs Artist",
+          "url": "https://www.discogs.com/artist/285015",
+          "confidence": "rejected",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "wikidata"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.wikidata.org/wiki/Q135015728",
+          "note": "Wikidata entity Q135015728 exactly matched the artist name \"Total Chaos\" and supplied structured external identifiers."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/63598b0b-2fe3-449e-bfa7-325792aee8e8",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/63598b0b-2fe3-449e-bfa7-325792aee8e8",
+          "note": "MusicBrainz returned a high-score artist match for \"Total Chaos\"."
+        },
+        {
+          "url": "https://open.spotify.com/artist/1KFz81eR4ZcTBqDQjwkgDP?si=HXDzAPCFRxGRW0TpLits1w",
+          "note": "Added 8 outbound link candidates from a verified page."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1397727",
+          "note": "Locality inferred from Wikidata formation/origin fields."
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q1397727",
+          "note": "Wikidata entity Q1397727 matched an existing discogs artist identifier for \"Total Chaos\"."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:42.983Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -115136,6 +117783,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T19:02:38.363Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab6761610000e5eb679f9f08b39498ac09e09052",
+      "spotifyMatch": {
+        "id": "1KFz81eR4ZcTBqDQjwkgDP",
+        "name": "Total Chaos",
+        "url": "https://open.spotify.com/artist/1KFz81eR4ZcTBqDQjwkgDP",
+        "imageUrl": "https://i.scdn.co/image/ab6761610000e5eb679f9f08b39498ac09e09052",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T18:51:32.972Z",
+        "source": "manual-link"
       }
     },
     "totalna-tama": {
@@ -117881,26 +120542,112 @@ window.SHOW_EXPLORER_ARTISTS = {
       "displayName": "",
       "aliases": [],
       "genres": [
-        "unknown"
+        "punk",
+        "pop punk",
+        "punk rock",
+        "rock n roll"
       ],
-      "locality": "unknown",
+      "locality": "Oakland",
       "imageUrl": "",
       "imageSource": "",
-      "confidence": "review",
-      "summary": "",
+      "confidence": "verified",
+      "summary": "East bay punk mainstays",
       "disambiguation": "",
       "reviewNotes": "Imported from KALX.",
-      "supportPriority": [],
+      "supportPriority": [
+        "official",
+        "bandcamp",
+        "facebook",
+        "instagram",
+        "spotify"
+      ],
       "links": [
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/the_vaxxines/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "verified-page"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thevaxxines.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "spotify",
+          "label": "Spotify",
+          "url": "https://open.spotify.com/artist/4HQ6RvPuOqyMyJ3uHSSEh2?si=Zt_HExyxSbGZOABQmVSU6w",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thevaxxines/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "secondary",
+          "source": "verified-page"
+        },
+        {
+          "type": "musicbrainz",
+          "label": "MusicBrainz",
+          "url": "https://musicbrainz.org/artist/3974fefc-9263-47eb-a05f-500e980dd589",
+          "confidence": "likely",
+          "display": false,
+          "displayPriority": "secondary",
+          "source": "musicbrainz"
+        },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Vaxxines%22%20band%20music",
           "confidence": "research",
+          "display": false,
+          "displayPriority": "secondary",
           "source": "kalx"
+        },
+        {
+          "type": "bandcamp",
+          "label": "Bandcamp",
+          "url": "https://thevaxxines.bandcamp.com/",
+          "confidence": "verified",
+          "display": true,
+          "displayPriority": "primary",
+          "source": "manual"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://musicbrainz.org/artist/3974fefc-9263-47eb-a05f-500e980dd589",
+          "note": "Locality inferred from MusicBrainz begin-area/area."
+        },
+        {
+          "url": "https://musicbrainz.org/artist/3974fefc-9263-47eb-a05f-500e980dd589",
+          "note": "MusicBrainz returned a high-score artist match for \"Vaxxines\"."
+        },
+        {
+          "url": "https://thevaxxines.com/",
+          "note": "Summary derived from verified page metadata."
+        },
+        {
+          "url": "https://thevaxxines.com/",
+          "note": "Genres inferred from verified page text."
+        },
+        {
+          "url": "https://thevaxxines.com/",
+          "note": "Added 2 outbound link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:25.922Z",
         "lastImportedAt": "2026-09-09T02:24:10.839Z",
@@ -117913,6 +120660,20 @@ window.SHOW_EXPLORER_ARTISTS = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "spotifyLookupDisabled": false,
+      "manuallyReviewed": true,
+      "manuallyReviewedAt": "2026-09-10T20:54:18.776Z",
+      "spotifyImageUrl": "https://i.scdn.co/image/ab67616d0000b27352e0e2d191fa43420608c27f",
+      "spotifyMatch": {
+        "id": "4HQ6RvPuOqyMyJ3uHSSEh2",
+        "name": "The Vaxxines",
+        "url": "https://open.spotify.com/artist/4HQ6RvPuOqyMyJ3uHSSEh2",
+        "imageUrl": "https://i.scdn.co/image/ab67616d0000b27352e0e2d191fa43420608c27f",
+        "genres": [],
+        "popularity": null,
+        "matchedAt": "2026-09-10T20:49:53.861Z",
+        "source": "manual-link"
       }
     },
     "velvet-grace": {

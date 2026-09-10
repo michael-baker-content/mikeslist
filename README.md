@@ -54,6 +54,8 @@ The Spotify lookup uses server-side credentials, so the client secret is never s
 
 See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-limit handling, and suggested next refinements.
 
+Artist page enrichment validates Instagram and Facebook outbound links before URL cleanup. It accepts profile paths and excludes platform homepages, support/developer subdomains, login and other interface routes, and post/reel links. Facebook numeric profile IDs are preserved. Discovered profiles remain candidates for review; this filter does not remove previously saved links.
+
 ## Common Tasks
 
 Back up the current data files before risky cleanup or import work:

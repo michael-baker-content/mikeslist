@@ -108,7 +108,9 @@ function outboundLinks(html, baseUrl, rejectedUrls) {
   const links = [];
   for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     try {
-      const url = canonicalCandidateUrl(new URL(decodeHtml(match[1]), baseUrl).href);
+      const resolvedUrl = new URL(decodeHtml(match[1]), baseUrl).href;
+      if (!isArtistSocialProfileUrl(resolvedUrl)) continue;
+      const url = canonicalCandidateUrl(resolvedUrl);
       const type = inferLinkType(url);
       if (!type || type === "official" || type === "search") continue;
       if (!shouldKeepCandidate(type, url)) continue;
@@ -126,6 +128,36 @@ function outboundLinks(html, baseUrl, rejectedUrls) {
     }
   }
   return dedupeLinks(links);
+}
+
+function isArtistSocialProfileUrl(url) {
+  const parsed = new URL(url);
+  if (!["https:", "http:"].includes(parsed.protocol)) return false;
+  const host = parsed.hostname.toLowerCase();
+  const instagram = host === "instagram.com" || host.endsWith(".instagram.com");
+  const facebook = host === "facebook.com" || host.endsWith(".facebook.com");
+  if (!instagram && !facebook) return true;
+  const allowedHosts = instagram
+    ? ["instagram.com", "www.instagram.com"]
+    : ["facebook.com", "www.facebook.com", "m.facebook.com", "mbasic.facebook.com"];
+  if (!allowedHosts.includes(host)) return false;
+  const path = decodeURIComponent(parsed.pathname).toLowerCase();
+  const parts = path.split("/").filter(Boolean);
+  const reserved = new Set([
+    "accounts", "about", "ads", "api", "blog", "business", "careers", "challenge",
+    "checkpoint", "developer", "developers", "dialog", "direct", "directory", "download",
+    "events", "explore", "gaming", "groups", "help", "legal", "login", "login.php",
+    "logout", "marketplace", "messages", "notifications", "p", "photo", "photo.php",
+    "photos", "policies", "policy", "popular", "privacy", "privacycenter", "reel",
+    "reels", "reels_audio", "reg", "register", "search", "settings", "share",
+    "share.php", "sharer", "sharer.php", "signup", "stories", "terms", "watch", "web"
+  ]);
+  if (!parts.length || reserved.has(parts[0])) return false;
+  if (instagram) return parts.length === 1 && /^[a-z0-9._]+$/.test(parts[0]);
+  if (parts[0] === "profile.php") return parts.length === 1 && /^\d+$/.test(parsed.searchParams.get("id") || "");
+  if (parts[0] === "people") return parts.length === 3 && /^\d+$/.test(parts[2]);
+  if (parts[0] === "pages") return parts.length === 3 && /^\d+$/.test(parts[2]);
+  return parts.length === 1 && /^[a-z0-9._-]+$/.test(parts[0]);
 }
 
 function canonicalCandidateUrl(url = "") {
@@ -146,10 +178,11 @@ function canonicalCandidateUrl(url = "") {
     parsed.search = "";
   }
 
-  if (parsed.hostname === "facebook.com") {
-    const slug = parsed.pathname.split("/").filter(Boolean)[0];
-    if (slug) parsed.pathname = `/${slug}/`;
+  if (["facebook.com", "m.facebook.com", "mbasic.facebook.com"].includes(parsed.hostname)) {
+    parsed.hostname = "facebook.com";
+    const profileId = parsed.pathname.toLowerCase() === "/profile.php" ? parsed.searchParams.get("id") : null;
     parsed.search = "";
+    if (profileId) parsed.searchParams.set("id", profileId);
   }
 
   if (parsed.hostname === "twitter.com") {
