@@ -6,9 +6,8 @@
     <link rel="icon" type="image/png" href="assets/favicon.png">
     <title>Show Explorer - Mike's List</title>
     <script src="assets/theme.js"></script>
-    <link rel="stylesheet" href="assets/vendor/maplibre/maplibre-gl.css?v=carto-map-20260903">
+    <link rel="stylesheet" href="assets/vendor/maplibre/maplibre-gl.css?v=6.9.0">
     <link rel="stylesheet" href="assets/styles.css?v=carto-map-20260903">
-    <script src="assets/vendor/maplibre/maplibre-gl.js?v=carto-map-20260903"></script>
   </head>
   <body class="show-explorer-page show-explorer-shell">
     <header class="topbar">
@@ -158,21 +157,6 @@
       </div>
     </main>
 
-    <dialog id="venueModal" class="venue-modal">
-      <div class="modal-heading">
-        <div>
-          <p class="kicker">Mapped venue</p>
-          <h2 id="venueModalTitle" class="statement-type"></h2>
-        </div>
-        <button id="venueModalClose" class="icon-button" type="button" aria-label="Close venue details">×</button>
-      </div>
-      <p id="venueModalMeta" class="detail-summary"></p>
-      <div id="venueModalLinks" class="artist-links detail-links"></div>
-      <div class="modal-actions">
-        <a id="venueModalProfile" class="source-link" href="#">Venue Page</a>
-      </div>
-    </dialog>
-
     <template id="eventTemplate">
       <article class="event">
         <div class="event-image-wrap">
@@ -200,13 +184,11 @@
         <div class="artist-links"></div>
       </article>
     </template>
-
-    <script src="data/sample-events.js"></script>
     <script src="data/imported-events.js"></script>
     <script src="data/public-artists.js"></script>
     <script src="data/venues.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
-    <script src="assets/app.js?v=carto-map-20260903"></script>
+    <script type="module" src="assets/show-explorer-bootstrap.js?v=6.9.0"></script>
   </body>
 </html>

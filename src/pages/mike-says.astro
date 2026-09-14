@@ -1,0 +1,28 @@
+---
+import BlogLayout from '../layouts/BlogLayout.astro';
+import Article from '../components/Article.astro';
+import { publishedPosts, postUrl, displayDate } from '../lib/posts';
+const posts = await publishedPosts();
+const [latest, ...archive] = posts;
+const legacyLinks = Object.fromEntries(posts.map(post => [post.id, postUrl(post.id)]));
+---
+<BlogLayout title="Mike Says" description="Weekly notes on Bay Area music from Mike’s List.">
+  <div class="blog-intro">
+    <p>What caught my ear, what’s coming up, and a few thoughts on the local music scene.</p>
+    <a class="source-link" href="#archive">Browse the archive</a>
+  </div>
+  {latest ? <Article post={latest} latest /> : <p>No articles have been published yet.</p>}
+  <section class="article-archive" id="archive" aria-labelledby="archiveTitle">
+    <p class="kicker">Previously on Mike Says</p>
+    <h2 id="archiveTitle">The archive</h2>
+    {archive.length ? archive.map(post => <a class="archive-entry" href={postUrl(post.id)}>
+      <span>{displayDate(post.data.date)}</span>
+      <h3>{post.data.title}</h3>
+      <p>{post.data.description}</p>
+    </a>) : <p>Previous articles will appear here as new ones are published.</p>}
+  </section>
+</BlogLayout>
+<script define:vars={{ legacyLinks }}>
+  const requested = new URLSearchParams(location.search).get('post');
+  if (requested && Object.hasOwn(legacyLinks, requested)) location.replace(legacyLinks[requested]);
+</script>

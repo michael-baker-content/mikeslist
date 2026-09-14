@@ -1,5 +1,7 @@
 *.log
 node_modules/
+dist/
+.astro/
 playwright-report/
 test-results/
 data/*.before-*.js

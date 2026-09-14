@@ -37,6 +37,7 @@ const contentTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
+  ".mjs": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8"
 };
 
@@ -914,7 +915,8 @@ const server = createServer(async (request, response) => {
       return;
     }
 
-    const path = safePath(pathname);
+    const isBlog = pathname === "/mike-says.html" || pathname.startsWith("/mike-says/");
+    const path = safePath(isBlog ? `/dist${pathname}` : pathname);
     if (!path) {
       send(response, 403, "Forbidden");
       return;

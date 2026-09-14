@@ -1,0 +1,16 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import SpotifyPlaylist from './SpotifyPlaylist.astro';
+import { displayDate, postUrl } from '../lib/posts';
+interface Props { post: CollectionEntry<'posts'>; latest?: boolean }
+const { post, latest = false } = Astro.props;
+const { Content } = await render(post);
+---
+<article class="essay-card">
+  <p class="kicker">{latest ? 'Latest article' : 'Mike Says'}</p>
+  <h2>{post.data.title}</h2>
+  <p>By Mike · {post.data.date ? <time datetime={post.data.date}>{displayDate(post.data.date)}</time> : 'Introductory note'}</p>
+  <div class="blog-content"><Content /></div>
+  <SpotifyPlaylist url={post.data.spotifyPlaylist} title={post.data.title} />
+  <p><a class="source-link" href={postUrl(post.id)}>Link to this article</a></p>
+</article>

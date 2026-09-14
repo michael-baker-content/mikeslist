@@ -13,7 +13,16 @@ The project is intentionally careful:
 
 ## Local Preview
 
-Start the local server:
+Install dependencies and build the site first (Node 22.12 or later):
+
+```powershell
+npm install
+npm run build
+```
+
+Astro generates Mike Says from Markdown in `content/mike-says/`. The build then copies the existing public and review pages, assets, and generated data into `dist/`. Netlify publishes that directory. Show Explorer, artist pages, venue pages, and local review tools retain their existing implementation; the live site still reads JavaScript data bundles rather than SQLite.
+
+Start the local server yourself:
 
 ```powershell
 .\shows
@@ -42,6 +51,8 @@ $env:SHOW_EXPLORER_ADMIN_KEY="your-local-admin-key"
 ```
 
 The local server provides login, protected admin pages, and save endpoints for review work. A static host alone will not run that backend.
+
+The local server serves generated Mike Says pages from `dist/` and the other pages from the working files. Run `npm run build` again after changing blog posts or Astro templates, and before deployment. See **Mike Says articles** below for front matter, playlists, drafts, and publishing instructions.
 
 Artist Review can also look up Spotify artist matches and fallback images through the Spotify Web API. Add these values to `.env` or set them in your terminal before starting the local server:
 
@@ -172,7 +183,46 @@ The full `data/artists.js` file is the admin/review store. Public pages load `da
 
 Local admin saves write back to the data files through `scripts/dev-server.mjs`. Show saves also rebuild the artist, public artist, and venue stores so reviewed event changes stay in sync with public bundles.
 
-The public Show Explorer map uses the locally vendored MapLibre GL files in `assets/vendor/maplibre/` with CARTO basemap styles loaded from `basemaps.cartocdn.com`. Map access lives inside the Show Explorer `Map and Filters` panel so dates, options, venue, city, and sort can be refined before opening the map. The map offers Light and Dark styles, defaulting to the current site theme. The map will render only when the browser can reach CARTO's style and tile endpoints.
+The public Show Explorer map uses the locally vendored MapLibre GL 6.9.0 files in `assets/vendor/maplibre/` with CARTO basemap styles loaded from `basemaps.cartocdn.com`. Map access lives inside the Show Explorer `Map and Filters` panel so dates, options, venue, city, and sort can be refined before opening the map. The map offers Light and Dark styles, defaulting to the current site theme. The map will render only when the browser can reach CARTO's style and tile endpoints.
+
+## Mike Says articles
+
+Mike Says uses Astro to generate static pages from Markdown files in `content/mike-says/`. Edit an existing file to update an article, add a file for a new article, or delete a file to remove it. The filename determines its permanent URL: `example.md` becomes `/mike-says/example.html`. Keep filenames stable after publication.
+
+Each file begins with YAML front matter:
+
+```markdown
+---
+title: "This week on Mike's List"
+description: "A short introduction for the archive."
+date: "2026-09-21"
+draft: true
+spotifyPlaylist: "https://open.spotify.com/playlist/3Wqc8phZ9kiWCa3cXe02cp"
+---
+
+Write the article here using **Markdown** or HTML tags.
+```
+
+The Spotify field is optional; when supplied, the article gets its own playlist embed below the body. Replace it with that week's playlist. Quote dates as shown. Omitted `draft` defaults to true. Drafts are excluded from generated pages and archives. Future-dated posts are also excluded until a build on or after their date in America/Los_Angeles; there is no automatic scheduled publishing. The original introductory note remains undated.
+
+The September 14–20 article is preserved in `content/mike-says/mikes-picks-september-14-20-2026.md` with `draft: true`. It is not published. The former editor files and article data were backed up under the ignored `data/backups/pre-astro-blog-2026-09-13/` folder before retirement. Browser-only drafts, if any, have not been migrated.
+
+### Local workflow
+
+Use Node 22.12 or later (Node 24 is configured for deployment). Run these commands yourself from the project folder:
+
+```powershell
+npm install
+npm run build
+```
+
+The first command installs Astro and updates `package-lock.json`; include that updated lockfile in the next commit. The second generates `dist/`, combining Astro's blog pages with the existing static pages, assets, and generated JS data. Markdown source files and local data backups are not copied into the deployed site.
+
+Rebuild after editing posts. The existing local server serves Mike Says from `dist/` and the other pages from the working files. Its updated routing takes effect the next time you restart it yourself. Installation, builds, and server lifecycle remain user-operated.
+
+To publish an article, finish the Markdown, set `draft: false`, build and review it, then use the normal GitHub deployment workflow. Netlify now runs `npm run build` and publishes `dist/`. Draft Markdown is still part of the repository if committed, so draft status prevents website publication, not repository visibility.
+
+The latest published article appears in full on `/mike-says.html`; earlier articles appear in its archive. Every published article also has a permanent page. Old `mike-says.html?post=...` links redirect to the matching article in the browser. There is no article admin editor or article-save API.
 
 ## Data Sources
 
@@ -200,3 +250,5 @@ Live Artist Review can use Spotify lookup and save the result in the current bro
 ## Project Notes
 
 This is a working prototype, not a commercial calendar. The goal is to build a humane review workflow around messy event data, so imported listings can become a cleaner, more useful public guide over time.
+
+MapLibre uses browser ES modules, loaded before the Show Explorer application by `assets/show-explorer-bootstrap.js`. Keep the bundled module, shared module, worker, CSS, source maps, and license in `assets/vendor/maplibre/` synchronized with the installed package when upgrading; changing npm dependencies alone does not update browser assets.

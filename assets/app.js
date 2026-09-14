@@ -5,7 +5,6 @@ const events = sourceEvents.sort((a, b) => {
 const artistStore = window.SHOW_EXPLORER_ARTISTS?.artists || {};
 const venueStore = window.SHOW_EXPLORER_VENUES?.venues || {};
 const eventTextCache = new WeakMap();
-const eventImageCache = new WeakMap();
 
 function initialMapStyle() {
   return document.documentElement.dataset.theme === "dark" ? "dark" : "light";
@@ -14,7 +13,6 @@ function initialMapStyle() {
 const state = {
   query: "",
   filters: [],
-  source: "all",
   venue: "all",
   city: "all",
   sort: "date",
@@ -28,12 +26,6 @@ const venueMap = document.querySelector("#venueMap");
 const venueMapCanvas = document.querySelector("#venueMapCanvas");
 const venueMapStatus = document.querySelector("#venueMapStatus");
 const venueMapCount = document.querySelector("#venueMapCount");
-const venueModal = document.querySelector("#venueModal");
-const venueModalTitle = document.querySelector("#venueModalTitle");
-const venueModalMeta = document.querySelector("#venueModalMeta");
-const venueModalLinks = document.querySelector("#venueModalLinks");
-const venueModalProfile = document.querySelector("#venueModalProfile");
-const venueModalClose = document.querySelector("#venueModalClose");
 const eventTemplate = document.querySelector("#eventTemplate");
 const artistTemplate = document.querySelector("#artistTemplate");
 const showControls = document.querySelector("#showControls");
@@ -154,11 +146,6 @@ function isMikesPick(event) {
   );
 }
 
-function matchesSource(event) {
-  if (state.source === "all") return true;
-  return sourceNamesForEvent(event).some((name) => slugify(name) === state.source);
-}
-
 function sourceNamesForEvent(event) {
   const sources = [...(event.sources || []), event.source].filter(Boolean);
   return [...new Set(sources.map(sourceNameForSource).filter(Boolean))];
@@ -186,7 +173,7 @@ function baseVisibleEvents() {
   const query = state.query.trim().toLowerCase();
   return events.filter((event) => {
     const queryMatch = !query || textForEvent(event).includes(query);
-    return isArtistShow(event) && queryMatch && matchesDateRange(event) && matchesFilter(event) && matchesSource(event);
+    return isArtistShow(event) && queryMatch && matchesDateRange(event) && matchesFilter(event);
   });
 }
 
@@ -240,11 +227,6 @@ function updateSummary(list) {
   const artists = list.flatMap((event) => isArtistShow(event) ? event.artists.map(enrichArtist) : []);
   document.querySelector("#eventCount").textContent = list.length;
   document.querySelector("#artistCount").textContent = artists.length;
-}
-
-function renderAdvancedFilterOptions(venueEvents, cityEvents) {
-  renderEventVenueOptions(venueEvents);
-  renderCityOptions(cityEvents);
 }
 
 function renderEventVenueOptions(list) {
@@ -382,13 +364,6 @@ function renderEventListing(event) {
   return node;
 }
 
-function imageForEvent(event) {
-  if (eventImageCache.has(event)) return eventImageCache.get(event).url;
-  const image = imageSelectionForEvent(event);
-  eventImageCache.set(event, image);
-  return image.url;
-}
-
 function imageSelectionForEvent(event) {
   const topArtist = enrichArtist(event.artists[0] || { name: displayNameForEvent(event), tags: event.eventTypes || [] });
   const imageArtist = imageArtistForEvent(event) || topArtist;
@@ -468,10 +443,6 @@ function artistImageRank(artist) {
     { url: artist.imageUrl, priority: 0 },
     { url: artist.spotifyImageUrl, priority: 1 }
   ])?.priority ?? 99;
-}
-
-function preferredImageUrl(candidates) {
-  return preferredImageCandidate(candidates)?.url || "";
 }
 
 function preferredImageCandidate(candidates) {
@@ -824,7 +795,6 @@ function createEventCard(event, options = {}) {
   const topArtist = enrichArtist(event.artists[0] || { name: event.venue });
   const eventImage = node.querySelector(".event-image");
   const imageSelection = imageSelectionForEvent(event);
-  eventImageCache.set(event, imageSelection);
   eventImage.src = imageSelection.url;
   eventImage.alt = `${displayNameForArtist(topArtist) || event.venue} event image`;
   node.querySelector(".event-image-wrap").classList.toggle("generated-event-art", imageSelection.kind === "generated");
@@ -1208,45 +1178,6 @@ function validGeo(geo) {
 function displayNameForVenue(venue) {
   return venue.displayName || venue.name || "Venue";
 }
-
-function openVenueModal(venueId) {
-  const venue = venueStore[venueId];
-  if (!venueModal || !venue) return;
-  const title = displayNameForVenue(venue);
-  venueModalTitle.textContent = title;
-  venueModalMeta.textContent = [
-    [venue.city, venue.region].filter(Boolean).join(", "),
-    venue.venueType,
-    venue.agePolicy && venue.agePolicy !== "unknown" ? venue.agePolicy : "",
-    venue.summary
-  ].filter(Boolean).join(" | ");
-  venueModalLinks.replaceChildren();
-  showExplorerVenueLinks(venue.links || []).forEach((link) => {
-    const anchor = document.createElement("a");
-    anchor.href = link.url;
-    anchor.target = "_blank";
-    anchor.rel = "noreferrer";
-    anchor.textContent = link.label || labelForType(link.type);
-    venueModalLinks.append(anchor);
-  });
-  venueModalProfile.href = `venue.html?id=${encodeURIComponent(venue.id)}&from=${encodeURIComponent("show-explorer.html")}`;
-  if (typeof venueModal.showModal === "function") {
-    venueModal.showModal();
-  } else {
-    venueModal.setAttribute("open", "");
-  }
-}
-
-function closeVenueModal() {
-  if (!venueModal) return;
-  if (typeof venueModal.close === "function") venueModal.close();
-  else venueModal.removeAttribute("open");
-}
-
-venueModalClose?.addEventListener("click", closeVenueModal);
-venueModal?.addEventListener("click", (event) => {
-  if (event.target === venueModal) closeVenueModal();
-});
 
 searchInput.addEventListener("input", (event) => {
   state.query = event.target.value;
