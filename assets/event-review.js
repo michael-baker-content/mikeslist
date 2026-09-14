@@ -6,6 +6,7 @@ const savedEvents = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
 const events = newerEvents(savedEvents, baseEvents);
 const recentEventIds = new Set(JSON.parse(localStorage.getItem(RECENT_STORE_KEY) || "[]"));
 let duplicateGroups = [];
+let newShowDraft = null;
 let duplicateEventIds = new Set();
 let serverSaveQueue = Promise.resolve();
 let latestSaveRequestId = 0;
@@ -79,6 +80,10 @@ function newerEvents(saved, base) {
 }
 
 function normalizeEventRecord(event) {
+  if (event.manuallyCreated) {
+    event.sources = mergeSources(event.sources || [], [event.source, { name: "Mike", url: "" }]);
+    event.source = { name: "Mike", url: "" };
+  }
   event.title = cleanJoinedText(event.title || "");
   event.displayName = cleanJoinedText(event.displayName || "");
   event.details = cleanJoinedText(event.details || "");
@@ -251,6 +256,7 @@ function renderEventTypeOptions() {
 }
 
 function renderQueue() {
+  if (newShowDraft) return;
   const list = visibleEvents();
   queue.replaceChildren();
 
@@ -299,19 +305,24 @@ function renderQueueSaveStatus() {
 }
 
 function selectedEvent() {
-  return events.find((event) => event.id === state.selectedId) || null;
+  return newShowDraft || events.find((event) => event.id === state.selectedId) || null;
 }
 
 function renderForm() {
   const event = selectedEvent();
   form.hidden = !event;
+  document.querySelector("#cancelNewShowButton").hidden = !newShowDraft;
+  document.querySelector("#newShowButton").disabled = Boolean(newShowDraft);
+  document.querySelector(".merge-panel").hidden = Boolean(newShowDraft);
+  document.querySelector("#deleteEventButton").disabled = Boolean(newShowDraft);
+  deleteOrphanVenueShowsButton.disabled = Boolean(newShowDraft);
   if (!event) {
     if (fields.venueStatusHint) fields.venueStatusHint.textContent = "";
     return;
   }
 
   const status = eventStatus(event);
-  fields.selectedName.textContent = reviewTitle(event);
+  fields.selectedName.textContent = newShowDraft ? "New Show" : reviewTitle(event);
   fields.selectedStatus.textContent = status;
   fields.selectedStatus.className = `confidence ${needsMetadata(event) ? "review" : isArtistShow(event) ? "likely" : "verified"}`;
   fields.date.value = event.date || "";
@@ -327,6 +338,7 @@ function renderForm() {
   fields.artists.value = uniqueList((event.artists || []).map((artist) => cleanJoinedText(artist.name))).join("\n");
   syncShowTypeFields();
   fields.source.value = event.source?.url || event.sourceUrl || "";
+  document.querySelector("#sourceLabel").textContent = event.manuallyCreated ? "Source: Mike — optional reference link" : "Source";
   fields.infoUrl.value = event.infoUrl || "";
   fields.imageUrl.value = event.imageUrl || "";
   fields.imageSource.value = displayImageSourceValue(event.imageSource || "");
@@ -536,7 +548,7 @@ function renderVenueStatusHint(event) {
 }
 
 function venueStatusText(event, match = resolvedVenueForEvent(event)) {
-  if (!match) return "Venue not found in review store";
+  if (!match) return newShowDraft ? "A new venue will be created when this show is saved locally." : "Venue not found in review store";
   const name = displayNameForVenue(match);
   const confidence = confidenceLabel(match.confidence);
   const status = match.status && match.status !== "unknown" ? match.status : "";
@@ -661,9 +673,13 @@ function updateSelectedEventFromForm() {
   event.sourceUrl = sourceUrl;
   if (sourceUrl) {
     event.source = {
-      name: sourceNameForUrl(sourceUrl, event.source?.name),
+      name: sourceNameForUrl(sourceUrl, event.manuallyCreated ? undefined : event.source?.name),
       url: sourceUrl
     };
+    event.sources = mergeSources(event.sources || [], [event.source]);
+  }
+  if (event.manuallyCreated) {
+    event.source = { name: "Mike", url: "" };
     event.sources = mergeSources(event.sources || [], [event.source]);
   }
 
@@ -704,7 +720,7 @@ function splitList(value) {
 function mergeSources(existing, incoming) {
   const sources = new Map();
   for (const source of [...existing, ...incoming].filter(Boolean)) {
-    if (!source.url) continue;
+    if (!source.url && source.name !== "Mike") continue;
     const normalized = {
       ...source,
       name: sourceNameForUrl(source.url, source.name)
@@ -735,16 +751,18 @@ function sourceNamesForEvent(event) {
 }
 
 async function mergeSelectedEvent() {
+  if (newShowDraft) return;
   updateSelectedEventFromForm();
-  const source = selectedEvent();
+  let source = selectedEvent();
   const targetId = fields.mergeEvent.value;
-  const target = events.find((event) => event.id === targetId);
+  let target = events.find((event) => event.id === targetId);
   if (!source || !target || source.id === target.id) return;
   if (showTypeForEvent(source) !== showTypeForEvent(target)) {
     fields.saveStatus.textContent = "Choose a canonical show with the same show type.";
     return;
   }
 
+  if (source.manuallyCreated && !target.manuallyCreated) [source, target] = [target, source];
   const dateWarning = source.date !== target.date
     ? `WARNING: These shows take place on different days.\n\nSelected show: ${source.date || "unknown date"}\nCanonical show: ${target.date || "unknown date"}\n\nThe merged show will keep the canonical date (${target.date || "unknown date"}), and the selected show's separate listing will be removed.\n\n`
     : "";
@@ -772,7 +790,7 @@ async function mergeSelectedEvent() {
   state.selectedId = target.id;
   fields.saveStatus.textContent = `Merged duplicate show into ${eventTitle(target)}. Saving...`;
   refreshReviewUi();
-  const result = await saveEvents({ skipFormUpdate: true });
+  const result = await saveEvents({ skipFormUpdate: true, decisions: [{ action: "update", entityId: target.id, event: target, note: "Saved canonical merged show" }] });
   fields.saveStatus.textContent = result.ok
     ? `Merged duplicate show into ${eventTitle(target)} and saved to file.`
     : `Merged duplicate show into ${eventTitle(target)} in browser only. File save failed: ${result.error}`;
@@ -870,6 +888,7 @@ function markRecentlyChanged(...ids) {
 }
 
 function mergeEventData(target, source) {
+  const manual = target.manuallyCreated ? structuredClone(target) : null;
   target.showType = showTypeForEvent(target);
   target.displayName = preferredShowText(target.displayName, source.displayName);
   target.title = preferredShowText(target.title, source.title);
@@ -893,6 +912,17 @@ function mergeEventData(target, source) {
   target.region ||= source.region || "";
   target.time ||= source.time || "";
   target.price ||= source.price || "";
+  if (manual) {
+    for (const key of ["title", "displayName", "details", "eventDescription", "infoUrl", "imageUrl", "imageSource", "city", "region", "time", "price"]) {
+      if (manual[key]) target[key] = manual[key];
+    }
+    target.artists = target.artists.map(artist => {
+      const original = manual.artists.find(item => normalizeText(item.name) === normalizeText(artist.name));
+      if (!original) return artist;
+      for (const key of ["name", "displayName", "note"]) if (original[key]) artist[key] = original[key];
+      return artist;
+    });
+  }
 }
 
 function mergeArtists(existing = [], incoming = []) {
@@ -1014,7 +1044,23 @@ function refreshReviewUi() {
 async function saveEvents(options = {}) {
   const decisions = [...(options.decisions || [])];
   if (!options.skipFormUpdate) {
+    if (!form.reportValidity()) return { ok: false, error: "Complete required fields." };
+    if (!fields.venue.value.trim() || (fields.showType.value === "artist" && !fields.artists.value.trim())) {
+      fields.saveStatus.textContent = "Enter a venue and at least one artist for an artist show.";
+      return { ok: false, error: "Missing venue or artist." };
+    }
     const event = updateSelectedEventFromForm();
+    if (newShowDraft) {
+      events.push(event);
+      newShowDraft = null;
+      state.selectedId = event.id;
+      state.filter = "all";
+      state.source = "all";
+      state.query = search.value = "";
+      state.fromDate = fromDateInput.value = event.date;
+      state.toDate = toDateInput.value = event.date;
+      syncFilterButtons();
+    }
     if (event?.id) {
       markRecentlyChanged(event.id);
       decisions.push({
@@ -1134,14 +1180,47 @@ function setPressed(button, active) {
 }
 
 function render() {
+  renderVenueOptions();
   renderEventTypeOptions();
   updateTotals();
   renderQueue();
 }
 
+function venueSuggestionNames(venues) {
+  return [...new Set(Object.values(venues)
+    .filter(venue => !venue.mergedInto && ["verified", "likely"].includes(venue.confidence))
+    .flatMap(venue => [venue.displayName, venue.name, ...(venue.aliases || [])])
+    .filter(name => typeof name === "string" && name.trim())
+    .map(name => name.trim()))].sort((a, b) => a.localeCompare(b));
+}
+
+function renderVenueOptions() {
+  const options = document.querySelector("#venueOptions");
+  options.replaceChildren(...venueSuggestionNames(venueStore.venues || {}).map(name => new Option(name, name)));
+}
+
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   await saveEvents();
+});
+
+document.querySelector("#newShowButton").addEventListener("click", () => {
+  newShowDraft = {
+    id: `manual-${crypto.randomUUID()}`, manuallyCreated: true,
+    date: todayString(), venue: "", showType: "artist", artists: [],
+    eventTypes: [], source: { name: "Mike", url: "" }, sources: [{ name: "Mike", url: "" }], createdAt: new Date().toISOString()
+  };
+  queue.replaceChildren();
+  fields.saveStatus.textContent = "Enter the show details, then save. Nothing is created until you save.";
+  renderForm();
+  fields.date.focus();
+});
+
+document.querySelector("#cancelNewShowButton").addEventListener("click", () => {
+  if (!window.confirm("Discard this unsaved new show?")) return;
+  newShowDraft = null;
+  fields.saveStatus.textContent = "New show canceled.";
+  render();
 });
 
 search.addEventListener("input", (event) => {

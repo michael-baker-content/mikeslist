@@ -37,6 +37,7 @@ const categoryCount = removed.length - removedSourceCount;
 console.log(`Removed ${removed.length} non-scope events (${removedSourceCount} removed source, ${categoryCount} non-music category) from ${EVENTS_PATH.pathname}`);
 
 function shouldRemoveEvent(event) {
+  if (event.manuallyCreated) return false;
   if (hasRemovedSource(event)) return true;
   if (showTypeForEvent(event) !== "event") return false;
   const eventTypes = event.eventTypes || [];

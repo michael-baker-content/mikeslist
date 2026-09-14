@@ -7,6 +7,19 @@
     <title>Show Review - Mike's List</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
+    <!-- Social preview: replace image URLs here for a page-specific card. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mike's List">
+    <meta property="og:title" content="Show Review - Mike's List">
+    <meta property="og:description" content="Show review tools for Mike's List.">
+    <meta property="og:url" content="https://mikeslist.xyz/event-review.html">
+    <meta property="og:image" content="https://mikeslist.xyz/assets/social/mikes-list-card.png">
+    <meta property="og:image:alt" content="Mike's List — SF Bay Area Music Listings">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Show Review - Mike's List">
+    <meta name="twitter:description" content="Show review tools for Mike's List.">
+    <meta name="twitter:image" content="https://mikeslist.xyz/assets/social/mikes-list-card.png">
+    <meta name="twitter:image:alt" content="Mike's List — SF Bay Area Music Listings">
   </head>
   <body>
     <header class="topbar">
@@ -42,6 +55,10 @@
     </header>
 
     <main class="review-layout">
+      <div class="form-actions">
+        <button id="newShowButton" class="chip active" type="button">New Show</button>
+        <button id="cancelNewShowButton" class="chip" type="button" hidden>Cancel New Show</button>
+      </div>
       <section class="controls" aria-label="Show filters">
         <label class="search">
           <span>Search</span>
@@ -75,6 +92,7 @@
             <button class="chip active" type="button" data-source-filter="all">All sources</button>
             <button class="chip" type="button" data-source-filter="the-list">The List</button>
             <button class="chip" type="button" data-source-filter="kalx">KALX</button>
+            <button class="chip" type="button" data-source-filter="mike">Mike</button>
           </div>
         </div>
 
@@ -133,7 +151,7 @@
                 <span>Open merge</span>
               </summary>
               <div class="merge-panel-body">
-                <p>Fold this show into a canonical listing of the same type and keep source, artist, type, and theme data.</p>
+                <p>Combine listings of the same type. When one was created manually, that record is kept: its filled-in details take priority, and missing details, artists, and source links are added from the other listing.</p>
                 <label>
                   <span>Merge Into Canonical Show</span>
                   <select id="mergeEventInput"></select>
@@ -156,12 +174,13 @@
             <div class="field-grid two-column">
               <label>
                 <span>Date</span>
-                <input id="dateInput" type="date">
+                <input id="dateInput" type="date" required>
               </label>
 
               <label>
                 <span>Venue</span>
-                <input id="venueInput" type="text">
+                <input id="venueInput" type="text" list="venueOptions" required>
+                <datalist id="venueOptions"></datalist>
                 <span id="venueStatusHint" class="field-hint venue-status-hint"></span>
               </label>
             </div>
@@ -215,7 +234,7 @@
 
             <div class="field-grid three-column">
               <label>
-                <span>Source</span>
+                <span id="sourceLabel">Source</span>
                 <input id="sourceInput" type="url" placeholder="https://">
               </label>
 

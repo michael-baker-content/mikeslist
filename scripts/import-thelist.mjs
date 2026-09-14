@@ -273,7 +273,7 @@ async function readWindowData(path, globalName, fallback) {
 function mergeEvents(existing, incoming) {
   const byId = new Map(existing.map((event) => [event.id, normalizeEventSources(event)]));
   for (const event of incoming) {
-    const duplicate = [...byId.values()].find((item) => eventKey(item) === eventKey(event));
+    const duplicate = [...byId.values()].find((item) => !item.manuallyCreated && eventKey(item) === eventKey(event));
     if (duplicate) {
       duplicate.sources = mergeSources(duplicate.sources, [event.source]);
       duplicate.source = duplicate.sources[0];

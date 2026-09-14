@@ -176,6 +176,8 @@ function mergeLikelyDuplicates(list) {
   let merged = 0;
 
   for (const group of groups) {
+    // Manual records require an explicit merge in Show Review.
+    if (group.events.some((event) => event.manuallyCreated)) continue;
     const candidates = group.events.filter((event) => !removedIds.has(event.id));
     if (candidates.length < 2) continue;
     const [target, ...sources] = candidates.sort(compareCanonicalPreference);
@@ -388,7 +390,7 @@ function mergeEventData(target, source) {
 function mergeSources(existing, incoming) {
   const sources = new Map();
   for (const source of [...existing, ...incoming].filter(Boolean)) {
-    if (!source.url) continue;
+    if (!source.url && source.name !== "Mike") continue;
     const normalized = {
       ...source,
       name: sourceNameForUrl(source.url, source.name)

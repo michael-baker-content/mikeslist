@@ -10,6 +10,7 @@ const nonArtistIds = new Set();
 let updatedEvents = 0;
 
 const classifiedEvents = events.map((event) => {
+  if (event.manuallyCreated) return event;
   const classifications = [classifyEventText([event.title, event.details].filter(Boolean).join(" "))];
   const artists = [];
   const titles = [];

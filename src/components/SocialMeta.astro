@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  imageAlt?: string;
+  type?: 'website' | 'article';
+}
+const {
+  title, description,
+  image = '/assets/social/mikes-list-card.png',
+  imageAlt = 'Mike’s List — SF Bay Area Music Listings',
+  type = 'website',
+} = Astro.props;
+const imageUrl = new URL(image, Astro.site).href;
+// This project builds file-style routes, such as /mike-says/example.html.
+const pathname = Astro.url.pathname.replace(/\/$/, '');
+const pageUrl = new URL(pathname.endsWith('.html') ? pathname : `${pathname}.html`, Astro.site).href;
+---
+<meta property="og:type" content={type} />
+<meta property="og:site_name" content="Mike's List" />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={pageUrl} />
+<meta property="og:image" content={imageUrl} />
+<meta property="og:image:alt" content={imageAlt} />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={imageUrl} />
+<meta name="twitter:image:alt" content={imageAlt} />

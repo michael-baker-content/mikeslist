@@ -69,6 +69,8 @@ async function readEvents() {
 
 function isSuppressed(event) {
   if (exactIds.has(event.id)) return true;
+  // A saved canonical record can share the removed duplicate's fuzzy identity.
+  if (exactOverrides.has(event.id)) return false;
   return fuzzyKeys.has(eventSuppressionKey(event));
 }
 

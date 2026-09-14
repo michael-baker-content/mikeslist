@@ -67,6 +67,18 @@ See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-li
 
 Artist page enrichment validates Instagram and Facebook outbound links before URL cleanup. It accepts profile paths and excludes platform homepages, support/developer subdomains, login and other interface routes, and post/reel links. Facebook numeric profile IDs are preserved. Discovered profiles remain candidates for review; this filter does not remove previously saved links.
 
+Enrich Venue can fill missing coordinates from explicit place markers in verified Google Maps links, without a Google Places API lookup. It preserves existing coordinates and ignores map-camera positions or ambiguous links. Address-only and shortened links still require a successful lookup.
+
+Artist Review previews link ordering immediately when confidence, Show, priority, type, or label changes. It uses the same ordering as saved links and preserves unsaved form values; Save is still required to persist artist edits.
+
+### Artist Review draft protection
+
+Artist Review backs up unfinished form fields and link rows as you edit, using separate per-artist localStorage keys (`mikes-list-artist-form-draft-v1:`). Returning to an artist or reloading restores its draft. The selected artist, search, and filters are also remembered. Drafts include incomplete links and explicit visibility/priority choices.
+
+Draft snapshots never modify the shared artist store or call save APIs. They are not included in JavaScript exports, SQLite syncs, or another artist's save. Only an explicit **Save** submits the current form to the project. Enrichment, Spotify lookup, merge, and delete require the selected draft to be saved or discarded first. **Discard Draft** removes only that artist's draft and restores the saved record.
+
+Save checks the latest artist file and asks before replacing a record changed since the draft began. Failed saves retain the draft; new edits made while saving are also retained. Drafts are local to this browser and site address, and are lost if browser site data is cleared. Storage failures appear beside the form. Existing legacy browser save backups are separate from these drafts.
+
 ## Common Tasks
 
 Back up the current data files before risky cleanup or import work:
@@ -171,6 +183,10 @@ Useful admin areas include artist review, venue review, show review, source chec
 
 Show Review's Sort menu includes Venue (A–Z), which groups shows alphabetically by venue name, then orders shows at the same venue by date and title. It applies within the current search and filters.
 
+Use **New Show** in Show Review's main content area to create a listing. Enter a date, venue, and at least one artist for an artist show; new artist and venue names are allowed. Venue autocomplete suggests Verified and Likely venues, including their names and aliases; you can still type any new venue name. Other details and source links are optional. **Save Event** saves through the existing local workflow, creates associated artist/venue records, and syncs SQLite. The show becomes eligible for public listings on the next build and deployment. **Cancel New Show** discards the unsaved form.
+
+Manually created shows use **Mike** as their source and can be found with the **Mike** source filter. An optional reference link does not change that attribution. Merging imported information retains Mike alongside the imported source credits. Manually created shows have stable independent IDs. Imports retain them and keep matching imported listings separate for review; automatic classification, category pruning, and automatic duplicate merging leave manual shows alone. Explicit past-date pruning still applies. To combine a manual show and an imported match, use the duplicate merge tools. The manual show is kept regardless of which direction you select: its filled-in text takes priority, missing fields are filled, and artist/source lists are combined. The canonical result is saved as a SQLite override, and the removed duplicate is suppressed on subsequent refreshes. Different-date merges still display a warning.
+
 Show Explorer marks Mike's Picks with a compact white checkmark in a blue circle over the show image. The badge retains a "Mike's Pick" tooltip and accessible label.
 
 Capitalization edits in Show Review's artist list are preserved when saving, while keeping the existing lineup artist's other details. These edits apply to that show's lineup; the shared artist profile is managed in Artist Review.
@@ -234,6 +250,27 @@ Mike's List currently works with listings from:
 These sources have different strengths. The List is especially useful for music listings, and KALX adds curated weekly calendar coverage.
 
 ## Deployment Notes
+
+### Social link previews
+
+All HTML pages include Open Graph and X/Twitter large-card metadata in their initial HTML. Mike Says uses `src/components/SocialMeta.astro` through its shared layout; published articles use their own titles, descriptions, URLs, and the article type.
+
+The default placeholder is `assets/social/mikes-list-card.png` (1200 × 630 pixels). Replace that file with your own PNG at the same path to change the default preview everywhere. Keep important text away from the edges. The build copies the image into the deployed site automatically.
+
+To use a different image on a static HTML page, change both `og:image` and `twitter:image` in that page's `<head>` to the image's full `https://mikeslist.xyz/assets/social/...` URL. Update both image-alt tags as well. JPG and PNG are suitable; the metadata omits fixed image dimensions so a replacement does not inherit incorrect values.
+
+For a Mike Says article, add these optional fields to its Markdown front matter:
+
+```yaml
+ogImage: "/assets/social/my-article-card.jpg"
+ogImageAlt: "Description of the article's preview image"
+```
+
+Put that image in `assets/social/`. An HTTPS image URL also works. Omit the fields to use the default card. The Mike Says landing page uses the default card; its image can be changed by passing `ogImage` and `ogImageAlt` to `BlogLayout` in `src/pages/mike-says.astro`.
+
+Artist and venue query-string links currently share generic Artist and Venue previews. Their individual records are rendered in the browser, so record-specific crawler previews would require generating individual HTML pages or server-rendered metadata. Admin pages have generic tool descriptions; sites requiring login may show the login preview to social crawlers.
+
+Run `npm run build`, then deploy before testing shared links. Social services fetch the live site and may cache old previews; a new image filename can help when replacing a previously shared image. Draft blog articles remain excluded from the build.
 
 The public pages can be served as static files. Netlify Functions provide live login/session endpoints and Spotify artist lookup for Artist Review, but normal data-file saves still depend on the local Node server in `scripts/dev-server.mjs`.
 

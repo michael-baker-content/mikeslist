@@ -404,6 +404,7 @@ function labelForType(type = "official") {
 }
 
 function selectArtist(id) {
+  captureArtistDraft();
   state.selectedId = id;
   const artist = artistStore.artists[id];
   if (!artist) return;
@@ -439,6 +440,7 @@ function selectArtist(id) {
   }
   appearances.forEach((show) => fields.appearances.append(createAppearanceRow(artist, show)));
 
+  restoreArtistDraft(artist);
   renderQueue();
 }
 
@@ -646,6 +648,7 @@ function artistPlaceholderFromReview(artist) {
 }
 
 async function mergeSelectedArtist() {
+  if (!requireSavedArtistDraft()) return;
   const source = artistStore.artists[state.selectedId];
   const targetId = fields.mergeArtist.value;
   const target = artistStore.artists[targetId];
@@ -903,6 +906,7 @@ async function persistEvents() {
 }
 
 async function deleteSelectedArtist() {
+  if (!requireSavedArtistDraft()) return;
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
 
@@ -943,34 +947,25 @@ function removeDeletedArtistAliases(artist) {
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
-  const artist = artistStore.artists[state.selectedId];
-  if (!artist) return;
-
-  artist.confidence = fields.confidence.value;
-  artist.displayName = fields.displayName.value.trim();
-  artist.locality = fields.locality.value.trim() || "unknown";
-  artist.genres = splitTaxonomyList(fields.genres.value);
-  artist.imageUrl = fields.imageUrl.value.trim();
-  artist.imageSource = cleanImageSource(fields.imageSource.value);
-  artist.spotifyLookupDisabled = fields.spotifyLookupDisabled.checked;
-  delete artist.tags;
-  artist.supportPriority = supportPriorityForLinks(artist.links);
-  artist.summary = fields.summary.value.trim();
-  artist.links = readLinkEditor();
-  if (artist.spotifyLookupDisabled) {
-    artist.links = artist.links.filter((link) => link.source !== "spotify-api");
-    delete artist.spotifyImageUrl;
-    delete artist.spotifyMatch;
+  const button = form.querySelector('button[type="submit"]');
+  if (button.disabled) return;
+  button.disabled = true;
+  try {
+    await saveCurrentArtist();
+  } finally {
+    button.disabled = false;
   }
-  artist.supportPriority = supportPriorityForLinks(artist.links);
-  artist.reviewNotes = fields.note.value.trim();
-  markManuallyReviewed(artist);
-  delete artist.note;
-
-  await persist();
-  updateSummary();
-  selectArtist(artist.id);
 });
+
+form.addEventListener("input", captureArtistDraft);
+form.addEventListener("change", captureArtistDraft);
+form.addEventListener("click", () => queueMicrotask(captureArtistDraft));
+document.addEventListener("visibilitychange", () => {
+  if (document.hidden) { captureArtistDraft(); saveArtistReviewView(); }
+});
+window.addEventListener("pagehide", () => { captureArtistDraft(); saveArtistReviewView(); });
+document.addEventListener("change", saveArtistReviewView);
+document.addEventListener("input", saveArtistReviewView);
 
 function renderLinkEditor(links) {
   fields.links.replaceChildren();
@@ -1055,10 +1050,13 @@ function createLinkRow(link = {}) {
 
   type.addEventListener("change", () => {
     label.value = labelForType(type.value);
+    moveLinkRowToCorrectSection(row);
   });
+  label.addEventListener("change", () => moveLinkRowToCorrectSection(row));
   url.addEventListener("change", () => {
     if (!type.value || type.value === "other") type.value = inferLinkType(url.value);
     if (!label.value || label.value === "Link") label.value = labelForType(type.value);
+    moveLinkRowToCorrectSection(row);
   });
   confidence.addEventListener("change", () => {
     row.classList.toggle("rejected", confidence.value === "rejected");
@@ -1067,9 +1065,11 @@ function createLinkRow(link = {}) {
   });
   display.addEventListener("change", () => {
     row.dataset.displayOverride = "true";
+    moveLinkRowToCorrectSection(row);
   });
   priority.addEventListener("change", () => {
     row.dataset.priorityOverride = "true";
+    moveLinkRowToCorrectSection(row);
   });
   remove.addEventListener("click", () => row.remove());
 
@@ -1143,11 +1143,26 @@ function confidenceRank(confidence = "candidate") {
 }
 
 function moveLinkRowToCorrectSection(row) {
+  const focused = document.activeElement;
   const confidence = row.querySelector(".link-confidence").value;
   const target = confidence === "rejected" ? fields.rejectedLinks : fields.links;
   if (row.parentElement !== target) {
     target.append(row);
   }
+
+  // Move existing rows so unsaved inputs and explicit display choices survive.
+  const sortValue = (item) => ({
+    type: item.querySelector(".link-type").value,
+    label: item.querySelector(".link-label").value.trim(),
+    display: item.querySelector(".link-display").checked,
+    displayPriority: item.querySelector(".link-priority").value
+  });
+  for (const section of [fields.links, fields.rejectedLinks]) {
+    [...section.querySelectorAll(".link-row")]
+      .sort((a, b) => sortLinksByLabel(sortValue(a), sortValue(b)))
+      .forEach(item => section.append(item));
+  }
+  if (focused && row.contains(focused)) focused.focus({ preventScroll: true });
 
   const rejectedCount = fields.rejectedLinks.querySelectorAll(".link-row").length;
   fields.rejectedCount.textContent = rejectedCount;
@@ -1159,6 +1174,8 @@ search.addEventListener("input", (event) => {
   syncArtistSelection();
 });
 
+const restoredReviewView = restoreArtistReviewView();
+search.value = state.query;
 fromDateInput.value = state.fromDate;
 toDateInput.value = state.toDate;
 
@@ -1206,10 +1223,7 @@ pickFilterButton?.addEventListener("click", () => {
   selectFirstVisibleArtistOrClear();
 });
 
-document.querySelector("#resetButton").addEventListener("click", () => {
-  if (state.selectedId) selectArtist(state.selectedId);
-  fields.saveStatus.textContent = "Reverted to last saved version";
-});
+document.querySelector("#resetButton").addEventListener("click", discardArtistDraft);
 
 document.querySelector("#addLinkButton").addEventListener("click", () => {
   fields.links.append(createLinkRow({ confidence: "candidate", source: "manual" }));
@@ -1222,18 +1236,12 @@ document.querySelector("#mergeArtistButton").addEventListener("click", mergeSele
 document.querySelector("#deleteArtistButton").addEventListener("click", deleteSelectedArtist);
 
 fields.spotifyLookupDisabled.addEventListener("change", () => {
-  if (state.selectedId) {
-    const artist = artistStore.artists[state.selectedId];
-    if (artist) {
-      artist.spotifyLookupDisabled = fields.spotifyLookupDisabled.checked;
-      if (artist.spotifyLookupDisabled) {
-        delete artist.spotifyImageUrl;
-        delete artist.spotifyMatch;
-      }
-      renderSpotifyMatchStatus(artist);
-      syncSpotifyLookupButton(artist);
-    }
-  }
+  const artist = artistStore.artists[state.selectedId];
+  if (!artist) return;
+  const preview = { ...artist, spotifyLookupDisabled: fields.spotifyLookupDisabled.checked };
+  if (preview.spotifyLookupDisabled) { delete preview.spotifyImageUrl; delete preview.spotifyMatch; }
+  renderSpotifyMatchStatus(preview);
+  syncSpotifyLookupButton(preview);
 });
 
 spotifyLookupButton.addEventListener("click", async () => {
@@ -1250,8 +1258,7 @@ spotifyLookupButton.addEventListener("click", async () => {
   }
 
   clearSpotifyErrorDetails();
-  fields.saveStatus.textContent = "Saving before Spotify lookup...";
-  await saveCurrentArtist();
+  if (!requireSavedArtistDraft()) return;
 
   spotifyLookupButton.disabled = true;
   const enrichmentName = artist.displayName || artist.name;
@@ -1274,7 +1281,7 @@ spotifyLookupButton.addEventListener("click", async () => {
     if (result.persisted) {
       localStorage.removeItem(STORE_KEY);
     } else {
-      persistArtistStore();
+      localStorage.setItem(STORE_KEY, JSON.stringify(artistStore));
     }
     fields.saveStatus.textContent = `Matched Spotify artist: ${result.artist.spotifyMatch?.name || result.artist.name}`;
     updateSummary();
@@ -1291,8 +1298,7 @@ enrichButton.addEventListener("click", async () => {
   const artist = artistStore.artists[state.selectedId];
   if (!artist) return;
 
-  fields.saveStatus.textContent = "Saving before enrichment...";
-  await saveCurrentArtist();
+  if (!requireSavedArtistDraft()) return;
 
   enrichButton.disabled = true;
   const enrichmentName = artist.displayName || artist.name;
@@ -1338,10 +1344,10 @@ document.querySelector("#exportButton").addEventListener("click", () => {
 });
 
 updateSummary();
-state.filter = preferredFilter();
+if (!restoredReviewView) state.filter = preferredFilter();
 renderVenueFilterOptions();
 syncFilterButtons();
-const first = visibleArtists()[0] || artists()[0];
+const first = artistStore.artists[state.selectedId] || visibleArtists()[0] || artists()[0];
 if (first) selectArtist(first.id);
 renderQueue();
 
@@ -1370,6 +1376,8 @@ function selectFirstVisibleArtistOrClear() {
 }
 
 function clearArtistSelection() {
+  captureArtistDraft();
+  activeDraftArtist = "";
   state.selectedId = "";
   fields.selectedName.textContent = "Choose an artist";
   fields.selectedConfidence.textContent = "review";
@@ -1384,8 +1392,14 @@ function clearArtistSelection() {
 }
 
 async function saveCurrentArtist() {
-  const artist = artistStore.artists[state.selectedId];
-  if (!artist) return;
+  captureArtistDraft();
+  const id = state.selectedId;
+  const original = artistStore.artists[id];
+  if (!original) return;
+  const artist = structuredClone(original);
+  const submittedDraft = JSON.stringify(snapshotArtistForm());
+  const base = draftBase;
+  fields.saveStatus.textContent = "Saving artist...";
 
   artist.confidence = fields.confidence.value;
   artist.displayName = fields.displayName.value.trim();
@@ -1407,7 +1421,43 @@ async function saveCurrentArtist() {
   markManuallyReviewed(artist);
   delete artist.note;
 
-  await persist();
+  try {
+    // Read the latest store so saving one artist cannot publish another artist's draft
+    // or replace unrelated edits made since this page loaded.
+    const latestResponse = await fetch("data/artists.js", { cache: "no-store" });
+    if (!latestResponse.ok) throw new Error("Could not check the latest saved artist data.");
+    const text = await latestResponse.text();
+    const match = text.match(/window\.SHOW_EXPLORER_ARTISTS\s*=\s*([\s\S]*);\s*$/);
+    if (!match) throw new Error("Could not read the latest saved artist data.");
+    const latest = JSON.parse(match[1]);
+    if (!latest.artists[id]) throw new Error("This artist was removed from the saved data. Your draft is retained.");
+    if (JSON.stringify(latest.artists[id]) !== base && !window.confirm("The saved artist changed since this draft began. Replace that artist's saved fields with your current form? Cancel keeps your draft without saving.")) return;
+    const payload = { ...latest, generatedAt: new Date().toISOString(), artists: { ...latest.artists, [id]: artist } };
+    const response = await fetch("/api/artists", {
+      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
+    });
+    if (!response.ok) throw new Error("File save failed. Your draft remains in this browser.");
+    artistStore.artists = payload.artists;
+    artistStore.generatedAt = payload.generatedAt;
+    // Retain edits made while the save was in flight.
+    if (activeDraftArtist === id) {
+      cleanDraftForm = submittedDraft;
+      draftBase = JSON.stringify(artist);
+      captureArtistDraft();
+    }
+    const draft = readArtistDraft(id);
+    if (!draft || JSON.stringify(draft.snapshot) === submittedDraft) {
+      localStorage.removeItem(ARTIST_DRAFT_PREFIX + id);
+      if (activeDraftArtist === id) {
+        activeDraftArtist = "";
+        selectArtist(id);
+      }
+    }
+    fields.saveStatus.textContent = "Artist saved to project files.";
+    updateSummary();
+  } catch (error) {
+    fields.saveStatus.textContent = error.message || "Save failed; draft retained in this browser.";
+  }
 }
 
 function markManuallyReviewed(artist) {

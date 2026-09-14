@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 }
 const { post } = Astro.props;
 ---
-<BlogLayout title={post.data.title} description={post.data.description}>
+<BlogLayout title={post.data.title} description={post.data.description || 'Weekly notes on Bay Area music from Mike’s List.'} ogImage={post.data.ogImage} ogImageAlt={post.data.ogImageAlt} article>
   <p><a class="source-link" href="/mike-says.html">← All Mike Says articles</a></p>
   <Article post={post} />
 </BlogLayout>

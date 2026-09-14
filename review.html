@@ -7,6 +7,19 @@
     <title>Artist Review - Mike's List</title>
     <script src="assets/theme.js"></script>
     <link rel="stylesheet" href="assets/styles.css">
+    <!-- Social preview: replace image URLs here for a page-specific card. -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mike's List">
+    <meta property="og:title" content="Artist Review - Mike's List">
+    <meta property="og:description" content="Artist review tools for Mike's List.">
+    <meta property="og:url" content="https://mikeslist.xyz/review.html">
+    <meta property="og:image" content="https://mikeslist.xyz/assets/social/mikes-list-card.png">
+    <meta property="og:image:alt" content="Mike's List — SF Bay Area Music Listings">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Artist Review - Mike's List">
+    <meta name="twitter:description" content="Artist review tools for Mike's List.">
+    <meta name="twitter:image" content="https://mikeslist.xyz/assets/social/mikes-list-card.png">
+    <meta name="twitter:image:alt" content="Mike's List — SF Bay Area Music Listings">
   </head>
   <body>
     <header class="topbar">
@@ -222,10 +235,11 @@
             <div class="form-actions">
               <button class="chip active" type="submit">Save Artist</button>
               <button id="enrichButton" class="chip" type="button">Enrich Artist</button>
-              <button id="resetButton" class="chip" type="button">Revert Form</button>
+              <button id="resetButton" class="chip" type="button">Discard Draft</button>
               <button id="deleteArtistButton" class="chip danger-chip" type="button">Delete Artist</button>
               <button id="clearLocalButton" class="chip danger-chip" type="button">Clear Browser Store</button>
               <span id="saveStatus" class="save-status" aria-live="polite"></span>
+              <span id="draftStatus" class="save-status" aria-live="polite"></span>
             </div>
           </form>
 
@@ -241,6 +255,7 @@
     <script src="data/artists.js"></script>
     <script src="assets/nav.js"></script>
     <script src="assets/auth.js"></script>
+    <script src="assets/artist-drafts.js"></script>
     <script src="assets/review.js"></script>
   </body>
 </html>

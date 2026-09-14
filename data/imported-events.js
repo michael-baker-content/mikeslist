@@ -90083,5 +90083,183 @@ window.SHOW_EXPLORER_EVENTS = [
     "mikesPick": false,
     "infoUrl": "",
     "imageUrl": ""
+  },
+  {
+    "id": "manual-0ade7528-887e-499e-a240-f2a00d2d99bb",
+    "manuallyCreated": true,
+    "date": "2026-10-02",
+    "venue": "Purple House",
+    "showType": "artist",
+    "artists": [
+      {
+        "name": "Playground",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Playground%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      },
+      {
+        "name": "Ex Deux Machina",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Ex%20Deux%20Machina%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      },
+      {
+        "name": "Dutti",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22Dutti%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      }
+    ],
+    "eventTypes": [],
+    "source": {
+      "name": "Mike",
+      "url": ""
+    },
+    "sources": [
+      {
+        "name": "Mike",
+        "url": ""
+      },
+      {
+        "name": "Source",
+        "url": "https://www.instagram.com/p/Dct1IE8SsUf"
+      }
+    ],
+    "createdAt": "2026-09-14T15:56:32.229Z",
+    "venueId": "purple-house",
+    "title": "Playground, Ex Deux Machina, Dutti",
+    "displayName": "",
+    "details": "a/a $10 7pm NOTAFLOF",
+    "eventDescription": "if you’re ready to get real emo…",
+    "mikesPick": false,
+    "sourceUrl": "https://www.instagram.com/p/Dct1IE8SsUf",
+    "infoUrl": "https://www.instagram.com/p/Dct1IE8SsUf",
+    "imageUrl": "",
+    "imageSource": ""
+  },
+  {
+    "id": "manual-d0e93dd4-5b28-4cbc-8737-eeeb5bf02380",
+    "manuallyCreated": true,
+    "date": "2026-09-19",
+    "venue": "Bric-a-Brac",
+    "showType": "artist",
+    "artists": [
+      {
+        "name": "blowupdoll",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22blowupdoll%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      },
+      {
+        "name": "LottoRPG",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22LottoRPG%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      },
+      {
+        "name": "HLLLYH",
+        "tags": [
+          "unknown"
+        ],
+        "locality": "unknown",
+        "confidence": "review",
+        "note": "",
+        "links": [
+          {
+            "label": "Search",
+            "url": "https://duckduckgo.com/?q=%22HLLLYH%22%20band%20music",
+            "type": "search",
+            "confidence": "research",
+            "source": "manual"
+          }
+        ]
+      }
+    ],
+    "eventTypes": [],
+    "source": {
+      "name": "Mike",
+      "url": ""
+    },
+    "sources": [
+      {
+        "name": "Mike",
+        "url": ""
+      },
+      {
+        "name": "Source",
+        "url": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl"
+      }
+    ],
+    "createdAt": "2026-09-14T16:57:22.868Z",
+    "venueId": "bric-a-brac",
+    "title": "",
+    "displayName": "",
+    "details": "a/a 7pm cheap",
+    "eventDescription": "a/a 7pm cheap",
+    "mikesPick": false,
+    "sourceUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl",
+    "infoUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl",
+    "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t51.82787-15/810384207_18616281229027630_4913209938134766711_n.jpg?stp=dst-jpg_tt6&cstp=mx1867x2489&ctp=s1867x2489&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u3ivp3MNBoAQ7kNvwEJQuv2&_nc_oc=AdqsP67HG89bTTmttay5VT3oHnMGG3RuKYJ0q9ontVjVUXo8xaqgha_dU-GWKC21Ed0&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5Hh7NYqn8jaJiti-12DWyw&_nc_ss=7b2a8&oh=00_AQLTQBFpt0UCQZkEQajHjFt1R8WXVxfmq0ZMMtUj55cptw&oe=6AADDC0E",
+    "imageSource": "Tim Byron"
   }
 ];

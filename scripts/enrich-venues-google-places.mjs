@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { applyVerifiedMapCoordinates } from "./venue-map-coordinates.mjs";
 
 const VENUES_PATH = new URL("../data/venues.js", import.meta.url);
 const ENV_PATH = new URL("../.env", import.meta.url);
@@ -454,10 +455,6 @@ function isUsableAddress(address = "") {
 
 const env = await readEnv(ENV_PATH);
 const apiKey = env.GOOGLE_PLACES_API_KEY || "";
-if (!apiKey) {
-  console.log("Google Places enrichment skipped: GOOGLE_PLACES_API_KEY is not set in .env.");
-  process.exit(0);
-}
 
 const store = await readWindowData(VENUES_PATH, "SHOW_EXPLORER_VENUES", { venues: {} });
 const candidates = Object.values(store.venues || {})
@@ -468,6 +465,21 @@ const candidates = Object.values(store.venues || {})
 
 let enriched = 0;
 let changed = 0;
+
+for (const venue of candidates) {
+  if (applyVerifiedMapCoordinates(venue)) {
+    changed += 1;
+    console.log(`Coordinates extracted from verified Maps link for ${venue.name}.`);
+  }
+}
+if (!apiKey) {
+  if (changed) {
+    store.generatedAt = new Date().toISOString();
+    await writeFile(VENUES_PATH, `window.SHOW_EXPLORER_VENUES = ${JSON.stringify(store, null, 2)};\n`, "utf8");
+  }
+  console.log("Google Places lookup skipped: GOOGLE_PLACES_API_KEY is not set in .env.");
+  process.exit(0);
+}
 
 for (const venue of candidates) {
   try {

@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-09-09T02:24:11.153Z",
+  "generatedAt": "2026-09-14T18:54:18.843Z",
   "venues": {
     "49": {
       "id": "49",
@@ -52,7 +52,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-49-er-stadium-bruno-mars",
@@ -713,7 +713,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.270Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-19-2708-channing-way-playground",
@@ -1036,7 +1036,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.848Z",
         "appearances": [
           {
             "eventId": "2026-09-11-4-star-theater-gordi-gracie-and-rachel",
@@ -1203,7 +1203,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-09T02:24:11.104Z",
+        "lastImportedAt": "2026-09-14T17:02:23.804Z",
         "appearances": [
           {
             "eventId": "2026-09-11-4th-corner-speakeasy-westerly",
@@ -1563,7 +1563,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-09-10-9-lives-warehouse-holokaust",
@@ -1629,7 +1629,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-11-924-gilman-worst-decades-in-midori-dolores-the-american-dream-deadringer",
@@ -1695,7 +1695,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.292Z",
-        "lastImportedAt": "2026-09-09T02:24:11.136Z",
+        "lastImportedAt": "2026-09-14T17:02:23.835Z",
         "appearances": [
           {
             "eventId": "2026-10-25-924-gilman-and-gilman-brewing-cross-checked",
@@ -1799,7 +1799,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.910Z",
-        "lastImportedAt": "2026-09-09T02:24:11.135Z",
+        "lastImportedAt": "2026-09-14T17:02:23.834Z",
         "appearances": [
           {
             "eventId": "2026-10-24-above-dna-lounge-warumono",
@@ -2224,7 +2224,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-12-almanac-adventureland-puppet-wars",
@@ -2539,7 +2539,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.288Z",
-        "lastImportedAt": "2026-09-09T02:24:11.131Z",
+        "lastImportedAt": "2026-09-14T17:02:23.830Z",
         "appearances": [
           {
             "eventId": "2026-10-17-apple-jacks-bar-bernal-equinox",
@@ -2769,7 +2769,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.150Z",
+        "lastImportedAt": "2026-09-14T17:02:23.848Z",
         "appearances": [
           {
             "eventId": "2026-09-26-arena-shreya-ghoshal",
@@ -3044,7 +3044,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ashkenaz-balkan-folk-dance",
@@ -3339,7 +3339,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.152Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-11-august-hall-asal",
@@ -3872,7 +3872,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-09-09T02:24:11.109Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-16-band-shell-indestructible",
@@ -4119,7 +4119,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-09T02:24:11.126Z",
+        "lastImportedAt": "2026-09-14T17:02:23.826Z",
         "appearances": [
           {
             "eventId": "2026-10-09-barrel-proof-lounge-menstrual-cramps",
@@ -4717,7 +4717,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-12-benders-party-force-magic-eye",
@@ -4957,7 +4957,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.098Z",
+        "lastImportedAt": "2026-09-14T17:02:23.799Z",
         "appearances": [
           {
             "eventId": "2026-09-08-bill-graham-civic-auditorium-wave-to-earth",
@@ -5251,7 +5251,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.152Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-11-bimbo-s-365-club-super-diamond",
@@ -5593,7 +5593,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.840Z",
         "appearances": [
           {
             "eventId": "2026-09-08-biscuits-and-blues-the-west-coast-blues-revue",
@@ -5652,20 +5652,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Bistro",
       "displayName": "The Bistro",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "occasional",
       "venueType": "restaurant",
       "city": "Hayward",
-      "region": "",
+      "region": "East Bay",
       "address": "1001 B St, Hayward, CA, United States, 94541-4107",
       "imageUrl": "https://www.bayareaopenmics.com/assets/venue/HAYWARDBISTRO_VEN_facade.jpeg",
       "imageSource": "bayareaopenmics.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.6728557,
+        "longitude": -122.082441
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The Bistro has been Hayward’s pub home for great craft beer, live music every day, beer festivals, fine wine, great appetizers and warm memories.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -5693,12 +5696,81 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=10847047895152902717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thebistro.hayward/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://the-bistro.com/",
+          "display": true,
+          "displayPriority": "secondary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/thebistro.hayward/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://the-bistro.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/thebistro2",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://the-bistro.com/",
+          "display": false
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://yelp.com/biz/hRUoS-RRYV_f9jWJsY_s3w/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://the-bistro.com/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=10847047895152902717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10847047895152902717&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://the-bistro.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://the-bistro.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://the-bistro.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-09-09T02:24:11.109Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-16-bistro-cloud-collector",
@@ -5708,6 +5780,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-14T18:54:18.803Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://the-bistro.com/",
+        "source": "official"
       }
     },
     "black-bird-bookstore-and-cafe": {
@@ -5877,7 +5955,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.150Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-09-black-cat-king-david",
@@ -6168,7 +6246,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.850Z",
         "appearances": [
           {
             "eventId": "2027-01-04-blue-laggon-apricot-court",
@@ -6307,7 +6385,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.117Z",
+        "lastImportedAt": "2026-09-14T17:02:23.817Z",
         "appearances": [
           {
             "eventId": "2026-09-26-blue-lagoon-culo-a-boca",
@@ -6742,7 +6820,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.102Z",
+        "lastImportedAt": "2026-09-14T17:02:23.802Z",
         "appearances": [
           {
             "eventId": "2026-09-09-boom-boom-room-jeff-cotton-s-gin-joint",
@@ -6946,7 +7024,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band",
@@ -7471,18 +7549,21 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Bric-a-Brac",
       "displayName": "Bric-a-Brac",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "occasional",
       "venueType": "art gallery",
       "city": "San Francisco",
       "region": "SF",
-      "address": "178 Leland Ave",
+      "address": "178 Leland Ave, San Francisco, CA 94134",
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.7125849,
+        "longitude": -122.4068482
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -7512,12 +7593,39 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/Bricabrac/@37.7125849,-122.4090369,17z/data=!4m15!1m8!3m7!1s0x808f7ed961124a97:0x2acfaa12fd4a8191!2s178+Leland+Ave,+San+Francisco,+CA+94134!3b1!8m2!3d37.7125849!4d-122.4068482!16s%2Fg%2F11xfqz2byq!3m5!1s0x808f7f001f491d67:0x3dfdda4559940e2c!8m2!3d37.7125849!4d-122.4068482!16s%2Fg%2F11zfs8jbdd?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/bric-a-brac-san-francisco-2",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.instagram.com/bricabracofsanfrancisco",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.google.com/maps/place/Bricabrac/@37.7125849,-122.4090369,17z/data=!4m15!1m8!3m7!1s0x808f7ed961124a97:0x2acfaa12fd4a8191!2s178+Leland+Ave,+San+Francisco,+CA+94134!3b1!8m2!3d37.7125849!4d-122.4068482!16s%2Fg%2F11xfqz2byq!3m5!1s0x808f7f001f491d67:0x3dfdda4559940e2c!8m2!3d37.7125849!4d-122.4068482!16s%2Fg%2F11zfs8jbdd?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the verified Google Maps link."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-09T02:24:11.117Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-18-bric-a-brac-bat-noise",
@@ -7532,9 +7640,17 @@ window.SHOW_EXPLORER_VENUES = {
             "title": "Yam / Ex-Juncos / Deep Space",
             "details": "a/a $12 8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
+          },
+          {
+            "eventId": "manual-d0e93dd4-5b28-4cbc-8737-eeeb5bf02380",
+            "date": "2026-09-19",
+            "title": "blowupdoll / LottoRPG / HLLLYH",
+            "details": "a/a 7pm cheap",
+            "sourceUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-14T18:35:34.099Z"
     },
     "brick-and-038-mortar-music-hall": {
       "id": "brick-and-038-mortar-music-hall",
@@ -7738,7 +7854,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.147Z",
+        "lastImportedAt": "2026-09-14T17:02:23.845Z",
         "appearances": [
           {
             "eventId": "2026-09-20-brick-and-mortar-bird",
@@ -7867,7 +7983,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-11-brick-and-mortar-music-hall-cuva-bim-the-lighting-section-soft-circuit",
@@ -8380,7 +8496,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.138Z",
+        "lastImportedAt": "2026-09-14T17:02:23.837Z",
         "appearances": [
           {
             "eventId": "2026-09-12-cafe-du-nord-dent-may",
@@ -8884,7 +9000,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-19-caravan-lounge-facekicker",
@@ -8956,7 +9072,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.149Z",
-        "lastImportedAt": "2026-09-09T02:24:11.110Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-18-carnalitos-customs-hemmed-up",
@@ -9047,7 +9163,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.152Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-14-castro-haute-and-freddy",
@@ -9582,7 +9698,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-09T02:24:11.144Z",
+        "lastImportedAt": "2026-09-14T17:02:23.843Z",
         "appearances": [
           {
             "eventId": "2026-09-09-castro-theater-legend-w-live-performance-by-trixxie-carr",
@@ -9835,7 +9951,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.152Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-17-catalyst-the-growlers",
@@ -10001,7 +10117,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.116Z",
+        "lastImportedAt": "2026-09-14T17:02:23.816Z",
         "appearances": [
           {
             "eventId": "2026-09-09-catalyst-atrium-pawpaw-rod",
@@ -10232,7 +10348,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-11-center-for-new-music-alex-heigl-nora-free-chris-trinidad-ian-mackenzie",
@@ -10436,7 +10552,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-10-chapel-pink-breath-of-heaven",
@@ -10911,7 +11027,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.131Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-09-20-chapel-outdoor-state-travie-bobbito",
@@ -10963,7 +11079,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.104Z",
-        "lastImportedAt": "2026-09-09T02:24:11.101Z",
+        "lastImportedAt": "2026-09-14T17:02:23.801Z",
         "appearances": [
           {
             "eventId": "2026-09-09-chase-center-weezer-the-shins-silversun-pickups",
@@ -11352,7 +11468,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-12-church-of-clown-clown-burlesque-extravaganza-cabaret",
@@ -11456,7 +11572,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -11631,7 +11747,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.848Z",
         "appearances": [
           {
             "eventId": "2026-09-19-civic-auditorium-steve-aoki",
@@ -11767,7 +11883,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.144Z",
+        "lastImportedAt": "2026-09-14T17:02:23.843Z",
         "appearances": [
           {
             "eventId": "2026-11-14-civic-center-rodrigo-y-gabriela",
@@ -12031,7 +12147,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.991Z",
-        "lastImportedAt": "2026-09-09T02:24:11.102Z",
+        "lastImportedAt": "2026-09-14T17:02:23.803Z",
         "appearances": [
           {
             "eventId": "2026-09-10-cloverfield-organic-farm-powerhouse-ladies",
@@ -12812,7 +12928,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.847Z",
         "appearances": [
           {
             "eventId": "2026-10-02-cornerstone-jesse-barrera",
@@ -13191,7 +13307,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-09T02:24:11.143Z",
+        "lastImportedAt": "2026-09-14T17:02:23.842Z",
         "appearances": [
           {
             "eventId": "2026-10-16-cow-palace-dom-dolla",
@@ -13264,7 +13380,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-11-creek-park-moonalice",
@@ -13484,7 +13600,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.847Z",
         "appearances": [
           {
             "eventId": "2026-10-01-crepe-place-color-green",
@@ -13738,7 +13854,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-11-crybaby-lil-kayla",
@@ -13815,7 +13931,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-09T02:24:11.117Z",
+        "lastImportedAt": "2026-09-14T17:02:23.817Z",
         "appearances": [
           {
             "eventId": "2026-09-25-curran-theater-laurie-anderson",
@@ -13925,7 +14041,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.840Z",
         "appearances": [
           {
             "eventId": "2026-09-12-danny-murry-s-12-steps-to-nothing",
@@ -14308,7 +14424,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-08-davies-symphony-hall-samara-joy-with-the-sf-symphony",
@@ -14836,42 +14952,46 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [
         "Discovery Museum"
       ],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "seasonal",
+      "venueType": "park",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "180 Woz Way, San Jose, California",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8HOkPAhkPzdqDZKp7eu2aByV5p6sYpVLF7obbtVdPzZTMIHnJiHZmyiLHaowr_z0pHBLsjb-ApS7Vd32X9MNkS3Lpv6mrEKGHZBCQ19_NB3IZF0dUm_pE8i3Tmgzd9jLaXH07KQ=s1360-w1360-h1020-rw",
+      "imageSource": "Alexander/Google",
       "phone": "",
       "geo": null,
-      "agePolicy": "unknown",
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Sprawling green lawn in San Jose used for music festivals and large events.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
         {
-          "type": "theList",
-          "label": "The List",
-          "url": "https://jon.luini.com/thelist/club.html#discovery_meadow",
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/discovery-meadow-san-jose",
           "confidence": "verified",
-          "source": "the list"
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         },
         {
-          "type": "search",
-          "label": "Search",
-          "url": "https://duckduckgo.com/?q=%22Discovery%20Meadow%22%20venue%20Bay%20Area%20music",
-          "confidence": "research",
-          "source": "imported"
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/180+Woz+Way,+San+Jose,+CA+95110/@37.326686,-121.8944857,17z/data=!4m6!3m5!1s0x808fccafca93bf07:0x1e3545fc03a7530!8m2!3d37.326686!4d-121.8919108!16s%2Fg%2F11bw3hym2r?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-discovery-meadow-keyshia-cole",
@@ -14881,7 +15001,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-14T18:17:16.908Z"
     },
     "discovery-museum": {
       "id": "discovery-museum",
@@ -14923,7 +15049,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-09-09T02:24:11.114Z",
+        "lastImportedAt": "2026-09-14T17:02:23.814Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
@@ -15105,7 +15231,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.120Z",
+        "lastImportedAt": "2026-09-14T17:02:23.819Z",
         "appearances": [
           {
             "eventId": "2026-09-09-dna-lounge-16-volt",
@@ -15523,7 +15649,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.902Z",
-        "lastImportedAt": "2026-09-09T02:24:11.104Z",
+        "lastImportedAt": "2026-09-14T17:02:23.805Z",
         "appearances": [
           {
             "eventId": "2026-09-11-downtown-point-richmond-the-anthony-paule-soul-orchestra-feat-willy-jordan-los-nadies",
@@ -15910,7 +16036,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-09T02:24:11.143Z",
+        "lastImportedAt": "2026-09-14T17:02:23.842Z",
         "appearances": [
           {
             "eventId": "2026-09-10-eagle-hellcatraz",
@@ -16249,7 +16375,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-09T02:24:11.110Z",
+        "lastImportedAt": "2026-09-14T17:02:23.810Z",
         "appearances": [
           {
             "eventId": "2026-09-10-el-rio-mint-glaze-joint-souls-amity-st",
@@ -16717,7 +16843,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-11-eli-s-mile-high-club-stay-out-bloodsugar-tess-and-the-details-fatale",
@@ -17294,7 +17420,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-09T02:24:11.135Z",
+        "lastImportedAt": "2026-09-14T17:02:23.834Z",
         "appearances": [
           {
             "eventId": "2026-10-24-faction-brewing-slacktone",
@@ -17311,20 +17437,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Faight",
       "displayName": "The Faight",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "occasional",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "475 Haight St",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlr1QJShunlT1rXt_Cbfv6mHG7ytoAEeaOI1kHF3WReN0g9lyCWWBoAdroeePwTXHQITx-FLOqp9-NhmzTUzUd2EMufmjzBYXJlqH1MRM0yTSnBef0g_4oYuaLgA-dbEyRWR2SAAqLYNtnG=s1360-w1360-h1020-rw",
+      "imageSource": "Philip Lott/Google",
       "phone": "",
       "geo": null,
       "agePolicy": "unknown",
       "capacity": "",
-      "summary": "",
+      "summary": "Artist cooperative and music venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -17333,14 +17459,16 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#faight",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Faight%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
         },
         {
           "type": "official",
@@ -17350,12 +17478,21 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/thefaightsf",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-09T02:24:11.117Z",
+        "lastImportedAt": "2026-09-14T17:02:23.817Z",
         "appearances": [
           {
             "eventId": "2026-09-25-faight-moondrops",
@@ -17365,7 +17502,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-14T18:20:00.003Z"
     },
     "fairgrounds": {
       "id": "fairgrounds",
@@ -17459,7 +17602,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-09T02:24:11.135Z",
+        "lastImportedAt": "2026-09-14T17:02:23.834Z",
         "appearances": [
           {
             "eventId": "2026-10-15-felton-music-hall-bumpin-uglies",
@@ -17680,22 +17823,25 @@ window.SHOW_EXPLORER_VENUES = {
     "fifty": {
       "id": "fifty",
       "name": "Fifty's Liquor",
-      "displayName": "Fifty's Liquor",
+      "displayName": "Fifty's Market And Liquor",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "occasional",
+      "venueType": "store",
+      "city": "Hayward",
+      "region": "East Bay",
+      "address": "27826 Mission Blvd, Hayward, CA 94544",
+      "imageUrl": "https://fiftysliquor.com/images/storefront_hu_2dc23713c41df0b.jpg",
+      "imageSource": "fiftysliquor.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.6403509,
+        "longitude": -122.0576611
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Stocks imported snacks, rare bottles, mixers and more ... plus occasional punk shows.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -17704,20 +17850,97 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#fifty",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Fifty's%20Liquor%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://fiftysliquor.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=12163192632207039782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/fiftysliquor/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://fiftysliquor.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://yelp.com/biz/fiftys-market-and-liquour-hayward?osq=Fiftys+Liquor",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://fiftysliquor.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/fiftysmarket/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://fiftysliquor.com/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=12163192632207039782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12163192632207039782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=12163192632207039782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://fiftysliquor.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://fiftysliquor.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://fiftysliquor.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://fiftysliquor.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-fifty-s-liquor-choke",
@@ -17727,6 +17950,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-14T18:25:27.683Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "fillmore": {
@@ -17912,7 +18141,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-13-fillmore-manchester-orchestra",
@@ -18432,7 +18661,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-09T02:24:11.105Z",
+        "lastImportedAt": "2026-09-14T17:02:23.805Z",
         "appearances": [
           {
             "eventId": "2026-09-10-fireside-lounge-don-balistreri",
@@ -18460,18 +18689,21 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "active",
+      "venueType": "space",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "2601 Adeline St., Oakland",
+      "imageUrl": "https://storage.ghost.io/c/75/ae/75ae44e9-a895-4fc6-ab69-476b77203965/content/images/size/w1000/2026/03/BZ5.jpeg",
+      "imageSource": "midbrow.org",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.8190691,
+        "longitude": -122.2829366
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Kent and Rebecca's little music venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -18488,12 +18720,38 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://jon.luini.com/thelist/club.html#first_church_of_the_buzzard",
           "confidence": "verified",
           "source": "the list"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/2601+Adeline+St,+Oakland,+CA+94607/@37.8190691,-122.2855115,16z/data=!3m1!4b1!4m6!3m5!1s0x80857e195182c415:0x48988f474e10ccbc!8m2!3d37.8190691!4d-122.2829366!16s%2Fg%2F11bw42zlv2?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.google.com/maps/place/2601+Adeline+St,+Oakland,+CA+94607/@37.8190691,-122.2855115,16z/data=!3m1!4b1!4m6!3m5!1s0x80857e195182c415:0x48988f474e10ccbc!8m2!3d37.8190691!4d-122.2829366!16s%2Fg%2F11bw42zlv2?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the verified Google Maps link."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4768295925748969951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4768295925748969951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4768295925748969951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-09-09T02:24:11.143Z",
+        "lastImportedAt": "2026-09-14T17:02:23.842Z",
         "appearances": [
           {
             "eventId": "2026-09-26-first-church-of-the-buzzard-silent-cities",
@@ -18510,6 +18768,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-14T18:34:54.531Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "first-congregational": {
@@ -18863,7 +19127,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-09T02:24:11.124Z",
+        "lastImportedAt": "2026-09-14T17:02:23.824Z",
         "appearances": [
           {
             "eventId": "2026-10-05-fml-studio-ingrata",
@@ -19025,7 +19289,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.107Z",
-        "lastImportedAt": "2026-09-09T02:24:11.105Z",
+        "lastImportedAt": "2026-09-14T17:02:23.805Z",
         "appearances": [
           {
             "eventId": "2026-09-11-fold-adrian-west-band",
@@ -19366,7 +19630,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-09-fox-theater-slayyyter",
@@ -19764,7 +20028,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-09-09T02:24:11.133Z",
+        "lastImportedAt": "2026-09-14T17:02:23.832Z",
         "appearances": [
           {
             "eventId": "2026-09-19-freight-t-sisters",
@@ -19868,7 +20132,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-09-09T02:24:11.132Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-09-19-frost-amphitheater-brandi-carlile",
@@ -20536,7 +20800,7 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "agePolicy": "all-ages",
       "capacity": "299",
-      "summary": "The Alternative Music Foundation, located at 924 Gilman Street, commonly referred to as 924 Gilman or simply Gilman, is a non-profit, all-ages, collectively organized music club. It is located in the West Berkeley area of Berkeley, California. Gilman is widely regarded as the springboard for the '90s punk revival.",
+      "summary": "A non-profit, all-ages, collectively organized music club. It is located in the West Berkeley area of Berkeley, California. Gilman is widely regarded as the springboard for the '90s punk revival.",
       "accessibilityNotes": "",
       "reviewNotes": "Alternative Music Foundation",
       "links": [
@@ -20659,7 +20923,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.146Z",
+        "lastImportedAt": "2026-09-14T17:02:23.845Z",
         "appearances": [
           {
             "eventId": "2026-09-09-gilman-yearn",
@@ -20802,7 +21066,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-14T18:36:09.419Z"
     },
     "gilman-brewing-co": {
       "id": "gilman-brewing-co",
@@ -20844,7 +21114,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-09T02:24:11.128Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -21044,7 +21314,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.280Z",
-        "lastImportedAt": "2026-09-09T02:24:11.123Z",
+        "lastImportedAt": "2026-09-14T17:02:23.823Z",
         "appearances": [
           {
             "eventId": "2026-09-13-golden-gate-park-flower-piano-in-the-garden",
@@ -21581,7 +21851,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-09T02:24:11.126Z",
+        "lastImportedAt": "2026-09-14T17:02:23.826Z",
         "appearances": [
           {
             "eventId": "2026-10-08-gray-area-eraserhead-xiu-xiu",
@@ -21774,7 +22044,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-09-great-american-music-hall-eihwar",
@@ -22330,7 +22600,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.826Z",
         "appearances": [
           {
             "eventId": "2026-10-09-great-northern-woo-york",
@@ -22427,7 +22697,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-09T02:24:11.101Z",
+        "lastImportedAt": "2026-09-14T17:02:23.802Z",
         "appearances": [
           {
             "eventId": "2026-09-09-greek-theater-liz-phair-sleater-kinney-soccer-mommy-solo",
@@ -22625,7 +22895,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.840Z",
         "appearances": [
           {
             "eventId": "2026-09-11-greek-theatre-foster-the-people-goth-babe",
@@ -23080,7 +23350,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-09T02:24:11.139Z",
+        "lastImportedAt": "2026-09-14T17:02:23.838Z",
         "appearances": [
           {
             "eventId": "2026-09-11-guild-theater-marcus-rezak-s-shread-is-dead",
@@ -23197,7 +23467,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-09T02:24:11.112Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-guitar-wars-dolores",
@@ -23301,7 +23571,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.114Z",
+        "lastImportedAt": "2026-09-14T17:02:23.814Z",
         "appearances": [
           {
             "eventId": "2026-09-20-haight-ashbury-street-fair-knights-of-molino",
@@ -23515,7 +23785,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-09T02:24:11.124Z",
+        "lastImportedAt": "2026-09-14T17:02:23.824Z",
         "appearances": [
           {
             "eventId": "2026-10-04-hardly-strictly-bluegrass-aj-lee-and-blue-summit",
@@ -23962,7 +24232,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.847Z",
         "appearances": [
           {
             "eventId": "2026-10-24-henry-j-kaiser-center-celtic-thunder",
@@ -24171,7 +24441,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.114Z",
+        "lastImportedAt": "2026-09-14T17:02:23.814Z",
         "appearances": [
           {
             "eventId": "2026-09-20-heshers-pizza-field-of-fear",
@@ -24710,7 +24980,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-hopmon-magic-sword",
@@ -24773,7 +25043,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.850Z",
         "appearances": [
           {
             "eventId": "2026-09-18-hopmonk-the-anton-collection",
@@ -25057,7 +25327,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-11-hopmonk-tavern-tainted-love",
@@ -25373,7 +25643,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-09T02:24:11.139Z",
+        "lastImportedAt": "2026-09-14T17:02:23.838Z",
         "appearances": [
           {
             "eventId": "2026-09-08-hotel-utah-open-bluegrass-jam",
@@ -25467,7 +25737,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.289Z",
-        "lastImportedAt": "2026-09-09T02:24:11.132Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-10-18-hotel-utah-saloon-scam-likely",
@@ -25802,7 +26072,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-17-independent-mustard-service",
@@ -26190,7 +26460,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.178Z",
-        "lastImportedAt": "2026-09-09T02:24:11.116Z",
+        "lastImportedAt": "2026-09-14T17:02:23.816Z",
         "appearances": [
           {
             "eventId": "2026-09-24-indpendent-wesghost",
@@ -26535,7 +26805,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.850Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ivy-room-scott-amendola-s-floating-parade",
@@ -26959,7 +27229,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-12-jade-cathey-resturant-indigo-elephant",
@@ -27288,7 +27558,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-09-jupiter-jazzschool-jam-wednesdays",
@@ -27411,7 +27681,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-09T02:24:11.130Z",
+        "lastImportedAt": "2026-09-14T17:02:23.830Z",
         "appearances": [
           {
             "eventId": "2026-10-02-jury-room-the-streetwalkin-cheetahs",
@@ -27619,7 +27889,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.894Z",
-        "lastImportedAt": "2026-09-09T02:24:11.101Z",
+        "lastImportedAt": "2026-09-14T17:02:23.802Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kerouac-alley-the-losin-streaks-anna-hillburg-the-wind-ups",
@@ -27714,7 +27984,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.247Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-09-keys-jazz-bistro-robert-kennedy-quartet",
@@ -27880,7 +28150,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.150Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kilowatt-arts-and-crafts-i-am-the-octopus-the-end",
@@ -28183,7 +28453,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.120Z",
+        "lastImportedAt": "2026-09-14T17:02:23.820Z",
         "appearances": [
           {
             "eventId": "2026-09-10-knockout-analog-africa-and-rasta-pasta-records-on-tour",
@@ -28284,7 +28554,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-09T02:24:11.132Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-10-18-knot-club-rainbow-girls",
@@ -28410,7 +28680,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.302Z",
-        "lastImportedAt": "2026-09-09T02:24:11.145Z",
+        "lastImportedAt": "2026-09-14T17:02:23.844Z",
         "appearances": [
           {
             "eventId": "2026-11-17-kuumbwa-jazz-center-john-caroll-kirby",
@@ -28624,7 +28894,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-24-lab-rrose",
@@ -29036,7 +29306,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-06T04:27:10.789Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-plaza-palooza-ruby-ibarra-and-the-balikbayans-red-lotus-afterthought-and-the-top-chefs",
@@ -29956,7 +30226,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.131Z",
+        "lastImportedAt": "2026-09-14T17:02:23.830Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mabuhay-gardens-bong-father-sonus-half-rotten-goddess-elegant-trash-cretins-life-span",
@@ -30747,7 +31017,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.150Z",
+        "lastImportedAt": "2026-09-14T17:02:23.848Z",
         "appearances": [
           {
             "eventId": "2026-09-13-masonic-polyphia",
@@ -31034,7 +31304,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-memorial-park-blind-illusion",
@@ -31223,7 +31493,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.136Z",
+        "lastImportedAt": "2026-09-14T17:02:23.835Z",
         "appearances": [
           {
             "eventId": "2026-09-12-meritage-resort-kenny-wayne-shepherd-band",
@@ -31479,7 +31749,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -31865,7 +32135,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-12-moe-s-alley-black-uhuru",
@@ -32345,7 +32615,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.175Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-father-john-mist",
@@ -32535,7 +32805,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.137Z",
+        "lastImportedAt": "2026-09-14T17:02:23.836Z",
         "appearances": [
           {
             "eventId": "2026-09-11-mountain-winery-jesse-mccartney",
@@ -32866,7 +33136,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.248Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mr-tipple-s-naama",
@@ -33043,7 +33313,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-09-09T02:24:11.136Z",
+        "lastImportedAt": "2026-09-14T17:02:23.835Z",
         "appearances": [
           {
             "eventId": "2026-09-30-music-hall-bella-white",
@@ -33147,7 +33417,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.290Z",
-        "lastImportedAt": "2026-09-09T02:24:11.133Z",
+        "lastImportedAt": "2026-09-14T17:02:23.832Z",
         "appearances": [
           {
             "eventId": "2026-10-20-mystic-theater-david-nail",
@@ -33517,7 +33787,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-10-neck-of-the-woods-st-l-g13-straggler-hell-bound-pound-fatale",
@@ -33618,7 +33888,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-09-09T02:24:11.127Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-new-farm-voice-of-the-soul",
@@ -33783,7 +34053,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-09T02:24:11.122Z",
+        "lastImportedAt": "2026-09-14T17:02:23.822Z",
         "appearances": [
           {
             "eventId": "2026-10-02-nikko-john-hill-at-feinstein-s",
@@ -34207,7 +34477,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season-alias-saving-disaster-follies",
@@ -34968,7 +35238,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-13-open-gallery-division-of-mind",
@@ -35430,7 +35700,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -35586,7 +35856,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-09T02:24:11.148Z",
+        "lastImportedAt": "2026-09-14T17:02:23.846Z",
         "appearances": [
           {
             "eventId": "2026-10-04-palace-of-fine-arts-yasmin-levy",
@@ -35726,7 +35996,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.002Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-18-papermill-creek-saloon-wreckless-strangers",
@@ -35778,7 +36048,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
@@ -36259,7 +36529,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-09T02:24:11.137Z",
+        "lastImportedAt": "2026-09-14T17:02:23.836Z",
         "appearances": [
           {
             "eventId": "2026-09-20-pavilion-rob-zombie",
@@ -36401,7 +36671,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-09T02:24:11.103Z",
+        "lastImportedAt": "2026-09-14T17:02:23.803Z",
         "appearances": [
           {
             "eventId": "2026-09-10-peacock-lounge-we-micromanage-infinity-dj-female-convict-scorpion-shatter-pattern-ron-heglin-and-lorin-benedict",
@@ -36735,7 +37005,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-12-phoenix-theater-punked-out-pretty",
@@ -36860,7 +37130,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.102Z",
-        "lastImportedAt": "2026-09-09T02:24:11.103Z",
+        "lastImportedAt": "2026-09-14T17:02:23.803Z",
         "appearances": [
           {
             "eventId": "2026-09-08-piedmont-piano-company-cosmo-alleycats",
@@ -36919,7 +37189,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-09T02:24:11.119Z",
+        "lastImportedAt": "2026-09-14T17:02:23.819Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
@@ -37102,7 +37372,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.908Z",
-        "lastImportedAt": "2026-09-09T02:24:11.132Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-10-08-planetarium-knights-of-molino",
@@ -37272,7 +37542,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-09T02:24:11.112Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-plaza-ice-t",
@@ -37376,7 +37646,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.281Z",
-        "lastImportedAt": "2026-09-09T02:24:11.123Z",
+        "lastImportedAt": "2026-09-14T17:02:23.823Z",
         "appearances": [
           {
             "eventId": "2026-10-03-point-emery-knights-of-molino",
@@ -37430,7 +37700,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-09T02:24:11.128Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-tribute",
@@ -37929,7 +38199,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-11-public-works-fatima-hajji",
@@ -37990,49 +38260,69 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Purple House",
       "displayName": "Purple House",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "occasional",
+      "venueType": "house",
+      "city": "Oakland",
+      "region": "CA",
+      "address": "5716 Genoa St, Oakland, CA 94608",
+      "imageUrl": "https://s.hdnux.com/photos/11/02/35/2369355/8/960x0.webp",
+      "imageSource": "SFGate",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.753127299999996,
+        "longitude": -122.4012846
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
         {
-          "type": "theList",
-          "label": "The List",
-          "url": "https://jon.luini.com/thelist/club.html#purple_house",
-          "confidence": "verified",
-          "source": "the list"
-        },
-        {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Purple%20House%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/purplehouselives",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/5716+Genoa+St,+Oakland,+CA+94608/@37.8423211,-122.2823747,15z/data=!3m1!4b1!4m6!3m5!1s0x80857e71475fae45:0x566e2b8c931a1966!8m2!3d37.8423215!4d-122.272075!16s%2Fg%2F11c4f22z01?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=826302847646024626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.138Z",
-        "lastImportedAt": "2026-06-18T23:33:52.339Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
-            "eventId": "2026-06-20-purple-house-holy-locust",
-            "date": "2026-06-20",
-            "title": "Holy Locust / Healers / Nasty World / Beafsteak",
-            "details": "a/a $10 7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
+            "eventId": "manual-0ade7528-887e-499e-a240-f2a00d2d99bb",
+            "date": "2026-10-02",
+            "title": "Playground, Ex Deux Machina, Dutti",
+            "details": "a/a $10 7pm NOTAFLOF",
+            "sourceUrl": "https://www.instagram.com/p/Dct1IE8SsUf"
           }
         ]
       }
@@ -38136,7 +38426,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-09-09T02:24:11.128Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-quarry-amphitheater-acid-bath",
@@ -38351,7 +38641,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.115Z",
+        "lastImportedAt": "2026-09-14T17:02:23.815Z",
         "appearances": [
           {
             "eventId": "2026-09-20-railroad-square-railroad-square-music-festival",
@@ -38455,7 +38745,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-09T02:24:11.116Z",
+        "lastImportedAt": "2026-09-14T17:02:23.816Z",
         "appearances": [
           {
             "eventId": "2026-09-24-rain-dog-records-silent-cities",
@@ -38679,7 +38969,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.900Z",
-        "lastImportedAt": "2026-09-09T02:24:11.103Z",
+        "lastImportedAt": "2026-09-14T17:02:23.803Z",
         "appearances": [
           {
             "eventId": "2026-09-10-redwood-grove-mirah",
@@ -38820,7 +39110,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-12-regency-ballroom-moms-feelin-themselves",
@@ -39242,7 +39532,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-09-09T02:24:11.138Z",
+        "lastImportedAt": "2026-09-14T17:02:23.837Z",
         "appearances": [
           {
             "eventId": "2026-10-30-revolution-cafe-creepy-crawlies",
@@ -39471,7 +39761,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-08-rickshaw-stop-the-bug-club",
@@ -40024,7 +40314,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-09T02:24:11.150Z",
+        "lastImportedAt": "2026-09-14T17:02:23.849Z",
         "appearances": [
           {
             "eventId": "2026-09-26-rio-theater-laurie-anderson",
@@ -40240,7 +40530,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-09T02:24:11.151Z",
+        "lastImportedAt": "2026-09-14T17:02:23.850Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ritz-hail-the-sun",
@@ -41496,7 +41786,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.146Z",
+        "lastImportedAt": "2026-09-14T17:02:23.845Z",
         "appearances": [
           {
             "eventId": "2026-10-08-san-jose-civic-center-the-living-tombstone",
@@ -41910,7 +42200,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.285Z",
-        "lastImportedAt": "2026-09-09T02:24:11.128Z",
+        "lastImportedAt": "2026-09-14T17:02:23.827Z",
         "appearances": [
           {
             "eventId": "2026-10-10-sf-building-resources-bite",
@@ -41955,7 +42245,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-10-sf-jazz-center-christian-mcbride",
@@ -42080,7 +42370,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.841Z",
         "appearances": [
           {
             "eventId": "2026-09-18-shark-tank-carin-leon",
@@ -42285,7 +42575,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-09T02:24:11.109Z",
+        "lastImportedAt": "2026-09-14T17:02:23.810Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -42426,7 +42716,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.137Z",
+        "lastImportedAt": "2026-09-14T17:02:23.836Z",
         "appearances": [
           {
             "eventId": "2026-10-02-shoreline-amphitheatre-hayley-williams",
@@ -42506,7 +42796,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-09-09T02:24:11.116Z",
+        "lastImportedAt": "2026-09-14T17:02:23.816Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
@@ -42558,7 +42848,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.031Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.840Z",
         "appearances": [
           {
             "eventId": "2026-11-07-shoreline-amptheater-dan-shay",
@@ -42610,7 +42900,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-09-09T02:24:11.121Z",
+        "lastImportedAt": "2026-09-14T17:02:23.821Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -42814,7 +43104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-09T02:24:11.136Z",
+        "lastImportedAt": "2026-09-14T17:02:23.835Z",
         "appearances": [
           {
             "eventId": "2026-09-12-siesta-valley-bowl-beats-antique",
@@ -43200,7 +43490,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.008Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-26-someplace-d-i",
@@ -43252,7 +43542,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.989Z",
-        "lastImportedAt": "2026-09-09T02:24:11.100Z",
+        "lastImportedAt": "2026-09-14T17:02:23.800Z",
         "appearances": [
           {
             "eventId": "2026-09-08-sonoma-plaza-jazz-mafia",
@@ -43518,7 +43808,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-09T02:24:11.122Z",
+        "lastImportedAt": "2026-09-14T17:02:23.822Z",
         "appearances": [
           {
             "eventId": "2026-09-11-spats-joel-cusumano",
@@ -43742,7 +44032,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-09T02:24:11.112Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-spire-katie-cash",
@@ -44150,7 +44440,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-09T02:24:11.118Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-11-starry-plough-margie-turner-and-the-outback-blues-band",
@@ -44229,7 +44519,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-09-09T02:24:11.131Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-09-11-stay-gold-deli-press-on-xtranos-must-be-nice-east-brothers-band",
@@ -44659,7 +44949,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-storefront-space-feet-fatigue-casey-adams-jordan-blankenship-hen-house-cruel-work-divine-feminine-parking-structure-dead-fern",
@@ -45370,7 +45660,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-09T02:24:11.125Z",
+        "lastImportedAt": "2026-09-14T17:02:23.825Z",
         "appearances": [
           {
             "eventId": "2026-09-11-swedish-american-hall-anaiis-elliott-skinner",
@@ -45518,7 +45808,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.141Z",
+        "lastImportedAt": "2026-09-14T17:02:23.840Z",
         "appearances": [
           {
             "eventId": "2026-09-09-sweetwater-music-hall-san-miguel-fraser",
@@ -45985,7 +46275,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.106Z",
-        "lastImportedAt": "2026-09-09T02:24:11.103Z",
+        "lastImportedAt": "2026-09-14T17:02:23.803Z",
         "appearances": [
           {
             "eventId": "2026-09-10-temescal-arts-center-henna-chou-matt-robidoux-aine-nakimura",
@@ -46710,7 +47000,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-back-room-m-nica-mar-a",
@@ -47146,7 +47436,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-chapel-pink-breath-of-heaven-topographies-christina-s-trip",
@@ -47309,7 +47599,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.100Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-deluxe-fault-line-trio",
@@ -47611,7 +47901,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.807Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-fillmore-public-image-ltd",
@@ -47818,7 +48108,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-09-the-freight-rumbo-tumba-el-pecado-de-juana",
@@ -48355,7 +48645,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-independent-pawpaw-rod-femdot",
@@ -48505,7 +48795,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-jazz-school-bob-kenmotsu-and-james-mahone-quartets",
@@ -48627,7 +48917,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-lab-heart-trio-william-parker-hamid-drake-cooper-moore",
@@ -48827,7 +49117,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.105Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-lost-church-j-camden-zach-bailey",
@@ -48950,7 +49240,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-09T02:24:11.101Z",
+        "lastImportedAt": "2026-09-14T17:02:23.802Z",
         "appearances": [
           {
             "eventId": "2026-09-09-the-marsh-cabaret-randy-craig-and-friends",
@@ -48995,7 +49285,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.898Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-masonic-ryan-beatty",
@@ -49482,7 +49772,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.105Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-planetarium-specialthanks-the-cyber-bullies-neverlyn",
@@ -49712,7 +50002,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:42:49.557Z",
-        "lastImportedAt": "2026-09-09T02:24:11.105Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-regency-slayyyter-pearly-drops",
@@ -49848,7 +50138,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.103Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-rite-spot-kitten-on-the-keys",
@@ -50232,7 +50522,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-sound-room-hot-club-sf-stella-heath",
@@ -50291,7 +50581,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-starry-plough-free-funk-glory-jams",
@@ -50741,7 +51031,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-warfield-bikini-kill-alice-bag",
@@ -50911,7 +51201,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-09T02:24:11.136Z",
+        "lastImportedAt": "2026-09-14T17:02:23.835Z",
         "appearances": [
           {
             "eventId": "2026-09-10-thee-stork-club-grex-naytronix-feefawfum",
@@ -51126,7 +51416,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-09T02:24:11.119Z",
+        "lastImportedAt": "2026-09-14T17:02:23.819Z",
         "appearances": [
           {
             "eventId": "2026-09-12-thrillhouse-records-animal-style",
@@ -51318,7 +51608,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-09T02:24:11.111Z",
+        "lastImportedAt": "2026-09-14T17:02:23.811Z",
         "appearances": [
           {
             "eventId": "2026-09-18-toot-s-tavern-the-sharps-removed",
@@ -51390,7 +51680,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-11-town-hall-plaza-talley-up",
@@ -51449,7 +51739,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-09T02:24:11.112Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-towne-cycles-backyard-string-skin-and-breath",
@@ -51942,7 +52232,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-18-uc-theater-cortex",
@@ -52190,7 +52480,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-09T02:24:11.107Z",
+        "lastImportedAt": "2026-09-14T17:02:23.808Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-theatre-kuma-sagar",
@@ -52294,7 +52584,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-09T02:24:11.114Z",
+        "lastImportedAt": "2026-09-14T17:02:23.812Z",
         "appearances": [
           {
             "eventId": "2026-09-19-ugra-deva-loka-blevin-blectum",
@@ -52651,7 +52941,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-09T02:24:11.131Z",
+        "lastImportedAt": "2026-09-14T17:02:23.831Z",
         "appearances": [
           {
             "eventId": "2026-09-12-up-the-creek-records-the-hummingbirds",
@@ -52965,7 +53255,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.152Z",
+        "lastImportedAt": "2026-09-14T17:02:23.851Z",
         "appearances": [
           {
             "eventId": "2026-09-19-uptown-theater-a-flock-of-seagulls",
@@ -53209,7 +53499,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.268Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-13-usf-s-mclaren-center-kusf-rock-n-swap-record-fair",
@@ -53350,7 +53640,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.138Z",
+        "lastImportedAt": "2026-09-14T17:02:23.838Z",
         "appearances": [
           {
             "eventId": "2026-09-19-vets-hall-ancient-rage",
@@ -53662,7 +53952,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-09T02:24:11.153Z",
+        "lastImportedAt": "2026-09-14T17:02:23.852Z",
         "appearances": [
           {
             "eventId": "2026-09-15-warfield-squeeze",
@@ -53903,7 +54193,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.276Z",
-        "lastImportedAt": "2026-09-09T02:24:11.119Z",
+        "lastImportedAt": "2026-09-14T17:02:23.818Z",
         "appearances": [
           {
             "eventId": "2026-09-26-warrior-s-stadium-lionel-richie",
@@ -53955,7 +54245,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-09-09T02:24:11.128Z",
+        "lastImportedAt": "2026-09-14T17:02:23.828Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -54117,7 +54407,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-09T02:24:11.149Z",
+        "lastImportedAt": "2026-09-14T17:02:23.847Z",
         "appearances": [
           {
             "eventId": "2026-10-07-warriors-stadium-rob-wave",
@@ -54256,7 +54546,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-09T02:24:11.115Z",
+        "lastImportedAt": "2026-09-14T17:02:23.815Z",
         "appearances": [
           {
             "eventId": "2026-09-20-washington-park-chris-cain-5pm",
@@ -54897,7 +55187,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.995Z",
-        "lastImportedAt": "2026-09-09T02:24:11.106Z",
+        "lastImportedAt": "2026-09-14T17:02:23.806Z",
         "appearances": [
           {
             "eventId": "2026-09-11-wintrs-tavern-dusted-angel",
@@ -55316,7 +55606,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-09T02:24:11.108Z",
+        "lastImportedAt": "2026-09-14T17:02:23.809Z",
         "appearances": [
           {
             "eventId": "2026-09-08-yoshi-s-matt-schofield-trio",
