@@ -4,6 +4,7 @@ const homeEvents = [...(window.SHOW_EXPLORER_EVENTS || [])].sort((a, b) => {
 const homeArtists = window.SHOW_EXPLORER_ARTISTS?.artists || {};
 const homeVenues = window.SHOW_EXPLORER_VENUES?.venues || {};
 const homePicks = document.querySelector("#homePicks");
+const homeFooter = document.querySelector("#homeFooter");
 
 function todayString() {
   const today = new Date();
@@ -168,3 +169,5 @@ function renderHomePicks() {
 }
 
 renderHomePicks();
+// Reveal the footer only after the picks area has finished its initial render.
+homeFooter?.removeAttribute("hidden");
