@@ -1278,3 +1278,5 @@ syncSearchPlaceholder();
 setupVenueMapDisclosure();
 setupStickyListingTools();
 render();
+// Reveal only after the first results (or empty state) have been inserted.
+document.querySelector("#explorerFooter")?.removeAttribute("hidden");

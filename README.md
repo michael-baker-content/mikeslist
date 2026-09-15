@@ -259,11 +259,15 @@ These sources have different strengths. The List is especially useful for music 
 
 ### Social link previews
 
+The Home, Show Explorer, About, Artist, Venue, and Mike Says footers end with a full-width 36px triangle band, using the frame’s shuffled pattern and separate light/dark colors. Show Explorer places its footer after the results, outside the list that is replaced when filters change. It stays hidden until the initial results or empty state have rendered, preventing a footer flash during page loading. Mike Says includes the footer on its archive and article pages through the shared Astro layout. Footer links remain on a plain surface above the decorative band. Its SVG strips are embedded in `assets/styles.css`.
+
+The homepage’s “A Word From Mike” panel uses a 12px repeating triangle frame inspired by the sharing image. Light and dark SVG palettes match the site’s theme colors, with a plain theme-aware interior for readability. The headline uses a smaller responsive font size to stay on one line within the frame on narrow screens. The frame sources are `assets/triangle-frame-light.svg` and `assets/triangle-frame-dark.svg`; their artwork is embedded as SVG data URLs in `assets/styles.css` to avoid separate image requests. When changing the artwork, update the corresponding embedded URL too.
+
 All HTML pages include Open Graph and X/Twitter large-card metadata in their initial HTML. Mike Says uses `src/components/SocialMeta.astro` through its shared layout; published articles use their own titles, descriptions, URLs, and the article type.
 
-The default placeholder is `assets/social/mikes-list-card.png` (1200 × 630 pixels). Replace that file with your own PNG at the same path to change the default preview everywhere. Keep important text away from the edges. The build copies the image into the deployed site automatically.
+The default sharing image is `assets/social/mikes-list-card-redesign.png` (1200 × 630 pixels): the approved Fraunces title, bold SF Bay Area Music Listings subheading, and geometric border. Its outlined SVG source is alongside it. All static pages and the Astro social component reference this new filename so previous placeholder-image caches do not reuse the old URL. The build copies both assets into the deployed site automatically.
 
-To use a different image on a static HTML page, change both `og:image` and `twitter:image` in that page's `<head>` to the image's full `https://mikeslist.xyz/assets/social/...` URL. Update both image-alt tags as well. JPG and PNG are suitable; the metadata omits fixed image dimensions so a replacement does not inherit incorrect values.
+To use a different image on a static HTML page, change both `og:image` and `twitter:image` in that page's `<head>` to the image's full `https://mikeslist.xyz/assets/social/...` URL. Update both image-alt tags as well. JPG and PNG are suitable. Update the image type and dimensions when replacing a static page image. Astro includes PNG type and 1200 × 630 dimensions only for the default card; custom article images do not inherit those values.
 
 For a Mike Says article, add these optional fields to its Markdown front matter:
 
