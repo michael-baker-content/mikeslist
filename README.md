@@ -67,7 +67,7 @@ See `docs/spotify-enrichment-notes.md` for implementation notes, current rate-li
 
 Artist page enrichment validates Instagram and Facebook outbound links before URL cleanup. It accepts profile paths and excludes platform homepages, support/developer subdomains, login and other interface routes, and post/reel links. Facebook numeric profile IDs are preserved. Discovered profiles remain candidates for review; this filter does not remove previously saved links.
 
-Enrich Venue can fill missing coordinates from explicit place markers in verified Google Maps links, without a Google Places API lookup. It preserves existing coordinates and ignores map-camera positions or ambiguous links. Address-only and shortened links still require a successful lookup.
+Enrich Venue fills missing coordinates from explicit place markers in manually entered or verified Google Maps links, before any name-based lookup and without a Google Places API request. It also fills an empty address when the Maps place URL contains an explicit California street address (street number, street, city, and state). Venue names alone are not treated as addresses. Manual links take priority over other verified links. Existing addresses and coordinates are preserved; conflicting addresses, map-camera positions, and ambiguous markers are ignored. When a manual or verified Maps link is present, name-based Wikidata and Google Places searches are skipped so a different venue cannot supply its location or address. For shortened or address-only links without an explicit place marker, enter coordinates manually or replace the link with the full Google Maps place URL.
 
 Artist Review previews link ordering immediately when confidence, Show, priority, type, or label changes. It uses the same ordering as saved links and preserves unsaved form values; Save is still required to persist artist edits.
 
@@ -188,6 +188,12 @@ Use **New Show** in Show Review's main content area to create a listing. Enter a
 Manually created shows use **Mike** as their source and can be found with the **Mike** source filter. An optional reference link does not change that attribution. Merging imported information retains Mike alongside the imported source credits. Manually created shows have stable independent IDs. Imports retain them and keep matching imported listings separate for review; automatic classification, category pruning, and automatic duplicate merging leave manual shows alone. Explicit past-date pruning still applies. To combine a manual show and an imported match, use the duplicate merge tools. The manual show is kept regardless of which direction you select: its filled-in text takes priority, missing fields are filled, and artist/source lists are combined. The canonical result is saved as a SQLite override, and the removed duplicate is suppressed on subsequent refreshes. Different-date merges still display a warning.
 
 Show Explorer marks Mike's Picks with a compact white checkmark in a blue circle over the show image. The badge retains a "Mike's Pick" tooltip and accessible label.
+
+Venue Map markers open venue details on hover, keyboard focus, or click: venue name, city/region, matching show count, and a Venue Page link. The popup stays available to interact with until another marker opens, the map is clicked, or its close button is used.
+
+Show Explorer chooses card images in this order: show image, artist image, artist Spotify image, then venue image. Image hosting sites do not override this order. If none is available, it generates a placeholder.
+
+Artist imports preserve existing review fields, including Spotify images, match metadata, and the automatic-match opt-out. Rebuilding artist data must not strip those fields and cause Show Explorer to fall back to venue images. A regression check is available with `node --test tests/artist-import-preservation.test.mjs`.
 
 Capitalization edits in Show Review's artist list are preserved when saving, while keeping the existing lineup artist's other details. These edits apply to that show's lineup; the shared artist profile is managed in Artist Review.
 

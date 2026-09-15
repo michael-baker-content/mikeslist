@@ -165,6 +165,7 @@ for (const event of events) {
     const id = slugify(artist.name);
     const previous = existing.artists?.[id] || {};
     const current = artists[id] || {
+      ...previous,
       id,
       name: previous.name || artist.name,
       displayName: previous.displayName || artist.displayName || "",
@@ -226,6 +227,7 @@ function isExtractedArtistRecord(artist) {
 }
 
 function isUntouchedGeneratedArtist(artist) {
+  if (artist.spotifyImageUrl || artist.spotifyMatch || artist.spotifyLookupDisabled) return false;
   if (artist.manuallyReviewed || artist.manuallyReviewedAt) return false;
   if (!["", "review", "research", "likely"].includes(artist.confidence || "")) return false;
   if (artist.displayName || artist.imageUrl || artist.imageSource || artist.summary || artist.disambiguation) return false;

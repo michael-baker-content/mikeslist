@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { applySavedMapLocation, preferredMapsLinks } from "./venue-map-coordinates.mjs";
 
 const VENUES_PATH = new URL("../data/venues.js", import.meta.url);
 const USER_AGENT = "BayAreaShowExplorer/0.1 (local non-commercial prototype)";
@@ -269,6 +270,9 @@ const candidates = Object.values(store.venues || {})
 let enriched = 0;
 
 for (const venue of candidates) {
+  applySavedMapLocation(venue);
+  // An explicitly chosen location must not be replaced by a name match.
+  if (preferredMapsLinks(venue).length) continue;
   try {
     const matches = await searchVenueCandidates(venue.displayName || venue.name);
     for (const match of matches) {

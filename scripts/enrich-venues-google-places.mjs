@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { applyVerifiedMapCoordinates } from "./venue-map-coordinates.mjs";
+import { applySavedMapLocation, preferredMapsLinks } from "./venue-map-coordinates.mjs";
 
 const VENUES_PATH = new URL("../data/venues.js", import.meta.url);
 const ENV_PATH = new URL("../.env", import.meta.url);
@@ -467,9 +467,9 @@ let enriched = 0;
 let changed = 0;
 
 for (const venue of candidates) {
-  if (applyVerifiedMapCoordinates(venue)) {
+  if (applySavedMapLocation(venue)) {
     changed += 1;
-    console.log(`Coordinates extracted from verified Maps link for ${venue.name}.`);
+    console.log(`Location details extracted from saved Maps link for ${venue.name}.`);
   }
 }
 if (!apiKey) {
@@ -482,6 +482,10 @@ if (!apiKey) {
 }
 
 for (const venue of candidates) {
+  if (preferredMapsLinks(venue).length) {
+    console.log(`Preserved saved Maps location for ${venue.name}; skipped name-based lookup.`);
+    continue;
+  }
   try {
     const result = await searchPlaces(apiKey, venue);
     const place = bestPlace(venue, result.places || []);

@@ -448,19 +448,7 @@ function artistImageRank(artist) {
 function preferredImageCandidate(candidates) {
   return candidates
     .filter((candidate) => candidate.url)
-    .sort((a, b) => imageUrlRank(a.url) - imageUrlRank(b.url) || a.priority - b.priority)[0] || null;
-}
-
-function imageUrlRank(url = "") {
-  return isUnsplashImageUrl(url) ? 1 : 0;
-}
-
-function isUnsplashImageUrl(url = "") {
-  try {
-    return new URL(url).hostname.replace(/^www\./i, "").endsWith("unsplash.com");
-  } catch {
-    return false;
-  }
+    .sort((a, b) => a.priority - b.priority)[0] || null;
 }
 
 function imageSourceLabel(source = "", url = "") {
@@ -1002,7 +990,7 @@ async function renderMapLibreVenueMap(venues, renderToken) {
       return;
     }
     mapLibreMap.addControl(new maplibregl.NavigationControl({ visualizePitch: true }), "top-right");
-    mapLibrePopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, maxWidth: "260px" });
+    mapLibrePopup = new maplibregl.Popup({ closeButton: true, closeOnClick: true, focusAfterOpen: false, maxWidth: "260px" });
     mapLibreMap.on("error", () => {
       if (mapLibreMap.loaded()) return;
       venueMapCanvas.hidden = true;
@@ -1018,12 +1006,7 @@ async function renderMapLibreVenueMap(venues, renderToken) {
     markerElement.type = "button";
     markerElement.textContent = venue.showCount > 1 ? String(Math.min(venue.showCount, 9)) : "";
     markerElement.setAttribute("aria-label", `Show ${displayNameForVenue(venue)} details`);
-    markerElement.addEventListener("click", () => {
-      mapLibrePopup
-        .setLngLat([venue.geo.longitude, venue.geo.latitude])
-        .setHTML(venueMapPopupContent(venue))
-        .addTo(mapLibreMap);
-    });
+    bindVenueMarkerPopup(markerElement, venue);
     const marker = new maplibregl.Marker({ element: markerElement, anchor: "center" })
       .setLngLat([venue.geo.longitude, venue.geo.latitude])
       .addTo(mapLibreMap);
@@ -1031,6 +1014,22 @@ async function renderMapLibreVenueMap(venues, renderToken) {
   });
 
   fitMapLibreVenueBounds(venues);
+}
+
+function bindVenueMarkerPopup(markerElement, venue) {
+  const openPopup = () => {
+    mapLibrePopup
+      .setLngLat([venue.geo.longitude, venue.geo.latitude])
+      .setHTML(venueMapPopupContent(venue))
+      .addTo(mapLibreMap);
+  };
+  markerElement.addEventListener("click", (event) => {
+    // Otherwise this click bubbles to the map and closes the popup just opened.
+    event.stopPropagation();
+    openPopup();
+  });
+  markerElement.addEventListener("mouseenter", openPopup);
+  markerElement.addEventListener("focus", openPopup);
 }
 
 function waitForMapLayout(mapElement) {

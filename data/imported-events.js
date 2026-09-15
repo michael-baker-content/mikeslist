@@ -16255,7 +16255,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "date": "2026-09-14",
     "title": "",
     "showType": "artist",
-    "venueId": "castro",
+    "venueId": "castro-theater",
     "venue": "Castro",
     "venueHref": "https://jon.luini.com/thelist/club.html#castro",
     "city": "",
@@ -16311,7 +16311,11 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-14-chapel-bobby-bare-jr",
@@ -16357,7 +16361,7 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": "",
-    "mikesPick": true,
+    "mikesPick": false,
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
@@ -17437,7 +17441,11 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-16-great-american-music-hall-when-chai-met-toast",
@@ -18157,9 +18165,10 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": "",
-    "mikesPick": false,
+    "mikesPick": true,
     "infoUrl": "",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-17-crybaby-rolling-quartz",
@@ -18984,7 +18993,11 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-18-black-cat-lady-stout-and-nurenssnce",
@@ -19702,66 +19715,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": ""
   },
   {
-    "id": "2026-09-18-paramount-theater-mojo-brookzz",
-    "date": "2026-09-18",
-    "title": "",
-    "showType": "event",
-    "venueId": "paramount-theater",
-    "venue": "Paramount Theater",
-    "venueHref": "https://jon.luini.com/thelist/club.html#paramount_theater",
-    "city": "",
-    "details": "6:30pm/7:30pm #",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-18-phoenix-theater-phoenix-pro-wrestling",
-    "date": "2026-09-18",
-    "title": "",
-    "showType": "event",
-    "venueId": "phoenix-theater",
-    "venue": "Phoenix Theater",
-    "venueHref": "https://jon.luini.com/thelist/club.html#phoenix_theater",
-    "city": "",
-    "details": "a/a $13.43 7:30pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
     "id": "2026-09-18-regency-ballroom-citizen",
     "date": "2026-09-18",
     "title": "",
@@ -19863,7 +19816,7 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": "",
-    "mikesPick": true,
+    "mikesPick": false,
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
@@ -21450,7 +21403,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "venue": "Gilman",
     "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
     "city": "",
-    "details": "a/a $15 7pm/8pm (Oakland Pride/Gilman Benefit)",
+    "details": "a/a $15 7pm/8pm (Oakland Pride/Gilman Benefit) / a/a 4pm",
     "sourceUrl": "https://jon.luini.com/thelist/date.html",
     "source": {
       "name": "The List",
@@ -21626,36 +21579,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "region": "",
     "time": "",
     "price": ""
-  },
-  {
-    "id": "2026-09-19-gilman-membership-meeting",
-    "date": "2026-09-19",
-    "title": "",
-    "showType": "event",
-    "venueId": "gilman",
-    "venue": "Gilman",
-    "venueHref": "https://jon.luini.com/thelist/club.html#gilman",
-    "city": "",
-    "details": "a/a 4pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
   },
   {
     "id": "2026-09-19-guild-theater-shawn-mullins",
@@ -22354,36 +22277,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "imageSource": ""
   },
   {
-    "id": "2026-09-19-mountain-winery-jeff-dunham",
-    "date": "2026-09-19",
-    "title": "",
-    "showType": "event",
-    "venueId": "mountain-winery",
-    "venue": "Mountain Winery",
-    "venueHref": "https://jon.luini.com/thelist/club.html#mountain_winery",
-    "city": "",
-    "details": "a/a 6pm/8pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
     "id": "2026-09-19-neck-of-the-woods-concision",
     "date": "2026-09-19",
     "title": "",
@@ -22913,7 +22806,11 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": true,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-19-spire-katie-cash",
@@ -23485,7 +23382,7 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": "",
-    "mikesPick": true,
+    "mikesPick": false,
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
@@ -23615,7 +23512,7 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": "",
-    "mikesPick": true,
+    "mikesPick": false,
     "infoUrl": "",
     "imageUrl": "",
     "imageSource": ""
@@ -24011,20 +23908,20 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventTypes": [],
     "artists": [
       {
-        "name": "Bird",
+        "name": "Biird",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Bird%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Biird%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "manual"
           }
         ]
       }
@@ -24036,7 +23933,11 @@ window.SHOW_EXPLORER_EVENTS = [
       }
     ],
     "displayName": "",
-    "eventDescription": ""
+    "eventDescription": "",
+    "mikesPick": false,
+    "infoUrl": "",
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-20-castro-lane-8",
@@ -24657,23 +24558,22 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventTypes": [],
     "artists": [
       {
-        "name": "Deca Jones",
+        "name": "Deca Joins",
         "tags": [
           "unknown"
         ],
         "locality": "unknown",
         "confidence": "review",
-        "note": "Imported from The List.",
+        "note": "",
         "links": [
           {
             "label": "Search",
-            "url": "https://duckduckgo.com/?q=%22Deca%20Jones%22%20band%20music",
+            "url": "https://duckduckgo.com/?q=%22Deca%20Joins%22%20band%20music",
             "type": "search",
             "confidence": "research",
-            "source": "the-list"
+            "source": "manual"
           }
-        ],
-        "displayName": ""
+        ]
       }
     ],
     "sources": [
@@ -24686,7 +24586,8 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventDescription": "",
     "mikesPick": false,
     "infoUrl": "",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSource": ""
   },
   {
     "id": "2026-09-20-ivy-room-radiator-hospital",
@@ -24750,36 +24651,6 @@ window.SHOW_EXPLORER_EVENTS = [
     ],
     "displayName": "",
     "eventDescription": ""
-  },
-  {
-    "id": "2026-09-20-meritage-resort-jeff-dunham",
-    "date": "2026-09-20",
-    "title": "",
-    "showType": "event",
-    "venueId": "meritage-resort",
-    "venue": "Meritage Resort",
-    "venueHref": "https://jon.luini.com/thelist/club.html#meritage_resort",
-    "city": "",
-    "details": "5:30pm/7pm",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
   },
   {
     "id": "2026-09-20-mountain-winery-america",
@@ -24954,36 +24825,6 @@ window.SHOW_EXPLORER_EVENTS = [
     "eventTypes": [
       "poetry"
     ],
-    "artists": [],
-    "sources": [
-      {
-        "name": "The List",
-        "url": "https://jon.luini.com/thelist/date.html"
-      }
-    ],
-    "displayName": "",
-    "eventDescription": "",
-    "mikesPick": false,
-    "infoUrl": "",
-    "imageUrl": "",
-    "imageSource": ""
-  },
-  {
-    "id": "2026-09-20-railroad-square-railroad-square-music-festival",
-    "date": "2026-09-20",
-    "title": "",
-    "showType": "event",
-    "venueId": "railroad-square",
-    "venue": "Railroad Square",
-    "venueHref": "https://jon.luini.com/thelist/club.html#railroad_square",
-    "city": "",
-    "details": "a/a free noon",
-    "sourceUrl": "https://jon.luini.com/thelist/date.html",
-    "source": {
-      "name": "The List",
-      "url": "https://jon.luini.com/thelist/date.html"
-    },
-    "eventTypes": [],
     "artists": [],
     "sources": [
       {
@@ -90256,7 +90097,7 @@ window.SHOW_EXPLORER_EVENTS = [
     "displayName": "",
     "details": "a/a 7pm cheap",
     "eventDescription": "a/a 7pm cheap",
-    "mikesPick": false,
+    "mikesPick": true,
     "sourceUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl",
     "infoUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl",
     "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t51.82787-15/810384207_18616281229027630_4913209938134766711_n.jpg?stp=dst-jpg_tt6&cstp=mx1867x2489&ctp=s1867x2489&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u3ivp3MNBoAQ7kNvwEJQuv2&_nc_oc=AdqsP67HG89bTTmttay5VT3oHnMGG3RuKYJ0q9ontVjVUXo8xaqgha_dU-GWKC21Ed0&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=5Hh7NYqn8jaJiti-12DWyw&_nc_ss=7b2a8&oh=00_AQLTQBFpt0UCQZkEQajHjFt1R8WXVxfmq0ZMMtUj55cptw&oe=6AADDC0E",

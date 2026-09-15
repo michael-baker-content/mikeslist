@@ -1,5 +1,5 @@
 window.SHOW_EXPLORER_VENUES = {
-  "generatedAt": "2026-09-14T18:54:18.843Z",
+  "generatedAt": "2026-09-15T02:16:47.773Z",
   "venues": {
     "49": {
       "id": "49",
@@ -19,7 +19,7 @@ window.SHOW_EXPLORER_VENUES = {
       "geo": null,
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Levi's Stadium is an outdoor stadium near the West Coast of the United States, located in Santa Clara, California, just west of San Jose in the San Francisco Bay Area. It has served as the home venue for the San Francisco 49ers of the National Football League (NFL) since 2014. Located approximately forty miles (65 km) south of San Francisco, it is named after Levi Strauss & Co., which purchased naming rights in 2013.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -49,10 +49,15 @@ window.SHOW_EXPLORER_VENUES = {
           "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Levi%27s_Stadium",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-49-er-stadium-bruno-mars",
@@ -62,6 +67,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Levi%27s_Stadium",
+        "source": "wikipedia"
       }
     },
     "1015": {
@@ -670,18 +680,21 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
+      "status": "occasional",
+      "venueType": "house",
       "city": "Berkeley",
-      "region": "",
-      "address": "2708 Channing Way",
-      "imageUrl": "",
-      "imageSource": "",
+      "region": "East Bay",
+      "address": "2708 Channing Way, Berkeley, CA 94704",
+      "imageUrl": "https://imagescdn.homes.com/m2/4esvRH_H6Ea4di5kErq9bF8NjEUXjsYima09LKRjQCaRROURIY0q9wlaqQHealWnquKJkfiRsiMnJAIE9pZJFFNfvG27D0STAYCShFUYoso/H600W800/map-2708-channing-way-berkeley-ca-unit-single-rooms-streetview.jpg",
+      "imageSource": "homes.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.867400100000005,
+        "longitude": -122.25376059999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "A bunch of kids in a house they rent throwing parties.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -705,15 +718,38 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "instagram",
           "label": "Instagram",
           "url": "https://www.instagram.com/berkeleybside/",
-          "confidence": "likely",
+          "confidence": "verified",
           "source": "manual",
+          "displayPriority": "primary",
+          "display": true
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11498202157167154251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
           "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=11498202157167154251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11498202157167154251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11498202157167154251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.270Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:29:16.608Z",
         "appearances": [
           {
             "eventId": "2026-09-19-2708-channing-way-playground",
@@ -723,6 +759,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:37:30.141Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "2727-california": {
@@ -1036,7 +1078,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.848Z",
+        "lastImportedAt": "2026-09-14T23:29:16.645Z",
         "appearances": [
           {
             "eventId": "2026-09-11-4-star-theater-gordi-gracie-and-rachel",
@@ -1203,7 +1245,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-14T17:02:23.804Z",
+        "lastImportedAt": "2026-09-14T23:29:16.602Z",
         "appearances": [
           {
             "eventId": "2026-09-11-4th-corner-speakeasy-westerly",
@@ -1563,7 +1605,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-09-10-9-lives-warehouse-holokaust",
@@ -1629,7 +1671,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-924-gilman-worst-decades-in-midori-dolores-the-american-dream-deadringer",
@@ -1695,7 +1737,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.292Z",
-        "lastImportedAt": "2026-09-14T17:02:23.835Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-10-25-924-gilman-and-gilman-brewing-cross-checked",
@@ -1799,7 +1841,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.910Z",
-        "lastImportedAt": "2026-09-14T17:02:23.834Z",
+        "lastImportedAt": "2026-09-14T23:29:16.631Z",
         "appearances": [
           {
             "eventId": "2026-10-24-above-dna-lounge-warumono",
@@ -2186,19 +2228,22 @@ window.SHOW_EXPLORER_VENUES = {
     "almanac-adventureland": {
       "id": "almanac-adventureland",
       "name": "Almanac Adventureland",
-      "displayName": "Almanac Adventureland",
+      "displayName": "Almanac Adventureland & Brewery",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
+      "status": "active",
+      "venueType": "bar",
       "city": "Alameda",
       "region": "East Bay",
-      "address": "651B W Tower Ave Alameda, CA 94501",
+      "address": "651 W Tower Ave, Alameda, CA 94501",
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.783325,
+        "longitude": -122.299099
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -2219,12 +2264,47 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.yelp.com/biz/almanac-adventureland-alameda-5?dd_referrer=",
           "confidence": "candidate",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.almanacbeer.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4462049298610337236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-12-almanac-adventureland-puppet-wars",
@@ -2495,18 +2575,21 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
+      "status": "active",
+      "venueType": "bar",
       "city": "La Honda",
       "region": "Peninsula",
       "address": "8790 La Honda Road",
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.318908799999996,
+        "longitude": -122.2740412
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Apple Jack's … (650) 747-0331 8790 La Honda Rd, La Honda 21+ · Valid ID required Apple Jack's Inn Est.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -2534,12 +2617,60 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9162828202340969579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/barlahonda/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://applejacksbar.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/applejackslahonda/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://applejacksbar.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=9162828202340969579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162828202340969579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9162828202340969579&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://applejacksbar.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://applejacksbar.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://applejacksbar.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.288Z",
-        "lastImportedAt": "2026-09-14T17:02:23.830Z",
+        "lastImportedAt": "2026-09-14T23:29:16.627Z",
         "appearances": [
           {
             "eventId": "2026-10-17-apple-jacks-bar-bernal-equinox",
@@ -2549,6 +2680,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://applejacksbar.com/",
+        "source": "official"
       }
     },
     "arcana": {
@@ -2769,7 +2905,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.848Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-26-arena-shreya-ghoshal",
@@ -3044,7 +3180,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ashkenaz-balkan-folk-dance",
@@ -3339,7 +3475,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-11-august-hall-asal",
@@ -3833,24 +3969,27 @@ window.SHOW_EXPLORER_VENUES = {
     "band-shell": {
       "id": "band-shell",
       "name": "Band Shell",
-      "displayName": "Golden Gate Bandshell",
+      "displayName": "Golden Gate Park Bandshell",
       "aliases": [
         "Golden Gate Park Bandshell"
       ],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "status": "seasonal",
+      "venueType": "park",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "Music Concourse Dr, San Francisco, CA 94118",
       "imageUrl": "https://sfrecpark.org/ImageRepository/Path?filePath=/documents/Intranet/22/2546/BANDSHELL%20SLIDE%20111.jpg",
       "imageSource": "sfrecpark.org",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.769906899999995,
+        "longitude": -122.4685162
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The original bandstand was built in 1882, with the current structure being built in 1900.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -3859,20 +3998,70 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#band_shell",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Band%20Shell%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://sfrecpark.org/1570/Golden-Gate-Bandshell-Concerts",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=14646517632793067596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "displayPriority": "primary",
+          "display": true
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://goldengatebandshell.org/",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=14646517632793067596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14646517632793067596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14646517632793067596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://sfrecpark.org/1570/Golden-Gate-Bandshell-Concerts",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://sfrecpark.org/1570/Golden-Gate-Bandshell-Concerts",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.871Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.607Z",
         "appearances": [
           {
             "eventId": "2026-09-16-band-shell-indestructible",
@@ -3882,6 +4071,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:16:01.037Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://sfrecpark.org/1570/Golden-Gate-Bandshell-Concerts",
+        "source": "official"
       }
     },
     "barbary-coast": {
@@ -4076,7 +4271,7 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
       "city": "Santa Rosa",
       "region": "",
@@ -4084,7 +4279,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://img.ctykit.com/cdn/ca-santa-rosa/images/tr:h-1000/barrelproof2.jpg",
       "imageSource": "downtownsantarosa.org",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 38.442371099999995,
+        "longitude": -122.71567209999998
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -4114,12 +4312,35 @@ window.SHOW_EXPLORER_VENUES = {
           "confidence": "candidate",
           "source": "manual",
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=16175098871470349200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.barrelprooflounge.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=16175098871470349200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=16175098871470349200&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-14T17:02:23.826Z",
+        "lastImportedAt": "2026-09-14T23:29:16.623Z",
         "appearances": [
           {
             "eventId": "2026-10-09-barrel-proof-lounge-menstrual-cramps",
@@ -4669,22 +4890,25 @@ window.SHOW_EXPLORER_VENUES = {
     "benders": {
       "id": "benders",
       "name": "Benders",
-      "displayName": "Bender's",
+      "displayName": "Bender's Bar & Grill",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
       "status": "occasional",
       "venueType": "bar",
-      "city": "",
-      "region": "",
-      "address": "",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "806 S Van Ness Ave, San Francisco, CA 94110",
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/602dbd1b0b8c3e5483f1410a/1614213369986-GVZBX0U1E2VWFQSSPHLD/bar2.jpg?format=2500w",
       "imageSource": "bendersbar.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.7601795,
+        "longitude": -122.41732830000001
+      },
       "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "VAN NESS AVENUE, SF, CA 94103 (21+ w/ ID) TUES-SUN 2PM TILL 2AM | 415.824.1800 | INFO@BENDERSBAR.COM ©COPYRIGHT 2021-2022 BENDER’S BAR AND GRILL.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -4712,12 +4936,72 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "displayPriority": "primary",
           "display": true
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/bendersbar/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://bendersbar.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "http://instagram.com/bendersbarandgrill/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://bendersbar.com/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "http://facebook.com/bendersbarandgrill/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://bendersbar.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14704652428911210760&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://bendersbar.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://bendersbar.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.110Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-12-benders-party-force-magic-eye",
@@ -4727,6 +5011,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://bendersbar.com/",
+        "source": "official"
       }
     },
     "berkeley-chess-school": {
@@ -4957,7 +5246,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.799Z",
+        "lastImportedAt": "2026-09-14T23:29:16.596Z",
         "appearances": [
           {
             "eventId": "2026-09-08-bill-graham-civic-auditorium-wave-to-earth",
@@ -5251,7 +5540,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-11-bimbo-s-365-club-super-diamond",
@@ -5593,7 +5882,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.410Z",
-        "lastImportedAt": "2026-09-14T17:02:23.840Z",
+        "lastImportedAt": "2026-09-14T23:29:16.637Z",
         "appearances": [
           {
             "eventId": "2026-09-08-biscuits-and-blues-the-west-coast-blues-revue",
@@ -5770,7 +6059,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.866Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.607Z",
         "appearances": [
           {
             "eventId": "2026-09-16-bistro-cloud-collector",
@@ -5780,12 +6069,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-14T18:54:18.803Z",
-      "summarySource": {
-        "label": "Official",
-        "url": "https://the-bistro.com/",
-        "source": "official"
       }
     },
     "black-bird-bookstore-and-cafe": {
@@ -5955,7 +6238,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-09-black-cat-king-david",
@@ -6246,7 +6529,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.881Z",
-        "lastImportedAt": "2026-09-14T17:02:23.850Z",
+        "lastImportedAt": "2026-09-14T23:29:16.647Z",
         "appearances": [
           {
             "eventId": "2027-01-04-blue-laggon-apricot-court",
@@ -6385,7 +6668,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.817Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-26-blue-lagoon-culo-a-boca",
@@ -6820,7 +7103,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.802Z",
+        "lastImportedAt": "2026-09-14T23:29:16.600Z",
         "appearances": [
           {
             "eventId": "2026-09-09-boom-boom-room-jeff-cotton-s-gin-joint",
@@ -7024,7 +7307,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-09-bottom-of-the-hill-the-kofy-brown-band",
@@ -7625,7 +7908,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-18-bric-a-brac-bat-noise",
@@ -7649,8 +7932,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.facebook.com/timothybyron/posts/pfbid02JHBaQCPhvLifW9L3Zhi4sE7EBHfXRSE5wtuPLSh6rGx4NxcDdeLx3CKGeYvpqK5zl"
           }
         ]
-      },
-      "updatedAt": "2026-09-14T18:35:34.099Z"
+      }
     },
     "brick-and-038-mortar-music-hall": {
       "id": "brick-and-038-mortar-music-hall",
@@ -7854,12 +8136,12 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.845Z",
+        "lastImportedAt": "2026-09-14T23:29:16.642Z",
         "appearances": [
           {
             "eventId": "2026-09-20-brick-and-mortar-bird",
             "date": "2026-09-20",
-            "title": "Bird",
+            "title": "Biird",
             "details": "a/a $35.82 (under 21 plus $5) 7pm/8pm ^",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -7983,7 +8265,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:09:52.700Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-brick-and-mortar-music-hall-cuva-bim-the-lighting-section-soft-circuit",
@@ -8496,7 +8778,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.837Z",
+        "lastImportedAt": "2026-09-14T23:29:16.634Z",
         "appearances": [
           {
             "eventId": "2026-09-12-cafe-du-nord-dent-may",
@@ -9000,7 +9282,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-caravan-lounge-facekicker",
@@ -9027,7 +9309,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 38.109791,
+        "longitude": -122.24809319999999
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
@@ -9067,12 +9352,26 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8547185791143262278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=8547185791143262278&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.149Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:29:16.608Z",
         "appearances": [
           {
             "eventId": "2026-09-18-carnalitos-customs-hemmed-up",
@@ -9082,7 +9381,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T01:47:43.692Z"
     },
     "cast-iron-trading": {
       "id": "cast-iron-trading",
@@ -9163,7 +9463,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-14-castro-haute-and-freddy",
@@ -9698,7 +9998,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-14T17:02:23.843Z",
+        "lastImportedAt": "2026-09-14T23:29:16.640Z",
         "appearances": [
           {
             "eventId": "2026-09-09-castro-theater-legend-w-live-performance-by-trixxie-carr",
@@ -9951,7 +10251,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-17-catalyst-the-growlers",
@@ -10117,7 +10417,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.816Z",
+        "lastImportedAt": "2026-09-14T23:29:16.613Z",
         "appearances": [
           {
             "eventId": "2026-09-09-catalyst-atrium-pawpaw-rod",
@@ -10348,7 +10648,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.421Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-center-for-new-music-alex-heigl-nora-free-chris-trinidad-ian-mackenzie",
@@ -10552,7 +10852,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.153Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-10-chapel-pink-breath-of-heaven",
@@ -11027,7 +11327,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-09-20-chapel-outdoor-state-travie-bobbito",
@@ -11079,7 +11379,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.104Z",
-        "lastImportedAt": "2026-09-14T17:02:23.801Z",
+        "lastImportedAt": "2026-09-14T23:29:16.599Z",
         "appearances": [
           {
             "eventId": "2026-09-09-chase-center-weezer-the-shins-silversun-pickups",
@@ -11468,7 +11768,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-church-of-clown-clown-burlesque-extravaganza-cabaret",
@@ -11572,7 +11872,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-civic-movements",
@@ -11747,7 +12047,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.848Z",
+        "lastImportedAt": "2026-09-14T23:29:16.645Z",
         "appearances": [
           {
             "eventId": "2026-09-19-civic-auditorium-steve-aoki",
@@ -11883,7 +12183,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.843Z",
+        "lastImportedAt": "2026-09-14T23:29:16.640Z",
         "appearances": [
           {
             "eventId": "2026-11-14-civic-center-rodrigo-y-gabriela",
@@ -12147,7 +12447,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.991Z",
-        "lastImportedAt": "2026-09-14T17:02:23.803Z",
+        "lastImportedAt": "2026-09-14T23:29:16.600Z",
         "appearances": [
           {
             "eventId": "2026-09-10-cloverfield-organic-farm-powerhouse-ladies",
@@ -12928,7 +13228,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.847Z",
+        "lastImportedAt": "2026-09-14T23:29:16.644Z",
         "appearances": [
           {
             "eventId": "2026-10-02-cornerstone-jesse-barrera",
@@ -13307,7 +13607,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-14T17:02:23.842Z",
+        "lastImportedAt": "2026-09-14T23:29:16.639Z",
         "appearances": [
           {
             "eventId": "2026-10-16-cow-palace-dom-dolla",
@@ -13380,7 +13680,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.993Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-creek-park-moonalice",
@@ -13600,7 +13900,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-14T17:02:23.847Z",
+        "lastImportedAt": "2026-09-14T23:29:16.645Z",
         "appearances": [
           {
             "eventId": "2026-10-01-crepe-place-color-green",
@@ -13854,7 +14154,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.415Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-11-crybaby-lil-kayla",
@@ -13895,9 +14195,12 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/12/sjm-l-curran.jpg",
       "imageSource": "Mercury News",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.786854399999996,
+        "longitude": -122.41061859999998
+      },
       "agePolicy": "all-ages",
-      "capacity": "",
+      "capacity": "1,667",
       "summary": "A celebrated venue that hosts a dynamic mix of Broadway hits, innovative new works, and exclusive touring productions.",
       "accessibilityNotes": "",
       "reviewNotes": "The Curran reopened on January 25, 2017",
@@ -13926,12 +14229,35 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "displayPriority": "primary",
           "display": true
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=7394464086168184785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://us.atgtickets.com/venues/curran-theater/whats-on/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=7394464086168184785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Curran_Theatre",
+          "note": "Capacity inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-14T17:02:23.817Z",
+        "lastImportedAt": "2026-09-14T23:29:16.614Z",
         "appearances": [
           {
             "eventId": "2026-09-25-curran-theater-laurie-anderson",
@@ -13985,17 +14311,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Danny Murry's",
       "displayName": "Danny Murry's Irish Pub",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "occasional",
       "venueType": "bar",
       "city": "San Leandro",
       "region": "",
       "address": "1680 Washington Ave.",
-      "imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/475774247_2070100593452835_6490078048698294159_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx960x720&ctp=s960x720&_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=6zkptZKnKl4Q7kNvwHJ4JRp&_nc_oc=AdrXlCbkv_tSw0KKR9T5HqL6aYn10jZhbreZQ_NWuvAnIa4EvHcE1v3vGs6hM7kLp-U&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=ihDz32S65PBZdQ3vdW4zoQ&_nc_ss=7b2a8&oh=00_AQKuqjjyj0_bk2l7EOPU6vHMRg3Nd0Vg5UhTtx7DBknk5A&oe=6AA2E0B3",
-      "imageSource": "Facebook",
-      "phone": "",
-      "geo": null,
+      "imageUrl": "https://s3-media0.fl.yelpcdn.com/bphoto/963WRYowEp5nlphjOouWpA/l.jpg",
+      "imageSource": "Yelp",
+      "phone": "(510) 969-4067",
+      "geo": {
+        "latitude": 37.7214826,
+        "longitude": -122.1538475
+      },
       "agePolicy": "21+",
       "capacity": "",
       "summary": "",
@@ -14036,12 +14365,26 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17698360822909817059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=17698360822909817059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.840Z",
+        "lastImportedAt": "2026-09-14T23:29:16.637Z",
         "appearances": [
           {
             "eventId": "2026-09-12-danny-murry-s-12-steps-to-nothing",
@@ -14086,7 +14429,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T02:16:47.730Z"
     },
     "danny-murry-s-irish-pub": {
       "id": "danny-murry-s-irish-pub",
@@ -14424,7 +14768,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-08-davies-symphony-hall-samara-joy-with-the-sf-symphony",
@@ -14884,11 +15228,14 @@ window.SHOW_EXPLORER_VENUES = {
       "venueType": "skatepark",
       "city": "Santa Cruz",
       "region": "Santa Cruz/Monterey",
-      "address": "508 Woodland Way",
+      "address": "508 Woodland Way, Santa Cruz, CA 95060",
       "imageUrl": "https://www.santacruzca.gov/files/assets/city/v/2/pr/images/parks/sargent-derby-park.jpg?dimension=pageimage&w=480",
       "imageSource": "santacruzca.gov",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 36.9537481,
+        "longitude": -122.051121
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Derby Skate Park is a classic Santa Cruz bowl park. It is one of the most historic skate parks in the world.",
@@ -14928,9 +15275,32 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2081675657518861255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.cityofsantacruz.com/government/city-departments/parks-recreation/parks-beaches-open-spaces/parks/sergeant-derby-park",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=2081675657518861255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2081675657518861255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
         "lastImportedAt": "2026-09-08T00:05:53.600Z",
@@ -14952,17 +15322,20 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [
         "Discovery Museum"
       ],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "seasonal",
       "venueType": "park",
       "city": "San Jose",
       "region": "South Bay",
-      "address": "180 Woz Way, San Jose, California",
+      "address": "180 Woz Way, San Jose, CA 95110",
       "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn8HOkPAhkPzdqDZKp7eu2aByV5p6sYpVLF7obbtVdPzZTMIHnJiHZmyiLHaowr_z0pHBLsjb-ApS7Vd32X9MNkS3Lpv6mrEKGHZBCQ19_NB3IZF0dUm_pE8i3Tmgzd9jLaXH07KQ=s1360-w1360-h1020-rw",
       "imageSource": "Alexander/Google",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.326686,
+        "longitude": -121.8919108
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Sprawling green lawn in San Jose used for music festivals and large events.",
@@ -14986,12 +15359,46 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "theList",
+          "label": "The List",
+          "url": "https://jon.luini.com/thelist/club.html#discovery_meadow",
+          "confidence": "verified",
+          "source": "the list",
+          "display": false
+        },
+        {
+          "type": "search",
+          "label": "Search",
+          "url": "https://duckduckgo.com/?q=%22Discovery%20Meadow%22%20venue%20Bay%20Area%20music",
+          "confidence": "research",
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2617/1396?npage=3",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.google.com/maps/place/180+Woz+Way,+San+Jose,+CA+95110/@37.326686,-121.8944857,17z/data=!4m6!3m5!1s0x808fccafca93bf07:0x1e3545fc03a7530!8m2!3d37.326686!4d-121.8919108!16s%2Fg%2F11bw3hym2r?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the verified Google Maps link."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7529043512165532604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-discovery-meadow-keyshia-cole",
@@ -15002,12 +15409,7 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
-      },
-      "updatedAt": "2026-09-14T18:17:16.908Z"
+      "updatedAt": "2026-09-15T00:13:59.245Z"
     },
     "discovery-museum": {
       "id": "discovery-museum",
@@ -15049,7 +15451,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.906Z",
-        "lastImportedAt": "2026-09-14T17:02:23.814Z",
+        "lastImportedAt": "2026-09-14T23:29:16.612Z",
         "appearances": [
           {
             "eventId": "2026-09-20-discovery-museum-rebelution",
@@ -15231,7 +15633,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.819Z",
+        "lastImportedAt": "2026-09-14T23:29:16.617Z",
         "appearances": [
           {
             "eventId": "2026-09-09-dna-lounge-16-volt",
@@ -15649,7 +16051,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.902Z",
-        "lastImportedAt": "2026-09-14T17:02:23.805Z",
+        "lastImportedAt": "2026-09-14T23:29:16.602Z",
         "appearances": [
           {
             "eventId": "2026-09-11-downtown-point-richmond-the-anthony-paule-soul-orchestra-feat-willy-jordan-los-nadies",
@@ -16036,7 +16438,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-14T17:02:23.842Z",
+        "lastImportedAt": "2026-09-14T23:29:16.639Z",
         "appearances": [
           {
             "eventId": "2026-09-10-eagle-hellcatraz",
@@ -16375,7 +16777,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-14T17:02:23.810Z",
+        "lastImportedAt": "2026-09-14T23:29:16.607Z",
         "appearances": [
           {
             "eventId": "2026-09-10-el-rio-mint-glaze-joint-souls-amity-st",
@@ -16843,7 +17245,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-eli-s-mile-high-club-stay-out-bloodsugar-tess-and-the-details-fatale",
@@ -17420,7 +17822,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.891Z",
-        "lastImportedAt": "2026-09-14T17:02:23.834Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-10-24-faction-brewing-slacktone",
@@ -17435,20 +17837,23 @@ window.SHOW_EXPLORER_VENUES = {
     "faight": {
       "id": "faight",
       "name": "Faight",
-      "displayName": "The Faight",
+      "displayName": "The Faight — Live Music & Art in the Lower Haight, SF",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
       "status": "occasional",
-      "venueType": "unknown",
+      "venueType": "gallery",
       "city": "San Francisco",
       "region": "SF",
       "address": "475 Haight St",
       "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlr1QJShunlT1rXt_Cbfv6mHG7ytoAEeaOI1kHF3WReN0g9lyCWWBoAdroeePwTXHQITx-FLOqp9-NhmzTUzUd2EMufmjzBYXJlqH1MRM0yTSnBef0g_4oYuaLgA-dbEyRWR2SAAqLYNtnG=s1360-w1360-h1020-rw",
       "imageSource": "Philip Lott/Google",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.7719923,
+        "longitude": -122.42996919999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Artist cooperative and music venue",
       "accessibilityNotes": "",
@@ -17487,12 +17892,40 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=641708497813405835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=641708497813405835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=641708497813405835&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.thefaight.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thefaight.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.thefaight.com/",
+          "note": "Venue type inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-14T17:02:23.817Z",
+        "lastImportedAt": "2026-09-14T23:29:16.614Z",
         "appearances": [
           {
             "eventId": "2026-09-25-faight-moondrops",
@@ -17502,13 +17935,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
-      },
-      "updatedAt": "2026-09-14T18:20:00.003Z"
+      }
     },
     "fairgrounds": {
       "id": "fairgrounds",
@@ -17602,7 +18029,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-14T17:02:23.834Z",
+        "lastImportedAt": "2026-09-14T23:29:16.631Z",
         "appearances": [
           {
             "eventId": "2026-10-15-felton-music-hall-bumpin-uglies",
@@ -17825,7 +18252,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Fifty's Liquor",
       "displayName": "Fifty's Market And Liquor",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "occasional",
       "venueType": "store",
@@ -17874,8 +18301,10 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "maps",
           "label": "Maps",
           "url": "https://maps.google.com/?cid=12163192632207039782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-          "confidence": "likely",
-          "source": "google-places"
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "secondary"
         },
         {
           "type": "instagram",
@@ -17940,7 +18369,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-fifty-s-liquor-choke",
@@ -17951,12 +18380,7 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-09-14T18:25:27.683Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
-      }
+      "updatedAt": "2026-09-15T00:14:52.597Z"
     },
     "fillmore": {
       "id": "fillmore",
@@ -18141,7 +18565,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-13-fillmore-manchester-orchestra",
@@ -18661,7 +19085,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-14T17:02:23.805Z",
+        "lastImportedAt": "2026-09-14T23:29:16.602Z",
         "appearances": [
           {
             "eventId": "2026-09-10-fireside-lounge-don-balistreri",
@@ -18729,6 +19153,13 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://lovefirstoakland.org/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
       "evidence": [
@@ -18751,7 +19182,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.419Z",
-        "lastImportedAt": "2026-09-14T17:02:23.842Z",
+        "lastImportedAt": "2026-09-14T23:29:16.639Z",
         "appearances": [
           {
             "eventId": "2026-09-26-first-church-of-the-buzzard-silent-cities",
@@ -18768,12 +19199,6 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "updatedAt": "2026-09-14T18:34:54.531Z",
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
       }
     },
     "first-congregational": {
@@ -19127,7 +19552,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-14T17:02:23.824Z",
+        "lastImportedAt": "2026-09-14T23:29:16.621Z",
         "appearances": [
           {
             "eventId": "2026-10-05-fml-studio-ingrata",
@@ -19146,7 +19571,7 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "recording studio",
       "city": "Oakland",
       "region": "East Bay",
@@ -19154,7 +19579,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8397989,
+        "longitude": -122.26288969999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -19175,9 +19603,32 @@ window.SHOW_EXPLORER_VENUES = {
           "confidence": "research",
           "source": "imported",
           "display": false
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=1826864770929152974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.skylinestudios.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=1826864770929152974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=1826864770929152974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
         "lastImportedAt": "2026-09-06T23:08:20.523Z",
@@ -19244,7 +19695,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://www.tagvenue.com/resize/202602/55/21/widen-1680-noupsize;63915-the-fold-venue-NwgO3zgu-enhanced-v1-5240428.jpg",
       "imageSource": "tagvenue.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.7489607,
+        "longitude": -122.4172885
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -19284,12 +19738,31 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "displayPriority": "primary",
           "display": true
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9840858413832960126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://thefoldsf.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=9840858413832960126&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.107Z",
-        "lastImportedAt": "2026-09-14T17:02:23.805Z",
+        "lastImportedAt": "2026-09-14T23:29:16.602Z",
         "appearances": [
           {
             "eventId": "2026-09-11-fold-adrian-west-band",
@@ -19630,7 +20103,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-09-fox-theater-slayyyter",
@@ -20028,7 +20501,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.867Z",
-        "lastImportedAt": "2026-09-14T17:02:23.832Z",
+        "lastImportedAt": "2026-09-14T23:29:16.629Z",
         "appearances": [
           {
             "eventId": "2026-09-19-freight-t-sisters",
@@ -20132,7 +20605,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.859Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-09-19-frost-amphitheater-brandi-carlile",
@@ -20923,7 +21396,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.845Z",
+        "lastImportedAt": "2026-09-14T23:29:16.642Z",
         "appearances": [
           {
             "eventId": "2026-09-09-gilman-yearn",
@@ -20943,14 +21416,7 @@ window.SHOW_EXPLORER_VENUES = {
             "eventId": "2026-09-19-gilman-kochina-rude",
             "date": "2026-09-19",
             "title": "Kochina Rude / Papi Churro / Middle-Aged Queers / The Homobiles / Heartless Folk / Penny Poundcake / AngelTortured / The Sisters Of Perpetual Indulgence",
-            "details": "a/a $15 7pm/8pm (Oakland Pride/Gilman Benefit)",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-19-gilman-membership-meeting",
-            "date": "2026-09-19",
-            "title": "",
-            "details": "a/a 4pm",
+            "details": "a/a $15 7pm/8pm (Oakland Pride/Gilman Benefit) / a/a 4pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -21066,13 +21532,7 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      },
-      "summarySource": {
-        "label": "Manual",
-        "url": "",
-        "source": "manual"
-      },
-      "updatedAt": "2026-09-14T18:36:09.419Z"
+      }
     },
     "gilman-brewing-co": {
       "id": "gilman-brewing-co",
@@ -21114,7 +21574,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.625Z",
         "appearances": [
           {
             "eventId": "2026-10-11-gilman-brewing-co-jack-killed-jill",
@@ -21314,7 +21774,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.280Z",
-        "lastImportedAt": "2026-09-14T17:02:23.823Z",
+        "lastImportedAt": "2026-09-14T23:29:16.620Z",
         "appearances": [
           {
             "eventId": "2026-09-13-golden-gate-park-flower-piano-in-the-garden",
@@ -21851,7 +22311,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-14T17:02:23.826Z",
+        "lastImportedAt": "2026-09-14T23:29:16.623Z",
         "appearances": [
           {
             "eventId": "2026-10-08-gray-area-eraserhead-xiu-xiu",
@@ -22044,7 +22504,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-09-great-american-music-hall-eihwar",
@@ -22600,7 +23060,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.874Z",
-        "lastImportedAt": "2026-09-14T17:02:23.826Z",
+        "lastImportedAt": "2026-09-14T23:29:16.623Z",
         "appearances": [
           {
             "eventId": "2026-10-09-great-northern-woo-york",
@@ -22617,20 +23077,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Great Star Theater",
       "displayName": "Great Star Theater",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "active",
+      "venueType": "theater",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "636 Jackson Street, San Francisco, CA 94133",
+      "imageUrl": "https://www.greatstartheater.org/images/Great-star-outside.jpg",
+      "imageSource": "greatstartheater.org",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.796202799999996,
+        "longitude": -122.4058773
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "San Francisco Chinatown's Great Star Theater, a non-profit community-driven live performance venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -22639,17 +23102,88 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#great_star_theater",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Great%20Star%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.greatstartheater.org/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/greatstartheater/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.greatstartheater.org/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/TheGreatStarTheater/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.greatstartheater.org/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=141487342415479314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.greatstartheater.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.greatstartheater.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.greatstartheater.org/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.176Z",
         "lastImportedAt": "2026-09-03T00:36:41.736Z",
@@ -22662,6 +23196,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:17:16.429Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.greatstartheater.org/",
+        "source": "official"
       }
     },
     "greek-theater": {
@@ -22697,7 +23237,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.899Z",
-        "lastImportedAt": "2026-09-14T17:02:23.802Z",
+        "lastImportedAt": "2026-09-14T23:29:16.599Z",
         "appearances": [
           {
             "eventId": "2026-09-09-greek-theater-liz-phair-sleater-kinney-soccer-mommy-solo",
@@ -22895,7 +23435,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-14T17:02:23.840Z",
+        "lastImportedAt": "2026-09-14T23:29:16.637Z",
         "appearances": [
           {
             "eventId": "2026-09-11-greek-theatre-foster-the-people-goth-babe",
@@ -23350,7 +23890,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-14T17:02:23.838Z",
+        "lastImportedAt": "2026-09-14T23:29:16.635Z",
         "appearances": [
           {
             "eventId": "2026-09-11-guild-theater-marcus-rezak-s-shread-is-dead",
@@ -23432,18 +23972,21 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Guitar Wars",
       "displayName": "Guitar Wars",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
-      "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "occasional",
+      "venueType": "store",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "447 S First St San Jose, CA 95113",
+      "imageUrl": "https://www.metrosiliconvalley.com/wp-content/uploads/sites/16/2026/01/guitar-wars-1000x580.jpg",
+      "imageSource": "metrosiliconvalley.com",
+      "phone": "408-905-4434",
+      "geo": {
+        "latitude": 37.329140599999995,
+        "longitude": -121.8857652
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
       "accessibilityNotes": "",
@@ -23454,20 +23997,66 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#guitar_wars",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Guitar%20Wars%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/guitar-wars-san-jose",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=18051794449449656064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://guitarwars.store/",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=18051794449449656064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18051794449449656064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18051794449449656064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18051794449449656064&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-guitar-wars-dolores",
@@ -23477,7 +24066,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T00:20:13.997Z"
     },
     "gundlach-bundschu-winery": {
       "id": "gundlach-bundschu-winery",
@@ -23536,20 +24126,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Haight Ashbury Street Fair",
       "displayName": "Haight Ashbury Street Fair",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "seasonal",
+      "venueType": "bar",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1533-1501 Haight St, San Francisco, CA 94117",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5e1fb80d8a31cf7344ee7606/f0a5d9f7-7f1a-4e86-8f53-7ea5054ad420/312089960_10166863084365456_5328669235501034210_n.jpg",
+      "imageSource": "haightashburystreetfair.org",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.769867,
+        "longitude": -122.44737359999999
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Yearly street fair of the Haight-Ashbury hippie stronghold / tourist trap.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -23558,20 +24151,101 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#haight_ashbury_street_fair",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Haight%20Ashbury%20Street%20Fair%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.haightashburystreetfair.org/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/haightashburystreetfair/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.haightashburystreetfair.org/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/HaightAshburyStreetFair/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.haightashburystreetfair.org/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17411214237348198920&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.haightashburystreetfair.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.haightashburystreetfair.org/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.haightashburystreetfair.org/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.haightashburystreetfair.org/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.814Z",
+        "lastImportedAt": "2026-09-14T23:29:16.612Z",
         "appearances": [
           {
             "eventId": "2026-09-20-haight-ashbury-street-fair-knights-of-molino",
@@ -23581,6 +24255,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:36:13.061Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "half-moon-bay-brewing-company": {
@@ -23785,7 +24465,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.282Z",
-        "lastImportedAt": "2026-09-14T17:02:23.824Z",
+        "lastImportedAt": "2026-09-14T23:29:16.621Z",
         "appearances": [
           {
             "eventId": "2026-10-04-hardly-strictly-bluegrass-aj-lee-and-blue-summit",
@@ -24232,7 +24912,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-14T17:02:23.847Z",
+        "lastImportedAt": "2026-09-14T23:29:16.645Z",
         "appearances": [
           {
             "eventId": "2026-10-24-henry-j-kaiser-center-celtic-thunder",
@@ -24404,22 +25084,25 @@ window.SHOW_EXPLORER_VENUES = {
     "heshers-pizza": {
       "id": "heshers-pizza",
       "name": "Heshers Pizza",
-      "displayName": "Heshers Pizza",
+      "displayName": "Hesher's Pizza & Taproom",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
-      "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "status": "active",
+      "venueType": "restaurant",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "206 Broadway, Oakland, CA 94607",
+      "imageUrl": "https://res.cloudinary.com/the-infatuation/image/upload/c_fill,w_750,ar_4:3,g_center,f_auto/images/IMG_6259_nn9zwj",
+      "imageSource": "The Infatuation",
+      "phone": "510-990-1598",
+      "geo": {
+        "latitude": 37.7963665,
+        "longitude": -122.2758749
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "HESHER'S PIZZA Menu TAP LIST EVENTS MERCH Order Online (Slice) Order Online (DoorDash)",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -24428,20 +25111,91 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#heshers_pizza",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Heshers%20Pizza%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://hesherspizza.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "yelp",
+          "label": "Yelp",
+          "url": "https://www.yelp.com/biz/heshers-pizza-oakland",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/heshers_pizza",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9640308032182083208&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://hesherspizza.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://hesherspizza.com/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.814Z",
+        "lastImportedAt": "2026-09-14T23:29:16.612Z",
         "appearances": [
           {
             "eventId": "2026-09-20-heshers-pizza-field-of-fear",
@@ -24451,6 +25205,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:23:31.605Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://hesherspizza.com/",
+        "source": "official"
       }
     },
     "hi-tops": {
@@ -24534,18 +25294,21 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "event space",
       "city": "San Francisco",
       "region": "SF",
-      "address": "1 Jones St",
+      "address": "1 Jones St, San Francisco, CA 94102",
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.7813171,
+        "longitude": -122.4122946
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "With four flexible event spaces and capacity for over 1,500+ guests, The Hibernia is ideal for corporate events, conferences, product launches, holiday parties, award ceremonies, nonprofit galas, weddings, and private celebrations.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -24591,9 +25354,49 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=768482079726603773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/thehiberniasf/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://thehiberniasf.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=768482079726603773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=768482079726603773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=768482079726603773&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://thehiberniasf.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://thehiberniasf.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://thehiberniasf.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
         "lastImportedAt": "2026-09-08T00:05:53.598Z",
@@ -24606,6 +25409,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://thehiberniasf.com/",
+        "source": "official"
       }
     },
     "hila-gelato": {
@@ -24980,7 +25788,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-hopmon-magic-sword",
@@ -24997,7 +25805,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Hopmonk",
       "displayName": "HopMonk Tavern Novato",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
       "venueType": "bar",
@@ -25007,7 +25815,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSZuRYR0T5yS3wtDSkbzx30zFNb40uJheOqBTjA26Av-Tm5Qun0RKiMrYWHRGuShjMqvTAaDImlZa4bq6hD8acUDT7Rv1CVC3TWpYw5JclKk04LbCS6KJY1n9tCjpuLrpweHb_PsxfOt7O_EiAjWFJuo5GJ22XzhHz-lq0YEzwcrNHALvCatwj7A/s16000/_SSR9162%20Mini%20Trees%20from%20lawn.jpeg",
       "imageSource": "sfbayareaconcerts.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 38.08854600000001,
+        "longitude": -122.5534481
+      },
       "agePolicy": "21+",
       "capacity": "",
       "summary": "",
@@ -25038,12 +25849,44 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17790569745255763959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/hopmonknovato/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.hopmonk.com/novato",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=17790569745255763959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17790569745255763959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.hopmonk.com/novato",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.886Z",
-        "lastImportedAt": "2026-09-14T17:02:23.850Z",
+        "lastImportedAt": "2026-09-14T23:29:16.647Z",
         "appearances": [
           {
             "eventId": "2026-09-18-hopmonk-the-anton-collection",
@@ -25123,7 +25966,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T00:24:26.221Z"
     },
     "hopmonk-sebastopol": {
       "id": "hopmonk-sebastopol",
@@ -25327,7 +26171,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.647Z",
         "appearances": [
           {
             "eventId": "2026-09-11-hopmonk-tavern-tainted-love",
@@ -25643,7 +26487,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-14T17:02:23.838Z",
+        "lastImportedAt": "2026-09-14T23:29:16.636Z",
         "appearances": [
           {
             "eventId": "2026-09-08-hotel-utah-open-bluegrass-jam",
@@ -25737,7 +26581,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.289Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-10-18-hotel-utah-saloon-scam-likely",
@@ -25752,7 +26596,7 @@ window.SHOW_EXPLORER_VENUES = {
     "hub": {
       "id": "hub",
       "name": "Hub",
-      "displayName": "The Hub",
+      "displayName": "The Hub Redwood City",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -25760,12 +26604,15 @@ window.SHOW_EXPLORER_VENUES = {
       "venueType": "event space",
       "city": "Redwood City",
       "region": "Peninsula",
-      "address": "2650 Broadway",
+      "address": "2650 Broadway, Redwood City, CA 94063",
       "imageUrl": "https://static.wixstatic.com/media/b19dda_9944c347f8994034809c605efe06e621~mv2.jpg/v1/fill/w_1601,h_1067,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/b19dda_9944c347f8994034809c605efe06e621~mv2.jpg",
       "imageSource": "wix.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.4863545,
+        "longitude": -122.2344049
+      },
+      "agePolicy": "21+",
       "capacity": "200",
       "summary": "Cafe and shared workspace during the day, and a live entertainment, bar and venue for hire at night. The Hub has a capacity in excess of 200 across two floors, plus a large outdoor patio area.",
       "accessibilityNotes": "",
@@ -25795,9 +26642,37 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=2215672545384811709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=2215672545384811709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2215672545384811709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=2215672545384811709&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.thehubrwc.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.thehubrwc.com/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.262Z",
         "lastImportedAt": "2026-09-06T23:08:20.523Z",
@@ -26072,7 +26947,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-17-independent-mustard-service",
@@ -26091,7 +26966,7 @@ window.SHOW_EXPLORER_VENUES = {
           {
             "eventId": "2026-09-20-independent-deca-jones",
             "date": "2026-09-20",
-            "title": "Deca Jones",
+            "title": "Deca Joins",
             "details": "a/a 7:30pm/8pm (sold out)",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
@@ -26460,7 +27335,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.178Z",
-        "lastImportedAt": "2026-09-14T17:02:23.816Z",
+        "lastImportedAt": "2026-09-14T23:29:16.614Z",
         "appearances": [
           {
             "eventId": "2026-09-24-indpendent-wesghost",
@@ -26805,7 +27680,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.850Z",
+        "lastImportedAt": "2026-09-14T23:29:16.647Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ivy-room-scott-amendola-s-floating-parade",
@@ -27229,7 +28104,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-12-jade-cathey-resturant-indigo-elephant",
@@ -27558,7 +28433,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-09-jupiter-jazzschool-jam-wednesdays",
@@ -27681,7 +28556,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-14T17:02:23.830Z",
+        "lastImportedAt": "2026-09-14T23:29:16.627Z",
         "appearances": [
           {
             "eventId": "2026-10-02-jury-room-the-streetwalkin-cheetahs",
@@ -27889,7 +28764,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.894Z",
-        "lastImportedAt": "2026-09-14T17:02:23.802Z",
+        "lastImportedAt": "2026-09-14T23:29:16.599Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kerouac-alley-the-losin-streaks-anna-hillburg-the-wind-ups",
@@ -27984,7 +28859,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.247Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-09-keys-jazz-bistro-robert-kennedy-quartet",
@@ -28150,7 +29025,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-09-kilowatt-arts-and-crafts-i-am-the-octopus-the-end",
@@ -28453,7 +29328,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.820Z",
+        "lastImportedAt": "2026-09-14T23:29:16.618Z",
         "appearances": [
           {
             "eventId": "2026-09-10-knockout-analog-africa-and-rasta-pasta-records-on-tour",
@@ -28554,7 +29429,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.873Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-10-18-knot-club-rainbow-girls",
@@ -28680,7 +29555,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.302Z",
-        "lastImportedAt": "2026-09-14T17:02:23.844Z",
+        "lastImportedAt": "2026-09-14T23:29:16.641Z",
         "appearances": [
           {
             "eventId": "2026-11-17-kuumbwa-jazz-center-john-caroll-kirby",
@@ -28894,7 +29769,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-24-lab-rrose",
@@ -28975,7 +29850,7 @@ window.SHOW_EXPLORER_VENUES = {
     "lane-splitter-pizza": {
       "id": "lane-splitter-pizza",
       "name": "Lane Splitter Pizza",
-      "displayName": "Lanesplitter Pizza & Pub",
+      "displayName": "Lanesplitter Pizza & Pubs",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -28987,10 +29862,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8281224,
+        "longitude": -122.27917450000001
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "View the menu, hours, address, and photos for Lanesplitter Pizza & Pub in Emeryville, CA. Order online for delivery or pickup.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -29027,9 +29905,29 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=10964512224660469010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=10964512224660469010&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://lanesplitterpizzapub.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.facebook.com/LanesplitterEmeryville/",
+          "note": "Display name derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
         "lastImportedAt": "2026-09-06T23:08:20.524Z",
@@ -29042,6 +29940,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://lanesplitterpizzapub.com/",
+        "source": "official"
       }
     },
     "lane-splitters-pizza": {
@@ -29221,15 +30124,18 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "1125 Battery St, San Francisco, CA 94111",
       "imageUrl": "https://media.revistagq.com/photos/6849819f873dc093b2b6421b/master/w_1600%2Cc_limit/_MG_1445%2520copia.jpg",
       "imageSource": "revistagq.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8015592,
+        "longitude": -122.40186109999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -29256,9 +30162,37 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://www.levisplaza.com/",
           "confidence": "likely",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=7576849170620296979&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
         "lastImportedAt": "2026-09-09T00:41:45.819Z",
@@ -29306,7 +30240,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-06T04:27:10.789Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-levi-s-plaza-plaza-palooza-ruby-ibarra-and-the-balikbayans-red-lotus-afterthought-and-the-top-chefs",
@@ -30226,7 +31160,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.830Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mabuhay-gardens-bong-father-sonus-half-rotten-goddess-elegant-trash-cretins-life-span",
@@ -31017,7 +31951,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.848Z",
+        "lastImportedAt": "2026-09-14T23:29:16.645Z",
         "appearances": [
           {
             "eventId": "2026-09-13-masonic-polyphia",
@@ -31271,15 +32205,18 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "amphitheater",
       "city": "Hayward",
       "region": "",
-      "address": "",
+      "address": "21163 Anton Way, Cupertino, CA 95014",
       "imageUrl": "https://static.wixstatic.com/media/5c9121_1dabc6df74ca4a32a666197d7b60702e~mv2.jpg/v1/fill/w_925,h_861,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5c9121_1dabc6df74ca4a32a666197d7b60702e~mv2.jpg",
       "imageSource": "Wix",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.324435,
+        "longitude": -122.0446891
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -31299,12 +32236,39 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Memorial%20Park%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5198422945678770612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.cupertino.org/index.aspx?page=1085",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=5198422945678770612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5198422945678770612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5198422945678770612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.267Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-memorial-park-blind-illusion",
@@ -31456,22 +32420,25 @@ window.SHOW_EXPLORER_VENUES = {
     "meritage-resort": {
       "id": "meritage-resort",
       "name": "Meritage Resort",
-      "displayName": "The Meritage Resort",
+      "displayName": "The Meritage Resort and Spa",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "active",
-      "venueType": "unknown",
+      "status": "seasonal",
+      "venueType": "hotel",
       "city": "Napa",
       "region": "North Bay",
-      "address": "",
+      "address": "875 Bordeaux Way, Napa, CA 94558",
       "imageUrl": "https://assets.meritageresort.com/system/uploads/fae/image/asset/3882/xxl_tmr-bre-experience.jpg",
       "imageSource": "meritageresort.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 38.2460881,
+        "longitude": -122.27400599999999
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Blue Note Napa's Summer Sessions concert series is back at The Meritage Resort and Spa.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -31480,20 +32447,62 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#meritage_resort",
           "confidence": "verified",
-          "source": "imported"
+          "source": "imported",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Meritage%20Resort%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=10412092639798212263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "displayPriority": "primary",
+          "display": true
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.meritageresort.com",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/meritageresort",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=10412092639798212263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10412092639798212263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10412092639798212263&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.835Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-09-12-meritage-resort-kenny-wayne-shepherd-band",
@@ -31507,13 +32516,6 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-19",
             "title": "Jon B.",
             "details": "6:30pm/8pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-20-meritage-resort-jeff-dunham",
-            "date": "2026-09-20",
-            "title": "",
-            "details": "5:30pm/7pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -31566,7 +32568,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-15T00:28:29.158Z"
     },
     "michelle": {
       "id": "michelle",
@@ -31749,7 +32757,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.911Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-midway-tinlicker",
@@ -32135,7 +33143,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.157Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-12-moe-s-alley-black-uhuru",
@@ -32582,15 +33590,18 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "status": "active",
+      "venueType": "theater",
+      "city": "Mill Valley",
+      "region": "North Bay",
+      "address": "Easy Grade Trail, Mill Valley, CA 94941",
       "imageUrl": "https://cdn.sfstation.com/assets/images/events/14/24229142907479_orig.jpg",
       "imageSource": "sfstation.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.9127055,
+        "longitude": -122.60875419999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -32610,12 +33621,51 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22Mountain%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.parks.ca.gov/?page_id=24889",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3776950072809333095&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.175Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-mountain-theater-father-john-mist",
@@ -32805,7 +33855,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.836Z",
+        "lastImportedAt": "2026-09-14T23:29:16.633Z",
         "appearances": [
           {
             "eventId": "2026-09-11-mountain-winery-jesse-mccartney",
@@ -32826,13 +33876,6 @@ window.SHOW_EXPLORER_VENUES = {
             "date": "2026-09-17",
             "title": "The Temptations / Four Tops",
             "details": "a/a 5:30pm/7:30pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-19-mountain-winery-jeff-dunham",
-            "date": "2026-09-19",
-            "title": "",
-            "details": "a/a 6pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -33136,7 +34179,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.248Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-09-mr-tipple-s-naama",
@@ -33313,7 +34356,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.885Z",
-        "lastImportedAt": "2026-09-14T17:02:23.835Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-09-30-music-hall-bella-white",
@@ -33417,7 +34460,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.290Z",
-        "lastImportedAt": "2026-09-14T17:02:23.832Z",
+        "lastImportedAt": "2026-09-14T23:29:16.629Z",
         "appearances": [
           {
             "eventId": "2026-10-20-mystic-theater-david-nail",
@@ -33787,7 +34830,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-10-neck-of-the-woods-st-l-g13-straggler-hell-bound-pound-fatale",
@@ -33888,7 +34931,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.877Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-new-farm-voice-of-the-soul",
@@ -34053,7 +35096,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-14T17:02:23.822Z",
+        "lastImportedAt": "2026-09-14T23:29:16.619Z",
         "appearances": [
           {
             "eventId": "2026-10-02-nikko-john-hill-at-feinstein-s",
@@ -34477,7 +35520,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-12-o-reilly-s-prior-to-last-season-alias-saving-disaster-follies",
@@ -34997,7 +36040,7 @@ window.SHOW_EXPLORER_VENUES = {
     "ocean-ale-house": {
       "id": "ocean-ale-house",
       "name": "Ocean Ale House",
-      "displayName": "Ocean Ale House",
+      "displayName": "Ocean Ale House – 1314 Ocean Avenue",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -35015,7 +36058,7 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "agePolicy": "unknown",
       "capacity": "",
-      "summary": "",
+      "summary": "Ocean Ale House – 1314 Ocean Avenue | 415-988-7521",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -35075,12 +36118,25 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://maps.google.com/?cid=14773997277877563140&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "http://www.oceanalehouse.com/",
+          "note": "Display name derived from verified venue page metadata."
+        },
+        {
+          "url": "http://www.oceanalehouse.com/",
+          "note": "Summary derived from verified venue page metadata."
         }
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:25:44.052Z",
         "lastImportedAt": "2026-09-03T00:36:41.716Z",
         "appearances": []
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "http://www.oceanalehouse.com/",
+        "source": "official"
       }
     },
     "old-princeton-landing": {
@@ -35202,10 +36258,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://i2.wp.com/www.mercurynews.com/wp-content/uploads/2021/04/SJM-L-CREATV-x-02.jpg",
       "imageSource": "mercurynews.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.3358311,
+        "longitude": -121.8885461
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "a sampling of exhibition images, more to come: Share this: Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Like this: Like Loading… Author joe miller Posted on August 24, 2026 Categories Uncategorized Leave a comment on Overtime: The Work of Living opens September 4 Hold Fast!",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -35233,12 +36292,56 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=678325214744585496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/workssanjose/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://workssanjose.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/workssanjose/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://workssanjose.org/"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "http://x.com/workssanjose",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://workssanjose.org/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=678325214744585496&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://workssanjose.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://workssanjose.org/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-13-open-gallery-division-of-mind",
@@ -35248,6 +36351,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://workssanjose.org/",
+        "source": "official"
       }
     },
     "ora-wine-bar": {
@@ -35700,7 +36808,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.615Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pacifica-s-fogfist-parade-the-young-barons",
@@ -35856,7 +36964,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-14T17:02:23.846Z",
+        "lastImportedAt": "2026-09-14T23:29:16.643Z",
         "appearances": [
           {
             "eventId": "2026-10-04-palace-of-fine-arts-yasmin-levy",
@@ -35959,22 +37067,25 @@ window.SHOW_EXPLORER_VENUES = {
     "papermill-creek-saloon": {
       "id": "papermill-creek-saloon",
       "name": "Papermill Creek Saloon",
-      "displayName": "Papermill Creek Saloon",
+      "displayName": "Paper Mill Creek Saloon",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Lagunitas-Forest Knolls",
+      "region": "North Bay",
+      "address": "1 Castro St, Forest Knolls, CA 94933",
+      "imageUrl": "https://marinmagazine.com/wp-content/uploads/data-import/572b78e1/PapermillCreek_101114_079_400px.jpg",
+      "imageSource": "marinmagazine.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 38.0148842,
+        "longitude": -122.6891451
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "Historic dive bar in Forest Knolls.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -35983,20 +37094,91 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#papermill_creek_saloon",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Papermill%20Creek%20Saloon%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://papermillcreeksaloon.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/papermill/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://papermillcreeksaloon.com/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/papermill_creek_saloon/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://papermillcreeksaloon.com/",
+          "displayPriority": "primary",
+          "display": true
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8812589382978270404&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://papermillcreeksaloon.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://papermillcreeksaloon.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://papermillcreeksaloon.com/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.002Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:29:16.608Z",
         "appearances": [
           {
             "eventId": "2026-09-18-papermill-creek-saloon-wreckless-strangers",
@@ -36006,27 +37188,36 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T00:30:32.221Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "paramount-theater": {
       "id": "paramount-theater",
       "name": "Paramount Theater",
-      "displayName": "Paramount Theatre",
+      "displayName": "Paramount Theatre Oakland",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "status": "occasional",
+      "venueType": "theater",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "2025 Broadway, Oakland, CA 94612",
       "imageUrl": "https://meyersound.com/wp-content/uploads/2023/11/paramount_theatre_1.jpg",
-      "imageSource": "",
+      "imageSource": "meyersound.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "geo": {
+        "latitude": 37.8097055,
+        "longitude": -122.2682219
+      },
+      "agePolicy": "all-ages",
+      "capacity": "3476",
+      "summary": "An Art Deco concert hall in Downtown Oakland. When it was built in 1931, it was the largest multi-purpose theater on the West Coast. Today, the Paramount is the home of the Oakland Symphony and the Oakland Ballet.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -36035,20 +37226,107 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#paramount_theater",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Paramount%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.paramountoakland.org/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "ticketmaster",
+          "label": "Ticketmaster",
+          "url": "http://ticketmaster.com/venue/229485/?brand=paramounttheatre",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.paramountoakland.org/",
+          "display": true,
+          "displayPriority": "secondary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/oakparamount/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.paramountoakland.org/",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/oakparamount/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.paramountoakland.org/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=14717913851600524741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.paramountoakland.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.paramountoakland.org/",
+          "note": "Added 4 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:15:37.316Z",
         "appearances": [
           {
             "eventId": "2026-09-18-paramount-theater-mojo-brookzz",
@@ -36058,6 +37336,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T01:46:46.780Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "paris-75": {
@@ -36404,15 +37688,15 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [
         "Paviliion"
       ],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "club",
+      "venueType": "amphitheater",
       "city": "Concord",
       "region": "East Bay",
       "address": "2000 Kirker Pass Road",
-      "imageUrl": "",
-      "imageSource": "",
+      "imageUrl": "https://assets.livenationcdn.com/uploads/97702ca1-7233-4076-bbb9-ef262d8648b2.png?auto=webp&quality=70&width=996",
+      "imageSource": "Live Nation",
       "phone": "",
       "geo": {
         "latitude": 37.959728999999996,
@@ -36420,7 +37704,7 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "Toyota Pavilion at Concord information and upcoming 2026 events. Find details on the official Toyota Pavilion at Concord (formerly Concord Pavilion) website including tickets, seating chart, and show calendar.",
+      "summary": "An amphitheater located in Concord, California. It is owned by the City of Concord and operated by Live Nation.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -36430,7 +37714,7 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://jon.luini.com/thelist/club.html#pavilion",
           "confidence": "verified",
           "source": "imported",
-          "display": true,
+          "display": false,
           "displayPriority": "primary"
         },
         {
@@ -36438,7 +37722,8 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Pavilion%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
         },
         {
           "type": "official",
@@ -36451,7 +37736,7 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "facebook",
           "label": "Facebook",
           "url": "https://facebook.com/ToyotaPavilionatConcord/",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "verified-venue-page",
           "sourcePage": "https://www.toyotapavilionatconcord.com/",
           "display": true,
@@ -36469,7 +37754,7 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "instagram",
           "label": "Instagram",
           "url": "https://instagram.com/toyotapavilionatconcord/",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "verified-venue-page",
           "sourcePage": "https://www.toyotapavilionatconcord.com/",
           "display": true,
@@ -36479,10 +37764,10 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "maps",
           "label": "Maps",
           "url": "https://maps.google.com/?cid=12598647690708686351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-          "confidence": "likely",
+          "confidence": "verified",
           "source": "google-places",
           "display": true,
-          "displayPriority": "primary"
+          "displayPriority": "secondary"
         }
       ],
       "evidence": [
@@ -36525,11 +37810,15 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://maps.google.com/?cid=12598647690708686351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.toyotapavilionatconcord.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
         }
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-14T17:02:23.836Z",
+        "lastImportedAt": "2026-09-14T23:29:16.633Z",
         "appearances": [
           {
             "eventId": "2026-09-20-pavilion-rob-zombie",
@@ -36546,7 +37835,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-15T01:59:29.707Z"
     },
     "peacock-lounge": {
       "id": "peacock-lounge",
@@ -36671,7 +37966,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.872Z",
-        "lastImportedAt": "2026-09-14T17:02:23.803Z",
+        "lastImportedAt": "2026-09-14T23:29:16.600Z",
         "appearances": [
           {
             "eventId": "2026-09-10-peacock-lounge-we-micromanage-infinity-dj-female-convict-scorpion-shatter-pattern-ron-heglin-and-lorin-benedict",
@@ -37005,20 +38300,13 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-12-phoenix-theater-punked-out-pretty",
             "date": "2026-09-12",
             "title": "Punked Out Pretty / Polaris / Red40 / Sacramental / Voltage",
             "details": "a/a $15.49 6:30pm/7pm",
-            "sourceUrl": "https://jon.luini.com/thelist/date.html"
-          },
-          {
-            "eventId": "2026-09-18-phoenix-theater-phoenix-pro-wrestling",
-            "date": "2026-09-18",
-            "title": "",
-            "details": "a/a $13.43 7:30pm/8pm",
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           },
           {
@@ -37102,10 +38390,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/5ae79fa0506fbef80001147e/0522f711-1967-42fe-b82c-e1c5e7a370fa/Piedmont%2BPiano%2BOakland.jpeg",
       "imageSource": "piedmontpiano.com",
       "phone": "510-547-8188",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8077432,
+        "longitude": -122.2720932
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Piedmont Piano Company is a family owned and operated store providing top quality pianos to the San Francisco Bay Area and beyond.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -37125,12 +38416,48 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=6218674561283938732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/piedmontpiano/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://piedmontpiano.com/"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/Piedmont-Piano-Company-276287860441/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://piedmontpiano.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=6218674561283938732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://piedmontpiano.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://piedmontpiano.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.102Z",
-        "lastImportedAt": "2026-09-14T17:02:23.803Z",
+        "lastImportedAt": "2026-09-14T23:29:16.600Z",
         "appearances": [
           {
             "eventId": "2026-09-08-piedmont-piano-company-cosmo-alleycats",
@@ -37147,6 +38474,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://piedmontpiano.com/",
+        "source": "official"
       }
     },
     "pier-80": {
@@ -37189,7 +38521,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.908Z",
-        "lastImportedAt": "2026-09-14T17:02:23.819Z",
+        "lastImportedAt": "2026-09-14T23:29:16.616Z",
         "appearances": [
           {
             "eventId": "2026-09-26-pier-80-robyn",
@@ -37372,7 +38704,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.908Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-10-08-planetarium-knights-of-molino",
@@ -37505,22 +38837,25 @@ window.SHOW_EXPLORER_VENUES = {
     "plaza": {
       "id": "plaza",
       "name": "Plaza",
-      "displayName": "Plaza",
+      "displayName": "Plaza de Cesar Chavez",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "seasonal",
+      "venueType": "park",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "1 Paseo de San Antonio, San Jose, CA 95113",
+      "imageUrl": "https://www.mitpsj.com/wp-content/uploads/slider/cache/97128136d76d1d23c6decd3e3a3b34ed/Plaza-de-Cesar-Chavez.jpg",
+      "imageSource": "mitpsj.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.3324736,
+        "longitude": -121.8891456
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "An urban plaza and park in Downtown San Jose",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -37529,20 +38864,118 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#plaza",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Plaza%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/Plaza+de+Cesar+Chavez/@37.3318423,-121.8924072,17z/data=!4m15!1m8!3m7!1s0x808fccbb21a50083:0x111e9bca34225304!2s1+Paseo+de+San+Antonio,+San+Jose,+CA+95113!3b1!8m2!3d37.3324736!4d-121.8891456!16s%2Fg%2F11t6ky0btp!3m5!1s0x808fccbb27943791:0xe788ba104db19c5d!8m2!3d37.3324858!4d-121.8898421!16zL20vMDRfeXJq?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "displayPriority": "primary",
+          "display": true
+        },
+        {
+          "type": "official",
+          "label": "Park Site",
+          "url": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2343/2028",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Events",
+          "url": "https://www.mitpsj.com/the-plaza/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=18424249444526685793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.mitpsj.com/upcoming-shows/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.mitpsj.com/upcoming-shows/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.mitpsj.com/upcoming-shows/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.mitpsj.com/upcoming-shows/",
+          "note": "Added 6 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://www.google.com/maps/place/1+Paseo+de+San+Antonio,+San+Jose,+CA+95113/@37.3324736,-121.8917259,17z/data=!3m1!4b1!4m6!3m5!1s0x808fccbb21a50083:0x111e9bca34225304!8m2!3d37.3324736!4d-121.8891456!16s%2Fg%2F11t6ky0btp?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the verified Google Maps link."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5696215074283073414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=5696215074283073414&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://www.google.com/maps/place/1+Paseo+de+San+Antonio,+San+Jose,+CA+95113/@37.3324736,-121.8917259,17z/data=!3m1!4b1!4m6!3m5!1s0x808fccbb21a50083:0x111e9bca34225304!8m2!3d37.3324736!4d-121.8891456!16s%2Fg%2F11t6ky0btp?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the saved Google Maps link."
+        },
+        {
+          "url": "https://www.google.com/maps/place/1+Paseo+de+San+Antonio,+San+Jose,+CA+95113/@37.3324736,-121.8917259,17z/data=!3m1!4b1!4m6!3m5!1s0x808fccbb21a50083:0x111e9bca34225304!8m2!3d37.3324736!4d-121.8891456!16s%2Fg%2F11t6ky0btp?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Address extracted from the saved Google Maps place URL."
+        },
+        {
+          "url": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2343/2028",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2343/2028",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-plaza-ice-t",
@@ -37552,6 +38985,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T01:38:42.132Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "plough-and-stars": {
@@ -37646,7 +39085,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.281Z",
-        "lastImportedAt": "2026-09-14T17:02:23.823Z",
+        "lastImportedAt": "2026-09-14T23:29:16.620Z",
         "appearances": [
           {
             "eventId": "2026-10-03-point-emery-knights-of-molino",
@@ -37700,7 +39139,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.159Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-09-12-point-san-pablo-harbor-the-allmond-brothers-tribute",
@@ -38199,7 +39638,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.604Z",
         "appearances": [
           {
             "eventId": "2026-09-11-public-works-fatima-hajji",
@@ -38315,7 +39754,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-18T18:04:30.138Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "manual-0ade7528-887e-499e-a240-f2a00d2d99bb",
@@ -38426,7 +39865,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.893Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-quarry-amphitheater-acid-bath",
@@ -38641,7 +40080,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.815Z",
+        "lastImportedAt": "2026-09-14T23:26:20.038Z",
         "appearances": [
           {
             "eventId": "2026-09-20-railroad-square-railroad-square-music-festival",
@@ -38745,7 +40184,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.274Z",
-        "lastImportedAt": "2026-09-14T17:02:23.816Z",
+        "lastImportedAt": "2026-09-14T23:29:16.614Z",
         "appearances": [
           {
             "eventId": "2026-09-24-rain-dog-records-silent-cities",
@@ -38969,7 +40408,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.900Z",
-        "lastImportedAt": "2026-09-14T17:02:23.803Z",
+        "lastImportedAt": "2026-09-14T23:29:16.600Z",
         "appearances": [
           {
             "eventId": "2026-09-10-redwood-grove-mirah",
@@ -39110,7 +40549,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-12-regency-ballroom-moms-feelin-themselves",
@@ -39484,7 +40923,7 @@ window.SHOW_EXPLORER_VENUES = {
     "revolution-cafe": {
       "id": "revolution-cafe",
       "name": "Revolution Cafe",
-      "displayName": "Revolution Cafe",
+      "displayName": "Me and Jungle Cafe",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -39496,7 +40935,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://www.eastbaytimes.com/wp-content/uploads/2016/08/20060710_115113_cafe2.jpg?w=500",
       "imageSource": "eastbaytimes.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8254391,
+        "longitude": -122.2539548
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "",
@@ -39527,12 +40969,35 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "displayPriority": "primary",
           "display": true
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11235355139857278894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://meandjunglecafe.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=11235355139857278894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11235355139857278894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.868Z",
-        "lastImportedAt": "2026-09-14T17:02:23.837Z",
+        "lastImportedAt": "2026-09-14T23:29:16.635Z",
         "appearances": [
           {
             "eventId": "2026-10-30-revolution-cafe-creepy-crawlies",
@@ -39761,7 +41226,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-08-rickshaw-stop-the-bug-club",
@@ -40314,7 +41779,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-14T17:02:23.849Z",
+        "lastImportedAt": "2026-09-14T23:29:16.646Z",
         "appearances": [
           {
             "eventId": "2026-09-26-rio-theater-laurie-anderson",
@@ -40530,7 +41995,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.154Z",
-        "lastImportedAt": "2026-09-14T17:02:23.850Z",
+        "lastImportedAt": "2026-09-14T23:29:16.647Z",
         "appearances": [
           {
             "eventId": "2026-09-09-ritz-hail-the-sun",
@@ -41786,7 +43251,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.845Z",
+        "lastImportedAt": "2026-09-14T23:29:16.642Z",
         "appearances": [
           {
             "eventId": "2026-10-08-san-jose-civic-center-the-living-tombstone",
@@ -42200,7 +43665,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.285Z",
-        "lastImportedAt": "2026-09-14T17:02:23.827Z",
+        "lastImportedAt": "2026-09-14T23:29:16.624Z",
         "appearances": [
           {
             "eventId": "2026-10-10-sf-building-resources-bite",
@@ -42245,7 +43710,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.416Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-10-sf-jazz-center-christian-mcbride",
@@ -42335,20 +43800,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Shark Tank",
       "displayName": "SAP Center",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "status": "active",
+      "venueType": "arena",
+      "city": "San Jose",
+      "region": "South Bay",
+      "address": "525 W Santa Clara St, San Jose, CA 95113",
       "imageUrl": "https://www.sapcenter.com/assets/img/connect-slideshow-9382723f07.jpg",
       "imageSource": "sapcenter.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
-      "capacity": "",
-      "summary": "",
+      "geo": {
+        "latitude": 37.3327655,
+        "longitude": -121.9011143
+      },
+      "agePolicy": "all-ages",
+      "capacity": "19190",
+      "summary": "A multi-purpose indoor arena located in San Jose. Also known as the Shark Tank.",
       "accessibilityNotes": "",
       "reviewNotes": "Shark Tank",
       "links": [
@@ -42357,20 +43825,103 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#shark_tank",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Shark%20Tank%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.sapcenter.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "twitter",
+          "label": "X/Twitter",
+          "url": "https://x.com/sapcenter",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sapcenter.com/",
+          "display": true,
+          "displayPriority": "secondary"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/sapcenter/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sapcenter.com/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/sapcenter/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.sapcenter.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3313082725076406308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.sapcenter.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.sapcenter.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.sapcenter.com/",
+          "note": "Added 3 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.888Z",
-        "lastImportedAt": "2026-09-14T17:02:23.841Z",
+        "lastImportedAt": "2026-09-14T23:29:16.638Z",
         "appearances": [
           {
             "eventId": "2026-09-18-shark-tank-carin-leon",
@@ -42408,6 +43959,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T01:49:37.987Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "sheldons-hobbies": {
@@ -42575,7 +44132,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.905Z",
-        "lastImportedAt": "2026-09-14T17:02:23.810Z",
+        "lastImportedAt": "2026-09-14T23:29:16.607Z",
         "appearances": [
           {
             "eventId": "2026-09-16-shoreline-ampheater-five-finger-death-punch",
@@ -42666,6 +44223,22 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "confidence": "likely",
           "source": "google-places"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://livenation.com/promotion/summeroflive/venue/KovZpZA6ta1A",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.shorelineamphitheatre.com/"
+        },
+        {
+          "type": "liveNation",
+          "label": "Live Nation",
+          "url": "https://premium.livenation.com/venue/shoreline-amphitheatre",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.shorelineamphitheatre.com/"
         }
       ],
       "evidence": [
@@ -42712,11 +44285,15 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://maps.google.com/?cid=2152440564704165693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.shorelineamphitheatre.com/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
         }
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.836Z",
+        "lastImportedAt": "2026-09-14T23:29:16.633Z",
         "appearances": [
           {
             "eventId": "2026-10-02-shoreline-amphitheatre-hayley-williams",
@@ -42796,7 +44373,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.907Z",
-        "lastImportedAt": "2026-09-14T17:02:23.816Z",
+        "lastImportedAt": "2026-09-14T23:29:16.614Z",
         "appearances": [
           {
             "eventId": "2026-09-24-shoreline-amphteater-motley-crue",
@@ -42848,7 +44425,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.031Z",
-        "lastImportedAt": "2026-09-14T17:02:23.840Z",
+        "lastImportedAt": "2026-09-14T23:29:16.637Z",
         "appearances": [
           {
             "eventId": "2026-11-07-shoreline-amptheater-dan-shay",
@@ -42900,7 +44477,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.909Z",
-        "lastImportedAt": "2026-09-14T17:02:23.821Z",
+        "lastImportedAt": "2026-09-14T23:29:16.619Z",
         "appearances": [
           {
             "eventId": "2026-10-01-shoreline-theater-suicideboys",
@@ -43058,7 +44635,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Siesta Valley Bowl",
       "displayName": "Siesta Valley Bowl",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
       "venueType": "amphitheater",
@@ -43068,7 +44645,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://cdn.prod.website-files.com/69a69693767787a33952f24b/6a34c99fd0f360c93f4a7cce_BlueGoo%20(c)%20Craig%20Isaacs%20CLI_8661.jpeg",
       "imageSource": "siestavalleybowl.com",
       "phone": "925-258-8637",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8702332,
+        "longitude": -122.2038049
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Formerly Bruns Amphitheatre. Known for performances by the California Shakespeare Theater Company, and now a concert venue.",
@@ -43099,12 +44679,40 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=17228537130447366726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/siestavalleybowl/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.siestavalleybowl.com/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=17228537130447366726&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.siestavalleybowl.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
-        "lastImportedAt": "2026-09-14T17:02:23.835Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-09-12-siesta-valley-bowl-beats-antique",
@@ -43177,7 +44785,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T01:50:16.524Z"
     },
     "silver-cloud-restaurant-and-karaoke-bar": {
       "id": "silver-cloud-restaurant-and-karaoke-bar",
@@ -43490,7 +45099,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:40.008Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.616Z",
         "appearances": [
           {
             "eventId": "2026-09-26-someplace-d-i",
@@ -43542,7 +45151,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.989Z",
-        "lastImportedAt": "2026-09-14T17:02:23.800Z",
+        "lastImportedAt": "2026-09-14T23:29:16.598Z",
         "appearances": [
           {
             "eventId": "2026-09-08-sonoma-plaza-jazz-mafia",
@@ -43808,7 +45417,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.160Z",
-        "lastImportedAt": "2026-09-14T17:02:23.822Z",
+        "lastImportedAt": "2026-09-14T23:29:16.620Z",
         "appearances": [
           {
             "eventId": "2026-09-11-spats-joel-cusumano",
@@ -43995,22 +45604,25 @@ window.SHOW_EXPLORER_VENUES = {
     "spire": {
       "id": "spire",
       "name": "Spire",
-      "displayName": "Spire",
+      "displayName": "Spire the Church",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "active",
+      "venueType": "community center",
+      "city": "Oakland",
+      "region": "East Bay",
+      "address": "825 Athens Ave, Oakland, CA 94607",
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkqQp2VcqTp9FpChDlCWWLdRUVY5Ldv9ac16-yUjrp62EqsATAJcLqFTE59llU75nYyHI9epMzJWyM5_ulAHxTXPBrs-bdBEsBupR_4tB1i03W6H499qBfQ-hNKTKIZFt-4rXdn=s1360-w1360-h1020-rw",
+      "imageSource": "Google/Julien Ottavi",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.815301,
+        "longitude": -122.2759559
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Converted church turned community venue in West Oakland.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -44019,20 +45631,91 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Spire%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
         },
         {
           "type": "theList",
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#spire",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.spirethechurch.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/spirethechurch/",
+          "confidence": "verified",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.spirethechurch.com/",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=6585314960634359091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.spirethechurch.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.spirethechurch.com/",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.spirethechurch.com/",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.spirethechurch.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.065Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-spire-katie-cash",
@@ -44042,6 +45725,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T01:55:16.755Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "spire-the-church": {
@@ -44440,7 +46129,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.616Z",
         "appearances": [
           {
             "eventId": "2026-09-11-starry-plough-margie-turner-and-the-outback-blues-band",
@@ -44474,10 +46163,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://media.trent.photo/img?key=2023%2F08%2F20230826-7402-2.jpg&sig=0c01114434432dcab00531a7e12eb8f1810db17d376579bf2924fc179416be92",
       "imageSource": "trent.photo",
       "phone": "510-350-8729",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8177234,
+        "longitude": -122.27588949999999
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "A family-owned West Oakland favorite and two-time winner of Best Barbecue in the East Bay. We’re kid-friendly, dog-loving, and proud to be a community spot where barbecue, soccer, music, and neighbors come together. BBQ Deli beer sports Staygoldbbq",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -44514,12 +46206,40 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=9059158592862720143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/staygolddeli/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.staygoldbbq.com/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=9059158592862720143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.staygoldbbq.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.staygoldbbq.com/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.861Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-09-11-stay-gold-deli-press-on-xtranos-must-be-nice-east-brothers-band",
@@ -44557,6 +46277,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.staygoldbbq.com/",
+        "source": "official"
       }
     },
     "stern-grove": {
@@ -44949,7 +46674,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.111Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-12-storefront-space-feet-fatigue-casey-adams-jordan-blankenship-hen-house-cruel-work-divine-feminine-parking-structure-dead-fern",
@@ -45400,7 +47125,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://lh5.googleusercontent.com/p/AF1QipNwlUURXRENee9y6JaEQdjhLZxHwt_K2ZSNA4nu",
       "imageSource": "amusements-parks.com",
       "phone": "831-426-5242",
-      "geo": null,
+      "geo": {
+        "latitude": 36.9685444,
+        "longitude": -122.024975
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Anarchy & community, books, zines, art, workshops, performance, & more! SubRosa is part of the Hub Community Center, in downtown Santa Cruz, CA.",
@@ -45440,9 +47168,41 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13555199645382060820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/subrosaproject/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.subrosaproject.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/subrosa_sc/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.subrosaproject.org/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=13555199645382060820&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.subrosaproject.org/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
         "lastImportedAt": "2026-09-06T23:08:20.524Z",
@@ -45660,7 +47420,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-14T17:02:23.825Z",
+        "lastImportedAt": "2026-09-14T23:29:16.622Z",
         "appearances": [
           {
             "eventId": "2026-09-11-swedish-american-hall-anaiis-elliott-skinner",
@@ -45808,7 +47568,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.840Z",
+        "lastImportedAt": "2026-09-14T23:29:16.637Z",
         "appearances": [
           {
             "eventId": "2026-09-09-sweetwater-music-hall-san-miguel-fraser",
@@ -45893,7 +47653,7 @@ window.SHOW_EXPLORER_VENUES = {
     "tamper-room": {
       "id": "tamper-room",
       "name": "Tamper Room",
-      "displayName": "Tamper Room",
+      "displayName": "Tamper Room Cafe & Gallery",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -45905,8 +47665,11 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://tricityvoice.com/wp-content/uploads/sites/47/2026/02/tamper-room-exterior-1.jpg",
       "imageSource": "tricityvoice.com",
       "phone": "510-573-0070",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.5002814,
+        "longitude": -121.9738943
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Part cafe, part art gallery, part event center, the Tamper Room Cafe & Gallery is a community gathering place in the Pacific Commons area in Fremont.",
       "accessibilityNotes": "",
@@ -45945,9 +47708,36 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=10406130762167280170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.tamperroom.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=10406130762167280170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=10406130762167280170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://tamperroom.square.site/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.264Z",
         "lastImportedAt": "2026-09-08T00:05:53.599Z",
@@ -46238,7 +48028,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://www.temescalartcenter.org/uploads/7/4/9/7/7497227/img-3334_orig.jpeg",
       "imageSource": "temescalartcenter.org",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8349757,
+        "longitude": -122.2633726
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "A venue for experimental, community and healing arts in Oakland, CA.",
@@ -46270,12 +48063,24 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=5192116231952598416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=5192116231952598416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.106Z",
-        "lastImportedAt": "2026-09-14T17:02:23.803Z",
+        "lastImportedAt": "2026-09-14T23:29:16.601Z",
         "appearances": [
           {
             "eventId": "2026-09-10-temescal-arts-center-henna-chou-matt-robidoux-aine-nakimura",
@@ -47000,7 +48805,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-back-room-m-nica-mar-a",
@@ -47436,7 +49241,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-chapel-pink-breath-of-heaven-topographies-christina-s-trip",
@@ -47599,7 +49404,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.100Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-deluxe-fault-line-trio",
@@ -47901,7 +49706,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.807Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-fillmore-public-image-ltd",
@@ -48108,7 +49913,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-09-the-freight-rumbo-tumba-el-pecado-de-juana",
@@ -48645,7 +50450,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-independent-pawpaw-rod-femdot",
@@ -48795,7 +50600,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-jazz-school-bob-kenmotsu-and-james-mahone-quartets",
@@ -48917,7 +50722,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.425Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-lab-heart-trio-william-parker-hamid-drake-cooper-moore",
@@ -49117,7 +50922,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-lost-church-j-camden-zach-bailey",
@@ -49191,19 +50996,22 @@ window.SHOW_EXPLORER_VENUES = {
     "the-marsh-cabaret": {
       "id": "the-marsh-cabaret",
       "name": "The Marsh Cabaret",
-      "displayName": "The Marsh Berkeley",
+      "displayName": "The Marsh Arts Center",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
       "status": "active",
-      "venueType": "unknown",
+      "venueType": "theater",
       "city": "Berkeley",
       "region": "East Bay",
-      "address": "2120 Allston Way",
+      "address": "2120 Allston Way, Berkeley, CA 94704",
       "imageUrl": "https://www.visitberkeley.com/imager/files_idss_com/C199/023a2287-0d77-4a1d-bb60-f92cc32bf9ac/39638d1f-15fa-470c-9b75-35391cbb233a_2d235d57624bf3c64b69188487144362.gif",
       "imageSource": "Visit Berkeley",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.8692067,
+        "longitude": -122.26699599999998
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "The Marsh Theater specializes in developing new performance, founded in 1989. It has two venue locations, at 1062 Valencia Street in the Mission District of San Francisco, California; and 2120 Allston Way in Berkeley, California.",
@@ -49235,12 +51043,56 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=11015303995757038908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/ILoveTheMarsh/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://themarsh.org/"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://instagram.com/themarshtheater/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://themarsh.org/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=11015303995757038908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11015303995757038908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11015303995757038908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=11015303995757038908&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://themarsh.org/",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-14T17:02:23.802Z",
+        "lastImportedAt": "2026-09-14T23:29:16.599Z",
         "appearances": [
           {
             "eventId": "2026-09-09-the-marsh-cabaret-randy-craig-and-friends",
@@ -49285,7 +51137,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.898Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-12-the-masonic-ryan-beatty",
@@ -49772,7 +51624,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-11-the-planetarium-specialthanks-the-cyber-bullies-neverlyn",
@@ -50002,7 +51854,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-18T18:42:49.557Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-regency-slayyyter-pearly-drops",
@@ -50110,10 +51962,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://ritespotcafe.net/images/new-photos/rite-spot-parklet-live-music-360px.jpg",
       "imageSource": "ritespotcafe.net",
       "phone": "415-828-0332",
-      "geo": null,
+      "geo": {
+        "latitude": 37.7638281,
+        "longitude": -122.41497079999999
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Rite Spot Cafe - Home Page HOME DINING CALENDAR FEATURED ARTISTS CONTACT & BOOKING Dear Rite Spot Family, WE ARE BACK to (the new) normal with OUTDOOR dining in our PARKLET!",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -50133,12 +51988,35 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13300172632540369639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.ritespotcafe.net/menu.html",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=13300172632540369639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://ritespotcafe.net/",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-09-02T23:44:17.103Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-rite-spot-kitten-on-the-keys",
@@ -50183,6 +52061,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://www.kalx.berkeley.edu/event/events-september-7-13-2026/"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://ritespotcafe.net/",
+        "source": "official"
       }
     },
     "the-ritz": {
@@ -50522,7 +52405,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.414Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-sound-room-hot-club-sf-stella-heath",
@@ -50581,7 +52464,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-08T22:22:50.888Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-10-the-starry-plough-free-funk-glory-jams",
@@ -51031,7 +52914,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-21T18:03:02.057Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-08-the-warfield-bikini-kill-alice-bag",
@@ -51201,7 +53084,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-14T17:02:23.835Z",
+        "lastImportedAt": "2026-09-14T23:29:16.632Z",
         "appearances": [
           {
             "eventId": "2026-09-10-thee-stork-club-grex-naytronix-feefawfum",
@@ -51391,7 +53274,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://thrillhouserecords.com/cdn/shop/files/IMG_6772_1512x.jpg",
       "imageSource": "thrillhouserecords.com",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.741941499999996,
+        "longitude": -122.4225348
+      },
       "agePolicy": "all-ages",
       "capacity": "",
       "summary": "Community based, volunteer run record store specializing in punk and underground music.",
@@ -51411,12 +53297,31 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://jon.luini.com/thelist/club.html#thrillhouse_records",
           "confidence": "verified",
           "source": "the list"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=6674969867923153685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://thrillhouserecords.com/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=6674969867923153685&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-14T17:02:23.819Z",
+        "lastImportedAt": "2026-09-14T23:29:16.616Z",
         "appearances": [
           {
             "eventId": "2026-09-12-thrillhouse-records-animal-style",
@@ -51573,20 +53478,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Toot's Tavern",
       "displayName": "Toot's Tavern",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
+      "status": "active",
+      "venueType": "bar",
+      "city": "Crockett",
       "region": "",
-      "address": "",
+      "address": "627 2nd Ave, Crockett, CA 94525",
       "imageUrl": "https://photos.wikimapia.org/p/00/04/84/40/84_1280.jpg",
       "imageSource": "wikimapia.org",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 38.0531916,
+        "longitude": -122.2235822
+      },
+      "agePolicy": "21+",
       "capacity": "",
-      "summary": "",
+      "summary": "A cornerstone of Crockett's rich and eclectic history. Locally owned and operated since 1901.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -51595,20 +53503,69 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#toot",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Toot's%20Tavern%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.tootstavern.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue type derived from Google Places place types."
+        },
+        {
+          "url": "https://maps.google.com/?cid=13755377194635196701&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.tootstavern.com/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.tootstavern.com/",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-14T17:02:23.811Z",
+        "lastImportedAt": "2026-09-14T23:29:16.608Z",
         "appearances": [
           {
             "eventId": "2026-09-18-toot-s-tavern-the-sharps-removed",
@@ -51618,6 +53575,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T01:57:06.331Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "town-hall-plaza": {
@@ -51635,10 +53598,13 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "https://images.squarespace-cdn.com/content/v1/647b87f07b37c641780942b9/da985ebe-5e27-448f-86ff-cf87a95ce193/hero+image.jpeg",
       "imageSource": "niles.org",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.577162099999995,
+        "longitude": -121.9784144
+      },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Niles Main Street Association | Discover Niles Today!",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -51675,12 +53641,40 @@ window.SHOW_EXPLORER_VENUES = {
           "source": "manual",
           "display": true,
           "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=245922167415173205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "facebook",
+          "label": "Facebook",
+          "url": "https://facebook.com/Niles-Main-Street-Association-159143624118811/",
+          "confidence": "candidate",
+          "source": "verified-venue-page",
+          "sourcePage": "https://www.niles.org/"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=245922167415173205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.niles.org/",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.niles.org/",
+          "note": "Added 1 outbound venue link candidate from a verified page."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.263Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-11-town-hall-plaza-talley-up",
@@ -51697,6 +53691,11 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.niles.org/",
+        "source": "official"
       }
     },
     "towne-cycles-backyard": {
@@ -51704,7 +53703,7 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Towne Cycles Backyard",
       "displayName": "Towne Cycles Backyard",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "unknown",
       "venueType": "unknown",
@@ -51726,20 +53725,31 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#towne_cycles_backyard",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Towne%20Cycles%20Backyard%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.townecycles.com/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.609Z",
         "appearances": [
           {
             "eventId": "2026-09-19-towne-cycles-backyard-string-skin-and-breath",
@@ -51749,7 +53759,8 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "updatedAt": "2026-09-15T00:00:02.101Z"
     },
     "trials-pub": {
       "id": "trials-pub",
@@ -52111,10 +54122,10 @@ window.SHOW_EXPLORER_VENUES = {
         "UC Theatre",
         "UC Thteater"
       ],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
       "status": "active",
-      "venueType": "gallery",
+      "venueType": "theater",
       "city": "Berkeley",
       "region": "East Bay",
       "address": "2036 University Ave, Berkeley, CA 94704",
@@ -52127,7 +54138,7 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "The UC Theatre Taube Family Music Hall is a multi-tiered, all-ages 1400 capacity live music venue with a state-of-the-art Meyer Leopard sound system.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -52137,7 +54148,7 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://jon.luini.com/thelist/club.html#uc_theater",
           "confidence": "verified",
           "source": "imported",
-          "display": true,
+          "display": false,
           "displayPriority": "primary"
         },
         {
@@ -52145,7 +54156,8 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22UC%20Theater%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
         },
         {
           "type": "official",
@@ -52158,7 +54170,7 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "facebook",
           "label": "Facebook",
           "url": "https://facebook.com/theuctheatre/",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "verified-venue-page",
           "sourcePage": "https://www.theuctheatre.org/",
           "display": true,
@@ -52168,15 +54180,17 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "twitter",
           "label": "X/Twitter",
           "url": "https://x.com/theuctheatre",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "verified-venue-page",
-          "sourcePage": "https://www.theuctheatre.org/"
+          "sourcePage": "https://www.theuctheatre.org/",
+          "display": true,
+          "displayPriority": "secondary"
         },
         {
           "type": "instagram",
           "label": "Instagram",
           "url": "https://instagram.com/theuctheatre/",
-          "confidence": "candidate",
+          "confidence": "verified",
           "source": "verified-venue-page",
           "sourcePage": "https://www.theuctheatre.org/",
           "display": true,
@@ -52186,10 +54200,10 @@ window.SHOW_EXPLORER_VENUES = {
           "type": "maps",
           "label": "Maps",
           "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-          "confidence": "likely",
+          "confidence": "verified",
           "source": "google-places",
           "display": true,
-          "displayPriority": "primary"
+          "displayPriority": "secondary"
         }
       ],
       "evidence": [
@@ -52228,11 +54242,15 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://maps.google.com/?cid=7989507795180653809&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.theuctheatre.org/",
+          "note": "Summary derived from verified venue page metadata."
         }
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-18-uc-theater-cortex",
@@ -52445,7 +54463,13 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
-      }
+      },
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
+      },
+      "updatedAt": "2026-09-15T02:00:47.331Z"
     },
     "uc-theatre": {
       "id": "uc-theatre",
@@ -52480,7 +54504,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.413Z",
-        "lastImportedAt": "2026-09-14T17:02:23.808Z",
+        "lastImportedAt": "2026-09-14T23:29:16.605Z",
         "appearances": [
           {
             "eventId": "2026-09-12-uc-theatre-kuma-sagar",
@@ -52549,20 +54573,23 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Ugra Deva Loka",
       "displayName": "Ugra Deva Loka",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
+      "status": "active",
+      "venueType": "music venue",
       "city": "Oakland",
       "region": "East Bay",
-      "address": "1035 22nd ave.",
-      "imageUrl": "",
-      "imageSource": "",
+      "address": "1035 22nd Ave. Unit 14",
+      "imageUrl": "https://www.aberrantrecordings.com/20241109_194525.jpeg",
+      "imageSource": "aberrantrecordings.com",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 37.7827133,
+        "longitude": -122.24040209999998
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "A temple, energy center, and experimental music venue",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -52571,20 +54598,66 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#ugra_deva_loka",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Ugra%20Deva%20Loka%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ugradevaloka",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.aberrantrecordings.com/ugradevaloka.html",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=8380450370249786747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "verified",
+          "source": "google-places",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=8380450370249786747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=8380450370249786747&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.aberrantrecordings.com/ugradevaloka.html",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.aberrantrecordings.com/ugradevaloka.html",
+          "note": "Age policy inferred from imported event listings."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.271Z",
-        "lastImportedAt": "2026-09-14T17:02:23.812Z",
+        "lastImportedAt": "2026-09-14T23:29:16.610Z",
         "appearances": [
           {
             "eventId": "2026-09-19-ugra-deva-loka-blevin-blectum",
@@ -52594,6 +54667,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T02:02:54.100Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "underdogs-tres": {
@@ -52941,7 +55020,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.158Z",
-        "lastImportedAt": "2026-09-14T17:02:23.831Z",
+        "lastImportedAt": "2026-09-14T23:29:16.628Z",
         "appearances": [
           {
             "eventId": "2026-09-12-up-the-creek-records-the-hummingbirds",
@@ -53255,7 +55334,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.851Z",
+        "lastImportedAt": "2026-09-14T23:29:16.648Z",
         "appearances": [
           {
             "eventId": "2026-09-19-uptown-theater-a-flock-of-seagulls",
@@ -53466,15 +55545,18 @@ window.SHOW_EXPLORER_VENUES = {
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
-      "status": "unknown",
+      "status": "active",
       "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
+      "city": "San Francisco",
+      "region": "SF",
+      "address": "2130 Fulton St, San Francisco, CA 94117",
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.7760045,
+        "longitude": -122.44988629999999
+      },
       "agePolicy": "unknown",
       "capacity": "",
       "summary": "",
@@ -53494,12 +55576,47 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://duckduckgo.com/?q=%22USF's%20McLaren%20Center%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
           "source": "imported"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "http://www.usfca.edu/campusmap/",
+          "confidence": "candidate",
+          "source": "google-places"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Region inferred from Google Places city."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=4504693692284182678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.268Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-13-usf-s-mclaren-center-kusf-rock-n-swap-record-fair",
@@ -53603,22 +55720,25 @@ window.SHOW_EXPLORER_VENUES = {
     "vets-hall": {
       "id": "vets-hall",
       "name": "Vets Hall",
-      "displayName": "Veteran's Memorial Building",
+      "displayName": "Veterans Memorial Building",
       "aliases": [],
-      "confidence": "likely",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
+      "status": "occasional",
+      "venueType": "hall",
       "city": "Vacaville",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "region": "East Bay",
+      "address": "549 Merchant St.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRLLHppYBDSEoawQKI3e4G6-xw68o3uTwrQKIK6PRtmw&s=10",
+      "imageSource": "Google",
       "phone": "",
-      "geo": null,
-      "agePolicy": "unknown",
+      "geo": {
+        "latitude": 38.35255,
+        "longitude": -121.9919056
+      },
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "Local event venue in Vacaville",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -53627,20 +55747,58 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#vets_hall",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Vets%20Hall%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/549+Merchant+St,+Vacaville,+CA+95688/@38.3525542,-121.9944805,16z/data=!3m1!4b1!4m6!3m5!1s0x80853d563a7ba21f:0x79a7dbe5d6baedcf!8m2!3d38.35255!4d-121.9919056!16s%2Fg%2F11b8vd7bb5?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "instagram",
+          "label": "Instagram",
+          "url": "https://www.instagram.com/vacaville_veterans_hall",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.vacavets.org/",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://www.google.com/maps/place/549+Merchant+St,+Vacaville,+CA+95688/@38.3525542,-121.9944805,16z/data=!3m1!4b1!4m6!3m5!1s0x80853d563a7ba21f:0x79a7dbe5d6baedcf!8m2!3d38.35255!4d-121.9919056!16s%2Fg%2F11b8vd7bb5?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "note": "Coordinates extracted from the place marker in the saved Google Maps link."
+        },
+        {
+          "url": "https://www.vacavets.org/",
+          "note": "Summary derived from verified venue page metadata."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.838Z",
+        "lastImportedAt": "2026-09-14T23:29:16.635Z",
         "appearances": [
           {
             "eventId": "2026-09-19-vets-hall-ancient-rage",
@@ -53657,6 +55815,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T02:09:42.995Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "victory-hall-and-parlor": {
@@ -53952,7 +56116,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.155Z",
-        "lastImportedAt": "2026-09-14T17:02:23.852Z",
+        "lastImportedAt": "2026-09-14T23:29:16.649Z",
         "appearances": [
           {
             "eventId": "2026-09-15-warfield-squeeze",
@@ -54193,7 +56357,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.276Z",
-        "lastImportedAt": "2026-09-14T17:02:23.818Z",
+        "lastImportedAt": "2026-09-14T23:29:16.616Z",
         "appearances": [
           {
             "eventId": "2026-09-26-warrior-s-stadium-lionel-richie",
@@ -54245,7 +56409,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-06-04T11:22:41.912Z",
-        "lastImportedAt": "2026-09-14T17:02:23.828Z",
+        "lastImportedAt": "2026-09-14T23:29:16.625Z",
         "appearances": [
           {
             "eventId": "2026-10-11-warriors-stadiom-chayanne",
@@ -54407,7 +56571,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-05-28T01:08:34.156Z",
-        "lastImportedAt": "2026-09-14T17:02:23.847Z",
+        "lastImportedAt": "2026-09-14T23:29:16.644Z",
         "appearances": [
           {
             "eventId": "2026-10-07-warriors-stadium-rob-wave",
@@ -54511,20 +56675,20 @@ window.SHOW_EXPLORER_VENUES = {
       "name": "Washington Park",
       "displayName": "Washington Park",
       "aliases": [],
-      "confidence": "review",
+      "confidence": "verified",
       "mergedInto": "",
-      "status": "unknown",
-      "venueType": "unknown",
-      "city": "",
-      "region": "",
-      "address": "",
-      "imageUrl": "",
-      "imageSource": "",
+      "status": "occasional",
+      "venueType": "park",
+      "city": "Alameda",
+      "region": "East Bay",
+      "address": "2263 Santa Clara Avenue",
+      "imageUrl": "https://alamedapost.com/wp-content/uploads/2023/09/230917-163028_WEAD-BluesBrewsBBQ-mrz-1024x683.webp",
+      "imageSource": "alamedapost.com",
       "phone": "",
       "geo": null,
-      "agePolicy": "unknown",
+      "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "One of the larger parks on Alameda main island. Established in 1976.",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -54533,20 +56697,80 @@ window.SHOW_EXPLORER_VENUES = {
           "label": "The List",
           "url": "https://jon.luini.com/thelist/club.html#washington_park",
           "confidence": "verified",
-          "source": "the list"
+          "source": "the list",
+          "display": false
         },
         {
           "type": "search",
           "label": "Search",
           "url": "https://duckduckgo.com/?q=%22Washington%20Park%22%20venue%20Bay%20Area%20music",
           "confidence": "research",
-          "source": "imported"
+          "source": "imported",
+          "display": false
+        },
+        {
+          "type": "official",
+          "label": "Official",
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "confidence": "verified",
+          "source": "manual",
+          "display": true,
+          "displayPriority": "primary"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://www.google.com/maps/place/Washington+Park/@37.7696572,-122.276321,17z/data=!3m1!4b1!4m6!3m5!1s0x808f812e2dd3a789:0x238ca9892e769e84!8m2!3d37.7696572!4d-122.2737461!16s%2Fg%2F1v2f0rkk?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D",
+          "confidence": "likely",
+          "source": "google-places",
+          "displayPriority": "primary"
         }
       ],
-      "evidence": [],
+      "evidence": [
+        {
+          "url": "https://maps.google.com/?cid=9057206853707394904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Address derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9057206853707394904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "City derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9057206853707394904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Venue status derived from Google Places business status."
+        },
+        {
+          "url": "https://maps.google.com/?cid=9057206853707394904&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Summary derived from verified venue page metadata."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Age policy inferred from imported event listings."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Region inferred from venue city."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Venue type inferred from verified venue page text."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Added 2 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://www.alamedaca.gov/Departments/Recreation-Parks/Washington-Park",
+          "note": "Address inferred from verified venue page text."
+        }
+      ],
       "source": {
         "firstSeenAt": "2026-08-31T00:17:43.272Z",
-        "lastImportedAt": "2026-09-14T17:02:23.815Z",
+        "lastImportedAt": "2026-09-14T23:29:16.612Z",
         "appearances": [
           {
             "eventId": "2026-09-20-washington-park-chris-cain-5pm",
@@ -54556,6 +56780,12 @@ window.SHOW_EXPLORER_VENUES = {
             "sourceUrl": "https://jon.luini.com/thelist/date.html"
           }
         ]
+      },
+      "updatedAt": "2026-09-15T02:14:12.202Z",
+      "summarySource": {
+        "label": "Manual",
+        "url": "",
+        "source": "manual"
       }
     },
     "western-addition-branch-library": {
@@ -55067,7 +57297,10 @@ window.SHOW_EXPLORER_VENUES = {
       "imageUrl": "",
       "imageSource": "",
       "phone": "",
-      "geo": null,
+      "geo": {
+        "latitude": 37.6366674,
+        "longitude": -122.4904114
+      },
       "agePolicy": "21+",
       "capacity": "",
       "summary": "Upcoming Events @ Winters Tavern Winters Tavern 1522 Francisco BlvdPacifica, California 94044(650) 355-6162Hours:Mon-Fri Noon-12AMSat-Sun 11AM-12AMGet directions > Serving Pacifica, CA and the San Francisco Bay Area, you won&#8217;t find a more exciting...",
@@ -55094,6 +57327,13 @@ window.SHOW_EXPLORER_VENUES = {
           "url": "https://winterstavern.com/",
           "confidence": "verified",
           "source": "manual"
+        },
+        {
+          "type": "maps",
+          "label": "Maps",
+          "url": "https://maps.google.com/?cid=3938397999651925916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "confidence": "likely",
+          "source": "google-places"
         }
       ],
       "evidence": [
@@ -55124,6 +57364,10 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://winterstavern.com/",
           "note": "Added 10 outbound venue link candidates from a verified page."
+        },
+        {
+          "url": "https://maps.google.com/?cid=3938397999651925916&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Coordinates derived from Google Places."
         }
       ],
       "source": {
@@ -55187,7 +57431,7 @@ window.SHOW_EXPLORER_VENUES = {
       "evidence": [],
       "source": {
         "firstSeenAt": "2026-09-07T03:09:39.995Z",
-        "lastImportedAt": "2026-09-14T17:02:23.806Z",
+        "lastImportedAt": "2026-09-14T23:29:16.603Z",
         "appearances": [
           {
             "eventId": "2026-09-11-wintrs-tavern-dusted-angel",
@@ -55373,7 +57617,7 @@ window.SHOW_EXPLORER_VENUES = {
     "x-bar": {
       "id": "x-bar",
       "name": "X Bar",
-      "displayName": "X-BAR",
+      "displayName": "X Bar Cupertino",
       "aliases": [],
       "confidence": "likely",
       "mergedInto": "",
@@ -55388,7 +57632,7 @@ window.SHOW_EXPLORER_VENUES = {
       },
       "agePolicy": "all-ages",
       "capacity": "",
-      "summary": "",
+      "summary": "X-BAR 0 Skip to Content HOME EVENTS TABLE SERVICE CONTACT X-BAR Open Menu Close Menu HOME EVENTS TABLE SERVICE CONTACT X-BAR Open Menu Close Menu HOME EVENTS TABLE SERVICE CONTACT SEE SHOWTIMES FOR EVENTS Premier Live Music Venue in the South Bay!",
       "accessibilityNotes": "",
       "reviewNotes": "",
       "links": [
@@ -55477,6 +57721,14 @@ window.SHOW_EXPLORER_VENUES = {
         {
           "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
           "note": "Coordinates derived from Google Places."
+        },
+        {
+          "url": "https://maps.google.com/?cid=17153327734847107534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+          "note": "Display name derived from Google Places."
+        },
+        {
+          "url": "https://www.thex.bar/",
+          "note": "Summary derived from verified venue page metadata."
         }
       ],
       "source": {
@@ -55492,7 +57744,12 @@ window.SHOW_EXPLORER_VENUES = {
           }
         ]
       },
-      "updatedAt": "2026-05-28T06:15:12.919Z"
+      "updatedAt": "2026-05-28T06:15:12.919Z",
+      "summarySource": {
+        "label": "Official",
+        "url": "https://www.thex.bar/",
+        "source": "official"
+      }
     },
     "yoshi-s": {
       "id": "yoshi-s",
@@ -55606,7 +57863,7 @@ window.SHOW_EXPLORER_VENUES = {
       ],
       "source": {
         "firstSeenAt": "2026-06-01T22:07:23.412Z",
-        "lastImportedAt": "2026-09-14T17:02:23.809Z",
+        "lastImportedAt": "2026-09-14T23:29:16.606Z",
         "appearances": [
           {
             "eventId": "2026-09-08-yoshi-s-matt-schofield-trio",
